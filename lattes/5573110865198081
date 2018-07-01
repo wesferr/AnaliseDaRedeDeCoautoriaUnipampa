@@ -1,244 +1,2762 @@
-
-
-
-
-
-<!DOCTYPE HTML>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/bootstrap.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/style.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/advanced.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/captcha.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/demo/style.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/estilo-busca-textual.css">
-<link href='http://fonts.googleapis.com/css?family=Ubuntu'
-	rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:300'
-	rel='stylesheet' type='text/css'>
-<script src="/buscatextual/resources/js/jquery.js"></script>
-<script
-	src="/buscatextual/resources/js/bootstrap.js"></script>
-</head>
-<body>
-	<div class="header">
-	<div class="header-content max-width">
-		<div class="identity center">
-			<div class="combo">
-				<a href="http://lattes.cnpq.br/" title="Currículo Lattes"
-					target="_blank"><img title="Currículo Lattes"
-					alt="Currículo Lattes"
-					src="/buscatextual/images/titulo-sistema.png"> </a>
-			</div>
-			<div class="logo">
-				<a
-					title="CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico"
-					target="_blank" href="http://www.cnpq.br"> </a>
-			</div>
-			<div class="menu-header">
-				<!--<a
-					class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais"
-					href="javascript:void(0)" title="Aumentar a fonte"> </a> <a
-					class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos "
-					href="javascript:void(0)" title="Fonte padrão"> </a> <a
-					class="bt-menu-header titBottom contraste icons-top icons-top-contraste"
-					href="javascript:void(0)" title="Alto contraste"></a>  <a
-					title="Click here to change the language to english"
-					class="bt-menu-header titBottom icons-top icons-top-enUK"
-					onClick="mudarIdioma()" id="idBandeira" href="javascript:void(0)">
-				</a>  <a class="bt-menu-header titBottom  icons-top icons-top-help"
-					target="_blank"
-					href="http://ajuda.cnpq.br/index.php/Página_principal"
-					title="Ajuda"> </a>-->
-			</div>
-		</div>
-	</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/46C0EAAE-1500-5E42-BB38-375500EB7B5E/main.js" charset="UTF-8"></script><script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_-329300504|rpid=-1301779914|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Patr&iacute;cia Maurer)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
 </div>
-
-	<form name="visualizacvForm" id="formulario" method="post" action="/buscatextual/visualizacv.do" enctype="multipart/form-data">
-		<input type="hidden" name="metodo" value="" id="metodo">
-		<input type="hidden" name="id" value="K4426604Z5" id="id">
-		<input type="hidden" name="idiomaExibicao" value="" id="idiomaExibicao">
-		<input type="hidden" name="tipo" value="" id="tipo">
-		<div class="wrap ">
-			<div class="container">
-				<div class="conteudo">
-					<div class="iframe-simulation">				
-                      <div class="conteudo-2">
-                            <div class="layout-cell layout-cell-6 captcha">
-								<script type="text/javascript">
-		var segundos = 3; //3segundos
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=5573110865198081" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
 		
-		setTimeout(function(){
-		  $('#divMessageSucesso').fadeIn();
-		}, segundos*1000);	
-
-	var cnpqCaptcha = {
- 		refreshCaptcha : function() {
-			var timestamp = Number(new Date());
-			document.getElementById('div_image_captcha').innerHTML="<img id='image_captcha' class='imageCaptcha' src='"+ 
-			"/buscatextual/servlet/captcha?metodo=getImagemCaptcha&noCache=" + timestamp + "' alt='Captcha' border='0'/>";
-			$("#informado").focus();
-			//messagesCaptcha.limpar();
-
-			setTimeout(function(){
-			    $('#divMessageErro').remove();
-			},3000);
-			
-		}, 
-		doGet: function(data, callback) {
-			$.ajax({
-			type: 'get',
-			dataType: 'json',
-			data: data,
-			url: '/buscatextual/servlet/captcha',
-			success: callback
-			});
-			},
-		validacaoCaptchaCallback: function(data) {
-			$('#informado').val('');
-			messagesCaptcha.limpar();
-			var wrapper = messagesCaptcha.getWrapper();
-			
-			if (data['estado'] == 'erro') {
-			var mensagem = messagesCaptcha.criarErro('Texto incorreto. Tente novamente!');
-			wrapper.append(mensagem);
-			} else {$("#image_captcha").hide();
-			
-			if (data['metodo'] == null) {
-				var mensagem = messagesCaptcha.criarSucesso('Código de segurança validado com sucesso!');
-				wrapper.append(mensagem);
-			} else {
-				var f = document.forms[0];
-				f.metodo.value = 'captchaValido';
-				f.submit();
-			}
-			
-			}
-			}
-	};
-	var messagesCaptcha = {
-		getWrapper : function() {
-			return $('#wrapper-messages-captcha');
-		},
-		limpar : function() {
-			messagesCaptcha.getWrapper().empty();
-		},
-		criarSucesso : function(msg) {
-			var wrapper = $("<div class='divMessageSucesso' />"), colunaIcone = $(
-					"<div class='divIconeSucesso' />").appendTo(wrapper), icone = $(
-					"<span class='spanIconeSucesso' />").appendTo(
-					colunaIcone), colunaMensagem = $(
-					"<div class='divMensagemSucesso' />").text(msg)
-					.appendTo(wrapper), colunaClear = $(
-					"<div class='divClear' />").appendTo(wrapper);
-			return wrapper;
-		},
-		criarErro : function(msg) {
-			var wrapper = $("<div class='divMessageErro' id='divMessageErro' />"), colunaIcone = $(
-					"<div class='divIconeErro' />").appendTo(wrapper), icone = $(
-					"<span class='spanIconeErro' />").appendTo(
-					colunaIcone), colunaMensagem = $(
-					"<div class='divMensagemErro' />").text(msg)
-					.appendTo(wrapper), colunaClear = $(
-					"<div class='divClear' />").appendTo(wrapper);
-			return wrapper;
-		}
-	};
- 	$(document).ready(function() {
- 		$("#informado").focus();
- 	    cnpqCaptcha.refreshCaptcha();
-		$('#btn_refresh_captcha').bind('click', cnpqCaptcha.refreshCaptcha);
 		
-	}); 
-	$(document).keypress(function(e) {
-		 if (e.which == 13) {
-		 validaCaptcha();
-		 document.getElementById("informado").value='';
-		 return false;
-		 }						
-		 });
-
-	 function validaCaptcha(){		 
-		 var data = {
-		 informado : $("#informado").val(),
-		 id : $("#id").val(),
-		 metodo : 'validaCaptcha',
-		 };		
-		 cnpqCaptcha.doGet(data, function(result) {
-		 messagesCaptcha.limpar();
-		 var wrapper = messagesCaptcha.getWrapper();	
-		 if (result.estado == "sucesso") {
-			 cnpqCaptcha.validacaoCaptchaCallback(data);
-		 $("#divBotoes").hide();
-		 $("#image_captcha").hide();
-		 $("#informado").hide();
-		 $("#divInformativa").hide();
-		 
-		 $("#wrapper-messages-captcha").hide();
-		 
-		 document.getElementById('div_gif').innerHTML="<img style=\"-webkit-user-select: none\" src=\"/buscatextual/images/gif/ajax-loader.gif\">";
-		 }else{			
-			 document.getElementById('informado').value="";		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
 		
-		 var mensagem = messagesCaptcha
-		 .criarErro('Texto incorreto. Tente novamente!');				
-		 wrapper.append(mensagem);
-		 cnpqCaptcha.refreshCaptcha();		
-		 }
-		 });
-	 }
-	function getAudio(){
-		 var timestamp = Number(new Date());
-		document.getElementById('audio_span').innerHTML="<audio src=\"/buscatextual/servlet/captcha?metodo=getAudioCaptcha&noCache="+timestamp+"+\" type=\"audio/mpeg;codecs=mp3\" autoplay>"+
-		"<p>Your browser does not support the audio element</p></audio>";
-		$("#informado").focus();
-		};
-</script>
-<div class="divCaptcha" id="divCaptcha">
-	<div id="divInformativa">
-		<h2 class="tituloCaptcha">Código de segurança</h2>
-		<span><h3 class="subTituloCaptcha">Digite os caracteres da
-				imagem abaixo</h3> <br></span>
-	</div>
-	<div id="wrapper-messages-captcha"></div>
-	<input type="text" size="10"
-		title="Digite os caracteres da imagem abaixo" class="inputCaptcha"
-		name="informado" id="informado" maxlength="4">
-	<div align="center" class="divImageCaptcha" id="div_image_captcha">
-		<img border="0" alt="Captcha" class="imageCaptcha" id="image_captcha">
-	</div>
-	<div style="margin-top: 10px; padding: 0 7px 0 140px;" id="divBotoes">
-		<a title="Obter outro código de segurança" id="btn_refresh_captcha"
-			href="javascript:void(0)"> <span class="icon icon-atualizar"></span></a>&nbsp;
-		<a title="Escutar áudio do código de segurança" id="btn_audio_captcha"
-			href="javascript:getAudio()"> <span class="icon icon-volume"></span>
-		</a>
-		<div class="divButtonCaptcha">
-			<a class="linkButtonCaptcha" title="Submeter"
-				id="btn_validar_captcha" href="javascript:validaCaptcha()">Submeter</a>
-		</div>
-	</div>
-
-	<span id="audio_span"></span>
 	
-   <div align="center"  id='div_gif'>  	
-   </div>	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4426604Z5&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
 </div>
-
-
-
-							</div>
-                        </div>   
-					</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4426604Z5"><div class="infpessoa">
+<h2 class="nome">Patr&iacute;cia Maurer</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/5573110865198081</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 13/06/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduacão em Farmácia (2013) pela Universidade Federal do Pampa (UNIPAMPA) e Mestrado em Ciências Farmacêuticas pela mesma Universidade (2015).
+Atualmente aluna de Doutorado em Bioquímica, bolsista CAPES, com pesquisa nas áreas de Bioquímica, Biologia Molecular e Genética.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Patrícia Maurer</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MAURER, P.;MAURER, PATRÍCIA</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Campus Uruguaiana. <br class="clear" />Rodovia BR-472 - km 592<br class="clear" />Salso de Baixo<br class="clear" />97508000 - Uruguaiana, RS - Brasil - Caixa-postal: 118<br class="clear" />Telefone: (55) 39110200</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em BIOQUÍMICA<span class="ajaxCAPES" data-param="&codigoCurso=42046017002P0&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	<br class="clear" />Título: POLIMORFISMO DA ÓXIDO NÍTRICO SINTASE ENDOTELIAL GLU298ASP AFETA RESPOSTA INFLAMATÓRIA in vitro NA POPULAÇÃO NEGRA, <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5099227329574183'><img src='images/curriculo/logolattes.gif' /></a>Jacqueline da Costa Escobar Piccoli. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências Biológicas<br class="clear" />Grande Área: Ciências Biológicas / Área: Bioquímica / Subárea: Biologia Molecular. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciências Farmacêuticas<span class="ajaxCAPES" data-param="&codigoCurso=42046017007P2&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	<br class="clear" />Título: Análise do óxido nítrico como biomarcador de alterações cardiometabólicas em afrodescendentes na região Sul do Brasil,Ano de Obtenção: 2015.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5099227329574183'><img src='images/curriculo/logolattes.gif' /></a>Jacqueline da Costa Escobar Piccoli.<br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul, FAPERGS, Brasil. <br class="clear" />Palavras-chave: óxido nítrico; Risco cardiovascular; População negra.<br class="clear" />Grande área: Ciências Biológicas<br class="clear" />Grande Área: Ciências da Saúde / Área: Farmácia. <br class="clear" />Setores de atividade: Pesquisa e desenvolvimento científico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Fármacia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	<br class="clear" />Título: Fatores Associados com Sucesso Terapêutico em indivíduos HIV-positivos no Sul do Brasil. <br class="clear" />Orientador: Marysabel Pinto Telis Silveira. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Técnicas de Aplicação de Injetáveis Módulo II - Hochstetter e Vastolateral.  (Carga horária: 8h). <br class="clear" />Xavier Qualificação em Saúde, XAVIER, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fundamentos da PCR Quantitativa em Tempo Real.  (Carga horária: 20h). <br class="clear" />ThermoFisher Scientific, THERMOFISHER, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Urgência e Emergência.  (Carga horária: 10h). <br class="clear" />Instituto Politécnico de Ensino a Distância, iPED, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Metabolismo de Fármacos e Interações Medicamentosa.  (Carga horária: 12h). <br class="clear" />Universidade Federal do Rio de Janeiro, UFRJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introdução à Química Farmacêutica e Medicinal.  (Carga horária: 16h). <br class="clear" />Universidade Federal do Rio de Janeiro, UFRJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Minicurso Nanotecnologia no Âmbito Farmacêutico.  (Carga horária: 16h). <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Curso de Atualização em Micologia Clínica.  (Carga horária: 24h). <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Segurança dos Pacientes e Trabalhadores (Radiação).  (Carga horária: 4h). <br class="clear" />Hospital de Clínicas de Porto Alegre, HCPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Avaliação Institucional.  (Carga horária: 30h). <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso3Como Escrever e Publicar Artigos Científicos.  (Carga horária: 4h). <br class="clear" />Hospital de Clínicas de Porto Alegre, HCPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso 2 - Técnicas Laboratoriais na Pesquisa.  (Carga horária: 4h). <br class="clear" />Hospital de Clínicas de Porto Alegre, HCPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vivências e Estágios na realidade do SUS.  (Carga horária: 248h). <br class="clear" />Universidade de Santa Cruz do Sul, UNISC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fundamentos de Farmácia Hospitalar.  (Carga horária: 16h). <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Minicurso Modelos experimentais de farmacologia....  (Carga horária: 6h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Substituto, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprovação em concurso público de provas e títulos para o Cargo de Professor Substituto. Ministrou as seguintes disciplinas: Bromatologia, Microbiologia dos Alimentos, Microbiologia dos Alimentos Experimental, Tecnologia dos Alimentos, Atenção Farmacêutica e Citologia Clínica.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Doutoranda, Enquadramento Funcional: Aluna de Doutorado</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento no PPGBioquímica da Universidade Federal do Pampa</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluna de Mestrado, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio Voluntário, Enquadramento Funcional: Estágio Voluntário, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio Voluntário no Laboratório de Hematologia e Citologia Clínica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Monitora Voluntária, Enquadramento Funcional: Monitoria Voluntária, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria Voluntária do Programa de Bolsas de Desenvolvimento Acadêmico (PBDA), Modalidade de Iniciação ao Ensino, nas disciplinas de Atenção Farmacêutica e Farmácia Hospitalar, sob orientação da Prof Dr Marysabel P. T. Silveira.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista Programa de Educação Tutorial PET, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PET-MEC Programa Práticas Integradas em Saúde Coletiva.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista do Programa de Bolsas de Desenvolvimento Acadêmico (PBDA) da Unipampa, modalidade de Iniciação à Pesquisa, com o projeto: Estudo de Biocompostos, Biocombustíveis e Biomateriais com Aplicação Tecnológica, sob a orientação do Prof Dr Elton Luis Gasparotto Denardin.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista do Programa de Bolsas de Desenvolvimento Acadêmico (PBDA), Iniciação ao Trabalho Técnico-Profissional e de Gestão Acadêmica, no setor Secretaria Acadêmica.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Microbiologia Geral<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Microbiologia Geral<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Programa de Residência Integrada Multiprofissional em Urgência e Emergência, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />FARMÁCIA CLÍNICA PARA ATENÇÃO AS URGÊNCIAS E EMERGÊNCIAS<br class="clear" />URGÊNCIAS E EMERGÊNCIAS NA ATENÇÃO PRIMÁRIA E NA SAÚDE MENTAL<br class="clear" />-ATENÇÃO FARMACÊUTICA NO SUS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Bromatologia<br class="clear" />Microbiologia dos Alimentos<br class="clear" />Microbiologia dos Alimentos Experimental<br class="clear" />Tecnologia dos Alimentos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Fatores de Risco para o desenvolvimento de Doenças Cardiovasculares'>Fatores de Risco para o desenvolvimento de Doenças Cardiovasculares</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2017 - 03/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Citologia Clínica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - 07/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fármacia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Atenção Farmacêutica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2010 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante discente do Comitê Local de Avaliação, CLA..
+				
 				</div>
-			</div>
-		</div>
-	</form>
-</body>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Comissão Eleitoral Geral, vinculada ao CONSUNI.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante discente no Conselho Universitário CONSUNI - UNIPAMPA..
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>DIMED Distribuidora de Medicamentos LTDA, DIMED, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Farmacêutica Substituta, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Farmácia LuPharma, FL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Balconista, Carga horária: 44</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Farmacêutica, Carga horária: 44</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio voluntário, Enquadramento Funcional: Estágio Laboratório de Biogênomica</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio no Laboratório de Biogenômica, Prédio 19 - Morfologia, no laboratório de pós-graduação, sob orientação da Prof Dra Ivana Beatrice Manica da Cruz.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2017 - 11/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Laboratório de Biogenômica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio de 21 a 24/11/2017, 30h, no laboratório, realizando atividades de pesquisa científica.. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Fatores de Risco para o desenvolvimento de Doen&ccedil;as Cardiovasculares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fatores de Risco para o desenvolvimento de Doenças Cardiovasculares</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Sa&uacute;de da Popula&ccedil;&atilde;o Negra de Uruguaiana/RS Aten&ccedil;&atilde;o Integral de Sa&uacute;de para Preven&ccedil;&atilde;o de Doen&ccedil;as e Promo&ccedil;&atilde;o de Direitos de Igualdade Racial'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Saúde da População Negra de Uruguaiana/RS Atenção Integral de Saúde para Prevenção de Doenças e Promoção de Direitos de Igualdade Racial<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Vanusa Manfredini em 05/06/2015.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de Pesquisa em que o objetivo geral deste projeto é determinar as características de saúde geral, cardiovascular e hematológica da população negra da cidade de Uruguaiana, buscando promover a "Política Nacional da Saúde Integral da População Negra" estimulando melhores condições de igualdade racial.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (10)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Patrícia Maurer - Integrante / Vanusa Manfredini - Integrante / Jacqueline da Costa Escobar Piccoli - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Estudo de hemoglobinas variantes, marcadores gen&eacute;ticos e bioqu&iacute;micos relacionados com o polimorfismo Glu298Asp do gene NOS 3 em indiv&iacute;duos da etnia africana'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de hemoglobinas variantes, marcadores genéticos e bioquímicos relacionados com o polimorfismo Glu298Asp do gene NOS 3 em indivíduos da etnia africana<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Jacqueline da Costa Escobar Piccoli em 04/06/2015.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Patrícia Maurer - Integrante / Jacqueline da Costa Escobar Piccoli - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Estudo de biocompostos, biocombust&iacute;veis e biomateriais com aplica&ccedil;&atilde;o tecnol&oacute;gica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de biocompostos, biocombustíveis e biomateriais com aplicação tecnológica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Estudo de culturas microbianas de Sthapylococcus xylosus AD1 e sua produção de lipases, com vistas à produção limpa de biodiesel. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Patrícia Maurer - Integrante / Elton Luis Gasparotto Denardin - Coordenador / Maristela Cortez Sawitzki - Integrante / Rafael Roehrs - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Pampa - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Sa&uacute;de da Popula&ccedil;&atilde;o Negra de Uruguaiana/RS Aten&ccedil;&atilde;o Integral de Sa&uacute;de para Preven&ccedil;&atilde;o de Doen&ccedil;as e Promo&ccedil;&atilde;o de Direitos de Igualdade Racial'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Saúde da População Negra de Uruguaiana/RS Atenção Integral de Saúde para Prevenção de Doenças e Promoção de Direitos de Igualdade Racial<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Programa de extensão universitária que busca popularizar o acesso ao que preconiza o Ministério da Saúde na Política Nacional de Saúde Integral da População Negra (PNSIPN), que foi aprovada em 2006 pelo Conselho Nacional de Saúde (CNS) que propõe esforços nas três esferas do governo e da sociedade civil na promoção de saúde, na atenção e no cuidado em saúde desse segmento da população. É conhecido no âmbito da ciência médica que os indivíduos de origem africana apresentam características biológicas que podem levar a doenças de alta morbi-mortalidade. Além disso, a população negra ainda sofre com doenças associadas a outros aspectos como os sociais e ambientais que podem levar a um maior risco de morte suas populações. Desta forma, observa-se que há desigualdade nas condições dadas a esta população em virtude de sua maior vulnerabilidade para determinados aspectos que não são amplamente divulgados para que os indivíduos possam ter melhores chances de prevenção e tratamento. Deste modo, o objetivo geral deste programa de extensão é determinar as características de saúde geral, cardiovascular e hematológica da população negra da cidade de Uruguaiana, desenvolvendo ações de promoção de saúde e prevenção de doenças nesse grupo populacional, buscando melhores condições de igualdade racial.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (10)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Patrícia Maurer - Integrante / Vanusa Manfredini - Integrante / Jacqueline da Costa Escobar Piccoli - Coordenador / Graziela Morgana Silva Tavares - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: REVISTA BRASILEIRA DE PESQUISA EM SAÚDE</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: REVISTA AMAZONENSE DE GERIATRIA E GERONTOLOGIA</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor trabalho Categoria Extensão - SIEPE, Salão Internacional de Ensino, Pesquisa e Extensão. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Menção Honrosa do Prêmio AMIL - Antonio Felipe Sanjuliani, Sociedade Brasileira de Hipertensão. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º lugar na II Mostra de trabalhos do Programa de Extensão SEMANA ACADÊMICA e do Projeto de Extensão III SEMANA ACADÊMICA DA FARMÁCIA, Diretório Acadêmico de Farmácia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Trabalho Apresentado na modalidade Poster Premiado no I Seminário Práticas Integrada em Saúde Coletiva, Programa Práticas Integradas em Saúde Coletíva. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RETAMOSO, V. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2018</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/07315724.2017.1386139" target="_blank"></a>RETAMOSO, V. R. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; TAVARES, G. M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . ADIPOQ 45 T> G polymorphism, food ingestion and metabolic syndrome in elderly. JOURNAL OF THE AMERICAN COLLEGE OF NUTRITION<sup><img id='07315724_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07315724' /></sup>, v. 20, p. 1-6, 2018. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/07315724.2017.1386139&issn=07315724&volume=20&issue=&paginaInicial=1&titulo=ADIPOQ 45 T> G polymorphism, food ingestion and metabolic syndrome in elderly&sequencial=1&nomePeriodico=JOURNAL OF THE AMERICAN COLLEGE OF NUTRITION" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CATTELAN, MÁRCIA DENISE PAVANELO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2018</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.lfs.2018.04.038" target="_blank"></a>CATTELAN, MÁRCIA DENISE PAVANELO ; <b>MAURER, PATRÍCIA</b> ; GARCIA, FERNANDEZ ; BERRO, LYANA FEIJOÓ ; MACHADO, MICHEL MANSUR ; MANFREDINI, VANUSA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, JACQUELINE DA COSTA ESCOBAR</a> . Occupational exposure to pesticides in family agriculture and the oxidative, biochemical and hematological profile in this agricultural model. LIFE SCIENCES<sup><img id='00243205_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00243205' /></sup>, v. 203, p. 177-183, 2018. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.lfs.2018.04.038&issn=00243205&volume=203&issue=&paginaInicial=177&titulo=Occupational exposure to pesticides in family agriculture and the oxidative, biochemical and hematological profile in this agricultural model&sequencial=2&nomePeriodico=LIFE SCIENCES" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, P. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span>OLIVEIRA, P. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9361874714584276" target="_blank">COELHO, R. P.</a> ; PILAR, B. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5063327250497478" target="_blank">GOLKE, A. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; SCHWANZ, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . Antioxidative properties of 14-day supplementation with Yacon leaf extract in a hypercholesterolemic rat model. Revista Brasileira de Biociências<sup><img id='19804849_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19804849' /></sup>, v. 15, p. 178-186, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19804849&volume=15&issue=&paginaInicial=178&titulo=Antioxidative properties of 14-day supplementation with Yacon leaf extract in a hypercholesterolemic rat model&sequencial=3&nomePeriodico=Revista Brasileira de Biociências" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAURER, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MORESCO, R. N. ; FRIZZO, M. N. ; CRUZ, I. B. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . ASSOCIATION BETWEEN NITRITE/NITRATE AND METABOLIC RISK IN BLACKS. Archives of Medicine<sup><img id='19895216_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19895216' /></sup>, v. 8, p. 1-7, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19895216&volume=8&issue=&paginaInicial=1&titulo=ASSOCIATION BETWEEN NITRITE/NITRATE AND METABOLIC RISK IN BLACKS&sequencial=4&nomePeriodico=Archives of Medicine" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEZZOMO, JULIANA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.5335/rbceh.v13i2.5467" target="_blank"></a>MEZZOMO, JULIANA ; PILAR, BRUNA COCCO ; <b>MAURER, PATRÍCIA</b> ; MANFREDINI, VANUSA ; TAVARES, GRAZIELA MORGANA SILVA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, JACQUELINE DA COSTA ESCOBAR</a> . Association between Framingham risk score and metabolic syndrome in elderly. RBCEH. Revista Brasileira de Ciências do Envelhecimento Humano<sup><img id='23176695_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='23176695' /></sup>, v. 13, p. 184-196, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5335/rbceh.v13i2.5467&issn=23176695&volume=13&issue=&paginaInicial=184&titulo=Association between Framingham risk score and metabolic syndrome in elderly&sequencial=5&nomePeriodico=RBCEH. Revista Brasileira de Ciências do Envelhecimento Humano" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAURER, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; RETAMOSO, V. R. ; FREITAS, E. I. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; OLIVEIRA, A. C. C. ; MORESCO, R. N. ; SAUZEM, P. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Componentes para diagnóstico de Síndrome Metabólica pelo NCEP-ATP III em uma população afro-brasileira. REVISTA BRASILEIRA DE PESQUISA EM SAÚDE<sup><img id='21753946_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21753946' /></sup>, v. 18, p. 55-60, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21753946&volume=18&issue=&paginaInicial=55&titulo=Componentes para diagnóstico de Síndrome Metabólica pelo NCEP-ATP III em uma população afro-brasileira&sequencial=6&nomePeriodico=REVISTA BRASILEIRA DE PESQUISA EM SAÚDE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAURER, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1758-5996-7-s1-a157" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; OLIVEIRA, P. M. ; PILAR, B. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9361874714584276" target="_blank">COELHO, R. P.</a> ; NUNES, V. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Metabolites of nitric oxide as a marker cardiometabolic in blacks. Diabetology & Metabolic Syndrome<sup><img id='17585996_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17585996' /></sup>, v. 7, p. A157, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1758-5996-7-s1-a157&issn=17585996&volume=7&issue=&paginaInicial=A157&titulo=Metabolites of nitric oxide as a marker cardiometabolic in blacks&sequencial=7&nomePeriodico=Diabetology & Metabolic Syndrome" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVEIRA, M. P. T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/jcpt.12233" target="_blank"></a>SILVEIRA, M. P. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; GUTTIER, M. C. ; MOREIRA, Leila Beltrami . Factors associated with therapeutic success in HIV-positive individuals in southern Brazil. Journal of Clinical Pharmacy and Therapeutics (Print)<sup><img id='02694727_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='02694727' /></sup>, v. 40, p. 192-195, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/jcpt.12233&issn=02694727&volume=40&issue=&paginaInicial=192&titulo=Factors associated with therapeutic success in HIV-positive individuals in southern Brazil&sequencial=8&nomePeriodico=Journal of Clinical Pharmacy and Therapeutics (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, P. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1758-5996-7-s1-a64" target="_blank"></a>OLIVEIRA, P. M. ; <b>MAURER, P.</b> ; PILAR, B. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9361874714584276" target="_blank">COELHO, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; NUNES, V. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . Evaluation of hypoglycemic, hypolipidemic and antioxidant effects in vivo of extracts hydroalcoholic of Yacon (Smallanthus sonchifolius). Diabetology & Metabolic Syndrome<sup><img id='17585996_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17585996' /></sup>, v. 7, p. A64, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1758-5996-7-s1-a64&issn=17585996&volume=7&issue=&paginaInicial=A64&titulo=Evaluation of hypoglycemic, hypolipidemic and antioxidant effects in vivo of extracts hydroalcoholic of Yacon (Smallanthus sonchifolius)&sequencial=9&nomePeriodico=Diabetology & Metabolic Syndrome" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAURER, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; Casagrande, G. H. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2256409809318315" target="_blank">Cardoso, C. K.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . ATENDIMENTO DOMICILIAR MULTIPROFISSIONAL À PACIENTE HIPERTENSO E DIABÉTICO ? Relato de Caso. Revista On line Contexto e Saúde da UNIJUI<sup><img id='21767114_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21767114' /></sup>, v. 10, p. 691-694, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21767114&volume=10&issue=&paginaInicial=691&titulo=ATENDIMENTO DOMICILIAR MULTIPROFISSIONAL À PACIENTE HIPERTENSO E DIABÉTICO ? Relato de Caso&sequencial=10&nomePeriodico=Revista On line Contexto e Saúde da UNIJUI" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; RODRIGUES, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; PINHEIRO, A. A. S. ; CRESPO, B. T. T. ; SANTO, D. C. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; QUADROS, J. R. B. ; OLIVEIRA, A. C. C. ; FREITAS, E. I. V. R. . SAUDE DA POPULAÇÃO NEGRA DE URUGUAIANA/RS - ATENÇÃO INTEGRAL DE SAÚDE PARA PREVENÇÃO DE DOENÇAS E PROMOÇÃO DE DIREITOS DE IGUALDADE RACIAL. In: 32º Seminário de Extensão Universitária da Região Sul ? SEURS, 2014, Curitiba. ANAIS SEURS, 2014. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; PONTE, E. S. D. ; <b>MAURER, P.</b> ; TERHORST, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . FREQUÊNCIA ALÉLICA E GENOTÍPICA DO SNP ADIPOQ+45T>G EM PORTADORES DE TRAÇO FALCIFORME, 2017, Florianopolis. Anais do X Congresso Brasileiro de Epidemiologia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, F. S. ; <b>MAURER, P.</b> ; AMARO, S. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; SAUZEM, P. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . SAÚDE DA POPULAÇÃO NEGRA: PREVENÇÃO DE DOENÇAS E PROMOÇÃO DE DIREITOS DE IGUALDADE RACIAL, 2017, Florianopolis. Anais do X Congresso Brasileiro de Epidemiologia. p. 76532. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; AMARO, S. L. ; GARCIA, F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; SAUZEM, P. D. ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . MONITORIZAÇÃO AMBULATORIAL DE PRESSÃO ARTERIAL EM NEGROS - UMA NECESSIDADE EMINENTE, 2017, Florianopolis. Anais do X Congresso Brasileiro de Epidemiologia. p. 76530. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, F. S. ; CATTELAN, M. D. P. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . O envelhecimento na zona rural: índices antropométricos, depressão e risco cardiovascular em idosos rurais. In: II Simposio do Envelhecimento da Fronteira Oeste, 2017, Uruguaiana. II Simposio do envelhecimento, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, A. C. C. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Ambulatory hipertension in black in Southern Brazil. In: III ABCF Congress, 2016, Porto Alegre. III ABCF Congress - Abstract Book. Porto Alegre, 2016. v. 1. p. 126. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, P. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9361874714584276" target="_blank">COELHO, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5063327250497478" target="_blank">GOLKE, A. M.</a> ; PILAR, B. C. ; <b>MAURER, P.</b> ; OLIVEIRA, M. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . Evaluation body weight gain in rats with hypercholesterolemia supplemented with yacon root (Smallanthus sonchifolius). In: III ABCF Congress, 2016, Porto Alegre. III ABCF Congress - Abstract book. Porto Alegre, 2016. v. 1. p. 213-213. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERRAZ, V. ; FARIAS, F. M. ; IRIGARAY, G. A. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Estresse ocupacional entre trabalhadores de um hospital de Uruguaiana. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2016. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2016. v. 8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, P. M. ; GOLKE, A. M. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; IZAGUIRRY, A. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . AVALIAÇÃO DO EFEITO ANTIOXIDANTE IN VIVO DO EXTRATO HIDROALCOÓLICO DA RAIZ DO YACON (SMALLANTHUS SONCHIFOLIUS). In: III Simpósio Anual do PPG Bioquímica, 2015, Uruguaiana. Anais- Simpósio Anual do PPG Bioquímica 2015, 2015. p. 29-29. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; OLIVEIRA, A. C. C. ; FREITAS, E. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; FRIZZO, M. N. ; TORBITZ, V. D. ; MORESCO, R. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . OBESIDADE, INFLAMAÇÃO E ESTRESSE OXIDATIVO EM NEGROS ? UMA PREOCUPAÇÃO ATUAL. In: III Simpósio Anual do PPG Bioquímica, 2015, Uruguaiana. Anais- Simpósio Anual do PPG Bioquímica 2015, 2015. v. 1. p. 51-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAUZEM, P. D. ; <b>MAURER, PATRÍCIA</b> ; RETAMOSO, V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Avaliação da prevalência e controle da hipertensão arterial sistêmica da população negra da fronteira oeste do Rio Grande do Sul. In: XXIII Congresso da Sociedade Brasileira de Hipertensão, 2015, Rio de Janeiro. Revista Hipertensão Resumos. Rio de Janeiro: SBH, 2015. v. 2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RETAMOSO, V. R. ; <b>MAURER, PATRÍCIA</b> ; SAUZEM, P. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; MORESCO, R. N. ; TORBITZ, V. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Níveis séricos de proteína C ultrasensivel (PCR-us) e hipertensão (HAS) em um grupo de afrodescendentes. In: XXIII Congresso da Sociedade Brasileira de Hipertensão, 2015, Rio de Janeiro. Revista Hipertensão Resumos. Rio de Janeiro: SBH, 2015. v. 2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, A. C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; SAUZEM, P. D. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; FREITAS, E. I. V. R. . Avaliação da hipertensão arterial resistente em indivíduos afrodescendentes de Uruguaiana-RS. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2015. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TIECHER, C. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; SACHET, L. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <b>MAURER, P.</b> . Perfil de doenças prévias encontradas na população afrodescendente em Uruguaiana-RS. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2015. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, E. I. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <b>MAURER, P.</b> ; OLIVEIRA, A. C. C. ; RETAMOSO, V. R. . Fatores de risco cardiovascular em participantes do Programa Saúde da População Negra de Uruguaiana. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2015. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3803266458064203" target="_blank">OLIVEIRA, A. C. C.</a> ; LORENSET, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . ANÁLISE PRELIMINAR DO PERFIL LIPÍDICO E SUA ASSOCIAÇÃO COM HIPERTENSÃO ARTERIAL EM INDIVÍDUOS DE ETNIA AFRICANA DO MUNICÍPIO DE URUGUAIANA. In: Simpósio Anual do PPG Bioquímica, 2014, Uruguaiana. Simpósio Anual do PPG Bioquímica, 2014. p. 1-53. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; RODRIGUES, A. N. ; CRESPO, B. T. T. ; SANTO, D. C. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; QUADROS, J. R. B. ; OLIVEIRA, A. C. C. ; FREITAS, E. I. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . PERFIL HEMATOLÓGICO DE UM GRUPO DE AFRODESCENDENTES DA FRONTEIRA OESTE DO RIO GRANDE DO SUL. In: Congresso Brasileiro de Hematologia, Hemoterapia e Terapia Celular, 2014, Florianópolis. Revista Brasileira de Hematologia e Hemoterapia. Rio de Janeiro: ABHH, 2014. v. 36. p. 1-458. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; SANTO, D. C. E. ; PINHEIRO, A. A. S. ; QUADROS, J. R. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3803266458064203" target="_blank">OLIVEIRA, A. C. C.</a> ; FREITAS, E. I. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . RELAÇÃO ENTRE TABAGISMO E ETILISMO E LEUCÓCITOS TOTAIS EM AFRODESCENDENTES. In: Congresso Brasileiro de Hematologia, Hemoterapia e Terapia Celular, 2014, Florianópolis. Revista Brasileira de Hematologia e Hemoterapia. Rio de Janeiro: ABHH, 2014. v. 36. p. 1-458. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; ZAMBIAZI, E. S. ; <b>MAURER, P.</b> . Perfil de saúde das mulheres negras participantes de um programa de extensão da UNIPAMPA- Uruguaiana. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2014. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2014. v. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; ZAMBIAZI, E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; RODRIGUES, A. N. ; <b>MAURER, P.</b> . Saúde da população negra de Uruguaiana/RS - Atenção integral de saúde para prevenção de doenças e promoção de direitos de igualdade racial. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2014. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2014. v. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBIAZI, E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <b>MAURER, P.</b> ; RODRIGUES, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; OLIVEIRA, A. C. C. . Hábitos como tabagismo e etilismo em indivíduos negros do município de Uruguaiana. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2014. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2014. v. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, J. P. ; <b>MAURER, PATRÍCIA</b> ; NUNES, V. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; SAUZEM, P. D. ; TAVARES, G. M. S. ; GOTTLIEB, M. G. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . A saúde da mulher idosa na fronteira oeste do RS - O que podemos aprender com elas?. In: IX Congresso Brasileiro de Epidemiologia, 2014, Vitória-ES. Anais [recurso eletrônico]/IX Congresso Brasileiro de Epidemiologia. Rio de Janeiro: ABRASCO, 2014. v. 9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, J. P. ; TAVARES, G. M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; SAUZEM, P. D. ; <b>MAURER, P.</b> ; NUNES, V. T. ; GOTTLIEB, M. G. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Epidemiologia do envelhecimento na Fronteiro Oeste do Ro Grande do Sul - Resultados de um inquérito comunitário feito na cidade de Uruguaiana/RS. In: IX Congresso Brasileiro de Epidemiologia, 2014, Vitória-ES. Anais [recurso eletrônico]/IX Congresso Brasileiro de Epidemiologia. Rio de Janeiro: ABRASCO, 2014. v. 9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; MALHEIROS, R. T. ; Casagrande, G. H. J. ; FOLMER, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> ; SILVEIRA, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Qualidade de Vida de Acadêmicos do Curso de Farmácia de uma Universidade da fronteira oeste do RS. In: 10º Congresso Brasileiro de Saúde Coletiva, 2012, Porto Alegre. Anais Saúde Coletiva - ISSN 1413-8123, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; MALHEIROS, R. T. ; BUENO, E. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9768594901162450" target="_blank">SCHOLZ, D. C. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . TELAPISC: Práticas Integradas em Saúde Coletiva (PISC) levando cinema à crianças de comunidade carente. In: 10º Congresso Brasileiro de Saúde Coletiva, 2012, Porto Alegre. Anais Saúde Coletiva, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Casagrande, G. H. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; GOMEZ, P. V. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; SILVA, G. S. ; PEDEBOS, B. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; SILVEIRA, A. ; FETTERMANN, F. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> . Práticas Integradas de Saúde Coletiva na promoção da saúde de hipertensos e diabéticos no município de Uruguaiana/RS. In: 10º Congresso Brasileiro de Saúde Coletiva, 2012, Porto Alegre. Anais Saúde Coletiva, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MALHEIROS, R. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2256409809318315" target="_blank">Cardoso, C. K.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; FOLMER, V. . Qualidade de Vida em Acadêmicos da Universidade Federal do Pampa - Campus Uruguaiana. In: 10º Congresso Internacional da Rede Unida, 2012, Rio de Janeiro. Interface - Comunicação, Saúde, Educação, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3406632272165876" target="_blank">SOUZA, N. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822992490729259" target="_blank">PICCININI, A. M.</a> . Acompanhamento Domiciliar de usuário diabético por meio de visita domiciliária - relato de experiência interdisciplinar. In: 10º Congresso Internacional da Rede Unida, 2012, Rio de Janeiro. Interface - Comunicação, Saúde, Educação, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3853727468650398" target="_blank">MOURA, S. P.</a> ; KIPPER, L. R. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0824010456649632" target="_blank">DELEVATI, D. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . A importância da equipe multidisciplinar na avaliação preventiva do desenvolvimento motor de crianças na atenção básica. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2012. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KIPPER, L. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0824010456649632" target="_blank">DELEVATI, D. S.</a> ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3853727468650398" target="_blank">MOURA, S. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4480938481569672" target="_blank">CHIQUETTI, E. M. S.</a> . Perfil motor de crianças de 02 a 06 anos do Bairro João Paulo II em Uruguaiana-RS. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2012. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; KIPPER, L. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3853727468650398" target="_blank">MOURA, S. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . O Curso de Farmácia no Programa Práticas Integradas em Saúde Coletiva (PISC). In: Salão Internacional de Ensino, Pesquisa e Extensão, 2012. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. S. ; BUENO, E. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Análise da qualidade de vida em Agentes Comunitárias de Saúde de Uruguaiana-RS. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2012. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KIPPER, L. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; SANTOS, L. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Perfil epidemiológico da população atendida pelo programa HiperDia do Posto de Saúde da Família ? CAIC. In: III Salão Internacional de Ensino Pesquisa e Extensão, 2011, Uruguaiana. Anais do III SIEPE ? Salão Internacional de Ensino, Pesquisa e Extensão, 2011. v. 3. p. 483-483. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, PATRÍCIA</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; KIPPER, L. R. ; SANTOS, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; SILVEIRA, M. P. T. . Avaliação da relação entre IMC e hipertensão. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2011. Anais do Salão Internacional de Ensino, Pesquisa e Extenão, 2011. v. 3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2256409809318315" target="_blank">Cardoso, C. K.</a> ; MALHEIROS, R. T. ; <b>MAURER, P.</b> ; SILVA, G. S. ; BRUSTOLIN, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> . Atenção farmacêutica domiciliar: Série de casos do Programa Práticas Integradas em Saúde Coletiva. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2011. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2011. v. 3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; NOLIBOS, E. ; Casagrande, G. H. J. ; SANTOS, L. S. ; KIPPER, L. R. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822992490729259" target="_blank">PICCININI, A. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Programa Hiperda: Ações de promoção à saúde em usuários hipertensos e diabéticos do PSF- CAIC. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2011. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2011. v. 3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; KIPPER, L. R. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822992490729259" target="_blank">PICCININI, A. M.</a> ; FOLMER, V. . O Papel da Fisioterapia no Programa Práticas Integradas em Saúde Coletiva (PISC). In: Salão Internacional de Ensino, Pesquisa e Extensão, 2011. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2011. v. 3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0989951246045806" target="_blank">SAWITZKI, M. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2145471376587567" target="_blank">ROEHRS, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5481998000769057" target="_blank">Fiorentini, A.M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6758699828667193" target="_blank">DENARDIN, E. L. G.</a> . Biocatálise Enzimática de Staphylococcus xylosus AD1 sobre óleos vegetais para obtenção de biodiesel. In: II Salão Internacional de Ensino Pesquisa e Extensão, 2010, Uruguaiana. Anais do SIEPE, 2010. v. 2. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, PATRÍCIA</a></b>; MONTAGNER, R. ; BERRO, LYANA FEIJOÓ ; BARBISAN, F. ; AZZOLIN, V. F. ; MANFREDINI, VANUSA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, JACQUELINE DA COSTA ESCOBAR</a> . SNP Glu298Asp affects oxidative responde and allele G (Glu) protects against oxidation in vitro. 2018. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, F. S. ; CATTELAN, M. D. P. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . O envelhecimento na zona rural: índices antropométricos, depressão e risco cardiovascular em idosos rurais. 2017. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; AMARO, S. L. ; GARCIA, F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; SAUZEM, P. D. ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . MONITORIZAÇÃO AMBULATORIAL DE PRESSÃO ARTERIAL EM NEGROS - UMA NECESSIDADE EMINENTE. 2017. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, F. S. ; <b>MAURER, P.</b> ; AMARO, S. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; SAUZEM, P. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . SAÚDE DA POPULAÇÃO NEGRA: PREVENÇÃO DE DOENÇAS E PROMOÇÃO DE DIREITOS DE IGUALDADE RACIAL. 2017. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; PONTE, E. S. D. ; <b>MAURER, P.</b> ; TERHORST, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . FREQUÊNCIA ALÉLICA E GENOTÍPICA DO SNP ADIPOQ+45T>G EM PORTADORES DE TRAÇO FALCIFORME. 2017. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . PCR-US COMO MARCADOR INFLAMATÓRIO ASSOCIADO À HIPERTENSÃO ARTERIAL SISTÊMICA EM POPULAÇÃO NEGRA DO SUL. 2017. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>. Curso de Capacitação em Doença Falciforme. 2016. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SARAIVA, N. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9361874714584276" target="_blank">COELHO, R. P.</a> ; FEKSA, D. L. ; OLIVEIRA, P. M. ; <b>MAURER, P.</b> ; ZURAVSKI, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . AVALIAÇÃO DO PERFIL HEMATOLÓGICO DE RATOS HIPERCOLESTEROLÊMICOS SUPLEMENTADOS COM EXTRATO HIDROALCOÓLICO DAS FOLHAS DE ERVA-DE-PASSARINHO (TRIPODANTHUS ACUTIFOLIUS). 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; CATTELAN, M. D. P. ; GARCIA, F. S. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . DEPRESSÃO E PERFIL LIPÍCO E GLICEMIA DE PEQUENOS AGRICULTORES DE SANTIAGO/RS. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; PONTE, E. S. D. ; <b>MAURER, P.</b> ; MEZZOMO, J. ; TERHORST, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . PREVALÊNCIA DE SM E ESTUDO DE MARCADORES BIOQUÍMICOS E ANTROPOMÉTRICOS DE UM GRUPO DE PORTADORES DE TRAÇO FALCIFORME DO BANCO DE SANGUE DO MUNICÍPIO DE URUGUAIANA/RS. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMARO, S. L. ; BELMONTE, A. P. ; CATTELAN, M. D. P. ; <b>MAURER, P.</b> ; GARCIA, F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . FATORES DE RISCO CARDIOMETABÓLICOS EM IDOSOS PERTENCENTES A UM CENTRO DE CONVIVÊNCIA DO MUNÍCIPIO DE URUGUAIANA. 2016. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6758699828667193" target="_blank">DENARDIN, E. L. G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Frequency of allele and genotype ADIPOQ+45T>G polymorphism and obesity indicators. 2016. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CATTELAN, M. D. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; MACHADO, M. M. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; GARCIA, F. S. . O impacto do uso crônico de agrotóxicos no perfil hematológico e hepático de pequenos trabalhadores rurais da cidade de Santiago-RS. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RETAMOSO, V. R. ; <b>MAURER, P.</b> ; TAVARES, G. M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Relação do consumo alimentar diário e prevalência de Síndrome Metabólica (SM) em idosos de Uruguaiana/RS. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; PONTE, E. S. D. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Polimorfismo rs2241766 no gene ADIPOQ é associado a níveis elevados de glicose sanguínea. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, M. F. ; FEKSA, D. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9361874714584276" target="_blank">COELHO, R. P.</a> ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; STROHER, D. J. ; ZURAVSKI, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . EFEITO DO EXTRATO LIOFILIZADO DOS FRUTOS DE CITRUS MAXIMA (POMELO) SOBRE PERFIL LIPÍDICO DE RATOS WISTAR ALIMENTADOS COM DIETA HIPERLIPÍDICA ASSOCIADA A INGESTÃO DE FRUTOSE. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, A. C. C. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3834777375701282" target="_blank">BERRO, L. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Ambulatory hypertension in blacks in Southern Brazil. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RETAMOSO, V. R. ; <b>MAURER, P.</b> ; TAVARES, G. M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . RELAÇÃO DO CONSUMO ALIMENTAR DIÁRIO E PREVALÊNCIA DE SÍNDROME METABÓLICA (SM) EM IDOSOS DE URUGUAIANA/RS. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BELMONTE, A. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; AMARO, S. L. ; CATTELAN, M. D. P. ; <b>MAURER, P.</b> ; GARCIA, F. S. . ALTERAÇÕES HEPÁTICAS ASSOCIADAS À POLIFARMÁCIA E AO CONSUMO DE MEDICAMENTOS INAPROPRIADOS POR IDOSOS. 2016. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; OLIVEIRA, A. C. C. ; FREITAS, E. I. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; FRIZZO, M. N. ; TORBITZ, V. D. ; MORESCO, R. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Obesidade, inflamação e estresse oxidativo em negros - uma preocupação atual. 2015. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, P. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5063327250497478" target="_blank">GOLKE, A. M.</a> ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; IZAGUIRRY, A. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . Avaliação do efeito antioxidante in vivo do extrato hidroalcoólico da raiz do yacon (Smallanthus sonchifolius). 2015. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5063327250497478" target="_blank">GOLKE, A. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9361874714584276" target="_blank">COELHO, R. P.</a> ; PILAR, B. C. ; CRESPO, B. T. T. ; RODRIGUES, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3803266458064203" target="_blank">OLIVEIRA, A. C. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Determinação do perfil hemoglobínico e alterações hematológicas em indivíduos de etnia negra do município de Uruguaiana, RS. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8415320364016788" target="_blank">GULLICH, A. A. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; OLIVEIRA, A. C. C. ; LORENSET, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Análise preliminar do perfil lipídico e sua associação com pressão arterial em indivíduos de etnia africana do município de Uruguaiana. 2014. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, A. C. C. ; <b>MAURER, P.</b> ; RODRIGUES, A. N. ; SANTO, D. C. E. ; QUADROS, J. R. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Controle da pressão arterial em indivíduos hipertensos negros em uso de terapia anti-hipertensiva. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <b>MAURER, P.</b> ; OLIVEIRA, A. C. C. ; FREITAS, E. I. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Relação entre perfil hepático e renal e hipertensão em participantes afrodescendentes de um grupo de extensão da UNIPAMPA. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; CRESPO, B. T. T. ; QUADROS, J. R. B. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; OLIVEIRA, A. C. C. ; FREITAS, E. I. V. R. ; SANTO, D. C. E. ; LORENSET, A. . Relação entre o consumo de chimarrão e pressão arterial em indivíduos afrodescendentes. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TAVARES, G. M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <b>MAURER, P.</b> ; CRESPO, B. T. T. ; SAUZEM, P. D. ; NUNES, V. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . Relação entre hipertensão arterial e síndrome metabólica em mulheres idosas. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; RODRIGUES, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; PINHEIRO, A. A. S. ; CRESPO, B. T. T. ; SANTO, D. C. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3803266458064203" target="_blank">OLIVEIRA, A. C. C.</a> . Saúde da População Negra de Uruguaiana/RS - Atenção integral de saúde para prevenção de doenças e promoção de direitos de igualdade racial. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> ; RODRIGUES, A. N. ; CRESPO, B. T. T. ; SANTO, D. C. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; QUADROS, J. R. B. ; OLIVEIRA, A. C. C. ; FREITAS, E. I. V. R. . Perfil Hematológico de um grupo de afrodescendentes da fronteira oeste do Rio Grande do Sul. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3579373821965329" target="_blank">BRUNO, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; SANTO, D. C. E. ; PINHEIRO, A. A. S. ; QUADROS, J. R. B. ; OLIVEIRA, A. C. C. ; FREITAS, E. I. V. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> . Relação entre tabagismo e etilismo e leucócitos totais em afrodescendentes. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; ZAMBIAZI, E. S. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Perfil de saúde das mulheres negras participantes de um programa de extensão da UNIPAMPA-Uruguaiana. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; ZAMBIAZI, E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7062274179396656" target="_blank">MANFREDINI, V.</a> ; RODRIGUES, A. N. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Saúde da População Negra de Uruguaiana/RS - Atenção integral de saúde para prevenção de doenças e promoção de direitos de igualdade racial. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBIAZI, E. S. ; <b>MAURER, P.</b> ; RODRIGUES, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0775722570259493" target="_blank">BARROS, A. Z.</a> ; OLIVEIRA, A. C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5099227329574183" target="_blank">PICCOLI, J. C. E.</a> . Hábitos como tabagismo e etilismo em indivíduos negros do município de Uruguaiana. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KIPPER, L. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0824010456649632" target="_blank">DELEVATI, D. S.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3853727468650398" target="_blank">MOURA, S. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4480938481569672" target="_blank">CHIQUETTI, E. M. S.</a> . Perfil Motor de Crianças de 02 à 06 anos do Bairro João Paulo II em Uruguaiana-RS. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; KIPPER, L. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3853727468650398" target="_blank">MOURA, S. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> . O Curso de Farmácia no Programa de Práticas Integradas em Saúde Coletiva. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MALHEIROS, R. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2256409809318315" target="_blank">Cardoso, C. K.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; FOLMER, V. . Qualidade de Vida em Acadêmicos da Universidade Federal do Pampa - Campus Uruguaiana. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3406632272165876" target="_blank">SOUZA, N. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822992490729259" target="_blank">PICCININI, A. M.</a> . Acompanhamento Domiciliar de usuário diabético por meio de visita domiciliária - relato de experiência interdisciplinar. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3406632272165876" target="_blank">SOUZA, N. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822992490729259" target="_blank">PICCININI, A. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; SANTOS, L. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> . Práticas Integradas em Saúde Coletiva: Relato de um atendimento domiciliar. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; Casagrande, G. H. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2256409809318315" target="_blank">Cardoso, C. K.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> . Atendimento Domiciliar Multiprofissional à Paciente Hipertenso e Diabético - Relato de Caso. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; MALHEIROS, R. T. ; Casagrande, G. H. J. ; FOLMER, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> ; SILVEIRA, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Qualidade de vida de acadêmicos do curso de farmácia de uma universidade da fronteira oeste do RS. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3853727468650398" target="_blank">MOURA, S. P.</a> ; KIPPER, L. R. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0824010456649632" target="_blank">DELEVATI, D. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . A importância da equipe multidisciplinar na avaliação preventiva do desenvolvimento motor de crianças na atenção básica. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0824010456649632" target="_blank">DELEVATI, D. S.</a> ; KIPPER, L. R. ; <b>MAURER, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3853727468650398" target="_blank">MOURA, S. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4480938481569672" target="_blank">CHIQUETTI, E. M. S.</a> . Relato comparativo sobre as influências da frequência escolar e pré-escolar sobre o desenvolvimento motor em crianças de 2 a 6 anos de idade. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; MALHEIROS, R. T. ; BUENO, E. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9768594901162450" target="_blank">SCHOLZ, D. C. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . TelaPISC: Práticas Integradas em Saúde Coletiva (PISC) levando cinema à crianças de comunidade carente. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; Casagrande, G. H. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2256409809318315" target="_blank">Cardoso, C. K.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Atendimento Domiciliar Multiprofissional à paciente hipertenso e diabético - Relato de Caso. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; KIPPER, L. R. ; SANTOS, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> . Avaliação da relação entre IMC e Hipertensão. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; KIPPER, L. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822992490729259" target="_blank">PICCININI, A. M.</a> ; FOLMER, V. . O Papel da Fisioterapia no Programa de Práticas Integradas em Saúde Coletiva. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2256409809318315" target="_blank">Cardoso, C. K.</a> ; MALHEIROS, R. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; SILVA, G. S. ; BRUSTOLIN, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5270811643798283" target="_blank">Silveira, M. P. T.</a> . Atenção Farmacêutica Domiciliar: Série de Casos do Programa Práticas Integradas em Saúde Coletiva. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5765694110778130" target="_blank">MACHADO, D. F.</a> ; NOLIBOS, E. ; Casagrande, G. H. J. ; SANTOS, L. S. ; KIPPER, L. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822992490729259" target="_blank">PICCININI, A. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Programa HIPERDIA: Ações de Promoção à Saúde em usuários hipertensos e diabéticos do PSF - CAIC. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. S. ; BUENO, E. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2431890246253533" target="_blank">FELBER, D. T.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2285888154281062" target="_blank">TORRES, O. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8871615237315962" target="_blank">Balk, R. S.</a> . Análise da Qualidade de Vida em Agentes Comunitárias de Saúde de Uruguaiana-RS. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0989951246045806" target="_blank">SAWITZKI, M. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2145471376587567" target="_blank">ROEHRS, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5481998000769057" target="_blank">Fiorentini, A.M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6758699828667193" target="_blank">DENARDIN, E. L. G.</a> . Biocatálise enzimática de Sthapylococcus xylosus AD1 sobre óleos vegetais para obtenção de biodiesel. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HECK, T. G. ; <b>MAURER, P.</b> ; KLAFKE, J. Z. . Estresse Oxidativo. 2016. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>. Oficina Práticas Integradas em Saúde Coletiva. 2011. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAURER, P.</b>; MACHADO, M. M..  Participação em banca de Ana Claudia Colombo de Oliveira.Estudo da relação entre níveis séricos de Proteína C reativa ultrassensível e hipertensão arterial sistêmica (HAS) em afrodescendentes.
+							2016. Trabalho de Conclusão de Curso (Graduação em Farmácia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">QUEROL, M. V. M.; PEDRON, F. A.; <b>MAURER, P.</b>.  Participação em banca de Jonathan Jardim da Silva.AVALIAÇÃO FÍSICO-QUÍMICA, PLANCTÔNICA E MICROBIOLÓGICA DO RIO URUGUAI MÉDIO, REGIÃO DE URUGUAIANA, RS.
+							2016. Trabalho de Conclusão de Curso (Graduação em Aqüicultura)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2nd Latin American Congress of Clincial and Laboratorial Toxicology. 2018. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Integrado dos PPGs do Campus Uruguaiana.PCR-US COMO MARCADOR INFLAMATÓRIO ASSOCIADO À HIPERTENSÃO ARTERIAL SISTÊMICA EM POPULAÇÃO NEGRA DO SUL.
+							2017. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Congresso Brasileiro de Epidemiologia. 2017. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">45a Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular.Frequency of allele and genotype ADIPOQ +45T>G polymorphism and obesity indicators. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Simpósio do PPG Bioquímica da Universidade Federal do Pampa,.
+							2016. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simpósio Anual do PPG Bioquímica.
+							2015. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Congresso Brasileiro de Diabetes. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">32º Seminário de Extensão Universitária da Região Sul - SEURS. 2014. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">41º Congresso Brasileiro de Análises Clínicas. Relação entre os componentes da síndrome metabólica e eventos cardiovasculares em idosos afrodescendentes. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">41º Congresso Brasileiro de Análises Clínicas. Relação entre os componentes da síndrome metabólica e eventos cardiovasculares em idosos afrodescendentes. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">41º Congresso Brasileiro de Análises Clínicas. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Hematologia, Hemoterapia e Terapia Celular. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Salão Internacional de Ensino, Pesquisa e Extensão. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Escola de Verão em Química Farmacêutica e Medicinal. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">31ª Semana Científica do HCPA. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Internacional em Saúde da Unijuí - Saúde e Envelhecimento. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Salão Internacional de Ensino, Pesquisa e Extensão. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário Práticas Integradas em Saúde Coletiva. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio de Atualização em Fisiologia: Sistema Nervoso.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Salão Internacional de Ensino, Pesquisa e Extensão. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Medicalização da vida: Aportes Socioantropológicos na conteporaneidadeade. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Seminário Internacional de Farmacêuticos e Expofar 2010. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Congresso Paulista de Farmacêuticos. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simpósio de Microbiologia Aplicada.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1ª Semana Acadêmica Integrada da UNIPAMPA Campus Uruguaiana. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Acadêmica Da Farmácia - UFSM. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Salão de Iniciação Científica - Ed. Internacional, VIII Mostra Científica - Ed. Internacional e I Feira de Extensão - Ed. Internacional. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5573110865198081" target="_blank">MAURER, P.</a></b>. II Salão Internacional de Ensino, Pesquisa e Extensão. 2010. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eva Ines Vilanova Ribeiro Freitas.
+							Saúde da População negra de Uruguaiana/RS - Atenção integral de saúde para prevenção de doenças e promoção de direitos de igualdade racial.
+							2015.
+							Iniciação Científica. (Graduando em Enfermagem)  - Universidade Federal do Pampa,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Patrícia Maurer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Claudia Colombo de Oliveira.
+							Controle da pressão arterial em indivíduos hipertensos negros em uso de terapia anti-hipertensiva.
+							2014.
+							Iniciação Científica. (Graduando em Farmácia)  - Universidade Federal do Pampa. Orientador: Patrícia Maurer.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Aprovação em Concurso Público para professor substituto da Unipampa Edital 205/2015, na área de Microbiologia dos Alimentos, Tecnologia dos Alimentos, Bromatologia e Estágio em 1º Lugar (nota final=7,93) e para a área de Microbiologia Geral em 4º Lugar (nota final=6,80).</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 16:25:01</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=5573110865198081" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

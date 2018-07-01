@@ -5,12 +5,12 @@
 #  scriptLattes
 #  Copyright http://scriptlattes.sourceforge.net/
 #
-#  Este programa é um software livre; você pode redistribui-lo e/ou 
-#  modifica-lo dentro dos termos da Licença Pública Geral GNU como 
-#  publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+#  Este programa é um software livre; você pode redistribui-lo e/ou
+#  modifica-lo dentro dos termos da Licença Pública Geral GNU como
+#  publicada pela Fundação do Software Livre (FSF); na versão 2 da
 #  Licença, ou (na sua opinião) qualquer versão.
 #
-#  Este programa é distribuído na esperança que possa ser util, 
+#  Este programa é distribuído na esperança que possa ser util,
 #  mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
 #  MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
 #  Licença Pública Geral GNU para maiores detalhes.
@@ -227,7 +227,9 @@ class Membro:
             extended_chars = u''.join(unichr(c) for c in xrange(127, 65536, 1))  # srange(r"[\0x80-\0x7FF]")
             special_chars = ' -'''
             #cvLattesHTML  = cvLattesHTML.decode('ascii','replace')+extended_chars+special_chars                                          # Wed Jul 25 16:47:39 BRT 2012
-            cvLattesHTML = cvLattesHTML.decode('iso-8859-1', 'replace') + extended_chars + special_chars
+            cvLattesHTML = cvLattesHTML.decode('iso-8859-1', 'replace')# + extended_chars + special_chars
+            #print(cvLattesHTML)
+            #exit()
             parser = ParserLattes(self.idMembro, cvLattesHTML)
 
             p = re.compile('[a-zA-Z]+')
@@ -549,11 +551,10 @@ class Membro:
             s += "\n\n"
         return s
 
-		
+
 
 # ---------------------------------------------------------------------------- #
 # http://wiki.python.org/moin/EscapingHtml
 def htmlentitydecode(s):
     return re.sub('&(%s);' % '|'.join(name2codepoint),
                   lambda m: unichr(name2codepoint[m.group(1)]), s)
-

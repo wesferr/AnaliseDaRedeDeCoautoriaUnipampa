@@ -1,244 +1,2268 @@
-
-
-
-
-
-<!DOCTYPE HTML>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/bootstrap.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/style.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/advanced.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/captcha.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/demo/style.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/estilo-busca-textual.css">
-<link href='http://fonts.googleapis.com/css?family=Ubuntu'
-	rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:300'
-	rel='stylesheet' type='text/css'>
-<script src="/buscatextual/resources/js/jquery.js"></script>
-<script
-	src="/buscatextual/resources/js/bootstrap.js"></script>
-</head>
-<body>
-	<div class="header">
-	<div class="header-content max-width">
-		<div class="identity center">
-			<div class="combo">
-				<a href="http://lattes.cnpq.br/" title="Currículo Lattes"
-					target="_blank"><img title="Currículo Lattes"
-					alt="Currículo Lattes"
-					src="/buscatextual/images/titulo-sistema.png"> </a>
-			</div>
-			<div class="logo">
-				<a
-					title="CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico"
-					target="_blank" href="http://www.cnpq.br"> </a>
-			</div>
-			<div class="menu-header">
-				<!--<a
-					class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais"
-					href="javascript:void(0)" title="Aumentar a fonte"> </a> <a
-					class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos "
-					href="javascript:void(0)" title="Fonte padrão"> </a> <a
-					class="bt-menu-header titBottom contraste icons-top icons-top-contraste"
-					href="javascript:void(0)" title="Alto contraste"></a>  <a
-					title="Click here to change the language to english"
-					class="bt-menu-header titBottom icons-top icons-top-enUK"
-					onClick="mudarIdioma()" id="idBandeira" href="javascript:void(0)">
-				</a>  <a class="bt-menu-header titBottom  icons-top icons-top-help"
-					target="_blank"
-					href="http://ajuda.cnpq.br/index.php/Página_principal"
-					title="Ajuda"> </a>-->
-			</div>
-		</div>
-	</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/46C0EAAE-1500-5E42-BB38-375500EB7B5E/main.js" charset="UTF-8"></script><script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_-1809444808|rpid=294188795|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Priscila Gularte Padoin)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
 </div>
-
-	<form name="visualizacvForm" id="formulario" method="post" action="/buscatextual/visualizacv.do" enctype="multipart/form-data">
-		<input type="hidden" name="metodo" value="" id="metodo">
-		<input type="hidden" name="id" value="K4299869U9" id="id">
-		<input type="hidden" name="idiomaExibicao" value="" id="idiomaExibicao">
-		<input type="hidden" name="tipo" value="" id="tipo">
-		<div class="wrap ">
-			<div class="container">
-				<div class="conteudo">
-					<div class="iframe-simulation">				
-                      <div class="conteudo-2">
-                            <div class="layout-cell layout-cell-6 captcha">
-								<script type="text/javascript">
-		var segundos = 3; //3segundos
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=7774559680471749" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
 		
-		setTimeout(function(){
-		  $('#divMessageSucesso').fadeIn();
-		}, segundos*1000);	
-
-	var cnpqCaptcha = {
- 		refreshCaptcha : function() {
-			var timestamp = Number(new Date());
-			document.getElementById('div_image_captcha').innerHTML="<img id='image_captcha' class='imageCaptcha' src='"+ 
-			"/buscatextual/servlet/captcha?metodo=getImagemCaptcha&noCache=" + timestamp + "' alt='Captcha' border='0'/>";
-			$("#informado").focus();
-			//messagesCaptcha.limpar();
-
-			setTimeout(function(){
-			    $('#divMessageErro').remove();
-			},3000);
-			
-		}, 
-		doGet: function(data, callback) {
-			$.ajax({
-			type: 'get',
-			dataType: 'json',
-			data: data,
-			url: '/buscatextual/servlet/captcha',
-			success: callback
-			});
-			},
-		validacaoCaptchaCallback: function(data) {
-			$('#informado').val('');
-			messagesCaptcha.limpar();
-			var wrapper = messagesCaptcha.getWrapper();
-			
-			if (data['estado'] == 'erro') {
-			var mensagem = messagesCaptcha.criarErro('Texto incorreto. Tente novamente!');
-			wrapper.append(mensagem);
-			} else {$("#image_captcha").hide();
-			
-			if (data['metodo'] == null) {
-				var mensagem = messagesCaptcha.criarSucesso('Código de segurança validado com sucesso!');
-				wrapper.append(mensagem);
-			} else {
-				var f = document.forms[0];
-				f.metodo.value = 'captchaValido';
-				f.submit();
-			}
-			
-			}
-			}
-	};
-	var messagesCaptcha = {
-		getWrapper : function() {
-			return $('#wrapper-messages-captcha');
-		},
-		limpar : function() {
-			messagesCaptcha.getWrapper().empty();
-		},
-		criarSucesso : function(msg) {
-			var wrapper = $("<div class='divMessageSucesso' />"), colunaIcone = $(
-					"<div class='divIconeSucesso' />").appendTo(wrapper), icone = $(
-					"<span class='spanIconeSucesso' />").appendTo(
-					colunaIcone), colunaMensagem = $(
-					"<div class='divMensagemSucesso' />").text(msg)
-					.appendTo(wrapper), colunaClear = $(
-					"<div class='divClear' />").appendTo(wrapper);
-			return wrapper;
-		},
-		criarErro : function(msg) {
-			var wrapper = $("<div class='divMessageErro' id='divMessageErro' />"), colunaIcone = $(
-					"<div class='divIconeErro' />").appendTo(wrapper), icone = $(
-					"<span class='spanIconeErro' />").appendTo(
-					colunaIcone), colunaMensagem = $(
-					"<div class='divMensagemErro' />").text(msg)
-					.appendTo(wrapper), colunaClear = $(
-					"<div class='divClear' />").appendTo(wrapper);
-			return wrapper;
-		}
-	};
- 	$(document).ready(function() {
- 		$("#informado").focus();
- 	    cnpqCaptcha.refreshCaptcha();
-		$('#btn_refresh_captcha').bind('click', cnpqCaptcha.refreshCaptcha);
 		
-	}); 
-	$(document).keypress(function(e) {
-		 if (e.which == 13) {
-		 validaCaptcha();
-		 document.getElementById("informado").value='';
-		 return false;
-		 }						
-		 });
-
-	 function validaCaptcha(){		 
-		 var data = {
-		 informado : $("#informado").val(),
-		 id : $("#id").val(),
-		 metodo : 'validaCaptcha',
-		 };		
-		 cnpqCaptcha.doGet(data, function(result) {
-		 messagesCaptcha.limpar();
-		 var wrapper = messagesCaptcha.getWrapper();	
-		 if (result.estado == "sucesso") {
-			 cnpqCaptcha.validacaoCaptchaCallback(data);
-		 $("#divBotoes").hide();
-		 $("#image_captcha").hide();
-		 $("#informado").hide();
-		 $("#divInformativa").hide();
-		 
-		 $("#wrapper-messages-captcha").hide();
-		 
-		 document.getElementById('div_gif').innerHTML="<img style=\"-webkit-user-select: none\" src=\"/buscatextual/images/gif/ajax-loader.gif\">";
-		 }else{			
-			 document.getElementById('informado').value="";		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
 		
-		 var mensagem = messagesCaptcha
-		 .criarErro('Texto incorreto. Tente novamente!');				
-		 wrapper.append(mensagem);
-		 cnpqCaptcha.refreshCaptcha();		
-		 }
-		 });
-	 }
-	function getAudio(){
-		 var timestamp = Number(new Date());
-		document.getElementById('audio_span').innerHTML="<audio src=\"/buscatextual/servlet/captcha?metodo=getAudioCaptcha&noCache="+timestamp+"+\" type=\"audio/mpeg;codecs=mp3\" autoplay>"+
-		"<p>Your browser does not support the audio element</p></audio>";
-		$("#informado").focus();
-		};
-</script>
-<div class="divCaptcha" id="divCaptcha">
-	<div id="divInformativa">
-		<h2 class="tituloCaptcha">Código de segurança</h2>
-		<span><h3 class="subTituloCaptcha">Digite os caracteres da
-				imagem abaixo</h3> <br></span>
-	</div>
-	<div id="wrapper-messages-captcha"></div>
-	<input type="text" size="10"
-		title="Digite os caracteres da imagem abaixo" class="inputCaptcha"
-		name="informado" id="informado" maxlength="4">
-	<div align="center" class="divImageCaptcha" id="div_image_captcha">
-		<img border="0" alt="Captcha" class="imageCaptcha" id="image_captcha">
-	</div>
-	<div style="margin-top: 10px; padding: 0 7px 0 140px;" id="divBotoes">
-		<a title="Obter outro código de segurança" id="btn_refresh_captcha"
-			href="javascript:void(0)"> <span class="icon icon-atualizar"></span></a>&nbsp;
-		<a title="Escutar áudio do código de segurança" id="btn_audio_captcha"
-			href="javascript:getAudio()"> <span class="icon icon-volume"></span>
-		</a>
-		<div class="divButtonCaptcha">
-			<a class="linkButtonCaptcha" title="Submeter"
-				id="btn_validar_captcha" href="javascript:validaCaptcha()">Submeter</a>
-		</div>
-	</div>
-
-	<span id="audio_span"></span>
 	
-   <div align="center"  id='div_gif'>  	
-   </div>	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4299869U9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
 </div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4299869U9"><div class="infpessoa">
+<h2 class="nome">Priscila Gularte Padoin</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/7774559680471749</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 21/02/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Graduada em Fisioterapia pela Universidade Federal de Santa Maria (UFSM) em 2009; Mestre em Pediatria e Saúde da Criança pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), com bolsa CAPES ; Doutora pelo Programa de Pós-Graduação em Pediatria e Saúde da Criança, com bolsa CAPES. Realizou Doutorado Sanduíche no Murdoch Children Research Institute, Austrália. Possui grau de Licenciatura pelo Programa Especial de Graduação (PEG) Formação de Professores para a Educação Profissional, na UFSM. Foi professora substituta no Curso de Graduação em Fisioterapia e da Residência Multiprofissional da Universidade Federal do Pampa de março de 2017 até janeiro de 2018. Atualmente é professora do Sistema de Ensino Gaúcho nos cursos Técnicos da área de Saúde, bem como coordenadora do curso Técnico em Massoterapia .<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Priscila Gularte Padoin</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PADOIN, P. G.;PADOIM, P;PADOIM, P.;PADOIN, PRISCILA;Padoim P;PADOIM PRISCILA;PADOIM, PRISCILA</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Programa de Pós graduação em Pediatria e Saúde da Criança<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>sanduíche </b> em Murdoch Childrens Research Institute (Orientador: Peter Dargaville). <br class="clear" />Título: Diferentes métodos de ventilação mecânica em modelo experimental de lesão pulmonar por depleção de surfactante em suínos recém-nascidos, Ano de obtenção: 2016. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2201434748530559'><img src='images/curriculo/logolattes.gif' /></a>Humberto Holmer Fiori. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Modelo experimental; Síndrome do Desconforto Respiratório; Prematuridade.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Programa de Pós graduação em Pediatria e Saúde da Criança<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Avaliação de técnicas de fisioterapia respiratória em modelo experimental de atelectasia em suínos recém-nascidos,Ano de Obtenção: 2012.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2201434748530559'><img src='images/curriculo/logolattes.gif' /></a>Humberto Holmer Fiori.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências da Saúde</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização interrompida em 2013 em Especialização em Atividade Física e Saúde<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: INFLUÊNCIA DA VELOCIDADE DO ANDAR SOBRE A MECÂNICA ARTICULAR DOS MEMBROS INFERIORES EM CRIANÇAS OBESAS. <br class="clear" />Orientador: Carlos Bolli Motta. <br class="clear" />Ano de interrupção: 2013</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em LicenciaturaPlena Programa Especial Graduação de Formação de Profissional<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: EXTENSÃO UNIVERSITÁRIA E A INTERFACE COM A EDUCAÇÃO EM SAÚDE. <br class="clear" />Orientador: Leila Araújo dos Santos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Fisioterapia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Análise comparativa entre idosos praticantes de exercício físico e sedentários quanto ao risco de quedas. <br class="clear" />Orientador: Marisa Pereira Gonçalves. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Médio (2º grau)<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Colegio Franciscano Sant'Anna, CFS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em CUIDADOS MANEJO DE ANIMAIS DE EXPERIMENTAÇÃO.  (Carga horária: 20h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">RTA básico.  (Carga horária: 67h). <br class="clear" />Método Reequilíbrio Tóracoabdominal, RTA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado Sanduíche.  (Carga horária: 700h). <br class="clear" />Murdoch Childrens Research Institute, mcri, Austrália.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em English for Health Care.  (Carga horária: 200h). <br class="clear" />English School of Canada, ESC, Canadá.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso de Capacitação de Tutores.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vicon Motion Systems Workshop.  (Carga horária: 16h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Observação de aulas.  (Carga horária: 21h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Lingua Inglesa.  (Carga horária: 540h). <br class="clear" />Challenger Brasil, CHALLENGER BRASI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">equoterapia.  (Carga horária: 8h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Kumon. <br class="clear" />Kumon, KUMON, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Kumon. <br class="clear" />Kumon, KUMON, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Lingua Italiana. <br class="clear" />Circolo Trentino di Santa Maria, CTSM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Murdoch Childrens Research Institute, mcri, Austrália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Reseach Assistant, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atuação profissional como assistente de pesquisador no Murdoch Children Reseach Institute, o qual é o maior e mais prestigiosa organização de pesquisa em crianças da Austrália, é também renomado mundialmente per suas pesquisas sobre saúde em bebês, crianças e adolescentes. Durante o período trabalhei em projetos com modelo experimental de ovinos prematuros, focada na obtenção, análise e processamento de dados. Ampla experiência com o LabChart para análise de dados de pletismografia pulmonar e mecânica ventilatória e também com Electrical Impedance Tomography (EIT).</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Murdoch Children Research Institute, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Pesquisa com modelo experimental em ovinos prematuros'>Pesquisa com modelo experimental em ovinos prematuros</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno Bolsista, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto de Pesquisas Biomédicas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Neonatologia'>Neonatologia</a><br class="clear" /><a href='#LP_Modelo experimental com suínos recém-nascidos'>Modelo experimental com suínos recém-nascidos</a><br class="clear" /><a href='#LP_ventilação mecânica'>ventilação mecânica</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Hospital Universitário de santa Maria, HUSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro (especifique), Enquadramento Funcional: Monitora, Carga horária: 10</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estudante, Enquadramento Funcional: Estudante de graduação, Carga horária: 16</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa especial de de graduação de Formação de Professores para a Educação Profissional</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estudante, Enquadramento Funcional: Estudante de graduação, Carga horária: 30</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro de Educação - UFSM, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Educação em Saúde'>Educação em Saúde</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2010 - 11/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Colégo Técnico Industrial de Santa Maria, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Observação de aulas no CTISM, na disciplina de Gerênciamento de Riscos, do Curso Técnico em Segurança do Trabalho. Perfazendo um total de 21 horas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Fisioterapia, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Idosos'>Idosos</a><br class="clear" /><a href='#LP_Quedas em idosos'>Quedas em idosos</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro de Educação Física e Desportos, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Biomecânica do Movimento Humano'>Biomecânica do Movimento Humano</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2008 - 08/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Serviço de Fisioterapia do HUSM, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio extracurricular no Serviço de Fisioterapia do Hospital Universitário de Santa Maria. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Hospital Universitário de Santa Maria, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio acadêmico no Programa Multidisciplinar de Reabilitação cardíaca Secundária em Doenças Cardiovasculares - Revicárdio. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Faculdade Ceneicista de Osório, FACOS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Docência Orientada, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Docência orientada ministrada na disciplina de História da Fisioterapia, perfazendo 40 horas.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />História da Fisioterapia<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Sistema de Ensino Gaúcho, SEG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Coordenador do Curso Técnico em Massoterapia, Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor horista, Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso Técnico em Radiologia, Nível: Ensino Médio</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Anatomia Humana<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2015 - 02/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso Técnico em Massoterapia, Nível: Ensino Médio</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Anatomia e Fisiologia III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2015 - 12/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso Técnico em Massoterapia, Nível: Ensino Médio</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Noções de Nutrição e dietética<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2015 - 10/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso Técnico em Massoterapia, Nível: Ensino Médio</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Anatomia e Fisiologia II<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto de Desenvolvimento Educacional do Alto Uruguai, IDEAU, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: professora convidada, Enquadramento Funcional: Horista, Carga horária: 16</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Especialização em Fisiologia do Exercício</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2015 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização em Fisiologia do Exercício, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fisioterapia no Esporte<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor Substituto, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - 01/2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Ergonomia<br class="clear" />Psicomotricidade<br class="clear" />Fisioterapia em neurologia 1<br class="clear" />Estágio supervisionado - Fisioterapia neurológica infantil<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - 12/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Programas de Residência Multiprofissional em Saúde e em Área Profissional, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Disciplina <br class="clear" />Epidemiologia<br class="clear" />Atuação da Fisioterapia na promoção a saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - 07/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cinesioterapia I<br class="clear" />Recursos em eletrotermofototerapia 1<br class="clear" />Fisioterapia em ortopedia traumatologia e reumatologia 2 <br class="clear" />Fisioterapia do trabalho<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Idosos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Idosos</div>
+</div><a name='LP_Quedas em idosos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Quedas em idosos</div>
+</div><a name='LP_Biomec&acirc;nica do Movimento Humano'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Biomecânica do Movimento Humano</div>
+</div><a name='LP_Educa&ccedil;&atilde;o em Sa&uacute;de'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação em Saúde</div>
+</div><a name='LP_Neonatologia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Neonatologia</div>
+</div><a name='LP_Modelo experimental com su&iacute;nos rec&eacute;m-nascidos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelo experimental com suínos recém-nascidos</div>
+</div><a name='LP_ventila&ccedil;&atilde;o mec&acirc;nica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ventilação mecânica</div>
+</div><a name='LP_Pesquisa com modelo experimental em ovinos prematuros'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa com modelo experimental em ovinos prematuros</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_An&aacute;lise da mec&acirc;nica articular de membros inferiores ap&oacute;s 4 a 8 anos da cirurgia de reconstru&ccedil;&atilde;o do lca em tarefas multiarticulares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise da mecânica articular de membros inferiores após 4 a 8 anos da cirurgia de reconstrução do lca em tarefas multiarticulares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A ruptura do ligamento cruzado anterior (LCA) é a lesão ligamentar de joelho mais comum, ocorrendo em sua maioria em esportes e atividades recreacionais. A reconstrução deste ligamento é o tratamento comumente preferido. Geralmente os resultados depois da reconstrução do LCA são bons, e os pacientes podem retornar às suas atividades recreacionais ou esportivas. Porém, após um período de aproximadamente um ano do retorno, esses indivíduos ainda mostram déficits neuromusculares no membro envolvido em relação ao membro não envolvido e a indivíduos sem lesão durante tarefas de movimento multiarticulares como agachar, saltar e andar. Tem sido demonstrado que joelhos com LCA deficiente tornam-se predispostos a lesões subsequentes, ao aparecimento precoce da osteoartrose e a compensações de joelho contralateral e de quadril ipsilateral em detrimento do joelho acometido. Nessa perspectiva, o presente estudo objetiva analisar o momento articular do joelho após 4 a 8 anos da cirurgia de reconstrução do LCA. Serão avaliados indivíduos do sexo masculino entre 25 e 45 anos de idade, que realizaram a reconstrução de 4 à 8 anos. A avaliação consistirá em anamnese, teste funcional de joelho e análise cinética e cinemática da marcha e do salto vertical. Para tal, serão utilizados alguns questionários para caracterização da amostra, sistema de análise cinemática, plataformas de força e fotocélulas. O nível de significância adotado para todos os testes estatísticos que serão realizados será de 5%... <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Mateus Corrêa Silveira - Integrante / Carlos Bolli Mota - Coordenador / Karine Josibel Velasques Stoelben - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o da mobiliza&ccedil;&atilde;o de secre&ccedil;&otilde;es durante a ventila&ccedil;&atilde;o mec&acirc;nica em pediatria utilizando modelo experimental su&iacute;no'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação da mobilização de secreções durante a ventilação mecânica em pediatria utilizando modelo experimental suíno<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Talitha Comaru em 15/11/2014.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Objetivos: Avaliar os efeitos de um protocolo de fisioterapia respiratória, sobre o movimento de secreções, utilizando a técnica de vibrocompressão manual torácica. Delineamento: estudo experimental em duas fases ( 6h e 60h de ventilação mecânica) Sujeitos do estudo: vinte leitões Large White- Landrace (12-15Kg) Local: Laboratório de Habilidades Médicas e Pesquisa Cirúrgica da PUCRS Métodos: Os animais serão sedados, anestesiados, colocados em ventilação mecânica e preparados cirurgicamente. Após o período de estabilização pós-cirúrgica e decorridas aproximadamente 4 horas de ventilação mecânica, será infundido muco artificial e aplicado o protocolo de fisioterapia respiratória, pela técnica de vibrocompressão torácica, durante 15 minutos, seguida de aspiração do tubo endotraqueal. Medidas de desfecho: serão avaliadas a velocidade e a direção de deslocamento das secreções,a mecânica respiratória e a estabilidade cardiovascular.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Talitha Comaru - Coordenador / FIORI, H. H. - Integrante / Leonardo Araujo Pinto - Integrante / Renato Teitelbom Stein - Integrante / Giordano Gianotti - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_Diferentes m&eacute;todos de ventila&ccedil;&atilde;o mec&acirc;nica em modelo experimental de les&atilde;o pulmonar por deple&ccedil;&atilde;o de surfactante em su&iacute;nos rec&eacute;m-nascidos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diferentes métodos de ventilação mecânica em modelo experimental de lesão pulmonar por depleção de surfactante em suínos recém-nascidos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Síndrome do Desconforto Respiratório (SDR) é a principal causa de insuficiência respiratória neonatal, acomete em cerca de 0,5 a 1% dos nascidos vivos e é a principal causa de morbidade e mortalidade em recém-nascidos prematuros. A principal causa do desenvolvimento da SDR é a deficiência de surfactante associada á imaturidade pulmonar, porém alguns fatores contribuem, tais como a inativação do surfactante alveolar, o desenvolvimento estrutural incompleto do parênquima pulmonar e a complacência exagerada da caixa torácicaApesar avanços no suporte ventilatório e terapia de reposição de surfactante, esta doença continua sendo uma causa importante de morbidade e mortalidade neonatal. Embora existam vários tipos de ventilação mecânica, incluindo ventilação por pressão controlada, controlada por volume, de pressão positiva de alta frequência, e esta ser de fundamental importância para os cuidados pediátricos e neonatais, o modo ideal de ventilação ainda não está claro para pacientes com SDR. Somada à essa condição, ventiladores de alta frequência são poucos disponíveis em nosso meio, uma abordagem alternativa na SDR baseia-se no emprego de frequências mais altas e tempos inspiratórios muito curtos.Alguns parâmetros importantes para a avaliação da segurança e eficácia da ventilação mecânica são eticamente inaceitáveis quando pensamos em pesquisas envolvendo recém-nascidos humanos. Portanto o modelo experimental trás a possibilidade de avaliar cuidadosamente os benefícios ou potenciais efeitos deletérios de dois modos ventilatórios em recém-nascidos. 
+Baseado nesses fatos, o objetivo desse estudo é analisar e comparar dois métodos de ventilação mecânica em modelo experimental de síndrome do desconforto respiratório em suínos recém-nascidos induzida por lavagens repetidas dos pulmões com soro fisiológico para a depleção de surfactante.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Coordenador / Jaqueline BAsso Stivanin - Integrante / FIORI, H. H. - Integrante.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa.<br class="clear" />Número de produções C, T & A: 3</div>
+</div><a name='PP_INFLU&Ecirc;NCIA DA VELOCIDADE DO ANDAR SOBRE A MEC&Acirc;NICA ARTICULAR DOS MEMBROS INFERIORES EM CRIAN&Ccedil;AS OBESAS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">INFLUÊNCIA DA VELOCIDADE DO ANDAR SOBRE A MECÂNICA ARTICULAR DOS MEMBROS INFERIORES EM CRIANÇAS OBESAS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Considerada pela Organização Mundial da Saúde (OMS) como um dos dez principais problemas de saúde pública do mundo, a obesidade vem crescendo em taxas alarmantes no Brasil, especialmente entre crianças. Considerando projeções estatísticas, em dez anos as pessoas obesas responderão por cerca de 30% da população brasileira (IBGE 2009). A publicação do IBGE (Instituto Brasileiro de Geografia e Estatística) de 2010 revelou que, na região sul do Brasil, na faixa etária de 5 a 9 anos, o excesso de peso triplicou de 1975 a 2009 (de 12,2% para 36,3% em meninos e de 9,7% para 35,5% em meninas) e a obesidade aumentou em quase seis vezes (de 2,9% para 16,7%) no sexo masculino e em nove vezes (de 1,8% para 16,2%) no feminino
+Objetivo Geral
 
+Analisar a relação entre a cinemática angular e cinética da marcha de crianças obesas e sobrepeso em três diferentes velocidades de marcha: auto-selecionada, lenta e rápida. 
 
+Objetivos específicos 
 
-							</div>
-                        </div>   
+-Comparar os momentos articulares resultantes do quadril, joelho e tornozelo nos planos sagital, frontal e transversal em três grupos de crianças diferenciados conforme sobrepeso, obesidade e peso normal em três velocidades de marcha lenta, rápida e auto-selecionada.
+- Comparar as variáveis cinéticas entre os diferentes grupos e condições de andar;. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Carlos Bolli Mota - Coordenador / cecilia facco - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Avalia&ccedil;&atilde;o de t&eacute;cnicas de fisioterapia respirat&oacute;ria em modelo experimental de atelectasia em su&iacute;nos rec&eacute;m-nascidos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação de técnicas de fisioterapia respiratória em modelo experimental de atelectasia em suínos recém-nascidos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Comparar a eficácia de duas técnicas de fisioterapia respiratória, em modelo experimental de atelectasia, por obstrução brônquica em suínos recém-nascidos. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (2)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Coordenador / Jaqueline BAsso Stivanin - Integrante / Talitha Comaru - Integrante / FIORI, H. H. - Integrante.<br class="clear" /></div>
+</div><a name='PP_Hemiplegia no HUSM: uma abordagem de terapia em grupo'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Hemiplegia no HUSM: uma abordagem de terapia em grupo<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente estudo tem por objetivo principal promover atividades de aprendizagem motora, relaxamento e troca de experiências em grupo. Mais especificamente, a pesquisa prima por: acentuar o crescimento pessoal e o desenvolvimento e aperfeiçoamento da comunicação e relações interpessoais através de um processo experiencial; promover a troca de experiências e o crescimento interpessoal; maximizar o aprendizado com base nos conhecimentos sobre neurônio espelho e manter a qualidade de vida das componentes do grupo e a maior independência nas atividades de vida diárias. A pesquisa será do tipo experimental, realizada com indivíduos hemiplégicas após acidente vascular cerebral (AVC) com seqüelas instaladas por um período igual ou superior a dois anos, submetidas a tratamento prévio fisioterapêutico no Serviço de Fisioterapia do HUSM. Será explicitado a proposta do estudo, esclarecendo os objetivos, a metodologia, riscos e benefícios, convidando-os a participar de forma voluntária. Se aceito lhe será entregue um termo de consentimento livre e esclarecido individualmente e, somente então se dará início aos procedimentos. Posteriormente será aplicado o mini exame do estado mental. Será aplicado um questionário com o objetivo de traçar um perfil das características, limitações e queixas da amostra visando uma melhor abordagem a partir do perfil epidemiológico do grupo. Assim como, o equilíbrio dos sujeitos também será avaliado, através da plataforma de força que encontra-se no Centro de Educação Física e Desportos da UFSM. As atividades serão desenvolvidas em um grupo composto por 16 hemiplégico, numa freqüência de uma vez por semana, com duração de uma hora.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Coordenador / Ana Lucia Cervi - Integrante / Jaqueline BAsso Stivanin - Integrante / Vanessa Lago Morin - Integrante.<br class="clear" /></div>
+</div><a name='PP_REEDUCA&Ccedil;&Atilde;O NEURO FUNCIONAL NA ATROFIA ESPINHAL PROGRESSIVA P&Oacute;S IMPLANTE DE C&Eacute;LULAS-TRONCO FETAIS BULBO OLFATIVAS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">REEDUCAÇÃO NEURO FUNCIONAL NA ATROFIA ESPINHAL PROGRESSIVA PÓS IMPLANTE DE CÉLULAS-TRONCO FETAIS BULBO OLFATIVAS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Acredita-se teoricamente, que um programa que estimule as funções motora e respiratória irá direcionar a diferenciação das células tronco implantadas, especializando-as em neurônios motores capazes de desempenhar funções normais. Assim, justifica-se o presente estudo pela raridade do caso que remete à inexistência de material bibliográfico sobre o tema. A observação controlada irá permitir a descrição detalhada da resposta à reeducação neurofuncional sobre as seqüelas da AEP, que se for satisfatória, poderá sinalizar o uso benéfico das células-tronco embrionárias com fins terapêuticos, tendo a fisioterapia um papel importante como facilitador na especialização destas células primitivas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Ana Lucia Cervi - Coordenador / Jaqueline BAsso Stivanin - Integrante / Vanessa Lago Morin - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o do desempenho esportivo no ciclismo'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação do desempenho esportivo no ciclismo<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto de pesquisa tem como objetivo geral disponibilizar, primariamente, à comunidade ciclística de Santa Maria, avaliações do desempenho esportivo e como objetivos específicos: - Realização de avaliações do desempenho esportivo para ciclistas competitivos ou àqueles que queiram iniciar a carreira esportiva; - Avaliar as características antropométricas peso, altura e IMC ao longo do período competitivo; - Identificação dos programas, estratégias e formas de obtenção de conhecimento sobre o treinamento utilizado por ciclistas; - Coletar informações sobre o conhecimento existente quanto à programação do treinamento por parte dos atletas. - Intervenções no sentido de contribuir no planejamento por parte dos ciclistas de seus treinamentos em uma visão multidisciplinar por meio da elaboração de material didático e/ou palestras; - Criação de uma base de dados anual para identificação do quão efetivo são os programas de treinamento com base em avaliações periódicas do desempenho esportivo e das características antropométricas dos ciclistas; - Traçar o perfil de vitórias individuais e por equipe em pontos a fim de verificar a efetividade das estratégias de intervenção utilizadas no projeto no fim do calendário competitivo. - Re-estruturação e aperfeiçoamento do projeto mediante reflexões a respeito de seus objetivos e grau de aplicabilidade.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Especialização: (2)  / Mestrado acadêmico: (2)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Carlos Bolli Mota - Coordenador / Matheus Joner Wiest - Integrante / Tiane Lorenzen dos Santos - Integrante / Frederico Dagnesse - Integrante / Elizandro de Assis Martins - Integrante.<br class="clear" /></div>
+</div><a name='PP_AN&Aacute;LISE COMPARATIVA ENTRE IDOSOS PRATICANTES DE EXERC&Iacute;CIO F&Iacute;SICO E SEDENT&Aacute;RIOS QUANTO AO RISCO DE QUEDAS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ANÁLISE COMPARATIVA ENTRE IDOSOS PRATICANTES DE EXERCÍCIO FÍSICO E SEDENTÁRIOS QUANTO AO RISCO DE QUEDAS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente estudo tem por objetivo comparar o risco de quedas entre idosos sedentários e praticantes de exercício físico. Mais especificamente,verificar a prevalência de quedas entre 2 grupos de idosos: de sedentários e aqueles que praticam exercícios físicos, divididos conforme faixa etária e genero; levantar, por meio de questionário, o histórico de quedas dos idosos (dos dois grupos) no último ano; averiguar o tempo de execução dos 3 testes, Timed Up & Go, POMA e Escala de Berg, em idosos sedentários e idosos que praticam atividade física e comparar os valores obtidos nos testes entre os 2 grupos. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Marisa Pereira Gonçalves - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Influ&ecirc;ncia do Diabetes Mellitus sobre o controle postural'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Influência do Diabetes Mellitus sobre o controle postural<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo do presente estudo é identificar qual a influência do tipo de diabetes e de possíveis neuropatias relacionadas a este sobre a manutenção da postura ereta semi-estática. Os objetivos específicos são: Identificar a ação do diabetes mellitus tipo 1 sobre o equilíbrio estático. Identificar a ação do diabetes mellitus tipo 2 sobre o equilíbrio estático. Correlacionar os resultados das análises de equilíbrio estático dos sujeitos que apresentam diabetes entre si e com o grupo controle. Verificar a influencia da perda proprioceptiva com a manutenção da postura ereta semi-estática. Correlacionar as perdas proprioceptivas com desajustes no controle postural.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Carlos Bolli Mota - Coordenador / Matheus Joner Wiest - Integrante / Tiane Lorenzen dos Santos - Integrante / Frederico Dagnesse - Integrante / Elizandro de Assis Martins - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Programa de Extens&atilde;o em educa&ccedil;&atilde;o para a Quarta Col&ocirc;nia de Imigra&ccedil;&atilde;o Italiana no RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Extensão em educação para a Quarta Colônia de Imigração Italiana no RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Programa de Extensão em Educação para a Quarta Colônia de Imigração Italiana do Rio Grande do Sul ? Programa EDUQCII - visa a realização de ações de ensino, pesquisa e extensão, na área de Educação, nos municípios integrantes da Quarta Colônia de Imigração Italiana do Rio Grande do Sul. Ele está em atividade desde o ano de 2010 e é financiado pelo MEC através do Proext/Mec/SESu de 2010-2012. É coordenado pelo Colégio Técnico Industrial de Santa Maria e conta com o apoio do Centro de Educação da UFSM, Prefeitura Municipal de Ivorá e Prefeitura Municipal de Faxinal do Soturno.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Integrante / Leila Maria Araújo Santos - Coordenador / Cristiane Trivisiol Silva - Integrante / Michele Rodrigues Leitemperguer - Integrante / Carlos da Silva - Integrante.<br class="clear" />Financiador(es): Ministério da Educação - Auxílio
+										financeiro.</div>
+</div><a name='PP_Revic&aacute;rdio'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Revicárdio<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Programa Multidisciplina de Reabilitação Cardiovascular Secundária em Doenças Cardiovasculares.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Priscila Gularte Padoin - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Fisioterapia e Terapia Ocupacional. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DARGAVILLE, PETER A</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/s40635-015-0051-4" target="_blank"></a>DARGAVILLE, PETER A ; LAVIZZARI, ANNA ; <b>PADOIN, PRISCILA</b> ; BLACK, DON ; ZONNEVELD, ELROY ; PERKINS, ELIZABETH ; SOURIAL, MAGDY ; RAJAPAKSA, ANUSHI E ; DAVIS, PETER G ; HOOPER, STUART B ; MOSS, TIMOTHY JM ; POLGLASE, GRAEME R ; TINGAY, DAVID G . An authentic animal model of the very preterm infant on nasal continuous positive airway pressure. Intensive Care Medicine Experimental<sup><img id='2197425X_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='2197425X' /></sup>, v. 3, p. 13, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/s40635-015-0051-4&issn=2197425X&volume=3&issue=&paginaInicial=13&titulo=An authentic animal model of the very preterm infant on nasal continuous positive airway pressure&sequencial=1&nomePeriodico=Intensive Care Medicine Experimental" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HENN, ROSELI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1515/jpm-2014-0287" target="_blank"></a>HENN, ROSELI ; FIORI, RENATO MACHADO ; FIORI, HUMBERTO HOLMER ; PEREIRA, MANUEL RUTTKAY ; COLVERO, MAURÍCIO OBAL ; RAMOS GARCIA, PEDRO CELINY ; <b>PADOIM, PRISCILA</b> ; STIVANIN, JAQUELINE BASSO . Surfactant with and without bronchoalveolar lavage in an experimental model of meconium aspiration syndrome. Journal of Perinatal Medicine<sup><img id='16193997_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16193997' /></sup>, v. 43, p. 129-273, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1515/jpm-2014-0287&issn=16193997&volume=43&issue=&paginaInicial=129-273&titulo=Surfactant with and without bronchoalveolar lavage in an experimental model of meconium aspiration syndrome&sequencial=2&nomePeriodico=Journal of Perinatal Medicine" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COMARU, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.4187/respcare.02352" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1096139134504321" target="_blank">COMARU, T.</a> ; FIORI, H. H. ; FIORI, R. M. ; <b>PADOIM, P.</b> ; STIVANIN, J. B. ; DA SILVA, V. D. . Experimental Model of Atelectasis in Newborn Piglets. Respiratory Care<sup><img id='00201324_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00201324' /></sup>, v. 59, p. 121-126, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.4187/respcare.02352&issn=00201324&volume=59&issue=&paginaInicial=121&titulo=Experimental Model of Atelectasis in Newborn Piglets&sequencial=3&nomePeriodico=Respiratory Care" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PADOIN, P. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; GONÇALVES, M.P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1096139134504321" target="_blank">COMARU, T.</a> ; SILVA, A. M. V. . Análise comparativa entre idosos praticantes de exercício físico e sedentários quanto ao risco de quedas. O Mundo da Saúde (CUSC. Impresso)<sup><img id='01047809_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01047809' /></sup>, v. 34, p. 158-164, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01047809&volume=34&issue=&paginaInicial=158&titulo=Análise comparativa entre idosos praticantes de exercício físico e sedentários quanto ao risco de quedas&sequencial=4&nomePeriodico=O Mundo da Saúde (CUSC. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, R S</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>OLIVEIRA, R S ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8586428160068943" target="_blank">LEMOS, LFC</a> ; <b>PADOIN, P. G.</b> . Dossiê da Respiração Bucal. ISEF Digital<sup><img id='15109240_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15109240' /></sup>, v. 12, p. 1-13, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15109240&volume=12&issue=&paginaInicial=1&titulo=Dossiê da Respiração Bucal&sequencial=5&nomePeriodico=ISEF Digital" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; SANTOS, L. M. A. ; SILVA, C. T. ; LEITEMPERGUER, M. R. ; SILVA, C. . Uma interface entre extensão universitária e a educação em saúde. In: Leila Maria Araujo Santos. (Org.). Formação Docente em ações de extensão universitária - relatos de experiencia. 1ed.Santa Maria: , 2012, v. 1, p. 1-. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, M. C. ; POZZOBON, D. ; <b>PADOIN, P. G.</b> ; GUADAGNIN, E. C. ; MOTA, C. B. . Gait stability of adults walking in different light levels.. In: XXIV Congress of the International Society of Biomechanics, 2013, Natal. XXIV Congress of the International Society of Biomechanics, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUADAGNIN, E. C. ; SILVEIRA, M. C. ; POZZOBON, D. ; <b>PADOIN, P. G.</b> ; CARPES. F.P ; MOTA, C. B. . DOES AN ANATOMIC REFERENCE MARKER SERVE TO ESTIMATE HORIZONTAL CENTER OF MASS VELOCITY DURING GAIT?. In: XXIV Congress of the International Society of Biomechanics,, 2013, Natal. XXIV Congress of the International Society of Biomechanics,, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POZZOBON, D. ; <b>PADOIN, P. G.</b> ; DORNELES, P. P. ; MOTA, C. B. ; SILVEIRA, M. C. ; RIBEIRO, J. S. . Influence of Attentional Focus on the Mid-lateral Oscillation of the Center of Mass in Subjects With Low Back Pain,. In: XXIV Congress of the International Society of Biomechanics, 2013, Natal. XXIV Congress of the International Society of Biomechanics, 2013. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		DARGAVILLE, P. ; LAVIZZARI, A. ; <b>PADOIN, P. G.</b> ; BLACK, D. ; ZONNEVELD, E. ; SOURIAL, M. ; PERKINS, E. ; RAJAPAKSA, A. ; TINGAY, D. . AN AUTHENTIC ANIMAL MODEL OF THE VERY PRETERM INFANT ON NASAL CONTINUOUS POSITIVE AIRWAY PRESSURE. In: 18th Congress of the Perinatal Society of Australia and New Zealand, 2014, Perth, AU. Journal of Paediatrics and Child Health, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STIVANIN, J. B. ; <b>PADOIN, P. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1096139134504321" target="_blank">COMARU, T.</a> ; MENEZES, M. ; FIORI, H.H. . Bag Squeezing during Bronchoalveolar Lavage with Surfactant in a Piglet Model of Meconium Aspiration Syndrome. In: PEDIATRIC ACADEMIC SOCIETIES 2012 Annual Meeting, 2012, Boston. CD-ROM PEDIATRIC ACADEMIC SOCIETIES 2012 Annual Meeting, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1159/000326687" target="_blank"></a>FIORI, R.M. ; HENN, R. ; FIORI, H.H. ; <b>PADOIN, P. G.</b> ; GARCIA, P.C.R. . Surfactant with and without Bronchoalveolar Lavage for Meconium Aspiration Syndrome. In: 26th International Workshop on Surfactant Replacement, Istanbul, 2011, Instambul. Neonatology, 2011. v. 99. p. 367-367. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HENN, R. ; FIORI, H.H. ; PEREIRA, M.R. ; <b>PADOIN, P. G.</b> ; GARCIA, P.C.R. ; FIORI, R.M. . Surfactant administration with and without Bronchoalveolar Lavage for the Treatment of Meconium Syndrome in Newborn Piglets. In: Pediatriac Academic Societies Annual Meeting., 2011, Denver. PAS/ASPR 2011 - Joint Meeting, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; FIORI, H.H. . Avaliação de técnicas de fisioterapia respiratória em modelo experimental de atelectasia em suínos recém-nascidos. In: V Mostra de Pesquisa e Pós-Graduação da PUCRS, 2010, Porto Alegre. V Mostra de Pesquisa e Pós-Graduação Da PUCRS. Porto Alegre: EdiPUCRS, 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>. XI Semana Acadêmica - O CEFD em questão: O Estudante pensando os rumos da universidade e da fomação. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; STIVANIN, J. B. ; FIORI, H.H. . Avaliação de técnicas de fisioterapia respiratória em modelo experimental de atelectasia em suínos recém-nascidos. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STIVANIN, J. B. ; <b>PADOIN, P. G.</b> ; FIORI, H.H. . Manobra de Bag-Squeezing em Modelo Experimental de Síndrome de Aspiração de Mecônio. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; STIVANIN, J. B. ; FIORI, H.H. . Avaliação de Técnicas de Fisioterapia Respiratória em Modelo Experimental de Atelectasia em Suínos Recém-Nascidos. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; FIORI, H.H. . Avaliação de técnicas de fisioterapia respiratória em modelo experimental de atelectasia em suínos recém-nascidos. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WIEST, M.J. ; CARPES. F.P ; POZZOBON, D. ; <b>PADOIN, P. G.</b> ; PETERSEN, R.D.S. . Comparação dos efeitos da fadiga de flexores plantares sobre os ajustes posturais nos membros preferido e não-preferido. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Joner Wiest ; Carlos Bolli Mota ; CARPES. F.P ; Frederico Dagnesse ; MARTINS, E. A. ; <b>PADOIN, P. G.</b> ; Tiane Lorenzen dos Santos ; POZZOBON, D. . Alterações no equilibrio estatico provocados pelo diabetes mellitus tipo II. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Joner Wiest ; Carlos Bolli Mota ; CARPES. F.P ; Frederico Dagnesse ; <b>PADOIN, P. G.</b> ; POZZOBON, D. ; Tiane Lorenzen dos Santos . Efeitos da corrida no equilibrio estatico. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>. Pareceres de Avaliação de Posters e Apresentações Orais do IX Congresso Internacional de Fisioterapia da Sociedade Brasileira de Fisioterapia. 2017. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>. Relatório de atividades desenvolvidas no Doutorado Sanduiche. 2013. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; FIORI, H. H. ; STIVANIN, J. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1096139134504321" target="_blank">COMARU, T.</a> . Avaliação de técnicas de fisioterapia respiratória em modelo experimental de atelectasia em suínos recém-nascidos. 2012. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; LEITEMPERGUER, M. R. ; SANTOS, L. M. A. ; SILVA, C. T. ; SILVA, C. . Programa de Extensão em Educação para a Quarta Colônia de Imigração Italiana do RS. 2011. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; GONÇALVES, M.P. . Análise comparativa entre idosos praticantses de exercício físico e sedentários quanto ao risco de quedas. 2009. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cervi, A. L. ; <b>PADOIN, P. G.</b> ; STIVANIN, J. B. ; MORIN, V.L. . Uma perspectiva de reabilitação neuro-funcional após transplante de celulas-tronco fetais: um relato de caso. 2009.
+							(palestra sobre celulas-tronco, fisioterapia e relato de caso).
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PADOIN, P. G.</b>.  Participação em banca de Lenice Segabinazzi Lopes."INTERVENÇÃO MOTORA NA EDUCAÇÃO INFANTIL: UM INCREMENTO PARA O DESENVOLVIMENTO"..
+							2017. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9 SIEPE.A FISIOTERAPIA COMO TRATAMENTO NA POLIOMIELITE: UM RELATO DE EXPERIÊNCIA.
+							2017. (Simpósio). 
 					</div>
-				</div>
-			</div>
-		</div>
-	</form>
-</body>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Internacional de Fisioterapia. 2017. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Internacional em Neonatologia na PUCRS.
+							2016. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Congresso Brasileiro de Engenharia Biomédica. INFLUÊNCIA DA VELOCIDADE DO ANDAR SOBRE A MECÂNICA ARTICULAR DOS MEMBROS INFERIORES EM CRIANÇAS OBESAS. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio em Neuromecânica Aplicada: Análise tridimensional do Movimento Humano.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II simpósio internacional de neonatologia de Porto Alegre. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">10 Acampavida.Oficina de Fisioterapia. 2008. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI jornada gaucha de Fisioterapia Cardiorespiratória e de Fisioterapia Intensiva. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Crescimento e Desenvolvimento Infantil. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIBEIRO, J. S. ; RITZEL, P. ; RIBEIRO, G. ; <b>PADOIN, P. G.</b> . Semana da Massoterapia. 2016. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetosPesquisaPI"></a><br class="clear" /><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="CursosCurtaEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7774559680471749" target="_blank">PADOIN, P. G.</a></b>; LEITEMPERGUER, M. R. ; SANTOS, L. M. A. ; SILVA, C. T. ; SILVA, C. . Programa de Extensão em Educação para a Quarta Colônia de Imigração Italiana do RS. 2011. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 16:25:32</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=7774559680471749" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

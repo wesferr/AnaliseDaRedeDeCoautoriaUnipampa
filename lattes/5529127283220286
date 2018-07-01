@@ -1,244 +1,2408 @@
-
-
-
-
-
-<!DOCTYPE HTML>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/bootstrap.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/style.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/advanced.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/captcha.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/demo/style.css">
-<link rel="stylesheet" type="text/css"
-	href="/buscatextual/resources/css/estilo-busca-textual.css">
-<link href='http://fonts.googleapis.com/css?family=Ubuntu'
-	rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:300'
-	rel='stylesheet' type='text/css'>
-<script src="/buscatextual/resources/js/jquery.js"></script>
-<script
-	src="/buscatextual/resources/js/bootstrap.js"></script>
-</head>
-<body>
-	<div class="header">
-	<div class="header-content max-width">
-		<div class="identity center">
-			<div class="combo">
-				<a href="http://lattes.cnpq.br/" title="Currículo Lattes"
-					target="_blank"><img title="Currículo Lattes"
-					alt="Currículo Lattes"
-					src="/buscatextual/images/titulo-sistema.png"> </a>
-			</div>
-			<div class="logo">
-				<a
-					title="CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico"
-					target="_blank" href="http://www.cnpq.br"> </a>
-			</div>
-			<div class="menu-header">
-				<!--<a
-					class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais"
-					href="javascript:void(0)" title="Aumentar a fonte"> </a> <a
-					class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos "
-					href="javascript:void(0)" title="Fonte padrão"> </a> <a
-					class="bt-menu-header titBottom contraste icons-top icons-top-contraste"
-					href="javascript:void(0)" title="Alto contraste"></a>  <a
-					title="Click here to change the language to english"
-					class="bt-menu-header titBottom icons-top icons-top-enUK"
-					onClick="mudarIdioma()" id="idBandeira" href="javascript:void(0)">
-				</a>  <a class="bt-menu-header titBottom  icons-top icons-top-help"
-					target="_blank"
-					href="http://ajuda.cnpq.br/index.php/Página_principal"
-					title="Ajuda"> </a>-->
-			</div>
-		</div>
-	</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/46C0EAAE-1500-5E42-BB38-375500EB7B5E/main.js" charset="UTF-8"></script><script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_-1960159244|rpid=1296301080|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Andr&eacute;ia Caroline Fernandes Salgueiro)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
 </div>
-
-	<form name="visualizacvForm" id="formulario" method="post" action="/buscatextual/visualizacv.do" enctype="multipart/form-data">
-		<input type="hidden" name="metodo" value="" id="metodo">
-		<input type="hidden" name="id" value="K4294007Z9" id="id">
-		<input type="hidden" name="idiomaExibicao" value="" id="idiomaExibicao">
-		<input type="hidden" name="tipo" value="" id="tipo">
-		<div class="wrap ">
-			<div class="container">
-				<div class="conteudo">
-					<div class="iframe-simulation">				
-                      <div class="conteudo-2">
-                            <div class="layout-cell layout-cell-6 captcha">
-								<script type="text/javascript">
-		var segundos = 3; //3segundos
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4294007Z9&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=5529127283220286" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
 		
-		setTimeout(function(){
-		  $('#divMessageSucesso').fadeIn();
-		}, segundos*1000);	
-
-	var cnpqCaptcha = {
- 		refreshCaptcha : function() {
-			var timestamp = Number(new Date());
-			document.getElementById('div_image_captcha').innerHTML="<img id='image_captcha' class='imageCaptcha' src='"+ 
-			"/buscatextual/servlet/captcha?metodo=getImagemCaptcha&noCache=" + timestamp + "' alt='Captcha' border='0'/>";
-			$("#informado").focus();
-			//messagesCaptcha.limpar();
-
-			setTimeout(function(){
-			    $('#divMessageErro').remove();
-			},3000);
-			
-		}, 
-		doGet: function(data, callback) {
-			$.ajax({
-			type: 'get',
-			dataType: 'json',
-			data: data,
-			url: '/buscatextual/servlet/captcha',
-			success: callback
-			});
-			},
-		validacaoCaptchaCallback: function(data) {
-			$('#informado').val('');
-			messagesCaptcha.limpar();
-			var wrapper = messagesCaptcha.getWrapper();
-			
-			if (data['estado'] == 'erro') {
-			var mensagem = messagesCaptcha.criarErro('Texto incorreto. Tente novamente!');
-			wrapper.append(mensagem);
-			} else {$("#image_captcha").hide();
-			
-			if (data['metodo'] == null) {
-				var mensagem = messagesCaptcha.criarSucesso('Código de segurança validado com sucesso!');
-				wrapper.append(mensagem);
-			} else {
-				var f = document.forms[0];
-				f.metodo.value = 'captchaValido';
-				f.submit();
-			}
-			
-			}
-			}
-	};
-	var messagesCaptcha = {
-		getWrapper : function() {
-			return $('#wrapper-messages-captcha');
-		},
-		limpar : function() {
-			messagesCaptcha.getWrapper().empty();
-		},
-		criarSucesso : function(msg) {
-			var wrapper = $("<div class='divMessageSucesso' />"), colunaIcone = $(
-					"<div class='divIconeSucesso' />").appendTo(wrapper), icone = $(
-					"<span class='spanIconeSucesso' />").appendTo(
-					colunaIcone), colunaMensagem = $(
-					"<div class='divMensagemSucesso' />").text(msg)
-					.appendTo(wrapper), colunaClear = $(
-					"<div class='divClear' />").appendTo(wrapper);
-			return wrapper;
-		},
-		criarErro : function(msg) {
-			var wrapper = $("<div class='divMessageErro' id='divMessageErro' />"), colunaIcone = $(
-					"<div class='divIconeErro' />").appendTo(wrapper), icone = $(
-					"<span class='spanIconeErro' />").appendTo(
-					colunaIcone), colunaMensagem = $(
-					"<div class='divMensagemErro' />").text(msg)
-					.appendTo(wrapper), colunaClear = $(
-					"<div class='divClear' />").appendTo(wrapper);
-			return wrapper;
-		}
-	};
- 	$(document).ready(function() {
- 		$("#informado").focus();
- 	    cnpqCaptcha.refreshCaptcha();
-		$('#btn_refresh_captcha').bind('click', cnpqCaptcha.refreshCaptcha);
 		
-	}); 
-	$(document).keypress(function(e) {
-		 if (e.which == 13) {
-		 validaCaptcha();
-		 document.getElementById("informado").value='';
-		 return false;
-		 }						
-		 });
-
-	 function validaCaptcha(){		 
-		 var data = {
-		 informado : $("#informado").val(),
-		 id : $("#id").val(),
-		 metodo : 'validaCaptcha',
-		 };		
-		 cnpqCaptcha.doGet(data, function(result) {
-		 messagesCaptcha.limpar();
-		 var wrapper = messagesCaptcha.getWrapper();	
-		 if (result.estado == "sucesso") {
-			 cnpqCaptcha.validacaoCaptchaCallback(data);
-		 $("#divBotoes").hide();
-		 $("#image_captcha").hide();
-		 $("#informado").hide();
-		 $("#divInformativa").hide();
-		 
-		 $("#wrapper-messages-captcha").hide();
-		 
-		 document.getElementById('div_gif').innerHTML="<img style=\"-webkit-user-select: none\" src=\"/buscatextual/images/gif/ajax-loader.gif\">";
-		 }else{			
-			 document.getElementById('informado').value="";		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
 		
-		 var mensagem = messagesCaptcha
-		 .criarErro('Texto incorreto. Tente novamente!');				
-		 wrapper.append(mensagem);
-		 cnpqCaptcha.refreshCaptcha();		
-		 }
-		 });
-	 }
-	function getAudio(){
-		 var timestamp = Number(new Date());
-		document.getElementById('audio_span').innerHTML="<audio src=\"/buscatextual/servlet/captcha?metodo=getAudioCaptcha&noCache="+timestamp+"+\" type=\"audio/mpeg;codecs=mp3\" autoplay>"+
-		"<p>Your browser does not support the audio element</p></audio>";
-		$("#informado").focus();
-		};
-</script>
-<div class="divCaptcha" id="divCaptcha">
-	<div id="divInformativa">
-		<h2 class="tituloCaptcha">Código de segurança</h2>
-		<span><h3 class="subTituloCaptcha">Digite os caracteres da
-				imagem abaixo</h3> <br></span>
-	</div>
-	<div id="wrapper-messages-captcha"></div>
-	<input type="text" size="10"
-		title="Digite os caracteres da imagem abaixo" class="inputCaptcha"
-		name="informado" id="informado" maxlength="4">
-	<div align="center" class="divImageCaptcha" id="div_image_captcha">
-		<img border="0" alt="Captcha" class="imageCaptcha" id="image_captcha">
-	</div>
-	<div style="margin-top: 10px; padding: 0 7px 0 140px;" id="divBotoes">
-		<a title="Obter outro código de segurança" id="btn_refresh_captcha"
-			href="javascript:void(0)"> <span class="icon icon-atualizar"></span></a>&nbsp;
-		<a title="Escutar áudio do código de segurança" id="btn_audio_captcha"
-			href="javascript:getAudio()"> <span class="icon icon-volume"></span>
-		</a>
-		<div class="divButtonCaptcha">
-			<a class="linkButtonCaptcha" title="Submeter"
-				id="btn_validar_captcha" href="javascript:validaCaptcha()">Submeter</a>
-		</div>
-	</div>
-
-	<span id="audio_span"></span>
 	
-   <div align="center"  id='div_gif'>  	
-   </div>	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4294007Z9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
 </div>
-
-
-
-							</div>
-                        </div>   
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4294007Z9"><div class="infpessoa">
+<h2 class="nome">Andr&eacute;ia Caroline Fernandes Salgueiro</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/5529127283220286</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 15/06/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Fisioterapia e Doutorado em Bioquímica pela Universidade Federal do Pampa. Atualmente, é docente substituta do Curso de Fisioterapia da UNIPAMPA. É pesquisadora do Grupo de Estudos em Nutrição, Saúde e Qualidade de Vida (GENSQ), onde desenvolve desde 2008 projetos de ensino/pesquisa/extensão que utilizam metodologias ativas de ensino-aprendizagem como ferramenta para o ensino de Ciências em escolas da rede pública municipal. Concomitantemente, desde 2011, atua em projetos direcionados à investigação etnofarmacológica e avaliação dos efeitos de plantas medicinais em modelos experimentais de Diabetes mellitus.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Andréia Caroline Fernandes Salgueiro</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SALGUEIRO, A. C. F.;FLORES, A. C. F.;SALGUEIRO, ANDRÉIA C. F.;SALGUEIRO, ANDRÉIA C.F.;SALGUEIRO, ANDRÉIA CAROLINE FERNANDES;SALGUEIRO, A.C.F.;SALGUEIRO, ANDREIA C. FERNANDES</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Programa de Pós-Graduação em Bioquímica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	<br class="clear" />Título: PLANTAS MEDICINAIS UTILIZADAS POR PESSOAS COM DIABETES MELLITUS CONTROLAM O ESTRESSE OXIDATIVO E APRESENTAM BAIXA TOXICIDADE: AVALIAÇÃO IN SILICO, IN VITRO E IN VIVO DA ?PATA-DE-VACA? E ?MACELA?, Ano de obtenção: 2017. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0319301096075015'><img src='images/curriculo/logolattes.gif' /></a>Gustavo Orione Puntel. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências Biológicas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em BIOQUÍMICA<span class="ajaxCAPES" data-param="&codigoCurso=42046017002P0&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	<br class="clear" />Título: Efeitos do chá de Bauhinia forficata (subsp. Pruinosa) sobre o dano oxidativo induzido por altas concentrações de glicose em eritrócitos humanos e por estreptozotocina em camundongos,Ano de Obtenção: 2013.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0319301096075015'><img src='images/curriculo/logolattes.gif' /></a>Gustavo Orione Puntel.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Diabetes mellitus; Estresse oxidativo; Plantas medicinais; Bauhinia forficata; Antioxidantes.<br class="clear" />Grande área: Ciências da Saúde</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em FISIOTERAPIA<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor substituto, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atua como docente supervisora do Estágio Supervisionado em Fisioterapia, Ortopedia, Traumatologia e Reumatologia I Atua como docente nas disciplinas de: - Avaliação em Fisioterapia - Práticas de Ortopedia, Traumatologia e Reumatologia II - Exames Complementares</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Avalia&ccedil;&atilde;o dos efeitos do ch&aacute; de Bauhinia forficata sobre a neuropatia diab&eacute;tica, danos ao DNA e express&atilde;o proteica em camundongos com Diabetes mellitus induzido por estreptozotocina'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação dos efeitos do chá de Bauhinia forficata sobre a neuropatia diabética, danos ao DNA e expressão proteica em camundongos com Diabetes mellitus induzido por estreptozotocina<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo deste trabalho será avaliar os efeitos do chá de Bauhinia forficata sobre a neuropatia diabética, o dano ao DNA e a expressão proteica de marcadores de estresse oxidativo em camundongos com Diabetes mellitus induzido por estreptozotocina.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Andréia Caroline Fernandes Salgueiro - Integrante / Vanderlei Folmer - Integrante / Gustavo Puntel - Coordenador / Robson Luiz Puntel - Integrante / Ianelli Oliveira do Prado - Integrante / Marianne Pires da Silva - Integrante / Dérick dos Santos Noronha - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise bioqu&iacute;mica dos efeitos de plantas do g&ecirc;nero Bauh&iacute;nia em um modelo experimental de hiperglicemia induzida por Streptozotocina em camundongos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise bioquímica dos efeitos de plantas do gênero Bauhínia em um modelo experimental de hiperglicemia induzida por Streptozotocina em camundongos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho visa investigar indicadores bioquímicos e efeitos antioxidantes e toxicológicos do consumo do extrato aquoso (chá) das plantas do gênero Bauhínia em animais experimentais expostos a diabetes-induzido.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Andréia Caroline Fernandes Salgueiro - Integrante / Vanderlei Folmer - Integrante / Gustavo Puntel - Coordenador.<br class="clear" /><br class="clear" />Número de produções C, T & A: 6</div>
+</div><a name='PP_Educa&ccedil;&atilde;o Nutricional a partir do Processo de Ensino-Aprendizagem Baseado em Problemas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação Nutricional a partir do Processo de Ensino-Aprendizagem Baseado em Problemas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Vanderlei Folmer em 06/11/2016.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho visa investigar as percepções de estudantes de escolas da rede pública de ensino fundamental de Uruguaiana acerca dos temas sobrepeso e obesidade, e construir uma proposta de trabalho com professores de ciências e educação física, referente ao tema.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Mestrado acadêmico: (1)  / Doutorado: (4) . <br class="clear" /><br class="clear" />Integrantes: Andréia Caroline Fernandes Salgueiro - Integrante / Vanderlei Folmer - Coordenador / Robson Luiz Puntel - Integrante / Félix Alexandre Antunes Soares - Integrante.<br class="clear" /></div>
+</div><a name='PP_Interven&ccedil;&otilde;es Educativas em Sa&uacute;de para Professores e Alunos do Ensino Fundamental a partir da Problematiza&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Intervenções Educativas em Saúde para Professores e Alunos do Ensino Fundamental a partir da Problematização<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Vanderlei Folmer em 06/11/2016.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Verificar o conhecimento dos escolares do 7º ano do ensino fundamental sobre hábitos alimentares, estilo de vida saudável e doenças não transmissíveis; - Analisar junto aos professores de Ciências e Educação Física como os conteúdos referentes ao estilo de vida e a saúde são trabalhados com os alunos na rede de ensino estadual de Alegrete, RS; - Promover uma intervenções educativas com alunos e professores da rede pública estadual de ensino, através da metodologia da problematização com o Arco de Maguerez, sobre o tema transversal saúde nas aulas de Ciências e Educação Física.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Andréia Caroline Fernandes Salgueiro - Integrante / Vanderlei Folmer - Coordenador / Robson Luiz Puntel - Integrante.<br class="clear" /></div>
+</div><a name='PP_Fisioterapia na promo&ccedil;&atilde;o da sa&uacute;de, tratamento e reabilita&ccedil;&atilde;o de usu&aacute;rios diab&eacute;ticos e amputados.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fisioterapia na promoção da saúde, tratamento e reabilitação de usuários diabéticos e amputados.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esse projeto tem como amplo objetivo a atuação de estudantes e professores do Curso de Fisioterapia da UNIPAMPA junto à comunidade Uruguaianense e usuários do Hospital Santa Casa de Uruguaiana nos âmbitos da promoção de saúde em pacientes diabéticos, além do tratamento e reabilitação de pacientes amputados. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Andréia Caroline Fernandes Salgueiro - Integrante / Vanderlei Folmer - Coordenador / Elane Fabíola Sousa Jerônimo da Silva - Integrante / Rita de Cássia Flores - Integrante / Verônica Bidinotto Brito - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Bolsa.<br class="clear" />Número de produções C, T & A: 6</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Promovendo Sa&uacute;de e Experimenta&ccedil;&atilde;o Cient&iacute;fica na Rede P&uacute;blica do Munic&iacute;pio de Uruguaiana/RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Promovendo Saúde e Experimentação Científica na Rede Pública do Município de Uruguaiana/RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto pretende promover uma ampla interação entre pesquisadores, professores e alunos de escolas de ensino fundamental e médio da rede pública de ensino de Uruguaiana.O objetivo primordial é popularizar a Ciência e o método científico na escola básica, utilizando como tema norteador a Saúde. Espera-se com isso subsidiar ações docentes futuras que visem facilitar o ensino de Ciências e promover maior autonomia dos sujeitos em relação ao seu perfil de saúde.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (2)  / Doutorado: (5) . <br class="clear" /><br class="clear" />Integrantes: Andréia Caroline Fernandes Salgueiro - Integrante / PUNTEL, GUSTAVO O. - Integrante / PUNTEL, ROBSON L. - Coordenador / FOLMER, VANDERLEI - Integrante / Maria Eduarda Lima - Integrante / Marcelli Evans Telles dos Santos - Integrante / Hemerson Silva da Rosa - Integrante / Daniel Morin Ocampo - Integrante / Mario Olavo da Silva Lopes - Integrante / Marlise Grecco de Souza Silveira - Integrante / Marianne Pires da Silva - Integrante / Dérick dos Santos Noronha - Integrante / Aline Flores da Silva - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Intercultural Ethnopharmacology</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Pharmacognosy Magazine</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: JOURNAL OF THE CHEMICAL SOCIETY OF PAKISTAN</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: PTR. Phytotherapy Research</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Farmacologia / Subárea: Etnofarmacologia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Saúde Coletiva / Subárea: Desenvolvimento de doenças crônicas e degenerativas. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Bioquímica / Subárea: Biologia Molecular/Especialidade: Estresse Oxidativo e Defesas Antioxidantes. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Saúde Coletiva / Subárea: Educação em Saúde. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science<a href="http://www.researcherid.com/rid/M-5263-2015" target='_blank' ><img src="/buscatextual/images/curriculo/researcherID.gif"/></a></div><div class="trab">Total de trabalhos:7</div><div class="cita">Total de citações:33</div><div class="fator">Fator H:4</div><div class="detalhes"><a href="http://www.researcherid.com/rid/M-5263-2015" target='_blank' >Salgueiro, Andréia C. F.</a>&nbsp;&nbsp;Data:&nbsp;15/06/2018</div></div></div></div></div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Outras</div><div class="trab">Total de trabalhos:11</div><div class="cita">Total de citações:65</div><div class="detalhes">ACF Salgueiro (índice h: 5)&nbsp;&nbsp;Data:&nbsp;15/06/2018</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DE LIMA, MARIA EDUARDA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2018</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jff.2018.02.024" target="_blank"></a>DE LIMA, MARIA EDUARDA ; COLPO, ANA Z. CEOLIN ; ROSA, HEMERSON ; <b>SALGUEIRO, ANDREIA C. FERNANDES</b> ; DA SILVA, MARIANNE PIRES ; NORONHA, DÉRICK S. ; SANTAMARÍA, ABEL ; FOLMER, VANDERLEI . Ilex paraguariensis extracts reduce blood glucose, peripheral neuropathy and oxidative damage in male mice exposed to streptozotocin. Journal of Functional Foods<sup><img id='17564646_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17564646' /></sup>, v. 44, p. 9-16, 2018. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jff.2018.02.024&issn=17564646&volume=44&issue=&paginaInicial=9&titulo=Ilex paraguariensis extracts reduce blood glucose, peripheral neuropathy and oxidative damage in male mice exposed to streptozotocin&sequencial=1&nomePeriodico=Journal of Functional Foods" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COLPO, A.C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1414-431x20176784" target="_blank"></a>COLPO, A.C. ; Lima, M.E. ; DA ROSA, H.S. ; LEAL, A.P. ; COLARES, C.C. ; ZAGO, A.C. ; <b>SALGUEIRO, A.C.F.</b> ; BERTELLI, P.R. ; MINETTO, L. ; MOURA, S. ; MENDEZ, A.S.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Ilex paraguariensis extracts extend the lifespan of Drosophila melanogaster fed a high-fat diet. BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH<sup><img id='0100879X_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0100879X' /></sup>, v. 51, p. 1-11, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1414-431x20176784&issn=0100879X&volume=51&issue=&paginaInicial=1&titulo=Ilex paraguariensis extracts extend the lifespan of Drosophila melanogaster fed a high-fat diet&sequencial=2&nomePeriodico=BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>2</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SALGUEIRO, ANDRÉIA CAROLINE FERNANDES</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1155/2016/8902954" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA CAROLINE FERNANDES</a></b>; FOLMER, VANDERLEI ; DA SILVA, MARIANNE PIRES ; MENDEZ, ANDREAS SEBASTIAN LOUREIRO ; ZEMOLIN, ANA PAULA PEGORARO ; POSSER, THAÍS ; FRANCO, JEFERSON LUIS ; PUNTEL, ROBSON LUIZ ; PUNTEL, GUSTAVO ORIONE . Effects of <i>Bauhinia forficata</i> Tea on Oxidative Stress and Liver Damage in Diabetic Mice. Oxidative Medicine and Cellular Longevity (Print)<sup><img id='19420900_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19420900' /></sup>, v. 2016, p. 1-9, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1155/2016/8902954&issn=19420900&volume=2016&issue=&paginaInicial=1&titulo=Effects of <i>Bauhinia forficata</i> Tea on Oxidative Stress and Liver Damage in Diabetic Mice&sequencial=3&nomePeriodico=Oxidative Medicine and Cellular Longevity (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>3</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DA ROSA, H.S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1414-431x20165282" target="_blank"></a>DA ROSA, H.S. ; <b>SALGUEIRO, A.C.F.</b> ; COLPO, A.Z.C. ; PAULA, F.R. ; MENDEZ, A.S.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Sida tuberculata (Malvaceae): a study based on development of extractive system and in silico and in vitro properties. Brazilian journal of medical and biological research<sup><img id='1414431X_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1414431X' /></sup>, v. 49, p. e5282, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1414-431x20165282&issn=1414431X&volume=49&issue=&paginaInicial=e5282&titulo=Sida tuberculata (Malvaceae): a study based on development of extractive system and in silico and in vitro properties&sequencial=4&nomePeriodico=Brazilian journal of medical and biological research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>1</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SALGUEIRO, ANDRÉIA C.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jep.2016.08.048" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C.F.</a></b>; FOLMER, VANDERLEI ; DA ROSA, HEMERSON S. ; COSTA, MÁRCIO T. ; BOLIGON, ALINE A. ; PAULA, FÁVERO R. ; ROOS, DANIEL H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> . In vitro and in silico antioxidant and toxicological activities of Achyrocline satureioides. Journal of Ethnopharmacology<sup><img id='03788741_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03788741' /></sup>, v. 194, p. 6-14, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jep.2016.08.048&issn=03788741&volume=194&issue=&paginaInicial=6&titulo=In vitro and in silico antioxidant and toxicological activities of Achyrocline satureioides&sequencial=5&nomePeriodico=Journal of Ethnopharmacology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LARA, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>LARA, S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b> ; COpetti, J. ; LANES, K. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Educação e Saúde no Contexto Escolar: uma experiência de abordagem lúdica com o tema saúde cardiovascular nos Anos Iniciais. CADERNOS DO APLICAÇÃO (UFRGS)<sup><img id='01036041_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01036041' /></sup>, v. 29, p. 65-82, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01036041&volume=29&issue=&paginaInicial=65&titulo=Educação e Saúde no Contexto Escolar: uma experiência de abordagem lúdica com o tema saúde cardiovascular nos Anos Iniciais&sequencial=6&nomePeriodico=CADERNOS DO APLICAÇÃO (UFRGS)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>5</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LARA, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>LARA, S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; Folmer, V. . TRABALHANDO A INTERDISCIPLINARIDADE COM O TEMA TRANSVERSAL SAÚDE NA FORMAÇÃO INICIAL DE ESTUDANTES DO CURSO NORMAL. Revista Ciências & Idéias<sup><img id='21761477_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21761477' /></sup>, v. 6, p. 116-134, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21761477&volume=6&issue=&paginaInicial=116&titulo=TRABALHANDO A INTERDISCIPLINARIDADE COM O TEMA TRANSVERSAL SAÚDE NA FORMAÇÃO INICIAL DE ESTUDANTES DO CURSO NORMAL&sequencial=7&nomePeriodico=Revista Ciências & Idéias" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>4</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SALGUEIRO, ANDRÉIA C.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C.F.</a></b>; SILVA, E. F. S. J. ; BRITO, V. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; FOLMER, VANDERLEI . Care and prevention of diabetic foot: perceptions of diabetic patients. Revista Brasileira de Pesquisa em Saúde<sup><img id='24465410_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='24465410' /></sup>, v. 17, p. 7-14, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=24465410&volume=17&issue=&paginaInicial=7&titulo=Care and prevention of diabetic foot: perceptions of diabetic patients&sequencial=8&nomePeriodico=Revista Brasileira de Pesquisa em Saúde" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>6</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LARA, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>LARA, S. ; <b>SALGUEIRO, ANDRÉIA C. F.</b> ; COPETTI, J. ; LANES, K. G. ; PUNTEL, ROBSON L. ; FOLMER, VANDERLEI . O tema transversal saúde na formação inicial de futuros educadores. Pesquiseduca<sup><img id='21771626_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21771626' /></sup>, v. 06, p. 434-456, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21771626&volume=06&issue=&paginaInicial=434&titulo=O tema transversal saúde na formação inicial de futuros educadores&sequencial=9&nomePeriodico=Pesquiseduca" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>8</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LARA, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>LARA, S. ; <b>SALGUEIRO, A. C. F.</b> ; LARA, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Educação e saúde no contexto escolar: saúde cardiovascular como tema gerador no curso normal médio. REEC. Revista Electrónica de Enseñanza de las Ciencias<sup><img id='15791513_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15791513' /></sup>, v. 12, p. 167-190, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15791513&volume=12&issue=&paginaInicial=167&titulo=Educação e saúde no contexto escolar: saúde cardiovascular como tema gerador no curso normal médio&sequencial=10&nomePeriodico=REEC. Revista Electrónica de Enseñanza de las Ciencias" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>10</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SALGUEIRO, ANDRÉIA C.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jep.2013.03.070" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C.F.</a></b>; LEAL, CARINA Q. ; BIANCHINI, MATHEUS C. ; PRADO, IANELI O. ; MENDEZ, ANDREAS S.L. ; PUNTEL, ROBSON L. ; FOLMER, VANDERLEI ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8752453650114092" target="_blank">SOARES, FÉLIX A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4355211015887363" target="_blank">ÁVILA, DAIANA S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> . The influence of Bauhinia forficata Link subsp. pruinosa tea on lipid peroxidation and non-protein SH groups in human erythrocytes exposed to high glucose concentrations. Journal of Ethnopharmacology<sup><img id='03788741_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03788741' /></sup>, v. 148, p. 81-87, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jep.2013.03.070&issn=03788741&volume=148&issue=&paginaInicial=81&titulo=The influence of Bauhinia forficata Link subsp. pruinosa tea on lipid peroxidation and non-protein SH groups in human erythrocytes exposed to high glucose concentrations&sequencial=11&nomePeriodico=Journal of Ethnopharmacology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>7</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PUNTEL, GUSTAVO O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/joa.12009" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; CARVALHO, NÉLSON R. ; DOBRACHINSKI, FERNANDO ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b> ; PUNTEL, ROBSON L. ; FOLMER, VANDERLEI ; Barbosa, NBV. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0543081555633400" target="_blank">ROYES, LUIZ F. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, JOÃO BATISTA T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8752453650114092" target="_blank">SOARES, FÉLIX A. A.</a> . Cryotherapy reduces skeletal muscle damage after ischemia/reperfusion in rats. Journal of Anatomy (Print)<sup><img id='00218782_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00218782' /></sup>, v. 222, p. 223-230, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/joa.12009&issn=00218782&volume=222&issue=&paginaInicial=223&titulo=Cryotherapy reduces skeletal muscle damage after ischemia/reperfusion in rats&sequencial=12&nomePeriodico=Journal of Anatomy (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>9</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALHEIROS, R. T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>MALHEIROS, R. T. ; MALHEIROS, C. K. C. ; BUENO, E. A. ; <b>SALGUEIRO, A. C. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . PERFIL DEMOGRÁFICO E SOCIOECONÔMICO DAS PESSOAS COM DEFICIÊNCIA FÍSICA RESIDENTES NA ZONA URBANA DA CIDADE DE URUGUAIANA ? RS. Vittale (FURG)<sup><img id='14133563_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14133563' /></sup>, v. 25, p. 41-51, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14133563&volume=25&issue=&paginaInicial=41&titulo=PERFIL DEMOGRÁFICO E SOCIOECONÔMICO DAS PESSOAS COM DEFICIÊNCIA FÍSICA RESIDENTES NA ZONA URBANA DA CIDADE DE URUGUAIANA ? RS&sequencial=13&nomePeriodico=Vittale (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILLAGRAN, C. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; <b>SALGUEIRO, A. C. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . EFEITOS DA METFORMINA E ÁCIDO ACETILSALICILÍCO EM DROSOPHILAS CULTIVADAS EM DIETA PADRÃO E HIPERGLICÍDICA. In: VII Salão Internacional de Ensino, Pesquisa e Extensão (Siepe), 2015, Alegrete. Anais do VII Salão Internacional de Ensino, Pesquisa e Extensão (Siepe), 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DA SILVA, MARIANNE PIRES ; Lima, M.E. ; <b>SALGUEIRO, ANDRÉIA C.F.</b> ; ROSA, H.S. ; FOLMER, VANDERLEI . EFEITOS DOS EXTRATOS DE ILEX PARAGUARIENSIS EM UM MODELO EXPERIMENTAL DE DIABETES MELLITUS TIPO I. In: O VII Salão Internacional de Ensino, Pesquisa e Extensão (Siepe), 2015, Alegrete. Anais do O VII Salão Internacional de Ensino, Pesquisa e Extensão (Siepe), 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NORONHA, D. S. ; ROSA, H.S. ; <b>SALGUEIRO, ANDRÉIA C. F.</b> ; SILVA, M. D. ; MENDEZ, ANDREAS SEBASTIAN LOUREIRO ; FOLMER, VANDERLEI . COMPOSIÇÃO FITOQUÍMICA E EFEITOS ATIOXIDANTES E ANTI-INFLAMATORIOS DOS EXTRATOS DE SIDA TUBERCULATA. In: VII Salão Internacional de Ensino, Pesquisa e Extensão (Siepe), 2015, Alegrete. Anais do VII Salão Internacional de Ensino, Pesquisa e Extensão (Siepe), 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, M. T. ; SILVA, A. F. ; VIANA, L. M. ; <b>SALGUEIRO, ANDRÉIA C.F.</b> ; ROSA, H.S. ; FOLMER, VANDERLEI . EVALUATION OF Philodryas patagoniensis VENOM TOXICITY IN Artemia salina AND HUMAN LEUKOCYTE MODELS. In: III CONGRESS OF THE BRAZILIAN ASSOCIATION OF PHARMACEUTICAL SCIENCES, 2016, Porto Alegre. Abstract Book, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROSA, H.S. ; <b>SALGUEIRO, ANDRÉIA C.F.</b> ; SILVA, M. D. ; COELHO, I. S. ; COSTA, M. T. ; SANTOS, A. R. S. ; MENDEZ, A. S. L. ; FOLMER, VANDERLEI . INHIBITION OF NOCICEPTIVE AND INFLAMMATORY RESPONSE IN MICE BY ORAL ADMINISTRATION OF Sida tuberculata EXTRACT. In: III CONGRESS OF THE BRAZILIAN ASSOCIATION OF PHARMACEUTICAL SCIENCES, 2016, Porto Alegre. Abstract Book, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. F. ; DA ROSA, HEMERSON S. ; <b>SALGUEIRO, ANDRÉIA C. F.</b> ; FOLMER, VANDERLEI . PLANTAS UTILIZADAS NA MEDICINA TRADICIONAL PARA TRATAMENTO DO DIABETES MELLITUS : UMA ABORDAGEM IN SILICO. In: 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), 2016, Uruguaiana. Anais do 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VICOSA, D. L. ; SILVA, A. F. ; <b>SALGUEIRO, ANDRÉIA C. F.</b> ; FOLMER, VANDERLEI . BAUHINIA FORFICATA PROTEGE ERITRÓCITOS DE DANOS OXIDATIVOS EM CAMUNDONGOS COM DIABETES MELLITUS. In: 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), 2016, Uruguaiana. Anais do 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>; NORONHA, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . ANTIOXIDANT ACTIVITY FROM ACHYROCLINE SATUREOIDES (MACELA) AQUEOUS EXTRACT AND THIS ISOLATED MAJOR COMPOUNDS IN BRAIN OF RATS. In: 23rd International Congress of the IUBMB and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 2015, Foz do Iguaçu. Anais do 23rd International Congress of the IUBMB and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAURIO, A. C. ; GONCALVES, M. B. ; <b>SALGUEIRO, ANDRÉIA C. F.</b> ; FOLMER, VANDERLEI ; ROEHRS, R. ; DENARDIN, E. L. G. . COMPARATIVE STUDY OF DIFFERNTS SUGAR TYPES IN D. MELANOGASTER MODEL. In: 23rd International Congress of the IUBMB and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 2015, Foz do Iguaçu. Anais do 23rd International Congress of the IUBMB and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NORONHA, D. S. ; ROSA, H.S. ; <b>SALGUEIRO, ANDRÉIA C. F.</b> ; Lima, M.E. ; MENDEZ, ANDREAS S.L. ; FOLMER, VANDERLEI . HPLC-ANALYSIS AND ANTIOXIDANT ACTIVITY BY ABTS AND FRAP ASSAYS FROM SIDA TUBERCULATA EXTRACTS. In: 23rd International Congress of the IUBMB and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 2015, Foz do Iguaçu. Anais do 23rd International Congress of the IUBMB and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NORONHA, D. S. ; <b>SALGUEIRO, A. C. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; PUNTEL, ROBSON L. ; FOLMER, VANDERLEI . Antioxidant Potential of Achyrocline satureioides Infusion. In: XLIII Annual Meeting of the Brazilian Biochemistry and Molecular Biology Society (SBBq), 2014, Foz do Iguaçu. Anais da 43rd Annual Meeting of SBBq, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; SILVA, M. P. ; MENDEZ, A. S. L. ; PUNTEL, ROBSON L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Effects of Chronic Treatment with Bauhinia forficata on Toxicity and Oxidative Stress in Liver of Mouse with STZ-induced Diabetes. In: XLIII Annual Meeting of the Brazilian Biochemistry and Molecular Biology Society (SBBq), 2014, Foz do Iguaçu. Anais da 43rd Annual Meeting of SBBq, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROSA, H.S. ; <b>SALGUEIRO, A. C. F.</b> ; NORONHA, D. S. ; SILVA, M. P. ; PEREIRA, G.C. ; MENDEZ, ANDREAS S.L. ; FOLMER, VANDERLEI . Protective Effect Against in vitro Lipid Peroxidation and Chemical Composition of Sida tuberculata Extracts. In: XLIII Annual Meeting of the Brazilian Biochemistry and Molecular Biology Society (SBBq), 2014, Foz do Iguaçu. Anais da 43rd Annual Meeting of SBBq, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; Colpo, A. C. ; SILVA, M. P. ; PUNTEL, ROBSON L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; FOLMER, VANDERLEI . Bauhinia forficata Protects Red Blood Cells Against Oxidative Damage in Mice With Diabetes-induced by Streptozotocin. In: XLIII Annual Meeting of the Brazilian Biochemistry and Molecular Biology Society (SBBq), 2014, Foz do Iguaçu. Anais da 43rd Annual Meeting of SBBq, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. P. ; <b>SALGUEIRO, A. C. F.</b> ; MENDEZ, A. S. L. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Composição Química e Atividade Protetora do Chá de Bauhinia forficata (&#147;Pata-de-Vaca&#148;) Contra o Dano Histológico Induzido por Estreptozotocina em Camundongos. In: 66ª Reunião Anual da SBPC, 2014, Rio Branco - Acre. Anais da 66ª Reunião Anual da SBPC, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OCAMPO, D. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; <b>SALGUEIRO, A. C. F.</b> ; Lima, M.E. . O uso do modelo experimental com Drosophila melanogaster como instrumento para aprimorar a concepção de ciências de alunos do ensino médio. In: 2° Congresso Internacional de Educação em Ciencias, 2014, Foz do Iguaçu. Anais do 2° Congresso Internacional de Educação em Ciencias, 15 anos do Journal of Science Education, 2014. v. 15. p. 147. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. P. ; <b>SALGUEIRO, A. C. F.</b> ; NORONHA, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . EFEITOS DO TRATAMENTO CRÔNICO COM BAUHINIA FORFICATA SUBSP. PRUINOSA SOBRE PARÂMETROS DE ESTRESSE OXIDATIVO NO FÍGADO DE CAMUNDONGOS COM DIABETES MELLITUS INDUZIDO POR ESTREPTOZOTOCINA. In: VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014, Bagé. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POZZEBON, F. D. ; SILVA, M. P. ; <b>SALGUEIRO, A. C. F.</b> ; MENDEZ, A. S. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; ROSA, H.S. . ANÁLISE FITOQUÍMICA E ATIVIDADE ANTIOXIDANTE IN VITRO DE EXTRATOS DE SIDA TUBERCULATA R. E. FRIES (MALVACEAE). In: VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014, Bagé. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NORONHA, D. S. ; <b>SALGUEIRO, A. C. F.</b> ; SILVA, M. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . COMPOSIÇÃO QUIMICA E HABILIDADE ANTIOXIDANTE DO EXTRATO AQUOSO DE ACHYROCLINE SATUREIOIDES. In: VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014, Bagé. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2014. v. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LANES, K. G. ; LANES, D. V. C. ; <b>SALGUEIRO, A. C. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . A influência da caminhada orientada no controle metabólico no Diabetes mellitus tipo I. In: I Simpósio Sul Brasileiro de Atividade Física e Saúde: Atividade Física e Saúde Sem Fronteiras, 2014, Uruguaiana. Revista Brasileira de Atividade Física e Saúde: Anais do "I Simpósio Sul Brasileiro de Atividade Física e Saúde: Atividade Física e Saúde Sem Fronteiras", 2014. v. 19. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GALLARRETA, M. S. ; DENARDIN, E. L. G. ; <b>SALGUEIRO, ANDRÉIA C. F.</b> ; MOTTA, P. R. ; FOLMER, VANDERLEI . AVALIAÇÃO QUALITATIVA E QUANTITATIVA DE TANINOS TOTAIS NAS ESPÉCIES VEGETAIS ACHYROCLINE SATUREIOIDES E BAUHINIA FORFICATA. In: VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014, Bagé. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2014. v. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; PRADO, I. O. ; BIANCHINI, M. ; LEAL, C. Q. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Bauhinia forficata Tea Reduces Morphological Damage in Different Tissues of Mice Intoxicated by Streptozotocin. In: XLII Annual Meeting of The Brazilian Biochemistry and Molecular Biology Society, 2013, Foz do Iguaçu. Anais da XLII Annual Meeting of The Brazilian Biochemistry and Molecular Biology Society, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; LEAL, C. Q. ; BIANCHINI, M. ; PRADO, I. O. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Bauhinia forficata Tea Reduces Oxidative Damage in Different Tissues of Mice Intoxicated by Streptozotocin. In: XLII Annual Meeting of The Brazilian Biochemistry and Molecular Biology Society, 2013, Foz do Iguaçu. Anais da XLII Annual Meeting of The Brazilian Biochemistry and Molecular Biology Society, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PRADO, I. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SILVA, M. P. ; <b>SALGUEIRO, A. C. F.</b> . Efeitos do Chá de Bauhinia forficata Sobre Peso Corporal, Níveis de Glicose, Colesterol e Triglicerídeos em um Modelo Experimental de resistência à Insulina com Drosophila melanogaster. In: V Salão Internacional de Ensino, Pesquisa e Extensão, 2013, Bagé. Anais do V SIEPE, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; PRADO, I. O. ; PUNTEL, G.O. ; <b>SALGUEIRO, A. C. F.</b> . Perfil Fitoquímico e Atividade Protetora do Chá de Bauhinia forficata ('Pata-de-Vaca') Contra o Dano Histológico Induzido por Estreptozotocina em Camundongos. In: V Salão Internacional de Ensino, Pesquisa e Extensão, 2013, Bagé. Anais do V SIEPE, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NORONHA, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; PUNTEL, G.O. ; <b>SALGUEIRO, A. C. F.</b> . Avaliação do Potencial Antioxidante da Infusão de Achyrocline Satureioides (?Macela?). In: V Salão Internacional de Ensino, Pesquisa e Extensão, 2013, Bagé. Anais do V SIEPE, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOARES, C.B. ; <b>SALGUEIRO, A. C. F.</b> ; Lima, M.E. ; PEREIRA, G.C. ; ESCOTO, D.F. ; FOLMER, VANDERLEI . Uma nova Ferramenta Para o Ensino de Ciências nos Anos Iniciais da educação Básica. In: V Salão Internacional de Ensino, Pesquisa e Extensão, 2013, Bagé. Anais do V SIEPE, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PRADO, I. O. ; <b>SALGUEIRO, A. C. F.</b> ; LEAL, C. Q. ; BIANCHINI, M. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SOARES, F. A. A. . Analysis of the Antioxidant Properties of Bauhinia forficata Tea in vitro. In: XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012, Foz do Iguaçu. Abstracts XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEAL, C. Q. ; BIANCHINI, M. ; <b>SALGUEIRO, A. C. F.</b> ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SOARES, F. A. A. . Cryotherapy reduces the oxidative damage determined by a skeletal muscle contusion in rats. In: XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012, Foz do Iguaçu. Abstracts XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIANCHINI, M. ; LEAL, C. Q. ; <b>SALGUEIRO, A. C. F.</b> ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SOARES, F. A. A. . Biochemical Analysis of the Antioxidant Properties of Mikania Glomerata Tea in vitro. In: XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012, Foz do Iguaçu. Abstracts XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PUNTEL, B ; BIANCHINI, M. ; LEAL, C. Q. ; <b>SALGUEIRO, A. C. F.</b> ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SOARES, F. A. A. . Effects of the Mikania Glomerata Tea on the Oxidative Damage Caused by Sodium Nitroprusside in Human Blood in vitro. In: XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012, Foz do Iguaçu. Abstracts XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; LEAL, C. Q. ; BIANCHINI, M. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SOARES, F. A. A. . Effects of Bauhinia forficata Tea on the Oxidative Damage Determined by Hyperglicemia in Human Erythrocytes In Vitro. In: XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012, Foz do Iguaçu. Abstracts XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq), 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; LEAL, C. Q. ; BIANCHINI, M. ; PRADO, I. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; PUNTEL, G.O. . Efeitos do chá de Bauhinia forficata sobre o peso corporal, glicemia e perfil lipídico de camundongos com Diabetes mellitus induzido por Streptozotocina. In: IV SIEPE, 2012, Bagé. Anais do IV SIEPE, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEAL, C. Q. ; <b>SALGUEIRO, A. C. F.</b> ; BIANCHINI, M. ; PRADO, I. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; PUNTEL, G.O. . Efeitos do chá de Bahuína forficata sobre marcadores de estresse oxidativo em camundongos com Diabetes mellitus induzido. In: IV SIEPE, 2012, Bagé. Anais do IV SIEPE, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIANCHINI, M. ; LEAL, C. Q. ; <b>SALGUEIRO, A. C. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> . Análise Bioquímica dos possíveis efeitos antioxidantes do extrato aquoso de Mikania glomerata in vitro. In: IV SIEPE, 2012, Bagé. Anais do IV SIEPE, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDOSO, M. H. S. ; <b>SALGUEIRO, A. C. F.</b> ; Bassante, F. E. M. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Estudo Parcial Sobre os Hábitos de Consumo de Plantas Medicinais por Indivíduos Diabéticos do Município de Uruguaiana/RS,. In: IV SIEPE, 2012, Bagé. Anais do IV SIEPE, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDOSO, M. H. S. ; <b>SALGUEIRO, A. C. F.</b> ; BUENO, E. A. ; TORRES, O. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; BALK, R. . Acompanhamento Fisioterapêutico a uma usuária acometida por Artrite Reumatoide assistida pelo projeto Práticas Integradas em Saúde Coletiva: Relato de caso. In: IV SIEPE, 2012, Bagé. Anais do IV SIEPE, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; SILVA, E. F. S. J. ; BRITO, V. B. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Diabetic foot: Information and selfcare can prevent amputations. In: III Salão Internacional de Ensino, Pesquisa e Extensão, 2011, Uruguaiana. Anais do III SIEPE_2011, 2011. v. 3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALTERMANN, C. D. C. ; BRATZ, D. T. K. ; <b>SALGUEIRO, A. C. F.</b> ; PORTO, L. B. ; MOREIRA, S. A. ; DUARTE, M. L. C. . Ação Multidisciplinar em um Grupo de Tabagismo no Município de Uruguaiana: um relato de experiência. In: XI Congreso Iberoamericano de Extensión Universitaria, 2011, Santa Fe. XI Congreso Iberoamericano de Extensión Universitaria : integración, extensión, docencia e investigación para la inclusión y cohesión social_Libro de resúmenes, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bassante, F. E. M. ; <b>SALGUEIRO, A. C. F.</b> ; BENDER, A. N. ; CARDOSO, M. H. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . A extensão universitária como agente contribuinte para melhorias qualitativas do entorno sócioinstitucional focada em ações concretas. In: XI Congreso Iberoamericano de Extensión Universitaria, 2011, Santa Fe. XI Congreso Iberoamericano de Extensión Universitaria : integración, extensión, docencia e investigación para la inclusión y cohesión social_Libro de resúmenes, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BENDER, A. N. ; <b>SALGUEIRO, A. C. F.</b> ; Bassante, F. E. M. ; CARDOSO, M. H. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Fisioterapia: ações universitárias em uma Associação no município de Uruguaiana-RS. In: XI Congreso Iberoamericano de Extensión Universitaria, 2011, Santa Fe. XI Congreso Iberoamericano de Extensión Universitaria : integración, extensión, docencia e investigación para la inclusión y cohesión social_Libro de resúmenes, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEAL, C. Q. ; BIANCHINI, M. ; <b>SALGUEIRO, A. C. F.</b> ; TAMBORENA, T. ; PEREIRA, G. ; ORTIZ, C. ; FIDELIS, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SOARES, F. A. A. ; PUNTEL, G.O. . Análise bioquímica dos efeitos da crioterapia em um modelo experimental de contusão muscular em ratos. In: III SIEPE, 2011, Uruguaiana. Anais do III SIEPE, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; Marcia Helena dos Santos ; Bassante, F. E. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . O Diabético e o Cuidado com os Pés: Entrevista com 71 Moradores da Cidade de Uruguaiana. In: II SIEPE, 2010, Uruguaiana. Anais do II SIEPE 2010, 2010. v. 2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, E. F. S. J. ; <b>FLORES, A. C. F.</b> ; Bassante, F. E. M. ; Santos, M. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Levantamento de complicações e amputações em extremidades inferiores em diabéticos da cidade de Uruguaiana-RS. In: II SIEPE, 2010, Uruguaiana. Anais do II SIEPE 2010, 2010. v. 2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . As concepções de um grupo de idosos diabéticos acerca de aspectos relacionados à sua doença. In: I Simpósio em Neuromecânica Aplicada: Envelhecimento, 2010, Uruguaiana. Anais do I Simpósio em Neuromecânica Aplicada: Envelhecimento, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, E. F. S. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; BRITO, V. B. ; <b>FLORES, A. C. F.</b> . Atuação da Fisioterapia junto aos amputados atendidos em um hospital da fronteira oeste do Rio Grande do Sul. In: 5º Congresso Internacional de Fisioterapia, 2010, Fortaleza. Anais do 5º Congresso Internacional de Fisioterapia, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, E. F. S. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; BRITO, V. B. ; <b>FLORES, A. C. F.</b> ; Santos, M. H. ; Bassante, F. E. M. . O diabético e o cuidado com os pés. In: 5º Congresso Internacional de Fisioterapia, 2010, Fortaleza. Anais do 5º Congresso Internacional de Fisioterapia, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, E. F. S. J. ; <b>FLORES, A. C. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Fatores de risco associados ao diabetes mellitus em um grupo de idosos de Uruguaiana -RS. In: I Simpósio em Neuromecânica Aplicada: Envelhecimento, 2010, Uruguaiana. Anais do I Simpósio em Neuromecânica Aplicada: Envelhecimento, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDOSO, M. H. S. ; <b>FLORES, A. C. F.</b> ; SILVA, E. F. S. J. ; Bassante, F. E. M. ; Folmer, V. . Formas De Controle Glicêmico E Percepção Quanto Ao Estado De Saúde De Um Grupo De Diabéticos Da Cidade De Uruguaiana/RS. In: II Salão Internacional de Ensino, Pesquisa e Extensão, 2010, Uruguaiana. Anais do II Salão Internacional de Ensino, Pesquisa e Extensão, 2010. v. 2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, E. F. S. J. ; <b>FLORES, A. C. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; BRITO, V. B. . Perfil de 52 usuários amputados atendidos no Hospital Santa Casa de Caridade de Uruguaiana. In: IX Salão Internacional de Iniciação Científica, 2009., 2009, Uruguaiana. Anais do IX Salão Internacional de Iniciação Científica, 2009., 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; Soares, M. C. ; Goulart, K. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Interdisciplinaridade na escola a partir da utilização de temas geradores. In: IX Salão Internacional de Iniciação Científica, 2009, Uruguaiana. Anais do IX Salão Internacional de Iniciação Científica - I SIEPE, 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Soares, M. C. ; <b>FLORES, A. C. F.</b> ; Goulart, K. T. ; FOLMER, VANDERLEI . Ensino De Ciências Na Educação FÍsica: Uma Proposta Interdisciplinar Com Histórias Em Quadrinhos. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2009, Uruguaiana. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRITO, V. B. ; <b>FLORES, A. C. F.</b> ; SILVA, E. F. S. J. ; FLORES, R. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . A Prevalência da Dor Fantasma em Usuários Amputados Atendidos no Serviço de Fisioterapia do Hospital Universitário de Santa Maria. In: VIII Salão de Iniciação Científica - Ed. Internacional, VIII Mostra Científica - Ed. Internacional e I Feira de Extensão - Ed. Internacional / Integração e Conhecimento, 2008, Uruguaiana. Anais do VIII Salão de Iniciação Científica - Ed. Internacional, VIII Mostra Científica - Ed. Internacional e I Feira de Extensão - Ed. Internacional / Integração e Conhecimento, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRITO, V. B. ; FLORES, R. C. ; <b>FLORES, A. C. F.</b> ; SILVA, E. F. S. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . O Papel da Fisioterapia na Prevenção das Complicações Relacionadas ao Pé Diabético.. In: VIII Salão de Iniciação Científica - Ed. Internacional, VIII Mostra Científica - Ed. Internacional e I Feira de Extensão - Ed. Internacional / Integração e Conhecimento, 2008, Uruguaiana. Anais do VIII Salão de Iniciação Científica - Ed. Internacional, VIII Mostra Científica - Ed. Internacional e I Feira de Extensão - Ed. Internacional - Integração e Conhecimento, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Soares, M. C. ; <b>FLORES, A. C. F.</b> ; Goulart, K. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; ROCHA, J. B. T. . A Interdisciplinaridade na Escola.. In: VII Mostra Científica - Ed. Internacional, 2008, Uruguaiana. VIII Salão de Iniciação Científica - Ed. Internacional, VIII Mostra Científica - Ed. Internacional e I Feira de Extensão - Ed. Internacional - Integração e Conhecimento, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>; NORONHA, D. S. ; PUNTEL, ROBSON L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . ANTIOXIDANT ACTIVITY FROM ACHYROCLINE SATUREOIDES (MACELA) AQUEOUS EXTRACT AND THIS ISOLATED MAJOR COMPOUNDS IN BRAIN OF RATS. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; SILVA, M. P. ; MENDEZ, A. S. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Effects of Chronic Treatment with Bauhinia forficata on Toxicity and Oxidative Stress in Liver of Mouse with STZ-induced Diabetes. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>. Modelos Experimentais Utilizados para Pesquisa em Bioquímica. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">PUNTEL, GUSTAVO O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> . Composição Química e Avaliação dos Efeitos da Infusão de Bauhinia forficata em um Modelo Experimental com Eritrócitos Humanos Expostos a Elevadas Concentrações de Glicose in vitro. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; LEAL, C. Q. ; BIANCHINI, MATHEUS C. ; PRADO, I. O. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Bauhinia forficata Tea Reduces Oxidative Damage in Different Tissues of Mice Intoxicated by Streptozotocin. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; LEAL, C. Q. ; BIANCHINI, M. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; SOARES, F. A. A. . Effects of Bauhinia forficata Tea on the Oxidative Damage Determined by Hyperglicemia in Human Erythrocytes In Vitro. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; LEAL, C. Q. ; BIANCHINI, M. ; PRADO, I. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; PUNTEL, G.O. . Efeitos do chá de Bauhinia forficata sobre o peso corporal, glicemia e perfil lipídico de camundongos com Diabetes mellitus induzido por Streptozotocina. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; SILVA, E. F. S. J. ; BRITO, V. B. ; PUNTEL, G.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Diabetic foot: Information and selfcare can prevent amputations. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; Santos, M. H. ; Bassante, F. E. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . O diabético e o cuidado com os pés: entrevista com 71 moradores da cidade de Uruguaiana. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . As concepções de um grupo de idosos diabéticos acerca de aspectos relacionados à sua doença. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . PERFIL DE USUÁRIOS AMPUTADOS ATENDIDOS NO HOSPITAL SANTA CASA DE CARIDADE DE URUGUAIANA. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; Soares, M. C. ; Goulart, K. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Interdisciplinaridade na escola a partir da utilização de temas geradores. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRITO, V. B. ; <b>FLORES, A. C. F.</b> ; FLORES, R. C. ; SILVA, E. F. S. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . A Prevalência da Dor Fantasma em Usuários Amputados Atendidos no Serviço de Fisioterapia do Hospital Universitário de Santa Maria. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>. Utilização de Drosophila melanogaster como modelo experimental para pesquisas em Bioquímica. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>; OCAMPO, D. M. ; ROSA, H.S. ; Lima, M.E. ; LOPES, M. O. S. . O uso do modelo experimental Drosophila melanogaster como instrumento para aprimorar a concepção de ciências. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; OCAMPO, D. M. ; LOPES, M. O. S. ; SILVA, A. F. . Artêmia salina: um modelo possível para o laboratório de ciências do ensino fundamental. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>; OCAMPO, D. M. ; ROSA, H.S. ; LOPES, M. O. S. ; Lima, M.E. . Uso de um modelo experimental para pesquisa em saúde. 2013. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>. Modelo Alternativo com Drosophyla. 2013. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lima, M.E. ; SANTOS, M.E.T. ; <b>SALGUEIRO, A. C. F.</b> ; ROSA, H.S. ; ESCOTO, D.F. ; SOARES, C.B. ; PEREIRA, G.C. ; OCAMPO, D. M. ; LOPES, M. O. S. ; SILVEIRA, M. G. S. . Os vermes e a nossa saúde. 2013. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; Chiquetti, E. ; PAGNUSSAT, A. . Cartilha de orientação aos pais e cuidadores de crianças com comprometimento neurológico.
+							2010. (Desenvolvimento de material didático ou instrucional - Cartilha). </div>
+</div>
+<br class="clear">
+<a name="ProducaoArtisticaCultural"></a><br class="clear" /><div class="inst_back">
+<b>Produção artística/cultural</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtesVisuais"></a>Artes Visuais</b>
+</div>
+<a name="artesVisuais"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; FLORES, R. C. ; Noronha, J.C. ; Medina, C. . Marcas do Tempo: Aspectos Psicológicos das Enfermidades Reumáticas. 2008. Vídeo. </div>
+</div>
+<br class="clear">
+<a name="artesVisuais"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; FLORES, R. C. ; Noronha, J.C. ; Medina, C. ; Lopes, B. ; Martinez, C. . Insanatorium. 2008. Vídeo. </div>
+</div>
+<br class="clear">
+<a name="artesVisuais"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">FLORES, A. C. F.</a></b>; SILVA, E. F. S. J. ; Medina, C. . Marcas do Tempo: Corpo e Envelhecimento. 2007. Vídeo. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. D.; SOUZA, M. A.; MANFREDINI, V.; <b>SALGUEIRO, A. C. F.</b>.  Participação em banca de Juliana Campodonico Madeira. Redução da dor inflamatória através do tratamento com fonoforese usando gel enriquecido com ilex paraguariensis em ratos. 2018. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a>; VESTENA, R. F.; PESSANO, E. F. C.; <b>SALGUEIRO, ANDRÉIA C. F.</b>.  Participação em banca de Lilian Oliveira de Oliveira. CONCEPÇÕES ACERCA DE OBESIDADE E DIABETES MELLITUS: SUBSÍDIOS PARA UMA PROPOSTA TRANSVERSAL DE ENSINO. 2017. Tese (Doutorado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg))  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LARA, S.; <b>SALGUEIRO, ANDRÉIA C.F.</b>; LANES, D. V. C..  Participação em banca de Abeli Tuane dos Santos Soares. Desempenho isocinético de atletas de futsal Sub-13 após a prática do protocolo Fifa 11+. 2017. Monografia (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINTON, S.; PUNTEL, ROBSON L.; <b>SALGUEIRO, ANDRÉIA C. F.</b>.  Participação em banca de ANNE SUÉLY PINTO SAVALL.AVALIAÇÃO DA TOXICIDADE ORAL AGUDA DA 5-CLORO-ISATINA-3-OXIMA E SEU EFEITO TIPO ANTIDEPRESSIVO EM RATOS EXPOSTOS AO ORGANOFOSFORADO MALATION.
+							2017. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4355211015887363" target="_blank">ÁVILA, DAIANA S.</a>; <b>SALGUEIRO, ANDRÉIA C.F.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a>.  Participação em banca de Maiara Bairros de Bastiani.Efeito do Pré-Tratamento com Ácido Siríngico sob as Disfunções Motoras e Oxidativas Induzidas pela Exposição ao Alumínio em Drosophila Melanogaster.
+							2016. Trabalho de Conclusão de Curso (Graduação em Farmácia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, L. F. S.; <b>SALGUEIRO, ANDRÉIA C.F.</b>; DENARDIN, E. L. G..  Participação em banca de Mariana dos Santos Gallarreta.Avaliação dos Efeitos de uma Dieta Rica em Frutose sobre Parâmetros Metabólicos e de Estresse Oxidativo em Drosophila Melanogaster.
+							2016. Trabalho de Conclusão de Curso (Graduação em Farmácia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, R. P.; <b>SALGUEIRO, ANDRÉIA C.F.</b>.  Participação em banca de CAMILA ANTUNEZ VILAGRAN.SENTIMENTOS E EMOÇÕES DE PESSOAS COM DIABETES MELLITUS SOBRE A DOENÇA.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SALGUEIRO, ANDRÉIA C. F.</b>. Mostra Científica do 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).
+							2016.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SALGUEIRO, ANDRÉIA C.F.</b>. Mostra Científica do VII Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).
+							2015.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; VARGAS, L.. Mostra de Trabalhos da IV Semana Acadêmica de Fisioterapia.
+							2014.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>. VI Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).
+							2014.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">23rd International Congress of the IUBMB and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq). ANTIOXIDANT ACTIVITY FROM ACHYROCLINE SATUREOIDES (MACELA) AQUEOUS EXTRACT AND THIS ISOLATED MAJOR COMPOUNDS IN BRAIN OF RATS. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XLIII Annual Meeting of the Brazilian Biochemistry and Molecular Biology Society (SBBq). Effects of Chronic Treatment with Bauhinia forficata on Toxicity and Oxidative Stress in Liver of Mouse with STZ-induced Diabetes. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Salão Internacional de Ensino, Pesquisa e Extensão.Composição Química e Avaliação dos Efeitos da Infusão de Bauhinia forficata em um Modelo Experimental com Eritrócitos Humanos Expostos a Elevadas Concentrações de Glicose in vitro. 2013. (Outra). 
 					</div>
-				</div>
-			</div>
-		</div>
-	</form>
-</body>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XLII Annual Meeting of The Brazilian Biochemistry and Molecular Biology Society. Bauhinia forficata Tea Reduces Oxidative Damage in Different Tissues of Mice Intoxicated by Streptozotocin. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Salão Internacional de Ensino, Pesquisa e Extensão.Bauhinia forficata sobre o peso corporal, glicemia e perfil lipídico de camundongos com Diabetes mellitus induzido por Streptozotocina. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XLI Annual Meeting of The Brazilian of Biochemistry and Molecular Biology Society (SBBq). Effects of Bauhinia forficata Tea on the Oxidative Damage Determined by Hyperglicemia in Human Erythrocytes In Vitro. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Salão Internacional de Ensino, Pesquisa e Extensão (III SIEPE).Diabetic foot: Information and self-care can prevent amputations. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop de Ensino de Ciências. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop de Ensino de Ciências - Oficina Tabela Periódica como Imãs. 2011. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Férias: Os Alimentos e Nossa Saúde.Monitora de Grupos. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Salão Internacional de Ensino, Pesquisa e Extensão. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">27º Seminário de Extensão Universitária da Região Sul.Alimentação e Saúde. 2009. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Anual de Avaliação da Rede Nacional de Educação e Ciências.Curso de Férias: Grupo Uruguaiana/RS.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Salão Internacional de Iniciação Científica.Interdisciplinaridade Na Escola A Partir da Utilização de Temas Geradores. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1ª Semana Acadêmica Integrada da Unipampa Campus Uruguaiana. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Extensão de Cinesioterapia. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EMPREENDEDORISMO, UMA OPORTUNIDADE?. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Feria de Extensão - Ed. Internacional.O Papel da Fisioterapia na Prevenção das Complicações Relacionadas ao Pé Diabético. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Mostra Científica - Ed. Internacional.A Prevalência de Dor Fantasma em Usuários Amputados Atendidos no Serviço de Fisioterapia do Hospital Universitário de Santa Maria. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Mostra Científica - Ed. Internacional.Interdisciplinaridade na Escola. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">"1ª MOSTRA AUDIOVISUAL: CORPO E SOCIEDADE".Vídeo. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORRENTE INTERFERENCIAL VETORIAL: uma nova proposta terapêutica. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I ENCONTRO DE FISIOTERAPIA RESPIRATÓRIA EM TERAPIA INTENSIVA E DOMICLIAR.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I SEMANA DE ENFERMAGEM DA UNIPAMPA "A HISTÓRIA DA ENFERMAGEM NO MUNICÍPIO DE URUGUAIANA". 2007. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diversos ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b> . 4ª Conferência Municipal de Saúde de Uruguaiana. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; SILVA, E. F. S. J. ; FLORES, R. C. ; Meinertz, C. . 1ª Jornada Acadêmica do Curso de Fisioterapia -. 2007. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipa E. M. Bassante; Márcia H. S. Cardoso.
+							Plantas medicinais consumidas por pessoas com Diabetes mellitus no município de Uruguaiana/RS.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em FISIOTERAPIA)  - Universidade Federal do Pampa,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Andréia Caroline Fernandes Salgueiro.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ArtigosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Artigos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>5</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LARA, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>LARA, S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; Folmer, V. . TRABALHANDO A INTERDISCIPLINARIDADE COM O TEMA TRANSVERSAL SAÚDE NA FORMAÇÃO INICIAL DE ESTUDANTES DO CURSO NORMAL. Revista Ciências & Idéias<sup><img id='21761477_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21761477' /></sup>, v. 6, p. 116-134, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21761477&volume=6&issue=&paginaInicial=116&titulo=TRABALHANDO A INTERDISCIPLINARIDADE COM O TEMA TRANSVERSAL SAÚDE NA FORMAÇÃO INICIAL DE ESTUDANTES DO CURSO NORMAL&sequencial=1&nomePeriodico=Revista Ciências & Idéias" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>. Modelos Experimentais Utilizados para Pesquisa em Bioquímica. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="CursosCurtaEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>. Utilização de Drosophila melanogaster como modelo experimental para pesquisas em Bioquímica. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>; OCAMPO, D. M. ; ROSA, H.S. ; Lima, M.E. ; LOPES, M. O. S. . O uso do modelo experimental Drosophila melanogaster como instrumento para aprimorar a concepção de ciências. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, ANDRÉIA C. F.</a></b>; OCAMPO, D. M. ; ROSA, H.S. ; LOPES, M. O. S. ; Lima, M.E. . Uso de um modelo experimental para pesquisa em saúde. 2013. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>. Modelo Alternativo com Drosophyla. 2013. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lima, M.E. ; SANTOS, M.E.T. ; <b>SALGUEIRO, A. C. F.</b> ; ROSA, H.S. ; ESCOTO, D.F. ; SOARES, C.B. ; PEREIRA, G.C. ; OCAMPO, D. M. ; LOPES, M. O. S. ; SILVEIRA, M. G. S. . Os vermes e a nossa saúde. 2013. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5529127283220286" target="_blank">SALGUEIRO, A. C. F.</a></b>; OCAMPO, D. M. ; LOPES, M. O. S. ; SILVA, A. F. . Artêmia salina: um modelo possível para o laboratório de ciências do ensino fundamental. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Participou como membro do Colegiado do Curso de Fisioterapia da Universidade Federal do Pampa no período de novembro de 2006 à maio de 2008. Participou do programa de iniciação ao ensino nas disciplinas de "Motricidade e Desenvolvimento Humano" (ano 2007) e "Saúde Coletiva" e "Fisiologia Humana II "(ano 2010). Foi bolsista de iniciação científica durante os anos de 2008 e 2009. Integrante do "Grupo de Estudos em Nutrição, Saúde e Qualidade de Vida" (GENSQ) de 2008 até o presente. Bolsista do Programa de Educação Tutorial - PET (ano 2011). Bolsista de Mestrado CAPES (ano 2011 - 2013). Bolsista de Doutorado CAPES (2013 - 2017).</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 16:45:17</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=5529127283220286" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
