@@ -1,0 +1,1957 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Dioni Glei Bonini Bitencourt)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=1274611347204473" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4719560J7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4719560J7"><div class="infpessoa">
+<h2 class="nome">Dioni Glei Bonini Bitencourt</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/1274611347204473</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 13/03/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Engenharia Agrícola pela Universidade Federal de Pelotas (2005), Mestrado em Agronomia na área de solos pela Universidade Federal de Pelotas (2007) e Doutorado em Agronomia pela Universidade Federal de Pelotas (2014) . Tem experiência na área de solos com ênfase em Levantamento de solos e recuperação de áreas degradadas, atuando principalmente nos seguintes temas: Mapeamento de solo, agricultura de precisão e geoestatística. Atualmente é professor Adjunto na Universidade Federal do Pampa do curso de Tecnologia em Aquicultura.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Dioni Glei Bonini Bitencourt<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BITENCOURT, D. G. B.;BITENCOURT, DIONI GLEI BONINI</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Departamento de Zootecnia, Tecnologia em Aquicultura. <br class="clear" />Rodovia BR-472 - do km 581,000 ao km 581,999<br class="clear" />Salso de Baixo<br class="clear" />97508000 - Uruguaiana, RS - Brasil<br class="clear" />Telefone: (55) 121212</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: Dinâmica de acidificação e metais no solo e subsolo de solos construídos na área de mineração de carvão de Candiota-RS, Ano de obtenção: 2014. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8988116488239858'><img src='images/curriculo/logolattes.gif' /></a>Eloy Antonio Paulleto. <br class="clear" />Coorientador: Luis Ferando Spinelli Pinto. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: Recuperação de áreas degradadas; Solos construídos; Mineração de carvão.<br class="clear" />Grande área: Ciências Agrárias<br class="clear" />Setores de atividade: Agricultura, Pecuária e Serviços Relacionados. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=42003016010P7&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: Variabilidade espacial da camada superficial de um gleissolo da Planície Costeira do Estado do Rio Grande do Sul,Ano de Obtenção: 2007.<br class="clear" />Orientador: Luis Fernando Spinelli Pinto.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Levantamento de solos; Geoestatística; Agricultura de precisão.<br class="clear" />Grande área: Ciências Agrárias<br class="clear" />Grande Área: Ciências Agrárias / Área: Agronomia / Subárea: Ciência do Solo / Especialidade: Manejo e Conservação do Solo. <br class="clear" />Setores de atividade: Agricultura, Pecuária, Silvicultura e Exploração Florestal. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Agrícola<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Centro Federal de Educação Tecnológica, CEFET, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Geoestatística básica.  (Carga horária: 80h). <br class="clear" />Instituto Agronômico de Campinas, IAC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inglês Pré Intermediate I.  (Carga horária: 50h). <br class="clear" />Juarez Lopes English Laguage Studies, JL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inglês Pré Intermediate II.  (Carga horária: 50h). <br class="clear" />Juarez Lopes English Laguage Studies, JL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Auto Cad 2000 2d e 3d.  (Carga horária: 24h). <br class="clear" />Render Multimídia Cursos e Software, RENDER, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Excel.  (Carga horária: 8h). <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inglês elementar Dois. <br class="clear" />British House, BH, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inglês Elementar Um.  (Carga horária: 50h). <br class="clear" />British House, BH, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Solo Análise Calagem Cálculo de Adubação.  (Carga horária: 48h). <br class="clear" />Fundação de Apoio à Educ., Pesq. e Desenvol.Cient. e Tec. da UTFPR, FUNTEF/PR, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Datilografia Avançada.  (Carga horária: 40h). <br class="clear" />Instituição Científica e Tecnológica de Utilidade Pública, SIGNUM DEI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Técnico em Eletromecânica.  (Carga horária: 5040h). <br class="clear" />Centro Federal de Educação Tecnológica, CEFET, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Básico de Microsoft Windows 95.  (Carga horária: 22h). <br class="clear" />Escola de Treinamento de Informática, BIT SCHOOL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Planejamento Organização Administração Miniempresa.  (Carga horária: 96h). <br class="clear" />Centro Federal de Educação Tecnológica, CEFET/RS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor da carreira de Magistério Superior, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Substituto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas Máquinas e equipamentos agrícolas Manejo de solos Desenho técnico Ciência do solo Construções rurais e ambiência Elementos de topografia</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Associação Riograndense de Emprestimos de Assistência Técnica e Extensão Ru, EMATER, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador, Carga horária: 20</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário, Carga horária: 44</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista- PET, Enquadramento Funcional: Aluno de graduação, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa especial de treinamento- PET</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2003 - 10/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Escritório Regional da Ascar Emater Pelotas Rs, Escritório Regional da Ascar Emater Pelotas Rs. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />XII encontro regional do Milho - EMATER. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Faculdade de Engenharia Agrícola, Departamento de Engenharia Agrícola. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Apoio a problemas da sociedade assistencial nossa senhora de fátima (SANSFA) relacionados à engenharia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/2002 - 5/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Faculdade de Engenharia Agrícola, Departamento de Engenharia Agrícola. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Orbid S/A Indústria e Comércio. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro Federal de Educação Tecnológica de Pelotas, CEFET, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário, Carga horária: 40</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Avalia&ccedil;&atilde;o e monitoramento das propriedades do solo e par&acirc;metros da &aacute;gua relacionados &agrave; produ&ccedil;&atilde;o de organismos aqu&aacute;ticos em viveiros escavados em terra pertencentes ao centro de tecnologia em pesca e aquicultura da Universidade Federal do Pampa localizada'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação e monitoramento das propriedades do solo e parâmetros da água relacionados à produção de organismos aquáticos em viveiros escavados em terra pertencentes ao centro de tecnologia em pesca e aquicultura da Universidade Federal do Pampa localizada<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A região sul do Brasil apresenta grande potencial para a implantação de atividades aquícolas, principalmente na região de Uruguaiana-RS, onde existem abundância de recursos hídricos e solos férteis. Neste sentido a qualidade do solo é muito importante, pois os peixes são cultivados em viveiros escavados em terra e a sua produção depende muito do solo do fundo do viveiro. O monitoramento da qualidade da água e do solo é essencial para a produção de peixes; de modo que a sua deterioração é prejudicial ao meio ambiente e deve ser evitada ao máximo. Assim a pesquisa voltada a produção de peixes, com máxima eficiência e responsabilidade ambiental, é de fundamental importância para o cultivo de organismos aquáticos. O objetivo deste trabalho é avaliar a qualidade do solo e da água de viveiros escavados em terra construído com solo típico do município de Uruguaiana-RS para identificar o potencial de produção aquícola. A metodologia consistirá no uso de monocultivo e policultivo, em viveiros escavados em terra, de espécies de peixes mais adaptadas ao clima da região, para avaliar as alterações do solo e da água ao longo do tempo, sendo realizadas biometrias dos peixes ao longo de cada ciclo de cultivo.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador / Antonio Cleber da Silva Camargo - Integrante / Cristiano Miguel Stefanello - Integrante / Fabio de Araújo Pedron - Integrante / Giovani Taffarel Bergamin - Integrante / Marcelo Dal Pozzo - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Auxílio
+										financeiro.</div>
+</div><a name='PP_Projeto Multidisciplinar de P&oacute;s Colheita'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Multidisciplinar de Pós Colheita<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Secador de gr&atilde;os modelo pelotas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Secador de grãos modelo pelotas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esta pesquisa foi realizada com o objetivo de se obter um projeto para um secador de grãos que fosse acessível economicamente ao pequeno produtor rural, de modo que atendese as suas necessidades no meio rural.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador / Carlos Alberto da Luz - Integrante / Fernando Antônio Roldan Alves - Integrante / Francisco Antônio Arduin Arruda - Integrante / Ricardo Martins - Integrante / José Franco - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise comparativa de m&eacute;todos de corre&ccedil;&atilde;o de sinal para o sistema de posicionamento global por GPS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise comparativa de métodos de correção de sinal para o sistema de posicionamento global por GPS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo desta pesquisa é comparar dois métodos de correção de sinal (DGPS E e-Dif) com o sinal de GPS sem correção, sendo que todos eles estão disponíveis na região sul do Rio Grande do Sul. Os satélites movem-se constantemente e por isso os erros estão sempre mudando, portanto, as correções devem ser gravadas constantemente. Deve-se verificar os erros nos dados obtidos pelos aparelhos, e fazer o cálculo da posição verdadeira dos receptores estacionários.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador / Carlos Alberto da Luz - Integrante / Alessandro Felipe Vieira Sarmento - Integrante / Diogo Canez Brauner - Integrante / Maria Laura da Luz - Integrante / Vianei Antônio Conrad - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Levantamento de dados e acompanhamento dos alunos egressos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Levantamento de dados e acompanhamento dos alunos egressos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Formulou-se um programa de cadastro de alunos egressos, para criar um banco de dados de informações respectivas aos endereços residenciais, profissionais e telefones, para futuramente procurar estágios para alunos e também empregos.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador / Samuel Beskow - Integrante / Volnei Luiz Meneghetti - Integrante / Carlos Alberto da Luz - Integrante / Cleverson Gearin Vargas - Integrante / Édimo Freddo - Integrante.<br class="clear" /></div>
+</div><a name='PP_Apoio a problemas da Sociedade Assistencial Nossa Senhora de F&aacute;tima (SANSFA), relacionados a engenharia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Apoio a problemas da Sociedade Assistencial Nossa Senhora de Fátima (SANSFA), relacionados a engenharia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Sociedade Assistencial Nossa Senhora de Fátima (SANSFA) possui problemas relacionados a engenharia (estruturais), como deformações nas estruturas do telhado, rachaduras em vigas, então buscou-se soluções a estes problemas. Outras atividades realizadas pelos integrantes do projeto são: dar palestras de saneamento básico para os pais dos alunos e também curso de informática aos funcionários da creche. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador / Michele Moro - Integrante / Angélica Signor Mendes - Integrante / Adilson Luiz Bamberg - Integrante / Fábio Luiz Zanatta - Integrante / Samuel Beskow - Integrante / Fabrício da Silva Terra - Integrante / Volnei Luiz Meneghetti - Integrante / Paulo Carteri Coradi - Integrante / Ricardo Coelho Michelon - Integrante / Édimo Freddo - Integrante / Orlando Pereira Ramirez - Integrante / Cristina Ribeiro Ramalho - Integrante / Rodrigo Volpato - Integrante.<br class="clear" /></div>
+</div><a name='PP_Participa&ccedil;&atilde;o da UFPel em feiras e outros eventos afins'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Participação da UFPel em feiras e outros eventos afins<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Monitoria em Matem&aacute;tica, Fundamentos de f&iacute;sica e Hidr&aacute;ulica e topografia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria em Matemática, Fundamentos de física e Hidráulica e topografia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: As disciplinas associadas à área das ciências exatas são de grande relevância a todos os cursos de graduação que, de alguma forma, usam a linguagem matemática e física aplicada a questões de engenharia no entendimento e elaboração de projetos para atingir determinado objetivo. A matemática proporciona aos acadêmicos a capacidade de construir um desenvolvimento mental tornando-os capazes de criar seu próprio raciocínio abstrato e assim usá-lo em todas as etapas do curso de graduação escolhido pelos mesmos. A física prepara o acadêmico para que este seja capaz de entender, sob ponto de vista técnico científico, os fenômenos físicos da natureza que estão diretamente relacionados à área do seu curso de graduação. A hidráulica e topografia, na qualidade de disciplinas técnicas aplicadas, auxiliam os acadêmicos no entendimento das etapas iniciais da implantação de um projeto, usando os conhecimentos obtidos nas duas componentes curriculares anteriores. Portanto dada a elevada importância desses componentes curriculares na formação dos discentes e considerando ainda a já reconhecida e histórica dificuldade de aprendizagem apresentada pelos alunos, justifica-se este projeto, pois se entende como sendo fundamental a prestação de monitoria aos alunos da Universidade Federal do Pampa / campus de Uruguaiana / Tecnólogo em Aquicultura. O objetivo deste projeto de monitoria é oferecer a estes alunos apoio complementar as aulas ministradas pelo professor regente das disciplinas de matemática, fundamentos de física e hidráulica e topografia, ao longo dos semestres letivos, em relação aos conhecimentos teóricos e práticos necessários e indispensáveis a formação dos acadêmicos. Serão realizadas reuniões periódicas envolvendo o monitor e os discentes, se necessário com a participação do professor, com o objetivo de fazer um levantamento das dificuldades de todos os alunos. O bolsista irá reunir-se, em uma sala de aula, com um grupo de alunos no intuito de esclarecer suas dúvidas, para tal a seguinte metodologia será adotada: Serão expostos e solucionados, na forma de exercícios, problemas teóricos ou práticos relativo ao conjunto de dúvidas dos alunos que apresentarem dificuldade no entendimento e assimilação dos conteúdos desenvolvidos em sala de aula. Assim serão usados como recursos didáticos: quadro branco, canetas para quadro branco, régua para quadro, projetor multimídia portátil, calculadora científica e notebook, bem como livros técnicos sobre o assunto. A avaliação sobre o rendimento dos alunos será feita com base na observação da frequência em sala de aula, no período em que o professor esta ministrando as aulas, assim como durante o atendimento aos alunos pelo monitor e também pela observação da capacidade dos discentes na resolução dos exercícios, juntamente com o resultado das avaliações semestrais.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (50) . <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Programa laborat&oacute;rio de ensino'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa laboratório de ensino<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este é um projeto de auxílio nas disciplinas que apresentam alto índice de reprovação no curso, através de monitorias realizadas pelos alunos integrantes do projeto. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" /><br class="clear" />Integrantes: Dioni Glei Bonini Bitencourt - Coordenador / Adilson Luiz Bamberg - Integrante / Fábio Luiz Zanatta - Integrante / Samuel Beskow - Integrante / Fabrício da Silva Terra - Integrante / Volnei Luiz Meneghetti - Integrante / Paulo Carteri Coradi - Integrante / Angela Pinto Maestrini - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Solos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Engenharia Agrícola. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BITENCOURT, DIONI GLEI BONINI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.still.2015.10.004" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, DIONI GLEI BONINI</a></b>; BARROS, WILLIAN SILVA ; TIMM, LUÍS CARLOS ; SHE, DONGLI ; PENNING, LETIANE HELWIG ; PARFITT, JOSÉ MARIA BARBAT ; REICHARDT, KLAUS . Multivariate and geostatistical analyses to evaluate lowland soil levelling effects on physico-chemical properties. Soil & Tillage Research<sup><img id='01671987_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01671987' /></sup>, v. 156, p. 63-73, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.still.2015.10.004&issn=01671987&volume=156&issue=&paginaInicial=63&titulo=Multivariate and geostatistical analyses to evaluate lowland soil levelling effects on physico-chemical properties&sequencial=1&nomePeriodico=Soil & Tillage Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BITENCOURT, DIONI GLEI BONINI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.14393/BJ-v31n6a2015-29457" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, DIONI GLEI BONINI</a></b>; TIMM, LUÍS CARLOS ; GUIMARÃES, EDNALDO CARVALHO ; PINTO, LUIZ FERNANDO SPINELLI ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8988116488239858" target="_blank">PAULETTO, ELOY ANTONIO</a> ; PENNING, LETIANE HELWIG . Spatial variability structure of the surface layer attributes of gleysols from the coastal plain of Rio Grande do Sul. Bioscience Journal (Online)<sup><img id='19813163_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19813163' /></sup>, v. 31, p. 1711-1721, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.14393/BJ-v31n6a2015-29457&issn=19813163&volume=31&issue=&paginaInicial=1711&titulo=Spatial variability structure of the surface layer attributes of gleysols from the coastal plain of Rio Grande do Sul&sequencial=2&nomePeriodico=Bioscience Journal (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BITENCOURT, DIONI GLEI BONINI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/01000683rbcs20140810" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, DIONI GLEI BONINI</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; PAULETTO, E. A. ; SILVA, M. T. ; GARCIA, G. F. . GERAÇÃO DE DRENAGEM ÁCIDA E DE CONTAMINAÇÃO POR METAIS PESADOS EM PERFIS DE SOLOS CONSTRUÍDOS EM ÁREA DE MINERAÇÃO DE CARVÃO. Revista Brasileira de Ciência do Solo (Online)<sup><img id='18069657_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18069657' /></sup>, v. 39, p. 1821-1834, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/01000683rbcs20140810&issn=18069657&volume=39&issue=&paginaInicial=1821&titulo=GERAÇÃO DE DRENAGEM ÁCIDA E DE CONTAMINAÇÃO POR METAIS PESADOS EM PERFIS DE SOLOS CONSTRUÍDOS EM ÁREA DE MINERAÇÃO DE CARVÃO&sequencial=3&nomePeriodico=Revista Brasileira de Ciência do Solo (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BITENCOURT, D. G. B.;BITENCOURT, DIONI GLEI BONINI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9067196302691355" target="_blank">L.C.TIMM</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> . VARIABILIDADE ESPACIAL DOS ATRIBUTOS DO SOLO EM UMA UNIDADE DE MAPEAMENTO DE GLEISSOLO. Suelos Ecuatoriales<sup><img id='05625351_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='05625351' /></sup>, v. 42, p. 96-107, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=05625351&volume=42&issue=&paginaInicial=96&titulo=VARIABILIDADE ESPACIAL DOS ATRIBUTOS DO SOLO EM UMA UNIDADE DE MAPEAMENTO DE GLEISSOLO&sequencial=4&nomePeriodico=Suelos Ecuatoriales" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; PERES, W. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2756916660743293" target="_blank">ROSA, David Peres da</a> . Aeração de Grãos armazenados. Engenharia de processamento agroindustrial. : , 2004, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2756916660743293" target="_blank">ROSA, David Peres da</a> ; REIS, Angelo Vieira dos . Construção de um Perfilômetro Desmontável de Baixo Custo. In: XII CONGRESSO DE INICIAÇÃO CIENTÍFICA E V ENPOS- UFPEL-2003, 2003, Capão do Leão. Construção de um Perfilômetro, 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; PAULETTO, E. A. ; GARCIA, G. F. ; AMBUS, J. V. ; DUTRA JUNIOR, L. ; NUNES, M. R. . QUALIDADE QUÍMICA DA ÁGUA DO SOLO CONSTRUÍDO APÓS MINERAÇÃO DE CARVÃO: ANÁLISE DO EXTRATO DA PASTA SATURADA. In: IV Congresso Brasileiro de Carvão Mineral, 2013, Gramado RS. QUALIDADE QUÍMICA DA ÁGUA DO SOLO CONSTRUÍDO APÓS MINERAÇÃO DE CARVÃO: ANÁLISE DO EXTRATO DA PASTA SATURADA. Gramado RS, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; SILVA, T. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; PAULETTO, E. A. . AVALIAÇÃO DE ALGUMAS PROPRIEDADES FÍSICAS DE UM SOLO EM PROCESSO DE RECUPERAÇÃO PERTENCENTE A UMA MINA DE CARVÃO EM CANDIOTA - RS. In: Encontro de Pós Graduação, 2012, Pelotas. AVALIAÇÃO DE ALGUMAS PROPRIEDADES FÍSICAS DE UM SOLO EM PROCESSO DE RECUPERAÇÃO PERTENCENTE A UMA MINA DE CARVÃO EM CANDIOTA - RS. Pelotas: UFPel, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, G. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; SILVA, M. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b> ; AMBUS, J. V. . CONTAMINAÇÃO COM METAIS EM SOLOS CONSTRUÍDOS NA ÁREA DE MINERAÇÃO DE CARVÃO DE CANDIOTA-RS. In: 21° Congresso de Iniciação Científica 4° Mostra Científica, 2012, Pelotas. CONTAMINAÇÃO COM METAIS EM SOLOS CONSTRUÍDOS NA ÁREA DE MINERAÇÃO DE CARVÃO DE CANDIOTA-RS. Pelotas: UFPel, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; PAULETTO, E. A. ; GARCIA, G. F. ; MATOSO, E. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b> . CARACTERIZAÇÃO QUÍMICA E AVALIAÇÃO DO POTENCIAL DE ACIDIFICAÇÃO DE SOLOS CONSTRUÍDOS NA ÁREA DE MINERAÇÃO DE CARVÃO DE CANDIOTA-RS. In: Simpósio Nacional sobre Recuperação. de Áreas Degradadas, 2012, Rio de Janeiro. Simpósio Nacional sobre Recuperação. de Áreas Degradadas. Rio de Janeiro, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. T. ; PAULETTO, E. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b> ; GARCIA, G. F. ; MATOSO, E. S. . Caracterização do potencial de acidificação de solos construídos na área demineração de Candiota-RS. In: XIX Reunião Brasileira de Manejo e Conservação do Solo e da Água, 2012, Lajes - SC. Caracterização do potencial de acidificação de solos construídos na área demineração de Candiota-RS. Lajes - SC, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9067196302691355" target="_blank">L.C.TIMM</a> . Variabilidade espacial da capacidade de troca de cátions de um solo pertencente a uma lavoura de arroz irrigado em uma unidade de mapeamento de gleissolo na planície costeira-Rio Grande do Sul. In: VII Congresso Brasileiro de Arroz Irrigado, 2011, Balneário Camburiú - SC. ANAIS. Itajaí-SC: Epagri/Sosbai, 2011. v. 2. p. 151-154. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9067196302691355" target="_blank">L.C.TIMM</a> ; BAMBERG, Adilson Luiz . Variabilidade espacial das propriedades químicas do solo ao longo de duas transeções localizadas em uma área situada na planície costeira do Rio Grande do Sul. In: XIII Enpos, 2011, Pelotas. XIII Enpos. Pelotas: UFPel, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, G. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; PAULETTO, E. A. ; SILVA, M. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b> . CARACTERIZAÇÃO QUÍMICA E AVALIAÇÃO DA ACIDIFICAÇÃO DE SOLOS CONSTRUÍDOS DE DIFERENTES IDADES, ORIUNDOS DA ÁREA DE MINERAÇÃO DE CARVÃO DE CANDIOTA-RS.. In: XX Congresso de Iniciação Científica III Mostra Científica, 2011, Pelotas. CARACTERIZAÇÃO QUÍMICA E AVALIAÇÃO DA ACIDIFICAÇÃO DE SOLOS CONSTRUÍDOS DE DIFERENTES IDADES, ORIUNDOS DA ÁREA DE MINERAÇÃO DE CARVÃO DE CANDIOTA-RS.. Pelotas: UFPel, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; PAULETTO, E. A. ; BAMBERG, Adilson Luiz . Variabilidade espacial e relação com as unidades de mapeamento de solos em uma área da Granja bretanhas. In: XXXI Congresso Brasileiro de Ciência do Solo, 2007, Gramado. Livro de resumos, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; BAMBERG, Adilson Luiz ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1335865923064627" target="_blank">L.F.S. Pinto</a> ; PAULETTO, E. A. . Detalhamento de solos da Unidade de Mapeamento Pelotas na Granja Bretanhas. In: XV Congresso de Iniciação Científica VIII Encontro de Pós Graduação, 2007, Pelotas. Livro de resumos, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TUCHTENHAGEN, I. K. ; LIMA, C. L. R. ; NUNES, M. C. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9067196302691355" target="_blank">L.C.TIMM</a> ; <b>BITENCOURT, DIONI GLEI BONINI</b> ; LIMA, L. S. C. . Spatial Variability of Visual Examination Methods of Soil Structure in the Santa Rita Sub-basin, Southern Brazil. In: Brazilian Soil Physics Meeting, 2017, Piracicaba. Brazilian Soil Physics Meeting, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMPOS, A. D. ; <b>BITENCOURT, DIONI GLEI BONINI</b> ; PARFITT, J. M. ; PIRES, L. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9067196302691355" target="_blank">L.C.TIMM</a> . Land levelling effects on the spatial variability structure of lowland hydro-physical attributes, southern Brazil. In: Brazilian Soil Physics Meeting 4th, 2017, Piracicaba-SP. Brazilian Soil Physics Meeting, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCÊZ K.F ; <b>BITENCOURT, DIONI GLEI BONINI</b> ; LOPES G.M. . MONITORIA NAS DISCIPLINAS DE MATEMÁTICA. FÍSICA, HIDRÁULICA E TOPOGRAFIA. In: SALÃO INTERNACIONAL DE ENSINO PESQUISA E EXTENSÃO, 2016, Uruguaiana. MONITORIA NAS DISCIPLINAS DE MATEMÁTICA. FÍSICA, HIDRÁULICA E TOPOGRAFIA, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; PERES, David Peres da ; MACHADO, Antônio Lilles Tavares . Avaliação do Esforço de Tração de dois Tipos de Ponteiras de Escarificador. In: XII CONGRESSO DE INICIAÇÃO CIENTÍFICA E V ENPOS- UFPEL-2003, 2003, Capão do Leão. Avaliação do Esforço de Tração de dois Tipos de Ponteiras de Escarificador, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2756916660743293" target="_blank">ROSA, David Peres da</a> ; MACHADO, Antônio Lilles Tavares . Adequação de Modelos Matemátcos para previsão do esforço de tração para um Escarificador. In: XV SALÃO DE INICIAÇÃO CIENTÍFICA E XII FEIRA DE INICIAÇÃO UFRGS 2003, 2003, Porto Alegre. Adequação de Modelos Matemáticos para previsão do esforço de tração para um Escarificador, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2756916660743293" target="_blank">ROSA, David Peres da</a> ; MACHADO, Antônio Lilles Tavares . Avaliação do Esforço de Tração de um Escarificador atuando com duas Ponteiras. In: II MOSTRA DA PRODUÇÃO UNIVERSITÁRIA, 2003, Rio Grande. Avaliação do Esforço de Tração de um Escarificador atuando com duas Ponteiras, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2756916660743293" target="_blank">ROSA, David Peres da</a> ; MACHADO, Antônio Lilles Tavares ; VASCONCELOS, Márcia Beatriz . Previsão do Esforço de Tração, Área de Solo Mobilizado, e Eficiência de Trabalho de um Escarificador Utilizando dois Tipos de Ponteiras. In: XI CONGRESSO DE INICIAÇÃO CIENTÍFICA X LAB. DE PESQUISA DA UCPEL MOSTRA DE PÓS GRADUAÇÃO UCPEL, 2002, Pelotas. Previsão do Esforço de Tração, Área de Solo Mobilizado,e Eficiência de Trabalho de um Escarificador Utilizando dois Tipos de Ponteiras. Pelotas: Editora da Universidade Federal de Pelotas, 2002. v. 1. p. 131-131. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2756916660743293" target="_blank">ROSA, David Peres da</a> ; MACHADO, Antônio Lilles Tavares ; VASCONCELOS, Márcia Beatriz . Previsão do Esforço de Tração para um Escarificador atuando com dois tipos de Ponteiras. In: XI CONGRESSO DE INICIAÇÃO CIENTÍFICA- UFPEL, 2002, Pelotas. Previsão do Esforço de Tração para uma Escarificador atuando com dois tipos de Ponteira, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. Anisotropia no estudo da variabilidade espacial dos atributos do solo. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; BAMBERG, Adilson Luiz . XIV Congresso de inciação científica VII Encontro da Pós-Graduação. 2006.
+							(Organização de evento).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>; BAMBERG, Adilson Luiz . XII Encontro regional de Milho. 2003.
+							(Organização de evento).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. Prospecção profissional do curso de Eletromecânica. 1997.
+							(Organização de evento / exposição).
+						</div>
+</div>
+<br class="clear">
+<a name="ProducaoArtisticaCultural"></a><br class="clear" /><div class="inst_back">
+<b>Produção artística/cultural</b>
+</div>
+<div class="cita-artigos">
+<b><a name="OutrasProducoesArtisticas"></a>Outras produções artísticas/culturais</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. Manejo de Solos de Várzea.
+							2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. A carência de mapa de solos no Rio Grande do Sul.
+							2008. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. XX Congresso de Iniciação Científica / III Mostra Científica.
+							2011.
+							Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4° Semana Acadêmica da Aquicultura.
+							2016. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Expofeira de Uruguaiana. 2016. (Exposição). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1° Pesca na Barranca da Aquicultura.
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2nd BRAZILIAN SOIL PHYSICS MEETING.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso de Carvão Mineral. QUALIDADE QUÍMICA DA ÁGUA DO SOLO CONSTRUÍDO APÓS MINERAÇÃO DE CARVÃO: ANÁLISE DO EXTRATO DA PASTA SATURADA. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI ESCUELA LATINOAMERICANA DE FÍSICA DE SUELOS.Variabilidade espacial dos atributos do solo em uma unidade de mapeamento de Gleissolo. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Brasileiro de Carvão Mineral. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Congresso Brasileiro de Arroz Irrigado. Variabilidade espacial da capacidade de troca de cátions de um solo pertencente a uma lavoura de arroz irrigado em uma unidade de mapeamento de gleissolo na planície costeira- Rio Grande do Sul. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Congresso de Iniciação Científica/III Mostra Científica. Avaliador de Congresso de Iniciação científica. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornadas Mercosul: Memória, Ambiente e Patrimônio.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Momento UNIPAMPA.Momento UNIPAMPA. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXI Congresso Brasileiro de Ciência do solo. Variabilidade espacial e relação com as unidades de mapeamento de solos em uma área da Granja Bretanhas - RS. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Congresso de Iniciação Científica VIII Encontro de Pós Graduação. Detalhamento de solos da Unidade de Mapeamento Pelotas na Granja Bretanhas. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Mostra de produção Universitária.Avaliação do esforço de tração de um escarificador atuando com duas ponteiras. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I SIMPÓSIO SUL- BRASILEIRO DE QUALIDADE DE ARROZ.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Salão de iniciação científica.Adequação de modelos matemáticos para previsão do esforço de tração para um escarificador. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Apresentação de estágios.Apresentação de estágio realizado.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Regional dos Grupos Pet.Encontro Regional dos Grupos Pet.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Exposição dos trabalhos desenvolvidos pelos alunos da Faculdade de Engenharia Agrícola.Apresentação de trabalho.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra Metafísicas de Galilei. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Congresso de iniciação científica X Laboratório de pesquisa da UCPel mostra de Pós Gradauação da UCPel. Previsão do esforço de tração, área de solo mobilizado e eficiência de trabalho de um escarificador utilizando dois tipos de ponteiras. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIV Semana Acadêmica de Engenharia Agrícola. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Seminário de Extensão Universitária da Região Sul.Apoio a problemas da sociedade assistencial nossa senhora de fátima (SANSFA), relacionados a engenharia. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum de Engenharia Agrícola. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. XIV CONGRESSO DE INICIAÇÃO CIENTÍFICA E VII ENCONTRO DE PÓS-GRADUAÇÃO. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. XII ENCONTRO REGIONAL DE MILHO- EMATER. 2003. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. Prospecção Profissional do Curso de Eletromecânica. 1997. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariana da Silva. Monitoria específica para acompanhamento de aluno indígena.
+						Início: 2017.
+							Orientação de outra natureza. Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1274611347204473" target="_blank">BITENCOURT, D. G. B.</a></b>. Anisotropia no estudo da variabilidade espacial dos atributos do solo. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Aprovação em primeiro lugar em concurso Público de Provas e Títulos, destinado a seleção de candidatos para contratação como professor substituto, promovido pela Universidade Federal de Pelotas. Área de Conhecimento: Geometria descritiva e Desenho.
+
+Aprovação em quinto lugar em Concurso Público de Provas e Títulos, destinado a selecionar candidatos para o cargo de Professor Assistente da Carreira do Magistério Superior da Universidade Federal de Pelotas em caráter efetivo. Área de Conhecimento:Desenho Técnico, Geometria Descritiva, Gráfica computacional
+
+Aprovação em quinto lugar em Concurso Público de Provas teóricas e práticas, destinado a selecionar candidatos para o cargo de técnico em laboratório para a carreira de servidor público da Universidade Federal de Pelotas, área: Cartografia
+
+Aprovação em segundo lugar em Concurso Público de Provas e Títulos,
+destinado a selecionar candidatos para o cargo de Professor Adjunto e Professor Assistente da
+Carreira do Magistério Superior da Fundação Universidade Federal do Pampa em caráter efetivo. Área de Conhecimento: Máquinas e equipamentos agrícolas, Desenho técnico, Elementos de topografia, Construções Rurais e Ambiência, Manejo e Conservação do solo.
+
+ Aprovação em primeiro lugar em concurso Público de Provas e Títulos, destinado a seleção de candidatos para contratação como professor substituto, promovido pela Universidade Federal de Pelotas. Área de Conhecimento: Máquinas e equipamentos agrícolas, Desenho técnico, Manejo de Solos</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:41:06</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=1274611347204473" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

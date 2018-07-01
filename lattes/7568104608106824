@@ -1,0 +1,3445 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/46C0EAAE-1500-5E42-BB38-375500EB7B5E/main.js" charset="UTF-8"></script><script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_-2136212046|rpid=-437778547|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Jenifer H&auml;rter)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4450335U6&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=7568104608106824" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4450335U6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4450335U6"><div class="infpessoa">
+<h2 class="nome">Jenifer H&auml;rter</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/7568104608106824</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 23/05/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Professora da Universidade Federal do Pampa (Unipampa) no campus Uruguaiana, curso de Enfermagem. Doutoranda do Programa de Pós Graduação da Faculdade de Enfermagem da Universidade Federal de Pelotas (UFPel). Inserida no Grupo de Estudos Epidemiológico-Operacional em Tuberculose vinculado a Escola de Enfermagem de Ribeirão Preto (EERP) da Universidade São Paulo (USP).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Jenifer Härter</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">HARTER, J.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Enfermagem<span class="ajaxCAPES" data-param="&codigoCurso=42003016030P8&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>sanduíche </b> em Universidad Autónoma de Madrid (Orientador: Maria Pilar Serrano Gallardo). <br class="clear" />Título: Planejamento e organização das ações de detecção de casos de tuberculose em municípios do Rio Grande do Sul, Ano de obtenção: 2017. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9433866515781707'><img src='images/curriculo/logolattes.gif' /></a>Roxana Isabel Cardozo Gonzales. <br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul, FAPERGS, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Enfermagem<span class="ajaxCAPES" data-param="&codigoCurso=42003016030P8&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: Avaliação da detecção de casos de tuberculose no contexto da atenção primária à saúde,Ano de Obtenção: 2012.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9433866515781707'><img src='images/curriculo/logolattes.gif' /></a>Roxana Isabel Cardozo Gonzales.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização interrompida em 2016 em Saúde Pública<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Grupo Educacional UNINTER, UNINTER, Brasil.
+		
+	<br class="clear" />Ano de interrupção: 2016</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Enfermagem e Obstetrícia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: Diagnóstico da Tuberculose em Pelotas: Atuação do profissional na Atenção Básica. <br class="clear" />Orientador: Celeste dos Santos Pereira. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GPRS - Aperfeiçoamento em Gestão de Programas de Residência em Saúde.  (Carga horária: 360h). <br class="clear" />Hospital Sírio-Libanês, SIRIO-LIBANÊS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamento de Introdução ao Statistica.  (Carga horária: 7h). <br class="clear" />StatSoft South America, STATSOFT, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Epidemiologia Básica.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conversando Sobre Redução de Danos.  (Carga horária: 16h). <br class="clear" />Secretaria Municipal de Saúde e Bem Estar de Pelotas, SMSBE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Urgência e Emergência.  (Carga horária: 40h). <br class="clear" />Curso de Aperfeiçoamento em Enfermagem, CAE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Metassíntese em Pesquisa Qualitativa.  (Carga horária: 4h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenador de Bloco Cirurgico.  (Carga horária: 4h). <br class="clear" />Irmandade da Santa Casa de Misericórdia de Porto Alegre, ISCMPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação na Área da Deficiência Visual.  (Carga horária: 180h). <br class="clear" />Escola para Deficientes Visuais Louis Braille, LOUIS BRAILLE, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Coordenadora COREMU*, Carga horária: 3</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">*Comissão de Residência Multiprofissional em Saúde e em Área Profissional da Saúde ? COREMU</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Coordenadora Substituta PRIMSC*, Carga horária: 6</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">*Programa de Residência Integrada Multiprofissional em Saúde Coletiva</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professora, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />UR1408 Semiologia em Enfermagem<br class="clear" />UR1405 Semiotécnica em Enfermagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Curso de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Grupo de Trabalho da Policlínica Universitária, instituido por Decreto Municipal 536/2016.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Residência Integrada Multiprofissional em Saúde e em Área da Saúde, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Tutora do Programa de Residência Integrada Multiprofissional em Saúde Coletiva<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2016 - 12/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />CCCG Semiologia em enfermagem: exame físico (2016-II)<br class="clear" />Gerenciamento em Enfermagem e Serviços de Saúde (2016-I)<br class="clear" />UR 1405 Semiotécnica em Enfermagem<br class="clear" />UR1408 Semiologia em Enfermagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - 12/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />UR1308 - Semiologia e semiotécnica de Enfermagem<br class="clear" />UR1403 - Processo de Enfermagem e Saúde<br class="clear" />Estágio Supervisionado I<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Discente de Pós-Graduação, Enquadramento Funcional: Aluna de Doutorado, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Discente de Pós Graduação, Enquadramento Funcional: Aluna de Mestrado, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Acadêmica, Enquadramento Funcional: Acadêmica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Faculdade de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Avaliação de Serviços de Saúde e tuberculose'>Avaliação de Serviços de Saúde e tuberculose</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Teoria e prática no Estágio do 9º e 10º semestres<br class="clear" />Projeto de Pesquisa e Trabalho de Conclusão de Curso <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2011 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Faculdade de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante Discente no Colegiado de Pós-Graduação do PPGEn/UFPel..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2011 - 06/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Faculdade de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Diretório Acadêmico Anna Nery. Representante da Pós-graduação..
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2011 - 04/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Faculdade de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Projeto de extensão: "Qualificação em Pesquisa: Treinamento para manejo de base de dados da literatura científica e elaboração de artigos de revisão". Enquadramento funcional: Monitoria. Total de Horas: 168 horas.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Faculdade de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Bolsista do Programa de Bolsas de Graduação (PBG) da Universidade Federal de Pelotas, como monitora da Disciplina Unidade do Cuidado da Atenção Básica II, inserida no componente curricular do Sexto Semestre da Faculdade de Enfermagem.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2010 - 04/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Faculdade de Letras, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Projeto de Extensão: Inglês Através da Laitura. 20 horas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Departamento de Enfermagem da Faculdade e Enfermagem Obstétrica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Liga de Atualidades em Curativos-LAC. 67 horas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2008 - 07/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Departamento de Enfermagem da Faculdade e Enfermagem Obstétrica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Projeto de Extensão: Vivências para os Acadêmicos de Enfermagem no Sistema de Saúde. 40 hoas. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Ministério da Saúde, MS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador(a), Enquadramento Funcional: Monitora</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Membro do grupo de monitores externos da área de Monitoramento & Avaliação do Programa Nacional de Controle à Tuberculose (PNCT/MS).</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Secretaria de Vigilância em Saúde, Programa Nacional de Controle da Tuberculose (PNCT). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Visita de Monitoramento do Programa Estadual do Maranhão e Programa Municipal de São Luis. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - 09/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Secretaria de Vigilância em Saúde, Programa Nacional de Controle da Tuberculose (PNCT). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Visita técnica de monitoramento da tuberculose a Salvador e Estado da Bahia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Secretaria de Vigilância em Saúde, Programa Nacional de Controle da Tuberculose (PNCT). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Visita de Monitoramento ao Estado de Minas Gerais e Belo Horizonte. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2013 - 07/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Secretaria de Vigilância em Saúde, Programa Nacional de Controle da Tuberculose (PNCT). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Visita de monitoramento ao Estado de Minas Gerais, a Belo Horizonte e Betim. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade de São Paulo, USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Membro de Grupo de Pesquisa, Enquadramento Funcional: Membro GEOTB</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Ministerio da Saude do PERU, NTP, Peru.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Não empregatício, Enquadramento Funcional: Estagiário, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Realización de Estage en la Oficina General de Informácion e Sistemas del Instituto Nacional de Salud, del 15 al 26 de octubre del 2012, recibiendo capacitación en el Sistema de Información NETLAB y aplicativo SInTB.</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Avalia&ccedil;&atilde;o de Servi&ccedil;os de Sa&uacute;de e tuberculose'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação de Serviços de Saúde e tuberculose</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Perfil das tentativas de suic&iacute;dio em um munic&iacute;pio da Fronteira Oeste do Rio Grande do Sul'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Perfil das tentativas de suicídio em um município da Fronteira Oeste do Rio Grande do Sul<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O suicídio tem sido considerado um problema de saúde pública, visto que, é um fenômeno complexo e que traz implicações negativas em diferentes esferas. Além disso, a temática é cercada de crenças e tabus, carecendo de melhores investigações no cenário brasileiro e mundial. O presente estudo objetiva descrever o perfil das tentativas de suicídio entre casos notificados em um município na Fronteira Oeste do Rio Grande do Sul. Trata-se de uma pesquisa quantitativa do tipo documental, configurando-se como um estudo descritivo. A coleta de dados será realizada na Secretaria de Saúde de um município da Fronteira Oeste do Rio Grande do Sul, no período de Fevereiro à Março de 2016. Os dados serão coletados através das Fichas de Notificação Compulsória registradas na Secretaria Municipal de Saúde do município, entre o período de 2010 a 2014. Os dados serão coletados através das Fichas de Notificação fornecidas pelo setor epidemiológico da Secretaria de Saúde do município escolhido. Como instrumento de coleta será utilizado uma Tabela de Dados elaborada pelos autores, baseado nas variáveis demográficas (idade e sexo), marcadores socioeconômicos (escolaridade e ocupação), situação conjugal, tipo de relações sexuais, existência de algum tipo de deficiência, zona de residência, zona de ocorrência, reincidência, meio de agressão, encaminhamento da pessoa atendida e a classificação da doença. Espera-se com os resultados deste estudo suscitar reflexões no meio acadêmico em relação a temática, com vistas, à discussão de novas práticas de cuidado voltadas ao fenômeno e dar visibilidade as políticas públicas de saúde referente ao tema.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Coordenador / Dionatan Delevati - Integrante / debora Schlotefeldt Siniak - Integrante.<br class="clear" /></div>
+</div><a name='PP_Perfil de hipertensos e diab&eacute;ticos e conhecimento sobre doen&ccedil;a renal cr&ocirc;nica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Perfil de hipertensos e diabéticos e conhecimento sobre doença renal crônica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A atenção básica envolve diversas ações, dentre elas a promoção da saúde e a prevenção de agravos, facilitando a identificação de usuários com hipertensão e diabetes, especialmente por meio do Sistema de Cadastramento e Acompanhamento de Hipertensos e Diabéticos (HIPERDIA). Além disso, podem ser realizadas atividades multiprofissionais, preconizando ações conjuntas para melhor abranger as necessidades dos usuários e promover o conhecimento de suas peculiaridades, principalmente pela hipertensão e o diabetes estarem associados com outras doenças, como a Doença Renal Crônica. A realização de estudos que busquem articular essas temáticas são necessários, a fim de definir estratégias e ações para essa população, bem como aprofundar o conhecimento na área. Tem-se como objetivos descrever o perfil de hipertensos e diabéticos vinculados a Unidades de Saúde da Família do munícipio de Uruguaiana e descrever o conhecimento de hipertensos e diabéticos vinculados a Unidades de Saúde da Família do munícipio de Uruguaiana sobre doença renal crônica. Estudo descrito quanti-qualitativo que será realizado com usuários hipertensos e diabéticos vinculados ao grupo HIPERDIA em duas Unidades de Saúde da Família, 17 Nova Esperança e 07 União das Vilas, ambas do município de Uruguaiana, Rio Grande do Sul. Serão incluídos todos os usuários das unidades citadas que têm hipertensão e/ou diabetes, participantes dos grupos HIPERDIA e maiores de 18 anos. A exclusão será para os que não falarem o idioma português e que não conseguirem se comunicar verbalmente. A coleta de dados da etapa quantitativa será realizada por meio de formulário contendo questões socioeconômicas, demográficas e clínicas e, questões específicas de DRC. As variáveis do estudo serão do tipo categóricas dicotômicas, ordinais e nominais analisadas por medidas de frequência relativa e absoluta uni e bivariadas (variáveis específicas sobre a DCR e perfil). As variáveis numéricas contínuas e discretas serão descritas por medidas de tendência e dispersão. Os entrevistados serão estratificados em dois grupos segundo resposta de variável dicotômica e, posteriormente serão identificadas as variáveis de perfil associadas a cada grupo a partir do Teste Qui-quadrado ou Exato de Fisher. As variáveis numéricas serão comparadas pelo teste U Mann-Whitney ou teste T conforme indicado, para análise de médias. Será utilizado o software Statistica da StataSoft 13. Para a coleta de dados da etapa qualitativa, será realizado um sorteio aleatório dos entrevistados a fim de classificar a ordem de realização das entrevistas semiestruturadas referentes ao conhecimento sobre DRC. Os dados serão analisados pela análise de conteúdo.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Integrante / Raquel Potter Garcia - Coordenador / Camila Antunez Vilagran - Integrante.<br class="clear" /></div>
+</div><a name='PP_Aten&ccedil;&atilde;o Prim&aacute;ria &agrave; Sa&uacute;de na Detec&ccedil;&atilde;o de Casos de Tuberculose em Munic&iacute;pios Priorit&aacute;rios do Sul do Brasil: Desafios e Investimentos em Estrat&eacute;gias de Informa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atenção Primária à Saúde na Detecção de Casos de Tuberculose em Municípios Prioritários do Sul do Brasil: Desafios e Investimentos em Estratégias de Informação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Chamada MCTI/CNPq/MS-SCTIE - Decit N° 40/2012 - Pesquisa em Doenças Negligenciadas. OBJETIVO: Avaliar o desempenho dos serviços de atenção primária à saúde na detecção de casos de TB pulmonar em municípios prioritários do sul do Brasil e implementar tecnologia de informação avaliando seu impacto na qualidade e integração de ações entre os serviços de saúde. METODOS: Estudo de avaliação de serviços de saúde de abordagens quantitativa e qualitativa em quatro municípios prioritários para o controle da TB no estado Rio Grande do Sul (Pelotas, Canoas, Sapucaia do Sul e Santa Cruz do Sul). O estudo será desenvolvido com análise de fontes secundárias (Livros de Registro e prontuários) e fontes primárias (doentes de TB) e será implementado um sistema de registro informatizado online, que concentra uma versão digital dos documentos de registro utilizados na detecção, diagnóstico e tratamento dos casos de TB, além de um prontuário eletrônico para acompanhamento do caso.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (10)  / Especialização: (7)  / Mestrado acadêmico: (9)  / Doutorado: (5) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Integrante / LIMA, LM de - Integrante / Eduarda Russo Gonçalves - Integrante / Luize Barbosa Antunes - Integrante / Dagoberta Alves Beduhn - Integrante / Roxana Isabel Cardozo Gonzales - Coordenador / Jéssica Tomberg - Integrante / Simone Pieren dos Reis - Integrante / Bianca Contreira Jung - Integrante / Pedro Fredemir Palha - Integrante / Aline Aparecida Monroe - Integrante / Ricardo Alexandre Arcêncio - Integrante / Vanda Maria da Rosa Jardim - Integrante / Elaine Thumé - Integrante / Luciene Cardoso Scherer - Integrante / Maria Antonia Heck - Integrante / Lia Possuelo - Integrante / Pedro Eduardo de Almeida Silva - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_Tuberculose: Coordena&ccedil;&atilde;o da assist&ecirc;ncia e estrat&eacute;gias para ades&atilde;o ao tratamento em munic&iacute;pios da regi&atilde;o Sul, Sudeste e Nordeste do Brasil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tuberculose: Coordenação da assistência e estratégias para adesão ao tratamento em municípios da região Sul, Sudeste e Nordeste do Brasil<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: CNPq Universal Edital nº 14/2012 - Processo 473320/2012-6.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Integrante / Rubia Laine de Paula Andrade - Integrante / VILLA, TCS - Coordenador / Dagoberta Alves Beduhn - Integrante / Roxana Isabel Cardozo Gonzales - Integrante.<br class="clear" /></div>
+</div><a name='PP_Retardo no diagn&oacute;stico da tuberculose: an&aacute;lise das causas em Pelotas/RS-Brasil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Retardo no diagnóstico da tuberculose: análise das causas em Pelotas/RS-Brasil<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto vinculado ao Estudo Multicêntrico "Retardo no diagnóstico da tuberculose: análise das causas em Pelotas/RS". Registrado na Universidade Federal de Pelotas sob código 4.04.06.015, maiores informações http://www.ufpel.edu.br/prppg/projetos/ver.php?proj_id=3236&PHPSESSID=d93de98804e6785d5c925a0d76220ef9.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (10)  / Mestrado acadêmico: (3)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Integrante / Roxana Isabel Cardozo Gonzales - Coordenador / Glauber - Integrante / LIMA, LM de - Integrante / KRONING, CS - Integrante / PEREIRA, CS - Integrante / Eduarda Russo Gonçalves - Integrante / Fernanda Barwaldt Leal - Integrante / Luize Barbosa Antunes - Integrante / Dagoberta Alves Beduhn - Integrante.<br class="clear" /></div>
+</div><a name='PP_Retardo no diagn&oacute;stico da tuberculose: an&aacute;lise das causas em diferentes regi&otilde;es do Brasil.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Retardo no diagnóstico da tuberculose: análise das causas em diferentes regiões do Brasil.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto multicêntrico desenvolvido pela Área de Pesquisa Operacional da Rede Brasileira de Pesquisa em tuberculose/REDE-TB Retardo no diagnóstico da tuberculose: análise das causas em diferentes regiões do Brasil , aprovado e financiado pelo MCT/CNPq/CT- Saúde/MS/SCTIE/DECIT Nº 034/2008 575386/2008-8. O projeto multicêntrico está sendo desenvolvido por pesquisadores da REDE/TB; entidades governamentais (coordenação estadual, municipal, gestores e profissionais dos serviços de saúde da rede básica), Instituições de Ensino Superior Estadual e Federal, estudantes de doutorado, mestrado, graduação, Centros de Pesquisa e Agências de Cooperação Internacional.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Integrante / Bruno Pereira Nunes - Integrante / Natanielle Cardona Machado - Integrante / Roxana Isabel Cardozo Gonzales - Integrante / Celeste Pereira dos Santos - Integrante / Katiuscia Milano Rosales Rodrigues - Integrante / Leandro Barbosa Pinho - Integrante / VILLA, TCS - Coordenador / Antôio Ruffino-Netto - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Manejo da traqueostomia de adultos hospitalizados: qualifica&ccedil;&atilde;o na forma&ccedil;&atilde;o dos profissionais de Enfermagem.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Manejo da traqueostomia de adultos hospitalizados: qualificação na formação dos profissionais de Enfermagem.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Coordenador / Laisa Saldanha - Integrante / Daiane GM - Integrante.<br class="clear" /></div>
+</div><a name='PP_Qualifica&ccedil;&atilde;o em Pesquisa: treinamento para manejo de bases de dados da literatura cient&iacute;fica e elabora&ccedil;&atilde;o de artigos de revis&atilde;o.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Qualificação em Pesquisa: treinamento para manejo de bases de dados da literatura científica e elaboração de artigos de revisão.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto objetiva o aperfeiçoamento dos discentes e participantes no uso de bases de dados da literatura científica e elaboração de artigos de revisão pelos discentes envolvidos, visando contribuir na apropriação de instrumentos de pesquisa no cotidiano do trabalho acadêmico seja nas atividades de Graduação e/ou Pós-Graduação.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (14)  / Mestrado acadêmico: (9) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Integrante / Cardozo Gonzales, Roxana Isabel - Coordenador / LIMA, LM de - Integrante / GUANILO, MEE - Integrante.<br class="clear" /></div>
+</div><a name='PP_Capacita&ccedil;&atilde;o em Pr&aacute;ticas de Sa&uacute;de/Enfermagem'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação em Práticas de Saúde/Enfermagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Coordenador / Márcio Bandeira Tavares - Integrante / Rita Fernandes Correa Monteiro - Integrante / Elediane Bonatto - Integrante / ita Amélia de Oliveira - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Monitoria para o laborat&oacute;rio de Semiot&eacute;cnica em enfermagem'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria para o laboratório de Semiotécnica em enfermagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A disciplina de Semitécnica em Enfermagem é uma disciplina fundamental na formação do enfermeiro. Esta disciplina visa habilitar o aluno para o cuidado ao paciente nas necessidades de higiene e conforto, térmicas e vasculares, oxigenação, hidratação e nutrição, eliminação urinária e intestinal, integridade cutâneo mucosa; administração de medicamentos; estudo da Sistematização da Assistência de Enfermagem e do Processo de Enfermagem aplicado à prática clínica. Aliado a isso, retoma aspectos trabalhados nas disciplinas básicas. A necessidade e justificativa para a realização da monitoria, surgiu mediante ao elevado índice de reprovação dos alunos no componente curricular, nos semestres anteriores. Ainda, frente a dificuldade que muitos alunos apresentam no desenvolvimento das atividades práticas nos semestres subsequentes. A monitoria terá um dia fixo de realização no laboratório de enfermagem 201. Serão disponibilizados atendimentos previamente agendado para grupos de até seis estudantes em horário extraclasse. As atividades se darão por meio da utilização dos manequins e materiais disponíveis no laboratório, no qual o monitor realização a simulação dos procedimentos em estações de casos clínicos. Espera-se reduzir o número de reprovações na disciplina, possibilitando aos discentes, mais interesse e envolvimento no componente curricular. Com isso, espera-se que estejam melhores capacitados e com as habilidades e destrezas manuais mais desenvolvidas, possibilitando uma melhor execução das atividades praticas hospitalares realizadas. Ainda, facilitar e estimular a relação teórico-prática para o cuidado de enfermagem do indivíduo nas diferentes fases da vida.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Coordenador / Raquel Potter Garcia - Integrante / Bruna Sodré Simon - Integrante / Bruna Stamm - Integrante.<br class="clear" /></div>
+</div><a name='PP_Monitoria para o laborat&oacute;rio de semiologia em enfermagem'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria para o laboratório de semiologia em enfermagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A disciplina de Semiologia em Enfermagem e uma disciplina fundamental na formação do enfermeiro. Esta disciplina visa habilitar o aluno para a primeira etapa do Processo de Enfermagem, relembrando as disciplinas básicas de fisiologia e anatomia, habilitando o aluno para identificar quaisquer alterações fisiológicas e clinicas durante os cuidados a pacientes ao longo da formação e vida profissional. Observa-se o grande índice de reprovação dos alunos nas disciplinas do bloco básico, e grande dificuldade da articulação e aprendizado ao articular os conteúdos vistos anteriormente com esse momento da especificidade em Enfermagem. Por ser uma disciplina fundamental e essencial, que inclui um bloco de praticas hospitalares considera-se que proporcionar ao aluno a monitoria ira favorecer sua inserção junto ao paciente e qualificar o processo de aprendizagem e, principalmente, qualificar o cuidado hospitalar aos pacientes. Objetiva-se disponibilizar aos estudantes momentos de reforço das atividades praticas de semiologia em laboratório para favorecer a qualidade de execução técnica das técnicas propedêuticas e assimilação do conteúdo. Os alunos serão recebidos no laboratório em grupos de ate seis estudantes em horário extraclasse previamente definidos. Por meio da utilização dos manequins e em grupo o monitor repassara as aulas praticas vistas durante a disciplina, desenvolvendo as técnicas de sinais vitais, testes do sistemas neurológico, abdominal, cardíaco e respiratório. Para acompanhamento serão estabelecidos roteiros para avaliação dos sistemas baseados na bibliografia de referencia da disciplina disponível no plano de ensino de semiologia. Em cada reforço no laboratório aplica-se um pre e pos-teste, visando identificar por meio da comparação da somatória dos testes antes e depois o aumento dos acertos nas questões. Estudantes com maior interesse e envolvimento no componente curricular e melhor capacitados para as atividades praticas hospitalares realizadas ao final do semestre. Ainda, que compreendam a relevância da qualificação na disciplina para os futuros componentes curriculares e vida profissional, e principalmente, para a qualidade do cuidado ofertado aos pacientes.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Coordenador / Vanessa Braz - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Pampa - Bolsa.</div>
+</div><a name='PP_A VIGIL&Acirc;NCIA EM SA&Uacute;DE POR MEIO DO USO DA INFORMA&Ccedil;&Atilde;O DA TUBERCULOSE NAS UNIDADES DE ATEN&Ccedil;&Atilde;O PRIM&Aacute;RIA &Agrave; SA&Uacute;DE DO RIO GRANDE DO SUL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A VIGILÂNCIA EM SAÚDE POR MEIO DO USO DA INFORMAÇÃO DA TUBERCULOSE NAS UNIDADES DE ATENÇÃO PRIMÁRIA À SAÚDE DO RIO GRANDE DO SUL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Processo CNPq BDS 235082/2014-7. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Jenifer Härter - Coordenador / Roxana Isabel Cardozo Gonzales - Integrante / Ana Maria Palmar-Santos - Integrante / Luiza Nolasco - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Caminho Aberto</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Caminho Aberto</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Enfermagem / Subárea: Enfermagem em Saúde Coletiva. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>REIS, S. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5123/S1679-49742017000100015" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1787300196256618" target="_blank">REIS, S. P.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; LIMA, Lílian Moura de ; VIEIRA, D. A. ; PALHA, P. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Aspectos geográficos e organizacionais dos serviços de atenção primária à saúde na detecção de casos de tuberculose em Pelotas, Rio Grande do Sul, 2012*. Epidemiologia e Servicos de Saude<sup><img id='16794974_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16794974' /></sup>, v. 26, p. 141-148, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5123/S1679-49742017000100015&issn=16794974&volume=26&issue=&paginaInicial=141&titulo=Aspectos geográficos e organizacionais dos serviços de atenção primária à saúde na detecção de casos de tuberculose em Pelotas, Rio Grande do Sul, 2012*&sequencial=1&nomePeriodico=Epidemiologia e Servicos de Saude" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TOMBERG, J. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span>TOMBERG, J. O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; LIMA, Lílian Moura de ; VIEIRA, D. A. ; GONÇALVES, E.R. ; CARDOZO-GONZALES, R.I. . Setores público e privado: características sociodemográficas das pessoas com tuberculose e ações de diagnóstico. REVISTA ENFERMAGEM UERJ<sup><img id='01043552_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01043552' /></sup>, v. 25, p. 1, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01043552&volume=25&issue=&paginaInicial=1&titulo=Setores público e privado: características sociodemográficas das pessoas com tuberculose e ações de diagnóstico&sequencial=2&nomePeriodico=REVISTA ENFERMAGEM UERJ" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LIMA, L. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1983-1447.2016.01.51467" target="_blank"></a>LIMA, L. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3106091572297091" target="_blank">BEDUHN, D. A.</a> ; ANTUNES, M. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Avaliação do acompanhamento e desfecho de casos de tuberculose em município do sul do Brasil. Revista Gaúcha de Enfermagem (Online)<sup><img id='19831447_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19831447' /></sup>, v. 37, p. e51467, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1983-1447.2016.01.51467&issn=19831447&volume=37&issue=&paginaInicial=e51467&titulo=Avaliação do acompanhamento e desfecho de casos de tuberculose em município do sul do Brasil&sequencial=3&nomePeriodico=Revista Gaúcha de Enfermagem (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANTUNES, L. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5531523431156608" target="_blank">ANTUNES, L. B.</a> ; TOMBERG, J. O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; LIMA, Lílian Moura de ; VIEIRA, D. A. ; CARDOZO-GONZALES, R.I. . Sintomático respiratório de tuberculose na atenção primária: avaliação das ações segundo as recomendações nacionais. Revista da Rede de Enfermagem do Nordeste - Rev Rene<sup><img id='21756783_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21756783' /></sup>, v. 17, p. 1-8, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21756783&volume=17&issue=&paginaInicial=1&titulo=Sintomático respiratório de tuberculose na atenção primária: avaliação das ações segundo as recomendações nacionais&sequencial=4&nomePeriodico=Revista da Rede de Enfermagem do Nordeste - Rev Rene" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JUNG, B</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>JUNG, B ; LIMA, Lílian Moura de ; TOMBERG, J. O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; CARDOZO-GONZALES, R.I. . A invisibilidade da tuberculose na vida de pessoas: experiências de busca por serviços de saúde. Journal of Nursing and Health<sup><img id='22361987_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='22361987' /></sup>, v. 6, p. 423-435, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22361987&volume=6&issue=&paginaInicial=423&titulo=A invisibilidade da tuberculose na vida de pessoas: experiências de busca por serviços de saúde&sequencial=5&nomePeriodico=Journal of Nursing and Health" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARDOZO-GONZALES, R. I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4067/s0717-95532015000200009" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; COSTA, L. M. ; PINHO, L. B. ; LIMA, L. M. ; REIS, S. P. . A DESCOBERTA DA TUBERCULOSE NO TERRITÓRIO: ANÁLISE QUALITATIVA DO TRABALHO DO AGENTE COMUNITÁRIO DE SAÚDE. Ciencia y Enfermería (En línea)<sup><img id='07179553_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07179553' /></sup>, v. 21, p. 87-97, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.4067/s0717-95532015000200009&issn=07179553&volume=21&issue=&paginaInicial=87&titulo=A DESCOBERTA DA TUBERCULOSE NO TERRITÓRIO: ANÁLISE QUALITATIVA DO TRABALHO DO AGENTE COMUNITÁRIO DE SAÚDE&sequencial=6&nomePeriodico=Ciencia y Enfermería (En línea)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HARTER, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.4025/actascihealthsci.v37i2.25232" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; ANDRADE, R. L. P. ; VILLA, T. C. S. ; ARCENCIO, R. A. ; RUSSO-GONÇALVES, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Tuberculosis in primary health care: identifying priority cases in a municipality in southern Brazil. Acta Scientiarum. Health Sciences (Online)<sup><img id='18078648_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18078648' /></sup>, v. 37, p. 167, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.4025/actascihealthsci.v37i2.25232&issn=18078648&volume=37&issue=&paginaInicial=167&titulo=Tuberculosis in primary health care: identifying priority cases in a municipality in southern Brazil&sequencial=7&nomePeriodico=Acta Scientiarum. Health Sciences (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARDOZO-GONZALES, R. I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> ; PALHA, P. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; ALARCON, E. ; LIMA, L. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> . Avaliação	das	ações	de	detecção	de	casos	de	tuberculose	na	atenção	primária. Revista Eletrônica de Enfermagem<sup><img id='15181944_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15181944' /></sup>, v. 17, p. 19, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15181944&volume=17&issue=&paginaInicial=19&titulo=Avaliação	das	ações	de	detecção	de	casos	de	tuberculose	na	atenção	primária&sequencial=8&nomePeriodico=Revista Eletrônica de Enfermagem" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SIDEGUM, D. S. V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>SIDEGUM, D. S. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; SCHERER, L. C. ; PILECCO, F. B. . Avaliação do atendimento laboratorial a sintomáticos respiratórios para tuberculose que procuraram serviços de saúde em Canoas, Rio Grande do Sul, Brasil, 2012. Epidemiologia e Serviços de Saúde<sup><img id='22379622_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='22379622' /></sup>, v. 24, p. 695-700, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22379622&volume=24&issue=&paginaInicial=695&titulo=Avaliação do atendimento laboratorial a sintomáticos respiratórios para tuberculose que procuraram serviços de saúde em Canoas, Rio Grande do Sul, Brasil, 2012&sequencial=9&nomePeriodico=Epidemiologia e Serviços de Saúde" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MATTOS, G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>MATTOS, G. ; ESCOBAL, A. P. ; SOARES, M. C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . A trajetória histórica das políticas de atenção ao parto no Brasil: uma revisão integrativa. Revista de Enfermagem UFPE On Line<sup><img id='19818963_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19818963' /></sup>, v. 7, p. 870-878, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19818963&volume=7&issue=&paginaInicial=870&titulo=A trajetória histórica das políticas de atenção ao parto no Brasil: uma revisão integrativa&sequencial=10&nomePeriodico=Revista de Enfermagem UFPE On Line" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CRUZ, V. D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>CRUZ, V. D. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6681165311879798" target="_blank">OLIVEIRA, M. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> ; ALVES, P. F. . Crack consumption and tuberculosis: an integrative review. SMAD. Revista Eletrônica Saúde Mental Álcool e Drogas (Edição em português)<sup><img id='18066976_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18066976' /></sup>, v. 9, p. 48-55, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18066976&volume=9&issue=&paginaInicial=48&titulo=Crack consumption and tuberculosis: an integrative review&sequencial=11&nomePeriodico=SMAD. Revista Eletrônica Saúde Mental Álcool e Drogas (Edição em português)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BORDIGNON, S. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>BORDIGNON, S. S. ; CRUZ, V. D. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0776525182570104" target="_blank">MEINCKE, S. M. K.</a> ; CARRARO, T. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5457842204583083" target="_blank">COLLET, N.</a> . Participação paterna e reação familiar frente à gravidez na adolescência. Revista de Enfermagem UFPE On Line<sup><img id='19818963_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19818963' /></sup>, v. 7, p. 4459-4465, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19818963&volume=7&issue=&paginaInicial=4459&titulo=Participação paterna e reação familiar frente à gravidez na adolescência&sequencial=12&nomePeriodico=Revista de Enfermagem UFPE On Line" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LIMA, L. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>LIMA, L. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3684543700138279" target="_blank">Eda Schwartz</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7407584173681917" target="_blank">LIMA, J. F.</a> . O programa de controle da tuberculose em Pelotas/RS: Investigação de contatos intradomiciliares. Revista Gaúcha de Enfermagem (Online)<sup><img id='19831447_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19831447' /></sup>, v. 34, p. 102-110, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19831447&volume=34&issue=&paginaInicial=102&titulo=O programa de controle da tuberculose em Pelotas/RS: Investigação de contatos intradomiciliares&sequencial=13&nomePeriodico=Revista Gaúcha de Enfermagem (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BEDUHN, D. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3106091572297091" target="_blank">BEDUHN, D. A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1787300196256618" target="_blank">REIS, S. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5531523431156608" target="_blank">ANTUNES, L. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . DESEMPEÑO LABORATORIAL DE LAS UNIDADES DE ATENCIÓN PRIMARIA EN EL DIAGNÓSTICO DE TUBERCULOSIS EN PELOTAS, BRASIL. Revista Peruana de Medicina Experimental y Salud Pública (Impresa)<sup><img id='17264633_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17264633' /></sup>, v. 30, p. 621-625, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=17264633&volume=30&issue=&paginaInicial=621&titulo=DESEMPEÑO LABORATORIAL DE LAS UNIDADES DE ATENCIÓN PRIMARIA EN EL DIAGNÓSTICO DE TUBERCULOSIS EN PELOTAS, BRASIL&sequencial=14&nomePeriodico=Revista Peruana de Medicina Experimental y Salud Pública (Impresa)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PINHO, L. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; OLIVEIRA, I. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . Consumo de crack: efectos sobre la estructura y la dinámica de las relaciones familiares. Enfermería Global<sup><img id='16956141_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16956141' /></sup>, v. 25, p. 139-149, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16956141&volume=25&issue=&paginaInicial=139&titulo=Consumo de crack: efectos sobre la estructura y la dinámica de las relaciones familiares&sequencial=15&nomePeriodico=Enfermería Global" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NEVES, R. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>NEVES, R. G. ; PINHO, L. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8672052401071520" target="_blank">SCHNEIDER, J. F.</a> ; LACCHINI, A. J. B. . O conhecimento dos profissionais de saúde acerca do uso de terapias complementares no contexto da atenção básica. Revista de Pesquisa: Cuidado é Fundamental<sup><img id='18096107_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18096107' /></sup>, v. 4, p. 2502-2509, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18096107&volume=4&issue=&paginaInicial=2502&titulo=O conhecimento dos profissionais de saúde acerca do uso de terapias complementares no contexto da atenção básica&sequencial=16&nomePeriodico=Revista de Pesquisa: Cuidado é Fundamental" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, K. M. R. ; NUNES, BP ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0387100953903284" target="_blank">LIMA, LM de</a> ; KRONING, CS ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; ANDRADE, R. L. P. ; PEREIRA, CS ; VILLA, TCS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Desempenho dos Serviços de Saúde no diagnóstico da Tuberculose em Pelotas.. In: Tereza Cristina Scatena Villa; Antonio Ruffino Netto. (Org.). Diagnóstico da Tuberculose: Avaliação dos serviços de saúde em municípios de diferentes regiões do Brasil. 1ed.Ribeirão Preto, São Paulo.: FUNPEC, 2011, v. , p. 57-58. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRAZ, V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . A importância da monitoria de semiologia em enfermagem para o docente-monitor: relato de experiência. In: 8&#730; SIEPE, 2016, Uruguaiana. Anais do SIEPE, 2016. v. 8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARCE, J. P. S. ; LOPES, E. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . VIVÊNCIAS DE ACADÊMICOS FRENTE AO PRIMEIRO ESTÁGIO: CONSTRUÇÃO DE UM PLANO DE CUIDADOS. In: Simpósio Integrado de Saêude no Pampa, 2016, Uruguaiana. Anais do SISPAMPA, 2016. p. 28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; CASTRO, P. P. ; CARDOSO, A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; LIMA, L. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Controle da Tuberculose em contatos intradomiciliares. In: XXIII Congresso de Iniciação Científica da UFPEL, 2014, Pelotas. Anais XXIII CIC UFPel, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDOSO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0387100953903284" target="_blank">LIMA, LM de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Contatos Intradomiciliares de pessoas com tuberculose: uma ação em prática?. In: XXIII Congresso de Iniciação Científica da UFPEL, 2014, Pelotas. Anais XXIII CIC UFPel, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, P. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . O desenvolvimento das ações de orientação no tratamento da tuberculose. In: XXIII Congresso de Iniciação Científica da UFPEL, 2014, Pelotas. Anais XXIII CIC UFPel, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; CASTRO, P. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Acolhimento à pessoa com suspeita de tuberculose no Pronto Socorro de Pelotas/RS. In: XXII Congresso de Iniciação Científica da UFPEL, 2013, Pelotas. Anais XXII CIC, 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERMINO, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; LIMA, L. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Características de usuários com sintomas respiratórios da tuberculose por tipo de serviço de saúde procurado. In: XXII Congresso de Iniciação Científica da UFPEL, 2013, Pelotas-RS. Anais XXII CIC, 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1787300196256618" target="_blank">REIS, S. P.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; LIMA, L. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3106091572297091" target="_blank">BEDUHN, D. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Acesso aos Serviços de Saúde para o diagnóstico da Tuberculose: Produção do Conhecimento Nacional e Internacional. In: XV ENPOS - Encontro de Pós-Graduação UFPEL, 2013, Pelotas. Anais 2013. Pelotas: Editora UFPel, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, P. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Realização das ações de detecção de casos de tuberculose na atenção primária à saúde em Pelotas, 2012. In: XXII Congresso de Iniciação Científica UFPEL, 2013, Pelotas. Anais XXII CIC UFPel, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; PEREIRA, C. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; SANTOS, S. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . O conhecimento da tuberculose antes de adoecer. In: XIV Encontro de Pós-Graduação UFPel, 2012, Pelotas/RS. ENPOSUFPEL2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3106091572297091" target="_blank">BEDUHN, D. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5531523431156608" target="_blank">ANTUNES, L. B.</a> . O exame baciloscopico como forma de controle da tuberculose na atenção básica, uma revisão da literatura. In: XX Congresso de Iniciação Científica e III Mostra Científica, 2011, Pelotas/RS. XX Congresso de Iniciação Científica e III Mostra Científica, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; RODRIGUES, K. M. R. ; ANDRADE, R. L. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Desempenho os Serviços de Saúde para o Diagnóstico de Tuberculose segudo sua proximidade com o domicílio dos doentes em Pelotas/RS. In: XX Congresso de Iniciação Científica, 2010, Pelotas. Anais do XIX Congresso de Iniciação Científica. Pelotas/RS: Editora Universitária UFPel, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PICKERSGILL, M. F. ; CRUZ, C. F. ; MARTINS, C. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . O Papel das Equipes de Saúde na Identificação da Violência Infantil. In: XIX Congresso de Iniciação Ciêntifica, 2010, Pelotas/RS. Anais do XIX Congresso de Iniciação Científica. Pelotas/RS: Editora Universitária UFPel, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> . A utilização da Baciloscopia e da Radiografia no Diagnóstico da Tubeculose em Pelotas/RS, 2009. In: XIX Congresso de Iniciação Ciêntifica, 2010, Pelotas/RS. Anais do XIX Congresso de Iniciação Científica. Pelotas/RS: Editora Universitária UFPel, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		P., H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; MACHADO, Natanielle Cardona ; RODRIGUES, K. M. R. ; SANTOS, G.P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Tuberculosis al sur del Brasil: características de enfermos que procuraron servicios de salud.. In: Union World Conference on Lung Health, 2010, 2010, Berlin. The International Journal of Tuberculosis and Lung Disease, 2010. v. 14. p. S200-S200. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; MACHADO, Natanielle Cardona ; LOMBARDI, Geovani Carvalho ; BOROWSKI, Diéllen Moura ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOSO-GONZALES, Roxana Isabel</a> . Análise do processo de trabalho em uma unidade básica de saúde de Pelotas a partir da construção do fluxograma. In: XVIII Congresso de Iniciação Ciêntifica, 2009, Pelotas/RS. Anais do XVIII Congresso de Iniciação Científica. Pelotas/RS: Editora Universitária UFPel, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, Natanielle Cardona ; CRUZ, Karen Casarin Flores ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; RIBEIRO,Caroline Vargas . O CUIDADO INTERDISCIPLINAR AO PORTADOR DA SÍNDROME DA IMUNODEFICIÊNCIA ADQUIRIDA NA ATENÇÃO BÁSICA DE SAÚDE. In: XVIII Congresso de Iniciação Ciêntifica, 2009, Pelotas/RS. Anais do XIX Congresso de Iniciação Científica. Pelotas/RS: Editora Universitária UFPel, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PICKERSGILL, M. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; CRUZ, C. F. . Mesa redonda com adolescentes: conversando sobre DST/HIV/AIDS. In: VIII Congresso da Sociedade Brasileira de DST e IV Congresso Brasileiro de AIDS e I Congresso ALAC/IUSTI Latino America., 2011, Curitiba/PR. VIII Congresso da SBDST - IV Congresso Brasileiro de AIDS I Congresso da ALAC - DST - IUSTI Latino - América Curitiba 2011, 2011. v. 23. p. 1-304. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARONI, Aline ; RIBEIRO,Caroline Vargas ; BOROWSKI, Diéllen Moura ; MORALES, Fernanda de Miranda ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . A Enfermagem frente à inclusão social. In: XVII Congresso de Iniciação Ciêntifica e X Encontro de Pós Graduação, 2008, Pelotas/RS. XVII Congresso de Iniciação Científica e X Encontro de Pós-Graduação, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARONI, Aline ; RIBEIRO,Caroline Vargas ; BOROWSKI, Diéllen Moura ; MORALES, Fernanda de Miranda ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . Neoplasia maligna do corpo do estômago: estudo de caso, Sistematização da Assistência de Enfermagem, visando à humanização do cuidado com o indivíduo hospitalizado. In: XVII Congresso de Iniciação Ciêntifica e X Encontro de Pós Graduação, 2008, Pelotas/RS. XVII Congresso de Iniciação Científica e X Encontro de Pós-Graduação, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILAGRAN, C. A. ; EMER, T. O. ; NOLASCO, L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; GARCIA, R. P. . RELATO DE EXPERIÊNCIA ACERCA DA ASSISTÊNCIA DE ENFERMAGEM EM PACIENTE COM CÂNCER PERINEAL. 2016. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NOLASCO, L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . Matriz de programação de procura de casos de tuberculose em Uruguaiana/RS. 2016. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Sistemas de Informação em Saúde. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Experiências em Intercâmbios Internacionais. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Investigação quantitativa: qualificando a pesquisa em Saúde. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Sistema de Informação em Tuberculose (SINTB): desenvolvimento e perspectivas na unidade de saúde. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Sistemas de Informação em Saúde. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Pesquisa Quantitativa. 2013. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Matriciamento e NASF. 2013. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Atenção à Saúde. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Linhas de Cuidado e Redes de Atenção à Saúde. 2013. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SURNICHE, C. A. ; VIANA, L. A. ; PEREIRA, CS ; PEREIRA, C. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0387100953903284" target="_blank">LIMA, LM de</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Tuberculose pulmonar e extrapulmonar: caracterização do perfil sociodemográfico dos doentes. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; MIRANDA, L. P. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4132748876375957" target="_blank">LEAL, F. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5531523431156608" target="_blank">ANTUNES, L. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Distribuição Espacial dos casos de tuberculose por distrito sanitário na zona urbana de Pelotas/RS. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; PEREIRA, CS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1787300196256618" target="_blank">REIS, S. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Tuberculose na Família e conhecimento sobre a doença antes do adoecimento e a busca por serviço de saúde ao sentir-se doente. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; JUNG, B. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3106091572297091" target="_blank">BEDUHN, D. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Avaliação da Matriz de Programação de casos de tuberculose em Pelotas/RS, Brasil, 2009. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0387100953903284" target="_blank">LIMA, LM de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOSO-GONZALES, Roxana Isabel</a> . Acompanhamento dos doentes de TB em tratamento pelos profissioanis de saúde em um município do sul do Brasil, 2009.. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; MIELKE, G. I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Proximidade do primeiro serviço de saúde procurado e o diagnóstico da tuberculose em um município do sul do Brasil. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; KRONING, CS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> . Tuberculose Pulmonar: caracterização dos doentes segundo a autopercepção da intensidade dos sintomas. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; RODRIGUES, K. M. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> ; SANTOS, Celeste Pereira dos ; MACHADO, Natanielle Cardona . Primeiro Contato com o Serviço de Saúde até o Diagnóstico de Tuberculose: O Período de Tempo em Pelotas, 2009. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Conversando sobre DST. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; PASTOR, F. M. P. ; MANRIQUE-BORJAS, G. A. . Experiencia de Salud comunitaria en Brasil. 2012. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a> . Capacitação para instrutores do Software SInTB. 2014. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> ; GUANILO, MEE ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . Relatório Final:Qualificação em Pesquisa: treinamento para manejo de bases de dados da literatura científica e elaboração de artigos de revisão.. 2012. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> ; GUANILO, MEE ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> . Relatório Parcial e renovação de projeto:Qualificação em Pesquisa: treinamento para manejo de bases de dados da literatura científica e elaboração de artigos de revisão.. 2011. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; PAIXAO, D. X.; CARRARO, V..  Participação em banca de Pâmela Ceroni Silveira. Benefícios da Ginástica Laboral na saúde do Trabalhador: uma revisão integrativa. 2012. Monografia (Aperfeiçoamento/Especialização em Enfermagem Obstetrica)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIMON, B. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; GARCIA, R. P..  Participação em banca de Lilian Cardoso Paz.Cuidados de enfermagem às pessoas que convivem com estomias intestinais ou irinárias: revisão narrativa.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; SINIAK, D. S.; SOARES, M. Q.; POLL, M. A..  Participação em banca de Dionatan dos Santos Delevati.Perfil do paciente que tenta o suicídio atendido em uma unidade de emergência.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HECK, R. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; THUME, E.; FERREIRA, R. Z..  Participação em banca de Maraísa Carine Born.Atuação do enfermeiro de atenção básica:análise baseada em sistemas de informação.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JARDIM, V. M. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; NEUTZLING, A. S..  Participação em banca de Carlos Alberto dos SantosTreichel.Transtornos psiquiátricos menores e seus fatores associados em familiares de usuários de centros de atenção psicossocial no Sul do Brasil.
+							2014. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; JARDIM, V. M. R.; SILVA, I. M..  Participação em banca de Laura Weirich.A saúde como direito e os desafios para alcança-lo.
+							2014. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO-GONZALES, R. I.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; JARDIM, V. M. R.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4990807031266502" target="_blank">TOMBERG, J.</a>.  Participação em banca de Luize Barbosa Antunes.Avaliação dos sintomáticos respiratórios de tuberculose: da política à realidade da atenção básica em saúde em Pelotas/RS.
+							2014. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOARES, M. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0776525182570104" target="_blank">MEINCKE, S. M. K.</a>.  Participação em banca de Gabriel de Freitas Vieira.Assistência á mulher no ciclo gravídico puerperal em Angola: Relato de Experiência.
+							2014. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOARES, M. C.; SCHIAVON, V. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0776525182570104" target="_blank">MEINCKE, S. M. K.</a>.  Participação em banca de Cintia Crespo Prestes.Aleitamento Materno no puerpério imediato.
+							2014. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, N. A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; OLIVEIRA, S..  Participação em banca de Caroline Lackman.Cuidados Paliativos em domicílio: Significados para o familiar cuidador.
+							2014. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JARDIM, V. M. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6681165311879798" target="_blank">OLIVEIRA, M. M.</a>.  Participação em banca de Mariana Luchese Vasem.Avaliação de serviços de saúde mental: perspectiva dos trabalhadores da região Sul do Brasil.
+							2014. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; KANTORSKI, LP; LANGE, C..  Participação em banca de Mirela Farias Pickersgill.Prevalência de Mubbing em um hospital de Pelotas/RS.
+							2011. Trabalho de Conclusão de Curso (Graduação em Enfermagem e Obstetrícia)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCHINI, B.; KANTORSKI, LP; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>.  Participação em banca de Camila Ferreira da Cruz.COMPREENSÃO DA RECAÍDA DE USUÁRIOS EGRESSOS DE COMUNIDADES TERAPÊUTICAS.
+							2011. Trabalho de Conclusão de Curso (Graduação em Enfermagem e Obstetrícia)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCHINI, B.; KANTORSKI, LP; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>.  Participação em banca de Patrícia Bortoluzzi.RELAÇÕES INTERPESSOAIS DA ENFERMAGEM E USUÁRIOS DE UM CAPS COM TRANSTORNO DE HUMOR BIPOLAR.
+							2011. Trabalho de Conclusão de Curso (Graduação em Enfermagem e Obstetrícia)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, CS; JARDIM, VMR; SOARES, D; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>.  Participação em banca de Rita Carolina Barros Hein.As Contribuições Do Pré-Natal No Aleitamento Materno.
+							2011. Trabalho de Conclusão de Curso (Graduação em Enfermagem e Obstetrícia)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; MOREIRA, B.; SINIAK, D. S.. Processo Seletivo Professor Substituto Enfermagem, Edital 118/2016.
+							2016.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; FERREIRA, A. M.; BULHOSA, M.. Processo Seletivo Simplificado Professor Substituto Enfermagem, Edital 303/2016.
+							2016.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, A. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; GARCIA, R. P.. Processo Seletivo Simplificado para Professor Substituto, Edital 128/2015 - Enfermagem..
+							2015.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de formação de dirigentes 2017. 2017. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º Jornada de Oncologia Clínica e Cirurgica.RELATO DE EXPERIÊNCIA ACERCA DA ASSISTÊNCIA DE ENFERMAGEM EM PACIENTE COM CÂNCER PERINEAL. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">31&#730; Jornada Acadêmica Integrada (JAI) da UFSM.Matriz de programação de procura de casos de tuberculose em Uruguaiana/RS. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8&#730; SIEPE.A importância da monitoria de semiologia em enfermagem para o docente-monitor: relato de experiência. 2016. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana de Enfermagem 2016: defendendo e ampliando direitos. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Integrado de Saêude no Pampa.VIVÊNCIAS DE ACADÊMICOS FRENTE AO PRIMEIRO ESTÁGIO: CONSTRUÇÃO DE UM PLANO DE CUIDADOS.
+							2016. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">11&#730; Congresso Brasileiro de Saúde Coletiva. DEMANDAS JUDICIAIS EM SAÚDE: CARACTERÍSTICAS DOS SOLICITANTES E DOS PROCESSOS NA COMARCA DE PELOTAS-RS EM 2013. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7º CONGRESSO BRASILEIRO DE EXTENSÃO UNIVERSITARIA. REVISOR DE TRABALHOS. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7º SIEPE.Revisor de trabalhos. 2015. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Jornada Centro Nacional de Epidemiologia Sociedade Espanhola de Epidemiologia. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Semana Acadêmica de Enfermagem.Avaliador de Trabalhos científicos e suas apresentações. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Congresso de Iniciação Científica. Uso do Projeto Terapêutico Singular no cuidado de Saúde Mental na Atenção Básica: relato de experiência. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oficina de Avaliação das Visitas de Monitoramento e Avaliação do PNCT - VII Ciclonno. 2013. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Semana Acadêmica de Enfermagem.Revisora Científica (ISSN: 2237-5791). 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Jornada Internacional de Investigación y IV Jornada Nacional de Investigación.Avaliação da Matriz de Programação de casos de tuberculose em Pelotas/RS, Brasil, 2009. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Jornada Internacional de Investigación y IV Jornada Nacional de Investigación.La investigación en el campo de la salud publica en Brasil. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Encontro Nacional de Tuberculose e II Fórum da Parceria Brasileira Contra a Tuberculose.Distribuição espacial dos casos de tuberculose por distrito sanitário na zona urbana de Pelotas/RS.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Encontro Nacional de Tuberculose e II Fórum da Parceria Brasileira Contra a Tuberculose.Tuberculose pulmonar e extrapulmonar: caracterização do perfil sociodemográfico dos doentes.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI ENPOS.Tuberculose na FAmília e conhecimento sobre a doença antes do adoecimento e a busca por serviço de saúde ao sentir-se doente.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Semana Acadêmica de Enfermagem da UFPEL.Coordenadora do Comitê de Avaliação Científica (ISSN: 2237-5791). 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dia Mundial de Luta contra a Tuberculose em Pelotas.Tuberculose: Estudos realizados em Pelotas, 2011.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dia Mundial de Luta contra a Tuberculose em Pelotas, 2011.Tuberculose: Estudos realizados em Pelotas.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dia Mundial de Luta contra a Tuberculose em Pelotas, 2011.A experiência da UFPel na construção de um trabalho em rede para o controle da tuberculose.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Faculdade de Enfermagem: 35 anos de história. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FEn Pesquisa e Extensão: ligando o Ensino à ação.Grupo de Estudos Operacionais em Tuberculose - FEnUFPel.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro integrado do programa de treinamento em primeiros socorros para a comunidade e Liga de atendimento ré-hospitalar.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Internacional de Tuberculose: Avanços e desafios no século XXI..
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Epidemiologia: Epidemiologia e as Políticas Publicas. Proximidade do primeiro serviço de saúde procurado e o diagnóstico da tuberculose em um município do sul do Brasil. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Epidemiologia: Epidemiologia e as Políticas Publicas. Acompanhamento dos doentes de TB em tratamento pelos profissioanis de saúde em um município do sul do Brasil, 2009.. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Epidemiologia: Epidemiologia e as Políticas Publicas. Tuberculose pulmonar: caracterização dos doentes segundo a autopercepção da intensidade dos sintomas. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso da Sociedade Brasileira de DST e IV Congresso Brasileiro de AIDS e I Congresso ALAC/IUSTI Latino America.. Mesa redonda com adolescentes: conversando sobre DST/HIV/AIDS. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Congresso de iniciação Científica e III Mostra Científica. O exame de baciloscopia como forma de controle da tuberculose na atenção básica, uma revisão de literatura. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Semana Acadêmica de Enfermagem.Avaliação dos Resumos Inscritos no Evento. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Efeito Colateral.Conversando sobre DST.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Internacional de Humanização da Atenção Obstética e Neonatal.A Educação em Saúde como Instrumento Otimzante no Acompanhamento à uma Gestante Adolescente.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Internacional de Humanização da Atenção Obstétrica Neonatal. (30 hrs).
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro Nacional de Tuberculose.Características dos Doentes de Tuberculose em um Município da Região Sul do Brasil,2009.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro Nacional de Tuberculose.Primeiro Contato com o Serviço de Saúde até o Diagnóstico de Tuberculose: O Período de Tempo em Pelotas, 2009.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro Nacional de Tuberculose e I Fórum da Parceria Brasileira contra a Tuberculose.O portador de tuberculose em Pelotas/RS: conhecimento sobre a doença e o tempo de procura pelo serviço de saúde para o diagnóstico,2009.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro Nacional de Tuberculose e I Fórum da Parceria Brasileira contra a Tuberculose.Primeiro Contato com o Serviço de Saúde até o diagnóstico de tuberculsoe: o período de tempo em pelotas, 2009.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Conversa Fiada (40 hrs). 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Congresso de Inicíação Científica. O Papel das Equipes de Saúde na Identificação da Violência Infantil. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Congresso de Iniciação científica e XII ENPOS. Desempenho dos serviços de saúde para o diagnóstico da tuberculose segundo sua proximidade com o domicílio dos doentes em Pelotas/RS. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Congresso de Iniciação Científica. Desempenho os Serviços de Saúde para o Diagnóstico de Tuberculose segudo sua proximidade com o domicílio dos doentes em Pelotas/RS. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro de Urgência e Emergência do Pronto Socorro de Pelotas. (20 hrs).
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simpósio de Temas em Psiquiatria: SABER FAZER. (20 hrs).
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário de Enfermagem em Transplantes do Hospital Dom Vicente Scherer da Santa Casa de Porto Alegre. (13 hrs). 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio de Temas em Psiquiatria : SABER FAZER. (30 hrs).
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Semana Academica de Enfermagem, Areas de Atuação da Enfermagem - Novas érspectivas. (12 horas) UCPEL.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Congresso Brasileiro de Saúde Coletiva. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mental-Tchê (Encontro Estadual de Manifestação Antimanicomial) (20 hrs).
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Semana Acadêmica de Enfermagem: Vivenciando Novas Realidades no Campo da Saúde. (40 hrs). 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Congresso de Iniciação Científica. O CUIDADO INTERDISCIPLINAR AO PORTADOR DA SÍNDROME DA IMUNODEFICIÊNCIA ADQUIRIDA NA ATENÇÃO BÁSICA DE SAÚDE. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3ª Conferência Municipal dos Direitos da Pessoa Idosa. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º Salão de Extensão e Cultura - 1ª Semana de Ensino e Extensão.Identificando Sentimentos: Conhecendo as Crianças da Escola Louis Braille.. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bate-papo educativo.Escola Braille. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Jornada de Saúde Coletiva. (6 horas). 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário do NEPEn - Organização e Processo de Trabalho na Enfermagem. (16 hrs).O enfermeiro e a família nos cuidados com o primogênito portador de necessidades especiais.. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio de Temas em Psiquiatria : SABERES E FAZERES. (20 hrs).
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro de Profissionais de Enfermagem Nível Médio e Superior - Tema 1: tratamento de feridas e técnicas atualizadas - Tema 2: Urgência e Emergência. (6 hrs).
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sábado da Dor- Edição 2008, Jornada Itinerante de Atualização ao Profissional de Saúde. (7 hrs). 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Atualização em Direitos Trabalhistas (SERGS - Sindicato dos Enfermeiros no RS). (4 hrs). 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Joranda de Enfermagem do HPS, Atendimento de Emergência: Uma Responsabilidade com a Vida. (20 hrs). 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>64. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Congresso de Iniciação Científica. A Enfermagem frente à Inclusão Social. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>65. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Congresso de Iniciação Científica. Neoplasia maligna do corpo do estômago: estudo de caso, Sistematização da Assistência de Enfermagem, visando à humanização do cuidado com o indivíduo hospitalizado. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>66. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Semana Acadêmica de Enfermagem: O Contexto pela busca do Aperfeiçoamento. (40 hrs). 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>67. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário Interdisciplinar de Transplantes: Verdades e Mitos. (20 hrs). 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>68. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Repensando a Prática em Psiquiatria - Terapias Complementares. (12 hrs). 2007. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, R. P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; SIMON, B. S. ; STAMM, B. ; LANA, L. D. . Simpósio Integrado de Saúde no Pampa. 2016. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOSO-GONZALES, Roxana Isabel</a> ; GUANILO, MEE ; KRONING, CS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0387100953903284" target="_blank">LIMA, LM de</a> ; MARTINS, C. L. ; PEREIRA, CS ; SANTOS, G.P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3674166903685789" target="_blank">GONCALVES, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4132748876375957" target="_blank">LEAL, F. B.</a> . 1º Encontro Gaúcho no Dia Mundial de Luta Contra a Tuberculose em Pelotas/RS. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9657804781475201" target="_blank">NUNES, Bruno Pereira</a> . Dia Mundial de Luta contra a Tuberculose em Pelotas, 2011.. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; DOMINGUES, BS ; MATOS, GC de . FEn Pesquisa e Extensão. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>; PICKERSGILL, M. F. . XXI Semana Acadêmica de Enfermagem. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9433866515781707" target="_blank">CARDOZO_GONZALES, Roxana Isabel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3106091572297091" target="_blank">BEDUHN, D. A.</a> . Dia Mundial de Controle da Tuberculose em Pelotas. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. XX Semana Acadêmica de Enfermagem UFPel. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Primeiro Seminário Multidisciplinar de Ostomias: Enfoque em Aparelho Digestório.. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Abordagem Teórica sobre Curativos. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Primeiro Seminário de Diabetes e Saude - O Controle na Ponta dos Dedos.. 2008. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruna Meyer. Avaliação de serviços de saúde.. Início: 2018. Monografia (Aperfeiçoamento/Especialização em Residência Integrada Multiprofissional em Saúde e em Área da Saúde)  - Universidade Federal do Pampa, Ministério da Educação. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Évilin Costa Gueterrez.
+							Avaliação do acolhimento como primeiro contato na Atenção Primária no Rio Grande do Sul.
+							2017.
+							Monografia. (Aperfeiçoamento/Especialização em Residência Integrada Multiprofissional em Saúde e em Área da Saúde)  - Universidade Federal do Pampa,
+							Ministério da Educação. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estela Schons.
+							Cuidados Paliativos na Atenção Domiciliar: a perspectiva dos profissionais da Estratégia de Saúde da Família.
+							2016.
+							Monografia. (Aperfeiçoamento/Especialização em Residência Integrada Multiprofissional em Saúde e em Área da Saúde)  - Universidade Federal do Pampa,
+							Ministério da Educação. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adriana Ferreira Jardim.
+							Desafios e potencialidades da unidade de Saúde da Família: revisão da literatura.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marco Aurélio Martins.
+							A educação em saúde com grupos de usuários dos serviços de saúde amparada pela integralidade: revisão sistematizada.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Laura Weirich.
+							A saúde como direito e os desafios para alcançá-los.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal de Pelotas. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luize Barbosa Antunes.
+							Avaliação do Sintomático Respiratório de tuberculose: da política à realidade na atenção básica de saúde em Pelotas/RS.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal de Pelotas. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dagoberta Alves Vieira Beduhn.
+							Desempenho das Unidades Básicas de Saúde na detecção dos casos de tuberculose no município de Pelotas/RS.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal de Pelotas,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mirela Farias Pickersgill.
+							Prevalência de Mubbing em um hospital de Pelotas.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem e Obstetrícia)  - Universidade Federal de Pelotas. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rita Carolina Barros Hein.
+							As Contribuições Do Pré-Natal No Aleitamento Materno.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem e Obstetrícia)  - Universidade Federal de Pelotas. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiza Nolasco.
+							Ações de buscas de casos de tuberculose em Uruguaiana.
+							2016.
+							Iniciação Científica. (Graduando em Enfermagem)  - Universidade Federal do Pampa. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanessa Braz.
+							Monitoria Laboratório de Semiologia.
+							2017.
+							Orientação de outra natureza. (Enfermagem)  - Universidade Federal do Pampa,
+							Unipampa. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Danielen Antunes Eggres.
+							Manejo da traqueostomia em pacientes hospitalizados.
+							2017.
+							Orientação de outra natureza. (Enfermagem)  - Universidade Federal do Pampa,
+							Unipampa. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanessa Braz Silva.
+							Monitoria de Semiologia.
+							2016.
+							Orientação de outra natureza. (Enfermagem)  - Universidade Federal do Pampa,
+							Unipampa. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andressa Leão, Caroline Witte Nunes, Joice Ane Teixeira.
+							Uso do Projeto Terapêutico Singular no cuidado de Saúde Mental na Atenção Básica: relato de experiência.
+							2014.
+							Orientação de outra natureza. (Enfermagem)  - Universidade Federal de Pelotas. Orientador: Jenifer Härter.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7568104608106824" target="_blank">HARTER, J.</a></b>. Sistemas de Informação em Saúde. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 14:55:45</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=7568104608106824" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

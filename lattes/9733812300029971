@@ -1,0 +1,3357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Eliade Ferreira Lima)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=9733812300029971" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorProjetoFomento">Revisor de projeto de fomento</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4261806P7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4261806P7"><div class="infpessoa">
+<h2 class="nome">Eliade Ferreira Lima</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/9733812300029971</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 29/06/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Docente do curso Licenciatura em Ciências da Natureza na Universidade Federal do Pampa (UNIPAMPA) - campus Uruguaiana. Doutora em Ciências pela UFRGS (2013), pós-doutorado em Astrofísica Estelar pela UFSM (2014-2015), mestre em Física pela UFABC (2009), possui graduação em Licenciatura Plena em Física pela UESB (2006). Atuou nas áreas de Física de Altas Energias com ênfase em Raios Cósmicos e Campos Magnéticos Extragalácticos. Atualmente desenvolve pesquisa em Astronomia com ênfase em Astrofísica Estelar, estrutura e estado dinâmico de aglomerados estelares abertos e fotometria. Atua na divulgação da Astronomia para a comunidade. Membro da colaboração internacional VISTA Variables in the Via Lactea (VVV): The public ESO near-IR variability survey of the Milky Way, membro titular da Sociedade Astronômica Brasileira (SAB), membro titular da International Astronomical Union (IAU) e do Committee on Space Research (COSPAR).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Eliade Ferreira Lima<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">LIMA, E. F.;LIMA Eliade Ferreira;E.F. LIMA</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Campus Uruguaiana. <br class="clear" />Rodovia BR-472 - km 592 - Caixa Postal 118<br class="clear" />UNIPAMPA<br class="clear" />97508000 - Uruguaiana, RS - Brasil - Caixa-postal: 118<br class="clear" />Telefone: (55) 39110200<br class="clear" />URL da Homepage: <a target="blank" href="http://https://sites.google.com/site/eliadeflima/">https://sites.google.com/site/eliadeflima/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Física<span class="ajaxCAPES" data-param="&codigoCurso=42001013002P1&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Estudo de Aglomerados Estelares Abertos no Complexo HII NGC 6357 com o VVV, Ano de obtenção: 2013. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7662796111326087'><img src='images/curriculo/logolattes.gif' /></a>Luiz Eduardo Damiani Bica. <br class="clear" />Coorientador: Charles José Bonatto. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Física<span class="ajaxCAPES" data-param="&codigoCurso=33144010001P7&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do ABC, UFABC, Brasil.
+		
+	<br class="clear" />Título: Estudo da propagação de Raios Cósmicos de Ultra-Alta Energia em Campos Magnéticos Extragalácticos,Ano de Obtenção: 2009.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0794170311040612'><img src='images/curriculo/logolattes.gif' /></a>Marcelo Augusto Leigui de Oliveira.<br class="clear" />Bolsista do(a): Universidade Federal do ABC, UFABC, Brasil. <br class="clear" />Palavras-chave: Física de Partículas.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura Plena em Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual do Sudoeste da Bahia, UESB, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">educação a Distância - Evolução Estelar.  (Carga horária: 120h). <br class="clear" />Observatório Nacional, ON, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">História da Ciência e o Ensino de Física.  (Carga horária: 6h). <br class="clear" />Instituto Federal de Alagoas - Matriz, IFAL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A Natureza da Luz.  (Carga horária: 4h). <br class="clear" />Instituto Federal de Alagoas - Matriz, IFAL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aquisição de Dados e Controle nos Experimentos.  (Carga horária: 6h). <br class="clear" />Universidade Estadual de Feira de Santana, UEFS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de Experimentos Didáticos.  (Carga horária: 6h). <br class="clear" />Universidade Estadual de Feira de Santana, UEFS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Oficina: Óptica Física e Óptica Geométrica.  (Carga horária: 6h). <br class="clear" />Universidade Estadual de Feira de Santana, UEFS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Fractais em Física: a Gemetria da Natureza.  (Carga horária: 6h). <br class="clear" />Universidade Estadual de Feira de Santana, UEFS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Big-Bang, Quasares, Galáxias, Buracos Negros.  (Carga horária: 6h). <br class="clear" />Universidade Estadual de Feira de Santana, UEFS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Metodologia do Ensino de Matemática.  (Carga horária: 6h). <br class="clear" />Universidade Estadual do Sudoeste da Bahia, UESB, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em As Cores do Céu.  (Carga horária: 6h). <br class="clear" />Universidade Estadual do Sudoeste da Bahia, UESB, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor do Magistério Superior, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Natureza, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />UR6035 - Física da Terra e do Universo - 60h<br class="clear" />UR6043 - Leis Físicas da Natureza - 60h<br class="clear" />UR6064 - Som, Imagem e Informação - 60h<br class="clear" />UR6067 - Mecânica dos Fluidos e Termologia -30h<br class="clear" />UR6068-Prática Pedagógica VI - <br class="clear" />UR6091 - Matéria e Radiações - 60h<br class="clear" />UR6092-Trabalho de Conclusão do Curso - 30h<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do NDE - NÚCLEO DOCENTE ESTRUTURANTE - CURSO CIÊNCIAS DA NATUREZA.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2017 - 09/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização em Educação Ambiental, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />UR4332 - Evolução Natural do Planeta Terra (15h)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2016 - 12/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Comissão Especial de Organização do 8o Salão Internacional de Ensino, Pesquisa e Extensão.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2015 - 12/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação do Campo, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Leis Físicas do Movimento (DP0418) - 45h<br class="clear" />CIRCULO DE INTEGRACAO DO CONHECIMENTO III (DP0423) - 30h<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Professor voluntário, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Regime de trabalho 20h semanais Cargo: Bolsista recém-doutor Grupo:Professor voluntário</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física-Licenciatura Plena-noturno (126), Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />FSC326 - LABORATORIO DE FISICA III - 45h<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de Pós-graduação, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2012 - 05/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Física, Departamento de Astronomia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Observatório Educativo Intinerante: Apoio pedagógico com contato com o aluno/ público. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 03/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Programa de Pós-Graduação em Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante discente na Comissão de Pós-Graduação em Física.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2011 - 05/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Pró-Reitoria de Extensão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Apoio Pedagógico com contato aluno/público.. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do ABC, UFABC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de Pós-graduação, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 03/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Conselho Universitário, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante discente da pós-graduação.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual do Sudoeste da Bahia, UESB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: livre, Enquadramento Funcional: Professora/monitora de Física, Carga horária: 16</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atuou no Projeto Universidade Para Todos</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Prestação de Serviço, Enquadramento Funcional: Professora de Física - EASC, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">O vínculo é com a Universidade, mas a atuação é na Escola Agrotécnica Sérgio de Carvalho</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 06/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Ciências Exatas - DCE, Centro Acadêmico de Física. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2004 - 02/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Escola Agrotécnica Sérgio de Carvalho - EASC, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Apoio Educacional na área de Física. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Departamento de Ciências Exatas - DCE, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Bolsista voluntária do projeto: Ensino de ciências através de materiais alternativos e/ou de baixo custo. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2003 - 03/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Gerência de Extensão e Assuntos Culturais/ Subgerência de Assuntos GEAC/SAE, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />bolsista do projeto: Valorização e Integração do Discente na Comuninade Universitária. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Estudo de aglomerados estelares utilizando dados ESO-VVV: diagramas cor-magnitude e estrutura.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de aglomerados estelares utilizando dados ESO-VVV: diagramas cor-magnitude e estrutura.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Descrição: The ESO near-IR variability survey (VVV) is scanning the Milky Way bulge and an adjacent section of the mid-plane where star formation activity is high. The survey will take 1929 hours of observations with the 4-metre VISTA telescope during five years (2010&#8722;2014), covering ~10^9 point sources across an area of 520 deg^2, including 33 known globular clusters and ~350 open clusters. The final product will be a deep near-IR atlas in five passbands (0.9&#8722;2.5 &#956;m) and a catalogue of more than 106 variable point sources. Unlike single-epoch surveys that, in most cases, only produce 2-D maps, the VVV variable star survey will enable the construction of a 3-D map of the surveyed region using well-understood distance indicators such as RR Lyrae stars, and Cepheids. It will yield important information on the ages of the populations. The observations will be combined with data from MACHO, OGLE, EROS, VST, Spitzer, HST, Chandra, INTEGRAL, WISE, Fermi LAT, XMM-Newton, GAIA and ALMA for a complete understanding of the variable sources in the inner Milky Way. This public survey will provide data available to the whole community and therefore will enable further studies of the history of the Milky Way, its globular cluster evolution, and the population census of the Galactic Bulge and center, as well as the investigations of the star forming regions in the disk. The combined variable star catalogues will have important implications for theoretical investigations of pulsation properties of stars.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Integrante / Roberto Kalbush Saito - Integrante / Marina Bianchin - Integrante / Dante Minniti - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Instrumenta&ccedil;&atilde;o de um laborat&oacute;rio de altas energias e an&aacute;lise de dados do Observat&oacute;rio Pierre Auger'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instrumentação de um laboratório de altas energias e análise de dados do Observatório Pierre Auger<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O estudo dos Raios Cósmicos de Ultra-Alta Energia é um ramo de pesquisa que se situa entre a física de partículas elementares e a astrofísica. Esta área teve uma enorme revitalização nas últimas décadas, parcialmente devido aos avanços nas técnicas experimentais que levam à solução de importantes problemas da física de raios cósmicos e parcialmente devido às descobertas de novas estruturas no espectro de raios cósmicos e de novas fontes astrofísicas de partículas e de raios-gama. Neste projeto de pesquisa, desenvolvemos simulações para a propagação de partículas no meio extragaláctico e correlacionamos os resultados com a busca por fontes pontuais ou pela anisotropia da radiação cósmica de ultra-alta energia.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Integrante / Milton Sebastião Azevedo Barbosa Leão - Integrante / Ronaldo Da Maceno Lima - Integrante / Carlos J. Todero Peixoto - Integrante / Marcelo Augusto Leigui de Oliveira - Coordenador / Vitor Prestes Luzio - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Bolsa.</div>
+</div><a name='PP_Monitor de Radia&ccedil;&atilde;o Atmosf&eacute;rica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitor de Radiação Atmosférica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Monitor de Radiação Atmosférica (MonRAt) será um experimento compacto com o objetivo de medir a radiação de fluorescência atmosférica gerada por raios cósmicos de energias entre 100 TeV e 100 PeV. Composto por um espelho esférico, uma fotomultiplicadora multianódica e um filtro de ultra-violeta para selecionar os fótons com comprimentos de onda entre 300 e 450 nm. O monitor tem por objetivo estudar a radiação de fluorescência numa região de energia importante, fornecendo dados para o entendimento de problemas em aberto no estudo da fluorescência atmosférica... <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador / Ronaldo Da Maceno Lima - Integrante / Milton Sebastião Azevdo Barbosa Leão - Integrante / C. J. Todero Peixoto - Integrante / Marcelo Augusto Leigui de Oliveira - Integrante / Vitor Prestes Luzio - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_2&ordf; Feira de Ci&ecirc;ncias Universidade- Comunidade: Ci&ecirc;ncias para Tod@s'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2ª Feira de Ciências Universidade- Comunidade: Ciências para Tod@s<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto visa fomentar discussões e empoderamento da comunidade escolar acerca do tema Ciência para Todos e Todas, através do estímulo ao desenvolvimento de tecnologias de aprendizagem significativa voltadas à inclusão de estudantes com necessidades especiais e à participação da mulher na produção científica.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (20)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Cientistas do Pampa - Energ&eacute;ticas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cientistas do Pampa - Energéticas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Antes mesmo de entrarem na graduação, a maioria das garotas são desencorajadas a seguir carreiras na área de exatas. Dessa forma, este programa propõe a atuação de cientistas da UNIPAMPA atuando diretamente com o público feminino nas escolas visando o incentivo à participação destas meninas nas ciências exatas. O projeto visa promover rodas de conversa sobre mulheres nas ciências exatas, visitas a
+laboratórios científicos, capacitação de grupos de meninas para construção de
+protótipos de geração de energia elétrica a partir do aproveitamento da energias renováveis e participação na feira de ciências da cidade.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador / Carla Beatriz Spohr - Integrante / Simone Pinton - Integrante / Daiana Silva de Ávila - Integrante / Mara Regina Bonini Marzari - Integrante / Pâmela Mello Carpes - Integrante / Márcia Maria Lucchese - Integrante.<br class="clear" />Financiador(es): Instituto Unibanco - Auxílio
+										financeiro.</div>
+</div><a name='PP_Semana Mundial do Espa&ccedil;o 2017'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Semana Mundial do Espaço 2017<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Semana Mundial do Espaço é a ocasião ideal para os professores recorrerem ao espaço como meio de estimular os estudantes para a matemática, ciência e outros assuntos. Durante essa semana, professores e Instituições são encorajados a organizar um evento durante a Semana Mundial do Espaço. Em 2017 o Clube de astronomia de Uruguaiana levou o planetário móvel da UNIPAMPA para a Expofeira e atingiu um número de 2000 visitantes abordando temas como o sistema solar e uma exposição sobre o Universo. Além disso, o planetário visitou o 22º GAC (Grupo de Artilharia e Campanha) expondo temas de Astronomia para militares das mais diversas patentes, seus familiares e um grupo de crianças carentes atendido pelo GAC.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (20) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador.<br class="clear" /></div>
+</div><a name='PP_I Feira de Ci&ecirc;ncias Universidade-Comunidade: Escola Inclusiva'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">I Feira de Ciências Universidade-Comunidade: Escola Inclusiva<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto de extensão visa sensibilizar a sociedade e a comunidade escolar e universitária para o tema ?escola inclusiva?, a partir do lançamento da ?I Feira de Ciências Universidade-Comunidade: Escola Inclusiva?, que desenvolvimento de tecnologias de aprendizagem significativa voltadas à inclusão de estudantes com desabilidades. Portanto, o presente projeto visa organizar e sistematizar uma I Feira de Ciências e Mostra Científica no Município de Uruguaiana visando envolver os alunos das Séries Finais do Ensino Fundamental e Ensino Médio em uma proposta de elaboração de tecnologias que auxiliem a aprendizagem de estudantes com desabilidades. Será desenvolvido pelos proponentes em parceria com os professores das escolas municipais e estaduais do município em questão.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (10) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador / Luana Borges - Integrante / Odete Messa Torres - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div><a name='PP_Visibilidade: A Unipampa em foco'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Visibilidade: A Unipampa em foco<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa a divulgação e popularização da UNIPAMPA na região da Campanha, bem como a difusão de suas ações de Ensino, Pesquisa e Extensão. Assim, propõe-se atividades de articulação entre UNIPAMPA e alunos das Escolas públicas e privadas da região. Para tal, uma equipe com docentes e discentes de diferentes cursos da UNIPAMPA será formada para desenvolver momentos de aproximação e divulgação da UNIPAMPA e suas ações com a comunidade escolar. Dentre as atividades previstas estão a produção de materiais de divulgação, palestras, debates... Assim, espera-se que estes momentos possam despertar o interesse dos estudantes do Ensino Médio pelo Ensino Superior e também fornecer subsídios para que, com a ajuda de seus familiares e professores, orientem-se na escolha por uma carreira profissional. Espera-se conhecer melhor a visão dos escolares em relação à UNIPAMPA. Por fim, almeja-se proporcionar à equipe do projeto experiências em Extensão Universitária, oportunizando uma maior interação da Universidade e comunidade escolar. Tais atividades possibilitarão a qualificação científica da equipe do projeto, através da apresentação dos resultados do projeto com a produção de resumos e artigos.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador / Simone Pinton - Integrante / Daiana Silva de Ávila - Integrante / Mara Regina Bonini Marzari - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Pampa - Outra.</div>
+</div><a name='PP_Cerro do Jarau: Um laborat&oacute;rio Cultural e Astron&ocirc;mico'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cerro do Jarau: Um laboratório Cultural e Astronômico<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho tem por objetivo divulgar a importância científica do Cerro do Jarau para a população das cidades de Uruguaiana e Quaraí através da divulgação nas escolas, em eventos públicos e em meios de comunicação em massa, bem como por meio a elaboração de exposições com fotografias produzidas por escolares. Pretende-se aproximar a cultura e a Ciência por meio da ligação entre a lenda da Salamanca e a existência da cratera do Cerro do Jarau, a fim de conscientizar tais população sobre a conservação de áreas que nos servem como laboratórios de pesquisa para a compreensão da formação do nosso planeta e da continuação das espécies terrestres.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Semana Mundial do Espa&ccedil;o - 2016'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Semana Mundial do Espaço - 2016<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Semana Mundial do Espaço (SME) é uma celebração internacional da contribuição da ciência e tecnologia espacial para o melhoramento da condição humana. Foi oficialmente declarada pelas Nações Unidas em 1999 como sendo, anualmente, a semana de 4 a 10 de Outubro sendo coordenada globalmente pela ONU com o apoio da Associação Internacional da Semana do Espaço (Space Week International Association).. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Coordenador.<br class="clear" />Financiador(es): Universidade Federal do Pampa - Cooperação.</div>
+</div><a name='PP_Astronomia para Todos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Astronomia para Todos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Resultando de diversas ações de ensino, pesquisa e extensão em andamento desde o ano de 2009, o projeto busca ampliar e qualificar o trabalho realizado ao assumir caráter interdisciplinar, articulando atividades das áreas da música, matemática, letras, educação e computação em prol da divulgação da Astronomia.
+A equipe executora do programa é formada por docentes e servidores da UNIPAMPA, estudantes dos cursos de Graduação em Física, Matemática, Música, Computação, Letras e Educação, de Pós-graduação e do Mestrado Profissional em Ensino de Ciências e Ensino de Línguas da UNIPAMPA. Também estão envolvidos, no planejamento das ações, membros da comunidade externa.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (30) . <br class="clear" /><br class="clear" />Integrantes: Eliade Ferreira Lima - Integrante / Guilherme Frederico Marranghello - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Boletim - Sociedade Astrônomica Brasileira</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorProjetoFomento">
+<h1>Revisor de projeto de fomento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agência de fomento: Universidade Federal do Pampa - PDA</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Astrofísica Estelar. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Ensino de Física. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física Geral. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Astropartículas. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Amiga do Grupo, 22° Grupo de Artilharia de Campanha Autopropulsado - Exército Brasileiro. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LIMA, E. F.;LIMA Eliade Ferreira;E.F. LIMA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1051/0004-6361/201323050" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; BICA, E. ; BONATTO, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5268466227677857" target="_blank">Saito, R. K.</a> . Probing embedded star clusters in the HII complex NGC-6357 with VVV. Astronomy & Astrophysics (Berlin. Print)<sup><img id='00046361_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 568, p. A16, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1051/0004-6361/201323050&issn=00046361&volume=568&issue=&paginaInicial=A16&titulo=Probing embedded star clusters in the HII complex NGC-6357 with VVV&sequencial=1&nomePeriodico=Astronomy & Astrophysics (Berlin. Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bonatto, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1365-2966.2011.20039.x" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">Bonatto, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b>LIMA, E. F.</b> . Deriving reliable fundamental parameters of pre-main-sequence-rich star clusters affected by differential reddening. Monthly Notices of the Royal Astronomical Society (Print)<sup><img id='00358711_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00358711' /></sup>, v. 420, p. 352-360, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1365-2966.2011.20039.x&issn=00358711&volume=420&issue=&paginaInicial=352&titulo=Deriving reliable fundamental parameters of pre-main-sequence-rich star clusters affected by differential reddening&sequencial=2&nomePeriodico=Monthly Notices of the Royal Astronomical Society (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bonatto, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1051/0004-6361/201118576" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">Bonatto, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b>LIMA, E. F.</b> . Unveiling hidden properties of young star clusters: differential reddening, star-formation spread, and binary fraction. Astronomy & Astrophysics (Berlin. Print)<sup><img id='00046361_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 540, p. A137, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1051/0004-6361/201118576&issn=00046361&volume=540&issue=&paginaInicial=A137&titulo=Unveiling hidden properties of young star clusters: differential reddening, star-formation spread, and binary fraction&sequencial=3&nomePeriodico=Astronomy & Astrophysics (Berlin. Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LIMA, E. F.;LIMA Eliade Ferreira;E.F. LIMA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0794170311040612" target="_blank">OLIVEIRA, M. A. L.</a> ; SILVEIRA, F. E. M. . Deflections of Cosmic Rays by Magnetic Fields. AIP Conference Proceedings<sup><img id='0094243X_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0094243X' /></sup>, v. 1123, p. 244, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0094243X&volume=1123&issue=&paginaInicial=244&titulo=Deflections of Cosmic Rays by Magnetic Fields&sequencial=4&nomePeriodico=AIP Conference Proceedings" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; Benites, L. B. ; Peres,B. P. . A Inserção do Planetário na Cidade de Uruguaiana Visando Ampliar o Contato da Astronomia com a Comunidade Uruguaianense. In: 9º Salão Internacional de Ensino, Pesquisa e Extensão, 2017, Santana do Livramento. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CHIQUETTI, M. A. ; <b>LIMA, E. F.</b> ; LIANO, M. S. . O CERRO DO JARAU: UM LABORATORIO CULTURAL E ASTRONÔMICO. In: 9º Salão Internacional de Ensino, Pesquisa e Extensão, 2017, Santana do Livramento. Salão Internacional de Ensino, Pesquisa e Extensão, 2017. v. 9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Machado, R. S. ; Machado, Mª C. F. ; <b>LIMA, E. F.</b> . DOMA DE PAPELÃO E ESPELHO DE SEGURANÇA: BARATEANDO A DIVULGAÇÃO DA ASTRONOMIA. In: 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), 2016, Uruguaiana. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2016. v. 8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; E. BICA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">Bonatto, C.</a> ; SAITO, R. K. . Study of Young Stellar Clusters in the nebulat complex NGC 6357 with VVV. In: 5th VVV Science Meeting, 2014, Florianópolis. XIV Latin American Regional IAU Meeting. México: Universidad Nacional Autónoma de México, 2014. v. 44. p. 66-69. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; M. A. Leigui de Oliveira ; C. J. Todero Peixoto . Study of the propagation of ultra-high energy cosmic rays in extragalactic magnetic fields. In: 4th School on Cosmic Rays and Astrophysics, 2010, São Paulo. Pos Proceedings of Science, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">M. A. Leigui de Oliveira ; C. J. Todero Peixoto ; M. S. A. B. Leão ; R, M. Lima ; <b>LIMA, E. F.</b> ; et al. . Atmospheric Radiation Monitor. In: 31st International Cosmic Rays Conference, 2009, Lodz. 31st International Cosmic Rays Conference, 2009. v. 31. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1063/1.3141365" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; DE OLIVEIRA, M. A. LEIGUI ; DA SILVEIRA, MENDONC'A ; SALINAS, CARLOS JAVIER SOLANO ; BELLIDO, JOSE ; WAHL, DAVID ; SAAVEDRA, OSCAR . Deflections of Cosmic Rays by Magnetic Fields. In: COSMIC RAYS AND ASTROPHYSICS: Proceedings of the 3rd School on Cosmic Rays and Astrophysics, 2009, Arequipa (Peru ). AIP Conference Proceedings. p. 244. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0794170311040612" target="_blank">OLIVEIRA, M. A. L.</a> . Uma discussão sobre a experiência de Franck e Hertz. In: I Semana de Física da UESB, 2005, Vitória da Conquista. I Semana de Física da UESB. Vitória da Conquista: Laser Set, 2005. v. 01. p. 54-56. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; PEREIRA, M. S. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0794170311040612" target="_blank">OLIVEIRA, M. A. L.</a> . O Uso do Pôr-do-Sol na Medição do Raio da Terra. In: I Semana de Física da UESB, 2005, Vitória da Conqusita. I Semana de Física da UESB. Vitória da Conquista: Laser Set, 2005. v. 01. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; CASTRO, L. M. ; RAMOS, J. A. P. . Construção de um Observatório Alternativo. In: I Semana de Física da UESB, 2005, Vitória da Conquista. I Semana de Física. Vitória da Conquista: Laser  Set, 2005. v. 01. p. 58-59. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Campos, Mª E. C. ; Portugal, N. Q. ; Cunha, A. B. S. ; SPOHR, C. B. ; <b>LIMA, E. F.</b> . FÍSICA COMO FERRAMENTA PARA EDUCAÇÃO PARA O TRÂNSITO. In: 8º Salão Internacional de Ensino, Pesquisa e Extensão, 2016, Uruguaiana. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2016. v. 8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; BIANCHIN, M. ; BICA, E. ; RIFFEL, R. A. ; BONATTO, C. ; SAITO, R. K. . Estudo de Aglomerados Estelares em Complexos de Formação Estelar da Galáxia com o VVV. In: XXXIX Reunião Anual da SAB, 2015, Ouro Preto. Boletim da Sociedade Astronômica Brasileira, Vol. 33, No. 1, 2015, 2015. v. 39. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIANCHIN, M. ; <b>E.F. LIMA</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; RIFFEL, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">Bonatto, C.</a> ; SAITO, R. K. . Estudo fotométrico de aglomerados estelares. In: XL Reunião Anual da Sociedade Astronômica Brasileira, 2016, Ribeirão Preto. Boletim da Sociedade Astronômica Brasileira, 2016., 2016. v. 34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; BICA, E. ; BIANCHIN, M. ; BONATTO, C. ; SAITO, R. K. ; RIFFEL, R. A. . THE PMS SIGNATURE OF THE SGR 1806-20 STAR CLUSTER: CONSTRAINTS ON DISTANCE. In: XL Reunião Anual da SAB, 2016, Ribeirão Preto. Boletim da Sociedade Astronômica Brasileira 2016, 2016. v. 34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Benites, L. B. ; Peres,B. P. ; <b>LIMA, E. F.</b> . CONFECÇÃO E UTILIZAÇÃO DE RELÓGIOS SOLARES COMO AÇÃO INCENTIVADORA DE ENSINO. In: Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), 2016, Uruguaiana. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2016. v. 8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIANCHIN, M. ; <b>LIMA, E. F.</b> ; RIFFEL, R. A. . Análise do Complexo de Formação Estelar W31 com VVV+2MASS. In: 30ª Jornada Acadêmica Integrada, 2015, Santa Maria. Anais da 30ª Jornada Acadêmica Integrada, 2015, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; BICA, E. ; BONATO, C. ; SAITO, R. K. ; RIFFEL, R. A. . ESTUDO FOTOMÉTRICO DOS AGLOMERADOS IMERSOS NOS COMPLEXOS NGC 6357 E NGC 6334. In: XXXVIII Reunião Anual da SAB, 2014, Búzios. Boletim Reunião Anual SAB 2014, 2014. v. 32. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; SILVA, F. M. . A produção de experimentos de baixo custo no Ensino Médio como atividade motivadora no processo de ensino-aprendizagem de Física. In: XXIII Encontro de Físicos do Norte e Nordeste, 2005, Maceió. XXIII EFNNE - Resumos, 2005. v. 23. p. 42-42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; CASTRO, L. M. ; RAMOS, J. A. P. . Construção de Um Observatório Alternativo. In: IX CONPEX / IX Seminário de Iniciação Científica da UESB, 2005, Jequié. IX CONPEX / IX Seminário de Iniciação Científica da UESB - Resumos, 2005. v. 9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; PEREIRA, M. S. S. ; CERQUEIRA, G. R. L. . Uma caracterização de Superfície no entendimento da Teoria Eletromagnética através do Teorema da Divergência de Gauss. In: XXII Encontro de Físicos do Norte e Nordeste, 2004, Feira de Santana. XXII EFNNE- Programa e Resumos. Feira de Santana: Clínica dos Livros, 2004. v. 23. p. 40-41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; PEREIRA, M. S. S. ; CERQUEIRA, G. R. L. . Uma interpretação física do divergente e rotacional no cálculo de integrais de fluxos através de superfícíes parametrizadas. In: 8º CONPEX - congresso de Pesquisa e Extensão/ 8º Seminário de Iniciação científica da UESB/, 2004, Itapetinga. 8ª CONPEX - resumos, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIANCHIN, M. ; <b>LIMA, E. F.</b> ; RIFFEL, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; BONATO, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5268466227677857" target="_blank">Saito, R. K.</a> . The connection between SGR 1806 &#8722; 20 and the W 31 complex probed by the VVV survey. MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY<sup><img id='00358711_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00358711' /></sup>, 2018. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Astronomia como ferramenta de Ensino-Aprendizagem. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. O Cerro do Jarau e observações astronômicas. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. The Birth of Stars. 2018. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. O CERRO DO JARAU: UM LABORATORIO CULTURAL E ASTRONÔMICO. 2017. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; Peres,B. P. ; Benites, L. B. ; LIANO, M. S. ; CHIQUETTI, M. A. . Planetário da Unipampa - Astronomia para Todos. 2017. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Crateras de Impacto na Região. 2017. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Complexos de Formação Estelar da Galáxia. 2016. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Estudo de aglomerados estelares da Via Láctea. 2015. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Complexos de formação estelar na Galáxia. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. Aglomerados Estelares. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; BICA, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">Bonatto, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5268466227677857" target="_blank">Saito, R. K.</a> ; RIFFEL, R. A. . ESTUDO FOTOMÉTRICO DOS AGLOMERADOS IMERSOS NOS COMPLEXOS NGC 6357 E NGC 6334. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Editais de Extensão Universitária. 2017. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; Machado, Mª C. F. . Mulheres nas Ciências Exatas. 2018. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.facebook.com/eliveltovozesurbanas/videos/239216403321754/https://www.facebook.com/eliveltovozesurbanas/videos/239216403321754/https://www.facebook.com/eliveltovozesurbanas/videos/239216403321754/')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; FARIAS, F. M. ; HIJAZIN, S. H. A. S. . UNIPAMPA Debates: Astronomia. 2017. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. JA Ideias. 2017. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://g1.globo.com/rs/rio-grande-do-sul/jornal-do-almoco/videos/t/edicoes/v/feira-de-ciencias-promove-inclusao-em-uruguaiana-rs/6191756/')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; Benites, L. B. ; Peres,B. P. . Podcast Ciência no Velho Oeste. 2017. 
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.toxcel-unipampa.com/podcast')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; CHIQUETTI, M. A. . PodCast Ciência no Velho Oeste - Cerro do Jarau. 2017. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.toxcel-unipampa.com/podcast')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Lugar de Mulher. 2017. 
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://videos.ufrgs.br/ufrgstv/lugar-de-mulher/eliade-lima/view')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. Semana Mundial do Espaço 2016. 2016. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://g1.globo.com/rs/rio-grande-do-sul/jornal-do-almoco/videos/t/edicoes/v/uruguaiana-rs-celebra-a-semana-mundial-do-espaco/5366479/')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. O Impacto do Cerro do Jarau. 2016. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. O Impacto que fomou o Cerro do Jarau. 2016. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Semana Mundial do Espaço. 2016. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://g1.globo.com/rs/rio-grande-do-sul/jornal-do-almoco/videos/t/edicoes/v/uruguaiana-rs-celebra-a-semana-mundial-do-espaco/5366479/')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. O Inglês na divulgação científica. 2013. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.youtube.com/watch?v=Sl5i13coryw')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Semana Mundial do Espaço. 2005. 
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.youtube.com/watch?v=r6tS6ixHdGM&feature=youtu.be')"></img></div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="RedesSociais"></a>Redes sociais, websites e blogs</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; Simone Pinton ; Mara Regina Bonini Marzari ; SPOHR, C. B. ; Ávila, D. S. ; CARPES, P. M. . Cientistas do Pampa. 2017; Tema:
+							Mulheres na Ciência. (Site). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. Clube da Astronomia de Uruguaiana. 2016; Tema:
+							Divulgação de Astronomia. (Rede social). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Profª Eliade Lima. 2014; Tema:
+							Ensino de Física. (Site). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. O Universo em Escalas. 2015. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; CERQUEIRA, G. R. L. ; PEREIRA, M. S. S. . Integrais de Superfície e sua contribuição no desenvolvimento da física moderna. 2004 (Palestra) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIFFEL, R. A.; <b>E.F. LIMA</b>; Chies-Santos, A. L.; COPETTI, M. V. F..  Participação em banca de Marina Bianchin. CARACTERIZAÇÃO FOTOMÉTRICA DE AGLOMERADOS ESTELARES NAS REGIÕES W31 E NGC 6334.. 2018. Dissertação (Mestrado em Física) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIFFEL, R. A.; KRABBE, A. C.; <b>LIMA, E. F.</b>.  Participação em banca de Carine Brum. Cinemática e distribuição do gás ionizado na região central das galáxias Seyfert NGC4501 e NGC3982. 2015. Dissertação (Mestrado em Física) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIFFEL, R. A.; Brito, A. A.; <b>LIMA, E. F.</b>; Carara, M. A.; Rembold, S. R..  Participação em banca de Marlon Rodrigo Diniz. Estudo de populações estelares em galáxias ativas a partir de cubos de dados no infravermelho próximo. 2015. Exame de qualificação (Doutorando em Pós Graduação em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>; DINARDI, A. J.; BORTOLUZZI, L..  Participação em banca de Vagner D. Fortes Rosado. Concepções Ambientais de um grupo de professores da Educação Básica do município de Alegrete-RS. 2018. Monografia (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>E.F. LIMA</b>; TAHA, M. S.; DUTRA, C. M..  Participação em banca de Melicia de Souza Silva. Determinando a aceleração da gravidadeatravés do pêndulo simples. 2016. Monografia (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>; Luana Borges.  Participação em banca de Fabiane Backes.Universidade-Comunidade: uma intervenção em busca da inclusão escolar.
+							2017. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>; DUTRA, C. M.; ROEHRS, R..  Participação em banca de Eder Lucas Moreira Moleda.Adaptação do Planisfério Celeste para Deficientes Visuais.
+							2017. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>; FARIAS, F. M.; PESSANO, E..  Participação em banca de Sara Hanne Anwar S. Hijazin.Radio as a tool in education and health promotion in the brazilian reality: a case report.
+							2017. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>.  Participação em banca de Brenda Matoso Abreu Miranda.DIVULGAÇÃO CIENTÍFICA DA ASTRONOMIA NA CIDADE DE SÃO BORJA E REGIÃO.
+							2017. Trabalho de Conclusão de Curso (Graduação em Física)  - Instituto Federal Farroupilha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>.  Participação em banca de BRUNA DE PAULA CERENTINI.Os eclipses no ensino de ciências exatas e suas tecnologias.
+							2017. Trabalho de Conclusão de Curso (Graduação em Física)  - Instituto Federal Farroupilha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SPOHR, C. B.; <b>LIMA, E. F.</b>; GUIDOTTI, C. S..  Participação em banca de Eduardo Amandia Marçal Rodrigues.O uso de um sistema de som automotivo gerador de energia em uma proposta de ensino por investigação.
+							2016. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIFFEL, R. A.; <b>LIMA, E. F.</b>; COPETTI, M. V. F..  Participação em banca de Gabriele da Silva Ilha.Mapeamento da Cinemática Estelar e do Gás em Galaxias do MaNGA.
+							2015. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COPETTI, M. V. F.; <b>LIMA, E. F.</b>; RIFFEL, R. A..  Participação em banca de Vanessa Lorenzoni.IDENTIFICAÇÂO DE ESTRELAS IONIZANTES E DETERMINAÇÂO DE DISTÂNCIAS DE REGIOES HII GALÀCTICAS.
+							2015. Trabalho de Conclusão de Curso (Graduação em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>; SPOHR, C.; DINARDI, A. J.. Processo Seletivo para Profesor Substituto.
+							2017.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>. I Feira Estudantil Tecnológica do IFFar Uruguaiana.
+							2017.
+							Instituto Federal Farroupilha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>LIMA, E. F.</b>. 9º Salão Internacional de Ensino Pesquisa e Extensão.
+							2017.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9th VISTA Variables in the Vía Lactea Survey.The connection between W31 complex and the stellar cluster towards.
+							2018. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Encontro Estadual de Ensino de Física RS.
+							2017. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Astronomia nas Culturas.
+							2016. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XL Reunião Anual da SAB.THE PMS SIGNATURE OF THE SGR 1806-20 STAR CLUSTER: CONSTRAINTS ON DISTANCE. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Escola de Inverno de Física.Estudo de Aglomerados Estelares da Via Láctea. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIX REUNIÃO ANUAL DA SAB.ESTUDO DE AGLOMERADOS ESTELARES EM COMPLEXOS DE FORMAÇÃO ESTELAR DA GALÁXIA COM O VVV. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5th VVV Science Meeting.New projects with VVV.
+							2014. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXVIII REUNIÃO ANUAL DA SAB.ESTUDO FOTOMÉTRICO DOS AGLOMERADOS IMERSOS NOS COMPLEXOS NGC 6357 E NGC 6334. 2014. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4rd VISTA Variables in the Via Lactea Science Meeting.Young Stellar Clusters in Nebular Complexes with VVV.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Latin American Regional IAU Meeting.Study of young stellar clusters in the nebular complex NGC 6357 with VVV.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3rd VISTA Variables in the Via Lactea Science Meeting.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSPAR on Infrared and Submlilimetre Astronomy.The photometry in star formation region NGC 6334. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAT Lectures On Astrophysics - Collapsing or Collinding Systems.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4th School on Cosmic Rays and Astrophysics.Study of the propagation of ultra-high energy cosmic rays in extragalactic magnetic fields. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Mostra da Pós-Graduação.Propagation of UHECRs in Extragalactic Magnetic Fields.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Escola de Físca da UFABC.Study of the propagation of ultrahigh energy cosmic rays in extragalactic magnetic fields. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro Nacional do Observatório Pierre Auger.Estudo da Propagação de RCUAEs em Campos Magnéticos Extragalácticos.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminários do Departamento de Astronomia da UFRGS.Estudo da Propagação de Raios Cósmicos de Ultra-Altas Energias em Campos Magnéticos Extragalácticos. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Nacional do Observatório Pierre Auger.Estudo das Correlações de Eventos com Fontes Astrofísicas e Simulação da Produção e Propagação de Raios Cósmicos de Ultra-Alta Energia.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Escuela de Rayos Cósmicos y Astrofísica.Study of the Propagation and Deflections of Ultra High Energy Cosmic Rays in Intergalactic and Extragalactic Magnetic Fields. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Verão IFUSP. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro de Verão de Física do ITA.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Escola de Inverno - Departamento de Física - UFPB. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Introdução à Astronomia e Astrofísica. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Física da UESB. O uso do Pôr-do-Sol na Medição do Raio da Terra. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX CONPEX - Congresso de Pesquisa e EXtensão da UESB. Construção de um Observatório Alternativo. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Encontro de Físicos do Norte e Nordeste.A produção de experimentos de baixo custo no Ensino Médio como atividade motivadora no processo de ensino-aprendizagem de Física.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8º CONPEX - Congresso de Pesquisa e Extensão / 8º Seminário de Iniciação Científica da UESB. Uma interpretação física do Divergente e Rotacional no cálculo de Integrais de Fluxos através de Superfícies Parametrizadas com orientação positiva. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Matemática da UESB. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Encontro de Físicos do Norte e Nordeste.Uma caracterização da Integral de Superfície no entendimento da Teoria Eletromagnética através do Teorema da Divergência de Gauss.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Seminário de Ciências e Matemática. 1997. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; SAITO, R. K. ; BONATO, C. . 9th VISTA Variables in Via Lactea Science Meeting. 2018. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. 2ª Feira de Ciências Universidade-Comunidade: Ci&#7869;ncias para Tod@s. 2018. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; Luana Borges ; Odete Messa Torres . Feira de Ciências: Universidade - Comunidade. 2017. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; Luana Borges ; Odete Messa Torres . lançamento do projeto de extensão - ?I Feira de Ciências Universidade-Comunidade: Escola Inclusiva. 2017. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. 8º SIEPE. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. Semana Mundial do Espaço: Uruguaiana. 2016. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIFFEL, R. A. ; <b>LIMA, E. F.</b> . IV Escola de Inverno do Programa de Pós-Graduação em Física da UFSM. 2015. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		BONATO, C. ; PASTORIZA, M. ; <b>LIMA, E. F.</b> . V Escola de Inverno dp PPGFis - UFRGS. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; PASTORIZA, M. . V Escola do PPG Física da UFRGS: Astrofísica. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0794170311040612" target="_blank">OLIVEIRA, M. A. L.</a> ; CASTRO, L. M. ; SILVA, F. M. ; TAKIYA, C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b> . I Semana de Física da UESB. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Semana Mundial do Espaço. 2005. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariele Rosa da Silva. Como a pesquisa socioambiental pode ser uma estratégia de reflexão e ação na transformação do meio. Início: 2017. Monografia (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Barboza Benites. Temas de Astronomia como Conceitos Unificadores na BNCC.
+						Início: 2018. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lisiane de Oliveira Moura. Estudo de aglomerados estelares utilizando dados ESO­VVV: diagramas cor­ magnitude e estruturaEstudo de aglomerados estelares utilizando dados ESO­-VVV: diagramas cor­ magnitude e estrutura. Início: 2018. Iniciação científica (Graduando em Ciências da Natureza)  - Universidade Federal do Pampa, Universidade Federal do Pampa - PDA. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Annelize Gruppi Lunardi. A contribuição da IC Jr na escolha da Carreira Acadêmica. Início: 2018 - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Victoria Arielle Marins Arias. A contribuição da IC Jr na escolha da Carreira Acadêmica. Início: 2018 - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gloria Maria Jardim Guimarães. A contribuição da IC Jr na escolha da Carreira Acadêmica. Início: 2018 - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafaela Ferreira Anhaia. Matemática para deficientes visuais. Início: 2018 - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sue Ellen Doleski Webwr. Monitoria de Física Básica.
+						Início: 2018.
+							Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Santana de Araujo. O Cerro do Jarau: um laboratório cultural e astronômico.
+						Início: 2018.
+							Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Peruzzi Peres. O Cerro do Jarau: um laboratório cultural e astronômico.
+						Início: 2018.
+							Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marina Bianchin. CARACTERIZAÇÃO FOTOMÉTRICA DE AGLOMERADOS ESTELARES NAS REGIÕES W31 E NGC6334.
+							2016.
+						
+					Dissertação  (Mestrado em Física)  - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Coorientador: Eliade Ferreira Lima. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marina Bianchin.
+							Estudo Fotométrico de Aglomerados Estelares Imersos no Complexo W31.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Física)  - Universidade Federal de Santa Maria,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marco Aurélio dos Santos Chiquetti.
+							O CERRO DO JARAU: UM LABORATÓRIO CULTURAL E ASTRONÔMICO.
+							2017.
+							Orientação de outra natureza. (Farmácia)  - Universidade Federal do Pampa,
+							Programa de Desenvolvimento Acadêmico - UNIPAMPA. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariely Souto Liano.
+							O Cerro do Jarau: Um Laboratório Cultural e Astronômico.
+							2017.
+							Orientação de outra natureza. (Ciências da Natureza)  - Universidade Federal do Pampa,
+							Universidade Federal do Pampa - PDA. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Barboza Benites.
+							Astronomia para Todos.
+							2017.
+							Orientação de outra natureza. (Ciências da Natureza)  - Universidade Federal do Pampa,
+							Ministério da Educação. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Peruzzi Peres.
+							Astronomia para todos.
+							2017.
+							Orientação de outra natureza. (Ciências da Natureza)  - Universidade Federal do Pampa,
+							Ministério da Educação. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Barboza Benites.
+							Astronomia para Todos.
+							2016.
+							Orientação de outra natureza - Universidade Federal do Pampa,
+							Ministério da Educação. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Peruzzi Peres.
+							Astronomia para Todos.
+							2016.
+							Orientação de outra natureza - Universidade Federal do Pampa,
+							Ministério da Educação. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nicolas Klummer Bastos.
+							Monitoria para Laboratório de Física III.
+							2014.
+							Orientação de outra natureza. (Física-Licenciatura Plena-noturno (126))  - Universidade Federal de Santa Maria,
+							Pró-Reitoria de Assistência ao Estudante. Orientador: Eliade Ferreira Lima.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetoExtensaoPI"></a><br class="clear" /><div class="inst_back">
+<b>Projeto de extensão</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Crateras de Impacto na Região. 2017. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. O Cerro do Jarau e observações astronômicas. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. The Birth of Stars. 2018. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="CursosCurtaEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. O Universo em Escalas. 2015. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<a name="EntrevistasEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Entrevistas, mesas redondas, programas e comentários na mídia </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; FARIAS, F. M. ; HIJAZIN, S. H. A. S. . UNIPAMPA Debates: Astronomia. 2017. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. JA Ideias. 2017. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://g1.globo.com/rs/rio-grande-do-sul/jornal-do-almoco/videos/t/edicoes/v/feira-de-ciencias-promove-inclusao-em-uruguaiana-rs/6191756/')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; Benites, L. B. ; Peres,B. P. . Podcast Ciência no Velho Oeste. 2017. 
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.toxcel-unipampa.com/podcast')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; CHIQUETTI, M. A. . PodCast Ciência no Velho Oeste - Cerro do Jarau. 2017. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.toxcel-unipampa.com/podcast')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Lugar de Mulher. 2017. 
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://videos.ufrgs.br/ufrgstv/lugar-de-mulher/eliade-lima/view')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. O Inglês na divulgação científica. 2013. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.youtube.com/watch?v=Sl5i13coryw')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. O Impacto que fomou o Cerro do Jarau. 2016. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Semana Mundial do Espaço. 2016. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://g1.globo.com/rs/rio-grande-do-sul/jornal-do-almoco/videos/t/edicoes/v/uruguaiana-rs-celebra-a-semana-mundial-do-espaco/5366479/')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Semana Mundial do Espaço. 2005. 
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('https://www.youtube.com/watch?v=r6tS6ixHdGM&feature=youtu.be')"></img></div>
+</div>
+<br class="clear">
+<a name="OrganizacaoEventosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIFFEL, R. A. ; <b>LIMA, E. F.</b> . IV Escola de Inverno do Programa de Pós-Graduação em Física da UFSM. 2015. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; Luana Borges ; Odete Messa Torres . Feira de Ciências: Universidade - Comunidade. 2017. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. 8º SIEPE. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>. Semana Mundial do Espaço: Uruguaiana. 2016. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; Luana Borges ; Odete Messa Torres . lançamento do projeto de extensão - ?I Feira de Ciências Universidade-Comunidade: Escola Inclusiva. 2017. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. 2ª Feira de Ciências Universidade-Comunidade: Ci&#7869;ncias para Tod@s. 2018. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">E.F. LIMA</a></b>; PASTORIZA, M. . V Escola do PPG Física da UFRGS: Astrofísica. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<a name="RedesSociaisEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Redes sociais, websites e blogs </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>; Simone Pinton ; Mara Regina Bonini Marzari ; SPOHR, C. B. ; Ávila, D. S. ; CARPES, P. M. . Cientistas do Pampa. 2017; Tema:
+							Mulheres na Ciência. (Site). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9733812300029971" target="_blank">LIMA, E. F.</a></b>. Profª Eliade Lima. 2014; Tema:
+							Ensino de Física. (Site). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Coordenadora do Projeto Energéticas, contemplado pelo Edital Elas na Exatas R$ 35.0000,00</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:42:22</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=9733812300029971" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

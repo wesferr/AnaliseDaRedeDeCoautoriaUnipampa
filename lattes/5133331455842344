@@ -1,0 +1,3575 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Christian Caldeira Santos)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=5133331455842344" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4266555U1&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4266555U1"><div class="infpessoa">
+<h2 class="nome">Christian Caldeira Santos</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/5133331455842344</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 16/02/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Graduação em Fisioterapia - Faculdades Integradas de Patrocínio (FIP) e Especialização em Fisioterapia Neurológica pela Universidade Estácio de Sá (UNESA) e em Saúde Pública pela Universidade de Ribeirão Preto (UNAERP). Mestre em Meio Ambiente e Sustentabilidade pelo Centro Universitário de Caratinga (UNEC). Doutorando em Diversidade Cultural e Inclusão Social (Universidade FEEVALE) com auxílio para pagamento mensalidades PROSUP/CAPES . É professor Adjunto nível I do curso de Fisioterapia da Universidade Federal do Pampa (UNIPAMPA), campus Uruguaiana - RS. Experiência na área de fisioterapia, com ênfase em fisioterapia neurofuncional pediátrica, atuando principalmente nas disciplinas fisioterapia aplicada a neurologia I e estágio supervisionado em fisioterapia neuropediátria.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Christian Caldeira Santos</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SANTOS, C. C.;SANTOS, CHRISTIAN CALDEIRA</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Campus Uruguaiana. <br class="clear" />BR 472 - km 592<br class="clear" />xxxx<br class="clear" />97500000 - Uruguaiana, RS - Brasil<br class="clear" />Telefone: (55) 39110200<br class="clear" />URL da Homepage: <a target="blank" href="http://porteiras.unipampa.edu.br/uruguaiana/">http://porteiras.unipampa.edu.br/uruguaiana/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Diversidade Cultural e Inclusão Social<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Feevale, FEEVALE, Brasil.
+		
+	<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4483661995890631'><img src='images/curriculo/logolattes.gif' /></a>JACINTA SIDEGUM RENNER. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado profissional em Meio Ambiente e Sustentabilidade<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=F"></span>. <br class="clear" />Centro Universitário de Caratinga, UNEC, Brasil.
+		
+	<br class="clear" />Título: Avaliação Ergonômica de Cadeira de Rodas da Associação de Pais e Amigos dos Excepcionais (APAE) no Municipio de Caratinga - MG, Ano de Obtenção: 2008. <br class="clear" />Orientador: Luciano Jose Minette.
+			
+			</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Fisioterapia Neurologica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estácio de Sá, UNESA, Brasil.
+		
+	<br class="clear" />Título: Importância do fisioterapeuta na prevenção secundária das incapacidades físicas decorrentes da hanseníase. <br class="clear" />Orientador: Wellington de Souza Mata. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Saude Publica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 360h). <br class="clear" />Universidade de Ribeirão Preto, UNAERP, Brasil.
+		
+	<br class="clear" />Título: Perfil dos portadores de diabettes mellitus do municipio de Caratinga - MG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Fisioterapia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Faculdades Integradas de Patrocínio, FIP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A importância do brincar e da participação familiar para o desenvolvimento.  (Carga horária: 15h). <br class="clear" />Universidade Federal do Rio Grande do Norte, UFRN, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estimulação Precoce.  (Carga horária: 120h). <br class="clear" />Universidade Federal do Rio Grande do Norte, UFRN, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamento em Redação Científica.  (Carga horária: 24h). <br class="clear" />Pedro Reiz Centro de Treinamento e Formação, PEDROREIZ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GMFM - Medida de Função Motora Grossa.  (Carga horária: 18h). <br class="clear" />Associação de Assistência à Criança Deficiente de São Paulo, AACD, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação referente Comitê de Ética em Pesquisa.  (Carga horária: 2h). <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AIMS - Alberta Infant Motor Scale.  (Carga horária: 20h). <br class="clear" />Diretório Acadêmico de Fisioterapia - Unipampa, DA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Avaliação Fisioterápica do Desenvolvimento Neurops.  (Carga horária: 15h). <br class="clear" />Universidade do Estado do Rio de Janeiro, UERJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Alberta Infant Motor Scale.  (Carga horária: 4h). <br class="clear" />Associação dos Fisioterapeutas do Brasil, AFB, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Bandagens Elásticas Funcionais - FISIOTAP.  (Carga horária: 20h). <br class="clear" />Hospital Regional de Coari Prefeito Odair Carlos Geraldo, HRC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cadeias Musculares.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Amazonas, UFAM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Básico Tratamento Neuroevolutivo Bobath.  (Carga horária: 280h). <br class="clear" />Associação Brasileira de Abordagens Neurofuncionais, ABDAN, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Atualização Didático-Pedagógico.  (Carga horária: 8h). <br class="clear" />Centro Universitário de Caratinga, UNEC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atual. Recursos Fisiot Recém-Nascido Alto Risco.  (Carga horária: 32h). <br class="clear" />Faculdade de Medicina da Universidade de São Paulo, FMUSP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Básico de Avaliação e Tratamento Hemiplegia Bobath.  (Carga horária: 120h). <br class="clear" />Sociedade Brasileira para o Desenvolvimento e Divulgação de Conceitos Neuro, ABRADIMENE, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto, Nível I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante da UNIPAMPA no Conselho Municipal dos Direitos da Pessoa com Deficiência.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estágio Supervisionado em Neuropediatria<br class="clear" />Fisioterapia Aplicada a Neurologia I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2012 - 12/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Núcleo Docente Estruturante (NDE) do Curso de Fisioterapia.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2015 - 06/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Associação Amigos dos Deficientes Físicos de Uruguaiana -AADUR, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Avaliações antropométricas para prescrições de cadeira de rodas para pessoas com deficiência.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2014 - 09/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Desenvolvimento sensório - motor infantil'>Desenvolvimento sensório - motor infantil</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2013 - 03/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Desenvolvimento sensório-motor infantil'>Desenvolvimento sensório-motor infantil</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 12/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Coordenador do Projeto de Extensão - Batatinha quando nasce esparrama pelo chão - crescimento e desenvolvimento infantil nos três primeiros anos de vida, teorias e práticas para professores de berçários. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2012 - 12/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Coordenador do Projeto de Extensão Universitária: De olho no desenvolvimento sensório motor dos menores assistidos pelo Lar da Criança de Uruguaina - RS. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2012 - 03/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Desenvolvimento sensório-motor infantil'>Desenvolvimento sensório-motor infantil</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 03/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante docente no conselho do campus.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 01/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Amputações, Órteses e Próteses<br class="clear" />Estágio em Fisioterapia Comunitária aplicada a Cardiorespiratória<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2011 - 07/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cinesioterapia I<br class="clear" />Fisioterapia Aplicada a Neurologia I<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Feevale, FEEVALE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Discente do PPG Diversidade Cu, Enquadramento Funcional: Discente</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Associação Amigos dos Deficientes Físicos de Uruguaiana - RS, AADUR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Fisioterapeuta projeto extensão universitária, Carga horária: 3</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Faculdades Montenegro, FAMON, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Convidado</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ministro da disciplina Educação em Saúde para o curso de Especialização em Saúde Pública das Faculdades Montenegro - Pólo Coari Carga horária - 30 h</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Amazonas, UFAM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente MS-B nível I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Lotado no Instituto de Saúde e Biotecnologia - ISB/Coari</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - 06/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Psicomotricidade e Estágio Supervisionado III (Neurofuncional, Neuropediatria e Ginecologia e Obstetrícia)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2010 - 06/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Saúde e Biotecnologia, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Núcleo Docente Estruturante - NDE do curso de Fisioterapia.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2010 - 06/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, UFAM, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Estágio do Curso de Fisioterapia.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estágio Supervisionado III (Neurofuncional, Neuropediatria e Ginecologia e Obstetricia)<br class="clear" />Fisioterapia Pediatrica<br class="clear" />Fundamentos de Fisioterapia<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Faculdades Integradas Aparício Carvalho, FIMCA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Professor titular, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2009 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Clínica Pediatrica<br class="clear" />Estágio Supervisionado em Fisioterapia Neuropediátrica<br class="clear" />Fisioterapia Neurofuncional Infantil<br class="clear" />Prótese e Órtese<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos da Fisioterapia<br class="clear" />Bioética<br class="clear" />Clínica Pediátrica<br class="clear" />Fisioterapia Neurofuncional Infantil<br class="clear" />Fisioterapia Preventiva<br class="clear" />Prótese e Órtese<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Avaliação Clínica Fisioterapêutica<br class="clear" />Bioética<br class="clear" />Clínica Neurológica<br class="clear" />Clínica Pediátrica<br class="clear" />Fisioterapia Neurofuncional Adulto<br class="clear" />Prótese e Órteses<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Faculdade Metropolitana de Rondônia, FAMETRO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Professor, Carga horária: 11</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2009 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Anatomia I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Crescimento e Desenvolvimento Humano<br class="clear" />Psicomotricidade<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro Universitario de Caratinga, UNEC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Exerceu atividades como professor dos cursos de fisioterapia, enfermagem, pedagogia, normal superior e ciencias biologicas.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2005 - 07/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Faculdade de Enfermagem de Caratinga, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação e Saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2005 - 07/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Normal Superior, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Crescimento e Desenvolvimento Biológico e Educação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2005 - 07/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Pedagogia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Crescimento e Desenvolvimento Biológico e Educação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2004 - 07/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fisioterapia Pediátrica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2006 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Normal Superior, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação Psicomotora<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Pedagogia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação Psicomotora<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2000 - 07/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estágio Supervisionado em Fisioterapia Pediátrica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2006 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação Psicomotora<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2006 - 07/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Letras, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Crescimento e Desenvolvimento Biológico e Educação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2002 - 06/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Movimento e Desenvolvimento Humano<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2001 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estagio Supervisionado em Fisioterapia Neurológica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Faculdade de Fisioterapia de Patrocínio, FAFISIO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Monitor de Classe</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Desenvolvimento sens&oacute;rio - motor infantil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento sensório - motor infantil</div>
+</div><a name='LP_Desenvolvimento sens&oacute;rio-motor infantil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento sensório-motor infantil</div>
+</div><a name='LP_Desenvolvimento sens&oacute;rio-motor infantil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento sensório-motor infantil</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_A efic&aacute;cia da estimula&ccedil;&atilde;o sens&oacute;rio-motora em menores de 4 &agrave; 12 meses de uma institui&ccedil;&atilde;o filantr&oacute;pica de Uruguaiana - RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A eficácia da estimulação sensório-motora em menores de 4 à 12 meses de uma instituição filantrópica de Uruguaiana - RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Avaliação do desenvolvimento sensório-motor prévio de crianças do berçário através da Escala Motora Infantil de Alberta e posteriormente realizado um protocolo de estimulação (intervenção) e logo reavaliação destas crianças.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Tamiris Pinheiro - Integrante / Ana Paula Machado - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise do desenvolvimento motor e do ambiente de crian&ccedil;as filhas de m&atilde;es soropositivas para o HIV'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise do desenvolvimento motor e do ambiente de crianças filhas de mães soropositivas para o HIV<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Análise do desenvolvimento motor de crianças filhas de mães soropositivas para o HIV através da Escala Motora Infantil de Alberta e do ambiente pela AHEMD.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Laura da Rosa Quoos - Integrante / Chayene Luiz dos Santos - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 1 / Número de orientações: 1</div>
+</div><a name='PP_Preval&ecirc;ncia de encurtamento muscular do grupo ISQUIOS-TIBIAIS em escolares matriculados em uma institui&ccedil;&atilde;o educacional de Uruguaiana/RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prevalência de encurtamento muscular do grupo ISQUIOS-TIBIAIS em escolares matriculados em uma instituição educacional de Uruguaiana/RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Avaliar a amplitude articular do joelho e também a flexibilidade do grupo ísquios-tibiais de alunos. Relacionar os achados com um questionário de estilo de vida dos estudantes. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Anelise Terebinto - Integrante.<br class="clear" /></div>
+</div><a name='PP_A influ&ecirc;ncia do uso do andador no desenvolvimento sens&oacute;rio motor de crian&ccedil;as entre 12 e 18 meses de Uruguaiana-RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A influência do uso do andador no desenvolvimento sensório motor de crianças entre 12 e 18 meses de Uruguaiana-RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A aquisição do desenvolvimento normal infantil está relacionada com as experiências sensório-motoras vivenciadas em seu primeiro ano de vida. Como recurso de estimular a marcha, os pais acreditam que o andador infantil possa facilitar esta prática. Este estudo objetiva-se verificar a frequência da utilização do andador infantil por crianças de até 18 meses em duas escolas de educação infantil do município de Uruguaiana-RS, bem como conhecer as crenças dos pais sobre o mesmo. Partiu-se de uma pesquisa de campo, quanti-qualitativa com abordagem exploratória, onde os pais responderam um questionário quanto à utilização ou não do andador. Resultados apontaram uma frequência similar entre os grupos que utilizou e não o andador, sendo que as crianças que fizeram seu uso desenvolveram a marcha anteriormente as que não utilizaram (p= 0,044); o tempo diário de uso influenciou o tempo para a aquisição da marcha (p= 0,005); e não houve associação estatisticamente significativa entre os grupos (p= 0,566) que utilizaram ou não o andador infantil, quanto ao desempenho motor atual segundo Escala Motora Infantil de Alberta. Quando avaliado os reais motivos que levaram esses pais a optarem pelo uso ou não do dispositivo, percebeu-se uma forte relação das crenças sobre os efeitos do uso do andador, as quais interferiram e basearam as decisões de cada grupo. Conclui-se que a frequência da utilização do andador está ligada a fatores culturais e o período de aquisição da marcha está ligado ao tempo de uso diário do andador, sendo este um fator relevante para esta aquisição.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Pâmela Pissolato Schopf - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 2 / Número de orientações: 1</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Avalia&ccedil;&otilde;es para cadeira de rodas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliações para cadeira de rodas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Prescrição de cadeira de rodas, mediante a mensurações antropométricas de pessoas com deficiência.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Tânia Gonçalves Costa - Integrante.<br class="clear" /></div>
+</div><a name='PP_Projeto Girassol : a&ccedil;&otilde;es direcionadas &agrave; promo&ccedil;&atilde;o do desenvolvimento infantil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Girassol : ações direcionadas à promoção do desenvolvimento infantil<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Integrante / Eloá Maria dos Santos Chiquetti - Coordenador / Rodrigo de Souza Balk - Integrante.<br class="clear" /></div>
+</div><a name='PP_?BATATINHA QUANDO NASCE ESPARRAMA PELO CH&Atilde;O? - CRESCIMENTO E DESENVOLVIMENTO INFANTIL NOS TR&Ecirc;S PRIMEIROS ANOS DE VIDA, TEORIAS E PR&Aacute;TICAS PARA PROFESSORES DE BER&Ccedil;&Aacute;RIOS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">?BATATINHA QUANDO NASCE ESPARRAMA PELO CHÃO? - CRESCIMENTO E DESENVOLVIMENTO INFANTIL NOS TRÊS PRIMEIROS ANOS DE VIDA, TEORIAS E PRÁTICAS PARA PROFESSORES DE BERÇÁRIOS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Ação de extensão universitária apresenta objetivo geral de problematizar os temas crescimento e desenvolvimento infantil até 3 anos e 11 meses no contexto da creche para profissionais de educação infantil. Após autorização da Secretaria Municipal de Educação de Uruguaiana ? RS, todas as escolas de educação infantil que possuam creche serão beneficiadas. Um cronograma visitas às escolas será montado e a execução da ação ocorrerá entre outubro e dezembro de 2013. Dois encontros serão marcados com duração de 3 h cada. No primeiro encontro será discutido o crescimento infantil e no segundo desenvolvimento infantil até 3 anos e 11 meses, respectivamente, fundamentado no cartão da criança do Ministério da Saúde. Nos encontros serão discutidos e fomentados possibilidades de desenvolvimento e metodologias para práticas de cuidado e educação quanto ao crescimento e desenvolvimento infantil da criança na creche. Esta ação extensionista de intervenção junto às profissionais de educação contribuirá para a capacitação profissional em relação aos conhecimentos relativos ao crescimento e desenvolvimento infantil, as quais poderão ser valiosas para a construção de práticas e condutas pedagógicas à estimulação do desenvolvimento global (sensório-motor, psíquico, social, linguagem e cognitivo) das crianças inseridas em creches.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Eloá Maria dos Santos Chiquetti - Integrante / Tassiane Araujo dos Santos da Silva - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Pampa - Bolsa.</div>
+</div><a name='PP_De olho no desenvolvimento motor dos menores assistidos no Lar da Crian&ccedil;a de Uruguaiana - RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">De olho no desenvolvimento motor dos menores assistidos no Lar da Criança de Uruguaiana - RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Ana Paula Machado - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Pampa - Bolsa.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_De olho do desenvolvimento motor dos menores assistidos no Lar da Crian&ccedil;a de Uruguaiana - RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">De olho do desenvolvimento motor dos menores assistidos no Lar da Criança de Uruguaiana - RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Avaliação, acompanhamento e estimulação do desenvolvimento motor das crianças matriculadas no Lar da Criança de Uruguaiana - RS.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (12) . <br class="clear" /><br class="clear" />Integrantes: Christian Caldeira Santos - Coordenador / Tamiris Pinheiro - Integrante / Eloá Maria dos Santos Chiquetti - Integrante / Laura da Rosa Quoos - Integrante / Gislaine Biberg Santos - Integrante / Chayene Luiz dos Santos - Integrante / Fernanda Alves Dornelles - Integrante / Luana Martins - Integrante / Suêini Zottis Nardin - Integrante / Janaína T Sentena - Integrante / DAIANE C CAMARGO - Integrante / SO HUNG KAI - Integrante / Sandra Maira Rodrigues de Oliveira - Integrante / Patricia Senhorinho Angonesi - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Pampa - Bolsa.<br class="clear" />Número de produções C, T & A: 3</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Udesc em Ação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Biomotriz (UNICRUZ)</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Fisioterapia e Terapia Ocupacional. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Saúde Coletiva. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor homenageado, Formandos de fisioterapia do Centro Universitário de Caratinga - UNEC. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, CHRISTIAN CALDEIRA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.17564/2316-3798.2017v5n3p17-26" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, CHRISTIAN CALDEIRA</a></b>; PEDDE, VALDIR ; KUHN JUNIOR, NOBERTO ; RENNER, JACINTA SIDEGUM . POLÃ?TICA PÃ?BLICA, DEFICIÃ?NCIA FÃ?SICA, CONCESSÃ?O DE Ã?RTESES, PRÃ?TESES E MEIOS DE LOCOMOÃ?Ã?O NO RIO GRANDE DO SUL: PERÃ?ODO PRÃ?/PÃ?S PLANO VIVER SEM LIMITES. INTERFACES CIENTÍFICAS - SAÚDE E AMBIENTE<sup><img id='23163798_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='23163798' /></sup>, v. 5, p. 17, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.17564/2316-3798.2017v5n3p17-26&issn=23163798&volume=5&issue=&paginaInicial=17&titulo=POLÃ?TICA PÃ?BLICA, DEFICIÃ?NCIA FÃ?SICA, CONCESSÃ?O DE Ã?RTESES, PRÃ?TESES E MEIOS DE LOCOMOÃ?Ã?O NO RIO GRANDE DO SUL: PERÃ?ODO PRÃ?/PÃ?S PLANO VIVER SEM LIMITES&sequencial=1&nomePeriodico=INTERFACES CIENTÍFICAS - SAÚDE E AMBIENTE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FONTOURA, E. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span>FONTOURA, E. P. ; <b>SANTOS, CHRISTIAN CALDEIRA</b> ; RENNER, J. S. ; SILVA, D. R. Q. . Legg Calvé Perthes e a Corporeidade Infantil: Percepção quanto ao Uso da Órtese Atlanta Brace. Ensaios e Ciência: C. Biológicas, Agrárias e da Saúde<sup><img id='2178695X_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='2178695X' /></sup>, v. 21, p. 59-63, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=2178695X&volume=21&issue=&paginaInicial=59&titulo=Legg Calvé Perthes e a Corporeidade Infantil: Percepção quanto ao Uso da Órtese Atlanta Brace&sequencial=2&nomePeriodico=Ensaios e Ciência: C. Biológicas, Agrárias e da Saúde" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVA, E. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span>SILVA, E. M. ; SILVA, T. A. S. ; BALK, R. S. ; LOPES, R. R. ; <b>SANTOS, C. C.</b> ; LARA, S. ; GRAUP, S. . Avaliação do alinhamento postural e extensibilidade muscular pela escala SAROMM em crianças com paralisia cerebral após fisioterapia aquática. FISIOTERAPIA BRASIL<sup><img id='15189740_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15189740' /></sup>, v. 18, p. 719-726, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15189740&volume=18&issue=&paginaInicial=719&titulo=Avaliação do alinhamento postural e extensibilidade muscular pela escala SAROMM em crianças com paralisia cerebral após fisioterapia aquática&sequencial=3&nomePeriodico=FISIOTERAPIA BRASIL" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, C. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; RENNER, J. S. . INCLUSÃO DE CRIANÇAS COM PARALISIA CEREBRAL EM CRECHE, ETAPA DA EDUCAÇÃO INFANTIL BRASILEIRA. CONTRIBUCIONES A LAS CIENCIAS SOCIALES<sup><img id='19887833_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19887833' /></sup>, v. Octubre 17, p. xxx, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19887833&volume=Octubre 17&issue=&paginaInicial=xxx&titulo=INCLUSÃO DE CRIANÇAS COM PARALISIA CEREBRAL EM CRECHE, ETAPA DA EDUCAÇÃO INFANTIL BRASILEIRA&sequencial=4&nomePeriodico=CONTRIBUCIONES A LAS CIENCIAS SOCIALES" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, A. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5902/2236583417627" target="_blank"></a>MACHADO, A. P. ; PINHEIRO, T. F. D. ; BALK, R. S. ; <b>SANTOS, C. C.</b> . EFICÁCIA DA ESTIMULAÇÃO SENSÓRIO-MOTORA EM BEBÊS DE 4 A 12 MESES DE UMA ESCOLA INFANTIL. SAÚDE (SANTA MARIA)<sup><img id='22365834_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='22365834' /></sup>, v. 42, p. 121, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5902/2236583417627&issn=22365834&volume=42&issue=&paginaInicial=121&titulo=EFICÁCIA DA ESTIMULAÇÃO SENSÓRIO-MOTORA EM BEBÊS DE 4 A 12 MESES DE UMA ESCOLA INFANTIL&sequencial=5&nomePeriodico=SAÚDE (SANTA MARIA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, CHRISTIAN CALDEIRA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, CHRISTIAN CALDEIRA</a></b>; RENNER, J. S. ; BARBOSA, M. L. L. . A interferência da paralisia cerebral no processo do adoecimento de famílias brasileiras. Lecturas Educación Física y Deportes (Buenos Aires)<sup><img id='15143465_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15143465' /></sup>, v. 20, p. xx-xx, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15143465&volume=20&issue=&paginaInicial=xx&titulo=A interferência da paralisia cerebral no processo do adoecimento de famílias brasileiras&sequencial=6&nomePeriodico=Lecturas Educación Física y Deportes (Buenos Aires)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SCHOPF, P. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>SCHOPF, P. P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Percepção dos pais quanto à influência do andador infantil no desenvolvimento motor de seus filhos.. Lecturas Educación Física y Deportes (Buenos Aires)<sup><img id='15143465_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15143465' /></sup>, v. 20, p. 12, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15143465&volume=20&issue=&paginaInicial=12&titulo=Percepção dos pais quanto à influência do andador infantil no desenvolvimento motor de seus filhos.&sequencial=7&nomePeriodico=Lecturas Educación Física y Deportes (Buenos Aires)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SCHOPF, PÂMELA PISSOLATO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.7322/jhgd.102998" target="_blank"></a>SCHOPF, PÂMELA PISSOLATO ; <b>SANTOS, CHRISTIAN CALDEIRA</b> . THE INFLUENCE OF BABY WALKER USAGE IN THE SENSORY MOTOR MOTOR DEVELOPMENT OF CHILDREN AT SCHOOLS IN EARLY CHILDHOOD EDUCATION. Journal of Human Growth and Development (Print)<sup><img id='01041282_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01041282' /></sup>, v. 25, p. 156-161, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.7322/jhgd.102998&issn=01041282&volume=25&issue=&paginaInicial=156&titulo=THE INFLUENCE OF BABY WALKER USAGE IN THE SENSORY MOTOR MOTOR DEVELOPMENT OF CHILDREN AT SCHOOLS IN EARLY CHILDHOOD EDUCATION&sequencial=8&nomePeriodico=Journal of Human Growth and Development (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, C. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; CHIQUETTI, E. M. S. ; SILVA, T. A. S. . Batatinha quando nasce esparrama pelo chão - crescimento e desenvolvimento infantil nos quatro primeiros anos de vida, teorias e práticas para professores da educação infantil. Udesc em Ação<sup><img id='19827776_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19827776' /></sup>, v. 9, p. 3, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19827776&volume=9&issue=&paginaInicial=3&titulo=Batatinha quando nasce esparrama pelo chão - crescimento e desenvolvimento infantil nos quatro primeiros anos de vida, teorias e práticas para professores da educação infantil&sequencial=9&nomePeriodico=Udesc em Ação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TEREBINTO, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>TEREBINTO, A. ; <b>SANTOS, C. C.</b> ; BALK, R. S. . EXERCÍCIO TERAPÊUTICO NA ESCOLA: TRABALHO DE FLEXIBILIDADE DO GRUPO ISQUIOTIBIAIS EM ESCOLARES. Acta Brasileira do Movimento Humano<sup><img id='22382259_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='22382259' /></sup>, v. 5, p. 26-41, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22382259&volume=5&issue=&paginaInicial=26&titulo=EXERCÍCIO TERAPÊUTICO NA ESCOLA: TRABALHO DE FLEXIBILIDADE DO GRUPO ISQUIOTIBIAIS EM ESCOLARES&sequencial=10&nomePeriodico=Acta Brasileira do Movimento Humano" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, D. F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>MACHADO, D. F. ; LAVARDA, D. F. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Caracterização do desempenho motor de crianças de 0 - 18 meses matriculadas em creche pública usando a Escala Motora Infantil de Alberto (AIMS). Lecturas Educación Física y Deportes (Buenos Aires)<sup><img id='15143465_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15143465' /></sup>, v. 189, p. 25, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15143465&volume=189&issue=&paginaInicial=25&titulo=Caracterização do desempenho motor de crianças de 0 - 18 meses matriculadas em creche pública usando a Escala Motora Infantil de Alberto (AIMS)&sequencial=11&nomePeriodico=Lecturas Educación Física y Deportes (Buenos Aires)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PIRES, M. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>PIRES, M. S. ; FLORIANO, P. M. ; FONTOURA, E. P. ; MUNOZ, F. M. A. ; SANTOS, C. L. ; SANTOS, L. S. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; ZANELLA, A. K. . Avaliação do desenvolvimento motor de crianças da educação infantil. Lecturas Educación Física y Deportes (Buenos Aires)<sup><img id='15143465_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15143465' /></sup>, v. 189, p. 26, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15143465&volume=189&issue=&paginaInicial=26&titulo=Avaliação do desenvolvimento motor de crianças da educação infantil&sequencial=12&nomePeriodico=Lecturas Educación Física y Deportes (Buenos Aires)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LAVARDA, D. F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>LAVARDA, D. F. ; MACHADO, D. F. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Análise das oportunidades para o desenvolvimento motor de crianças de 3 a 18 meses em uma creche pública em um município da fronteira oeste do Rio Grande do Sul. Lecturas Educación Física y Deportes (Buenos Aires)<sup><img id='15143465_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15143465' /></sup>, v. 18, p. xx, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15143465&volume=18&issue=&paginaInicial=xx&titulo=Análise das oportunidades para o desenvolvimento motor de crianças de 3 a 18 meses em uma creche pública em um município da fronteira oeste do Rio Grande do Sul&sequencial=13&nomePeriodico=Lecturas Educación Física y Deportes (Buenos Aires)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, C. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>SANTOS, C. L. ; QUOOS, L. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Análise do desenvolvimento motor e do ambiente de crianças filhas de mães soropositivas para o HIV. Lecturas Educación Física y Deportes (Buenos Aires)<sup><img id='15143465_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15143465' /></sup>, v. 19, p. 31, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15143465&volume=19&issue=&paginaInicial=31&titulo=Análise do desenvolvimento motor e do ambiente de crianças filhas de mães soropositivas para o HIV&sequencial=14&nomePeriodico=Lecturas Educación Física y Deportes (Buenos Aires)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, C. C.;SANTOS, CHRISTIAN CALDEIRA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; CHIQUETTI, E. M. S. ; PINHEIRO, T. ; SANTOS, C. L. ; DORNELLES, F. A. ; SANTOS, G. B. ; SENTENA, J. T. ; QUOOS, L. R. ; MARTINS, L. ; ANGONESI, P. S. ; OLIVEIRA, S. M. R. ; NARDIN, S. Z. . O DESENVOLVIMENTO MOTOR DE MENORES ASSISTIDOS EM UMA ESCOLA INFANTIL DE URUGUAIANA: AVALIAÇÃO E INTERVENÇÃO COM CRIANÇAS DE 0 À 5 ANOS. Udesc em Ação<sup><img id='19827776_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19827776' /></sup>, v. 7, p. 12, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19827776&volume=7&issue=&paginaInicial=12&titulo=O DESENVOLVIMENTO MOTOR DE MENORES ASSISTIDOS EM UMA ESCOLA INFANTIL DE URUGUAIANA: AVALIAÇÃO E INTERVENÇÃO COM CRIANÇAS DE 0 À 5 ANOS&sequencial=15&nomePeriodico=Udesc em Ação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVA, B. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SILVA, B. B. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; MENDONCA, A. S. G. B. . Perfil psicomotor em crianças de 6 a 12 anos com Síndrome de Down no municipio de Coari/AM. Fisioterapia Ser<sup><img id='18093469_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18093469' /></sup>, v. 7, p. 230-234, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18093469&volume=7&issue=&paginaInicial=230&titulo=Perfil psicomotor em crianças de 6 a 12 anos com Síndrome de Down no municipio de Coari/AM&sequencial=16&nomePeriodico=Fisioterapia Ser" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; FONTOURA, E. P. ; SILVA, D. R. Q. ; RENNER, J. S. . DOENÇA DE LEGG CALVÉ PERTHES, ÓRTESE ATLANTA BRACE E A CORPOREIDADE INFANTIL ? RELATO DE CASO. In: 7º SIEPEX: Salão Integrado de Ensino, Pesquisa e Extensão da UERGS, 2017, Tapes. Anais do VII SIEPEX-Salão Integrado de Ensino, Pesquisa e Extensão da UERGS, Brasil, set. 2017., 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; HEIDRICH, R. O. ; RENNER, J. S. . Paralisia Cerebral e Inclusão Escolar como temática na Revista educação Especial da UFSM. In: Inovamundi, 2017, Novo Hamburgo. Inovamundi - Seminário de Pós-Graduação. Novo Hamburgo: Editora Feevale, 2017. v. 10. p. 1281-1287. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; RENNER, J. S. ; Sanfelice, G. R. . Qualidade de Vida na mielomeningocele. In: Inovamundi, 2017, Novo Hamburgo. Inovamundi - Seminário de Pós-Graduação. Novo Hamburgo: Editora Feevale, 2017. v. 10. p. 595-600. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, E. M. ; BALK, R. S. ; SILVA, T. A. S. ; <b>SANTOS, C. C.</b> . AVALIAÇÃO DO COMPROMETIMENTO MOTOR E DAS HABILIDADES MOTORAS DE UMA CRIANÇA COM PARALISIA CEREBRAL. In: VII Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE, 2015, Alegrete. Anais do VII SIEPE. Bagé: Universidade Federal do Pampa, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; Kullok, A. T. ; CAMPOS, F. L. G. ; ALVES, I. M. O. . As Bases Psicomotoras Inseridas nas Cantigas de Rodas: Uma Contribuição para a Educação Psicomotora Infantil. In: 10º Congresso Brasileiro de Psicomotricidade, 2007, Fortaleza. 10º Congresso Brasileiro de Psicomotricidade - Interfaces da Psicomotricidade. Fortaleza: Sociedade Brasileira de Psicomotricidade, 2007. p. 434-436. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHOPF, P. P. ; <b>SANTOS, C. C.</b> . THE INFLUENCE OF BABY WALKER USAGE IN THE SENSORY MOTOR DEVELOPMENT OF CHILDREN AT SCHOOLS IN EARLY CHILDHOOD EDUCATION. In: VII Congresso Internacional de Saúde da Criança e do Adolescente, 2016, Vitória. VII Congresso Internacional de Saúde da Criança e do Adolescente - CISCA. São Paulo: Journal of Human Growth and Development, 2016. v. XII. p. S4-S4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, T. A. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; CHIQUETTI, E. M. S. . Batatinha quando nasce esparrama pelo chão - crescimento e desenvolvimento infantil nos quatro primeiros anos de vida, teorias e práticas para professores da educação infantil. In: VI Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE, 2014, Bagé. Anais do VI SIEPE, 2014. v. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, L. S. ; CHIQUETTI, E. M. S. ; PRIETSCH, D. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Síndrome de Angelman - relato de caso. In: V Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE, 2013, Bagé. Síndrome de Angelman - relato de caso. Bagé: Universidade Federal do Pampa, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, T. A. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; MACHADO, A. P. . A influência do peso no desenvolvimento Motor dos menores do berçário I matriculados no Lar da Criança de Uruguaiana. In: V Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE, 2013, Bagé. V Salão Internacional de Ensino, Pesquisa e Extensão - Salão de Extensão. Bagé: Universidade Federal do Pampa, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, A. P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; SILVA, T. A. S. . Desenvolvimento motor dos menores do berçario I matriculados no Lar da Criança de Uruguaiana - RS. In: V Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE, 2013, Bagé. V Salão Internacional de Ensino, Pesquisa e Extensão - Salão de Extensão. Bagé: Universidade Federal do Pampa, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">QUOOS, L. R. ; SANTOS, G. B. ; OLIVEIRA, S. M. R. ; ANGONESI, P. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; CHIQUETTI, E. M. S. . Avaliação do desenvolvimento infantil através do Teste de Triagem de Denver II em uma creche de Uruguaiana ? RS. In: IV SIEPE: compartilhe saberes, vivencie experiências e almeje sustentabilidade, 2012, Bagé. IV SIEPE, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. S. ; OLIVEIRA, A. S. ; OLIVEIRA, S. M. R. ; NARDIN, S. Z. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . APRESENTAÇÃO DO PERFIL DOS PREMATUROS ATENDIDOS NA POLICLÍNICA INFANTIL DO MUNICÍPIO DE URUGUAIANA/RS.. In: IV SIEPE: compartilhe saberes, vivencie experiências e almeje sustentabilidade, 2012, Bagé. IV SIEPE, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NARDIN, S. Z. ; CASAGRANDE, G. H. J. ; OLIVEIRA, S. M. R. ; PORTO, L. B. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Avaliação do desenvolvimento motor em crianças Pré-termo. In: IV Salão Internacional de Ensino, Pesquisa e Extensão: IV SIEPE: compartilhe saberes, vivencie experiências e almeje sustentabilidade, 2012, Bagé. IV Salão Internacional de Ensino, Pesquisa e Extensão. Bagé: Universidade Federal do Pampa, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, E. A. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; BALK, R. S. . AVALIAÇÃO DO ESTRESSE PERCEBIDO EM CUIDADORES DE CRIANÇAS PORTADORAS DE PATOLOGIAS NEUROLÓGICAS EM TRATAMENTO FISIOTERAPÊUTICO: RESULTADOS PARCIAIS. In: III Reunião Anual do IBNeC, 2012, Florianópolis. AVALIAÇÃO DO ESTRESSE PERCEBIDO EM CUIDADORES DE CRIANÇAS PORTADORAS DE PATOLOGIAS NEUROLÓGICAS EM TRATAMENTO FISIOTERAPÊUTICO: RESULTADOS PARCIAIS., 2012. p. 253. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, S. M. R. ; SANTOS, C. S. ; NARDIN, S. Z. ; PASQUALI, F. O. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; CHIQUETTI, E. M. S. . Desenvolvimento motor infantil: ações de promoção e prevenção através da atenção fisioterapêutica. In: IV Salão Internacional de Ensino, Pesquisa e Extensão, 2012, Bagé. IV Salão Internacional de Ensino, Pesquisa e Extensão. Bagé: Universidade Federal do Pampa, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINHEIRO, T. F. D. ; SENTENA, J. T. ; CAMARGO, D. C. ; KAI, S. H. ; CHIQUETTI, E. M. S. ; <b>SANTOS, C. C.</b> . De Olho no Desenvolvimento Motor dos Menores Assistidos pelo Lar da Criança de Uruguaiana ? RS. In: IV Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE, 2012, Bagé. Anais do VI SIEPE. Bagé: Universidade Federal do Pampa, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. L. ; DORNELLES, F. A. ; NARDIN, S. Z. ; CHIQUETTI, E. M. S. ; <b>SANTOS, CHRISTIAN CALDEIRA</b> . Monitoramento do Desenvolvimento Motor de Crianças de Berçário em uma Instituição de Uruguaiana/RS. In: http://seer.unipampa.edu.br/index.php/siepe/article/view/469, 2012, IV SIEPE. Anais do IV SIEPE, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, E. A. ; OLIVEIRA, S. M. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; CHIQUETTI, E. M. S. . Fisioterapia no Contexto Escolar: Um Relato de Experiência em Educação Psicomotora. In: IV SIEPE: compartilhe saberes, vivencie experiências e almeje sustentabilidade, 2012, Bagé. IV SIEPE, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; Oliveira, A. J. de J. V. ; Matos, G. S. R. ; Vieira, F. V. . A Criatividade como Ferramenta na Construção de Materiais Utilizados pela Disciplina Cinesioterapia. In: I Congresso Internacional de Criatividade.Inovação - visão e práticas em diferentes contextos, 2011, Manaus. Anais do Evento, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; Minette, L. J. ; Magalhães, M. A. ; Vieira, F. V. . Prevalência de Usuários de Cadeira de Rodas e o seu Perfil Antropométrico. In: XIX Congresso Brasileiro de Fisioterapia, 2011, Florianópolis. Fisioterapia e Pesquisa. São Paulo: Fisioterapia e Pesquisa - Revista de Fisioterapia da Universidade de São Paulo, 2011. v. 18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; Minette, L. J. ; Magalhães, M. A. ; Vieira, F. V. . Avaliação Ergonômica das Cadeiras de Rodas da Associação de Pais e Amigos dos Excepcionais (APAE) de Caratinga - MG. In: XIX Congresso Brasileiro de Fisioterapia, 2011, Florianópolis. Fisioterapia e Pesquisa. São Paulo: Fisioterapia e Pesquisa - Revista de Fisioterapia da Universidade de São Paulo, 2011. v. 18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Moraes, W. S. L. A. ; ALVES, R. N. R. ; FREIRE JUNIOR, R. C. ; AREAS, G. P. T. ; Arêas, F. Z. da S. ; Oliveira, A. J. de J. V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Capacidade Funcional e Equilibrio de Idosos Participantes do Centro de Convivência do Idsoso no Município de Coari - AM. In: XIX Congresso Brasileiro de Fisioterapia, 2011, Florianópolis. Fisioterapia e Pesquisa. São Paulo: Fisioterapia e Pesquisa, 2011. v. 18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDOSO, C. S. ; Kullok, A. T. ; SANTOS, I. C. B. ; MIRANDA, A. S. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Prevalência Pontual e Fatores de Risco Associados à Úlcera de Pressão (UP) em Idosos Residentes em uma Instituição de Longa Permanência (ILP) em um Município de Minas Gerais. In: 6ª Jornada Brasileira de Enfermagem Geriátrica e Gerontológica, 2006, Ribeirão Preto. 6ª Jornada Brasileira de Enfermagem Geriátrica e Gerontológica - Fragilidade da vida, desafios para a longevidade humana. Ribeirão Preto: EERP:USP, 2006. p. 37-37. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, V. M. N. ; LUCAS, P. A. P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . VERIFICAÇÃO ANTROPOMÉTRICA DE PORTADORES DE SÍNDROME DE DOWN DA APAE DE CARATINGA - MG. In: III Encontro das IES, 2006, Caratinga. Anais do III Encontro das IES. Caratinga: Editora Unec, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BASILE, D. R. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; MATA, W. de S. ; BISPO, A. S. ; ROCHA, L. L. V. ; SOUZA, S. N. . Perfil da Prática de Atividade Física de Estudantes na Área de Saúde da Universidade Federal de Juiz de Fora. In: XXVII Simposio Internacional de Ciências do Esporte - Atividade Física: da Ciência Básica para Ação Efetiva, 2004, São Paulo. Ciências do Esporte - Atividade Física: da Ciência Básica para Ação Efetiva, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Incidência de atraso neuropsicomotor em crianças de 0 a 24 meses de creches públicas de Caratinga - MG e seus fatores predisponentes. In: XXVI Simpósio Internacional de Ciências do Esporte, 2003, São Paulo. XXVI Simpósio Internacional de Ciências do Esporte - Atividade Física Construindo Saúde, 2003. p. 67-67. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MATA, W. de S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; CALDEIRA, V. M. F. R. ; CARVALHO, C. L. ; OLIVEIRA, K. F. de . Perfil Antropométrico de Crianças de 0 a 24 Meses de Creches Públicas da Cidade de Caratinga - MG. In: XXVI Simpósio Internacional de Ciências do Esporte, 2003, São Paulo. XXVI Simpósio Internacional de Ciências do Esporte - Atividade Física Construindo Saúde, 2003. p. 182-182. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; HEIDRICH, R. O. ; RENNER, J. S. . Paralisia Cerebral e Inclusão Escolar como temática na Revista educação Especial da UFSM. 2017. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; RENNER, J. S. ; Sanfelice, G. R. . Qualidade de Vida na Mielomeningocele. 2017. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, CHRISTIAN CALDEIRA</a></b>. Desenvolvimento Motor Infantil. 2016. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Crianças com deficiências nos diferentes ambientes escolares. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Desenvolvimento Psicomotor da Criança. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Escalas para vigilância do desenvolvimento motor infantil. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, A. P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; SILVA, T. A. S. . Desenvolvimento motor dos menores do berçario I matriculados no Lar da Criança de Uruguaiana - RS. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, T. A. S. ; <b>SANTOS, CHRISTIAN CALDEIRA</b> ; MACHADO, A. P. . A influência do peso no desenvolvimento motor dos menores do berçário I matriculados no Lar da criança de Uruguaiana - RS. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, E. A. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; BALK, R. S. . AVALIAÇÃO DO ESTRESSE PERCEBIDO EM CUIDADORES DE CRIANÇAS PORTADORAS DE PATOLOGIAS NEUROLÓGICAS EM TRATAMENTO FISIOTERAPÊUTICO: RESULTADOS PARCIAIS. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, E. A. ; PIAGETTE, J. T. ; CHIQUETTI, E. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; BALK, R. S. . Estresse percebido em cuidadores de crianças atendidas pela fisioterapia neurológica: resultado parcial. 2012. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; Oliveira, A. J. de J. V. ; Matos, G. S. R. ; Vieira, F. V. . A Criatividade como Ferramenta na Construção de Materiais Utilizados pela Disciplina Cinesioterapia. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; Minette, L. J. ; Magalhães, M. A. ; Vieira, F. V. . Prevalência de Usuários de Cadeira de Rodas e o seu Perfil Antropométrico. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; Minette, L. J. ; Magalhães, M. A. ; Vieira, F. V. . Avaliação Ergonômica das Cadeiras de Rodas da Associação de Pais e Amigos dos Excepcionais (APAE) de Caratinga - MG. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Sinais de atraso do desenvolvimento motor no primeiro ano de vida da criança. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Abordagem Fisioterapêutica através do Método Neuroevolutivo no Tratamento de Pacientes com Paralisia Cerebral. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINHEIRO, N. L. ; CARDOSO, C. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; ROSSATTO, L. M. ; Campos, J. C. F. ; RODRIGUES, L. C. R. ; Castelli, P. G. . III Simpósio Mineiro de Engenharia Ambiental - Ética, Meio Ambiente e Desenvolvimento. 2007. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDOSO, C. S. ; Kullok, A. T. ; SANTOS, I. C. B. ; MIRANDA, A. S. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Prevalencia pontual e fatores de risco associados à ulcera de pressão (UP) em idosos residentes em uma instituição de longa permanência (ILP) em um município de Minas Gerais. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CALDEIRA, V. M. F. R. ; ALVES, C. H. S. ; RAMOS, W. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> . Relação entre o tipo de parto e o índice de Apgar de recém-nascidos de Caratinga - MG. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Desenvolvimento Físico-Motor do Bebê. 2005. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BASILE, D. R. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; MATA, W. de S. ; BISPO, A. S. ; ROCHA, L. L. V. ; SOUZA, S. N. . Pérfil da Prática de Atividade Física de Estudantes na Área de Saúde da Universidade Federal de Juiz de Fora. 2004. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; CARVALHO, C. L. ; OLIVEIRA, K. F. de ; MATA, W. de S. . Incidência de atraso neuropsicomotor em crianças de 0 a 24 meses de creches públicas de Caratinga - MG e seus possíveis fatores predisponentes. 2003. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MATA, W. de S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b> ; CARVALHO, C. L. ; OLIVEIRA, K. F. de . Pérfil Antropométrico de criançãs de 0 a 24 meses de creches públicas da cidade de Caratinga - MG. 2003. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Aspectos do desenvolvimento Motor do Bebê. 2001. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Fisioterapia da FIMCA presente no III CORFISIO. 2009. 
+						
+							(Programa de rádio ou TV/Comentário).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://www.orondoniense.com.br/section.asp?cod=noticias&cd=18060')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Fórum municipal dos direitos da pessoa deficiente conta com a participação da FIMCA. 2008. 
+						
+							(Programa de rádio ou TV/Comentário).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://www.fimca.com.br/ver_noticia.asp?id=942')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. CENTRO DE REABILITAÇÃO DA FACULDADE FIMCA. 2008. 
+						
+							(Programa de rádio ou TV/Comentário).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://cadernodestaque.blogspot.com.br/2008/08/centro-de-reabilitao-da-faculdade-fimca.html')"></img></div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Yoga - Equilíbrio entre corpo e mente. 2006. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Tratamento de estimulação sensorio-motora de crianças nos primeiros dois anos de vida. 2013. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; PINHEIRO, T. . Principais Aquisições Motoras da Criança.
+							2012. (Desenvolvimento de material didático ou instrucional - Folder). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Pleito Eleições Gerais UNIPAMPA. 2012.
+							(Comissão Eleitoral Local do Campus Uruguaiana).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Tratamento Fisioterapêutico de Crianças com Encefalopatias Crônicas da Infância com Enfoque do Conceito Neuro-Evolutivo Bobath. 2010. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS, S.; <b>SANTOS, C. C.</b>; LARA, S..  Participação em banca de Thaila Thaiane Garcia Nunes.Controle postural na infância: efeitos dos exercícios do Método Pilates sobre o equilíbrio corporal.
+							2016. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, C. C.</b>; CARPES, F. P.; LARA, S..  Participação em banca de Vinicius Jardim Oliano.Efeitos de doze semanas do programa FIFA 11+ sobre o equilíbrio postural e força muscular isocinética em atletas de handebol.
+							2016. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LARA, S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Sandra Maíra Rodrigues de Oliveira.Análise do equilíbrio postural de estudantes praticantes e não praticantes do Método Pilates.
+							2015. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SANTOS, C. C.</b>.  Participação em banca de Anelise Terebinto.Prevalencia de encurtamento muscular do grupo isquiotibiais em escolares matriculados em uma instituição educacional de Uruguaiana - RS: Estudo piloto.
+							2015. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LARA, S.; <b>SANTOS, CHRISTIAN CALDEIRA</b>; BRATZ, D..  Participação em banca de Aline Soares Buchvaitz.Efeitos do Método Pilates sobre o desenvolvimento motor de crianças com baixo rendimento escolar.
+							2015. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BALK, R. S.; <b>SANTOS, CHRISTIAN CALDEIRA</b>; DIAS, S..  Participação em banca de Luíza Greco Sgarioni.O efeito da Terapia de Contensão Induzida sobre a funcionalidade do membro superior, transferência de peso e o equílibrio de crianças com paralisia cerebral.
+							2015. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REGO, S. G.; <b>SANTOS, C. C.</b>; LARA, S..  Participação em banca de Mariele da Silva Hernandez.A influência do método Pilates sobre o desenvolvimento motor de crianças.
+							2015. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Daniela Ruiz Montanez.A influência do método Pilates sobre o desenvolvimento motor de crianças em anos iniciais.
+							2014. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Chayene Luiz dos Santos e Laura da Rosa Quoos.Análise do desenvolvimento motor e do ambiente de crianças filhas de mães soropositivas para o HIV.
+							2014. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Ana Paula Machado Pereira e Tamiris Furtado Brehmer Pinheiro.Eficácia de um protocolo de estimulação sensório motora em bebês de 4 a 12 meses de uma escola infantil.
+							2014. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Rafael Tamborena Malheiros.Perfil demográfico e sócio-econômico dos deficientes físicos residentes na cidade de Uruguaiana - RS.
+							2013. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Andiara Schmidt.Caracterização do desenvolvimento motor de lactentes de mães adolescentes.
+							2013. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Pâmela Pissolato Schopf.A influência do uso do andador no desenvolvimento sensório motor de crianças entre 12 e 18 meses de Uruguaiana - RS.
+							2013. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Marcelli Evans Telles dos Santos.Possíveis Contribuições da Fisioterapia na Inclusão de Escolares com Necessidades Educacionais Especiais.
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Larissa Santos.Perfil Psicomotor de Crianças Institucionalizadas no Município de Uruguaiana - RS.
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Juscelino Nascimento da Silva.Relação entre meios de contrastes iodados, iônicos e não iônicos, reações adversas e riscos.
+							2010. Trabalho de Conclusão de Curso (Graduação em Farmácia)  - Faculdades Integradas Aparício Carvalho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Susiane Bomfim de Souza.Tratamento fisioterapêutico através da laserterapia em úlcera de pressão - Estudo de caso.
+							2010. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Faculdades Integradas Aparício Carvalho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Adriêda Carvalho de Lima.Estudo de Caso: Avaliação da qualidade de vida de um portador de artrite reumátoide no minicipio de Coari.
+							2010. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Amazonas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Jonathas Gonçalves da Costa.Abordagem fisioterapêutica em atenção básica no enfrentamento do acidente vascular encefálico (AVE): relato de experiência.
+							2010. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Amazonas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Elaine Cristiana Azevedo Marinho.Avaliação do risco de quedas em idosos do Centro de Convivência do Idoso do municipio de Coari.
+							2010. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Amazonas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Maria Waldenice Moura Barreto.Consumo de merenda escolar por sujeitos com Síndrome de Down na Associação Pestalozzi do município de Coari - AM.
+							2010. Trabalho de Conclusão de Curso (Graduação em Nutrição)  - Universidade Federal do Amazonas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Franselma Ferreira Lima e Rosiane Camacho Shulze.Prevalência de risco para quedas em idosos institucionalizados no município de Porto Velho.
+							2010. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Faculdades Integradas Aparício Carvalho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Leiri Bonet de Arruda e Thiago Aguiar Carvalho.Prevalência das principais queixas de dores osteomusculares dos acadêmicos de odontologia da Fimca.
+							2009. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Faculdades Integradas Aparício Carvalho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Wanessa M. da Ramos e Carlos Henrique da S. Alves.Relação entre o tipo de parto e o indice de Apgar em recém nascidos de Cartinga - MG.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Janaína Salomão B. Braga e Micheliny Sampaio.As manifestações clínicas do hipotireiodismo congênito: relato de caso.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Natalie Caroline B. de Melo e Danila de Cássia C. Lino.A realidade do aleitamento materno e suas interferências no desenvolvimento neuropsicomotor de crianças.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Alena m. Sales e Gleice B. de Oliveira.Estudo de Caso: Síndrome de Crouzon.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Ernany de O. D. Junior e Gustavo C. de Rezende.Análise da prevalência de dor/desconforto músculo-esquelético nos coletores de lixo urbano da cidade de Ipatinga - MG.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Viviane Mendes Silva e Pollyanna A. Lucas.Verificação antropométrica de portadores de Síndrome de Down da APAE de Caratinga - MG.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Fabiana Gomes de Campos e Irene Martins de Oliveira Alves.A importância das cantigas de roda para a formação das bases psicomotoras.
+							2005. Trabalho de Conclusão de Curso (Graduação em Normal Superior)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Elaine Teixeira Ribeiro e Valquiria Viana Paradela.Estudo do desenvolvimento do esquema corporal em crianças com Síndrome de Down de 04 a 06 anos da APAE de Caratinga - MG: um estudo de caso.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Danila Rodrigues da Silva.Caracteristicas biopsicosociais dos portadores de hanseníase e a sua prevalência no município de Caratinga - MG.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Fábio G. Oliveira e Ricardo Assis de Oliveira Q. Chagas.Estudo da tensão muscular masseterina através da eletromiografia em professores da faculdade de fisioterapia de Caratinga.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Carina P. Caetano e Gizélia P. Quintão.Uma nova visão da fisioterapia em uma equipe multidisciplinar/interdisciplinar no tratamento da Síndrome de Down.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Luiz G. Montimor e Paulo Guilherme P. de Sousa.Análise eletromiográfica do comportamento dos músculos orbicular da boca e trapézio em pacientes com respiração bucal portadores de encefalopatia crônica da infância.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Patrícia de O. Luttembark.Reflexões para a intervenção fisioterapêutica em crianças com distúrbio neuropsicomotor centrada na ludicidade.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Anna Paula F. Santos e Raquel Assis Silva.Percepção de mães quanto ao desenvolvimento motor em crianças de 0 a 12 meses.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Kennya Teixeira Soares e Laura A. Lima Moreira.O trabalho fisioterapêutico associado ao dos pais na criança portadora de Síndrome de Down.
+							2003. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>.  Participação em banca de Ana Carolina Leão de Sousa.Perfil dos casos de encefalopatia crônica da infância atendidos pela clínica-escola da Faculdade de Fisioterapia de Caratinga - MG.
+							2003. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário de Caratinga. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, A. A. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>; MULLER, D. V. K.. Processo Seletivo Simplificado para Professor Substituto Edital 128/2015.
+							2015. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CHIQUETTI, E. M. S.; YAMADA, E. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Membro da Banca do Processo Simplificado para Professor Temporário Edital 081/2012.
+							2012. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Seleção Simplificada Nº 001/2011 para Contratação de Professores Substitutos para Unidades Acadêmicas na Capital e Interior.
+							2011. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Programa de Bolsas de Desenvolvimento Acadêmico - PBDA.
+							2013.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º SIEPE.Avaliador de resumos submetidos para a Mostra Científica do (ª Salão Internacional de Ensino, Pesquisa e Extensão. 2017. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII SIEPEX da Universidade Estadual do Rio Grande do Sul(UERGS).Parecerista Ad Hoc do Edital do VII Siepex/2017 das Pró-Reitorias de Ensino, Pesquisa e Extensão da UERGS. 2017. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE.Avaliador de resumos do VIII Siepe. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE.Avaliador de resumos submetidos para a Mostra Científica do VII SIEPE. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop Pet PISC. 2014. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE.Avaliador de resumos submetidos para Mostra Científica do VI SIEPE. 2014. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE.Avaliador dos resumos submetidos ao V SIEPE. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Salão Internacional de Ensino, Pesquisa e Extensão: IV SIEPE: compartilhe saberes, vivencie experiências e almeje sustentabilidade.Avaliador de trabalhos na Mostra Científica do IV SIEPE. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">75ª Exposição Agropecuária de Uruguaiana - RS.Projeto Recreação e Vida no Campo. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Internacional de Criatividade.Inovação - visão e práticas em diferentes contextos. A Criatividade como Ferramenta na Construção de Materiais Utilizados pela Disciplina Cinesioterapia.. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário de Professores Ingressantes. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Congresso Brasileiro de Fisioterapia. Avaliação Ergonômicas das Cadeiras de Rodas da Associação Pais e Amigos dos Excepcionais (APAE) de Caratinga - MG. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Congresso Brasileiro de Fisioterapia. Prevalência de Usuários de Cadeira de Rodas e o seu Perfil Antropométrico. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Congresso Brasileiro de Fisioterapia. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Forum de Estágios Curriculares dos Bacharelados. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Portões Abertos da Base Aérea de Porto Velho.Atendimento à população. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana da Fisioterapia 2009. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana do Idoso.Avaliação do Risco de Quedas em Idosos. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Pesquisa e Iniciação Científica - A pesquisa como instrumento de desenvolvimento profissional permanente.Grupo Temático. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Forum de Inclusão Social. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro Multidisciplinar dos Ex-alunos do Curso de Fisioterapia da UNEC.Yoga - Equilíbrio entre corpo e mente.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Ensino em Fisioterapia. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Simpósio Internacional de Ciências do Esporte.Incidência de atraso neuropsicomotor em crianças de 0 a 24 meses d creches públicas de Caratinga - MG e seus fatorres predisponentes.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Símposio Internacional de Ciências do Esporte.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro de Médicos e Fisioterapeutas do Leste Mineiro.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Ciclo de Palestra de Fisioterapia Geriátrica. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro de Médicos e Fisioterapeutas do Leste Mineiro - A 3ª idade no limiar do novo milênio.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, CHRISTIAN CALDEIRA</a></b>. V SIEPE. 2013. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, CHRISTIAN CALDEIRA</a></b>. IV SIEPE. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5133331455842344" target="_blank">SANTOS, C. C.</a></b>. Ação Global no Sesi. 2010. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lívia Caldeira Santos.
+							Visita Domiciliar: contextualização de 3 unidades básicas de saúde de Ipatinga - MG.
+							2010.
+							Monografia. (Aperfeiçoamento/Especialização em Saúde Pública com Ênfase em PSF)  - Centro Universitário de Volta Redonda. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anelise Terebinto.
+							Prevalencia de encurtamento muscular do grupo isquiotibiais em escolares matriculados em uma instituição educacional de Uruguaiana - RS: Estudo piloto.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Paula Machado Pereira e Tamiris Furtado Brehmer Pinheiro.
+							Eficácia de um protocolo de estimulação sensório motora em bebês de 4 a 12 meses de uma escola infantil.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Chayene Luiz e Laura Quoos.
+							Análise do desenvolvimento motor em crianças filhas de mães soropositivas para o HIV.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pâmela Pissolato Schopf.
+							A influência do uso do andador no desenvolvimento sensório motor de crianças entre 12 e 18 meses de Uruguaiana.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Susiane Bomfim de Souza.
+							Tratamento fisioterapêutico através da laserterapia em úlcera de pressão - Estudo de caso.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Faculdades Integradas Aparício Carvalho. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renata Martins Barbosa e Reneida Trigo Alves.
+							Abordagem do tema síndrome de Down na assitência pré-natal.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fabiana Gomes de Campos Lima e Irene Martins Oliveira Alves.
+							A importância das cantigas de rodas para a formação das bases psicomotoras.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Normal Superior)  - Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Viviane Mendes N. Silva e Pollyanna Anarelly P. Lucas.
+							Verificação antropométrica de portadores de síndrome de Down da APAE de Caratinga-MG.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anna Paula Franco Santos e Raquel Assis Silva.
+							Percepção de mães quanto ao desenvolvimento motor em crianças de 0 a 12 meses.
+							2004.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Elaine Teixeira Ribeiro e Valquiria Viana Paradela.
+							Estudo do desenvolvimento do esquema corporal em crianças com sindrome de Down de 04 a 06 anos da APAE de Caratinga-MG: Estudo de caso.
+							2004.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Carolina Leão de Sousa Silva.
+							Perfil dos casos de encefalopatias crônicas da infância atendidos pela clínica escola da Faculdade de Fisisioterapia de Caratinga.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Kennya Teixeira Soares e Laura A. Lima Moreira.
+							O trabalho fisoterapêtico associado aos dos pais na criança postadora de síndrome de Down.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Kamilla Franscielle de Oliveira e Carina Lopes Carvalho.
+							Incidência de possíveis atrasos no desenvolvimento neuropsicomotor em crianças de 0 a 24 meses em creches públicas de Caratinga - MG.
+							2003.
+							Iniciação Científica. (Graduando em Fisioterapia)  - Centro Universitário de Caratinga,
+							Centro Universitario de Caratinga. Orientador: Christian Caldeira Santos.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Mestre em Meio Ambiente e Sustentabilidade pelo Centro Universitário de Caratinga - UNEC - Mestrado Profissional: início agosto de 2006 e término em agosto de 2008; Linha de Pesquisa: Sociedade, Ambiente e Saúde;
+
+É membro titular do Conselho Municipal dos Direitos das Pessoas com Deficiência, em Uruguaiana - RS, pelo Decreto Municipal Nº 301/2014, no biênio 2014/2016.
+
+Aprovado 2º lugar concurso público para professor assistente edital 011/2011 - Universidade Federal do Pampa (UNIPAMPA);
+
+Aprovado 2º lugar concurso publico para professor assistente 2010 - ISB da Universidade Federal do Amazonas (UFAM);
+
+Aprovado concurso público Serviço Social de Saúde (Pró-Saúde) do Governo do Acre edital 015/2010 - Fisioterapeuta;
+
+Aprovado 2º lugar concurso público para professor edital 011/2008 - Universidade Federal de Rondônia (UNIR);</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:33:14</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=5133331455842344" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,3890 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Betina Loitzenbauer da Rocha Moreira)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=7263325437834001" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4790057H7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4790057H7"><div class="infpessoa">
+<h2 class="nome">Betina Loitzenbauer da Rocha Moreira</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/7263325437834001</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 14/05/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Enfermagem pela Universidade Federal do Rio Grande do Sul - UFRGS (1993), mestrado em Educação pela Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS (1996) e doutorado em Educação em Ciências: Química da Vida e Saúde pela Universidade Federal de Santa Maria - UFSM (2011). Atualmente é professor adjunto da Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Betina Loitzenbauer da Rocha Moreira<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MOREIRA, B. L. R.;LOITZENBAUER, B.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa - Campus Uruguaiana. <br class="clear" />Rodovia BR-472 - do km 581,000 ao km 581,999<br class="clear" />Salso de Baixo<br class="clear" />97508000 - Uruguaiana, RS - Brasil - Caixa-postal: 118<br class="clear" />Telefone: (55) 39110200</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Educação em Ciências: Química da Vida e Saúde<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Percepções de Alunos e Professores da Rede Pública Municipal de Ensino Fundamental de Uruguaiana acerca da Educação Sexual na Escola, Ano de obtenção: 2011. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8135232309980269'><img src='images/curriculo/logolattes.gif' /></a>Vanderlei Folmer. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Educação<span class="ajaxCAPES" data-param="&codigoCurso=42005019001P0&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Opiniões de Pacientes com Sarcoma de Kaposi associado à AIDS sobre suas Vivências: Implicações Educacionais,Ano de Obtenção: 1996.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7139652085303998'><img src='images/curriculo/logolattes.gif' /></a>Claus Dieter Stobäus.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Acupuntura<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 1230h). <br class="clear" />Colégio Brasileiro de Estudos Sistêmicos, CBES, Brasil.
+		
+	<br class="clear" />Título: Menorragia: Um Estudo de Caso. <br class="clear" />Orientador: Ana Maria Biesek Regis. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Educação Profisional na Área de Saúde: Enfermagem<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Fundação Oswaldo Cruz, FIOCRUZ, Brasil.
+		
+	<br class="clear" />Título: A Educação Continuada da Equipe de Enfermagem de um Hospital do Rio Grande do Sul na perspectiva do Curso de Formação Pedagógica do PROFAE. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Enfermagem<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação Financeira - Gestão de Finanças Pessoais.  (Carga horária: 20h). <br class="clear" />ESCOLA DE ADMINISTRAÇÃO FAZENDÁRIA - ESAF, EAFE_FORN, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disseminadores de Educação Fiscal.  (Carga horária: 160h). <br class="clear" />Escola de Administração Fazendária, ESAF, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa - Campus Uruguaiana, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto IV, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto III, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto II, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente II, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Servidora da Universidade Federal do Pampa desde abril de 2007, porém vinculada à Universidade Federal de Santa Maria que implantou a UNIPAMPA/Campus Uruguaiana.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Núcleo Docente Estruturante - NDE (Portaria nº 1225 de 09 de outubro de 2015).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante da UNIPAMPA na Comissão Intermunicipal Uruguaiana-Libres de HIV/AIDS do Mercosul - Comissão Municipal do Projeto de Prevenção, Atenção e Apoio em HIV/AIDS nos espaços fronteiriços dos países do MERCOSUL (Portaria nº 012 de 18/09/2012).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Enfermagem na Saúde Coletiva<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Metodologia Científica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação e Saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Coletiva I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />O Sistema de Saúde no Brasil<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana, Curso de Enfermagem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Colegiado do Curso de Enfermagem (Portaria nº 006 de 10 de julho de 2007).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante da UNIPAMPA no Grupo Gestor Municipal referente ao Projeto "Saúde e Prevenção nas Escolas - SPE" (Portaria nº 017 de 10 de setembro de 2007).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - 10/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana, Curso de Enfermagem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Núcleo Docente Estruturante do Curso de Enfermagem - NDE (Portaria nº 1250 de 23 de setembro de 2014).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Trabalho de Conclusão de Curso I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2014 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Trabalho de Conclusão de Curso II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 07/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Vigilância em Saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2014 - 02/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Coletiva II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2014 - 02/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Coletiva I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2013 - 09/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana, Curso de Enfermagem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Núcleo Docente Estruturante do Curso de Enfermagem - NDE (Portaria nº 452 de 30 de abril de 2013).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Pampa - UNIPAMPA/Campus Uruguaiana, Curso de Enfermagem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Núcleo Docente Estruturante do Curso de Enfermagem - NDE (Portaria nº 949 de 27 de abril de 2011).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2008 - 08/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Comissão de Fronteiras do Projeto de Fortalecimento das Ações de DST e AIDS nas Fronteiras do MERCOSUL (Ata nº 003 - 06/11/2008).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 07/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação e Saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Enfermagem no Gerenciamento do Cuidado dos Serviços de Saúde III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Coletiva II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Enfermagem no Cuidado a Mulher, ao Adolescente e a Criança<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Coletiva III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2008 - 01/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Conselho do Campus Uruguaiana da Universidade Federal do Pampa (Ata da 6ª Reunião do Conselho do Campus Uruguaiana - 08/09/2008).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Coletiva II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Metodologia da Pesquisa II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Enfermagem no Cuidado ao Adulto<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 07/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação e Saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2008 - 05/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Comissão Local de Concursos - Campus Uruguaiana (Portaria nº 047 de 16 de junho de 2008).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2008 - 02/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Curso de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora do Curso de Enfermagem (Portaria nº 001 de 17 de janeiro de 2008).</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente I, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Lotada no Centro de Ciências da Saúde - Campus Uruguaiana/Universidade Federal do Pampa(UNIPAMPA)/Universidade Federal do Santa Maria (UFSM). A UNIPAMPA tornou-se independente da UFSM em jan./2008.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2007 - 02/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Coletiva II, Saúde Coletiva III, Educação e Saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências da Saúde de Uruguaiana/Futura UNIPAMPA, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante da UNIPAMPA no Grupo Gestor Municipal referente ao Projeto Saúde e Prevenção nas Escolas (SPE) (Portaria nº 017 de 10 de setembro de 2007).</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Curso de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Colegiado do Curso de Enfermagem (Portaria nº 006 de 10 de julho de 2007).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2007 - 09/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Curso de Enfermagem, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro Comissão de Seleção da Monitoria em Saúde Coletiva.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2007 - 08/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Anatomia Humana<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2007 - 08/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Anatomia I<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Prefeitura Municipal de Uruguaiana, PMU, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Enfermeira Concursada</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Enfermeira Contratada</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2002 - 03/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Secretaria de Saúde e Meio Ambiente, Setor Saúde da Mulher. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Equipe Coordenadora do Projeto Educar para Viver; Membro do Grupo Gestor Municipal do Projeto Saúde e Prevenção nas Escolas.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2002 - 03/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Secretaria de Saúde e Meio Ambiente, Secretaria de Saúde e Meio Ambiente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Atividades Assistenciais: Cadastro, Orientações e Encaminhamentos em Planejamento Familiar; Criação e Desenvolvimento do Ambulatório do Adolescente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2001 - 06/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Secretaria de Saúde e Meio Ambiente, Secretaria de Saúde e Meio Ambiente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Atividades Assistenciais. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Santa Casa de Caridade de Uruguaiana, SCCU, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Enfermeira</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 03/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Educação Continuada, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante no Comitê Municipal de Política de Humanização da Assistência à Saúde - PHAS.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2004 - 03/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Educação Continuada, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Conselheira Suplente no Conselho Municipal de Saúde.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2001 - 03/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Departamento de Educação Continuada, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2001 - 03/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Departamento de Educação Continuada, Departamento de Educação Continuada. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Capacitação dos Funcionários do Hospital; Avaliação de Setores; Membro da Equipe de Planejamento Estratégico; Gerenciamento do Sistema de Indicadores Padronizados para Gestão Hospitalar - SIPAGEH.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2001 - 10/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Unidade de Atendimento Clínico e Cirúrgico Adulto, Unidade de Atendimento Clínico e Cirúrgico Adulto. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Atividades Assistenciais. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Luterana do Brasil, ULBRA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor Adjunto com Mestrado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professora Pós-Graduação</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/1997 - 01/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso de Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Biofísica<br class="clear" />Orientação de Trabalho de Conclusão de Curso<br class="clear" />Estágio III - Administração da Assistência de Enfermagem - Área: Pediatria e Área: HIV/AIDS<br class="clear" />Estágio VI - Por Área de Concentração - Área: HIV/AIDS<br class="clear" />Prática Supervisionada em Saúde Escolar<br class="clear" />Promoção e Educação em Saúde<br class="clear" />Didática aplicada à Saúde<br class="clear" />Saúde Coletiva I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/1999 - 12/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Unidade Universitária de Canoas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Comissão Organizadora do Treinamento Universidade Solidária Etapa 2000.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/1998 - 12/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Unidade Universitária de Canoas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora da Extensão Comunitária do Centro de Ciências da Saúde - CESBEM.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/1998 - 05/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Unidade Universitária de Canoas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Membro da Comissão Científica da VII Semana Acadêmica do Curso de Enfermagem - Enfermeiro: O Ser Profissional ainda em Conflito com o Ser Humano. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/1998 - 02/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Unidade Universitária de Canoas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora da Equipe da ULBRA no Município de Lajedo do Tabocal (Bahia), no Programa Universidade Solidária 1998..</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1997 - 10/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Unidade Universitária de Canoas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Professora Supervisora do Curso de Enfermagem na Feira da Saúde em Candelária/RS. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/1996 - 10/1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Saúde Comunitária, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Metodologia da Pesquisa<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professora Substituta</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professora Pós-Graduação</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1997 - 08/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Departamento de Enfermagem Médico-Cirúrgica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/1996 - 01/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem de Saúde Pública, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Formação Didático-Pedagógica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto de Administração Hospitalar e Ciências da Saúde, IAHCS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professora Pós-Graduação</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/1996 - 01/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração dos Serviços de Enfermagem, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Metodologia da Pesquisa<br class="clear" />Teorias de Enfermagem e a Sistematização da Assistência ao Cliente <br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Fundação Central Sul Americana para o Desenvol. de Drogas Anti-Câncer, SOAD, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Enfermeira</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1994 - 11/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Fundação SOAD, Fundação SOAD. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Acompanhamento de Estudos Clínicos de Fase II. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Conhecimento de Universit&aacute;rios sobre Doen&ccedil;as Sexualmente Transmiss&iacute;veis e HIV/AIDS (SIPPEE 10.258.16)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conhecimento de Universitários sobre Doenças Sexualmente Transmissíveis e HIV/AIDS (SIPPEE 10.258.16)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Betina Loitzenbauer da Rocha Moreira - Coordenador / Diego Fernandes Leal - Integrante.<br class="clear" /></div>
+</div><a name='PP_Percep&ccedil;&otilde;es de Professores de Ci&ecirc;ncias e Educa&ccedil;&atilde;o F&iacute;sica da Rede P&uacute;blica Municipal de Ensino Fundamental de Uruguaiana acerca da Educa&ccedil;&atilde;o Sexual na Escola (Protocolo n&ordm; 10.009.09)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Percepções de Professores de Ciências e Educação Física da Rede Pública Municipal de Ensino Fundamental de Uruguaiana acerca da Educação Sexual na Escola (Protocolo nº 10.009.09)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Betina Loitzenbauer da Rocha Moreira - Coordenador / Camila Lara Ibarra - Integrante.<br class="clear" /></div>
+</div><a name='PP_Estudo do Uso de Plantas Medicinais e Fitoter&aacute;picos como Automedica&ccedil;&atilde;o: Aspectos Social, Cultural e Econ&ocirc;mico (N&ordm; 021330)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo do Uso de Plantas Medicinais e Fitoterápicos como Automedicação: Aspectos Social, Cultural e Econômico (Nº 021330)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Betina Loitzenbauer da Rocha Moreira - Integrante / Ana Paula Mariussi - Integrante / Jucelino Medeiros Marques Júnior - Integrante / Thomas Josue Silva - Integrante / Elton Luis Gasparotto Denardin - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Organiza&ccedil;&atilde;o de uma linha de cuidado voltada a escolares expostos a drogas l&iacute;citas e il&iacute;citas em escolas municipais e estaduais do Munic&iacute;pio de Uruguaiana - RS (SIPPEE 10.036.16)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Organização de uma linha de cuidado voltada a escolares expostos a drogas lícitas e ilícitas em escolas municipais e estaduais do Município de Uruguaiana - RS (SIPPEE 10.036.16)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Betina Loitzenbauer da Rocha Moreira - Integrante / Luís Flávio Souza de Oliveira - Coordenador / Bruna Cristina Furtado Gomes - Integrante / Silvana Peres Gonzalez - Integrante / Marlise Grecco Silveira - Integrante / Maria Aparecida Bofill - Integrante.<br class="clear" /></div>
+</div><a name='PP_Crian&ccedil;as e Adolescentes Vivendo com HIV/AIDS: Reflex&otilde;es sobre Direitos Humanos, Sa&uacute;de e HIV (SIPPEE 10.054.14)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Crianças e Adolescentes Vivendo com HIV/AIDS: Reflexões sobre Direitos Humanos, Saúde e HIV (SIPPEE 10.054.14)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Betina Loitzenbauer da Rocha Moreira - Coordenador / Maria Aparecida de Medeiros Bofill - Integrante / Sandra Elisa Haas - Integrante / Anni Nathália Oliveira Garcia - Integrante / Mariéle Rodrigues Barbosa - Integrante.<br class="clear" /></div>
+</div><a name='PP_Grupo de Gestantes (Campus Uruguaiana: PROEXT. UR/ 0011-08)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de Gestantes (Campus Uruguaiana: PROEXT. UR/ 0011-08)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Betina Loitzenbauer da Rocha Moreira - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Sa&uacute;de e Preven&ccedil;&atilde;o nas Escolas - SPE (Grupo Gestor Municipal) (N&ordm; 11/2008 PROEXT-UR)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Saúde e Prevenção nas Escolas - SPE (Grupo Gestor Municipal) (Nº 11/2008 PROEXT-UR)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Betina Loitzenbauer da Rocha Moreira - Coordenador / Flávia Rodrigues Pandolfo - Integrante / Maiana Pinheiro dos Santos - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Gaúcha de Enfermagem (Online)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: REEC. Revista Electrónica de Enseñanza de las Ciencias</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Destaque - I Mostra Gaúcha do Saúde e Prevenção nas Escolas - "Gravidez na adolescência: SPE uma intervenção multidisciplinar na comunidade Cabo Luiz Quevedo", Secretaria da Saúde do Rio Grande do Sul e Secreta da Educação do Rio Grande do Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">"Utilização de Plantas Medicinais como Automedicação pela População da Fronteira Oeste do Estado do Rio Grande do Sul" - 3º lugar no VIII Salão de Iniciação Científica - Ed. Internacional, PUCRS- Campus Uruguaiana, UNIPAMPA, Universidad de la Cuenca del Plata. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, B. L. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . Percepções de professores de ciências e educação física acerca da educação sexual na escola. Experiências em Ensino de Ciências (UFRGS)<sup><img id='19822413_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19822413' /></sup>, v. 10, p. 150-163, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19822413&volume=10&issue=&paginaInicial=150&titulo=Percepções de professores de ciências e educação física acerca da educação sexual na escola&sequencial=1&nomePeriodico=Experiências em Ensino de Ciências (UFRGS)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LANES, D. V. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>LANES, D. V. C. ; LANES, K. G. ; SANTOS, M. E. T. ; SILVA, E. F. S. J. ; <b>MOREIRA, B. L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> . A recreação como ferramenta metodológica para abordar sexualidade e gênero na educação infantil. Experiências em Ensino de Ciências (UFRGS)<sup><img id='19822413_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19822413' /></sup>, v. 8, p. 95-103, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19822413&volume=8&issue=&paginaInicial=95&titulo=A recreação como ferramenta metodológica para abordar sexualidade e gênero na educação infantil&sequencial=2&nomePeriodico=Experiências em Ensino de Ciências (UFRGS)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, B. L. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; João Batista Teixeira da Rocha ; PUNTEL, R. L. (Robson Luis Puntel) ; FOLMER, V. (Vanderlei Folmer) . Educação sexual na escola: implicações para a práxis dos adultos de referência a partir das dúvidas e curiosidades dos adolescentes. REEC. Revista Electrónica de Enseñanza de las Ciencias<sup><img id='15791513_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15791513' /></sup>, v. 10, p. 64-83, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15791513&volume=10&issue=&paginaInicial=64&titulo=Educação sexual na escola: implicações para a práxis dos adultos de referência a partir das dúvidas e curiosidades dos adolescentes&sequencial=3&nomePeriodico=REEC. Revista Electrónica de Enseñanza de las Ciencias" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, B. L. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; FOLMER, V. (Vanderlei Folmer) . Educação sexual na escola: construção e aplicação de material de apoio. Experiências em Ensino de Ciências (UFRGS)<sup><img id='19822413_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19822413' /></sup>, v. 6, p. 151-160, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19822413&volume=6&issue=&paginaInicial=151&titulo=Educação sexual na escola: construção e aplicação de material de apoio&sequencial=4&nomePeriodico=Experiências em Ensino de Ciências (UFRGS)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SCHWARTSMANN, G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> ; FERNANDES, MS ; SCHAAN, MD ; MOSCHEN, M ; GERHARDT, LM ; LEONE, L Di ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2534236738033515" target="_blank">KALAKUN, L</a> . Decitabine (5-Aza-2'deoxycytidine; DAC) plus daunorubicin as a first line treatment in patients with myeloid lekemia: preliminary observations. Leukemia<sup><img id='08876924_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08876924' /></sup>, v. 11, p. 28-31, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=08876924&volume=11&issue=&paginaInicial=28&titulo=Decitabine (5-Aza-2'deoxycytidine; DAC) plus daunorubicin as a first line treatment in patients with myeloid lekemia: preliminary observations&sequencial=5&nomePeriodico=Leukemia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; BOFILL, M. A. M. ; ABAD, M. A. S. ; FREITAS, J. R. ; GRECCO, M. S. . Educação sexual na escola: um breve relato da experiência do município de Uruguaiana/RS. In: Jaqueline Copetti; Vanderlei Folmer. (Org.). Educação e saúde no contexto escolar [livro eletrônico]. 1ed.Uruguaiana: Universidade Federal do Pampa, 2015, v. , p. 273-300. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, A. ; <b>MOREIRA, B. L. R.</b> ; PACHECO, K. C. F. ; SOUZA, N. S. . O processo de educação em saúde para autonomia dos sujeitos. In: Karina Silveira de Almeida Hammerschmidt. (Org.). Cuidado do enfermagem: interfaces teóricas e práticas no ciclo vital do ser humano. 1ed.Curitiba, PR: CRV, 2015, v. , p. 357-372. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IBARRA, C. L. (Camila Lara Ibarra) ; SANTOS, M. P. (Maiana Pinheiro dos Santos) ; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; ALTAMIRA, J.R. ; <b>MOREIRA, B. L. R.</b> . Fortalecendo as ações de prevenção DST/HIV/AIDS entre Brasil e Argentina. In: II Salão Internacional de Ensino, Pesquisa e Extensão, 2010, Uruguaiana. II SIEPE: Diversidade de Ideias para Ações Inovadoras, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. P. (Maiana Pinheiro dos Santos) ; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; FOLMER, V. (Vanderlei Folmer) ; <b>MOREIRA, B. L. R.</b> . Bolsista da extensão: relato de experiência com o projeto saúde e prevenção nas escolas. In: II Salão Internacional de Ensino, Pesquisa e Extensão, 2010, Uruguaiana. II SIEPE: Diversidade de Ideias para Ações Inovadoras, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIRES, N. S. ; PIEGAS, H. ; IBARRA, C. L. (Camila Lara Ibarra) ; <b>MOREIRA, B. L. R.</b> . As percepções e a prática preventiva de universitárias dos cursos de enfermagem, farmácia e fisioterapia da UNIPAMPA/Campus Uruguaiana acerca do câncer do colo do útero. In: II Salão Internacional de Ensino, Pesquisa e Extensão, 2010, Uruguaiana. II SIEPE: Diversidade de Ideias para Ações Inovadoras, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Opiniões de Pacientes com Sarcoma de Kaposi associado à AIDS sobre as suas Vivências: Implicações Educacionais. In: 10º Seminário Nacional de Pesquisa em Enfermagem, 1999, Gramado. Seminário Nacional de Pesquisa em Enfermagem. Brasília/Porto Alegre: Aben-Nacional/Aben-RS, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Questões Familiares do Paciente com AIDS. In: II Congresso Brasileiro de Terapia Familiar, 1996, Gramado. II Congresso Brasileiro de Terapia Familiar, 1996. p. 163-163. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; VIEGAS, M. A. V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; LEONI, L. P. Di . The Role of the Nurse in Phase II Clinical Trials with AIDS-Related Kaposi's Sarcoma Patients in Brazil. In: Oncology Nursing Society 21st Annual Congress, 1996, Philadelphia. Oncology Nursing Forum, 1996. v. 23. p. 327-327. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; VIEGAS, M. A. V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; GERHARDT, LM ; SPRINZ, E. ; KOYA, R. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . The Challenge of Introducing the Concept of Informed Consent in Early Clinical Trials in Cancer and AIDS: The SOAD Experience. In: Second Internacional Congress of Psycho-Oncology, 1995, Kobe. Second Internacional Congress of Psycho-Oncology, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIEGAS, M. A. V. ; KALAKUN, L. ; GERHARDT, LM ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Informed consent in Oncology and AIDS Trials: Do Brazilian Patients Match the Literatura?. In: Second International Congress of Psycho-Oncology, 1995, Kobe. Second International Congress of Psycho-Oncology, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEONE, L. P. ; KALAKUN, L. ; VIEGAS, M. A. V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; GERHARDT, LM ; SPRINZ, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . O Desafio da Introdução do Conceito de Consentimento Pós-Informação em Estudos com drogas Novas em Câncer e SIDA: A Experiência do Programa Clínico da SOAD. In: VII Salão de Iniciação Científica e IV Feira de Iniciação Científica, 1995, Porto Alegre. VII Salão de Iniciação Científica e IV Feira de Iniciação Científica, 1995. p. 171-171. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GORINI, C. ; GUIMARAES, J. L. ; LEVIN, R. ; MUSE, I. ; GARBINO, C. ; LAGO, S. ; KALAKUN, L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; MAINO, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Estudo de Fase II com Cisplatinum e 5-Aza-2-Deoxicitidina (DAC) em Pacientes com Carcinoma Não de Pequenas Células de Pulmão (CNPCP). In: IX Congresso Brasileiro de Oncologia Clínica, 1995, Belo Horizonte. Oncologia Atual, 1995. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; VIEGAS, M. A. V. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; GERHARDT, LM ; SPRINZ, E. ; KOYA, R. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . O Desafio da Introdução do Conceito de Consentimento Pós-Informação em Estudos com drogas Novas em Câncer e SIDA: A Experiência do Programa Clínico da SOAD. In: IX Congresso Brasileiro de Oncologia Clínica, 1995, Belo Horizonte. Oncologia Atual, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIEGAS, M. A. V. ; KALAKUN, L. ; GERHARDT, LM ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Consentimento pós-Informação em Estudos com Drogas Novas em Oncologia e SIDA: Os Pacientes Brasileiros se Comportam Como Refere a Literatura?. In: IX Congresso Brasileiro de Oncologia Clínica, 1995, Belo Horizonte. Oncologia Atual, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; VIEGAS, M. A. V. ; BRUNSTEIN, C. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; SPRINZ, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Informed Consent (IC) in Phase II Clinical Trials with New Anticancer Agents in South America: The SOAD Experience. In: 19th Congress of the European Society for Medical Oncology, 1994, Lisboa. ESMO - Annals of Oncology - Official Journal of the European Society for Medical Oncology, 1994. v. 5. p. 190-190. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Monitorização de Estudo Clínicos de Fase II com Drogas Anticâncer Utilizando Instrumentos de "Good Clinical Practice". In: XIII Congresso Brasileiro de Cancerologia, 1994, Porto Alegre. XIII Congresso Brasileiro de Cancerologia - Temas Livres, 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; SCHOLEM, V. G. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; VIEGAS, M. A. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Reasons for Cancer Patients to Participate in Phase II Studies: The SOAD Experience. In: Third National Conference on Cancer Nursing Research, 1994, Newport Beach. Third National Conference on Cancer Nursing Research - Abstracts, 1994. p. 49-C-49-C. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; BRUNETTO, A. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; SCHOLEM, V. G. S. ; VIEGAS, M. A. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Experiência com a Utilização do termo de Consentimento Pós-Informado (TCPI) em Protocolos de Fase II com Novas Drogas Anticâcer. In: 13ª Semana Científica do Hospital de Clínicas de Porto Alegre, 1993, Porto Alegre. Anais Científicos Nº 9, 1993. p. 62-62. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KALAKUN, L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; SCHOLEM, V. G. S. ; VIEGAS, M. A. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Experiência com a Utilização do Termo de Consentimento Pós-Informado em Protocolos de Fase II com Novas Drogas Anticâncer. In: X Congresso da sociedade Latino Americana de Oncologia Pediátrica - IV Congresso da sociedade Brasileira de Oncologia Pediátrica - I Jornada de Enfermagem em Oncologia Pediátrica, 1993, Rio de Janeiro. X Congresso da Sociedade Latino-Americana de Oncologia Pediátrica - IV Congresso da Sociedade Brasileira de Oncologia Pediátrica - I Jornada de Enfermagem Oncológica Pediátrica da SLAOP - II Jornada de Cirurgia Oncológica Pediátrica da SOBOPE, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUNSTEIN, C. G. ; KALAKUN, L. ; LAGO, S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b> ; MACHADO, V. L. ; SOSTRUZNIK, M. H. ; VIEGAS, M. A. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9574856139602553" target="_blank">SCHWARTSMANN, G.</a> . Estudo de Fase II com Cisplatina (CDDP) e 5-Aza-Deoxicitidina (DAC) em Pacientes com Carcinoma de Pulmão Não de Pequenas Células (CNPCP). In: 13ª Semana Científica do Hospital de Clínicas de Porto Alegre, 1993, Porto Alegre. Anais Científicos Nº 9, 1993. p. 63-63. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. P. (Maiana Pinheiro dos Santos) ; SANTOS, N.O. ; SANTOS, V. C. F. (Vilma C. Fioravante dos Santos) ; IBARRA, C. L. (Camila Lara Ibarra) ; <b>MOREIRA, B. L. R.</b> . Projeto Saúde e Prevenção nas Escolas: Uma Nova Alternativa para Discutir Sexualidade. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. P. (Maiana Pinheiro dos Santos) ; SANTOS, V. C. F. (Vilma C. Fioravante dos Santos) ; SANTOS, N.O. ; IBARRA, C. L. (Camila Lara Ibarra) ; <b>MOREIRA, B. L. R.</b> . Grupo de Gestantes: uma Ferramenta em Saúde para o Cuidado. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; TAMAYO, A. K. (Adriana Kirchof Tamayo) ; LIMA, S.R.A. ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; CAMPONOGARA, E. R. (Elaine Rita Camponogara) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; <b>MOREIRA, B. L. R.</b> ; GONZAGUE, E. B. (Édison Brito Gonzague) . SPE "Saúde + Educação uma Experiêncioa de Sucesso na Fronteira". 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; TAMAYO, A. K. (Adriana Kirchof Tamayo) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; CAMPONOGARA, E. R. (Elaine Rita Camponogara) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; SILVA, E. G. B. (Édison Gonzague Brito da Silva) ; LIMA, S.R.A. . SPE Uruguaiana e o Protagonismo Juvenil. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; TAMAYO, A. K. (Adriana Kirchof Tamayo) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; CAMPONOGARA, E. R. (Elaine Rita Camponogara) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; <b>MOREIRA, B. L. R.</b> ; LIMA, S.R.A. ; CANNES, A. R. . SPE - Saúde e educação uma Parceria de Sucesso. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALTAMIRA, J.R. ; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; TAMAYO, A. K. (Adriana Kirchof Tamayo) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; ALGAYER, C. ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; <b>MOREIRA, B. L. R.</b> ; LIMA, S.R.A. ; CANNES, A. R. ; DAME, J.F. ; ENCINA, M. ; LUQUE, M. ; MEZA, P. H. . Uruguaiana e Libres Unidas Fortalecendo o Protagonismo das PVHA. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; TAMAYO, A. K. (Adriana Kirchof Tamayo) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; CAMPONOGARA, E. R. (Elaine Rita Camponogara) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; <b>MOREIRA, B. L. R.</b> ; LIMA, S.R.A. ; CANNES, A. R. . SPE Uruguaiana e Protagonismo Juvenil. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IBARRA, C. L. (Camila Lara Ibarra) ; SANTOS, M. P. (Maiana Pinheiro dos Santos) ; SANTOS, V. C. F. (Vilma C. Fioravante dos Santos) ; CAMPONOGARA, E. R. (Elaine Rita Camponogara) ; <b>MOREIRA, B. L. R.</b> . Grupo de gestantes: relato de experiência. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. P. (Maiana Pinheiro dos Santos) ; IBARRA, C. L. (Camila Lara Ibarra) ; SANTOS, V. C. F. (Vilma C. Fioravante dos Santos) ; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; <b>MOREIRA, B. L. R.</b> . Saúde e Prevenção nas Escolas: uma possibilidade para discutir o tema sexualidade. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; BARROS, M.M.F (Marta Maria Figueiredo de Barros) ; CAMPONOGARA, E. R. ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; <b>MOREIRA, B. L. R.</b> ; GONZAGUE, E. B. (Édison Brito Gonzague) . Gravidez na adolescência: SPE uma intervenção multidisciplinar na comunidade Cabo Luiz Quevedo. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) . Gravidez na Adolescência: Uma Proposta de Tabalho Integrado através do Pojeto Saúde e Prevenção nas Escolas. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARQUES JUNIOR, J. M. ; MARIUSSI, A. P. ; SILVA, T. J. ; <b>MOREIRA, B. L. R.</b> ; DENARDIN, E. L. G. . Utilização de plantas medicianais como automedicação pela população da fronteira oeste do Estado do Rio Grande do Sul. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TAMAYO, A. K. (Adriana Kirchof Tamayo) ; <b>MOREIRA, B. L. R.</b> ; SILVA, E.G.B. (Édison Gonzague Brito da Silva) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; BARROS, M.M.F (Marta Maria Figueiredo de Barros) . Gravidez na adolescência: SPE uma intervenção multidisciplinar na comunidade Cabo Luiz Quevedo. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Projeto Educar para Viver + Saúde e Prevenção nas Escolas. 2016.
+							(Formação Continuada - Coordenadora).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Projeto Educar para Viver + Saúde e Prevenção nas Escolas. 2015.
+							(Formação Continuada - Coordenadora).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Crianças e Adolescentes Vivendo com HIV/AIDS: Reflexões sobre Direitos Humanos, Saúde e HIV. 2014. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Projeto Educar para Viver + Saúde e Prevenção nas Escolas. 2014.
+							(Formação Continuada - Coordenadora).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Oficina Sexualidade, Adolescência e o Papel do Adulto como Referência. 2011. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Projeto Educar para Viver + Saúde e Prevenção nas Escolas. 2010.
+							(Reunião Ordinária da Câmara Municipal de Uruguaiana).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. I Seminário Municipal do Projeto 'Educar para Viver + Saúde e Prevenção nas Escolas'. 2010.
+							(Coordenadora).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Capacitação do Projeto Rondon. 2009. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; BOFILL, Maria Aparecida de Medeiros ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; TAMAYO, A. K. (Adriana Kirchof Tamayo) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) . Minicurso Comportamento Sexual e Doenças Sexualmente Transmissíveis. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; FOLMER, V. (Vanderlei Folmer) ; PUNTEL, R. L. (Robson Luis Puntel) ; SOARES, M. C. (Max Castelhano Soares) ; COUTINHO, R. X. (Renato Xavier Coutinho) . Sexualidade: é verdade ...? Dúvidas e curiosidades de adolescentes, pais e professores.
+							2009. (Desenvolvimento de material didático ou instrucional - Cartilha). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Projeto Educar para Viver + Saúde e Prevenção nas Escolas. 2009.
+							(Coordenadora).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>; BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; FREITAS, J.R.R. (Jussara Rosa Rodrigues de Freitas) ; SILVEIRA, M.G.S. (Marlise Grecco de Souza Silveira) ; CAMPONOGARA, E. R. ; BARROS, M.M.F (Marta Maria Figueiredo de Barros) . Minicurso Saúde, Sexualidade e Cia. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOFILL, M.A.M. (Maria Aparecida de Medeiros Bofill) ; TAMAYO, A. K. (Adriana Kirchof Tamayo) ; ARAMBURU, T. D. B. ; ABAD, M.A.S. (Marta Aurora Santiago Abad) ; BARROS, M.M.F (Marta Maria Figueiredo de Barros) ; <b>MOREIRA, B. L. R.</b> . Curso de Capacitação para Adolescentes e Jovens Multiplicadores do Projeto Saúde e Prevenção nas Escolas - Atitude pra Curtir a Vida. 2007. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Capacitação em Orientação Sexual de Professores que Desenvolverão o Programa do Adolescente - Educar para Viver. 2004. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEPEL, L. M. N.; <b>MOREIRA, B. L. R.</b>; ADAIME, M. B..  Participação em banca de Elenize Rangel Nicoletti. Explorando o Tema Água Através de Diferentes Abordagens Metodológicas no Ensino Fundamental. 2013. Dissertação (Mestrado em Educação em Ciências: Química da VIda e Saúde) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORETO, E. L. S.; <b>MOREIRA, B. L. R.</b>; BARBOSA, N. B. V..  Participação em banca de Ingrid Prereira Piccini. A Complexidade do Ensino Noturno Somada a Dificuldade de Delimitar o Tema Sexualidade nas Aulas de Ciências e Biologia. 2012. Dissertação (Mestrado em Educação em Ciências: Química da VIda e Saúde) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a>; BALK, R.; PUNTEL, G. O.; <b>MOREIRA, B. L. R.</b>; TOLENTINO NETO, L. C. B..  Participação em banca de Simone Lara. Educação e Saúde no Ensino Básico: Saúde Cardiovascular como Tema Gerador no Curso Normal. 2012. Exame de qualificação (Doutorando em Educação em Ciências: Química da Vida e Saúde)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>; SILVA, F. F.; BONETTI, A. L..  Participação em banca de Vanessa Ferreira Backes. Sexualidade e Juventude: o olhar de estudantes do 9 ano de uma escola de Uruguaiana/RS. 2016. Monografia (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Sabrina Dias Lima de Aguiar.Percepção dos Idosos em Relação às Doenças Sexualmente Transmissíveis.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Inaiza de Medeiros Gudolle.A Violência no Contexto Escolar e seu Entorno a partir da Visão dos Adolescentes.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Cibeli Ferreira Martins e Luana Paula Nava.Funcionalidade de Membro Superior e Qualidade de Vida de Mulheres com Câncer de Mama Submetidas a Tratamento Fisioterapêutico.
+							2015. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Inaíza de Medeiros Gudolle.A Violência no Contexto Escolar e seu Entorno a partir da Visão dos Adolescentes.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Anni Nathalia Oliveira Garcia.Demandas de Cuidado de Crianças com Necessidades Especiais sobre a Ótica de Professores e Profissionais da Saúde de uma Escola de Educação Especializada diante do Processo de Inclusão.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Josianny dos Santos Rodrigues.Registros de Enfermagem: Percepção do Enfermeiro na Atenção Básica de Saúde no Extremo Oeste do Rio Grande do Sul.
+							2012. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Josianny dos Santos Rodrigues.Registros de Enfermagem: Percepção do Enfermeiro na Atenção Básica de Saúde no Extremo Oeste do Rio Grande do Sul.
+							2012. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Adriele da Silva Bradão.Assistência Farmacêutica na Atenção Primária à Saúde.
+							2011. Trabalho de Conclusão de Curso (Graduação em Farmácia)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Carla Cibele Silveira da Costa.Planejamento Familiar: a Percepção da Mulher acerca da Participação do Homem neste Contexto.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Darleni Rosa Tambara.Condições de Vida dos Idosos Residentes em Uruguaiana/RS: Perfil Multidimensional.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Raquel Einloft Kleinübing.Gestantes e Puérperas Soropositivas para o HIV: como estão Vivenciando a não Amamentação.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Rosangela de Almeida Roxo Alexandre.A Subjetividade do Cuidado: o Resgate da Sensibilização dos Profissionais de Enfermagem.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Cláudio Roberto Acosta Barbosa.Tabagismo na Gestação.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Fabiani Weiss Pereira.O Trabalho da Equipe de Saúde no Atendimento das Gestantes Portadoras da Soropositividade para o HIV: Implicações para a Enfermagem.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Eduarda da Silva Oliveira.Educação e Saúde: Ações para o Enfrentamento dos Comportamentos de Risco na Adolescência.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Elian Machado Belous, Fabiana S Veppo e Rodrigo S da Rocha.Conhecimentos e Benefícios Relatados por Gestante de uma ESF sobre a Lei 11.108.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Flávia Rodrigues Pandolfo.Perfil Epidemiológico das Mulheres com Câncer de Colo Uterino, no Município de Uruguaiana-Rs, Brasil: Implicações para Enfermagem.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Camila Lara Ibarra, Helena P. Rodrigues, Neriete da S. Pires.As Percepções e a Prática Preventiva de Universitárias do Curso de Enfermagem, Farmácia e Fisioterapia da UNIPAMPA/Campus Uruguaiana acerca do Câncer de Colo do Útero.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Catiane Aparecida de Moura e Verônica Castro da Rosa.Dúvidas de Gestantes Referentes à Gestação, ao Parto e ao Aleitamento Materno: Implicações para a Enfermagem.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Charles Jopar Hedlund e Luiz Antonio Fernandes Filho.Percepção de Risco dos Estivadores do Porto Seco Ferroviário de Uruguaiana, Rio Grande do Sul, Brasil.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Carine Q de Mello, Luciane F. Escobar e Rose de B. Bordão.Estratégias de Enfrentamento Adotadas pelas Mulheres Portadoras de Câncer de Mama e pela Enfermagem no Tratamento Oncológico: Uma Revisão Integrativa.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Camila Lara Ibarra, Helena P. Rodrigues, Neriete da S. Pires.As Percepções e a Prática Preventiva de Universitárias dos Cursos de Enfermagem, Farmácia e Fisioterapia da Unipampa/Campus Uruguaiana acerca do Câncer do Colo do Útero.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Charles Jopar Hedlund, Luiz Antonio Fernandes Filho.Percepção de Risco dos Estivadores do Porto Seco Ferroviário de Uruguaiana, Rio Grande do Sul, Brasil.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Catiane Aparecida de Moura.Dúvidas de Gestantes Referentes à Gestação, ao Parto e ao Aleitamento Materno: Implicações para a Enfermagem.
+							2010. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Fernanda de Oliveira Marofiski.A Atuação da Enfermagem na Prevenção e Enfrentamento da Depressão Pós-parto.
+							2009. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Fabiani Weiss Pereira.O Trabalho da Equipe de Saúde do Centro de Orientação e Apoio Sorológico (COAS) de Uruguaiana no Atendimento das Gestantes HIV/AIDS: Implicações para a Enfermagem.
+							2009. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Flávia Rodrigues Pandolfo.Perfil Epidemiológico das Mulheres com Câncer Uterino no Município de Uruguaiana, RS, Brasil: Implicações para Enfermagem.
+							2009. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Darleni Rosa Tambara.Condições de Vida dos Idosos Residentes em Uruguaiana/RS: Perfil Multidimensional.
+							2009. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Rosangela de Almeida Roxo Alexandre.A Subjetividade do Cuidado: o Resgate da Sensibilização dos Profissionais de Enfermagem.
+							2009. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Claudio Roberto Acosta Barbosa.O Tabagismo na Gestação.
+							2009. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Carla Cibele Silveira da Costa.Planejamento Familiar: a Percepção da Mulher acerca da Participação do Homem neste Contexto.
+							2009. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Maria Cristina Ferraro Engers.Sentimentos e Ações Imediatas do Enfermeiro Frente a Confirmação de Morte do Paciente.
+							2000. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Dionéia Alves Hoffmann Sparremberger.Exame Preventivo de Câncer de Colo Uterino: Fatores Determinantes para a Realização do Mesmo para Docentes e Acadêmicas de Enfermagem.
+							2000. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Taíse Bianchi Reis.Conhecimento do Adolescente sobre DST/AIDS: Uma Contribuição para a Enfermagem.
+							2000. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Vivian Radke Carnal Alliatti.As Opiniões das Acadêmicas de Enfermagem em Relação ao Executar e Ensinar o Auto-Exame Mensal das Mamas.
+							1999. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Marta Conte.Opiniões de Enfermeiros em Relação às Orientações de Enfermagem ao Paciente Pós-Transplante Cardíaco.
+							1999. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Simone Vianna Pantoja.Sentimentos e Percepções Vivenciadas por Enfermeiros ao Cuidar de Pacientes com HIV/AIDS.
+							1999. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Ana Regina Tomczyk.Satisfação do Funcionário de Enfermagem na Sala de Recuperação Pós-Anestésica.
+							1998. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Andréia Oleques Spiller.Abuso Sexual Infantil: A Conduta do Enfermeiro Frente à esta Situação.
+							1998. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Lúcia Benini e Zenaide Maria Ranzan.Estudo das Orientações de Enfermagem para Prevenção da Eclâmpsia Recebidas por Gestantes Internadas por Pré-Eclâmpsia.
+							1997. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>.  Participação em banca de Adriana Fassina e Adriana Roloff.Identificação do Grau de Conhecimento Adquirido pelos Trabalhadores de uma Metalúrgica de Porto Alegre (Setor X), em Relação às Ações Educativas de Saúde que Receberam no Primeiro Semestre de 1997.
+							1997. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>. Membro Titular da Comissão Examinadora do Concurso Público para Professor do Magistério Superior, Edital 230/2015 - Unipampa/Campus Uruguaiana, área de conhecimento: Epidemiologia, vigilância epidemiológica e bioestatística.
+							2015. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>. Membro Titular da Banca do Processo Seletivo Simplificado para Professor Substituto, Edital 118/2016 - Unipampa/Campus Uruguaiana, área de conhecimento: Enfermagem.
+							2016.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>. Membro Titular da Banca do Processo Seletivo Simplificado para Professor Substituto, Edital 260/2014 - Unipampa/Campus Uruguaiana, área de conhecimento: Enfermagem I.
+							2015.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MOREIRA, B. L. R.</b>. Banca Examinadora de Seleção Pública para Professor Substituto do Campus Uruguaiana, área Enfermagem, no Cuidado ao Adulto e em Situação Crítica de Vida.
+							2008.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Imersão Pedagógica do Curso de Enfermagem. 2018. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).Mostra Científica do 9º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). 2017. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio Integrado de Saúde no Pampa.Trabalhos Científicos.
+							2017. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).Mostra Científica do 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum de Graduação da Universidade Federal do Pampa. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Integrado de Saúde no Pampa.Trabalhos Científicos.
+							2016. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Programa de Pós-Graduação em Ciências Farmacêuticas.Disciplina de Seminários de Pós-Graduação. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Formação Pedagógica: Docência Universitária com foco na Metodologia e na Avaliação. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).Mostra Científica do VII Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Semana Acadêmica do Curso de Enfermagem da Universidade Federal do Pampa.Parecerista de trabalhos. 2014. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário Internacional Interdisciplinar: Humanização em Saúde.Painel Carta dos Direitos dos Usuários do SUS. 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Seminário de Desenvolvimento Docente da UNIPAMPA - Práticas Docentes em Construção: Realidades e Perspectivas. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).Expositor na Mostra das Profissões. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Seminário de Desenvolvimento Docente da UNIPAMPA. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Treinamento de Atualização e Sensibilização em Saúde Sexual e Reprodutiva, com enfoque no adolescente. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º Congresso da Rede Unida. Projeto Saúde e Prevenção nas Escolas: Uma Nova Alternativa para Discutir Sexualidade. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º Congresso da Rede Unida. Grupo de Gestantes: Uma Ferramenta em Saúde para o Cuidado. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Seminário de Desenvolvimento Profissional - Pedagogia Universitária. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).Fortalecendo as ações de prevenção DST/HIV/AIDS entre Brasil e Argentina. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).As percepções e a prática preventiva de universitárias dos cursos de enfermagem, farmácia e fisioterapia da UNIPAMPA/Campus Uruguaiana acerca do câncer de colo do útero. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).Bolsista de extensão: relato de experiência com o projeto Saúde e prevenção nas escolas. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana de Enfermagem da UNIPAMPA e I Mostra da Enfermagem.Comissão Científica. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Mostra Nacional Programa Saúde na Escola e a IV Mostra Nacional Saúde e Prevenção nas Escolas.SPE - Saúde e Educação uma Parceria de Sucesso. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Mostra Nacional Programa Saúde na Escola e a IV Mostra Nacional Saúde e Prevenção nas Escolas.SPE Uruguaiana e Protagonismo Juvenil. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Prevenção das DDT e Aids e I Congresso Brasileiro de Prevenção das Hepatites Virais. SPE Uruguaiana e o Protagonismo Juvenil. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Prevenção das DST e Aids e I Congresso Brasileiro de Prevenção das Hepatites Virais. Uruguaiana e Libres Unidas Fortalecendo o Protagonismo das PVHA. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Prevenção das DST e Aids e I Congresso Brasileiro de Prevenção das Hepatites Virais. SPE "Saúde + Educação uma Experiência de Sucesso na Fronteira". 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Salão Internacional de Extensão.Grupo de gestantes: relato de experiência. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Salão Internacional de Extensão.Saúde e Prevenção nas Escolas: uma possibilidade para discutir o tema sexualidade. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário de Desenvolvimento Profissional - Pedagogia Universitária. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Mostra Gaúcha do Saúde e Prevenção nas Escolas.Gravidez na Adolescência - SPE uma Intervenção Multidisciplinar na Comunidade Cabo Luiz Quevedo. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Congresso Brasileiro Prevenção das DST e AIDS. Gravidez na Adolescência: SPE Uma Intervenção Multidisciplinar na Comunidade Cabo Luiz Quevedo. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Mostra Científica - Ed. Internacional.Gravidez na Adolescência: Uma Proposta de Trabalho Integrado através do Projeto Saúde e Prevenção nas Escolas. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Mostra Científica - Ed. Internacional.Utilização de plantes medicinais como automedicação pela população da fronteira oeste do Rio Grande do Sul. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Salão de Iniciação Científica - Ed. Internacional.Utilização de Plantas Medicinais como Automedicação pela População da Fronteira Oeste do Estado do Rio Grande do Sukl. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Enfermagem da UNIPAMPA - Uruguaiana.A História da Enfermagem na Secretaria de Saúde e Meio Ambiente de Uruguaiana. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Enfermagem da UNIPAMPA - Uruguaiana.O Desenvolvimento da Saúde e da Enfermagem no Município de Uruguaiana. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana de Enfermagem da UNIPAMPA - Uruguaiana.A Enfermagem da Santa Casa Ontem e Hoje. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">10º Seminário Nacional de Pesquisa em Enfermagem.Opiniões de Pacientes com Sarcoma de Kaposi associado à AIDS sobre suas Vivências: Implicações Educacionais. 1999. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8ª Semana Acadêmica de Enfermagem.Oficina de Sensibilização em AIDS. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Congresso Internacional sobre Adolescência. AIDS: Uma Reflexão sobre a Vida e o Viver. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Prefeitura Municipal de Canoas (RS) - Departamento de Saúde Pública.Momentos de Debate sobre AIDS. 1998. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Semana Acadêmica de Enfermagem.Pela Qualidade da Vida, Pela Qualidade da Morte. 1998. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso Avaliação da Cavidade Oral e Intervenções de Enfermagem.Educação para a Saúde Bucal. 1997. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Brasileiro de Terapia Familiar. AIDS e Terapia Familiar. 1996. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Curso de Monitorização Clínica de Ensaios Clínicos com Novas Drogas Anticâncer.Manejo de Dados. 1995. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande do Sul - Departamento de Microbiologia - Instituto de Biociências.Enfermagem na Pesquisa Anticâncer: Ideologia, Protocolos e Condutas. 1994. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Congresso Brasileiro de Cancerologia. Monitorização de Estudos Clínicos de Fase II com Novas Drogas Anticâncer Utilizando Instrumentos de. 1994. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13ª Semana Científica do Hospital de Clínicas de Porto Alegre.Experiência com a Utilização do Termo Consentimento Pós-Informado em Protocolos de Fase II com Novas Drogas Anticâncer. 1993. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13ª Semana Científica do Hospital de Clínicas de Porto Alegre.Estudo de Fase II com Cisplatina (CDDP) e 5-Aza-Deoxicitidina (DAC) em pacientes com Carcinoma de Pulmão Não de Pequenas Células (CNPCP). 1993. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Congresso da sociedade Latino Americana de Oncologia Pediátrica - IV Congresso da sociedade Brasileira de Oncologia Pediátrica - I Jornada de Enfermagem em Oncologia Pediátrica. Experiência com a Utilização do termo de Consentimento Pós-Informado em Protocolos de Fase II com Novas Drogas Anticâncer. 1993. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. VI Jornada Médica da Santa Casa e I Seminário de Enfermagem. 2006. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7263325437834001" target="_blank">MOREIRA, B. L. R.</a></b>. Curso Avaliação da Cavidade Oral e Intervenções de Enfermagem. 1996. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diego Fernandes Leal.
+							Conhecimento de Universitários sobre Doenças Sexualmente Transmissíveis e HIV/AIDS.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diego Fernandes Leal.
+							Dúvidas de Universitários sobre Doenças Sexualmente Transmissíveis e HIV/AIDS.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Paula Pinheiro Silveira.
+							A Família e o Portador de Transtorno Mental: Uma Revisão da Literatura.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Farmácia)  - Universidade Federal do Pampa - Campus Uruguaiana. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carla Cibele Slveirada Costa.
+							Panejamento Familiar: a Perepção da Mulher acerca da Participação do Homem neste Contexto.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camila L. Ibarra, Helena P. Rodrigues, Nerite da S. Pires.
+							As Percepções e a Prática Preventiva de Universitárias dos Cursos de Enfermagem, Farmácia e Fisioterapia a UNIPAMPA/Campus Uruguaiana acerca do Câncer do Colo do Útero.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Catiane Aparecida de Moura.
+							Dúvidas de Gestantes Referentes à Gestação, ao Parto e ao Aleitamento Materno: Implicações para a Enfermagem.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Flávia Rodrigues Pandolfo.
+							Perfil Epidemiológico das Mulheres com Câncer de Colo Uterino no Município de Uruguaiana, RS, Brasil: Implicações para Enfermagem.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa - Campus Uruguaiana. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Arléia Patrícia Sternberg.
+							A Equipe de Enfermagem Diante da Dor do Recém-Nascido.
+							1997.
+							Trabalho de Conclusão de Curso. (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcela Soto Badilla.
+							Levantamento dos Cuidados na Diarréia Infecciosa Utilizados pelos Pais de Crianças de 0 a 12 Meses de Idade.
+							1997.
+							Trabalho de Conclusão de Curso. (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernanda Sant'Ana Tristão.
+							A Atuação do Enfermeiro em Centros de Hemoterapia.
+							1997.
+							Trabalho de Conclusão de Curso. (Graduação em Curso de Enfermagem)  - Universidade Luterana do Brasil. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maiana Pinheiro dos Santos.
+							Saúde e Prevenção nas Escolas (SPE).
+							2010.
+							Iniciação Científica. (Graduando em Enfermagem)  - Universidade Federal do Pampa,
+							Programa de Bolsas de Desenvolvimento Acadêmico. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camila Lara Ibarra.
+							Percepções de Professores de Ciências e Educação Física da Rede Pública Municipal de Ensino Fundamental de Uruguaiana acerca da Educação Sexual na Escola.
+							2009.
+							Iniciação Científica. (Graduando em Enfermagem)  - Universidade Federal do Pampa,
+							Programa de Bolsas de Desenvolvimento Acadêmico. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maiana Pinheiro dos Santos.
+							Saúde e Prevenção nas Escolas (SPE) - Grupo Gestor Municipal (GGM).
+							2009.
+							Iniciação Científica. (Graduando em Enfermagem)  - Universidade Federal do Pampa,
+							Programa de Bolsas de Desenvolvimento Acadêmico. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Flávia Rodrigues Pandolfo.
+							Saúde e Prevenção nas Escolas (SPE) - Grupo Gestor Municipal (GGM).
+							2008.
+							Iniciação Científica. (Graduando em Enfermagem)  - Universidade Federal do Pampa,
+							Programa de Bolsas de Desenvolvimento Acadêmico. Orientador: Betina Loitzenbauer da Rocha Moreira.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:26:28</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=7263325437834001" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

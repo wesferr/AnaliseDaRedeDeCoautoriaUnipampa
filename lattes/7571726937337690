@@ -1,0 +1,2598 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/46C0EAAE-1500-5E42-BB38-375500EB7B5E/main.js" charset="UTF-8"></script><script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_-213006401|rpid=620877565|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Ingrid Rios Lima Machado)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=7571726937337690" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4268069D9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4268069D9"><div class="infpessoa">
+<h2 class="nome">Ingrid Rios Lima Machado</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/7571726937337690</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 25/10/2016</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Medicina Veterinária pela Universidade Federal de Goiás (2006). Mestrado em Ciência Animal junto à área de concentração: Patologia, Clínica e Cirurgia Animal, pela Universidade Federal de Goiás (2009). Doutorado em Ciência Animal pela Universidade Federal de Minas Gerais junto a área de Clínica e Cirurgia Veterinária (2013).Atuação profissional nas seguintes áreas do conhecimento: Diagnóstico por image e clínica e cirurgia de grandes animais.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ingrid Rios Lima Machado<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">LIMA, I. R.;LIMA, INGRID R.;LIMA, INGRID RIOS;Machado, I. R.L.;MACHADO, INGRID RIOS LIMA;LIMA, I.R.;Ingrid R L Machado;Ingrid R. L. Machado;MACHADO, INGRID R.L.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Unipampa. <br class="clear" />BR 472 - Km 592<br class="clear" />Campus Uruguaiana<br class="clear" />30123970 - Uruguaiana, RS - Brasil<br class="clear" />Telefone: (55) 34218445<br class="clear" />Ramal: 9995<br class="clear" />URL da Homepage: <a target="blank" href="http://porteiras.unipampa.edu.br/uruguaiana/">http://porteiras.unipampa.edu.br/uruguaiana/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciência Animal<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Minas Gerais, UFMG, Brasil.
+		
+	<br class="clear" />Título: Nanobigéis na regeneração de ossos submetidos á fixação rígida: avaliação citotóxica, histológica e tomográfica, Ano de obtenção: 2013. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4660433855798183'><img src='images/curriculo/logolattes.gif' /></a>Rafael Resende Faleiros. <br class="clear" />Coorientador: Geraldo Eleno Silveira Alves. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: reparo ósseo; Nanotubos de carbono; Blindagem de tensão.<br class="clear" />Grande área: Ciências Agrárias<br class="clear" />Setores de atividade: Atividades veterinárias. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência Animal<span class="ajaxCAPES" data-param="&codigoCurso=52001016014P8&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	<br class="clear" />Título: Estudo clínico e radiográfico das extremidades distais dos membros locomotores de bovinos machos de corte,Ano de Obtenção: 2009.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9181279951885005'><img src='images/curriculo/logolattes.gif' /></a>Naida Cristina Borges.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: Dígitos; radiologia; claudicação.<br class="clear" />Grande área: Ciências Agrárias</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Medicina Veterinária<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	<br class="clear" />Título: Relato de casos clínicos. <br class="clear" />Orientador: Luiz Antonio Franco da Silva. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Capacitação de alunos no controle da Brucelose.  (Carga horária: 8h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Podologia em bovinos.  (Carga horária: 12h). <br class="clear" />Universidade de Brasília, UnB, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Radiologia dos animais domésticos.  (Carga horária: 50h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Acasalamento corretivo em gado de leite.  (Carga horária: 16h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Reprodução Equina.  (Carga horária: 24h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Medicina Interna Equina.  (Carga horária: 24h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inseminação artificial em bovinos.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR ADJUNTO, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor adjunto na área de diagnóstico por imagem e biofísica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Unipampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Diagnóstico por imagem em pequenos e grandes animais'>Diagnóstico por imagem em pequenos e grandes animais</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Minas Gerais, UFMG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno de Pós Graduação, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2011 - 07/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Traumatologia em grandes animais'>Traumatologia em grandes animais</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2011 - 04/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina Veterinária, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Técnica Cirurgica e Anestesiologia Veterinária (CVV-005)<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Goiás, UFG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno de Pós Graduação, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Monitor, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria na disciplina Clínica Cirúrgica Animal</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno de Graduação, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Realização de atividades de escrituração zootécnica e econômico-financeira da Fazenda -Escola</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 10/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina Veterinária, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Clínica Médica de Equinas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina Veterinária, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Diagnóstico por imagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 09/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina Veterinária, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" /> Diagnóstico por imagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2007 - 09/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Atendimento de rotina no Hospital Veterinário da Escola de Veterinária da UFG na área de Clínica e Cirurgia de Grandes Animais.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2006 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Atendimento Clínico e Cirurgico em Propriedades Rurais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 11/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Clínica e cirurgia veterinária : Emprego do sistema de aquecimento de fluidos no controle da hipotermia pré operatória em cães'>Clínica e cirurgia veterinária : Emprego do sistema de aquecimento de fluidos no controle da hipotermia pré operatória em cães</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2006 - 11/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Avaliação da Fertilidade de touros da raça Nelore portadores de dermatite digital bovina'>Avaliação da Fertilidade de touros da raça Nelore portadores de dermatite digital bovina</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2006 - 11/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Participação no projeto de extensão intitulado Atendimento Clínico e Cirúrgico em Propriedades Rurais. PROEC EV-27. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Campanha de esterilização de cadelas no município de Quirinópolis -GO. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2006 - 06/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Avaliação das Técnicas Cirurgicas e do Comportamento sexual de rufiões Bovinos, Ovinos e Caprinos'>Avaliação das Técnicas Cirurgicas e do Comportamento sexual de rufiões Bovinos, Ovinos e Caprinos</a><br class="clear" /><a href='#LP_Clínica e Cirurgia de grandes animais'>Clínica e Cirurgia de grandes animais</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2005 - 09/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Campanha de Vacinação Anti-Rábica Canina no município de Aparecida de Goiânia- GO. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2002 - 04/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Escola de Agronomia, Departamento de Agricultura. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Programa de Desenvolvimento da Pecuária Leiteria. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2003 - 09/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Escola de Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Campanha de vacinação Anti-Rábica Canina no município de Aparecida de Goiânia -GO. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade de Brasília, UnB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Médica veterinária, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Participação da rotina e atendimento de clínica cirurgia e diagnóstico por image de equídeos e ruminantes.</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Avalia&ccedil;&atilde;o das T&eacute;cnicas Cirurgicas e do Comportamento sexual de rufi&otilde;es Bovinos, Ovinos e Caprinos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação das Técnicas Cirurgicas e do Comportamento sexual de rufiões Bovinos, Ovinos e Caprinos</div>
+</div><a name='LP_Cl&iacute;nica e Cirurgia de grandes animais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Clínica e Cirurgia de grandes animais</div>
+</div><a name='LP_Cl&iacute;nica e cirurgia veterin&aacute;ria : Emprego do sistema de aquecimento de fluidos no controle da hipotermia pr&eacute; operat&oacute;ria em c&atilde;es'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Clínica e cirurgia veterinária : Emprego do sistema de aquecimento de fluidos no controle da hipotermia pré operatória em cães</div>
+</div><a name='LP_Avalia&ccedil;&atilde;o da Fertilidade de touros da ra&ccedil;a Nelore portadores de dermatite digital bovina'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação da Fertilidade de touros da raça Nelore portadores de dermatite digital bovina</div>
+</div><a name='LP_Traumatologia em grandes animais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Traumatologia em grandes animais</div>
+</div><a name='LP_Diagn&oacute;stico por imagem em pequenos e grandes animais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diagnóstico por imagem em pequenos e grandes animais</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Avalia&ccedil;&atilde;o ultrassonogr&aacute;fica da distribui&ccedil;&atilde;o do tecido adiposo em equinos da ra&ccedil;a Crioula'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação ultrassonográfica da distribuição do tecido adiposo em equinos da raça Crioula<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A deposição de gordura em equinos, bem como em humanos, é um importante indicador clinico. Mudanças nas reservas de energia do corpo têm uma influência considerável sobre a produtividade animal, saúde, reprodução e bem-estar. Vários métodos têm sido desenvolvidos e utilizados para avaliação das reservas de gordura corporal em diferentes espécies, dentre estes destacam-se o escore de condição corporal, devido sua praticidade de aplicação e a determinação da percentagem de gordura corporal através da ultrassonografia, que proporciona uma maior precisão em relação a quantificação da gordura presente no animal. Objetiva-se com este projeto avaliar a relação do escore de condição corporal, escore da crista do pescoço e medidas da circunferência do pescoço com medidas da espessura da gordura subcutânea obtidas através de exame ultrassonográfico realizado em cinco regiões distribuídas ao longo da área corpórea de equinos da raça Crioula.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Especialização: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Coordenador / Cláudia Acosta Duarte - Integrante / Fabrício Desconsi Mozzaquatro - Integrante / Denise Pimenta de Oliveira - Integrante / Rafaela da Silveira Prestes - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o radiogr&aacute;fica no diagn&oacute;stico de colapso de traqueia em c&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação radiográfica no diagnóstico de colapso de traqueia em cão<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O colapso traqueal é uma das doenças de comum apresentação em cães de pequeno porte, responsável por grande parte dos quadros respiratórios observados na medicina veterinária. Embora seja bem conhecida em seus aspectos clínicos, desconhece-se a etiologia, porém, a idade da apresentação é variável e muitas vezes os casos não são diagnosticados corretamente, levando a tratamentos desnecessários nos pacientes. Existem ferramentas para o diagnóstico correto da doença, sendo necessário a exposição do paciente a várias irradiações por serem feitas múltiplas projeções radiográficas. Outras técnicas diagnósticas requerem equipamento especializado, de alto custo e que necessitam procedimentos anestésicos, os quais, em pacientes com maior sinologia, colocam o paciente em alto risco de vida. Dessa forma, objetiva-se avaliar o efeito da compressão da traqueia, realizado com um equipamento experimental, de diferentes pressões, para determinar a melhor pressão a ser feita para diagnosticar o colabamento do lúmen traqueal.ara tanto, serão avaliados cães com colapso traqueal e sem colapso traqueal, provenientes da rotina hospitalar, subdivididos em: GC ? grupo controle (Pacientes sem colapso traqueal), GCT1 ? grupo colapso traqueal 1 (pacientes sem sinais clínicos, com diagnóstico radiográfico positivo), GCT2 ? grupo colapso traqueal 2 (pacientes com sinais clínicos, com diagnóstico radiográfico positivo). <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / MARIA LÍGIA DE ARRUDA MISTIERI - Integrante / JOÃO PAULO DA EXALTAÇÃO PASCON - Coordenador / Karen Gusmán - Integrante.<br class="clear" /></div>
+</div><a name='PP_Bem estar animal ? Percep&ccedil;&atilde;o da comunidade'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bem estar animal ? Percepção da comunidade<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O médico veterinário atua diretamente com os animais e nesta profissão há uma maior relação humano-animal. Além desta relação, o médico veterinário é considerado referencial no que tange à posse responsável de animais, na qual estão inclusos deveres no atendimento das necessidades físicas, psicológicas e ambientais do animal, além da prevenção de riscos que este possa causar ao homem. No entanto ainda existem controvérsias de opiniões sobre a posse responsável e os cuidados com os animais, os problemas devido a negligência nos cuidados com os animais tornam-se ainda mais graves em situações de baixo nível de instrução dos tutores destes animais ou em condições de baixo poder aquisitivo. Este seria um dos motivos do grande número de animais abandonados como é observado no município de Uruguaiana e o mesmo no Campus da Unipampa deste município. Apesar da disseminação das informações, a incidência de abandonos e maus tratos aos animais sugere que o grau de consciência de médicos veterinários e da comunidade como um todo acerca das suas responsabilidades sobre os animais de estimação poderia não estar coerente com os conceitos de posse responsável. Isso significa que as informações, apesar de disponibilizadas, não estão sendo absorvidas e aplicadas. Dentro dessa realidade, um dos caminhos mais eficazes para a redução dos problemas de abandono e maus tratos de animais seria a conscientização da comunidade por meio da disponibilização adequada das informações. No entanto, como uma etapa anterior à esta, se faz necessário conhecer esse grau de consciência presente nas pessoas, para a partir deste conhecimento, estabelecer as estratégias mais efetivas de conscientização. Neste contexto, este projeto tem como objetivos diagnosticar o grau de consciência da comunidade acadêmica da Unipampa e da comunidade de Uruguaiana sobre a posse responsável de animais de estimação por meio da aplicação de questionários em duas etapas. Na primeira etapa os questionários serão aplicados à comunidade acadêmica e posteriormente à comunidade do Município de Uruguaiana. Os dados serão analisados por meio de análise de correspondência multipla (ACM), visando identificar quais as principais variáveis que afetam o grau de consciência das pessoas, para adota-las como estratégias a serem trabalhadas nas campanhas de conscientização sobre posse responsável.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Coordenador / Marcelo Dal Pozzo - Integrante / Deise Dalazen Castagnara - Integrante / André Marx Faria - Integrante.<br class="clear" /></div>
+</div><a name='PP_Diagn&oacute;stico e tratamento de doen&ccedil;a periodontal em dentes pr&eacute;-molares e molares de equinos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diagnóstico e tratamento de doença periodontal em dentes pré-molares e molares de equinos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A doença periodontal acomete cavalos de todas as idades. Pode causar perda prematura dos dentes, dor e disfagia. A fisiologia da irrupção, biomecânica mastigatória, forças ortodônticas, envolvimento de bactérias, e mecanismos de defesa individuais possuem relevância no sucesso do tratamento. A doença pode apresentar-se de forma subclínica ou mostrar sinais clínicos semelhantes quando acomete somente um ou vários dentes. Conforme a gravidade da doença, os dentes mantém adesão ao alvéolo, ou apresentam-se demasiadamente afetados que podem ser facilmente extraídos manualmente. Caracteriza-se como conjunto de condições inflamatórias crônicas, com origem bacteriana e geralmente secundaria a má oclusão. Possui graduação clínica de 0 a 4. O incremento da endoscopia intra-oral ao exame clínico tradicional permite, além da identificação e diagnóstico preciso, a gravação e documentação dos distúrbios odontológicos e dos tecidos moles. Tem se mostrado ótima ferramenta na investigação das condições orais, além de favorecer o diagnóstico precoce de afecções, a manutenção e a longevidade dental. Serão utilizados noventa equinos adultos, machos e fêmeas, de diferentes modalidades, raças e criatórios, com diagnóstico prévio de doença periodontal, divididos em nove grupos de dez animais cada. O experimento será realizado no Hospital Veterinário da Universidade Federal do Pampa, Campus Uruguaiana/RS. A incidência de diagnóstico da doença periodontal ao exame clínico tradicional será comparada com o incremento da endoscopia intra-oral, por meio da documentação dos achados clínicos. Será realizado raio x da região acometida no dia 0 e dia 45. Nove tipos de protocolo diferentes de tratamento para doença periodontal serão avaliados: T1. remoção de cálculo e aplicação tópica de clorexidine; T2. remoção de cálculo e aplicação tópica de clorexidine impregnado em silicone de moldagem ;T3. remoção de cálculo e aplicação tópica de plasma rico em plaquetas; T4. remoção de cálculo e aplicação tópica de plasma rico em plaquetas impregnado em silicone de moldagem; T5. remoção do cálculo e aplicação tópica de soro autólogo; T6. remoção do cálculo e aplicação tópica de soro autólogo impregnado em silicone de moldagem; T7. remoção do cálculo e aplicação tópica de metronidazol. A reavaliação endoscópica será realizada aos 15, 30 e 45 dias após o tratamento.O presente estudo visa avaliar o incremento no diagnóstico da doença periodontal por meio da endoscopia intra-oral, além de comparar a evolução de diferentes tratamentos para a doença periodontal em dentes pré-molares e molares de equinos adultos.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (1)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Cláudia Acosta Duarte - Coordenador / CARLA TEIXEIRA LEITE - Integrante / MARCELO LAMEIRO PORCIUNCULA - Integrante / Bruno Gostinski Romero - Integrante / Geórgia Camargo Goss - Integrante / Fabrício Desconsi Mozzaquatro - Integrante / Gabriela Dowich - Integrante.<br class="clear" /></div>
+</div><a name='PP_Proje&ccedil;&otilde;es supinadas na avalia&ccedil;&atilde;o radiogr&aacute;fica do processo coron&oacute;ide medial da ulna de c&atilde;es'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeções supinadas na avaliação radiográfica do processo coronóide medial da ulna de cães<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A fragmentação do processo coronóide medial da ulna (FPCM) é afecção relativamente frequente em cães de grande porte. Seu diagnóstico precoce é importante na profilaxia da doença, pois os animais positivos devem ser retirados de programas de reprodução devido ao caráter hereditário da doença. Entretanto, tal diagnóstico precoce é difícil quando técnicas como tomografia computadorizada, ressonância magnética ou artroscopia não estão disponíveis. O presente trabalho tem o intuito de padronizar e testar projeções radiográficas supinadas para a identificação do processo coronóide medial da ulna; avaliar as projeções médio lateral em supinação na avaliação do processo coronóide medial da ulna de cães suspeitos de fragmentação deste processo e saudáveis; e comparar os achados radiográficos aos achados cirúrgicos dos cães que forem submetidos à artrotomia. Para tal serão radiografados vinte cães (saudáveis ou portadores da doença) com peso superior a 25 kg, consistindo de quarenta cotovelos, nas projeções mediolateral em extensão, mediolateral em flexão total, craniocaudal, mediolateral em flexão de 90 graus e supinação máxima, mediolateral em extensão e supinação máxima. As radiografias serão avaliadas por dois avaliadores diferentes e comparadas quanto à capacidade e facilidade de definição do processo coronóide medial da ulna e demais alterações comumente presentes quando há fragmentação deste processo. Quando houver suspeita clínica e evidência radiográfica de FPCM, os cães serão submetidos à artrotomia. Os resultados serão descritos e comparados para se determinar a concordância entre os avaliadores e a sensibilidade diagnóstica em relação às observações cirúrgicas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Coordenador / MARIA LÍGIA DE ARRUDA MISTIERI - Integrante / JOÃO PAULO DA EXALTAÇÃO PASCON - Integrante / LEANDRO ZIEMER CARNEIRO - Integrante.<br class="clear" /></div>
+</div><a name='PP_Padr&atilde;o ultrassonogr&aacute;fico de neoplasias cut&acirc;neas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Padrão ultrassonográfico de neoplasias cutâneas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Os tumores cutâneos em pequenos animais estão entre os tipos mais frequentes de neoplasias na rotina clínica, representando 10 a 20% do montante dos diagnósticos em pequenos animais. As alterações incluem uma ampla gama de tumores de diferentes origens e difertes graus de malignidade. Atualmente, para seu diagnóstico, métodos invasivos como punção aspirativa por agulha fina e/ou bíopsia incisional são necessários. No entanto, a ultrassonografia de alta frequência tem sido utilizada em humanos na avaliação de alterações cutâneas e tumores. Seu uso na veterinária ainda é restrito à procura de metástases, pois não se sabe se existe alguma correlação entre os achados sonográficos com o tipo de neoplasia. O presente estudo visa avaliar sonograficamente os tumores cutâneos de cães e gatos portadores de neoplasias apresentados à rotina do HUVet-Unipmapa e verificar se existe alguma correlação entre tais achados e as avaliações citológicas e histopatológicas. Os animais seguirão o protocolo de diagnóstico e terapia já estabelecido na Unidade, apenas será acrescida a avaliação sonográfica dos tumores. Esse método é indolor e não invasivo, não representando nenhum risco ao paciente.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / MARIA LÍGIA DE ARRUDA MISTIERI - Coordenador / JOÃO PAULO DA EXALTAÇÃO PASCON - Integrante / Maria Elisa Trost - Integrante / Debora Beatriz Alves Freitas - Integrante / Rafaela da Silveira Prestes - Integrante.<br class="clear" /></div>
+</div><a name='PP_AVALIA&Ccedil;&Atilde;O CL&Iacute;NICA E RADIOL&Oacute;GICA DE DESVIOS ANGULARES EM POTROS DA RA&Ccedil;A CRIOULA COM OU SEM SUPLEMENTA&Ccedil;&Atilde;O MINERAL DO NASCIMENTO AO 6&ordm; M&Ecirc;S DE VIDA'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AVALIAÇÃO CLÍNICA E RADIOLÓGICA DE DESVIOS ANGULARES EM POTROS DA RAÇA CRIOULA COM OU SEM SUPLEMENTAÇÃO MINERAL DO NASCIMENTO AO 6º MÊS DE VIDA<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: desvio angular é definido como um desvio do eixo normal do membro no plano frontal, e é denominado pela articulação envolvida e a direção do aspecto distal do membro. É classificada ainda como uma doença ortopédica do desenvolvimento, em que o diagnóstico está baseado no exame clínico e radiográfico. Os equinos da raça Crioula são cavalos de sela, que devem suportar o peso de um cavaleiro e, ao mesmo tempo, executar os movimentos requeridos. Assim, necessita-se de animais que tenham vida útil longa e saudável. A pressão da indústria do cavalo Crioulo sobre a criação e a profissionalização, observadas nas competições desta raça, tem feito com que animais cada vez mais jovens sejam preparados para competições de conformação, doma e treinamento. Como o desvio angular interfere diretamente com a vida atlética destes animais, objetiva-se, por meio deste estudo, a avaliação clínica e radiológica para verificar a incidência e grau de acometimento de desvios angulares em potros da raça crioula com ou sem suplementação mineral. Assim, o experimento será desenvolvido dividindo-se 60 éguas da raça crioula no terço final de gestação, em dois grupos, sendo que um grupo receberá suplementação mineral e o outro não e, em ambos, os animais permanecerão em pasto nativo. Esta divisão será mantida também com a progênie a partir do nascimento até o 6º mês de vida. Os potros serão examinados clinicamente e radiografados no 1º dia de vida, 30, 60, 90, 120, 150 e 180 dias, sendo efetuadas projeções das articulações radiocarpicametacarpica, metacapofalangeana, tibiotarsicametatársica e metatarsofalangeana. Os resultados obtidos serão submetidos à análise de variância, seguida do teste Tukey com 95% de confiabilidade.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Especialização: (0)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Coordenador / Cláudia Acosta Duarte - Integrante / CARLA TEIXEIRA LEITE - Integrante / IGOR SOARES LEONI - Integrante / HYRIA FERNANDES PINTO - Integrante / MARCELO LAMEIRO PORCIUNCULA - Integrante / BRUNA KAROLLINI DA SILVA ROSA - Integrante.<br class="clear" /></div>
+</div><a name='PP_Laminite em Bovinos e Equinos: Investigando Evid&ecirc;ncias da Hip&oacute;tese da S&iacute;ndrome da Resposta Inflamat&oacute;ria Sist&ecirc;mica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Laminite em Bovinos e Equinos: Investigando Evidências da Hipótese da Síndrome da Resposta Inflamatória Sistêmica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Jéssica Fontana de Magalhães - Integrante / LEONARDO ROGDRIGUES DE LIMA - Integrante / RAFAEL RESENDE FALEIROS - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Estrat&eacute;gias que inibem o recrutamento de neutr&oacute;filos: novo alvo farmacol&oacute;gico para o tratamento da laminite em eq&uuml;inos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estratégias que inibem o recrutamento de neutrófilos: novo alvo farmacológico para o tratamento da laminite em eqüinos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esse projeto testará fármacos que inibem o recrutamento de neutrófilos com objetivo de esclarecer a fisiopatologia da laminite induzida por excesso de carboidratos e estabelecer novas estratégias terapêuticas para seu tratamento. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (2)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / GERALDO ELENO SILVEIRA ALVES - Integrante / RAFAEL RESENDE FALEIROS - Coordenador / Heloisa Maria Falcão Mendes - Integrante / Danielle G. Souza - Integrante / Mauro Martins Teixeira - Integrante / James K. Belknap - Integrante.<br class="clear" /></div>
+</div><a name='PP_Estudo Radiol&oacute;gico dos D&iacute;gitos de Bovinos Mesti&ccedil;os (Zebu&iacute;no X Europeu) Saud&aacute;veis e Portadores de Enfermidades Digitais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo Radiológico dos Dígitos de Bovinos Mestiços (Zebuíno X Europeu) Saudáveis e Portadores de Enfermidades Digitais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Naida Cristina Borges em 29/05/2015.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: As doenças digitais constituem uma das mais prevalentes e dispendiosas enfermidades em rebanhos bovinos. Os dígitos são expostos a traumatismos, apresentam defeitos congênitos, hereditários, emboletamento, pododermatite séptica, laminite e dermatite digital. Além de comprometerem as estruturas externas com o agravamento do problema podem atingir componentes internos tais como tendões, ligamentos e articulações. É possível minimizar as perdas econômicas estabelecendo diagnósticos precoces associados a tratamento adequados. O diagnóstico das enfermidades podais fundamenta-se na realização da anamnese, sintomas e sinais clínicos, exame radiográfico e laboratoriais. Este estudo propõe realizar o exame radiográfico dos dígitos de bovinos mestiços saudáveis e portadores de laminite e pododermatite digital e constará de duas etapas. Na primeira serão radiografadas 40 extremidades distais dos membros locomotores de bovinos, sendo 20 sem lesões aparentes e 20 com diferentes lesões, obtidas em frigoríficos sob Inspeção Federal localizados no Município de Goiânia-Go. A segunda etapa será desenvolvida em propriedades rurais do Estado de Goiás, empregando 120 fêmeas. Os bovinos serão distribuídos aleatoriamente em seis grupos (I, II, III, IV, V, VI) de 20 animais cada. Os grupos I e II (GI e G II) serão constituídos de animais clinicamente saudáveis, manejadas extensivamente e intensivamente. No grupo III (G III) serão alocados animais com sinais clínicos de laminite e nos grupos IV, V e VI (G IV, G V, G VI) os bovinos acometidos de dermatite digital nas formas inicial, erosiva e papilomatosa. Ao concluir o presente estudo acredita-se que será possível classificar e dimensionar o grau de comprometimento de estruturas digitais internas. Nesse contexto, os produtores poderão minimizar seus prejuízos evitando-se a comercialização precoce de bovinos de alto valor zootécnico com possibilidade de restabelecimento, ou descartar animais cujo custo do tratamento supere o benefício. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Luiz Antonio Franco da Silva - Integrante / Maria Clorinda Soares Fioravanti - Integrante / Naida Cristina Borges - Coordenador / Olízio Claudino Silva - Integrante / Ana Paula Araújo Costa - Integrante / Ana Carolina Costa - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o da fertilidade de touros da ra&ccedil;a nelore portadores de dermatite digital bovina'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação da fertilidade de touros da raça nelore portadores de dermatite digital bovina<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto tem por objetivo avaliar a fertilidade de touros da raça nelore saudavéis e portadores de dermatite digital. Serão utilizados 21 touros distribuidos em três grupos, onde será posteriormente realizado o exame andrologico. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Mestrado acadêmico: (4)  / Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Luiz Antonio Franco da Silva - Coordenador / Maria Clorinda Soares Fioravanti - Integrante / Naida Cristina Borges - Integrante / Maria Ivete Moura - Integrante / Lorena Karine Soares - Integrante / Maria Lúcia Gambarini Meirinhos - Integrante / Ediane Batista da Silva - Integrante / Liliana Borges de Menezes - Integrante / Marco Antônio de Oliveira Viu - Integrante / Leandro Batista Caetano - Integrante / Daniel Silva Goulart - Integrante.<br class="clear" /></div>
+</div><a name='PP_EMPREGO DO SISTEMA DE AQUECIMENTO DE FLUIDOS (SAF) NO CONTROLE DA HIPOTERMIA PR&Eacute;-OPERAT&Oacute;RIA EM C&Atilde;ES (CANNIS FAMILIARIS)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">EMPREGO DO SISTEMA DE AQUECIMENTO DE FLUIDOS (SAF) NO CONTROLE DA HIPOTERMIA PRÉ-OPERATÓRIA EM CÃES (CANNIS FAMILIARIS)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto objetiva avaliar os parâmetros clínicos, eletrocardiográficos e gasométricos em cães submetidos a ovarioisterectomia, recebendo durante o procedimento cirúrgico infusão de solução fisiológica 0,9% em temperatura ambiente aquecida pelo SAF(Sistema de aquecimento de fluidos). <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Luiz Antonio Franco da Silva - Coordenador / Lorena Karine Soares - Integrante / Karollina Moraes Bernades - Integrante / Marco Augusto Machado Silva - Integrante / Olízio Claudino Silva - Integrante / Geisa Isilda Ferreira Esteves - Integrante / Cátia oliveira Guimarães - Integrante / Leandro Batista Caetano - Integrante / Ingrid Bueno Atayde - Integrante / leandro guimarães franco - Integrante.<br class="clear" /></div>
+</div><a name='PP_AVALIA&Ccedil;&Atilde;O DAS T&Eacute;CNICAS CIR&Uacute;RGICAS E DO COMPORTAMENTO SEXUAL DE RUFI&Otilde;ES BOVINOS, OVINOS E CAPRINOS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AVALIAÇÃO DAS TÉCNICAS CIRÚRGICAS E DO COMPORTAMENTO SEXUAL DE RUFIÕES BOVINOS, OVINOS E CAPRINOS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (1)  / Mestrado acadêmico: (2)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Luiz Antonio Franco da Silva - Coordenador / Maria Clorinda Soares Fioravanti - Integrante / Rogério Elias Rabelo - Integrante / Cássia Maria Molinaro Coelho - Integrante / Valessa Teixeira Barbosa - Integrante / Lorena Ribeiro Martins - Integrante / Alana Flávia Romani - Integrante / Gustavo Eduardo Freneau - Integrante / Sibele Martins Chaves - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto Carroceiro 2016/2018'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Carroceiro 2016/2018<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O número de equinos utilizados na tração de carroças nas cidades é significativo. Esses animais, principalmente na área urbana, são levados a enfrentar uma forma de vida totalmente adversa, tendo que se adaptar a um trabalho excessivo em condições de pouca sanidade e má nutrição. Grande parte dos carroceiros faz o manejo inadequado dos seus animais por falta de conhecimento e orientação técnica. Devido aos limitados recursos desses proprietários, os cavalos de carroça recebem pouca ou nenhuma assistência veterinária, vivendo em condições precárias caracterizadas por desnutrição, parasitoses, problemas locomotores e doenças infecciosas, além de zoonoses. O Projeto Carroceiro foi idealizado em virtude da necessidade de atender estes equinos e zelar pelas suas condições sanitárias e com o intuito de buscar uma maior inserção social dos seus proprietários, incluindo melhoria da qualidade de vida e otimização do seu trabalho. A ação se caracteriza por um trabalho de cadastramento, levantamento de dados, atendimento veterinário e orientação dos carroceiros quanto ao manejo higiênico, sanitário e nutricional de seus animais. O Projeto Carroceiro 2016/2018 dará continuidade ao trabalho que vem sendo executado desde 01 de abril de 2012 e tem como objetivo a prestação de atendimento clínico e cirúrgico aos equinos de carroças, incluindo exames clínicos e complementares, além de retorno das consultas. Após a conclusão diagnóstica, objetiva-se também o encaminhamento terapêutico necessário. Além do atendimento veterinário, pretende-se realizar um trabalho educativo com os proprietários, vislumbrando possibilidades reais de melhoria de vida para os cavalos e para a sociedade que depende destes animais para sobreviver. Também busca a integração dos estudantes à realidade social deste contexto.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (1)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Cláudia Acosta Duarte - Coordenador / CARLA TEIXEIRA LEITE - Integrante / MARCELO LAMEIRO PORCIUNCULA - Integrante / IRINA LUBECK - Integrante / TAIANE ACUNHA ESCOBAR - Integrante / Bruno Gostinski Romero - Integrante / Geórgia Camargo Goss - Integrante / Loreane Rosa da Rosa - Integrante / Fabrício Desconsi Mozzaquatro - Integrante.<br class="clear" /></div>
+</div><a name='PP_Posse respons&aacute;vel como ferramenta na forma&ccedil;&atilde;o de recursos humanos e no bem estar animal'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Posse responsável como ferramenta na formação de recursos humanos e no bem estar animal<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Unipampa Campus de Uruguaiana está inserida na microrregião da campanha ocidental gaúcha, a qual encontra-se com a realidade socioeconômica enfraquecida, que associada ao nível cultural da população reflete em diversos problemas, dentre eles o abandono de animais. A existência do Hospital Veterinário (HV) no campus Uruguaiana desenvolve nos munícipes a falsa perspectiva de obrigatoriedade nos cuidados com animais abandonados, culminando com o abandono de animais nas proximidades do campus e seu acúmulo no ambiente universitário. Comovidos com o apelo dos animais famintos, acadêmicos e funcionários, erroneamente alimentam estes animais de forma precária, contribuindo com a permanência dos mesmos no campus. Com a perspectiva de iniciar um processo de conscientização e amenizar os problemas existentes, este projeto visa a posse responsável de animais no interior do campus Uruguaiana e campanhas de conscientização do publico acadêmico e da comunidade de Uruguaiana. Os cães errantes presentes no campus serão alojados em ambiente adequado e receberão cuidados diários com alimentação e sanidade, envolvendo acadêmicos, servidores e funcionários terceirizados engajados com o bem estar destes animais. Somente farão parte do projeto animais soronegativos para Leishmaniose, que apresentem docilidade, adaptação ao ambiente disponível para sua manutenção e existência de um (ou mais) acadêmico, servidor ou terceirizado responsável pela sua tutoria. Para ser incluído no projeto o acadêmico precisa obrigatoriamente estar disposto a ser incluído na rotina de limpeza das baias, alimentação e passeio dos cães atendidos pelo projeto. Almeja-se com o projeto solucionar o problema dos cães perambulantes pelo campus Uruguaiana, desenvolver a conscientização das pessoas sobre a não alimentação destes animais nos espaços do campus, obter a preparação de recursos humanos (acadêmicos do curso de medicina veterinária) para atuação no mercado de trabalho ou ingresso na pós graduação além da produção científica de resumos expandidos à comunidade acadêmica.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Coordenador / Marcelo Dal Pozzo - Integrante / Deise Dalazen Castagnara - Integrante / André Marx Faria - Integrante / Débora da Cruz Payão Pellegrini - Integrante.<br class="clear" /></div>
+</div><a name='PP_Projeto Carroceiro 2014/ 2015'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Carroceiro 2014/ 2015<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O número de equinos utilizados na tração de carroças nas cidades é significativo. Esses animais, principalmente na área urbana, são levados a enfrentar uma forma de vida totalmente adversa, tendo que se adaptar a um trabalho excessivo em condições de pouca sanidade e má nutrição. Grande parte dos carroceiros faz o manejo inadequado dos seus animais por falta de conhecimento e orientação técnica. Devido aos limitados recursos desses proprietários, os cavalos de carroça recebem pouca ou nenhuma assistência veterinária, vivendo em condições precárias caracterizadas por desnutrição, parasitoses, problemas locomotores e doenças infecciosas, além de zoonoses. O Projeto Carroceiro foi idealizado em virtude da necessidade de atender estes equinos e zelar pelas suas condições sanitárias e com o intuito de buscar uma maior inserção social dos seus proprietários, incluindo melhoria da qualidade de vida e otimização do seu trabalho. A ação se caracteriza por um trabalho de cadastramento, levantamento de dados, atendimento veterinário e orientação dos carroceiros quanto ao manejo higiênico, sanitário e nutricional de seus animais. O Projeto Carroceiro 2014/2015 dará continuidade ao trabalho que vem sendo executado desde 01 de abril de 2012 e tem como objetivo a prestação de atendimento clínico e cirúrgico aos equinos de carroças, incluindo exames clínicos e complementares, além de retorno das consultas. Após a conclusão diagnóstica, objetiva-se também o encaminhamento terapêutico necessário. Além do atendimento veterinário, pretende-se realizar um trabalho educativo com os proprietários, vislumbrando possibilidades reais de melhoria de vida para os cavalos e para a sociedade que depende destes animais para sobreviver. Também busca a integração dos estudantes à realidade social deste contexto.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (9)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Cláudia Acosta Duarte - Coordenador / CARLA TEIXEIRA LEITE - Integrante / IGOR SOARES LEONI - Integrante / HYRIA FERNANDES PINTO - Integrante / MARCELO LAMEIRO PORCIUNCULA - Integrante / BRUNA KAROLLINI DA SILVA ROSA - Integrante / IRINA LUBECK - Integrante / TAIANE ACUNHA ESCOBAR - Integrante / MIRELA NORO - Integrante / ELTON PERES PEREIRA - Integrante / FELIPE BERNARDON - Integrante / CAROLINA NETTO DE OLIVEIRA DA CUNHA - Integrante / LUANA COSTA POLO - Integrante / FLAVIA ACOSTA DUARTE - Integrante.<br class="clear" /></div>
+</div><a name='PP_Cl&iacute;nica e cirurgia de equ&iacute;deos- Hospital Veterin&aacute;rio'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Clínica e cirurgia de equídeos- Hospital Veterinário<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Atendimento de equídeos do Estado de Goiás encaminhados por proprietários ou ou médicos veterinários de campo, visando o estabelecimento de diagnóstico e tratamento clínico e/ou cirúrgico, controle e diagnóstico de enfermidades infecto-contagiosas e conscientização de proprietários e criadores quanto ao manejo racional da espécie... <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (20)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Coordenador / Luciana Ramos Gaston Brandstetter - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Centro de Inova&ccedil;&atilde;o Tecnol&oacute;gica para Desenvolvimento do Agroneg&oacute;cio Cavalo'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Centro de Inovação Tecnológica para Desenvolvimento do Agronegócio Cavalo<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A meta é criar um núcleo de referência nacional, que será dotado de completa infraestrutura, dos mais modernos equipamentos e de mão de obra altamente qualificada e que terá como missão trazer soluções inovadoras para o agronegócio cavalo. Entre os objetivos desse núcleo estão o estudo da biomecânica das raças nacionais (especialmente os animais de marcha), o diagnóstico moderno e o desenvolvimento de terapias para problemas ortopédicos e desenvolver técnicas de reabilitação.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Especialização: (1)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Integrante / Jéssica Fontana de Magalhães - Integrante / GERALDO ELENO SILVEIRA ALVES - Integrante / LEONARDO ROGDRIGUES DE LIMA - Integrante / RAFAEL RESENDE FALEIROS - Coordenador / Rodrigo Castro Valadares - Integrante / Lívia Camargo Garbin - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Grupo de estudo de diagn&oacute;stico por imagem'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de estudo de diagnóstico por imagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O grupo de estudo em diagnóstico por imagem de pequenos e grandes animais tem como objetivo proporcionar aos alunos participantes o aprendizado, desenvolvimento e/ou acompanhamento de exames de imagem que auxiliam no diagnóstico de diversas patologias. Além disso, os alunos serão estimulados a participar e colaborar em projetos de pesquisa nas áreas de radiologia e ultrassonografia veterinária, bem como, elaborar resumos científicos para eventos acadêmicos. Ao final do projeto, espera-se que os alunos tenham desenvolvido senso crítico sobre a conduta veterinária e interpretação das imagens de diferentes afecções do sistema musculo esquelético, geniturinário, gastrointestinal, cardiovascular e respiratório de animais domésticos.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Ingrid Rios Lima Machado - Coordenador / BRUNA GODOI DE CASTRO - Integrante / GUILHERME PFEIFFER DA SILVA - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Medicina Veterinária / Subárea: Clínica e Cirurgia Animal. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Medicina Veterinária / Subárea: Diagnóstico por imagem. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Primeiro Lugar: Melhor trabalho de pesquisa "Medidas Radiográficas do Dígito de Éguas da Raça Mangalarga Marchador com e sem Sinais de Obesidade" na área de clínica e cirurgia., V Simpósio Internacional. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Relevância Acadêmica pelo trabalho Morfometria Radiográfica Indicadora de Laminite no Dígito de Éguas Normais e Obesas da Raça Mangalarga Marchador, Pró-reitoria de pesquisa da UFMG.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º colocado na categoria Apoio diagnóstico de pequenos animais, III Congresso do Centro-oeste de pequenos animais. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AZEVEDO, D.S.D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1678-4162-7567" target="_blank"></a>AZEVEDO, D.S.D. ; XAVIER, V.F. ; RIBEIRO, R.M. ; VILLELA, S.B. ; CASTRO, T.C. ; VIEIRA, R.A.M. ; <b>LIMA, I.R.</b> ; MARVAL, C.A. ; FALEIROS, R.R. . Alterações radiográficas do aparato podotroclear de equinos da Polícia Militar de Minas Gerais sem sinais clínicos de doença do osso navicular. Arquivo Brasileiro de Medicina Veterinária e Zootecnia (Online)<sup><img id='16784162_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16784162' /></sup>, v. 67, p. 1033-1038, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1678-4162-7567&issn=16784162&volume=67&issue=&paginaInicial=1033&titulo=Alterações radiográficas do aparato podotroclear de equinos da Polícia Militar de Minas Gerais sem sinais clínicos de doença do osso navicular&sequencial=1&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVEIRA, CAROLINE S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0100-736x2015001100005" target="_blank"></a>SILVEIRA, CAROLINE S. ; DIEFENBACH, ALINE ; MISTIERI, MARIA LÍGIA ; <b>MACHADO, INGRID R.L.</b> ; ANJOS, BRUNO L. . Dioctophyma renale em 28 cães: aspectos clinicopatológicos e ultrassonográficos. Pesquisa Veterinária Brasileira (Online)<sup><img id='16785150_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16785150' /></sup>, v. 35, p. 899-905, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0100-736x2015001100005&issn=16785150&volume=35&issue=&paginaInicial=899&titulo=Dioctophyma renale em 28 cães: aspectos clinicopatológicos e ultrassonográficos&sequencial=2&nomePeriodico=Pesquisa Veterinária Brasileira (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>XAVIER, V.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1678-41626006" target="_blank"></a>XAVIER, V.F. ; <b>LIMA, I.R.</b> ; MARVAL, C. A. D. ; SILVEIRA, D. ; VIEIRA, R.A.M. ; CASTRO, T.D.C. ; MOURA, D.A.D. ; VILELA, S.B. ; FALEIROS, R.R. . Estudo radiográfico do posicionamento da falange distal e suas possíveis correlações com obesidade em equinos de patrulhamento da Polícia Militar do Estado de Minas Gerais. Arquivo Brasileiro de Medicina Veterinária e Zootecnia<sup><img id='01020935_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01020935' /></sup>, v. 66, p. 672-680, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1678-41626006&issn=01020935&volume=66&issue=&paginaInicial=672&titulo=Estudo radiográfico do posicionamento da falange distal e suas possíveis correlações com obesidade em equinos de patrulhamento da Polícia Militar do Estado de Minas Gerais&sequencial=3&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAGALHÃES, J.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1678-6544" target="_blank"></a>MAGALHÃES, J.F. ; <b>LIMA, I.R.</b> ; LIMA, L.R. ; VARELA, J.A.R.C. ; VIEIRA, R.A.M. ; ALVES, G.E.S. ; FALEIROS, R.R. . Estudo da correlação de medidas radiográficas indicadoras de laminite em éguas da raça Mangalarga Marchador com e sem sinais de sobrepeso. Arquivo Brasileiro de Medicina Veterinária e Zootecnia<sup><img id='01020935_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01020935' /></sup>, v. 66, p. 1023-1032, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1678-6544&issn=01020935&volume=66&issue=&paginaInicial=1023&titulo=Estudo da correlação de medidas radiográficas indicadoras de laminite em éguas da raça Mangalarga Marchador com e sem sinais de sobrepeso&sequencial=4&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, INGRID RIOS LIMA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/0103-8478cr20140003" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">MACHADO, INGRID RIOS LIMA</a></b>; MENDES, HELOISA MARIA FALCÃO ; ALVES, GERALDO ELENO SILVEIRA ; FALEIROS, RAFAEL RESENDE . Nanotubos de carbono: potencial de uso em medicina veterinária. Ciência Rural (UFSM. Impresso)<sup><img id='01038478_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01038478' /></sup>, v. 44, p. 1823-1829, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/0103-8478cr20140003&issn=01038478&volume=44&issue=&paginaInicial=1823&titulo=Nanotubos de carbono: potencial de uso em medicina veterinária&sequencial=5&nomePeriodico=Ciência Rural (UFSM. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MENDES, HELOISA M.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0100-736x2013000500011" target="_blank"></a>MENDES, HELOISA M.F. ; CASAGRANDE, FERNANDO P. ; <b>LIMA, INGRID R.</b> ; SOUZA, CAIRO H. ; GONTIJO, LÍLIAN D'. ; ALVES, GERALDO E.S. ; VASCONCELOS, ANILTON C. ; FALEIROS, RAFAEL R. . Histopathology of dairy cows' hooves with signs of naturally acquired laminitis. Pesquisa Veterinária Brasileira (Impresso)<sup><img id='0100736X_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0100736X' /></sup>, v. 33, p. 613-619, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0100-736x2013000500011&issn=0100736X&volume=33&issue=&paginaInicial=613&titulo=Histopathology of dairy cows' hooves with signs of naturally acquired laminitis&sequencial=6&nomePeriodico=Pesquisa Veterinária Brasileira (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVA, LUIZ HENRIQUE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5216/cab.v12i3.12850" target="_blank"></a>SILVA, LUIZ HENRIQUE ; <b>LIMA, INGRID RIOS</b> ; FONSECA, ÂNGELA MONI ; BORGES, NAIDA CRISTINA ; FIORAVANTI, MARIA C. SOARES . AVALIAÇÕES MORFOLÓGICAS DE LESÕES NAS EXTREMIDADES DISTAIS DOS MEMBROS DE BOVINOS CLAUDICANTES. Ciência Animal Brasileira (Online)<sup><img id='18096891_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18096891' /></sup>, v. 12, p. 566-575, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5216/cab.v12i3.12850&issn=18096891&volume=12&issue=&paginaInicial=566&titulo=AVALIAÇÕES MORFOLÓGICAS DE LESÕES NAS EXTREMIDADES DISTAIS DOS MEMBROS DE BOVINOS CLAUDICANTES&sequencial=7&nomePeriodico=Ciência Animal Brasileira (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BORGES, N. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8427948775867291" target="_blank">COSTA, A. C.</a> ; CANOLA, J. C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; CARCIOFI, A. C. ; VASCONCELLOS, R. S. ; PAULA, F. J. A. . Correlação entre Parâmetros Biométricos e a Massa Gorda e Massa Magra Estimada pelo DEXA, em Gatos Obesos. Ciência Animal Brasileira (UFG)<sup><img id='15182797_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15182797' /></sup>, v. 1, p. 43-45, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15182797&volume=1&issue=&paginaInicial=43&titulo=Correlação entre Parâmetros Biométricos e a Massa Gorda e Massa Magra Estimada pelo DEXA, em Gatos Obesos&sequencial=8&nomePeriodico=Ciência Animal Brasileira (UFG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; BORGES, J. R. J. ; CUNHA, P. H. J. ; COELHO, C. M. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . Enfermidades da Região do casco. In: Luiz Antonio Franco da Silva, Renata de Pino Albuquerque Maranhão, Meryonne Moreira, Duvaldo Eurides, Maristela Silveira Palhares. (Org.). Aparelho Locomotor Equino Enfermidades e Diagnóstico. 1ed.Goiânia: Kelps, 2008, v. 1, p. 165-190. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, O. C. ; EURIDES, D. ; FRANCO, L. G. ; ROZA, M. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . Anatomia do Aparelho Locomotor Equino. In: Luiz Antonio Franco da Silva, Renata de Pino Albuquerque Maranhão, Meryonne Moreira, Duvaldo Eurides, Maristela Silveira Palhares. (Org.). Aparelho Locomotor Equino enfermidades e diagnóstico. 1ed.Goiania: Kelps, 2008, v. 1, p. 15-42. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, A. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SILVA, L. H ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . AVALIAÇÃO CLÍNICA DE ANIMAIS PORTADORES DE CLAUDICAÇÃO DECORRENTE DE ENFERMIDADES PODAIS. In: VI Congresso de Pesquisa Ensino e Extensão, 2009, Goiânia. VI Congresso de Pesquisa Ensino e Extensão, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. H ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; FONSECA, A. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . AVALIAÇÃO CLÍNICA E HISTOPATOLÓGICA DOS DÍGITOS DE BOVINOS CLAUDICANTES PORTADORES DE ENFERMIDADES DIGITAIS. In: VI Congresso de Pesquisa Ensina e Extensão, 2009, Goiânia. VI Congresso de Pesquisa Ensina e Extensão,, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SILVA, L. H ; FONSECA, A. M. ; MATOS, M. P. C. ; PIRES, H. C. ; CASTRO, D. P. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . Estudo Radiográfico e Histológico dos Dígitos de Bovinos Saudáveis e Portadores de Enfermidades Digitais. In: V Congresso de Pequisa e Extensão, 2008, Goiânia. V Congresso de Pequisa e Extensão, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, A. M. ; SILVA, L. H ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . Aspectos Epidemiológicos e Caracterização Radiográfica de Doenças Digitais de Bovinos Confinados. In: V Congresso de Pequisa e Extensão, 2008, Goiânia. V Congresso de Pequisa e Extensão, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; SILVA, L. A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . Aspecto radiográfico e macroscópico externo das enfermidades digitais de bovinos machos confinados (Resultados parciais). In: V Conpex - Congresso de pesquisa, ensino e exptensão, 2008, Goiânia. Anais do V Congresso de pesquisa, ensino e extensão, 2008. p. 1806-1809. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Magalhães, J. F. ; Lisboa, L. R. ; <b>LIMA, I. R.</b> ; PAZ, C. F. R. ; FALEIROS, R. R. . Tratamento conservativo de fratura de olécrano associado à suplementação oral com Lithothamnium calcareum em equino: relato de caso. In: X Congresso brasileiro de cirurgia e anestesiologia, 2012, Florianópolis. Anais do X Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária. Campos dos Goytacases: Jornal Brasileiro de Ciência Animal, 2012. v. 5. p. 264-266. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; LIMA, L. R. ; Magalhães, J. F. ; VARELA, J. A. R. C. ; ALVES, G. E. S. ; FALEIROS, R. R. . Medidas radiográficas do dígito de éguas da raça Mangalarga Marchador com e sem sinais de obesidade. In: V Simpósio Internacional do Cavalo Atleta, 2011, Belo Horizonte. Revista Veterinária e Zootecnia em Minas - Suplemento Especial, 2011. v. S-E. p. 75-76. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, G. E. S. ; LAGO, L. A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; Magalhães, J. F. ; MARCKOWICZ, L. C. ; FALEIROS, R. R. . Trombectomia em equino utilizando cateter de foley. In: V Simpósio Internacional do Cavalo Atleta, 2011, Belo Horizonte. Revista Veterinária e Zootecnia em Minas - Suplemento Especial, 2011. v. S-E. p. 80-81. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; FONSECA, A. M. ; SILVA, L. H ; COELHO, C. M. M. ; CANOLA, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . Displasia Fiseal em Bovinos Manejados em Sistema Intensivo. In: VIII Congresso Brasileiro de Buiatria, 2009, Belo Horizonte. Ciência Animal Brasileira ? Suplemento 1, 2009 ? Anais do VIII Congresso Brasileiro de Buiatria. GOIANIA: Editora UFG, 2009. v. S-1. p. 417-422. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; FONSECA, A. M. ; SILVA, L. H ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; SILVA, L. A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . Estudo Radiográfico das Extremidades Distais dos Membros Locomotores de Bovinos com Claudicação. In: VIII Congresso Brasileiro de Buiatria, 2009, Belo Horizonte. Ciência Animal Brasileira ? Suplemento 1, 2009 ? Anais do VIII Congresso Brasileiro de Buiatria. Goiânia: Editora UFG, 2009. v. S-1. p. 423-429. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; BARBOSA, V. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SOARES, L. K. ; RABELO, R. E. ; MARTINS, L. R. . Mastite em vacas da Raça girolando após infestação por Tunga penetrans. In: II Congresso Brasileiro de Qualidade de leite, 2006, Goiânia. Anais II Congresso Brasileiro de Qualidade de leite(Anais), 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; FREITAS, P. H. O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; COELHO, C. M. M. ; BERNADES, K. M. ; BARBOSA, V. T. ; MOURA, M. I. . Exame Clínico Digital e Avaliação Andrológica em Touros da Raça Nelore Portadores de Dermatite Digital. In: Congresso de Pesquisa, Ensino e Extensão da UFG, 2006, Goiânia. Anais Eletronico s do XVI Seminário de Iniciação Científica, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROZA, M. R. ; SILVA, L. A. F. ; SOARES, L. K. ; GAMA FILHO, J. B. ; LIMA, C. R. O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . Correção de Mordida Cruzada e Dente Canino inferior Intruído e Desviado Lingualmente em Cão: Relato de Caso. In: III Congresso do Centro-Oeste de Clínicos Veterinários de Pequenos Animais, 2006, Brasília. Ciência Animal Brasileira Suplemento n.1. Goiânia: Editora UFG, 2006. v. S-1. p. 115-117. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. A. M. ; SILVA, L. A. F. ; MIRANDA, A. H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; FRANCO, L. G. ; BARBOSA, V. T. ; LIMA, C. R. O. . Emprego da Abraçadeira de Náilon como Cerclagem em Fraturas Obliquas de Fêmur em Cães: Avaliação HIstológica. In: III Congresso do Centro Oeste de Clínicos Veterinários de Pequenos Animais, 2006, Brasília. Ciência Animal Brasileira suplementon.1. Goiânia: Editora UFG, 2006. v. S-1. p. 130-132. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; SILVA, O. C. ; BERNADES, K. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; BARBOSA, V. T. ; ESTEVES, G. I. F. . Fixação Dorsal de Patela em Bovinos: Estudo Epidemiológico no Estado de Goiás. In: Congresso de Pesquesa, Ensino e Extensão da UFG, 2006, Goiânia. XIV Seminário de Iniciação Científica, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; BORGES, J. R. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; BERNADES, K. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; BARBOSA, V. T. ; MOURA, M. I. ; SILVA, M. A. M. ; FRANCO, L. G. ; LIMA, C. R. O. . Produtive and reproductive aspects of cross-breed female bovines (gir x holstein) with digital dermatitis. In: XIV International Symposium & Conference Lameness in Ruminantes, 2006, Uruguai. XIV International Symposium & Conference Lameness in Ruminantes, 2006. p. 221-222. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PRESTES, R. ; Pedró, C. G. ; SILVA, M. N. G. ; MISTIERI, M. L. A. ; <b>MACHADO, INGRID R.L.</b> . Avaliação ultrassonográfica do fêmur de um cão com necrose asséptica da cabeça do fêmur. In: 42º Congresso Bras. de Medicina Veterinária e 1º Congresso Sul-Brasileiro da ANCLIVEPA, 2015, Curitiba. AVALIAÇÃO ULTRASSONOGRÁFICA DO FÊMUR DE UM CÃO COM NECROSE ASSÉPTICA DA CABEÇA DO FÊMUR, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Romero, B. G. ; LEITE, C. T. ; Pedró, C. G. ; LEONI, I. S. ; Goss, G. C. ; Rosa, L. R. ; NEVES, T. L. ; PINTO, H. F. ; Cardoso, G. S. ; DUARTE, C. A ; Mozzaquatro, F. D ; <b>MACHADO, INGRID R.L.</b> . Afecções Odontológicas observadas em equinos da Raça Crioula de diferentes idades, alimentados com eragrostis plana (capim annoni) no municipio de uruguaiana, RS. In: XVI conferência anual ABRAVEQ 2015, 2015, SÃO PAULO. afecções odontológicas observadas em equinos da raça crioula de diferentes idades, alimentados com eragrostis plana (capim annoni) no municipio de uruguaiana, RS, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedró, C. G. ; <b>MACHADO, INGRID R.L.</b> ; R. PRESTES ; OLIVEIRA, D. P. ; Mozzaquatro, F. D . Avaliação ultrassonografica de tumor ovariano em égua com aciclia. In: VII Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), 2015, Alegrete. AVALIAÇÃO ULTRASSONOGRAFICA DE TUMOR DE OVARIANO EM ÉGUA COM ACICLIA, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DOWICH, G. ; <b>MACHADO, INGRID R.L.</b> ; ESCOBAR, T. A. ; LUBECK, I. ; PORCIUNCULA, M. L. ; Goss, G. C. ; LEITE, C. T. ; Pedró, C. G. ; Rosa, L. R. ; CANTELE, L. C. ; DUARTE, C. A ; Mozzaquatro, F. D . identificação de leishmania sp. no sangue periferico de equinos de traçao uruguaiana resumo. In: XVI CONFERÊNCIA ANUAL ABRAVEQ, 2015, SÃO PAULO. Identificação de leishmania sp. no sangue periferico de equinos de traçao uruguaiana resumo, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, E. A. P. ; SILVA, M. N. G. ; MISTIERI, M. L. A. ; PASCON, J. P. E. ; <b>MACHADO, INGRID R.L.</b> ; PRESTES, R. . PROJEÇÃO SUPINADA NA AVALIAÇÃO RADIOGRÁFICA DO PROCESSO CORONÓIDE MEDIAL DA ULNA EM CÃESRESULTADOS PRELIMINARES. In: 42º Congresso Bras. de Medicina Veterinária e 1º Congresso Sul-Brasileiro da ANCLIVEPA, 2015, Curitiba. PROJEÇÃO SUPINADA NA AVALIAÇÃO RADIOGRÁFICA DO PROCESSO CORONÓIDE MEDIAL DA ULNA EM CÃESRESULTADOS PRELIMINARES, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEONI, I. S. ; DUARTE, C. A ; DOWICH, G. ; Romero, B. G. ; PORCIUNCULA, M. L. ; Mozzaquatro, F. D ; Cardoso, G. S. ; NEVES, T. L. ; PINTO, H. F. ; <b>MACHADO, INGRID R.L.</b> ; LEITE, C. T. . AVALIAÇÃO BIOMÉTRICA CORPORAL DE POTROS CRIOULOS DO NASCIMENTO AOS 6 MESES- ESTUDO PRELIMINAR. In: XVI Conferência Anual Abraveq, 2015, Águas de lindoia. AVALIAÇÃO BIOMÉTRICA CORPORAL DE POTROS CRIOULOS DO NASCIMENTO AOS 6 MESES- ESTUDO PRELIMINAR, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goss, G. C. ; DUARTE, C. A ; ARAUJO, F. A. ; RODRIGUES, C. M. ; Pedró, C. G. ; <b>MACHADO, INGRID R.L.</b> . Laceração de cervix e vulva com deslocamento do meato urinário em equino- relato de caso. In: VII Siepe Salão Internacional de Ensino, Pesquisa e Extensão, 2015, Alegrete. Laceração de cervix e vulva com deslocamento do meato urinário em equino- relato de caso, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENDES, H. M. F. ; FERREIRA, P. M. ; ALVES, G. E. S. ; ZAMBELLI, B. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; VASCONCELOS, A. C. ; FALEIROS, R. R. . Presence of macrophages in the hoof dermo-epidermal junction in dairy cows with and without sings associate to laminitis. In: XXVII World Buiatrics congress, 2012, Lisboa- Portugal. Revista Portuguesa de Buiatria - Edição Especial, 2012. p. 264-264. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Magalhães, J. F. ; LIMA, L. R. ; HASS, M. E. ; MESQUITA, F. A. ; VALADARES, R. C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; FALEIROS, R. R. . Acesso artroscópico dorsomedial da metatarsofalangeana para remoção de fragmento ósseo aderido à capsula. In: XIII Conferencia Anual da Abraveq, 2012, Campinas- São Paulo. Suplemento III - Revista Brasileira de Medicina Veterinária + Equina, 2012. v. 41. p. 280-281. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; FALEIROS, R. R. ; XAVIER, V. F. ; Magalhães, J. F. ; RESENDE, R. R. ; LADEIRA, L. O. ; KITTEN, G. T. ; MENDES, H. M. F. . Perfil hematológico e bioquímico de ratos Wistar submetidos a implantes ósseos de nanobiogéis. In: X Congresso brasileiro de cirurgia e anestesiologia veterinária, 2012, Florianópolis. Jornal Brasileiro de Ciência Animal - Anais X Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2012. v. 5. p. 188-188. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; XAVIER, V. F. ; HORTA, R. G. ; RIOS, P. A. G. M. ; CASTRO, F. K. S. ; MARVAL, C. A. ; FALEIROS, R. R. . Terapia celular obtida por meio de Sepax no tratamento de artropatia fêmoro-tíbio-patelar em equinos: relato de caso. In: X Congresso brasileiro de cirurgia e anestesiologia veterinária, 2012, Florianópolis. Jornal Brasileiro de Ciência Animal - Anais X Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2012. v. 5. p. 623-623. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIEIRA, R. A. M. ; <b>LIMA, I. R.</b> ; CASTRO, T. C. ; AZEVEDO, D. S. D. ; VILLELA, S. B. ; XAVIER, V. F. ; RIBEIRO, A. G. ; FALEIROS, R. R. . Relação espacial entre falange distal e o estojo córneo em equinos de elite da raça Mangalarga Marchador. In: X Congresso brasileiro de cirurgia e anestesiologia veterinária, 2012, Florianópolis. Jornal Brasileiro de Ciência Animal - Anais X Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2012. v. 5. p. 643. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; LIMA, L. R. ; Magalhães, J. F. ; CASTRO, T. C. ; VIEIRA, R. A. M. ; PIMENTA, E. L. M. . Transfixação percutânea associada ao gesso sintético no reparo de fraturas de tíbia de bezerra Nelore: relato de caso. In: X Congresso brasileiro de cirurgia e anestesiologia veterinária, 2012, Florianópolis. Jornal Brasileiro de Ciência Animal - Anais X Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2012. v. 5. p. 199-199. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VILLELA, S. B. ; AZEVEDO, D. S. D. ; VIEIRA, R. A. M. ; CASTRO, T. C. ; XAVIER, V. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; MARVAL, C. A. ; SANTOS, L. M. G. ; FALEIROS, R. R. . Morfometria do estojo córneo de equinos da cavalaria da Polícia Militar de Minas Gerais. In: XX Semana de Iniciação científica PRPq, 2011, Belo Horizonte. XX Semana de Iniciação científica PRPq, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, D. S. D. ; XAVIER, V. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; VILLELA, S. B. ; CASTRO, T. C. ; VIEIRA, R. A. M. ; MARVAL, C. A. ; SANTOS, L. M. G. . Análise radiológica do osso navicular de equinos do Regimento de Cavalaria Alferes Tiradentes em exposição tipo skyline. In: XX Semana de Iniciação científica PRPq, 2011, Belo Horizonte. XX Semana de Iniciação científica PRPq, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; LIMA, L. R. ; Magalhães, J. F. ; ALVES, G. E. S. ; FALEIROS, R. R. . Diferentes métodos de avaliação da adiposidade em éguas da raça Mangalarga Marchador. In: XI Conferencia Anual da ABRAVEQ, 2010, São Paulo. Suplemento 1 - Revista Brasileira de Medicina Veterinária + Equina, 2010. v. 29. p. 203-204. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOREIRA, D. O. ; BARROS, L. M. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; ALVES, G. E. S. ; FALEIROS, R. R. . Condição corporal, presença de pescoço cristado e avaliação morfométrica de éguas Pantaneiras paridas e em regime de pasto nativo. In: XI Conferencia Anual da ABRAVEQ, 2010, São Paulo. Suplemento 1 - Revista Brasileira de Medicina Veterinária + Equina, 2010. v. 29. p. 201-201. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENDES, H. M. F. ; FALEIROS, R. R. ; FERREIRA, P. M. ; ALVES, G. E. S. ; ZAMBELLI, B. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; ARAZALES, J. R. ; MAIA, T. S. ; MOREIRA, D. O. . Histopathology of the hoof dermo-epidermal junction in dairy cows with and without clinical singns associate to laminitis. In: XXVI World Buiatrics congress, 2010, Santiago- Chile. XXVI World Buiatrics Congress, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Magalhães, J. F. ; ALVES, G. E. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; LIMA, L. R. ; VARELA, J. A. R. C. ; FALEIROS, R. R. . Morfometria radiográfica indicadora de laminite no dígito de éguas normais e obesas da raça Mangalarga Machador. In: XIX Semana de Iniciação científica PRPq, 2010, Belo Horizonte. XIX SEMANA DE INICIAÇÃO CIENTÍFICA PRPq, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Magalhães, J. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; MARCKOWICZ, L. C. ; SILVA, V. C. M. ; FALEIROS, R. R. . MÉTODO SIMPLES DE BIÓPSIA PARA AVALIAÇÃO DO TECIDO LAMINAR NO CASCO DE EQUINOS. In: XIX Semana de Iniciação científica PRPq, 2010, Belo Horizonte. XIX SEMANA DE INICIAÇÃO CIENTÍFICA PRPq, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SILVA, L. H ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; BOGOEVICH, A. M. ; FONSECA, A. M. . Radiographic Study of Male Bovine Beares of Digital Disease. In: 15th International Veterinary Radiology Association Meeting, 2009, Búzios. 15th International Veterinary Radiology Association Meeting, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COELHO, C. M. M. ; SILVA, L. A. F. ; RIBEIRO, G. H. C. ; SILVA, J. A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . Indices de Estado Cerebral na Avaliação da Profundidade Anestésica em Asininos: Resultados Parciais. In: IX Conferencia Anual do ABRAVEQ E IV Congresso Internacional de Medicina Veterinária FEI-CBH, 2008, São Paulo. IX Conferencia Anual do ABRAVEQ E IV Congresso Internacional de Medicina Veterinária FEI-CBH, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8427948775867291" target="_blank">COSTA, A. C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; SILVA, L. H ; FONSECA, A. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . Achados Radiográficos e Aspectos Clínicos de Extremidades Distais dos Membros Locomotores de Bovinos Mestiços. In: 8º Conferncia Sul-americana de Medicina Veterinária, 2008, Rio de Janeiro. 8º Conferncia Sul-americana de Medicina Veterinária, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8427948775867291" target="_blank">COSTA, A. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SILVA, L. H ; CANOLA, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> . Emprego da Ultra-sonografia na Avaliação do Emagrecimento de Felinos Adultos Submentidos à Restrição Calórica. In: 8º Conferência Sul-americana de Medicina Veterinária, 2008, Rio de Janeiro. 8º Conferência Sul-americana de Medicina Veterinária, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; SILVA, L. H ; FONSECA, A. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; SILVA, L. A. F. . Avaliação Radiográfica dos Dígitos de Bovinos Machos com Enfermidades digitais. In: VIII Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2008, Recife. VIII Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. H ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> ; FONSECA, A. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; SILVA, L. A. F. . Localização macroscópica e radiográfica de lesões nos dígitos de bovinos confinados. In: VIII Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2008, Recife. Anais VIII Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COELHO, C. M. M. ; ARAUJO, I. F. L. ; SILVA, L. A. F. ; SILVA, M. A. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SOARES, L. K. . Associação entre o uso do extrato da casca de barbatimão (Stryphnodendron barbatiman) e a administração oral de biotina (biohoof) no tratamento de feridas em extremidade dos membros locomotores de equinos: relato de cao. In: III Sinpósio internacional do Cavalo Atleta; V Semana do Cavalo, 2007, Belo Horizonte. III Sinpósio internacional do Cavalo Atleta; V Semana do Cavalo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARAUJO, I. F. L. ; COELHO, C. M. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SOARES, L. K. ; SILVA, L. A. F. . Uso alternativo de hipoclorito de sódio e sulfato de cobre no tratamento de pitiose em equinos:relato de caso. In: III Simpósio internacional do Cavalo Atleta; V Semana do Cavalo, 2007, Belo Horizonte. III Sinpósio internacional do Cavalo Atleta; V Semana do Cavalo, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COELHO, C. M. M. ; ARAUJO, I. F. L. ; FRANCO, L. G. ; SILVA, M. A. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SOARES, L. K. ; RABELO, R. E. ; SILVA, L. A. F. . Orquectomia em equinos: comparação entre três métodos de hemostasia preventiva (resultados parciais). In: III Simpósio Internacional do Cavalo Atleta e V Semana do Cavalo, 2007, Belo Horizonte. III Simpósio Internacional do Cavalo Atleta e V Semana do Cavalo, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; RABELO, R. E. ; FRANCO, L. G. ; COELHO, C. M. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; BARBOSA, V. T. . Ocorrência de doenças digitais em bovinos após infestação por Tunga penetrans. In: 14ºCongresso Brasileiro de Parasitologia Veterinária & 2º Simposio Latino-Americano de Ricketsioses, 2006, Ribeirão Preto. 14ºCongresso Brasileiro de Parasitologia Veterinária & 2º Simposio Latino-Americano de Ricketsioses, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCO, L. G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8427948775867291" target="_blank">COSTA, A. C.</a> ; MOURA, M. I. ; SOARES, L. K. ; BARBOSA, V. T. ; COELHO, C. M. M. . Associação entre Tungíse (Tunga penetrans) e Mastite em vacas da raça Girolando. In: 14º Congresso Brasileiro de Parasiltologia Veterinária & 2º Simpósio Latino-Americano de Rickettsioses, 2006, Ribeirão Preto. 14º Congresso Brasileiro de Parasiltologia Veterinária & 2º Simpósio Latino-Americano de Rickettsioses, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; COELHO, C. M. M. ; BARBOSA, V. T. ; FRANCO, L. G. ; SOARES, L. K. ; BERNADES, K. M. . Emprego de Implantes Biológicos Homólogos na Correção do Desvio Traumárico de Pênis Bovino. In: XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006, Uberlândia. XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; BERNADES, K. M. ; SOARES, L. K. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; BARBOSA, V. T. ; COELHO, C. M. M. ; FRANCO, L. G. ; MOURA, M. I. . Comportamento Reprodutivo de Fêmeas bovinas Portadoras de Dermatite Digital. In: XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006, Uberlândia. XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; RABELO, R. E. ; BARBOSA, V. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SOARES, L. K. ; COELHO, C. M. M. ; SILVA, D. F. F. . Fibrose Pós-Cirurgica na Correção de Desvio Traumático de Pênis Bovino. In: XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006, Uberlândia. XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; RABELO, R. E. ; BARBOSA, V. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; FRANCO, L. G. ; ABUD, L. J. . Comportamento de Vacas Mestiças Holandês x Zebu, portadoras de Doenças Digitais, em Sistema Intensivo (Resultados Parciais). In: XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006, Uberlândia. XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; BARBOSA, V. T. ; COELHO, C. M. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; FRANCO, L. G. ; MOURA, M. I. . Brucelose em equinos Portadores de Bursite Fistulosa de Cernelha: Relato de Caso. In: XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006, Uberlândia. XVIII Semana Científica de Medicina Veterinária e III Mostra da Pós-Graduação em Ciencias Veterinárias, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; SOARES, L. K. ; BERNADES, K. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; BARBOSA, V. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8427948775867291" target="_blank">COSTA, A. C.</a> ; COELHO, C. M. M. ; MARTINS, L. R. . Eviceração após Herniorrafia umbilical em um bovino :Relato de caso. In: XVIII Semana Cinetífica de Medicina Veterinária e III Amostra da Pós Graduação em Ciências Veterinárias, 2006, Uberlândia. XVIII Semana Cinetífica de Medicina Veterinária e III Amostra da Pós Graduação em Ciências Veterinárias, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; SOARES, L. K. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; BARBOSA, V. T. ; BERNADES, K. M. ; SILVA, D. F. F. ; COELHO, C. M. M. . Diagnóstico Clínico, Histopatológico e Aspectos Epidemiológicos da Estefanofilariose(Stephanofilaria sp) em Bovinos. In: 14º Congresso Brasileiro de Parasitologia Veterinária & 2º Simpósio Latino-Americano de Rickettsioses, 2006, Riberão Preto. Anais 14º Congresso Brasileiro de Parasitologia Veterinária & 2º Simpósio Latino-Americano de Rickettsioses, 2006. p. 293-293. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; SILVA, L. A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8427948775867291" target="_blank">COSTA, A. C.</a> ; BORGES, J. R. J. ; CANOLA, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5111763008474043" target="_blank">COSTA, A. P. A.</a> . A Post-Mortem Radiographic study of the digits of Bovine Raised in Natural Grazing Environment. In: 14º Simposio Internacional & 6a. Conferencia Lameness in Ruminants, 2006, Uruguai. 14º Simposio Internacional & 6a. Conferencia Lameness in Ruminants, 2006. p. 220-220. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; BERNADES, K. M. ; BARBOSA, V. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; LIMA, C. R. O. ; SILVA, M. A. M. . Behavior of cross-breed cows (holstein x zebu) wuith erosive papilomatous digital dermatitis, managd in intensive system. In: 14º Simposio Internacional & 6a. Conferencia Lameness in Ruminants, 2006, Uruguai. XIV International Symposium & Conference Lameness in Ruminantes, 2006. p. 201-201. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; GUIMARAES, C. O. ; BARBOSA, V. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; COELHO, C. M. M. ; LIMA, C. R. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; SILVA, M. A. M. . Wheight gain in Nelore breed bovines with digital dermatitis. In: XIV International Symposium & Conference Lameness in Ruminantes, 2006, Uruguai. XIV International Symposium & Conference Lameness in Ruminantes, 2006. p. 199-199. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. A. F. ; MOURA, M. I. ; SILVA, M. A. M. ; FRANCO, L. G. ; COELHO, C. M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; LIMA, C. R. O. ; BARBOSA, V. T. . Reproductive parameters of nelore breed bulls with bovine digital dermatitis. In: XIV International Symposium & Conference Lameness in Ruminantes, 2006, Uruguai. XIV International Symposium & Conference Lameness in Ruminantes, 2006. p. 202-202. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; FALEIROS, R. R. ; XAVIER, V. F. ; Magalhães, J. F. ; RESENDE, R. R. ; LADEIRA, L. O. ; KITTEN, G. T. ; MENDES, H. M. F. . Perfil hematológico e bioquímico de ratos Wistar submetidos a implantes ósseos de nanobiogéis. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; XAVIER, V. F. ; HORTA, R. G. ; RIOS, P. A. G. M. ; CASTRO, F. K. S. ; MARVAL, C. A. ; FALEIROS, R. R. . Terapia celular obtida por meio de Sepax no tratamento de artropatia fêmoro-tibio-patelar em equino: relato de caso. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIEIRA, R. A. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; CASTRO, T. C. ; AZEVEDO, D. S. D. ; VILLELA, S. B. ; XAVIER, V. F. ; RIBEIRO, A. G. ; FALEIROS, R. R. . Relação espacial entre falange distal e o estojo córneo em equinos de elite da raça Mangalarga Marchador. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; LIMA, L. R. ; Magalhães, J. F. ; CASTRO, T. C. ; VIEIRA, R. A. M. ; PIMENTA, E. L. M. . Transfixação percutânea associada ao gesso sintético no reparo de fratura de tíbia de bezerra nelore: relato de caso. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9181279951885005" target="_blank">BORGES, N. C.</a> ; SILVA, L. A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8772502020076257" target="_blank">FIORAVANTI, M. C. S.</a> . Aspecto Radiográfico e Macroscópico Externo das Enfermidades Digitais de Bovinos Machos Confinados. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>. Curso Técnico em Radiologia Médica e Radiodiagnóstico por Imagem em Saúde. 2006. . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POZZOBON, R.; DUARTE, C. A; <b>Machado, I. R.L.</b>.  Participação em banca de Alfredo Rafael Kunz.Relatório de Estágio Curricular em Medicina Veterinária.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, INGRID RIOS LIMA</b>; POZZOBON, R.; MESQUITA, F. S.  Participação em banca de Elton Peres Pereira.Relatório de Estágio Curricular em Medicina Veterinária.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, INGRID R.L.</b>; PEREIRA, J. G.; JUNIOR, P. S..  Participação em banca de ANNA LUIZA MACHADO SAMPAIO.Relatório do Estágio Curricular Supervisionado em Medicina Veterinária.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, INGRID RIOS LIMA</b>; PEREIRA, J. G.; POZZOBON, R..  Participação em banca de Bruna Karolini da Silva Rosa.Relatório de Estágio Curricular em Medicina Veterinária.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, INGRID RIOS LIMA</b>; MISTIERI, M. L. A.; PEREIRA, J. G..  Participação em banca de Carolina Netto de Oliveira da Cunha.Relatório de Estágio Curricular em Medicina Veterinária.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SUDANO, M. J.; <b>MACHADO, INGRID RIOS LIMA</b>; BECKMANN, D. V..  Participação em banca de Helen Bertti.Relatório de Estágio Curricular em Medicina Veterinária.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, INGRID RIOS LIMA</b>; POZZOBON, R.; TROST, M. E..  Participação em banca de ANA PAULA IBARRA DOS SANTOS.Relatório de Estágio Curricular em Medicina Veterinária.
+							2014. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conferencia Anual da ABRAVEQ. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conferência PET nas múltiplas visões. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Internacional ABRAVEQ. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Techinology and Medical Science. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Congresso Brasileiro de Cirurgia e Anestesiologia Veterinária. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1 Simpósio ABRAVEQ Centro-Oeste.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Simpósio Internacional do Cavalo Atleta e VI Semana do Cavalo.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop teórico e prático em Odontologia Equina pós IV SIMCAV.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PossíveisAspectos Relevantes sobre Odontologia Equina. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Responsbilidade Técnica. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasilerio de Reprodução Animal. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra de capacitação de operadores de equipamentos de oredenh e tanques refrigeradores de leite. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sétima rodada Goiana de Tecnologia em Manejo de Suínos. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Comgresso Brasileiro de Reprodução. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Reprodução e Produção em Bovinos de Corte.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FALEIROS, R. R. ; ALVES, G. E. S. ; MENDES, H. M. F. ; FONSECA, M. G. ; CARDEAL, P. C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . VI Simpósio Internacional do Cavalo Atleta e VIII Semana do Cavalo. 2013. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FALEIROS, R. R. ; CARDENAS, J. J. ; ALVES, G. E. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . A arte do diagnóstico e a terapia das claudicações em equinos: módulo I. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FALEIROS, R. R. ; ALVES, G. E. S. ; CARDENAS, J. J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . A arte do diagnóstico e a terapia das claudicações em equinos: módulo II. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARDENAS, J. J. ; FALEIROS, R. R. ; ALVES, G. E. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; MENDES, H. M. F. . A arte do diagnóstico e a terapia das claudicações em equinos: Prof. Denoix. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, G. E. S. ; FALEIROS, R. R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> ; MENDES, H. M. F. . V Simpósio Internacional do Cavalo Atleta e VII Semana do Cavalo. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FALEIROS, R. R. ; ALVES, G. E. S. ; CARDENAS, J. J. ; XAVIER, V. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b> . Diagnóstico e avaliação prática de claudicações de origem proximal e lombalgias em equinos. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>; FREITAS, P. H. O. . Curso de Acasalamento Corretivo em Gado de Leite. 2006. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>. Cuso de Reprodução de Equinos, XVIII SEVET. 2005. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7571726937337690" target="_blank">LIMA, I. R.</a></b>. Curso de medicina INterna Equina, XVII SEVET. 2004. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 14:53:57</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=7571726937337690" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

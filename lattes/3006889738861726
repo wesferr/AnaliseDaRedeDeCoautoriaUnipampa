@@ -1,0 +1,2406 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Carla Beatriz Spohr)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4228082D7&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=3006889738861726" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4228082D7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4228082D7"><div class="infpessoa">
+<h2 class="nome">Carla Beatriz Spohr</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/3006889738861726</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 29/06/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Licenciada em Física pela UNIJUÍ (universidade Regional do Noroeste do Estado do Rio Grande do Sul), Especialista em ensino de Física pela UPF (Universidade de Passo Fundo) e Mestre em ensino de Física pela UFRGS ( Universidade Federal do Rio Grande do Sul). Na dissertação de mestrado propõe uma atualização curricular no ensino médio de Física com um tema de Física Moderna e Contemporânea (Supercondutividade). Foi docente na educação básica por 20 anos no Ensino Fundamental (em escola pública), ministrando aulas de matemática e ciências e atuou durante 17 anos no Ensino Médio (em instituição privada) como professora de Física. Também atuou como professora no Ensino Superior ministrando aulas de Física I, Física II e Física III nos cursos de Engenharia Mecânica e Engenharia de Produção. Nos anos de 2013 e 2014 exerceu o cargo de Diretora de Escola Municipal de Ensino Fundamental. Atualmente é docente da Universidade Federal do Pampa (UNIPAMPA), no curso de Licenciatura em Ciências da Natureza. Doutoranda pelo Programa de Pós-Graduação em Educação em Ciências: Química da Vida e Saúde (UFRGS ? UFSM ? FURG); participante do "Grupo de Pesquisa em Ensino e Aprendizagem em Ciências e Matemática" (GPEACIM-UFSM).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Carla Beatriz Spohr</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SPOHR, C. B.;SPOHR, CARLA BEATRIZ</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FACULDADE HORIZONTINA. <br class="clear" />Rua Buricá, 725<br class="clear" />centro<br class="clear" />98920-000 - Horizontina, RS - Brasil - Caixa-postal: 07<br class="clear" />Telefone: (55) 35371614<br class="clear" />URL da Homepage: <a target="blank" href="http://www.fahor.com.br">www.fahor.com.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em PG-D Educação em Ciências: Química da Vida e Saúd<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3865537547314234'><img src='images/curriculo/logolattes.gif' /></a>Isabel Krey Garcia. <br class="clear" />Coorientador: Maria Cecília Pereira Santarosa. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado profissional em Ensino de Física<span class="ajaxCAPES" data-param="&codigoCurso=42001013091P4&nivelCurso=F"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: O tema da supercondutividade no nível médio: desenvolvimento de material hipermídia fundamentado em epistemologias contemporâneas., Ano de Obtenção: 2008. <br class="clear" />Orientador: Fernanda Ostermann.
+			
+			<br class="clear" />Palavras-chave: ensino médio; epistemologia; supercondutividade.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Ensino de Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade de Passo Fundo, UPF, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura em matemática e física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Regional do Noroeste do Estado do Rio Grande do Sul, UNIJUÍ, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professora Assistente, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Natureza, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Projeto de Ensino: <br class="clear" />TEORIAS DE ENSINO E APRENDIZAGEM NO ENSINO DE FÍSICA ? UMA UEPS PARA O ENSINO DE ELETROMAGNETISMO <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />?ELETROMAGNETISMO? PARA ALUNOS DE NÍVEL MÉDIO A PARTIR DE UM CIRCUITO ELÉTRICO QUE TRANSFORMA ENERGIA SONORA EM ELÉTRICA NUM SISTEMA DE SOM AUTOMOTIVO.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Produção de Material Didático para Educação Básica'>Produção de Material Didático para Educação Básica</a><br class="clear" /><a href='#LP_A inserção da Física nos Livros Didáticos de Ciências dos Anos Iniciais do Ensino Fundamental'>A inserção da Física nos Livros Didáticos de Ciências dos Anos Iniciais do Ensino Fundamental</a><br class="clear" /><a href='#LP_PROPOSIÇÃO DE AULAS DE CIÊNCIAS PARA ALUNOS DE 4 E 5 ANOS A PARTIR DA ANÁLISE DE CLÁSSICOS DA LITERATURA INFANTIL'>PROPOSIÇÃO DE AULAS DE CIÊNCIAS PARA ALUNOS DE 4 E 5 ANOS A PARTIR DA ANÁLISE DE CLÁSSICOS DA LITERATURA INFANTIL</a><br class="clear" /><a href='#LP_UMA UEPS* SOBRE A TEMÁTICA ?ELETROMAGNETISMO? PARA ALUNOS DE NÍVEL MÉDIO UTILIZANDO COMO MATERIAL POTENCIALMENTE SIGNIFICATIVO UM CIRCUITO ELÉTRICO QUE TRANSFORMA ENERGIA SONORA EM ELÉTRICA NUM SISTEMA DE SOM AUTOMOTIVO'>UMA UEPS* SOBRE A TEMÁTICA ?ELETROMAGNETISMO? PARA ALUNOS DE NÍVEL MÉDIO UTILIZANDO COMO MATERIAL POTENCIALMENTE SIGNIFICATIVO UM CIRCUITO ELÉTRICO QUE TRANSFORMA ENERGIA SONORA EM ELÉTRICA NUM SISTEMA DE SOM AUTOMOTIVO</a><br class="clear" /><a href='#LP_Investigando a Inserção da Física Moderna no Contexto da Educação Básica'>Investigando a Inserção da Física Moderna no Contexto da Educação Básica</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Natureza, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Práticas Pedagógicas; Estágio Supervisionado; Eletromagnetismo; Leis Físicas da Natureza; Mecânica dos Fluidos e Termologia; Experimentação; Matéria e Radiações.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Supervisão e orientação de Estágios no Ensino Fundamental e Médio.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2017 - 06/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Ambiental, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Teorias de Aprendizagem e Ensino<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - 08/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização em Ensino de Ciências, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Currículo no Ensino de Ciências; História e Filosofia da Ciência<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Curso de Aperfeiçoamento: Docência na Escola de Tempo Integral. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>FACULDADE HORIZONTINA, FAHOR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Horista, Enquadramento Funcional: Professora, Carga horária: 10</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atuou como integrante do Colegiado de Curso da Engenharia de Produção de 1°/10/2005 a 13/08/2006 e 13/08/2009 até a presente data.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física I e Física II<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Escola Municipal de Ensino Fundamental Moneiro Lobato, EMEFML, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: diretora de escola, Carga horária: 32</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A contar do ano de 2013 atua na direção da Escola Municipal de Ensino Fundamental Monteiro Lobato.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professora, Carga horária: 20</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Escola Municipal de Ensino Fundamental Monteiro Lobato, EMEF MONTEIRO LO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Diretora, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diretora da EMEF Monteiro Lobato, escola que atende a turmas de Educação Infantil e Ensino Fundamental de 9 anos - Horizontina/RS.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Colégio Frederico Jorge Logemann, CFJL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Horista, Enquadramento Funcional: Professora, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1997 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Colégio Cristo Rei, CCR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professora, Carga horária: 12</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Luterana do Brasil, ULBRA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: tutora presencial, Enquadramento Funcional: horista, Carga horária: 8</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Produ&ccedil;&atilde;o de Material Did&aacute;tico para Educa&ccedil;&atilde;o B&aacute;sica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de Material Didático para Educação Básica</div>
+</div><a name='LP_A inser&ccedil;&atilde;o da F&iacute;sica nos Livros Did&aacute;ticos de Ci&ecirc;ncias dos Anos Iniciais do Ensino Fundamental'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A inserção da Física nos Livros Didáticos de Ciências dos Anos Iniciais do Ensino Fundamental</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: O objetivo geral desta pesquisa consiste em identificar como os conteúdos de física estão sendo apresentados nos livros didáticos de ciências dos anos iniciais do ensino fundamental, e se estão de acordo com as competências e habilidades propostas pelos PCN para o ensino de Física.. </div>
+</div><a name='LP_PROPOSI&Ccedil;&Atilde;O DE AULAS DE CI&Ecirc;NCIAS PARA ALUNOS DE 4 E 5 ANOS A PARTIR DA AN&Aacute;LISE DE CL&Aacute;SSICOS DA LITERATURA INFANTIL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PROPOSIÇÃO DE AULAS DE CIÊNCIAS PARA ALUNOS DE 4 E 5 ANOS A PARTIR DA ANÁLISE DE CLÁSSICOS DA LITERATURA INFANTIL</div>
+</div><a name='LP_UMA UEPS* SOBRE A TEM&Aacute;TICA ?ELETROMAGNETISMO? PARA ALUNOS DE N&Iacute;VEL M&Eacute;DIO UTILIZANDO COMO MATERIAL POTENCIALMENTE SIGNIFICATIVO UM CIRCUITO EL&Eacute;TRICO QUE TRANSFORMA ENERGIA SONORA EM EL&Eacute;TRICA NUM SISTEMA DE SOM AUTOMOTIVO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">UMA UEPS* SOBRE A TEMÁTICA ?ELETROMAGNETISMO? PARA ALUNOS DE NÍVEL MÉDIO UTILIZANDO COMO MATERIAL POTENCIALMENTE SIGNIFICATIVO UM CIRCUITO ELÉTRICO QUE TRANSFORMA ENERGIA SONORA EM ELÉTRICA NUM SISTEMA DE SOM AUTOMOTIVO</div>
+</div><a name='LP_Investigando a Inser&ccedil;&atilde;o da F&iacute;sica Moderna no Contexto da Educa&ccedil;&atilde;o B&aacute;sica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Investigando a Inserção da Física Moderna no Contexto da Educação Básica</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Investigando a Inser&ccedil;&atilde;o da F&iacute;sica Moderna no Contexto da Educa&ccedil;&atilde;o B&aacute;sica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Investigando a Inserção da Física Moderna no Contexto da Educação Básica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nesta pesquisa visa-se compreender e problematizar a inserção da física moderna presente no contexto da educação básica, sendo que, para isso, iremos pontuar situações que visem dimensional a importância desta temática no contexto atual, uma vez que, grande parte do desenvolvimento tecnológico provem de conhecimentos derivados da Física do século XX. Além disso, essa discussão mostra-se indispensável, ao passo que, na visão de muitos docentes, o campo de conhecimento da física moderna é tido como algo muito complexo e abstrato, o que, no entendimento destes, torna-se um empecilho intransponível para o seu desenvolvimento em sala de aula. A partir desta problemática, delimitou-se, portanto, como objetivo geral, verificar como essa temática vem sendo desenvolvida nas aulas de Física, ministradas por professores da rede básica de ensino, estabelecendo também, como paralelo uma compreensão sobre a relação presente entre a formação inicial dos professores que ministram Física e como esta afeta o desenvolvimento de tópicos específicos desta área do conhecimento. Desse modo, essa investigação esta focada em analisar o ensino de Física na educação básica, em especial no Ensino Médio, tomando como tema gerador o tópico de física moderna. Dessa forma, realizaremos uma investigação junto aos professores que ministram a disciplina de Física no Ensino Médio da cidade de Uruguaiana ? Rio Grande do Sul, sendo que para a análise dos dados utilizaremos como metodologia a Análise Textual Discursiva (ATD).. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Charles dos Santos Guidotti - Integrante / Guilherme Salgueiro Goulart - Integrante.<br class="clear" /></div>
+</div><a name='PP_PROPOSI&Ccedil;&Atilde;O DE AULAS DE CI&Ecirc;NCIAS PARA ALUNOS DE 4 E 5 ANOS A PARTIR DA AN&Aacute;LISE DE CL&Aacute;SSICOS DA LITERATURA INFANTIL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PROPOSIÇÃO DE AULAS DE CIÊNCIAS PARA ALUNOS DE 4 E 5 ANOS A PARTIR DA ANÁLISE DE CLÁSSICOS DA LITERATURA INFANTIL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Sendo a Educação Infantil a primeira etapa do ensino básico, este trabalho tem como foco o ensino de Ciências na referida etapa, com criança entre 4 e 5 anos de idade. O projeto trará a importância da Literatura na Educação Infantil, propondo o Ensino de Ciências a partir de temáticas abordadas nas fábulas infantis. Este projeto tem por objetivo selecionar e analisar histórias clássicas de Literatura infantil, a fim de estabelecer uma relação entre os conteúdos de Ciências pertinentes à Educação Infantil e os clássicos literários. Muitos são os temas que as crianças desta faixa etária se interessam, tendo em vista que história infantil é uma dessas temáticas, será apresentada uma proposta de ensino de Ciências a partir da utilização deste recurso.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Maria Eduarda Trindade Barreto - Integrante.<br class="clear" /></div>
+</div><a name='PP_UMA UEPS* SOBRE A TEM&Aacute;TICA ?ELETROMAGNETISMO? PARA ALUNOS DE N&Iacute;VEL M&Eacute;DIO UTILIZANDO COMO MATERIAL POTENCIALMENTE SIGNIFICATIVO UM CIRCUITO EL&Eacute;TRICO QUE TRANSFORMA ENERGIA SONORA EM EL&Eacute;TRICA NUM SISTEMA DE SOM AUTOMOTIVO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">UMA UEPS* SOBRE A TEMÁTICA ?ELETROMAGNETISMO? PARA ALUNOS DE NÍVEL MÉDIO UTILIZANDO COMO MATERIAL POTENCIALMENTE SIGNIFICATIVO UM CIRCUITO ELÉTRICO QUE TRANSFORMA ENERGIA SONORA EM ELÉTRICA NUM SISTEMA DE SOM AUTOMOTIVO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Propõe-se a elaboração e implementação de uma UEPS (Unidade de Ensino Potencialmente Significativa), fundamentada em teorias de ensino e aprendizagem construtivistas. Parte-se da premissa de que não há ensino sem aprendizagem e para que essa reflexão ocorra, o docente em formação inicial precisa ser crítico. A UEPS terá como situação de ensino um circuito elétrico que transforma energia sonora em elétrica num sistema de som automotivo, será elaborada por acadêmicos do Curso de Licenciatura em Ciências da Natureza, implementada em turmas de estudantes da educação básica.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (6)  / Especialização: (2) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Cecília Rocha - Integrante / Anelise Pereira Bordignon - Integrante / Eder Moleda - Integrante / Guilherme Salgueiro Goulart - Integrante / Mônica Almeida de Oliveira - Integrante.<br class="clear" /></div>
+</div><a name='PP_A inser&ccedil;&atilde;o da F&iacute;sica nos Livros Did&aacute;ticos de Ci&ecirc;ncias dos Anos Iniciais do Ensino Fundamental'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A inserção da Física nos Livros Didáticos de Ciências dos Anos Iniciais do Ensino Fundamental<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A inserção da Física nos Livros Didáticos de Ciências dos Anos Iniciais do Ensino Fundamental. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Integrante / Charles dos Santos Guidotti - Coordenador / Camila Thomazi Ruviaro - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Cientistas do Pampa - Energ&eacute;ticas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cientistas do Pampa - Energéticas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Antes mesmo de entrarem na graduação, a maioria das garotas são desencorajadas a seguir carreiras na área de exatas. Dessa forma, este programa propõe a atuação de cientistas da UNIPAMPA atuando diretamente com o público feminino nas escolas visando o incentivo à participação destas meninas nas ciências exatas. O projeto visa promover rodas de conversa sobre mulheres nas ciências exatas, visitas a laboratórios científicos, capacitação de grupos de meninas para construção de protótipos de geração de energia elétrica a partir do aproveitamento da energias renováveis e participação na feira de ciências da cidade.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Mara Regina Bonini Marzari - Integrante / Simone Pinton - Integrante / Daiana Silva de Ávila - Integrante / Pâmela Mello Carpes - Integrante / Márcia Maria Lucchese - Integrante / Eliade Lima - Integrante.<br class="clear" />Financiador(es): Instituto Unibanco - Auxílio
+										financeiro.</div>
+</div><a name='PP_?ELETROMAGNETISMO? PARA ALUNOS DE N&Iacute;VEL M&Eacute;DIO A PARTIR DE UM CIRCUITO EL&Eacute;TRICO QUE TRANSFORMA ENERGIA SONORA EM EL&Eacute;TRICA NUM SISTEMA DE SOM AUTOMOTIVO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">?ELETROMAGNETISMO? PARA ALUNOS DE NÍVEL MÉDIO A PARTIR DE UM CIRCUITO ELÉTRICO QUE TRANSFORMA ENERGIA SONORA EM ELÉTRICA NUM SISTEMA DE SOM AUTOMOTIVO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Propõe-se a elaboração e implementação de uma UEPS (Unidade de Ensino Potencialmente Significativa), fundamentada em teorias de ensino e aprendizagem construtivistas. Parte-se da premissa de que não há ensino sem aprendizagem e para que essa reflexão ocorra, o docente em formação inicial precisa ser crítico. A UEPS terá como situação de ensino um circuito elétrico que transforma energia sonora em elétrica num sistema de som automotivo, será elaborada por acadêmicos do Curso de Licenciatura em Ciências da Natureza, implementada em turmas de estudantes da educação básica. Os estudantes de turmas do terceiro ano de nível médio farão as atividades relacionadas à UEPS no Laboratório de Física da UNIPAMPA ? Campus Uruguaiana, sob orientação dos acadêmicos dos Cursos de Licenciatura em Ciências da Natureza.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Cecília Rocha - Integrante / Anelise Pereira Bordignon - Integrante / Eder Moleda - Integrante / Guilherme Salgueiro Goulart - Integrante / Marcus Vinicius dos Santos Barros - Integrante / Bruna Pinheiro - Integrante.<br class="clear" /></div>
+</div><a name='PP_1&deg; CICLO DE PALESTRAS DO CURSO DE LICENCIATURA EM CI&Ecirc;NCIAS DA NATUREZA ?DOC&Ecirc;NCIA NA ESCOLA DE TEMPO INTEGRAL?'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1° CICLO DE PALESTRAS DO CURSO DE LICENCIATURA EM CIÊNCIAS DA NATUREZA ?DOCÊNCIA NA ESCOLA DE TEMPO INTEGRAL?<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A docência em tempo integral já se constitui como realidade em algumas escolas públicas e caracteriza-se
+pela ampliação da carga horária dos alunos na escola e o Programa Mais Educação é uma iniciativa do
+governo federal como estratégia de promover a educação integral no Brasil. Para que isto se torne efetivo,
+é necessário haver profunda reflexão sobre as características, desafios e contribuições desse novo modelo
+de educação, que é o ensino em tempo integral. O principal objetivo da implantação do turno integral nas
+escolas de educação básica é desenvolver atividades sócio-educativas no contra turno escolar, na
+perspectiva de ampliar tempos, espaços e pessoas envolvidas no processo. É na proposição de divulgar a
+proposta da Docência na escola em tempo integral que ocorre este Ciclo de Palestras, cujo principal
+público são os Profissionais da Educação Básica ? gestores, docentes, orientadores, supervisores ?
+atuando em escolas de Educação Básica nas regiões de abrangência da UNIPAMPA. Também elege como
+público alvo os docentes e acadêmicos do curso de Licenciatura em Ciências da Natureza para que
+possam difundir o Programa Mais Educação e as reflexões sobre a escola de tempo integral.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Charles dos Santos Guidotti - Integrante / Rafael Roehrs - Integrante / Ailton Jesus Dinardi - Integrante / Mara Marzari - Integrante.<br class="clear" /></div>
+</div><a name='PP_Curso de Aperfei&ccedil;oamento "Doc&ecirc;ncia na Escola de Tempo Integral"'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Aperfeiçoamento "Docência na Escola de Tempo Integral"<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Atuou como coordenadora do curso de Aperfeiçoamento da Secretaria de Educação Básica (SEB) do Ministério da Educação (MEC), promovido pelo Comitê Gestor Institucional de Formação Inicial e Continuada dos Profissionais da Educação Básica - COMFOR UNIPAMPA, vinculado à Pró-Reitoria de Extensão e Cultura (PROEXT).. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (20) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Charles dos Santos Guidotti - Integrante / Rafael Roehrs - Integrante / Mara Regina Bonini Marzari - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_TEORIAS DE ENSINO E APRENDIZAGEM NO ENSINO DE F&Iacute;SICA ? UMA UEPS PARA O ENSINO DE ELETROMAGNETISMO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">TEORIAS DE ENSINO E APRENDIZAGEM NO ENSINO DE FÍSICA ? UMA UEPS PARA O ENSINO DE ELETROMAGNETISMO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Propõe-se o acompanhamento de um Grupo de Estudos das Teorias de Aprendizagem e Ensino em Física (GETAEF), composto por acadêmicos do Curso de Licenciatura em Ciências da Natureza e do Curso de Especialização em Educação em Ciências. É necessário que o docente (em formação inicial ou continuada) faça alguns questionamentos sobre como se ensina e consequentemente, como se aprende, para entender que não existe ensino sem aprendizagem e que o ensino é apenas o meio e a aprendizagem é o fim (MOREIRA, M. A. 2011). A pesquisa, a produção de conhecimentos, envolve a permanente interação entre pensar e fazer, ou entre um domínio teórico e um domínio metodológico (MOREIRA, 2009) e para que os acadêmicos em formação inicial ou continuada, possam tornar-se um professor pesquisador, é necessário que sejam ofertados durante sua formação, momentos de estudos onde possam aprofundar seus conhecimentos. A pesquisa, no sentido de produção de conhecimentos, implica a utilização de referenciais teóricos (pensar), metodológicos (fazer) e epistemológicos (orientam as práticas) (MOREIRA, 2009). Professores podem e devem ser pesquisadores! Para isso precisam apropriar-se de teorias de aprendizagem e ensino, de metodologias de pesquisa em educação e de referenciais epistemológicos.. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (7)  / Especialização: (3) . <br class="clear" /><br class="clear" />Integrantes: Carla Beatriz Spohr - Coordenador / Cecília Rocha - Integrante / Anelise Pereira Bordignon - Integrante / Eder Moleda - Integrante / Guilherme Salgueiro Goulart - Integrante / Silvani Staudt Ribas - Integrante / Cassiana Descovi - Integrante / Bruna Pinheiro - Integrante / Eduardo Rodrigues - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Ensino de Física. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Ensino de Ciências. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Mecânica, Elasticidade e Reologia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Eletricidade e Magnetismo; Campos e Partículas Carregadas. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Dinâmica dos Fluídos. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Educação/RS, na categoria Projeto: "SOS Lajeado Pratos"., SINPRO/RS. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, GUILHERME SALGUEIRO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2018</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.15536/thema.15.2018.686-703.854" target="_blank"></a>GOULART, GUILHERME SALGUEIRO ; GUIDOTTI, CHARLES DOS SANTOS ; <b>SPOHR, CARLA BEATRIZ</b> . A produção do conhecimento a respeito da formação inicial de professores: desafios e expectativas. REVISTA THEMA<sup><img id='21772894_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21772894' /></sup>, v. 15, p. 686-703, 2018. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.15536/thema.15.2018.686-703.854&issn=21772894&volume=15&issue=&paginaInicial=686&titulo=A produção do conhecimento a respeito da formação inicial de professores: desafios e expectativas&sequencial=1&nomePeriodico=REVISTA THEMA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SPOHR, CARLA BEATRIZ</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.22600/1518-8795.ienci2017v22n3p162" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, CARLA BEATRIZ</a></b>; GARCIA, ISABEL KREY ; PEREIRA SANTAROSA, MARIA CECÍLIA . IDENTIFICANDO A EVOLUÇÃO CONCEITUAL NO ENSINO DE ELETROMAGNETISMO, ATRAVÉS DE UMA UEPS BASEADA NUM SISTEMA DE SOM AUTOMOTIVO GERADOR DE ENERGIA. INVESTIGAÇÕES EM ENSINO DE CIÊNCIAS (ONLINE)<sup><img id='15188795_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15188795' /></sup>, v. 22, p. 162, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.22600/1518-8795.ienci2017v22n3p162&issn=15188795&volume=22&issue=&paginaInicial=162&titulo=IDENTIFICANDO A EVOLUÇÃO CONCEITUAL NO ENSINO DE ELETROMAGNETISMO, ATRAVÉS DE UMA UEPS BASEADA NUM SISTEMA DE SOM AUTOMOTIVO GERADOR DE ENERGIA&sequencial=2&nomePeriodico=INVESTIGAÇÕES EM ENSINO DE CIÊNCIAS (ONLINE)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROCHA, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>ROCHA, C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . O USO DE MAPAS CONCEITUAIS COMO INSTRUMENTO DIDÁTICO PARA IDENTIFICAR INDÍCIOS DE APRENDIZAGEM SIGNIFICATIVA EM DIFERENTES NÍVEIS DE ENSINO. Investigações em Ensino de Ciências (Online)<sup><img id='15188795_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15188795' /></sup>, v. 21, p. 23-52, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15188795&volume=21&issue=&paginaInicial=23&titulo=O USO DE MAPAS CONCEITUAIS COMO INSTRUMENTO DIDÁTICO PARA IDENTIFICAR INDÍCIOS DE APRENDIZAGEM SIGNIFICATIVA EM DIFERENTES NÍVEIS DE ENSINO&sequencial=3&nomePeriodico=Investigações em Ensino de Ciências (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. EPISTEMOLOGIA E ENSINO DE CIÊNCIAS. In: Sílvia Natália de Mello; Carmen Marta Freddo; Dionice Parise Eckert. (Org.). Especificidade do fazer docente. 1ed.Horizontina - RS: Graficasa - Gráfica e Editora Ltda, 2008, v. único, p. 81-85. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; REICHERT, M. B. ; WEBER, Adriana ; NEVES, J. C. M. ; HIRT, W. H. . SOS LAJEADO PRATOS. In: Sílvia Natália de Mello, Ana Cleveston, Ana de Quadros, Ilária Brandt, Liane Maria Sartori, Martin Goldmayer, Nelcio Giovanella, Oldair Bianchi, Rosane Inês Zvoboter. (Org.). SEMENTES - Composição de Saberes em Educação Ambiental de Horizontina. 01ed.Santa Rosa - RS: Coordenaria Regional de Educação, 2006, v. 17, p. 01-152. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. ELETROMAGNETISMO NA EDUCAÇÃO BÁSICA: UMA PROPOSTA DE ENSINO POR INVESTIGAÇÃO A PARTIR DA TRANSFORMAÇÃO DE ENERGIA SONORA EM ELÉTRICA EM UM SISTEMA DE SOM AUTOMOTIVO. In: VI EEEFIS - Encontro Estadual de Ensino de Física, 2015, Porto Alegre - RS. VI ENCONTRO ESTADUAL DE ENSINO DE FÍSICA - ATAS, 2015. p. 65-71. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; Cristian Fin Schneider ; Jeferson Peiter ; Renan Vinicyus Perinazzo . Metodologia para medição de potência em amplificadores de som. In: Semana Internacional das Engenharias da FAHOR - SIEF, 2011, Horizontina. Semana Internacional das Engenharias da FAHOR, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Djone Rafael Viana ; Leonardo José Lottermann ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . TRANSFERÊNCIA DE CALOR NO PROCESSO DE TÊMPERA. In: Semana Internacional das Engenharias da FAHOR - SIEF, 2011, Horizontina. SEMANA INTERNACIONAL DAS ENGENHARIAS DA FAHOR, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aline Beatriz Bartz ; Dinélle Izabel da Silva ; Tatiane Wunsch de Figueiredo ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . PROCESSO DE CORTE EM MÁQUINAS LASER. In: Semana Internacional das Engenharias da FAHOR - SIEF, 2011, Horizontina. Semana Internacional das Engenharias da FAHOR, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cristian Paluchowski ; Francine Steffenello ; Matias Steffenello ; Tiago Franken ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . Bases Teóricas de inspeção termográfica para aplicação em componentes elétricos. In: Semana Internacional das Engenharias da FAHOR - SIEF, 2011, Horizontina. SEMANA INTERNACIONAL DAS ENGENHARIAS DA FAHOR, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEURER, Z. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5078954333145104" target="_blank">MOREIRA, M. A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . DESVENDANDO OS MISTÉRIOS DO MUNDO MICROSCÓPICO AO LONGO DOS SÉCULOS COM AUXÍLIO DE UMA ?PIZZA DE PARTÍCULAS?. In: X Conferência Inter Americana de Educación en Física, 2009, Medellin - Colômbia. X Conferência Inter Americana de Educación en Física, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEURER, Z. H. ; STEFFANI, M. H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . UM OBJETO EDUCACIONAL PARA ESTIMULAR A DISCUSSÃO SOBRE ENERGIA NO ENSINO FUNDAMENTAL E SUSCITAR A TRANSDISCIPLINARIDADE.. In: X Conferência Inter Americana de Educación en Física, 2009, Medellin - Colômbia. X Conferência Inter Americana de Educación en F´[isica, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; CAVALCANTI, C.J.H. . O TEMA DA SUPERCONDUTIVIDADE NO ENSINO MÉDIO: UMA EXPERIÊNCIA DIDÁTICA CENTRADA NO USO DE MATERIAL HIPERMÍDIA. In: XVIII SNEF - Simpósio Nacional de Ensino de Física, 2009, Vitória -ES. XVIII SNEF, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; PUREUR NETO, P. ; CAVALCANTI, C.J.H. . CONSTRUINDO UMA PÁGINA NA INTERNET SOBRE SUPERCONDUTIVIDADE NO ENSINO MÉDIO A PARTIR DE FUNDAMENTOS DA EPISTEMOLOGIA CONTEMPORÂNEA. In: SNEF - Simpósio Nacional de Ensino de Física, 2007, São Luís - Maranhão. SNEF - XVII Simpósio Nacional de Ensino de Física, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; GOULART, G. S. . UNIDADES DE APRENDIZAGEM POTENCIALMENTE SIGNIFICATIVAS: ANÁLISE DE UMA UEPS NO ENSINO DE MECÂNICA NOS ANOS FINAIS DO ENSINO FUNDAMENTAL. In: SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão, 2015, Alegrete - RS. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. p. 4539-4540. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMARAL, L. C. G. ; TAHA, M. S. ; BARRETO, M. E. T. ; SOEHN, M. E. B. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . CALCULANDO VOLUMES A PARTIR DE PROJETOS INTERDISCIPLINARES. In: SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão, 2015, Alegrete - RS. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> . INTRODUZINDO O TEMA DA SUPERCONDUTIVIDADE NO ENSINO MÉDIO A PARTIR DE FUNDAMENTOS DA EPISTEMOLOGIA CONTEMPORÂNEA.. In: Encontro Sobre Investigação na Escola, 2006, Rio Grande - RS. VI ENCONTRO SOBRE INVETIGAÇÃO NA ESCOLA, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rocha, C.E.S. ; SANTAROSA, M.C.P ; <b>SPOHR, CARLA BEATRIZ</b> . Projeto Pré-Cálculo na Universidade Federal de Santa Maria: reflexões sobre a contribuição para acadêmicos da matemática e outras áreas científicas. REVISTA THEMA<sup><img id='21772894_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21772894' /></sup>, 2018. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; SANTOS, B. K. ; MOURA, C.S. ; OLIVEIRA JUNIOR, E. P. . Análise de falha no relé de acionamento do freio eletromagnético de uma desbobinadeira. 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, B. K. ; MOURA, C.S. ; OLIVEIRA JUNIOR, E. P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . Análise de um circuito hidráulico de uma prensa viradeira. 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; PUREUR NETO, P. ; CAVALCANTI, C.J.H. . O tema da supercondutividade no ensino médio: uma experiência didática centrada no uso de material hipermídia.. 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEURER, Z. H. ; STEFFANI, M. H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . UM OBJETO EDUCACIONAL PARA ESTIMULAR A DISCUSSÃO SOBRE ENERGIA NO ENSINO FUNDAMENTAL E SUSCITAR A TRANSDISCIPLINARIDADE. 2009. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEURER, Z. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5078954333145104" target="_blank">MOREIRA, M. A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b> . DESVELANDO LOS MISTERIOS DEL MUNDO MICROSCÓPIO A LO LARGO DE LOS SIGLOS CON ANÁLISIS DE UNA PIZZA DE PARTÍCULAS. 2009. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; PUREUR NETO, P. . O tema da supercondutividade no nível médio: desenvolvimento de material hipermídia fundamentado em epistemologias contemporâneas. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; PUREUR NETO, P. ; CAVALCANTI, C.J.H. . CONSTRUINDO UMA PÁGINA NA INTERNET SOBRE SUPERCONDUTIVIDADE NO ENSINO MÉDIO A PARTIR DE FUNDAMENTOS DA EPISTEMOLOGIA CONTEMPORÂNEA. 2007. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; PUREUR NETO, P. . A supercondutividade no ensino de Física fundamentada na epistemologia contemporânea. 2007. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. Supercondutividade no Ensino de Física. 2007. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; PUREUR NETO, P. . Introduzindo o tema da supercondutividade no ensino médio a partir de fundamentos da espistemologia contemporânea. 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. Xadrez em sala de aula. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> . Introduzindo o tema da supercondutividade no ensino médio a partir de fundamentos da epistemologia contemporânea. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; SCHACHT, M. ; RODRIGUES, E. A. M. . Circuito elétrico gerador de energia elétrica a partir de um sistema de som automotivo.
+							2016. (Desenvolvimento de material didático ou instrucional - Material didático para ensino de eletromagnetismo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7007713327410057" target="_blank">OSTERMANN, F.</a> ; PUREUR NETO, P. ; CAVALCANTI, C.J.H. . Supercondutores.
+							2006. (Desenvolvimento de material didático ou instrucional - Desenvolvimento de Material Didático). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. Xadrez em sala de aula. 2006 (Palestra) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; BUSANELLO, E. ; NEVES, J. C. M. ; REICHERT, M. B. ; BERGER, O. ; HIRT, W. H. . SOS Lajeado Pratos. 2002 (Palestra) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. Supletivo Comunidade. 2002 (Trabalho voluntário) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; DINARDI, A. J.; GUIDOTTI, C. S..  Participação em banca de Maristela Plucinski Cardoso. O Professor de Física do Ensino Médio: um olhar sobre a prática educativa nos processos do ensino e aprendizagem. 2016. Monografia (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; GUIDOTTI, C. S.; DINARDI, A. J..  Participação em banca de Priscila Nunes Paiva. Planejamento Colaborativo: Uma proposta de ensino da física nos anos iniciais através de discussões e elaboração de sequências didáticas. 2016. Monografia (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINHEIRO, F.L.; MELLO, E. M. B; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; SILVA, F.F..  Participação em banca de Fernanda de Lima Pinheiro.Artefatos pedagógicos para o ensino de ciências na educação básica: uma abordagem interdisciplinar e de inovação pedagógica.
+							2017. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LANES, D. V. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>.  Participação em banca de Anelise Pereira Bordignon.Análise epistemológica das metodologias de ensino de professoras da área de Ciências da Natureza.
+							2016. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOULART, A. R.; DUTRA, C. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>.  Participação em banca de Andressa Rossini Goulart.Abordagem da Astronomia no Ensino Fundamental através do software STELLARIUM.
+							2015. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GONCALVES, V. D. O.; DIAS, L. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>.  Participação em banca de Valéria Domingas Oliveira Gonçalves.A didática e planejamento do professor como ferramenta pedagógica para a educação inclusiva.
+							2015. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; DUTRA, C. M.; FOLMER, V..  Participação em banca de Thiago Severo Cruz.História da Ciência nos Livros Didáticos de Física.
+							2015. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; DIAS, L. F..  Participação em banca de Silvani Staudt Ribas.Inclusão: Um Desafio ao Profissional da Educação.
+							2014. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPOHR, C. B.</b>; MOLIN, A. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>.  Participação em banca de Janaína Vanuza Gall e Victor Ergang Streda.DESENVOLVIMENTO DE UMA BANCADA DIDÁTICA DE TRANSMISSÕES MECÂNICAS.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engneharia Mecânica)  - FACULDADE HORIZONTINA. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; LEHRMEN, R..  Participação em banca de Cléber Roberto Chitolina e Fernando Menzel Anton.DIMENSIONAMENTO E FABREICAÇÃO DE UM DISPOSITIVO PARA ENSAIO DE CHARPY.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia Mecânica)  - Faculdade Horizontina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; SEVERO, R. F..  Participação em banca de Geovani Junior Merchiori e Kássius Rafael Kolling.DESENVOLVIMENTO DE UMA BANCADA EXPERIMENTAL CAPAZ DE AVALIAR AS CARACTERÍSTICAS DE MOTORES DE COMBUSTÃO INTERNA DE 5 A 15 CV.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia Mecânica)  - Faculdade Horizontina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MANTOVANI, C. A.; SEVERO, R. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>.  Participação em banca de Matias Dembogurski.Projeto Conceitual de um Sistema para Descarga de Silos de Expedição.
+							2012. Trabalho de Conclusão de Curso (Graduação em Engneharia Mecânica)  - FACULDADE HORIZONTINA. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MANTOVANI, C. A.; MICHELS, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>.  Participação em banca de Francine Brauch Pinto Steffenello.Projeto Conceitual de um Incinerador de Gases Voláteis.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engneharia Mecânica)  - FACULDADE HORIZONTINA. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; JERZEWSKI, L. V..  Participação em banca de Alan Matias Siqueira.Análise de reboque para plataformas de colheita.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engneharia Mecânica)  - FACULDADE HORIZONTINA. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. Avaliador Ad Hoc do Projeto de Extensão intitulado: "INFORMAÇÃO E INTERATIVIDADE NA MELHOR IDADE".
+							2016.
+							Universidade do Estado de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. avaliador de resumos submetidos para a Mostra Científica do VII Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).
+							2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>. avaliador presencial de trabalhos apresentados na Mostra Científica do VII Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).
+							2015. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Semana de Investigación.
+							2017. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Semana de Investigación.Concepções de ensino e aprendizagem e formação inicial: um estudo de caso.
+							2017. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão.Oficina: Eletromagnetismo a partir de um circuito elétrico transformador de energia sonora em elétrica.. 2016. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Formação Pedagógica: Docência Universitária com foco na Metodologia e na Avaliação.
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI EEEFIS - Encontro Estadual de Ensino de Física.
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI EEEFIS - Encontro Estadual de Ensino de Física.ELETROMAGNETISMO NA EDUCAÇÃO BÁSICA: UMA PROPOSTA DE ENSINO POR INVESTIGAÇÃO A PARTIR DA TRANSFORMAÇÃO DE ENERGIA SONORA EM ELÉTRICA EM UM SISTEMA DE SOM AUTOMOTIVO.
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão.Avaliador. 2014. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SIEPE - Salão Internacional de Ensino Pesquisa e Extensão.Avaliador de Resumos. 2014. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Curso de Formação Continuada para Profissionais da Educação.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ler e Escrever: Interlocução entre saberes. 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Construção do Referencial Curricular Municipal.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional de Professores de Matemática e Ciências Naturais.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">QUALIDOQ - Qualificação Docente FAHOR.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Educação - Educação e Novas Tecnologias. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Formação Continuada de Professores.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Conferência Inter Americana de Educación en Física. Develando los misterios del mundo microscópico a lo largo de los siglos con análisis de una pizza de partículas. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Simpósio Nacional de Ensino de Física.O tema da supercondutividade no ensino médio: uma experiência didática centrada no uso de material hipermídia.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SNEF - Simpósio Nacional de Ensino de Física.Construindo uma página na internet sobre supercondutividade no ensino médio a partir de fundamentos da epistemologia contemporânea.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SECIM ? Seminário Regional sobre a Evolução do Ensino de Ciências e Matemática.Materiais Alternativos para o ensino de Física. 1996. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cassiana Descovi Soares.
+							TRANSTORNO DO ESPECTRO AUTISTA: PROMOVENDO INTERAÇÃO SOCIAL ATRAVÉS DO ENSINO ESTRUTURADO OTIMIZADO PELAS INTERVENÇÕES ASSISTIDAS POR ANIMAIS.
+							2016.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências)  - Universidade Federal do Pampa. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruna de Lima Pinheiro.
+							O ensino de ciências na educação infantil: a realidade do trabalho desenvolvido com pré-escolares em uma instituição pública de ensino de Uruguaiana, RS.
+							2016.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências)  - Universidade Federal do Pampa. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silvani Staudt Ribas.
+							Ûnidade de ensino potencialmente significativa no ensino de biologia de aluno surdo e ouvintes.
+							2016.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências)  - Universidade Federal do Pampa. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cecília Elenir dos Santos Rocha.
+							O uso de mapas conceituais como instrumento didático para identificar indícios de aprendizagem significativa.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Ciências da Natureza)  - Universidade Federal do Pampa. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Amandia Marçal Rodrigues.
+							O uso de um sistema de som automotivo gerador de energia em uma proposta de ensino por investigação.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Ciências da Natureza)  - Universidade Federal do Pampa. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camila Thomazi Ruviaro.
+							A inserção da física nos livros didáticos de ciências do 4º ano do ensino fundamental.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Ciências da Natureza)  - Universidade Federal do Pampa. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Salgueiro Goulart.
+							A produção do conhecimento a respeito da formação inicial de professores: desafios e expectativas.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Ciências da Natureza)  - Universidade Federal do Pampa. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcos André Schacht.
+							Transformação de energia sonora em energia elétrica num sistema automotivo.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Engneharia Mecânica)  - FACULDADE HORIZONTINA. Orientador: Carla Beatriz Spohr.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetosPesquisaPI"></a><br class="clear" /><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+<a name="ProjetoExtensaoPI"></a><br class="clear" /><div class="inst_back">
+<b>Projeto de extensão</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="MaterialDidaticoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Desenvolvimento de material didático ou instrucional</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3006889738861726" target="_blank">SPOHR, C. B.</a></b>; SCHACHT, M. ; RODRIGUES, E. A. M. . Circuito elétrico gerador de energia elétrica a partir de um sistema de som automotivo.
+							2016. (Desenvolvimento de material didático ou instrucional - Material didático para ensino de eletromagnetismo). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Foi desenvolvido material didático que objetiva divulgação científica e introdução de um tema de Física Moderna no Ensino Médio de Física sob título "Introduzindo o tema da supercondutividade no ensino médio a partir de fundamentos da epistemologia contemporânea". Para a introdução do tema desenvolveu-se uma página na Internet sobre supercondutividade, envolvendo uma série de recursos hipermídias. O desenvolvimento da página também faz parte de um projeto maior que, entre outras coisas, visa a divulgar materiais didáticos sobre supercondutividade na internet. Tal projeto conta com suporte técnico em informática e se insere no PRONEX do Laboratório de Supercondutividade e Magnetismo do IF - UFRGS (coordenação: Paulo Pureur)</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:28:51</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=3006889738861726" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

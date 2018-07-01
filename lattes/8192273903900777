@@ -1,0 +1,2281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Carlos Maximiliano Dutra)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4791139U6&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8192273903900777" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4791139U6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4791139U6"><div class="infpessoa">
+<h2 class="nome">Carlos Maximiliano Dutra</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/8192273903900777</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 17/05/2016</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Fisica pela Universidade Federal do Rio Grande do Sul (1994), mestrado em Física pela Universidade Federal do Rio Grande do Sul (1997) e doutorado em Física pela Universidade Federal do Rio Grande do Sul (2001). Realizou pós-doutorado em Astronomia de 2001 a 2003 no Instituto Astronômico e Geofísico da USP. Atualmente é Professor Associado da Universidade Federal do Pampa (UNIPAMPA), onde desenvolve pesquisa na área de Ensino de Astronomia; e é coordenador de área do subprojeto PIBID Ciências da Natureza da UNIPAMPA.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Carlos Maximiliano Dutra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa. <br class="clear" />BR472 km 7 Prédio 700<br class="clear" />97500-970 - Uruguaiana, RS - Brasil<br class="clear" />Telefone: (055) 34134321<br class="clear" />URL da Homepage: <a target="blank" href="http://www.unipampa.edu.br">www.unipampa.edu.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Física<span class="ajaxCAPES" data-param="&codigoCurso=42001013002P1&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Distribuicao da extincao na Galaxia e nas Nuvens de Magalhaes, Ano de obtenção: 2001. <br class="clear" />Orientador: Eduardo Luiz Damiani Bica. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: ISM:dust, extinction; Galaxy:Open Clusters and associations: General; Galaxy: globular clusters; Magellanic Clouds: star clusters; Galaxies:Magellanic Clouds, ISM, Stellar content.<br class="clear" />Grande área: Ciências Exatas e da Terra<br class="clear" />Setores de atividade: Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Física<span class="ajaxCAPES" data-param="&codigoCurso=42001013002P1&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: A distribuicao da extincao na Pequena Nuvem de Magalhaes,Ano de Obtenção: 1997.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7662796111326087'><img src='images/curriculo/logolattes.gif' /></a>Eduardo Luiz Damiani Bica.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: Magellanic Clouds: star clusters; ISM:dust, extinction; catalogs.<br class="clear" />Grande área: Ciências Exatas e da Terra<br class="clear" />Setores de atividade: Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização interrompida em 2005 em Especialização Educação Ambiental: Bioconservação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 405h). <br class="clear" />Universidade da Região da Campanha, URCAMP, Brasil.
+		
+	<br class="clear" />Título: NÃO APRESENTADA. <br class="clear" />Ano de interrupção: 2005</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização interrompida em 2004 em Tec. da Informação e comunicação na Educação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 360h). <br class="clear" />Pontifícia Universidade Católica RS, PUCRS, Brasil.
+		
+	<br class="clear" />Título: NÃO APRESENTADA. <br class="clear" />Ano de interrupção: 2004</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Fisica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Profissionalizante de Design Instrucional para EAD.  (Carga horária: 120h). <br class="clear" />Instituto Brasileiro de Desenho Instrucional, IBDIN, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">II Seminario de Desenvolvimento Profissional.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor Associado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador Curso Ciências da Natureza.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Natureza, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Universo: Origem, Estrutura e Evolução, Estatística<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matematica, Fisica e Bioestatistica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina Veterinária, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Bioestatistica I e Bioestatistica II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 02/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Diretor do Campus.</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Coordenador de área Ciências da Natureza, Carga horária: 12</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor adjunto, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Servidor da Universidade Federal do Pampa em processo de implantação, e durante este processo vinculado a UFSM.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Biofisica Molecular<br class="clear" />Bioestatistica<br class="clear" />Introdução à Informática<br class="clear" />Matematica para Ciencias Biologicas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Informática<br class="clear" />Biofisica A<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estatistica aplicada a Enfermagem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2007 - 07/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Biofisica Molecular<br class="clear" />Fisica aplicada a Farmacia<br class="clear" />Bioestatistica<br class="clear" />Matematica para Ciencias Biologicas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 02/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fisica aplicada a Farmacia<br class="clear" />Matematica para Ciencias Biologicas<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual do Rio Grande do Sul, UERGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: professor doutor, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2006 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, CSTA: Sistema de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Aplicada<br class="clear" />Introdução à Informática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Conselho Consultivo Regional 6, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />conselheiro.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2004 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Unidade São Borja, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador da Unidade.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2003 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Unidade São Borja, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Astrofísica Galáctica e Meio Interestelar'>Astrofísica Galáctica e Meio Interestelar</a><br class="clear" /><a href='#LP_Desenvolvimento Urbano e Rural'>Desenvolvimento Urbano e Rural</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2006 - 07/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desenvolvimento Rural e Gestão Agroindustrial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Planejamento do Desenvolvimento Local<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desenvolvimento Rural e Gestão Agroindustrial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Legilkação Agrária e Ambiental<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 07/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, CSTA: Sistema de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fisica Aplicada<br class="clear" />Metodologia de Pesquisa<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 03/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Unidade São Borja, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante no Seminário:" Segurança Agricultura Urbana em São Borja: diagnostico e ações para construir a segurança alimentar". </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2004 - 12/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, CSTA: Sistema de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estatistica Aplicada<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2004 - 12/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desenvolvimento Rural e Gestão Agroindustrial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Metodos Estatisticos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2004 - 08/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Unidade São Borja, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Coordenação do Seminário: "Universidade Meio Ambiente e Cidadania: do conhecimento a ação". </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2004 - 07/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desenvolvimento Rural e Gestão Agroindustrial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Filosofia da Ciência<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2004 - 07/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, CSTA: Sistema de Produção, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física Aplicada<br class="clear" />Introdução à Informática<br class="clear" />Matemática Aplicada<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2003 - 12/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desenvolvimento Rural e Gestão Agroindustrial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Métodos estatísticos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2003 - 07/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desenvolvimento Rural e Gestão Agroindustrial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Informática<br class="clear" />Matemática Aplicada<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade da Região da Campanha, URCAMP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: professor, Carga horária: 10</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2006 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Informática Aplicada a Matemática II<br class="clear" />Informática Aplicada a Matemática I<br class="clear" />Introdução à Física<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2006 - 06/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Calculo Numerico<br class="clear" />Matematica aplicada a Fisica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Numérico<br class="clear" />Fisica III<br class="clear" />Introdução à Física<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena Biologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fisica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 07/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fisica II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2004 - 12/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física I<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Astrof&iacute;sica Gal&aacute;ctica e Meio Interestelar'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Astrofísica Galáctica e Meio Interestelar</div>
+</div><a name='LP_Desenvolvimento Urbano e Rural'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento Urbano e Rural</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Estudo de aglomerados de estrelas como tra&ccedil;adores de estrutura e evolu&ccedil;&atilde;o qu&iacute;mica da Gal&aacute;xia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de aglomerados de estrelas como traçadores de estrutura e evolução química da Galáxia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Carlos Maximiliano Dutra - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Astronomia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Economia / Subárea: Economia Regional e Urbana. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science</div><div class="trab">Total de trabalhos:24</div><div class="cita">Total de citações:541</div><div class="fator">Fator H:15</div><div class="detalhes">Dutra, CM&nbsp;&nbsp;Data:&nbsp;17/07/2008</div></div></div></div></div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:23</div><div class="cita">Total de citações:524</div><div class="detalhes">Dutra, CM - Fator: 15 (http://www.scopus.com)&nbsp;&nbsp;Data:&nbsp;17/07/2008</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, G. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>GOULART, G. S. ; RUVIARO, C. T. ; <b>DUTRA, C. M.</b> . Atividade experimental no ensino de física: Uma ferramenta didática na aprendizagem de conceitos físicos.. ENSINO & PESQUISA - Revista Multidisciplinar de Licenciatura e Formação Docente<sup><img id='23594381_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='23594381' /></sup>, v. 13, p. 57-68, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=23594381&volume=13&issue=&paginaInicial=57&titulo=Atividade experimental no ensino de física: Uma ferramenta didática na aprendizagem de conceitos físicos.&sequencial=1&nomePeriodico=ENSINO & PESQUISA - Revista Multidisciplinar de Licenciatura e Formação Docente" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>GOULART, A. R. ; DAVILA, E. ; <b>DUTRA, C. M.</b> . Dialmaker: um aplicativo gratuito para construir um relógio de Sol.. Vidya (Santa Maria. Online)<sup><img id='21764603_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21764603' /></sup>, v. 34, p. 13-24, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21764603&volume=34&issue=&paginaInicial=13&titulo=Dialmaker: um aplicativo gratuito para construir um relógio de Sol.&sequencial=2&nomePeriodico=Vidya (Santa Maria. Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; GOULART, A. R. . Determinando a forma da órbita de Marte no Ensino Médio. Revista Latino-Americana de Educação em Astronomia<sup><img id='18067573_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18067573' /></sup>, v. 18, p. 11-25, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18067573&volume=18&issue=&paginaInicial=11&titulo=Determinando a forma da órbita de Marte no Ensino Médio&sequencial=3&nomePeriodico=Revista Latino-Americana de Educação em Astronomia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.7447/dc.2012.020" target="_blank"></a>GOULART, A. R. ; <b>DUTRA, C. M.</b> . Fotografia Digital na Analise do Movimento do Sol. Diálogos & Ciência (Online)<sup><img id='16780493_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16780493' /></sup>, v. 10, p. 194-200, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.7447/dc.2012.020&issn=16780493&volume=10&issue=&paginaInicial=194&titulo=Fotografia Digital na Analise do Movimento do Sol&sequencial=4&nomePeriodico=Diálogos & Ciência (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AHUMADA, ANDREA V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1017/s1743921309991244" target="_blank"></a>AHUMADA, ANDREA V. ; CLARIÁ, JUAN J. ; BICA, EDUARDO ; PIATTI, ANDRÉS E. ; SANTOS, JOÃO F. C. ; TALAVERA, M. LORENA ; PALMA, TALI ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1878688743763378" target="_blank">PAVANI, DANIELA B.</a> ; PARISI, M. CELESTE ; TORRES, M. CRISTINA ; <b>DUTRA, CARLOS M.</b> . Further developments in star cluster spectral libraries. Proceedings of the International Astronomical Union (Print)<sup><img id='17439213_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17439213' /></sup>, v. 5, p. 347, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1017/s1743921309991244&issn=17439213&volume=5&issue=&paginaInicial=347&titulo=Further developments in star cluster spectral libraries&sequencial=5&nomePeriodico=Proceedings of the International Astronomical Union (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1365-2966.2008.13612.x" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">BONATTO, C.</a> ; <b>Dutra, C. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3094614769262212" target="_blank">Santos, J. F. C.</a> . A general catalogue of extended objects in the Magellanic System. Monthly Notices of the Royal Astronomical Society<sup><img id='00358711_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00358711' /></sup>, v. 389, p. 678-690, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1365-2966.2008.13612.x&issn=00358711&volume=389&issue=&paginaInicial=678&titulo=A general catalogue of extended objects in the Magellanic System&sequencial=6&nomePeriodico=Monthly Notices of the Royal Astronomical Society" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; ORTOLANI, S. ; MOMANY, Y. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0985484253315463" target="_blank">BARBUY, B.</a> . A pair of reddened young star clusters in Centaurus. Monthly Notices of Royal Astronomical Society, Londres, v. 352, p. 226-232, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=352&issue=&paginaInicial=226&titulo=A pair of reddened young star clusters in Centaurus&sequencial=7&nomePeriodico=Monthly Notices of Royal Astronomical Society" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">BONATTO, C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> . Discovery of three optical open clusters in the Galaxy. Astronomy and Astrophysics, Paris, v. 422, p. 555-562, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=422&issue=&paginaInicial=555&titulo=Discovery of three optical open clusters in the Galaxy&sequencial=8&nomePeriodico=Astronomy and Astrophysics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; Soares, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0985484253315463" target="_blank">BARBUY, B.</a> . New Infrared star clusters in the southern Milky Way with 2MASS. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, França, v. 400, p. 533-539, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=400&issue=&paginaInicial=533&titulo=New Infrared star clusters in the southern Milky Way with 2MASS&sequencial=9&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0985484253315463" target="_blank">BARBUY, B.</a> . A Catalogue of infrared star clusters and stellar groups. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, França, v. 397, p. 177-180, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=397&issue=&paginaInicial=177&titulo=A Catalogue of infrared star clusters and stellar groups&sequencial=10&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0985484253315463" target="_blank">BARBUY, B.</a> . Extinction within 10° of the Galactic centre using 2MASS. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, Londres, v. 338, n.1, p. 253-262, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=338&issue=&paginaInicial=253&titulo=Extinction within 10° of the Galactic centre using 2MASS&sequencial=11&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; Soares, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0985484253315463" target="_blank">BARBUY, B.</a> . New infrared star clusters in the Northern and Equatorial Milky Way with 2MASS. Astronomy and Astrophysics, Paris, v. 404, p. 223-232, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=404&issue=&paginaInicial=223&titulo=New infrared star clusters in the Northern and Equatorial Milky Way with 2MASS&sequencial=12&nomePeriodico=Astronomy and Astrophysics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703015447173949" target="_blank">BONATTO, C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> . Does Cyg OB2 harbour any open cluster?. Astronomy and Astrophysics, Paris, v. 405, p. 991-998, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=405&issue=&paginaInicial=991&titulo=Does Cyg OB2 harbour any open cluster?&sequencial=13&nomePeriodico=Astronomy and Astrophysics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; Ahumada, A.V. ; Claria, J.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0985484253315463" target="_blank">BARBUY, B.</a> . On the calibration of the COBE/IRAS dust emission reddening maps. Astronomy and Astrophysics, Paris, v. 408, p. 287-295, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=408&issue=&paginaInicial=287&titulo=On the calibration of the COBE/IRAS dust emission reddening maps&sequencial=14&nomePeriodico=Astronomy and Astrophysics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; ORTOLANI, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0985484253315463" target="_blank">BARBUY, B.</a> ; ZOCCALI, M. ; MOMANY, Y. . NTT infrared imaging of star cluster candidates towards the central parts of the Galaxy. Astronomy and Astrophysics, Paris, v. 408, p. 127-134, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=408&issue=&paginaInicial=127&titulo=NTT infrared imaging of star cluster candidates towards the central parts of the Galaxy&sequencial=15&nomePeriodico=Astronomy and Astrophysics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . A catalogue of dust clouds in the Galaxy. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, Paris, v. 383, p. 631-635, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=383&issue=&paginaInicial=631&titulo=A catalogue of dust clouds in the Galaxy&sequencial=16&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . Low-extinction windows in the inner Galactic Bulge. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, Paris, v. 381, p. 219-226, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=381&issue=&paginaInicial=219&titulo=Low-extinction windows in the inner Galactic Bulge&sequencial=17&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Ahumada, A.V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>Ahumada, A.V. ; Claria, J.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> . Dating star clusters in the Small Magellanic Cloud by means of integrated spectra. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_18' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, França, v. 393, p. 855-866, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=393&issue=&paginaInicial=855&titulo=Dating star clusters in the Small Magellanic Cloud by means of integrated spectra&sequencial=18&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; Claria, J.J. ; Piatti, A. ; Ahumada, A.V. . Background galaxies as reddening probes throughout the Magellanic Clouds. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_19' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 371, p. 895-907, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=371&issue=&paginaInicial=895&titulo=Background galaxies as reddening probes throughout the Magellanic Clouds&sequencial=19&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9698786087332518" target="_blank">de Oliveira, M.R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1878688743763378" target="_blank">Pavani, D.</a> . Dissolving star cluster candidates. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_20' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 366, p. 827-833, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=366&issue=&paginaInicial=827&titulo=Dissolving star cluster candidates&sequencial=20&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Pavani, D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1878688743763378" target="_blank">Pavani, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> ; Carranza, G. ; Diaz, R.J. . Open clusters or their remnants: B and V photometry of NGC1901 and NGC1252. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_21' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 374, p. 554-563, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=374&issue=&paginaInicial=554&titulo=Open clusters or their remnants: B and V photometry of NGC1901 and NGC1252&sequencial=21&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . New infrared star clusters and candidates in the Galaxy detected with 2MASS. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_22' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 376, p. 434-440, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=376&issue=&paginaInicial=434&titulo=New infrared star clusters and candidates in the Galaxy detected with 2MASS&sequencial=22&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Ahumada, A.V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span>Ahumada, A.V. ; Claria, J.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; Torres, M.C. . Reddening and age for 13 southern galactic open clusters determined from integrated spectra. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_23' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 377, p. 845-853, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=377&issue=&paginaInicial=845&titulo=Reddening and age for 13 southern galactic open clusters determined from integrated spectra&sequencial=23&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>de Oliveira, M.R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9698786087332518" target="_blank">de Oliveira, M.R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> . Morphologies and ages of star cluster pairs and multiplets in the Small Magellanic Cloud. Astronomy & Astrophysics. Supplement Series<sup><img id='03650138_24' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03650138' /></sup>, v. 146, p. 57-72, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03650138&volume=146&issue=&paginaInicial=57&titulo=Morphologies and ages of star cluster pairs and multiplets in the Small Magellanic Cloud&sequencial=24&nomePeriodico=Astronomy & Astrophysics. Supplement Series" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . Foreground and background dust in star cluster directions. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_25' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 359, p. 347-363, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=359&issue=&paginaInicial=347&titulo=Foreground and background dust in star cluster directions&sequencial=25&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . New clusters projected close to the Galactic Centre. Astronomy & Astrophysics (Berlin)<sup><img id='00046361_26' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046361' /></sup>, v. 359, p. L9-L12, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046361&volume=359&issue=&paginaInicial=L9&titulo=New clusters projected close to the Galactic Centre&sequencial=26&nomePeriodico=Astronomy & Astrophysics (Berlin)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> . Updating the census of star clusters in the Small Magellanic Clouds. The Astronomical Journal (New York)<sup><img id='00046256_27' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046256' /></sup>, v. 119, p. 1214-1224, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046256&volume=119&issue=&paginaInicial=1214&titulo=Updating the census of star clusters in the Small Magellanic Clouds&sequencial=27&nomePeriodico=The Astronomical Journal (New York)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, C. M.;Dutra, C. M.;DUTRA, CARLOS M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; Claria, J.J. ; Piatti, A. . Spectroscopic analysis of the candidate globular clusters NGC1928 and NGC1939 in the Large Magellanic Cloud. Montly Notices of the Royal Astronomical Society, v. 305, p. 373, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=305&issue=&paginaInicial=373&titulo=Spectroscopic analysis of the candidate globular clusters NGC1928 and NGC1939 in the Large Magellanic Cloud&sequencial=28&nomePeriodico=Montly Notices of the Royal Astronomical Society" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Bica, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; Schmitt, Henrique R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; Oliveira, H.L. . A revised and extended catalog of Magellanic System: clusters, associations, and emission nebulae. II The Large Magellanic Cloud. The Astronomical Journal (New York)<sup><img id='00046256_29' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00046256' /></sup>, v. 117, p. 238-246, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00046256&volume=117&issue=&paginaInicial=238&titulo=A revised and extended catalog of Magellanic System: clusters, associations, and emission nebulae. II The Large Magellanic Cloud&sequencial=29&nomePeriodico=The Astronomical Journal (New York)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9698786087332518" target="_blank">de Oliveira, M.R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2301228789810942" target="_blank">Oliveira Filho, I.R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3094614769262212" target="_blank">Santos JR, J.F.</a> ; Claria, J.J. ; Piatti, A. ; Geisler, D. . Dynamical and chemical evolution of the Magellanic Clouds. In: IIIrd Guillermo Haro Conference on Cosmic Evolution and Galaxy Formation: Interaction and Feedback, 2000, Puebla - Mexico. Publication of the Astronomical Society of the Pacific, Conference Series. Chicago: University of Chicago Press, 1999. v. 218. p. 340-344. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3094614769262212" target="_blank">Santos JR, J.F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2301228789810942" target="_blank">Oliveira Filho, I.R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9698786087332518" target="_blank">de Oliveira, M.R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; Claria, J.J. ; Piatti, A. ; Geisler, D. . Evolução dinâmica e química das Nuvens de Magalhães. In: Reuniao Anual da Sociedade Astronomica Brasileira, 1999, Caxambu -MG. Boletim da Sociedade Astronomica Brasileira: 25 anos da SAB. São Paulo: IAG-USP, 1999. v. 19. p. 113-124. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; Claria, J.J. ; Piatti, A. . Dust absorption throughout the Magellanic Clouds. In: Reunion Regional de Astronomia Extragalactica, 1998, Cordoba - Argentina. Boletin de la Academia Nacional de Ciencias. Cordoba - Argentina: Universidad de Cordoba, 1996. v. 62. p. 127-130. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; MOLEDA, E. . Experimentação no Ensino de Física: Lançamento de foguete de garrafa Pet.. In: III Seminário Internacional de Educação em Ciências, 2014, Rio Grande/RS. Anais do III Seminário Internacional de Educação em Ciências. Rio Grande: FURG, 2014. p. 761. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIGUEREDO, S. ; ROCHA, C. ; BORDIGNON, A. ; GONCALVES, V. ; <b>DUTRA, C. M.</b> . Física no Cotidiano: Trabalhando Cinemática de forma prática.. In: III Seminário Internacional de Educação em Ciências, 2014, Rio Grande/RS. Anais do III Seminário Internacional de Educação em Ciências. Rio Grande: FURG, 2014. p. 761. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VICOSA, D. ; TAHA, F. S. ; <b>DUTRA, C. M.</b> . Oficina e Exposição Relógio de Sol. In: VI SIEPE-UNIPAMPA, 2014, Bagé/RS. Anais do VI SIEPE-UNIPAMPA, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOULART, A. R. ; <b>Dutra, C. M.</b> . Reconhecendo as Constelações de Estrelas. In: V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013, Bagé,RS. Anais do V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">Dutra, C. M.</a></b>; MOLEDA, E. . Observando os Astros com o Stellarium. In: V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013, Bagé,RS. Anais do V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OCAMPO, D. M. ; <b>Dutra, C. M.</b> . Proposta de Webquest para o aprendizado das Leis de Kepler. In: V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013, Bagé,RS. Anais do V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">Dutra, C. M.</a></b>; MIRALHA, C. . Observação do Planeta Vênus no Ensino Fundamental. In: V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013, Bagé,RS. Anais do V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">Dutra, C. M.</a></b>; FERRAZ, N. . Olímpiada Brasileira de Astronomia e Astronáutica em Uruguaiana. In: V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013, Bagé,RS. Anais do V Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2013. v. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOULART, A. R. ; <b>Dutra, C. M.</b> . TIC como Auxílio no Estudo do Movimento Aparente do Sol. In: IV Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2012, Bagé,RS. Anais do IV Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2012. v. 4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, M. E. ; KULLMANN, E. ; <b>Dutra, C. M.</b> ; FOLMER, V. . VÍdeo-aula Como Ferramenta Pedagógica Para Aulas PrÁticas De BiofÍsica A. In: I Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2009, Uruguaiana,RS. Anais do I Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, E. N. ; <b>Dutra, C. M.</b> ; PETRY, T. ; PIRES, M. . Igoogle: Uma Alternativa Aos Ambientes Virtuais De Aprendizagem. In: I Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2009, Uruguaiana,RS. Anais do I Salão Internacional de Ensino Pesquisa Extensão UNIPAMPA, 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUERBECK, H. ; STERKEN, C. ; BAPTISTA, R. ; CUNHA, K. ; DIAZ, M. P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; FREYHAMMER, L. ; HENSBERGE, H. ; JONES, A. . Spectroscopic and photometric observations of the recurrent nova IM Nor. In: Interplay of Periodic, Cyclic and Stochastic Variability in Selected Areas of the H-R Diagram., 2003, Bruxelas. ASP Conf. Ser.. San Francisco: C. Sterken, 2002. v. 292. p. 309-309. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . Detectando janelas de baixa extinção na direção do Bojo Galático com o 2MASS. In: Reunião Anual da Sociedade Astronômica Brasileira, 2001, Aguas de São Pedro. Boletim da Sociedade Astronômica Brasileira. São Paulo: Sociedade Astronômica Brasileira, 2001. v. 21. p. 29-29. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1878688743763378" target="_blank">Pavani, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; Carranza, G. ; Diaz, R.J. . Aglomerados abertos e seus remanescentes: fotometria B e V de NGC1901 e NGC1252. In: XXVII Reunião da Sociedade Astronomica Brasileira, 2001, Aguas de São Pedro. Boletim da Sociedade Astronomica Brasileira. São Paulo: Sociedade Astronomica Brasileira, 2001. v. 21. p. 146-146. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Soares, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; Claria, J.J. ; Ahumada, A.V. . Fotometria de algomerados abertos na direção do complexo de. In: XXVII Reunião Anual da Sociedade Astronomica Brasileira, 2001, Aguas de São Pedro. Boletim da Sociedade Astronomica Brasileira. São Paulo: Sociedade Astronomica Brasileira, 2001. v. 21. p. 146-146. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9378277300360931" target="_blank">Dottori, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0744190581971770" target="_blank">Santiago, B.X.</a> ; Greca, I. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9698786087332518" target="_blank">de Oliveira, M.R.</a> ; Fraquelli, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2301228789810942" target="_blank">Oliveira Filho, I.R.</a> . Observatorio Educativo Itinerante: Avaliação de um semestre de atividades. In: XXVI Reunião Anual da SAB, 2000, Angra dos Reis -RJ. Boletim da Sociedade Astronômica Brasileira. São Paulo: IAG-USP, 2000. v. 20. p. 134-134. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ahumada, A.V. ; Claria, J.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; Piatti, A. . Edades y enrojecimientos de 4 cúmulos abiertos, débiles y compactos del brazo espiral de Carina. In: Reunión Anual de la Asoc. Arg. de Astronomia, 2000, Tafi del Valle. Bol. Asoc. Arg. Astron.. Buenos Aires: Asoc. Arg. Astron., 2000. v. 44. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ahumada, A.V. ; Claria, J.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; Piatti, A. . Espectroscopia integrada de los cúmulos abiertos NGC 5606 y Van den Bergh 80. In: Reunión Anual de la Asoc. Arg. de Astronomia, 2000, Tafi del Valle. Bol. Asoc. Arg. Astron.. Buenos Aires: Asoc. Arg. Astron., 2000. v. 44. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ahumada, A.V. ; Claria, J.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b> ; Torres, M.C. . Primera determinacíon de parámetros fundamentales de los cúmulos abiertos ESO429-SC13, Hogg 3, Haffner 7, BH 87, Berkeley 75, NGC 2368 y NGC2635. In: Reunion Anual de la Asoc. Arg. de Astronomia, 2000, Tafi del Valle. Bol. Asoc. Arg. Astron.. Buenos Aires: Asoc. Arg. Astron., 2000. v. 44. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; Claria, J.J. ; Piatti, A. . Sobre la posible existencia de un núcleo de población II en la barra de la Nube Mayor de Magallanes. In: Reunion Anual de la Asoc. Arg. de Astronomia, 1999, Rosario. Boletin de la Asoc. Arg. Astron.. Buenos Aires: Asoc. Arg. Astron., 1999. v. 43. p. 58-58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . A distribuição de extinção na Pequena Nuvem de Magalhães. In: Reunião Anual da Sociedade Astronômica Brasileira, 1997, Angra dos Reis - RJ. Boletim da Sociedade Astronômica Brasileira. São Paulo: SAB, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> ; Claria, J.J. ; Piatti, A. . Estudio de la transparencia de las Nubes de Magallanes a partir de la observación espectroscópica de galaxias ubicadas en dirección a las mismas. In: Reunion Anual de la Asociación Argentina de Astronomia, 1996, La Plata. Boletin de la Asoc. Arg. Astron.. Buenos Aires: Asoc. Arg. Astron., 1996. v. 40. p. 35-35. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192273903900777" target="_blank">DUTRA, C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7662796111326087" target="_blank">Bica, E.</a> . Catálogo revisado de galáxias na região das Nuvens de Magalhães. In: Reunião Anual da Sociedade Astronômica Brasileira, 1995, Caxambu - MG. Boletim da Soceidade astronômica Brasileira. São Paulo: SAB, 1995. v. 15. p. 12-12. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FOLMER, V.; MUCCILLO-BAISCH, A. L.; SOARES, M. C. F.; PUNTEL, R.; <b>DUTRA, C. M.</b>.  Participação em banca de Simone Lara. Saúde Cardiovascular como tema gerador no Curso Normal. 2013. Tese (Doutorado em Educação em Ciências: Química da Vida e Saúde)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PESSANO, E.; DAVILA, E.; <b>DUTRA, C. M.</b>.  Participação em banca de Daniel Morin Ocampo. Panorama da Astronomia nos livros didáticos de Física. 2013. Monografia (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUTRA, C. M.</b>; ROEHRS, R.; PEREIRA, K. B..  Participação em banca de Graciela Marques Suterio. A história da ciência nos livros didáticos de Biologia do PNLEM 2011. 2013. Monografia (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUTRA, C. M.</b>; MARRANGUELO, G.; LANG, F.. CONCURSO PROFESSOR ADJUNTO - ENSINO DE FÍSICA.
+							2010. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">A universidade frente aos desafios da sustentabilidade: um debate para construção do futuro.Poster: Seminário Meio Ambiente Universidade e Cidadania: do conhecimento à ação. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Graciela Marques Suterio.
+							A história da ciência nos livros didáticos de Biologia do PNLEM 2011.
+							2013.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências)  - Universidade Federal do Pampa. Orientador: Carlos Maximiliano Dutra.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Morin Ocampo.
+							Panorama da Astronomia nos livros didáticos de Física.
+							2013.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências)  - Universidade Federal do Pampa. Orientador: Carlos Maximiliano Dutra.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ArtigosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Artigos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.7447/dc.2012.020" target="_blank"></a>GOULART, A. R. ; <b>DUTRA, C. M.</b> . Fotografia Digital na Analise do Movimento do Sol. Diálogos & Ciência (Online)<sup><img id='16780493_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16780493' /></sup>, v. 10, p. 194-200, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.7447/dc.2012.020&issn=16780493&volume=10&issue=&paginaInicial=194&titulo=Fotografia Digital na Analise do Movimento do Sol&sequencial=1&nomePeriodico=Diálogos & Ciência (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AHUMADA, ANDREA V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1017/s1743921309991244" target="_blank"></a>AHUMADA, ANDREA V. ; CLARIÁ, JUAN J. ; BICA, EDUARDO ; PIATTI, ANDRÉS E. ; SANTOS, JOÃO F. C. ; TALAVERA, M. LORENA ; PALMA, TALI ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1878688743763378" target="_blank">PAVANI, DANIELA B.</a> ; PARISI, M. CELESTE ; TORRES, M. CRISTINA ; <b>DUTRA, CARLOS M.</b> . Further developments in star cluster spectral libraries. Proceedings of the International Astronomical Union (Print)<sup><img id='17439213_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17439213' /></sup>, v. 5, p. 347, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1017/s1743921309991244&issn=17439213&volume=5&issue=&paginaInicial=347&titulo=Further developments in star cluster spectral libraries&sequencial=2&nomePeriodico=Proceedings of the International Astronomical Union (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:30:53</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8192273903900777" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

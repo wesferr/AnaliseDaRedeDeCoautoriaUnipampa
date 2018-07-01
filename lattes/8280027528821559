@@ -1,0 +1,3900 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (&Aacute;lvaro Lu&iacute;s &Aacute;vila da Cunha)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4228933Y9&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8280027528821559" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4228933Y9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4228933Y9"><div class="infpessoa">
+<h2 class="nome">&Aacute;lvaro Lu&iacute;s &Aacute;vila da Cunha</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/8280027528821559</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 01/03/2015</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Licenciatura Plena em Educação Física pela Universidade Federal de Pelotas.  Mestrado em Educação pela Faculdade de Educação da Universidade Federal de Pelotas. Doutorado em Educação Ambiental pela Universidade Federal do Rio Grande.Professor adjunto da Universidade Federal do Pampa atuando na coordenação do curso de Licenciatura em Educação Física-UNIPAMPA .  Professor do magistério público estadual / RS 1989-2011.  Professor no curso de Licenciatura em Educação Física da Faciuldade Atlântico Sul-Anhanguera Pelotas 2008-2011. Professor da Universidade Aberta do Brasil no curso Latu Sensu em Educação Ambiental FURG (2010-2011).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Álvaro Luís Ávila da Cunha</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CUNHA, Álvaro Luís Ávila</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, UNIPAMPA - campus Uruguaiana. <br class="clear" />BR 472, Km 585<br class="clear" />97500-970 - Uruguaiana, RS - Brasil<br class="clear" />Telefone: (55) 34134321<br class="clear" />URL da Homepage: <a target="blank" href="http://http.//porteiras.unipampa.edu.br/uruguaiana">http.//porteiras.unipampa.edu.br/uruguaiana</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Educação Ambiental<span class="ajaxCAPES" data-param="&codigoCurso=42004012002P0&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Constituinte Escolar no RS como práxis político-pedagógica e sua dimensão ambiental, Ano de obtenção: 2010. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9571554044141787'><img src='images/curriculo/logolattes.gif' /></a>.Sirio Lopez Velasco. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: política curricular, práxis, ambiente.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Educação<span class="ajaxCAPES" data-param="&codigoCurso=42003016014P2&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: TV na escola:críticas e possibilidades,Ano de Obtenção: 1998.<br class="clear" />Orientador: Dra.Carmem Anselmi Duarte da Silva.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: EDUCAÇÃO; televisão.<br class="clear" />Grande área: Ciências Humanas / Área: Educação. <br class="clear" />Setores de atividade: Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1983 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura Plena em Educação Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">JAZZ.  (Carga horária: 80h). <br class="clear" />SECRETARIA DE EDUCAÇÃO E CULTURA DO ESTADO DO RIO GRANDE DO SUL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Dança Contemporâne.  (Carga horária: 40h). <br class="clear" />SECRETARIA DE EDUCAÇÃO E CULTURA DO ESTADO DO RIO GRANDE DO SUL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Dança Flamenca.  (Carga horária: 40h). <br class="clear" />SECRETARIA DE EDUCAÇÃO E CULTURA DO ESTADO DO RIO GRANDE DO SUL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">OFICINA DE PERNA DE PAU.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação para o trabalho com meninos de rua.  (Carga horária: 120h). <br class="clear" />Ordem dos Advogados do Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Ballet Clássico.  (Carga horária: 80h). <br class="clear" />SECRETARIA DE EDUCAÇÃO E CULTURA DO ESTADO DO RIO GRANDE DO SUL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção do Conhecimento em Educação Física.  (Carga horária: 34h). <br class="clear" />Associação dos Profissionais de Educação Física do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Improvisação Teatral.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1985 - 1985</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação Física para Professores de 1ªa 4ª série.  (Carga horária: 40h). <br class="clear" />SECRETARIA DE EDUCAÇÃO E CULTURA DO ESTADO DO RIO GRANDE DO SUL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1984 - 1984</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Dança e Relaxameto.  (Carga horária: 40h). <br class="clear" />SECRETARIA DE EDUCAÇÃO E CULTURA DO ESTADO DO RIO GRANDE DO SUL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1984 - 1984</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Folclore Polular e Atividade Física Infantil.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividades de ensino 2011- Estágio Supervisionado I; Esportes Coletivos III 2012- Esportes Coletivos I, II, III e Estágio Supervisionado II 2013- Sociologia do Esporte; Educação Física e Mídia, Prática de Componente Curricular I - diferentes contextos de intervenção na Educação Física; Filosofia e História da Educação; Políticas Educacionais e Legislação da Educação Básica; Cultura Corporal e Cinema Coordenação 2011- Estágios Supervisionados</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" /> Estágio Supervisionado I; Esportes Coletivos I, II, III  e Estágio Supervisionado II;   Sociologia do Esporte;   EF e Mídia, PCC I; Filosofia e História da Educação; Políticas Educacionais, Cultura Corporal e Cinema<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2014 - 09/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />COORDENADOR DO PIBID EDUCAÇÃO FÍSICA<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Faculdade Atlântico Sul de Pelotas, ATLANTICOSUL/PEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Contratado, Enquadramento Funcional: Professor, Carga horária: 14</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas: Dimensões Históricos-sociais da Educação Física Núcleo de Estudo e Prática Pedagógica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, LICENCIATURA EM EDUCAÇÃO FÍSICA, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Política e Organização da Educação Básica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, LICENCIATURA EM EDUCAÇÃO FÍSICA, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Dimensões sócio-históricas da Educação Física<br class="clear" />Núcleo de Estudos e Prática Pedagógica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Governo do Estado do Rio Grande do Sul, GOVERNO/RS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor classe A nível 6 área 3, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor classe A nível 6 área 2, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1992 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Disciplina de Educação Física<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/1989 - 04/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Disciplina de Educação Física<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1999 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Secretaria de Educação do Estado do Rio Grande do Sul, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Cargo administrativo.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1991 - 04/1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Secretaria de Educação do Estado do Rio Grande do Sul, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Cargo administrativo.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/1983 - 11/1983</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Secretaria de Educação do Estado do Rio Grande do Sul, 5ª Coordenadoria Regional de Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Árbitro de Atletismo no Campeonato Estudantil Gaúcho 3ª etapa  X CEG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/1983 - 06/1983</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Secretaria de Educação do Estado do Rio Grande do Sul, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Árbitro no 1º Circuito Atlântica-Boavista. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor substituto, Enquadramento Funcional: Docente e tutor no Programa de Pós-graduação, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Docente e tutor no Programa de Pós-graduação em Educação Ambiental, no qual ministra a disciplina de Fundamentos da Educação Ambiental.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: PROFESSOR SUBSTITUTO, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, EDUCAÇÃO AMBIENTAL LATO SENSU, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />FUNDAMENTOS DA EDUCAÇÃO AMBIENTAL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2001 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Saúde, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Disciplina Jogo e Esportivização<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2005 - 05/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Reitoria, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />COORDENAÇÃO PEDAGÓGICA.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2005 - 05/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, licenciaturas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Disciplina de Políticas Públicas<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Cristo Rei, ICR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: contratado, Enquadramento Funcional: professor, Carga horária: 12</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1986 - 02/1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Disciplina de Educação Física<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Liceu Salesiano Leão XIII, LSL XIII, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: contratado, Enquadramento Funcional: professor, Carga horária: 12</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1986 - 12/1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Disciplina de Educação Física<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Gema- Grupo de Estudos Movimento e Ambiente'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gema- Grupo de Estudos Movimento e Ambiente<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto pensa corpo-ambiente-cultura/sociedade como dimensões de uma prática educativa capaz de potencializar a docência na formação de professores/as na Universidade Federal do Pampa-Uruguaiana no curso de Licenciatura em Educação Física; para tanto, parto da vivência dos últimos 18 meses como Grupo de Estudos Movimento e Ambiente (GEMA), retomando alguns conceitos chave da Educação Ambiental (pertencimento) e Educação Física (cultura do movimento humano), inspirada na pedagogia chamada crítica, de cunho problematizador, produtor de conhecimento e pesquisador de realidades. Nossa técnica é o andar, ver e registrar a cidade e suas cercanias objetivando a construção de um mapa socioambiental da região para fins didáticos a ser socializado no Ensino Básico. Neste caminho, chego a enunciar uma  Pedagogia das Ruas , tendo a cidade como currículo e lugar de pesquisa social, alargando o espaço pedagógico da Educação Física para além dos pátios e quadras, dialogando com outras áreas e, assim, aproximando-se de uma perspectiva interdisciplinar na formação de professores/as.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Álvaro Luís Ávila da Cunha - Coordenador / Vera Gainssa Balinhas - Integrante / Renata Calza - Integrante / Leandro Ibalde da Silva - Integrante / Thaís Almeida - Integrante / Vanessa Trindade - Integrante / Anna Paula Barp - Integrante / Tatiane Motta da Costa Silva - Integrante / Kátia Simone de Oliveira dos Santos - Integrante / Jusselaine Bortolozzo - Integrante / Evelyn Vieira - Integrante / Afonso Cauduro - Integrante / Eduardo Massoco Rios - Integrante / Kátia Mariele Rolim - Integrante / Edson Finckler - Integrante / Diego Noronha - Integrante / Francielle Lopes - Integrante / Ariadne Rodrigues Barbosa - Integrante / Cátia Cibele Bandeira dos Santos - Integrante.<br class="clear" /></div>
+</div><a name='PP_Gema- Grupo de Estudos Movimento e Ambiente'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gema- Grupo de Estudos Movimento e Ambiente<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto pensa corpo-ambiente-cultura/sociedade como dimensões de uma prática educativa capaz de potencializar a docência na formação de professores/as na Universidade Federal do Pampa-Uruguaiana no curso de Licenciatura em Educação Física; para tanto, parto da vivência dos últimos 18 meses como Grupo de Estudos Movimento e Ambiente (GEMA), retomando alguns conceitos chave da Educação Ambiental (pertencimento) e Educação Física (cultura do movimento humano), inspirada na pedagogia chamada crítica, de cunho problematizador, produtor de conhecimento e pesquisador de realidades. Nossa técnica é o andar, ver e registrar a cidade e suas cercanias objetivando a construção de um mapa socioambiental da região para fins didáticos a ser socializado no Ensino Básico. Neste caminho, chego a enunciar uma  Pedagogia das Ruas , tendo a cidade como currículo e lugar de pesquisa social, alargando o espaço pedagógico da Educação Física para além dos pátios e quadras, dialogando com outras áreas e, assim, aproximando-se de uma perspectiva interdisciplinar na formação de professores/as.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Álvaro Luís Ávila da Cunha - Coordenador / Vera Gainssa Balinhas - Integrante / Renata Calza - Integrante / Leandro Ibalde da Silva - Integrante / Thaís Almeida - Integrante / Vanessa Trindade - Integrante / Anna Paula Barp - Integrante / Tatiane Motta da Costa Silva - Integrante / Kátia Simone de Oliveira dos Santos - Integrante / Jusselaine Bortolozzo - Integrante / Evelyn Vieira - Integrante / Afonso Cauduro - Integrante / Eduardo Massoco Rios - Integrante / Kátia Mariele Rolim - Integrante / Edson Finckler - Integrante / Diego Noronha - Integrante / Francielle Lopes - Integrante / Ariadne Rodrigues Barbosa - Integrante / Cátia Cibele Bandeira dos Santos - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_GEMA - Grupo de Estudos Movimento e Ambiente'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GEMA - Grupo de Estudos Movimento e Ambiente<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: 
+GEMA é um projeto de ensino e pesquisa do curso de Licenciatura em Educação Física. Nosso objetivo é tornar mais visível o contexto e as comunidades escolares envolvidas nas ações educativas dos/as licenciandos/as, favorecendo o processo de formação e atuação profissional. Este empreendimento tem a participação de discentes do curso de Licenciatura em Educação Física, de professores/as de outros cursos de licenciatura, contando também com a parceria de doutorandos/as de outras instituições federais de educação. Buscamos, através deste estudo, oportunizar o contato, o conhecimento e a reflexão acerca das formas de habitar e viver a cidade, utilizando a caminhada, a corrida e a pedalada. No decorrer dos trajetos, estamos verificando as formas de ocupação da área urbana, observando, anotando e refletindo acerca dos espaços reservados ao lazer e à preservação, também aqueles ocupados por prédios, casas e condomínios. Nossa intenção é produzir significados/conhecimentos que abarquem a dimensão corporal e socioambiental. O ambiente da cidade vem constituindo o universo subjetivo dos/as estudantes, permitindo fazer a articulação entre o global e o local, entre a educação básica e os cursos de licenciatura, entre o corpo e o ambiente.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (25)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Álvaro Luís Ávila da Cunha - Coordenador / Vera Gainssa Balinhas - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 3</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Eletrônica do Mestrado em Educação Ambiental</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação / Subárea: Educação Física. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação / Subárea: Políticas Públicas. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação / Subárea: Administração Educacional/Especialidade: Administração de Sistemas Educacionais. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Paraninfo, UNIPAMPA. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Paraninfo, UNIPAMPA. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PARANINFO DAS TURMAS A e B DO CURSO DE LICENCIATURA EM EDUCAÇÃO FÍSICA, Faculdade Atlântico Sul. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BALINHAS, V. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>BALINHAS, V. G. ; <b>CUNHA, Álvaro Luís Ávila</b> ; VEIGA, A. . Apontamentos: a revista que não existe. Educação em Revista (UFMG. Impresso)<sup><img id='01024698_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01024698' /></sup>, v. 28, p. 1-12, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01024698&volume=28&issue=&paginaInicial=1&titulo=Apontamentos: a revista que não existe&sequencial=1&nomePeriodico=Educação em Revista (UFMG. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CUNHA, Álvaro Luís Ávila</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. L. G. . Pedagogia das ruas: caminhar, correr e pedalar. Cadernos de Formação RBCE<sup><img id='21753962_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21753962' /></sup>, v. 3, p. 1-12, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21753962&volume=3&issue=&paginaInicial=1&titulo=Pedagogia das ruas: caminhar, correr e pedalar&sequencial=2&nomePeriodico=Cadernos de Formação RBCE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CUNHA, Álvaro Luís Ávila</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. O NÃO PARADIGMA AMBIENTAL. Revista Eletrônica do Mestrado em Educação Ambiental<sup><img id='15171256_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15171256' /></sup>, v. 01, p. 01, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15171256&volume=01&issue=&paginaInicial=01&titulo=O NÃO PARADIGMA AMBIENTAL&sequencial=3&nomePeriodico=Revista Eletrônica do Mestrado em Educação Ambiental" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Corpo-Ambiente-Cultura na Formação de Professores/as. In: Marta Iris Camargo Messias da Silveira; Paula Bianchi. (Org.). Núcleo Interdisciplinar de Educação: articulações de contextos e saberes nos (per)cursos de licenciatura da Unipampa. 1/3ed.Florianáopolis: Tribo da Ilha, 2013, v. I, p. 53-65. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rolim, Katia Mariele do Amaral ; FINKLER, E. L. ; SOARES, N. P. M. ; BALINHAS, V. L. G. ; <b>CUNHA, Álvaro Luís Ávila</b> . A construção de Conhecimentos no Grupos de Estudos Movimento e Ambiente. In: Marta  Iris Camargo da Silveira; Paula Bianchi. (Org.). Núcleo Interdisciplinar de Educação:articulações de contextos e saberes nos (per)cursos de licenciatura da Unipampa. I/3ed.Florianópolis: Tribo da Ilha, 2013, v. 1, p. 67-86. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. L. G. . Os ensinamentos da cidade na formação docente. In: IX Seminário Internacional de La RED ESTRADO Políticas educativas para a América Latina: praxis docente y transformación social, 2012, Santiago do Chile. Anais do VI Encontro Brasileiro da Rede Estrado, 2012. v. 1. p. 1-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. G. . Pedagogia das ruas: caminhar, correr e pedalar. In: 8vo Congreso Internacional de Educación Superior, 2012, Havana. La universid por el desarrollo sostenible. Havana: cubana, 2012. v. 1. p. 1-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. G. . Caminhar, correr, pedalar: a cidade como currículo. In: VII Congresso Internacional de Educação - Profissão docente: há futuro para este ofício?, 2011, São Leopoldo. VII Congresso Internacional de Educação - Profissão docente: há futuro para este ofício?. São Leopoldo: Leirira, 2011. v. 1. p. 1-9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. G. ; Amaral, Augusto . Invenção do saber. Experimentações com teatro e educação. In: VIII Encontro de Pesquisa em Educação da Região Sul - ANPED SUL, 2010, Londrina. Anais do VIII Encontro de Pesquisa em Educação da Região Sul Anped Sul, 2010. v. 01. p. 01-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VEIGA, A. ; BALINHAS, V. G. ; <b>CUNHA, Álvaro Luís Ávila</b> . Apontamentos: a revista que não existe. In: ANPED: SOCIEDADE, CULTURA E EDUCAÇÃO: NOVAS REGULAÇÕES?, 2009, Caxambu. SOCIEDADE, CULTURA E EDUCAÇÃO: NOVAS REGULAÇÕES?, 2009. v. 1. p. 1-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. SIMPÓSIO NACIONAL DE EDUCAÇÃO FÍSICA. In: XXVII SIMPÓSIO NACIONAL DE EDUCAÇÃO FÍSICA, 2009, PELOTAS. OS CAMINHOS DA EDUCAÇÃO FÍSICA E DO ESPORTE NA PROMOÇÃO DE UM ESTILO DE VIDA ATIVO. PELOTAS: EDITORA DA UNIVERSIDADE, 2009. v. 1. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. APONTAMENTOS REVISTA POLÍTICO-PEDAGÓGICA - UMA PROPOSTA DA PÓS-GRADUAÇÃO DA REGIÃO SUL DO PAÍS. In: VI SEMINÁRIO DE PESQUISA EM EDUCAÇÃO DA REGIÃO SUL - ANPED SUL; III SEMINÁRIO DOS SECRETÁRIOS DOS PROGRAMAS DE PÓS-GRADUAÇÃO EM EDUCAÇÃO, 2006, SANTA MARIA. ANAIS DO VI SEMINÁRIO DE PESQUISA EM EDUCAÇÃO DA REGIÃO SUL - ANPED SUL. SANTA MARIA, 2006. v. 01. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. ENTENDIENDO EL PLANETA E CONSTRUYENDO IDENTIDAD. In: SEGUNDO CONGRESO DE EDUCACIÓN AMBIENTAL PARA EL DESARROLLO SUSTENTABLE DE LA REPÚBLICA ARGENTINA, 2006, CHAPADMALAL. ANAIS DO SEGUNDO CONGRESO DE EDUCACIÓN AMBIENTAL PARA EL DESARROLLO SUSTENTABLE DE LA REPÚBLICA ARGENTINA. CHAPADMALAL, 2006. v. 01. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. CONSTITUINTE ESCOLAR: UMA POLÍTICA PÚBLICA QUE SE INSCREVE NA CULTURA PEDAGÓGICA FREIREANA. In: IX FÓRUM DE ESTUDOS: LEITURAS DE PAULO FREIRE, 2007, RIO GRANDE. ANAIS DO IX FÓRUM DE ESTUDOS: LEITURAS DE PAULO FREIRE. RIO GRANDE, 2007. v. 01. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. G. ; VEIGA NETO, A. . REVISTA APONTAMENTOS COMO FORMAÇÃO DOCENTE. In: VI ENCONTRO SOBRE INVESITGAÇÃO NA ESCOLA, 2006, RIO GRANDE. ANAIS DO VI ENCONTRO SOBRE INVESITGAÇÃO NA ESCOLA. RIO GRANDE, 2006. v. 01. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. REVISTA APONTAMENTOS COMO FORMAÇÃO DOCENTE. In: 6º ENCONTRO SOBRE O PODER ESCOLAR; 7º SEMINÁRIO INTERINSTITUCIONAL DE EDUCAÇÃO, 2006, PELOTAS. ANAIS DO 6º ENCONTRO SOBRE O PODER ESCOLAR; 7º SEMINÁRIO INTERINSTITUCIONAL DE EDUCAÇÃO. PELOTAS, 2006. v. 01. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. A saúde da pessoa, da cidade e do ambiente. In: I Simpósio Sul Brasileiro de Atividade Física e saúde, 2014, Uruguaiana. I Simpósio Sul Brasileiro de Atividade Física e Saúde. Pelotas: LILACS Literatura Latino-Americano e do Caribe, 2014. p. 11-11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. PEDAGOGIA DAS RUAS. In: VI SIMPÓSIO IBEROAMERICANO DE EDUCACION AMBIENTAL, 2009, SAN CLEMENTE DEL TUYÚ. ENRIQUECIENDO LAS PROPUESTAS EDUCATIVO-AMBIENTALES PARA LA LA ACCIÓN COLECTIVA, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. L. G. . Ensinamentos da cidade na formação docente. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Saberes e fazeres da prática pedagógica na Educação Física. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; BALINHAS, V. G. . Caminhar, correr, pedalar: a cidade como currículo. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; FAGUNDES, D. G. B. ; Soares, Newton ; CALZA, R. ; V, Thayane ; Trindade, Vanessa . VI Congresso Brasileiro de Atividades de Aventura. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Invenção do saber: Experimentações com teatro e educação. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		VEIGA NETO, A. ; BALINHAS, V. G. ; <b>CUNHA, Álvaro Luís Ávila</b> . Apontamentos a revista que não existe. 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Democratização do acesso, permanência e sucesso escolar. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. A Educação no contexto capitalista globalitário. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. A Dimensão ambiental no século XXI e a formação de professores de Educação Física. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Pedagogia das Ruas. 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Educação Ambiental e Educação Física. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Constituinte Escolar: uma história a ser contada. 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. A Pedagogia das ruas. 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Trilhas Urbanas. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Entendendo o planeta e construindo identidade.
+							Rio Grande:
+									GRÁFICA IMPERIAL,  2003 (REVISTA POLÍTICO PEDAGÓGICA). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Novum Organum - Francis Bacon um marco do pensamento moderno.
+							Pelotas:
+									gráfica da UFPel,  1997 (REVISTA DO MESTRADO FaE UFPel). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Memória de velhos professores - Visão e construção de seu papel social.
+							Pelotas:
+									gráfica UFPel,  1997 (revista do mestrado da FaE UFPel). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. IX FÓRUM DE ESTUDOS: LEITURAS DE PAULO FREIRE. 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Avaliador de Artigo da Revista Educação em Revista UFMG. 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Avaliador do XIX Congresso de Iniciação Científica e II mostra científica. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Olimpíada Interna do 9º BIMtz - Batalhão Tuiuti. 1984. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Olimpíadas Internas da 6ª Divisão de Exército. 1984. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; SILVEIRA, M. M. . Discussões sobre práticas pedagógicas em ambientes diversos. 2013. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. ENTENDENDO O PLANETA E CONSTRUINDO IDENTIDADE. 2005. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Constituinte Escolar e Educação Ambiental. 2005.
+							(palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. OFICINA. 2004. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Concepções Pedagógicas da Educação Física. 1991.
+							(palestra).
+						</div>
+</div>
+<br class="clear">
+<a name="ProducaoArtisticaCultural"></a><br class="clear" /><div class="inst_back">
+<b>Produção artística/cultural</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtesCenicas"></a>Artes Cênicas</b>
+</div>
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, GIOVANA CONSORTE ; <b>CUNHA, Álvaro Luís Ávila</b> . CINCOQUATROTRÊSDOISUMANO. 2007. Coreográfica. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; Silva, Geraldo Roberto ; Bengoa, Miriam ; Afonso, Alisson ; Gonçalves, Ana Lùcia . AS FILHAS. 2007. Teatral. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Retrato de um homem só. 2006. Coreográfica. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Castro, Daniela ; <b>CUNHA, Álvaro Luís Ávila</b> . Um ato e cinco naipes. 1996. Coreográfica. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rache, Margarida ; <b>CUNHA, Álvaro Luís Ávila</b> ; BALINHAS, V. L. G. . Visita ao Solar. 1993. Performática. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; Rache, Margarida ; BALINHAS, V. L. G. . Variações ao cubo. 1992. Teatral. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; Rache, Margarida ; BALINHAS, V. L. G. . Vista para o mar. 1992. Performática. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; Rache, Margarida ; BALINHAS, V. L. G. . Coral das Famintas. 1992. Performática. </div>
+</div>
+<br class="clear">
+<a name="artesCenicas"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>; Rache, Margarida ; BALINHAS, V. L. G. . Grupo de Risco - Esquetes no esquina ás quartas. 1991. Teatral. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtesVisuais"></a>Artes Visuais</b>
+</div>
+<a name="artesVisuais"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Acabando a maldição. 1995. Diversas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silva, Geraldo Roberto ; <b>CUNHA, Álvaro Luís Ávila</b> . O FLATO DO GATO. 2007 (TEATRAL) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, GIOVANA CONSORTE ; <b>CUNHA, Álvaro Luís Ávila</b> . PROJETO TERPSÍCORE. 2006 (COREOGRÁFICA) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VELASCO, Sirio Lopez; Minasi, L. F.; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Karen Cristina Dias de Avila. As diretrizes curriculares para a educação ambiental escolar na cidade de Rivera- Uruguai. 2014. Dissertação (Mestrado em EDUCAÇÃO AMBIENTAL LATO SENSU) - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Prado Porciuncula; OSORIO, M. R. V.; CALLONI, H.; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Maristela Dutra. Especialista em Educação Ambiental - constituição de subjetividades num curso EaD. 2013. Dissertação (Mestrado em Educação Ambiental) - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estévez, P. R.; Minasi, L.F.; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Wagner Terra Silveira. O FUNDAMENTO ESTÉTICO NA EDUCAÇÃO AMBIENTAL TRANSFORMADORA. 2012. Dissertação (Mestrado em Educação Ambiental) - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gentini Martin, Alfredo Guilhermo; Guimarães Rodrigues, Vicror Hugo; Sperotto Ilgenfritz, Rosária; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Augusto Luis Medeiros Amaral. Teatralidade Humana: estudos sobre a relação corpo-ambiente em um processo cartográfico na Educação Ambiental. 2013. Tese (Doutorado em Educação Ambiental)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VELASCO, Sirio Lopez; <b>CUNHA, Álvaro Luís Ávila</b>; Cezar-Vaz, Marta Regina; GHIGGI, Gomercindo; MACHADO, Carlos Roberto da Silva.  Participação em banca de Paulo Ricardo Granada Corrêa da Silva. A caminhada solitária da comunidade Ceval e a Educação Ambiental Ecomunitarista - Pelotas/RS período 2006/2011. 2011. Tese (Doutorado em EDUCAÇÃO AMBIENTAL LATO SENSU)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VELASCO, Sirio Lopez; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Raquel Alves Pereira da Ávila. A Educação Ambiental no curso de Licenciatura em Educação do Campo: um análise à luz do Ecomunitarismo. 2013. Exame de qualificação (Mestrando em Educação Ambiental)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; VELASCO, Sirio Lopez.  Participação em banca de Karen Cristina Dias de Ávila. As diretrizes curriculares para a Educação Ambiental Escolar na cidade de Rivera-Uruguai. 2013. Exame de qualificação (Mestrando em Educação Ambiental)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Prado Porciuncula; OSORIO, M. R. V.; CALLONI, H.; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Maristela Dutra. Especialista em Educação Ambiental - constituição de subjetividades num curso EaD. 2012. Exame de qualificação (Mestrando em Educação Ambiental)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Ana Luiza Gibbon Rosa. História das Dunas de São José do Norte. 2009. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Ambiental Lato)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Daniel de Souza Pereira. O pertencimento como forma de sensibilizar para a dormação de cidadãos no bairro Simões Lopes em Pelotas. 2009. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Ambiental Lato)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Danitza Fernandes Rodrigues. Resgate Histórico e Ambiental da Praia do Hermenegildo. 2009. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Ambiental Lato)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Sandra Cleodete Brum Nunes. A Democracia do Sol a Brilhar. 2009. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Ambiental Lato)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Helvin Barwaldt Milech. A comunidade interagindo no meio ambiente em busca do equilíbrio no meio apoiado em conceitos teóricos. 2009. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Ambiental Lato)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Eliandra Rosa dos Santos. Arroi Passos dos Ramos na busca de sua recuperação o renascer de novas esperanças. 2009. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Liziane Spindler dos Santos. Minha trajetória em busca de Educação ambiental. 2009. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Educação Ambiental Lato)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Carmem Vera Pereira Soares. Era uma vez...crianças brincando e aprendendo no caminho mda alfabetização. 2005. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Rosane Cardozo Giacomini. Levantamento das condições para o ensino do Basquete nas escolas municipais da cidade do Rio Grande. 2004. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Rosane Bretanha Gutierres. Entre curvas e rupturas...educação. 2004. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Marlei dos Santos Costa. Resgate de brincadeiras antigas. 2004. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Adriana Senna Correa. Reflexões sobre o esporte nas escolas. 2002. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Lidiele Bueno Tatiane Silva.Temas Transversais e Educação Física.
+							2015. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Rui Carlos Gomes Dorneles.Atividade física relacionada a saúde.
+							2015. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Mara Gonçalves Kelly Tieppo.O efeito do atletismo no desenvolvimento da força e resistência de adolescentes.
+							2015. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Raphaelly Machado Felix.Associação entre mudança de comportamento relacionado a oferta de espaços de lazer e a prática regular de at. fis..
+							2015. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Andrio Rosa Mariana Barreto.Praticas discriminatórias nas aulas de EF.
+							2015. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Luciano Quadros Rafael Godoy.Énsino de futsal para crianças e adolescentes: revisão de literatura.
+							2015. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Evelyn Vieira Francielle Lopes.Motricidade Global e a Educação Física escolar: um estudo com alunos de 9 a 11 anos..
+							2014. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Cynthia Mari Naborikawa.O PAPEL DO PROFESSOR DE EDUCAÇÃO FÍSICA NOS ANOS INICIAIS: UM.
+							2014. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Marcia Vieira.A importância da educação física nas séries iniciais.
+							2014. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Vanessa Trindade Renata Calza.Estado nutricional: estudo associativo entre pais e filhos.
+							2014. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Junior Dolesky.Atividade Física de Professores de Educação Física de Diferentes Níveis de Ensino.
+							2014. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Miriam Bongara.As estratégias de implementação da lei federal 10639/03 a partir das ações da 10CRE Uruguaiana.
+							2014. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BAEZ, M.; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Anderson Almeida; Paulo Roberto Alves Quirino.O Atletismo na escola, limites e perspectivas.
+							2013. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; SILVEIRA, M. M..  Participação em banca de Adiovan Marques; Jorge Nei Machado.Recreio Escolar: Atividades mais frequentes dos alunos das séries iniciais do ensino fundamental de escolas particulares no município de Uruguaiana-RS.
+							2013. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; Barreto, Menna Saulo.  Participação em banca de Fernando Ivalde.Atletismo escolar: reflexão sobre a inserção no planejamento de educação física.
+							2013 - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; BERGMANN, G..  Participação em banca de Franklin Santos.Nível de aptidão física de acordo com a posição de jogo de praticantes de futsal da cidade de Uruguaiana-RS.
+							2013. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHMITT, M. T.; <b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Tesla Griep Ferraz; Saimon Magnus da Luz Andrade.Acampamento de Férias para Escolares.
+							2011. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Educação Física)  - Faculdade Anhanguera Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; VEIGA, A..  Participação em banca de Alex Silveira.A expectativa dos alunos em relação às aulas de Educação Física.
+							2010. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Tatiana Torres Nunes.Arte, educação e o corpo na escola.
+							2009. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Lauraci Neitzke Goulart.A revreação no processo de alfabetização.
+							2009. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Lauro Rodrigues.Ser professor buscando identidade própria para uma docência comprometida com a Educação Física.
+							2009. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>.  Participação em banca de Clóvis Lacerda Gerson Rodrigues.A importância da Educação Física nas séries iniciais.
+							2009. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; R, ROEHRS; SAWITZK, M. C.. Seleção de Professor Substituto.
+							2012. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; Messias, Marta; Graup, Susane. Processo Seletivo Simplificado para Professor Temporário- Praticas e Estágios Supervisionados 20h.
+							2012.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>; Messias, Marta; R, ROEHRS. Processo Seletivo Simplificado para Professor Temporário 40h.
+							2012.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUNHA, Álvaro Luís Ávila</b>. Avaliador de Comunicações Orais  do XIX  Congresso  de Iniciação Científica/II Mostra Científica da Universidade Federal de Pelotas.
+							2010. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SIEPE.O ESTUDO DA REALIDADE COMO PROCESSO INDISPENSÁVEL NO FAZER. 2014. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SIEPE.O ESPORTE ESCOLAR COMO FATOR INTEGRADOR: BOLSISTAS DE. 2014. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SIEPE.Inúmeros trabalhos presenciais. 2014. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V SIEPE.Avaliador presencial vários trabalhos. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V SIEPE-Salão Internacional de Ensino Pesquisa e Extensão.Vários resumos. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Atividades de Aventura. CAMINHAR, CORRER, PEDALAR: O CORPO (RE) CONHECENDO-SE AMBIENTE. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Congresso Internacional de Educação Profissão Docente: Há futuro para esse ofício?. Caminhar, correr, pedalar: a cidade como currículo. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Encontro de Pesquisa em Educação da Região Sul- ANPED SUL.Invenção do saber: Experimentações com teatro e Educação.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">32ª Reunião Anual da ANPED.Apontamentos a revista que não existe. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Congresso Iberoamericano de educação ambiental. Pedagogia das Ruas. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX FÓRUM DE ESTUDOS: LEITURAS DE PAULO FREIRE.CONSTITUINTE ESCOLAR: UMA POLÍTICA PÚBLICA QUE SE INSCREVE NA CULTURA PEDAGÓGICA FREIREANA. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PROJETO DE ENSINO "DESAFIOS DO EDUCADOR NO NOVO MILÊNIO".POLÍTICAS PÚBLICAS PARA A EDUCAÇÃO. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">6º ENCONTRO SOBRE O PODER ESCOLAR; 7º SEMINÁRIO INTERINSTITUCIONAL DE EDUCAÇÃO.REVISTA APONTAMENTOS COMO FORMAÇÃO DOCENTE. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CURSO DE EXTENSÃO: INSERÇÃO CIDADÃ NA VIDA UNIVERSITÁRIA.A UNIVERSIDADE ADORMECIDA. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CURSO DE EXTENSÃO: INSERÇÃO CIDADÃ NA VIDA UNIVERSITÁRIA.CONTEXTO SOCIAL, COMPROMISSO E TRANSFORMAÇÃO. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CURSO DE EXTENSÃO: INSERÇÃO CIDADÃ NA VIDA UNIVERSITÁRIA.COMPREENDENDO A ESTRUTURA ORGANIZACIONAL DA FURG. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX EPEA- ENCONTRO PARANAENSE DE EDUCAÇÃO AMBIENTAL; II FÓRUM REGIONAL DE EDUCAÇÃO AMBIENTAL: DIVERSIDADE, SUSTENTABILIDADE E COOPERAÇÃO EM REDES.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEGUNDO CONGRESO DE EDUCACIÓN AMBIENTAL PARA EL DESARROLLO SUSTENTABLE DE LA REPÚBLICA ARGENTINA. ENTENDIENDO EL PLANETA E CONSTRUYENDO IDENTIDAD. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI ENCONTRO SOBRE INVESTIGAÇÃO NA ESCOLA.REVISTA APONTAMENTOS COMO FORMAÇÃO DOCENTE.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII SEMANA ACADÊMICA DE PEDAGOGIA -  REFLETINDO SOBRE OS DILEMAS DO COTIDIANO DOCENTE: REINVENTANDO NOVAS PRÁTICAS.ESCOLA COMO ASSISTENCIALISMO OU COMO DIREITO?. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SEMINÁRIO DE PESQUISA EM EDUCAÇÃO DA REGIÃO SUL - ANPED SUL; III SEMINÁRIO DOS SECRETÁRIOS DOS PROGRAMAS DE PÓS-GRADUAÇÃO EM EDUCAÇÃO.APONTAMENTOS REVISTA POLÍTICO-PEDAGÓGICA - UMA PROPOSTA DA PÓS-GRADUAÇÃO DA REGIÃO SUL DO PAÍS. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SEMINÁRIO DE PESQUISA EM EDUCAÇÃO DA REGIÃO SUL - ANPED SUL; III SEMINÁRIO DOS SECRETÁRIOS DOS PROGRAMAS DE PÓS-GRADUAÇÃO EM EDUCAÇÃO.APONTAMENTOS REVISTA POLÍTICO-PEDAGÓGICA - UMA PROPOSTA DA PÓS-GRADUAÇÃO DA REGIÃO SUL DO PAÍS. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V SEMINÁRIO DE PESQUISA QUALITATIVA: FAZENDO METODOLOGIA. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CICLO DE PALESTRAS QUINTAS URBANAS.TRILHAS URBANAS: CO9NSTRUINDO IDENTIDADES. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FÓRUM SOCIAL MUNDIAL. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II COLÓQUIO SOBRE ESTUDO E PESQUISA DA COMPLEXIDADE. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV SEMINÁRIO INTERNACIONAL DA REGIÃO SUL: Entendendo o planeta e construindo identidade.Apontamentos: Revista político-pedagógica. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JOGOS ESCOLARES DO RIO GRANDE DO SUL - JERGS. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III EDIÇÃO DO FÓRUM MUNDIAL DE EDUCAÇÃO.Apontamentos: Revista político-pedagógica. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO O ESPORTE E SUAS MANIFESTAÇÕES.As dimensões histórico-sociais da Educação Física. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Forum Nacional em Defesa de escola pública Educação Democracia  e Qualidade Social. IV Congresso Nacional de Educação-São Paulo. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Forum Rede de Educação Básica e Universidade.Forum Rede de Educação Básica e Universidade-FURG. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Conferência Estadual por uma educação básica no campo. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV CONED - CONGRESSO NACIONAL DE EDUCAÇÃO; FÓRUM NACIONAL EM DEFESA DA ESCOLA PÚBLICA. CONSTITUINTE ESCOLAR EM RIO GRANDE. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º ENCONTRO ESTADUAL DE ESCOLAS TÉCNICAS "EDUCAÇÃO PROFISSIONAL:DESENVOLVIMENTO SUSTENTÁVEL, TRABALHO E CIDADANIA.
+							2001. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Nacional ensinando e aprendendo Paulo Freire. 2001. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO DE RESGATE DE PRÁTICAS PEDAGÓGICAS POR NÍVEIS E MODALIDADES DE ENSINO. 1999. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Estadual de Resgate de Práticas Pedagógicas das Administrações e Organizações Populares. 1999. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">20ª Reunião Anual da Associação Nacional de Pós-Graduação e Pesquisa em Educação. 1997. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANPED -A política de educação no Brasil: Globalização e Exclusão. 1996. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I CONED - CONGRESSO NACIONAL DE EDUCAÇÃO. 1996. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II SEMINÁRIO DE INTEGRAÇÃO "EDUCAÇÃO E INOVAÇÃO NUMA SOCIEDADE EM MUDANÇA".TV NA ESCOLA - CRÍTICAS  E POSSIBILIDADES. 1996. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">19º ENCONTRO DE PROFESSORES DE EDUCAÇÃO FÍSICA.
+							1993. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">6º FESTIVAL UNIVERSITÁRIO DE TEATRO DE BLUMENAU. 1992. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I ENCONTRO DE PROFESSORES DE EDUCAÇÃO FÍSICA DE RIO GRANDE.A PRÁTICA PEDAGÓGICA DA EDUCAÇÃO FÍSICA.
+							1991. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Congresso Brasileiro de Educação Física UFMG. 1991. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Abierto Universidade Federal de Montevideo. 1990. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI SEMINÁRIO REGIONAL DE EDUCAÇÃO. 1989. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I ENCONTRO DE EDUCAÇÃO FÍSICA DE PELOTAS.AS ACADEMIAS COMO CAMPO DE TRABALHO DOS PROFISSIONAIS DE EDUCAÇÃO FÍSICA.
+							1987. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI ENCONTRO NACIONAL DE ESTUDANTES DE EDUCAÇÃO FÍSICA - ENEEF.O TEATRO E A EDUCAÇÃO FÍSICA.
+							1985. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V ENCONTRO NACIONAL DOS ESTUDANTES DE EDUCAÇÃO FÍSICA.
+							1984. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º ENCONTRO GAÚCHO DE ESTUDANTES DE EDUCAÇÃO FÍSICA.
+							1983. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Semana de Estudos: Filosofia, Arte, História e Ambiente,. 2014. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. II Jornada de Estudos do rio Uruguai ao Oceano Atlântico. 2014. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. Seminário de Educação Ambiental: Sonho, cinema e trilha. 2014. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">de Freitas, Diana Salomão ; CARPES, M. F. ; <b>CUNHA, Álvaro Luís Ávila</b> . III SIEPE Salão Internacional de Ensino, Pesquisa e Extensão. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. CURSO DE EXTENSÃO: INSERÇÃO CIDADÃ NA VIDA UNIVERSITÁRIA. 2006. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. SEMINÁRIO DE ESTUDO E DEBATE SOBRE REFORMA UNIVERSITÁRIA. 2005. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. IV ENCONTRO DE PROFESSORES DE EDUCAÇÃO FÍSICA DE RIO GRANDE. 1999. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8280027528821559" target="_blank">CUNHA, Álvaro Luís Ávila</a></b>. II SEABI - SEMANA ACADÊMICA DE BIBLIOTECONOMIA DA FURG. 1994. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciana Cristovão André. A criança e  o movimento no espaço escolar. Início: 2006. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliana Torres Marçal. ainda sem título. Início: 2006. Monografia (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiza Sena. ATIVIDADE FÍSICA E A SUA IMPORTÂNCIA NA REDUÇÃO DO ESTRESSE E ANSIEDADE..
+						Início: 2010. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Educação Física)  - Anhanguera Pelotas. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vera Regina Chim Charoy.
+							A inclusão do projeto para"muito além do mar".
+							2010.
+							Monografia. (Aperfeiçoamento/Especialização em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Beatris Borges Oliveira.
+							São José do Norte uma cidade sobre as dunas.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Angela Cristina Oliveira Machado.
+							Gstão Ambiental Participativa em APPS urbanas.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Evanise Silva Rodrigues.
+							Mapeamento dos palmares de Santa Vitória do Palmar.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maristela Dutra.
+							Educação Ambiental um diálogo necessário para o currículo escolar.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Cristina Marcos Guilherme.
+							A importância da Educação Física no Ensino Fundamental.
+							2005.
+							Monografia. (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Márcio Ribeiro França.
+							A Educação Física no CTI reflexões e proposições.
+							2005.
+							Monografia. (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marta Regina Silva Kosinsk.
+							Cooperação: uma meta a ser alcançada para a melhoria nas relações pedagógicas.
+							2005.
+							Monografia. (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jucele Devos Martins.
+							Jogos Cooperativos.
+							2004.
+							Monografia. (Aperfeiçoamento/Especialização em Educação Física Escolar)  - Universidade Federal do Rio Grande. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Castro Siqueira.
+							Percepção da evasão acadêmica no curso de Educação Física da UNIPAMPA segundo os acadêmicos frequentes.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tarso Trindade Sodré de Paula.
+							Fatores que contribuem para o desinteresse dos alunos nas aulas de EF-o papel da internet.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rita Sanches Cristiane Doleski.
+							Perfil do praticante de caminhada do parque D. Pedro II Uruguaiana RS.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ricardo Oliveira Rogerio Silva.
+							Esportes de raquete nas escolas públicas de Uruguaiana.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Walter Ricardo O. Gonçalves.
+							Práticas corporais para um grupo de alunos autistas-relato de uma intervenção.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucio Ramos.
+							Evasão das Aulas de Educação Física no Ensino Médio.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Rios Wagner Ramos.
+							VIVENCIANDO O ATLETISMO NA EDUCAÇÃO BÁSICA: EXPERIÊNCIAS NOS ESTÁGIOS SUPERVISIONADOS.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Taciana Flores Andrea Sohen.
+							PERFIL DAS PRATICANTES DE FUTSAL FEMININO.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Wolf.
+							Perfil de usuários de academias de musculação acerca do uso de.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jusselaine Bertolazzo.
+							A IMPORTANCIA DA EDUCAÇÃO FÍSICA NA ALFABETIZAÇÃO E LETRAMENTO.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Kátia Mariele Rolim; Edson Finckler.
+							POSSIBILIDADES DA EDUCAÇÃO FÍSICA NA PERSPECTIVA AMBIENTAL:.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade Federal do Pampa. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriela Coutinho Schmitt.
+							Educação Física e meio ambiente nas séries iniciais.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anne Michele Lopes Oliveira.
+							Esporte de aventura e educação ambiental práticas alternativas na Educação Física.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Willian Martins da Silva.
+							A relação professor aluno frente às aulas de Educação Física.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandre Corrêa Lisbôa.
+							A relevância do Programa Segundo Tempo.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano Azambuja Smithis.
+							Musculação como conteúdo de Educação Física no Ensino Médio.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Francisco Gileno Silveira Ferreira.
+							Professor de Educação Física surdo numa escola de ouvintes.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thais dos Santos Novack.
+							JOGOS COOPERATIVOS na visão dos formandos em EF.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdade Anhanguera Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Catia Fabiana Duarte Tavares.
+							O jogo como forma de integração e cooperação.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Anhanguera Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adriana Pereira.
+							A importância da Educação Física nas séries iniciais..
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Anhanguera Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Maxmila.
+							A importância do ensino das técnicas e fundamentos do futsal escolar.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Anhanguera Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marco Antônio Assumpção Alves; Igor Souza da Cruz.
+							A importância da diversidade nas aulas de Educação Física.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Lima dos Santos; Ailton Ribeiro Martins.
+							A importância do SIDATTA projetos sociais na melhoria da qualidade de vida.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Pedro Porto dos Santos; Regis Cunha Martins.
+							A utilização das lutas como conteúdo das aulas de Educação Física.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos André Machado Deniz; Gildinei Soares Quadrado.
+							Possibilidade de Aplicação de Programas de Treinamento de Força na Escola.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leandro Rodrigues e Silva; Rogério Carrion Pinheiro.
+							O papel da escola na prevenção da obesidade infantil.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Moraes Borges.
+							Atletismo na escola: problemáticas e possibilidades.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Molina Norenberg.
+							As condições para a prática da Educação Física na rede pública municipal de ensino.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Oliveira Santos; Samanta Chollet Valeron.
+							A expectativa dos alunos em relação à Educação Física.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Liliane Pescke.
+							Reflexões sobre os processos de avaliação na Educação Física Escolar.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Nascimento; Benhur Castro da Costa.
+							Inclusão de esportes radicais nas práticas escolares sob a ótica dos estudantes.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Catia Fabiana Duarte Tavares.
+							Jogos Cooperativos na escola.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cíntia de Macedo Robe.
+							A importância da Educação Física nas séries iniciais.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">William dos Santos Anselmo.
+							As diferentes propostas pedagógicas do futsal na escola.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camila Bretanha Hepp.
+							Inclusão escolar e a Educação Física.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - ANHANGUERA EDUCACIONAL /RS. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAICON SOES ZUGE.
+							ARBITRAGEM EDUCATIVA: UMA ANÁLISE DOS JOGOS ESCOLARES NA CIDADE DE PELOTAS, RS.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luana Dariane Buttow.
+							As dificuldades e os desafios de se ensinar a Educação Física nas Escolas.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bianca Cadaval Terra.
+							Evasão dos alunos adolescentes nas as aulas de Educação Física.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carolina Araújo Gonçalves.
+							Diversificação nas aulas de Educação Física.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Deise Moura Gunsch.
+							A importância da atividade física nas séries iniciais na percepção dos pais.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Priscila Abreu Pastorino.
+							Competir ou Cooperar? Uma proposta para as aulas de Educação Física escolar.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano Granero Rodrigues de Lima.
+							Le Parkour na Escola.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camarga Duarte Ferreira.
+							Espaço Escolar o papel do educador físico no processo de ensino aprendizagem.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Frederico Fonseca-Rodrigo Borges.
+							Recreação e esporte diferentes enfoques nas aulas de Educação Física.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Lemos-Leandro da Silva.
+							Motivação no esporte escolar.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Cristina Alves Perez.
+							As lutas como conteúdo para as aulas de Educação Física.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estevan Prietsch-Felipe Muller.
+							O Pojeto Bom de Bola na escola.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karen Pagliani Pereira.
+							Educação Física Biocêntrica.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Educação Física)  - Faculdades Atlântico Sul Pelotas. Orientador: Álvaro Luís Ávila da Cunha.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Atuou como membro conselheiro no Conselho Municipal de Educação da cidade do Rio Grande, no Rio Grande do Sul de 02/05/2001 a 04/08/2003
+3º Lugar no CONCURSO  DOCENTE DO ENSINO PÚBLICO FEDERAL DA UNIVERSIDADE FEDERAL DO RIO GRANDE (IFSul) ANO 2007.
+Aprovado em 1º lugar no concurso público para docente na UNIPAMPA -  Uruguaiana  Disciplina: Processos Pedagógicos em Educação Física, Práticas em EF  e Estágios Supervisionados</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:21:09</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8280027528821559" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

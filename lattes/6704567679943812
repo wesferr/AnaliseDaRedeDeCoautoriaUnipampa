@@ -1,0 +1,2836 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/46C0EAAE-1500-5E42-BB38-375500EB7B5E/main.js" charset="UTF-8"></script><script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_-553109325|rpid=-618506066|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Juliano Braun de Azeredo)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4211391D3&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=6704567679943812" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("patentes-registros");</script>
+		
+		
+		<a id="ancora-menu-patentes-registros" href="#PatentesRegistros" class="acessibilidade separador"><span></span>Patentes e Registros</a>
+		
+	
+		
+		
+		<div id="menu-patentes-registros" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Patente">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputador">Programa de computador</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegida">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistrada">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrial">Desenho industrial</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistrada">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegrado">Topografia de circuito integrado</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4211391D3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4211391D3"><div class="infpessoa">
+<h2 class="nome">Juliano Braun de Azeredo</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/6704567679943812</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 31/05/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">JULIANO BRAUN DE AZEREDO. Possui graduação em química licenciatura plena pela Universidade Federal de Santa Maria (2008). Possui mestrado (2011) e doutorado em Química Orgânica (2014) pela Universidade Federal de Santa Catarina sob orientação do Prof. Dr. Antonio Luiz Braga. Atualmente é professor Adjunto de química geral e orgânica na Universidade Federal do Pampa, campus Uruguaiana, membro do Programa de pós-graduação em ciências farmacêuticas e membro do grupo de pesquisa em química terapêutica - QUIMITER. Tem experiência na área de Síntese Orgânica, em especial síntese de compostos contendo enxofre e selênio. Trabalhou na síntese de organocatalisadores contendo selênio e enxofre e suas aplicações em reações de catálise assimétrica; reações de acoplamentos C-C, C-S e C-Se utilizando catalisadores de cobre e ferro nanoparticulados; Desenvolveu metodologias de síntese de compostos organocalcogênio em meios reacionais ambientalmente adequados (reações sem solvente, uso de líquidos iônicos, etanol) Além disso, possui ampla experiência em reações promovidas por fontes alternativas de energia. Desenvolveu metodologias de síntese de calcogenil-indóis, que são moléculas de importantes aplicações biológicas. Foi bolsista CAPES de doutorado sanduíche na Università degli Studi di Perugia, em Perugia na Itália, sob orientação do Prof. Claudio Santi (2013). Possui duas revisões acerca da síntese ambientalmente adequada de compostos de selênio.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Juliano Braun de Azeredo</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AZEREDO, J. B.;AZEREDO, J;Azeredo, Juliano B.;AZEREDO, JULIANO BRAUN;Azeredo, J. B.;J. B. Azeredo;B. AZEREDO, JULIANO</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Campus Uruguaiana. <br class="clear" />Rodovia BR-472 - do km 573,000 ao km 573,999<br class="clear" />Jóquei Clube<br class="clear" />97511860 - Uruguaiana, RS - Brasil<br class="clear" />Telefone: (48) 98513653<br class="clear" />URL da Homepage: <a target="blank" href="http://www.unipampa.br">www.unipampa.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Quimica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Síntese de 3-selenil-indóis, 3-sulfenil-indóis e alcóxi-calcogenilação de estirenos por processos ambientalmente adequados, Ano de obtenção: 2014. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0314009951286457'><img src='images/curriculo/logolattes.gif' /></a>Antonio Luiz Braga. <br class="clear" />Coorientador: Claudio Santi. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Quimica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Síntese de tiol ésteres promovidos por óxido de cobre nanoparticulado na presença de líquido iônico e irradiação de microondas.,Ano de Obtenção: 2011.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0314009951286457'><img src='images/curriculo/logolattes.gif' /></a>Antonio Luiz Braga.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: tiol éster; óxido de cobre nanoparticulado; líquido iônico; microondas.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Química<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul, FAPERGS, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Médio (2º grau)<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Escola Estadual de Educação Básica Augusto Ruschi, EEEBAG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Grande área: Ciências Biológicas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra<br class="clear" />Grande Área: Ciências Biológicas / Área: Farmacologia / Subárea: Síntese de compostos com atividade potencial anti-câncer. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Inglês - Modalidade CFA - Estágio III. <br class="clear" />Wizard, WIZARD, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Inglês Modalidade CFA Estágio II. <br class="clear" />Wizard, WIZARD, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CFA - Estágio IV. <br class="clear" />Wizard, W, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso Projeto Visando o Futuro-Desenvolvimento Pes.  (Carga horária: 10h). <br class="clear" />Centro Nacional de Aprendizagem Empresarial, CENAEM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Estudante de pós-doutorado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Voluntário, Enquadramento Funcional: Professor de Química Orgânica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Docente Orientado, Enquadramento Funcional: Disciplina de Síntese Orgânica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno de doutorado, Enquadramento Funcional: Estudante de doutorado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Docente Orientado, Enquadramento Funcional: Disciplina de Síntese Orgânica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: Docente Orientado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno de mestrado, Enquadramento Funcional: Mestrado, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: Docente Orientado</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Sem Vínculo Empregatício, Enquadramento Funcional: Acadêmico do Curso de Química</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2007 - 02/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Curso de Química - Licenciatura, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Atividades Experimentais na Área de Síntese Orgânica'>Atividades Experimentais na Área de Síntese Orgânica</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2006 - 02/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Diretório Acadêmico do Curso de Química Licenciatura, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Membro da Secretaria Geral do Diretório Acadêmico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Centro de Ciências Naturais e Exatas, Centro de Ciências Naturais e Exatas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Defesa do relatório final do estágio curricular supervisionado em educação em Química no ensino médio. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Escola estadual de educação Básica Augusto Ruschi, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio Curricular com regência de classe no 3º ano do ensino Médio. Disciplina de Química com duração de 109 horas/aula. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2008 - 09/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Centro de Ciências Naturais e Exatas, Centro de Ciências Naturais e Exatas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Apresentação da oficina: AIDS - Abordagem bioquímica e Impacto Social pela Semana acadêmica do curso de química licenciatura plena. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2008 - 1/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Centro de Ciências Naturais e Exatas, Centro de Ciências Naturais e Exatas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Defesa de Relatório Final de Estágio Curricular Supervisionado em Educação em Ciências no Ensino Fundamental. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2007 - 8/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Colégio Estadual Tancredo Neves, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio Curricular com Regência de Classe na 5ª Série do Ensino Fundamental, Disciplina de Ciências com duração de 100 horas/aula. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2006 - 11/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Comissão Permanente do Vestibular, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Participação na Estande do Curso de Química Licenciatura durante a Feira das Profissões - VIII Edição.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Università degli Studi di Perugia, UNIPG, Itália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista Capes, Enquadramento Funcional: Estágio no exterior, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto de química Geral e Orgânica, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Geral<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - 12/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2017 - 12/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica Experimental<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - 07/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Geral<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - 07/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2016 - 12/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2016 - 12/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica Experimental<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2016 - 12/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Geral<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - 07/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />UR 2003 - Química Geral<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - 07/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica Experimental<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - 07/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Química Orgânica 2<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - 07/2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Farmácia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />UR2037 - Química Orgânica 1<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Atividades Experimentais na &Aacute;rea de S&iacute;ntese Org&acirc;nica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividades Experimentais na Área de Síntese Orgânica</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Desenvolvimento de compostos derivados de quinolinas via rea&ccedil;&otilde;es de ativa&ccedil;&atilde;o C-H em meios reacionais ambientalmente adequados'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Juliano Braun de Azeredo - Coordenador / Simone Pinton - Integrante / Daiana Silva Ávila - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto de Extens&atilde;o: Pr&aacute;xis Pr&eacute;-Vestibular Popular (Autor de Materiais Did&aacute;ticos de Qu&iacute;mica)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Extensão: Práxis Pré-Vestibular Popular (Autor de Materiais Didáticos de Química)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Cronograma de Atividades: 1ª Etapa: Constituição do grupo responsável pelo projeto; Elaboração do projeto; Planejamento das atividades e Contados de apoio. Cronograma da 2ª Etapa: Chamada de acadêmicos interessados; Formação da equipe de educadores; Formação de grupos de trabalho e Divulgação do projeto e inscrição de candidatos.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Juliano Braun de Azeredo - Integrante / Diorge Alceno Konrad - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Projeto de Extens&atilde;o: Pr&aacute;xis Pr&eacute;-Vestibular Popular (Educador de Qu&iacute;mica)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Extensão: Práxis Pré-Vestibular Popular (Educador de Química)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Cronograma de Atividades: 1ª Etapa: Constituição do grupo responsável pelo projeto; Elaboração do projeto; Planejamento das atividades e Contados de apoio. Cronograma da 2ª Etapa: Chamada de acadêmicos interessados; Formação da equipe de educadores; Formação de grupos de trabalho e Divulgação do projeto e inscrição de candidatos.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Juliano Braun de Azeredo - Integrante / Diorge Alceno Konrad - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Monitoria volunt&aacute;ria em Qu&iacute;mica Geral - Farm&aacute;cia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria voluntária em Química Geral - Farmácia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Juliano Braun de Azeredo - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Orgânica/Especialidade: Síntese Orgânica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor painel na área de ensino de química no XXIV Encontro de Química da Região Sul ? SBQ Sul 2017 ? A Química na Interface, Universidade Federal de Santa Catarina. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BRAGA, ANTONIO LUIZ</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/ejoc.201700744" target="_blank"></a>BRAGA, ANTONIO LUIZ ; SILVA, LAIS T. ; <b>Azeredo, Juliano B.</b> ; SABA, SUMBAL ; RAFIQUE, JAMAL ; BORTOLUZZI, ADAILTON J. . Solvent- and metal-free chalcogenation of bicyclic arenes using I2/DMSO as non-metallic catalytic system. EUROPEAN JOURNAL OF ORGANIC CHEMISTRY<sup><img id='1434193X_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1434193X' /></sup>, v. 2017, p. 4740-4748, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/ejoc.201700744&issn=1434193X&volume=2017&issue=&paginaInicial=4740&titulo=Solvent- and metal-free chalcogenation of bicyclic arenes using I2/DMSO as non-metallic catalytic system&sequencial=1&nomePeriodico=EUROPEAN JOURNAL OF ORGANIC CHEMISTRY" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>B. AZEREDO, JULIANO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.2174/2213346103666160127003506" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">B. AZEREDO, JULIANO</a></b>; S. SCHWAB, RICARDO ; L. BRAGA, ANTONIO . Synthesis of Biologically Active Selenium-Containing Molecules from Greener Perspectives. Current Green Chemistry<sup><img id='22133461_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='22133461' /></sup>, v. 03, p. 1-1, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.2174/2213346103666160127003506&issn=22133461&volume=03&issue=&paginaInicial=1&titulo=Synthesis of Biologically Active Selenium-Containing Molecules from Greener Perspectives&sequencial=2&nomePeriodico=Current Green Chemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROCHA, MANUELA S. T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/00397911.2016.1262421" target="_blank"></a>ROCHA, MANUELA S. T. ; RAFIQUE, JAMAL ; SABA, SUMBAL ; <b>Azeredo, Juliano B.</b> ; BACK, DAVI ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . Regioselective Hydrothiolation of Terminal Acetylene Catalyzed by Magnetite (Fe              O              ) Nanoparticles. Synthetic Communications<sup><img id='00397911_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00397911' /></sup>, v. 47, p. 291-298, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/00397911.2016.1262421&issn=00397911&volume=47&issue=&paginaInicial=291&titulo=Regioselective Hydrothiolation of Terminal Acetylene Catalyzed by Magnetite (Fe              O              ) Nanoparticles&sequencial=3&nomePeriodico=Synthetic Communications" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>4</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIEIRA, ANDRE A</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1021/jo502621a" target="_blank"></a>VIEIRA, ANDRE A ; <b>AZEREDO, JULIANO BRAUN</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; SANTI, CLAUDIO ; DA SILVA JÚNIOR, EUFRÂNIO M ; BRAGA, ANTONIO LUIZ . Catalytic chalcogenylation under greener conditions: A solvent-free sulfur- and seleno-functionalization of olefins via I2/DMSO oxidant system. Journal of Organic Chemistry<sup><img id='00223263_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00223263' /></sup>, v. 80, p. 2120-2127, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1021/jo502621a&issn=00223263&volume=80&issue=&paginaInicial=2120&titulo=Catalytic chalcogenylation under greener conditions: A solvent-free sulfur- and seleno-functionalization of olefins via I2/DMSO oxidant system&sequencial=4&nomePeriodico=Journal of Organic Chemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIEIRA, ANDRE A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/chin.201528250" target="_blank"></a>VIEIRA, ANDRE A. ; <b>Azeredo, Juliano B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; SANTI, CLAUDIO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5627593695811199" target="_blank">DA SILVA JUNIOR, EUFRANIO N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . ChemInform Abstract: Catalytic Chalcogenylation under Greener Conditions: A Solvent-Free Sulfur- and Seleno-Functionalization of Olefins via I /DMSO Oxidant System.. ChemInform<sup><img id='09317597_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09317597' /></sup>, v. 46, p. no-no, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/chin.201528250&issn=09317597&volume=46&issue=&paginaInicial=no&titulo=ChemInform Abstract: Catalytic Chalcogenylation under Greener Conditions: A Solvent-Free Sulfur- and Seleno-Functionalization of Olefins via I /DMSO Oxidant System.&sequencial=5&nomePeriodico=ChemInform" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FERREIRA, NATASHA L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/ejoc.201500514" target="_blank"></a>FERREIRA, NATASHA L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b> ; FIORENTIN, BRENO L. ; BRAGA, A. L. . Synthesis of 3-Selenylindoles under Eco­friendly Conditions. European Journal of Organic Chemistry (Print)<sup><img id='1434193X_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1434193X' /></sup>, v. 2015, p. 5070-5074, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/ejoc.201500514&issn=1434193X&volume=2015&issue=&paginaInicial=5070&titulo=Synthesis of 3-Selenylindoles under Eco­friendly Conditions&sequencial=6&nomePeriodico=European Journal of Organic Chemistry (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>1</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Azeredo, Juliano B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1021/jo5000779" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">Azeredo, Juliano B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; MARTINS, GUILHERME M. ; SILVEIRA, CLAUDIO C. ; BRAGA, ANTONIO LUIZ . A solvent- and metal-free synthesis of 3-chacogenyl-indoles employing DMSO/I2 as an eco-friendly catalytic oxidation system. Journal of Organic Chemistry<sup><img id='00223263_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00223263' /></sup>, v. 79, p. 4125-4130, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1021/jo5000779&issn=00223263&volume=79&issue=&paginaInicial=4125&titulo=A solvent- and metal-free synthesis of 3-chacogenyl-indoles employing DMSO/I2 as an eco-friendly catalytic oxidation system&sequencial=7&nomePeriodico=Journal of Organic Chemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>3</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTORO, STEFANO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1039/c4ra04493b" target="_blank"></a>SANTORO, STEFANO ; <b>AZEREDO, JULIANO BRAUN</b> ; NASCIMENTO, VANESSA ; SANCINETO, LUCA ; BRAGA, ANTONIO LUIZ ; SANTI, CLAUDIO . The Green Side of the Moon: ecofriendly aspects of organoselenium chemistry. RSC Advances: an international journal to further the chemical sciences<sup><img id='20462069_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='20462069' /></sup>, v. 4, p. 31521-31535, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1039/c4ra04493b&issn=20462069&volume=4&issue=&paginaInicial=31521&titulo=The Green Side of the Moon: ecofriendly aspects of organoselenium chemistry&sequencial=8&nomePeriodico=RSC Advances: an international journal to further the chemical sciences" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Godoi, Marcelo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/chin.201439213" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; LIZ, DAIANE G. ; Ricardo, Eduardo W. ; ROCHA, MANUELA S. T. ; <b>Azeredo, Juliano B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . ChemInform Abstract: Magnetite (Fe O ) Nanoparticles: An Efficient and Recoverable Catalyst for the Synthesis of Alkynyl Chalcogenides (Selenides and Tellurides) from Terminal Acetylenes and Diorganyl Dichalcogenides.. ChemInform<sup><img id='09317597_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09317597' /></sup>, v. 45, p. no-no, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/chin.201439213&issn=09317597&volume=45&issue=&paginaInicial=no&titulo=ChemInform Abstract: Magnetite (Fe O ) Nanoparticles: An Efficient and Recoverable Catalyst for the Synthesis of Alkynyl Chalcogenides (Selenides and Tellurides) from Terminal Acetylenes and Diorganyl Dichalcogenides.&sequencial=9&nomePeriodico=ChemInform" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Azeredo, Juliano B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/chin.201439131" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">Azeredo, Juliano B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; MARTINS, GUILHERME M. ; SILVEIRA, CLAUDIO C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . ChemInform Abstract: A Solvent- and Metal-Free Synthesis of 3-Chalcogenyl-indoles Employing DMSO/I as an Eco-Friendly Catalytic Oxidation System.. ChemInform<sup><img id='09317597_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09317597' /></sup>, v. 45, p. no-no, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/chin.201439131&issn=09317597&volume=45&issue=&paginaInicial=no&titulo=ChemInform Abstract: A Solvent- and Metal-Free Synthesis of 3-Chalcogenyl-indoles Employing DMSO/I as an Eco-Friendly Catalytic Oxidation System.&sequencial=10&nomePeriodico=ChemInform" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>6</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Godoi, Marcelo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.tet.2013.09.095" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; LIZ, DAIANE G. ; Ricardo, Eduardo W. ; ROCHA, MANUELA S.T. ; <b>Azeredo, Juliano B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . Magnetite (Fe3O4) Nanoparticles: An Efficient and Recoverable Catalyst for the Synthesis of Alkynyl Chalcogenides (Selenides and Tellurides) from Terminal Acetylenes and Diorganyl Dichalcogenides. Tetrahedron (Oxford. Print)<sup><img id='00404020_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00404020' /></sup>, v. 70, p. 3349-3354, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.tet.2013.09.095&issn=00404020&volume=70&issue=&paginaInicial=3349&titulo=Magnetite (Fe3O4) Nanoparticles: An Efficient and Recoverable Catalyst for the Synthesis of Alkynyl Chalcogenides (Selenides and Tellurides) from Terminal Acetylenes and Diorganyl Dichalcogenides&sequencial=11&nomePeriodico=Tetrahedron (Oxford. Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AZEREDO, J. B.;AZEREDO, J;Azeredo, Juliano B.;AZEREDO, JULIANO BRAUN;Azeredo, J. B.;J. B. Azeredo;B. AZEREDO, JULIANO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/ejoc.201300295" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6935890756504964" target="_blank">Schwab, Ricardo S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1958834424755209" target="_blank">Botteselle, Giancarlo V.</a> ; BRAGA, A. L. . Synthesis of Thiol Esters Using Nano CuO/Ionic Liquid as an Eco-Friendly Reductive System Under Microwave Irradiation. European Journal of Organic Chemistry (Print)<sup><img id='1434193X_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1434193X' /></sup>, v. 5188, p. n/a-n/a, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/ejoc.201300295&issn=1434193X&volume=5188&issue=&paginaInicial=n/a&titulo=Synthesis of Thiol Esters Using Nano CuO/Ionic Liquid as an Eco-Friendly Reductive System Under Microwave Irradiation&sequencial=12&nomePeriodico=European Journal of Organic Chemistry (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>5</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Godoi, Marcelo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1039/c1gc16243h" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8835435439360229" target="_blank">Godoi, Marcelo</a> ; Ricardo, Eduardo W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1958834424755209" target="_blank">Botteselle, Giancarlo V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1317649922712444" target="_blank">Galetto, Fabio Z.</a> ; <b>Azeredo, Juliano B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . Synthesis of selenol esters from diorganyl diselenides and acyl chlorides under solvent-free conditions and microwave irradiation. Green Chemistry (Print)<sup><img id='14639262_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14639262' /></sup>, v. 14, p. 456, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1039/c1gc16243h&issn=14639262&volume=14&issue=&paginaInicial=456&titulo=Synthesis of selenol esters from diorganyl diselenides and acyl chlorides under solvent-free conditions and microwave irradiation&sequencial=13&nomePeriodico=Green Chemistry (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>7</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Braga, Antonio L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.tetlet.2009.02.156" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6935890756504964" target="_blank">Schwab, Ricardo S.</a> ; Alberto, Eduardo E. ; Salman, Syed M. ; Vargas, Josimar ; <b>Azeredo, Juliano B.</b> . Ring opening of unprotected aziridines by zinc selenolates in a biphasic system. Tetrahedron Letters<sup><img id='00404039_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00404039' /></sup>, v. 50, p. 2309-2311, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.tetlet.2009.02.156&issn=00404039&volume=50&issue=&paginaInicial=2309&titulo=Ring opening of unprotected aziridines by zinc selenolates in a biphasic system&sequencial=14&nomePeriodico=Tetrahedron Letters" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>8</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Paixão, M. W.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3773908504964104" target="_blank">Paixão, M. W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7599624701470757" target="_blank">Weber, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b> ; Deobald, A. M. ; Stefani, H. A. . Copper salt-catalyzed homo-coupling reaction of potassium alkynyltrifluoroborates: a simple and efficient synthesis of symmetrical 1,3-diynes. Tetrahedron Letters<sup><img id='00404039_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00404039' /></sup>, v. 49, p. 2366-2370, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00404039&volume=49&issue=&paginaInicial=2366&titulo=Copper salt-catalyzed homo-coupling reaction of potassium alkynyltrifluoroborates: a simple and efficient synthesis of symmetrical 1,3-diynes&sequencial=15&nomePeriodico=Tetrahedron Letters" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>9</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SCHWAB, R</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.tetlet.2008.06.031" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6935890756504964" target="_blank">SCHWAB, R</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1317649922712444" target="_blank">GALETTO, F</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">BRAGA, A</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0831151849844477" target="_blank">LUDTKE, D</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3773908504964104" target="_blank">PAIXAO, M</a> . Organocatalytic asymmetric aldol reactions mediated by a cysteine-derived prolinamide. Tetrahedron Letters<sup><img id='00404039_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00404039' /></sup>, v. 49, p. 5094-5097, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.tetlet.2008.06.031&issn=00404039&volume=49&issue=&paginaInicial=5094&titulo=Organocatalytic asymmetric aldol reactions mediated by a cysteine-derived prolinamide&sequencial=16&nomePeriodico=Tetrahedron Letters" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIlveira, G. P. ; E, S. ; PEREIRA, P. A. ; FERREIRA, NATASHA L. ; <b>Azeredo, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . Synthesis of new oral antimicrobials to the treatment of pathologies caused by the ESKAPE pathogens. In: 39ª Reunião ANual da Sociedade Brasileira de Química, 2016, Goiânia. 39ª Reunião ANual da Sociedade Brasileira de Química, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silva, L. T. ; <b>Azeredo, J. B.</b> ; Rafique, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Funcionalização de derivados naftalênicos com organocalcogênios empregando o sistema catalítico I2/DMSO.. In: VI ESeTE - Encontro sobre selênio e telúrio, 2016, Bento Gonçalves. VI ESeTE - Encontro sobre selênio e telúrio, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROSA, L. L. ; AVILA, D. S. ; <b>Azeredo, J. B.</b> ; CANTO, R. F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . DETERMINAÇÃO DA SEGURANÇA DE COMPOSTOS SELENOESTERES CANDIDATOS A TERAPIA MULTI-ALVO DA DOENÇA DE ALZHEIMER. In: 8º salão internacional de ensino pesquisa e extensão, 2016, Uruguaiana. 8º salão internacional de ensino pesquisa e extensão, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">Azeredo, J. B.</a></b>; Bagnoli, Luana ; Marini, Francesca ; Palomba, Martina ; SANCINETO, LUCA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; SANTI, CLAUDIO . HALOGENS IN ORGANOSELENIUM CHEMISTRY: SOMETHING MORE THAN MERE SPECTATORS.. In: International meeting on halogen chemistry, 2015, Cz&#281;stochowa. International meeting on halogen chemistry, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silva, L. T. ; <b>Azeredo, J. B.</b> ; Rosário, A. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . solvent and metal-free synthesis of substituted chalcogen-naphtalenes employing I2/DMSO as an eco-friendly catalytic oxidation system.. In: 16th Brazilian meeting on organic synthesis, 2015, Buzios. 16th Brazilian meeting on organic synthesis, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">J. B. Azeredo</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; SANTI, CLAUDIO . Asymmetric Alcoxy-selenylation of Alkenes in greener conditions. In: 16th Brazilian meeting on organic synthesis, 2015, Búzios. 16th Brazilian meeting on organic synthesis, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, MANUELA S. T. ; GODOI, M. ; <b>Azeredo, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . Síntese de sulfetos vinílicos catalisada por óxido de ferro nanoparticulado na ausência de solvente.. In: 37ª Reunião anual da sociedade brasileira de química, 2014, Natal. 37ª Reunião anual da sociedade brasileira de química, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">Azeredo, J. B.</a></b>; VIEIRA, ANDRE A ; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Selenilação de estirenos catalisada por iodo: um método simples, rápido, eficiente e livre de solvente. In: 37ª Reunião anual da Sociedade brasileira de química, 2014, Natal. 37ª Reunião anual da Sociedade brasileira de química, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIORENTIN, B. L. ; FERREIRA, N. L. ; NASCIMENTO, V. ; <b>Azeredo, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . PREPARAÇÃO DE 3-SELENIL-INDÓIS PROMOVIDA POR K2CO3 EM MEIO ETANÓLICO: UMA SINTESE AMBIENTALMENTE ADEQUADA. In: XXI SBQ sul, 2014, Maringá. XXI SBQ sul, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">Azeredo, J. B.</a></b>; GODOI, M. ; S. SCHWAB, RICARDO ; Botteselle, G. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Synthesis of Thioesters using CuO nano in Ionic Liquid as a novel greener reductor system in Microwave Irradiation.. In: 4th International IUPAC conference on Green Chemistry, 2012, Foz do Iguaçú. 4th International IUPAC conference on Green Chemistry, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">Azeredo, J. B.</a></b>; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . Solvent-free stereoselective synthesis of vinyl sulfides from aromatic thiols and terminal alkynes catalyzed by copper under microwave irradiation. In: 4th International IUPAC Conference on Green Chemistry, 2012, Foz do Iguaçú. 4th International IUPAC Conference on Green Chemistry, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, MANUELA S. T. ; GODOI, M. ; <b>Azeredo, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Síntese verde de sulfetos vinílicos: reação sem solvente catalisada por óxido de ferro nanoparticulado. In: SBQ-sul 2012, 2012, Tubarão. SBQ-sul 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, MANUELA S.T. ; LIZ, DAIANE G. ; <b>Azeredo, Juliano B.</b> ; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Síntese de seleno- e teluro acetilenos a partir de alcinos terminais e dicalcogenetos de diorganoíla catalisada por óxido de ferro nanoparticulado. In: IV Encontro sobre selênio e telúrio, 2012, Torres. IV Encontro sobre selênio e telúrio, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">Azeredo, J. B.</a></b>; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1317649922712444" target="_blank">Galetto, Fabio Z.</a> ; NASCIMENTO, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> ; Botteselle, G. V. . Synthesis of thiol esters promoted by copper oxide nanoparticle, in the presence of ionic liquid under microwave irradiation. In: 14th Brazilian meeting on organic synthesis, 2011, Brasília. 14th Brazilian meeting on organic synthesis, 2011. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>. Compostos organosselênio: abordagem histórica e sua importância sintética e biológica. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">THEDY, M. E. C. ; TEIXEIRA, F. E. G. ; <b>AZEREDO, J. B.</b> . Caminho químico: A aprendizagem de nomenclatura em Química Inorgânica por meio de uma atividade lúdica. 2017. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">THEDY, M. E. C. ; TEIXEIRA, F. E. G. ; <b>AZEREDO, J. B.</b> . JOGOS LÚDICOS: UMA ALTERNATIVA PARA COMPLEMENTAR O ENSINO DE QUÍMICA GERAL. 2017. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMPIERON, C. I. ; TRINDADE, R. N. ; SILVA, C. ; SABA, S. ; <b>AZEREDO, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1317649922712444" target="_blank">Galetto, Fabio Z.</a> . Preparação de disselenetos amínicos quirais derivados de L-aminoácidos a partir de aminoálcoois N-Boc-O-mesilados.. 2017. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIlveira, G. P. ; E, S. ; PEREIRA, P. A. ; FERREIRA, N. L. ; <b>AZEREDO, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . 'Synthesis of new oral antimicrobials to the treatment of pathologies caused by the ESKAPE pathogens. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silva, L. T. ; <b>Azeredo, J. B.</b> ; Rafique, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Funcionalização de derivados naftalênicos com organocalcogênios empregando o sistema catalítico I2/DMSO. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROSA, L. L. ; AVILA, D. S. ; <b>Azeredo, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; CANTO, R. F. S. . DETERMINAÇÃO DA SEGURANÇA DE COMPOSTOS SELENOESTERES CANDIDATOS A TERAPIA MULTI-ALVO DA DOENÇA DE ALZHEIMER. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, JULIANO BRAUN</a></b>; Bagnoli, Luana ; Marini, Francesca ; Palomba, Martina ; SANCINETO, LUCA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; SANTI, CLAUDIO . HALOGENS IN ORGANOSELENIUM CHEMISTRY: SOMETHING MORE THAN MERE SPECTATORS. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silva, L. T. ; <b>J. B. Azeredo</b> ; Rosário, A. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . A solvent and metal-free synthesis of substituted chalcogen-naphtalenes employing I2/DMSO as an eco-friendly catalytic oxidation system. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; SANTI, CLAUDIO . Asymmetric Alcoxy-selenylation of Alkenes in greener conditions. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, MANUELA S. T. ; GODOI, M. ; <b>AZEREDO, JULIANO BRAUN</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Síntese de sulfetos vinílicos catalisada por óxido de ferro nanoparticulado na ausência de solvente. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, JULIANO BRAUN</a></b>; VIEIRA, ANDRE A ; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . Selenilação de estirenos catalisada por iodo: um método simples, rápido, eficiente e livre de solvente',. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIORENTIN, B. L. ; FERREIRA, N. L. ; NASCIMENTO, VANESSA ; <b>AZEREDO, JULIANO BRAUN</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . PREPARAÇÃO DE 3-SELENIL-INDÓIS PROMOVIDA POR K2CO3 EM MEIO ETANÓLICO: UMA SINTESE AMBIENTALMENTE ADEQUADA. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, JULIANO BRAUN</a></b>. Alcóxi-selenilação de olefinas em condições ambientalmente adequadas. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>. Catalytic selenilation in green conditions. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . A história da Química no Brasil. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; GODOI, M. ; Schwab, R. S ; Botteselle, G. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Synthesis of Thioesters using CuO nano in Ionic Liquid as a novel greener reductor system in Microwave Irradiation. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Solvent-free stereoselective synthesis of vinyl sulfides from aromatic thiols and terminal alkynes catalyzed by copper under microwave irradiation.. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, MANUELA S. T. ; GODOI, M. ; <b>AZEREDO, JULIANO BRAUN</b> ; BRAGA, ANTONIO LUIZ . Síntese verde de sulfetos vinílicos: reação sem solvente catalisada por óxido de ferro nanoparticulado. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, MANUELA S. T. ; Liz, D. G. ; <b>AZEREDO, JULIANO BRAUN</b> ; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Síntese de seleno- e teluro acetilenos a partir de alcinos terminais e dicalcogenetos de diorganoíla catalisada por óxido de ferro nanoparticulado. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; GODOI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1317649922712444" target="_blank">Galetto, Fabio Z.</a> ; NASCIMENTO, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1958834424755209" target="_blank">Botteselle, Giancarlo V.</a> . Synthesis of thiol esters promoted by copper oxide nanoparticle, in the presence of ionic liquid under microwave irradiation.. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALBERTO, E. E. ; NASCIMENTO, V. ; <b>AZEREDO, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; Dambrowski, D. . Síntese e Estudo do Potencial de Selenóxidos na atuação como Mimáticos da Glutationa Peroxidase. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALBERTO, E. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; Dambrowski, D. ; <b>AZEREDO, J. B.</b> ; NASCIMENTO, V. ; Nome, F. ; Tondo, D. . SÍNTESE E ESTUDOS CINÉTICOS DE SELENÓXIDOS COMO MIMÉTICOS DA ENZIMA GLUTATIONA PEROXIDASE. 2010. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1317649922712444" target="_blank">GALETTO, F</a> ; NASCIMENTO, V. ; GODOI, M. ; SINGH, D. ; Rodrigues, O.E.D. . Síntese de tiólésteres utilizando líquido iônico como solvente e CuO nanoparticulado como catalisador: um método "verde" e eficiente. 2010. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; GODOI, M. ; Schwab, R. S ; TAUBE JUNIOR, P. S. ; NASCIMENTO, V. . Abertura de anéis aziridínicos desprotegidos utilizando selenolatos de zinco em um sistema bifásico. 2009. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; TAUBE JUNIOR, P. S. ; GODOI, M. ; <b>AZEREDO, J. B.</b> ; NASCIMENTO, V. ; FAVARO, K. C. . Síntese de b-calcogeno aminas, b-calcogeno amidas e disselenetos amínicos quirais via mesilatos de ami álcoois. 2009. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TAUBE JUNIOR, P. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; <b>AZEREDO, J. B.</b> ; NASCIMENTO, V. ; SILVA, R. S. ; TABARELLI, G. . Síntese "one pot" de derivados da L-selenocisteína via mesilato da L-serina. 2009. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NASCIMENTO, V. ; ALBERTO, E. E. ; GODOI, M. ; <b>AZEREDO, J. B.</b> ; TAUBE JUNIOR, P. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> . Síntese de Aminoálcoois quirais para aplicação em catálise assimétrica. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Liz, D. G. ; TAUBE JUNIOR, P. S. ; Gul, K. ; Narayananperumal, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1317649922712444" target="_blank">GALETTO, F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; GODOI, M. ; NASCIMENTO, V. ; <b>AZEREDO, J. B.</b> . Preparacão de &#946;-Calcogeno Aminas e Amidas e Disselenetos Amínicos Quirais com Atividade Catalítica via Mesilatos Derivados de Aminoácidos.. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Kawasoko, C. Y. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; Schwab, R. S ; ALBERTO, E. E. ; <b>AZEREDO, JULIANO BRAUN</b> . Straightforward Synthesis of I-Seleno-I-Amino Acids. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Schwab, R. S ; <b>AZEREDO, J. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3773908504964104" target="_blank">Paixão, M. W.</a> ; Lüdtke, D. S. . Síntese e Aplicação de Peptídeos Contendo Enxofre e Selênio em Reações Aldólicas Enantiosseletivas. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; GODOI, M. ; ALBERTO, E. E. ; SCHNEIDER, P. ; SILVEIRA, C. C. ; <b>AZEREDO, J. B.</b> . Síntese e Aplicação de Aminofosfinitos Quirais em Reações Enantiosseletivas de Arilação de Aldeídos. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; Schwab, R. S ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3773908504964104" target="_blank">Paixão, M. W.</a> ; Lüdtke, D. S. . Síntese de Peptídeos Quirais e sua Aplicação em Organocatáise. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PatentesRegistros">
+<h1>Patentes e registros</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Patente"></a><br class="clear" /><div class="inst_back">
+<b>Patente</b>
+</div><br/><div class='status-patente'>A Confirmação do status de um pedido de patentes poderá ser solicitada à Diretoria de Patentes (DIRPA) por meio de uma Certidão de atos relativos aos processos</div><div style='clear:both'></div><a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=BR102015032&idCNPq=6704567679943812&sequencial=76">&nbsp;</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J</a></b>. PROCESSO PARA A PREPARAÇÃO DE 3-SULFENIL INDÓIS E 3- SELENIL INDÓIS. 
+						2015, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: BR102015032, título: "PROCESSO PARA A PREPARAÇÃO DE 3-SULFENIL INDÓIS E 3- SELENIL INDÓIS" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial, Depositante (s): Juliano Braun de Azeredo;Antonio Luiz Braga;Claudio Cruz Silveira;Godoi, Marcelo;Romulo Farias Santos Canto;Universidade Federal de Santa Catarina;Universidade Federal de Santa Maria, 
+            
+    
+         Depósito: 29/12/2015; Depósito PCT: 29/12/2015. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>J. B. Azeredo</b>; R. G. Jacob; Lenardão E. J..  Participação em banca de David Borba Lima. Síntese de benzotiazóis 2-substituídos utilizando a-cetoácidos e Na2S2O5. 2016. Dissertação (Mestrado em Química) - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZENI, G.; <b>AZEREDO, J. B.</b>; CAMPOS, P. T..  Participação em banca de Thaís Prochnow. Ciclização intramolecular do 1-benzil-2-alquinilbenzeno promovida por FeCl3 e dicalcogeneto de diorganoíla: Síntese do 9-(organoselênio)-5HBenzo[7]anulenos. 2016. Dissertação (Mestrado em Química) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, R. J.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a>; Ferreira, R.; <b>AZEREDO, J. B.</b>; Lenardão E. J..  Participação em banca de Lais Truzzi Silva. Síntese de arenos biciclicos funcionalizados com organocalcogênios empregando o sistema catalítico I2/DMSO. 2018. Tese (Doutorado em Pós Graduação em Química)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZENI, G.; Frizzo, C. P.; Bonacorso, H. G.; <b>AZEREDO, J. B.</b>; GODOI, M..  Participação em banca de THAÍS PROCHNOW. SÍNTESE E REATIVIDADE DE N-ALQUINILINDÓIS: PREPARAÇÃO DE N-ALQUINILINDÓIS2-SUBSTITUÍDOS E CALCOGENAZOLO[3,2-A]INDÓIS. 2018. Exame de qualificação (Doutorando em Programa de pós-graduação em química - Universidade Federal de Santa Maria)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruxel, F.; <b>AZEREDO, J. B.</b>.  Participação em banca de Eduarda Martini Piegas.Desenvolvimento e caracterização de nanopartículas contendo CZP com diferentes revestimentos.
+							2017. Trabalho de Conclusão de Curso (Graduação em Farmácia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BAJERSKI, L.; <b>AZEREDO, J. B.</b>; Farias, F. M.. Concurso Público para professor substituto da área de Farmácia - controle de qualidade de medicamentos, deontologia farmacêutica e estágios.
+							2016. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AZEREDO, J. B.</b>. avaliador(a) ad hoc de projeto de pesquisa submetido ao Edital 398/UFFS/2017.
+							2017.
+							Universidade Federal da Fronteira Sul. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIV Encontro de Química da Região Sul ? SBQ Sul 2017 ? A Química na Interface. 2017. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI ESeTe - Encontro sobre selênio e Telúrio. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">16th Brazilian meeting on Organic Synthesis. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">37ª Reunião Anual da Sociedade Brasileira de Química. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop sobre selênio e telúrio. Selenilação catalítica de olefinas em condições ambientalmente adequadas. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop sobre selênio e telúrio. Selenilação catalítica de olefinas em condições ambientalmente adequadas. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SeS-Redox and Catalysis. Catalytic chalcogenilation in green conditions. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4 th International IUPAC Conference on Green Chemistry. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">14th Brazilian Meeting on Organic Synthesis. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">33ª Reunião Anual da Sociedade Brasileira de Química. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º Encontro sobre Selênio e Telúrio (ESeTe III). 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13 th Brsilian Meeting on Organic Synthesis. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">18º Encontro Regional de Química da Região Sul. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">61ª Reunião Anual da SBPC. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">31ª Reunião Anual da Sociedade Brasileira de Química - de 26 a 29.05.2008, duração de 32 horas.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV encontro de Química da Região Sul - de 15 a 17.11.2007, duração de 30 horas.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">14º SBQSUL - Química na Sociedade: Significados e Implicações - de 08 a 10.11.2006, duração de 24 horas. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Feira das Profissões - VIII edição - de 23 a 25.11.2006, duração de 24 horas. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sociedade Brasileira de Química da região Sul.A Química como forma de desenvolvimento da sociedade.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Comemorativa dos 35 Anos do Centro de Ciências Naturais e Exatas - dias 16 e 17.03.2005, duração de 40 horas. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, Antonio L.</a> . III Encontro Brasileiro da Química do Selênio e Telúrio. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>. 7ª Semana Acadêmica do Centro de Ciências Naturais e Exatas. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Teixeira Barbosa. Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados. Início: 2018. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Teixeira Barbosa. Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados. Início: 2018. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mylena Mendes Goulat. Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados. Início: 2018. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Eduarda Candido Thedy. Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados. Início: 2016. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Julia Rosa Menezes. Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados. Início: 2016. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Igor Rafael Brandão Carvalho.
+							Síntese de derivados do Lapachol contendo selênio.
+							2015.
+							Iniciação Científica. (Graduando em Química)  - Universidade Federal de Santa Catarina,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Juliano Braun de Azeredo.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luan Lauter da Rosa.
+							Avaliação da capacidade farmacológica de compostos selenoésteres in vivo em Caenorhabditis elegans como modelo de Alzeimer.
+							2017.
+							Orientação de outra natureza. (Farmácia)  - Universidade Federal do Pampa. Orientador: Juliano Braun de Azeredo.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Eduarda Cândido Thedy.
+							Monitoria voluntária em Química Geral - Farmácia.
+							2017.
+							Orientação de outra natureza. (Farmácia)  - Universidade Federal do Pampa. Orientador: Juliano Braun de Azeredo.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Flavia Elizabete Guerra Teixeira.
+							Monitoria voluntária em Química Geral - Farmácia.
+							2017.
+							Orientação de outra natureza. (Farmácia)  - Universidade Federal do Pampa. Orientador: Juliano Braun de Azeredo.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Flavia Elizabete Guerra Teixeira.
+							Monitoria voluntária em Química Geral.
+							2016.
+							Orientação de outra natureza. (Farmácia)  - Universidade Federal do Pampa. Orientador: Juliano Braun de Azeredo.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Eduarda Cândido Thedy.
+							Monitoria voluntária em Química Geral.
+							2016.
+							Orientação de outra natureza. (Farmácia)  - Universidade Federal do Pampa. Orientador: Juliano Braun de Azeredo.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="PatentePI"></a><br class="clear" /><div class="inst_back">
+<b>Patente</b>
+</div>
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=BR102015032&idCNPq=6704567679943812&sequencial=76">&nbsp;</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J</a></b>. PROCESSO PARA A PREPARAÇÃO DE 3-SULFENIL INDÓIS E 3- SELENIL INDÓIS. 
+						2015, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: BR102015032, título: "PROCESSO PARA A PREPARAÇÃO DE 3-SULFENIL INDÓIS E 3- SELENIL INDÓIS" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial, Depositante (s): Juliano Braun de Azeredo;Antonio Luiz Braga;Claudio Cruz Silveira;Godoi, Marcelo;Romulo Farias Santos Canto;Universidade Federal de Santa Catarina;Universidade Federal de Santa Maria, 
+            
+    
+         Depósito: 29/12/2015; Depósito PCT: 29/12/2015. </div>
+</div>
+<br class="clear">
+<a name="ProjetosPesquisaPI"></a><br class="clear" /><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+<a name="OutrosProjetosPI"></a><br class="clear" /><div class="inst_back">
+<b>Outros projetos</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">Braga, A. L</a> ; SANTI, CLAUDIO . Asymmetric Alcoxy-selenylation of Alkenes in greener conditions. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6704567679943812" target="_blank">AZEREDO, J. B.</a></b>. Compostos organosselênio: abordagem histórica e sua importância sintética e biológica. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Recebeu uma menção honrosa da Escola Estadual de Educação Básica Augusto Ruschi pelo sucesso de seu aproveitamento no ano letivo de 2004
+
+Teve seu projeto entitulado "Síntese 'one pot' Catalítica de Reagentes Quirais Eletrofílicos de Selênio: Aplicação em Reações de Metóxi-selenilação e Reações Correlatas" aprovado como projeto de doutorado Sanduíche, a qual foi realizada na Itália no periodo entre 2013-2014.
+
+Foi aprovado no concurso público para Professor de Química Orgânica do Instituto Federal Catarinense - 2015
+
+Aprovado em 1º lugar no Concurso para Professor adjunto de Química Geral de Orgânica na Universidade Federal do Pampa - 2015</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:04:44</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=6704567679943812" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

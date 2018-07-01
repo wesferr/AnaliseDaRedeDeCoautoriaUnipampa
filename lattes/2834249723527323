@@ -1,0 +1,3069 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Debora da Cruz Pay&atilde;o Pellegrini)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2834249723527323" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4766266D2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4766266D2"><div class="infpessoa">
+<h2 class="nome">Debora da Cruz Pay&atilde;o Pellegrini</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2834249723527323</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 06/04/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Medicina Veterinária pela Universidade Federal de Lavras (2000), mestrado pela Escola Nacional de Saúde Pública Sérgio Arouca (FIOCRUZ) (2003) e doutorado pela Universidade Federal do Rio Grande do Sul (2012). Trabalhou na Perdigão Agroindustrial S.A (atual BRF) entre os anos de 2003 a 2007. Foi docente no curso de Medicina Veterinária da Universidade do Oeste de Santa Catarina (2010 a 2013). Atualmente é professora adjunta da Universidade Federal do Pampa e coordenadora no Programa de Pós-Graduação em Ciência Animal (PPGCA Unipampa). Tem experiência na área de Medicina Veterinária, com ênfase em Epidemiologia Veterinária e Doenças Infecciosas de Animais, atuando principalmente nos seguintes temas: leishmaniose visceral, salmonela, análise espacial e controle de zoonoses.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Debora da Cruz Payão Pellegrini</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PELLEGRINI, D. C. P.;PELLEGRINI, DÉBORA DA CRUZ PAYÃO;DA CRUZ PAYÃO PELLEGRINI, DÉBORA</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa. <br class="clear" />Rodovia BR-472 - do km 581,000 ao km 581,999<br class="clear" />Salso de Baixo<br class="clear" />97508000 - Uruguaiana, RS - Brasil - Caixa-postal: 118<br class="clear" />Telefone: (55) 34134321</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Programa de Pós-Graduação em Ciências Veterinárias<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Avaliação de pontos de contaminação por Salmonella sp.e coliformes totais durante o preparo de dietas para suínos, Ano de obtenção: 2012. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6781728084964277'><img src='images/curriculo/logolattes.gif' /></a>Marisa Ribeiro de Itapema Cardoso. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Saúde Pública<span class="ajaxCAPES" data-param="&codigoCurso=31010016002P6&nivelCurso=M"></span>. <br class="clear" />Fundação Oswaldo Cruz, FIOCRUZ, Brasil.
+		
+	<br class="clear" />Título: Análise espaço-temporal da Leptospirose no município do Rio de Janeiro (1995-1999),Ano de Obtenção: 2003.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6465314260773099'><img src='images/curriculo/logolattes.gif' /></a>Marilia Sá Carvalho.<br class="clear" />Bolsista do(a): Fundação Oswaldo Cruz, FIOCRUZ, Brasil. <br class="clear" />Palavras-chave: Análise Espacial; Epidemiologia; Leptospirose; Rio de Janeiro.<br class="clear" />Grande área: Ciências da Saúde<br class="clear" />Grande Área: Ciências da Saúde / Área: Saúde Coletiva / Subárea: Saúde Pública. <br class="clear" />Grande Área: Ciências da Saúde / Área: Saúde Coletiva / Subárea: Medicina Preventiva. <br class="clear" />Setores de atividade: Atividades de atenção à saúde humana. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Medicina Veterinária<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Lavras, UFLA, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Oficina dinâmicas de grupo.  (Carga horária: 8h). <br class="clear" />Universidade do Oeste de Santa Catarina, UNOESC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Programa permanente de profissionalização docente.  (Carga horária: 16h). <br class="clear" />Universidade do Oeste de Santa Catarina, UNOESC, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade do Oeste de Santa Catarina, UNOESC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: Professor, Carga horária: 37</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina Veterinária, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Pública<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina Veterinária, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Epidemiologia<br class="clear" />Doenças infecto-contagiosas<br class="clear" />Imunologia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2012 - 04/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização em sanidade de suínos e aves, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Microbiologia veterinária<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno, Enquadramento Funcional: Doutorado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 03/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Faculdade de Veterinária, Departamento de Medicina Veterinária Preventiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Detecção de Salmonella em fábricas de ração para suínos'>Detecção de Salmonella em fábricas de ração para suínos</a><br class="clear" /><a href='#LP_Estratégias de controle de Salmonella em suínos'>Estratégias de controle de Salmonella em suínos</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - 02/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização em Análises Clínicas Veterinárias, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Bacteriologia Clínica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Perdigão - Filial Rio Verde, PERDIGÃO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Funcionário, Enquadramento Funcional: Médica Veterinária, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2003 - 08/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Laboratório de Patologia Animal, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Atuou na realização de exames laboratoriais para verificação do status sanitário de plantéis de aves e suínos em Videira (SC). Em 2004, foi transferida para a unidade de Rio Verde (GO) para implantar um laboratório similar ao de Videira.. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Escola Nacional de Saúde Pública Sérgio Arouca, ENSP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluno de Mestrado, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2001 - 03/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Departamento de Epidemiologia e Método Quantitativos em Saúde (DEMQS), . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Análise espacial e temporal de doenças infecciosas'>Análise espacial e temporal de doenças infecciosas</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Perdigão Agroindustrial S.A, PERDIGÃO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estágio, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio no Laboratório de Patologia Animal</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2000 - 06/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Laboratório de Patologia Animal, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Áreas de Microbiologia, Imunologia e Patologia Animal ( Suínos e Aves). </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Lavras, UFLA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário, Carga horária: 4</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1999 - 07/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Departamento de Medicina Veterinária, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Clínica de Grandes Animais (ênfase em Bovinos). </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Viçosa, UFV, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio no Setor de Clínica e Cirurgia de Grandes Animais (Eqüínos)</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1997 - 02/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Centro de Ciências Biológicas e da Saúde, Departamento de Veterinária. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Clínica e Cirurgia de Grandes Animais (ênfase em Eqüínos). </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_An&aacute;lise espacial e temporal de doen&ccedil;as infecciosas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise espacial e temporal de doenças infecciosas</div>
+</div><a name='LP_Detec&ccedil;&atilde;o de Salmonella em f&aacute;bricas de ra&ccedil;&atilde;o para su&iacute;nos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Detecção de Salmonella em fábricas de ração para suínos</div>
+</div><a name='LP_Estrat&eacute;gias de controle de Salmonella em su&iacute;nos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estratégias de controle de Salmonella em suínos</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_An&aacute;lise espa&ccedil;o-temporal dos casos de Leishmaniose Visceral Canina no Munic&iacute;pio de Itaqui (2006 a 2016)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise espaço-temporal dos casos de Leishmaniose Visceral Canina no Município de Itaqui (2006 a 2016)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A LV encontra-se em franca expansão em diversas áreas em todo o Brasil, com casos humanos e caninos sendo relatados em áreas rurais e urbana (OLIVEIRA DE ANDRADE et al., 2014). O emprego de ferramentas disponíveis no Sistema de Informação Geográfica (SIG) colaboram para uma melhor compreensão dos fenômenos ao incorporar a ação do meio ambiente na disseminação e perpetuação da doença. Estudos ecológicos na área da epidemiologia ilustram de forma pontual a prevalência da doença em grupos populacionais comparando ou diferenciando populações em áreas de risco definidas. No município de Itaqui (RS), os registros oficiais de casos positivos de cães infectados com Leishmaniose, ocorreram são a partir do ano de 2009. O objetivo do presente estudo será analisar espaço-temporalmente os casos confirmados de Leishmaniose Visceral Canina obtidos na Vigilância Sanitária de Itaqui (RS), entre o intervalo de março de 2009 até dezembro de 2016, utilizando as ferramentas de SIG para avaliar a evolução de casos no município, detecção de aglomerados espaço-temporais (clusters) e assim delinear um plano de ação para controle e redução da prevalência neste município.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Coordenador / Heinrich Hasenack - Integrante / Gisele Dias Marques - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise de fatores de risco associados &agrave; Dioctofimatose em Uruguaiana (RS)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise de fatores de risco associados à Dioctofimatose em Uruguaiana (RS)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Dioctofimatose é uma enfermidade parasitária que acomete principalmente carnívoros domésticos e selvagens, tendo como agente etiológico o Dioctophyme renale, popularmente conhecido como verme gigante do rim. Diversos relatos têm sido publicados referentes a achados ocasionais em cirurgias eletivas em cães, o que permitiu elevar a casuística da doença. Porém, fatores associados às fontes de infecção não são claras na literatura e são vinculadas aos diferentes ambientes onde foram estudados, não permitindo uma abordagem que vise à prevenção que se aplique a todas as situações. Este estudo visa identificar possíveis fatores de risco associados aos casos de Dioctofimatose na cidade de Uruguaiana (RS) através da investigação dos locais onde foram diagnosticados casos.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Coordenador / Tiago Gallina Correa - Integrante / Bruno dos Anjos Leite - Integrante / Tamires dos Santos Glasenapp - Integrante / Dilene Formentin - Integrante / Tainã Luis de Souza - Integrante.<br class="clear" /></div>
+</div><a name='PP_Tecnologias para destina&ccedil;&atilde;o de animais mortos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tecnologias para destinação de animais mortos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A compostagem é, atualmente, a única tecnologia recomendada para o tratamento de animais mortos. No entanto, o aumento da escala de produção, aliado à crescente escassez de mão-de-obra nas diferentes regiões de produção no mundo, levou à necessidade de encontrar outras alternativas para a destinação dos animais mortos gerados nas unidades produtoras. A mortalidade de animais em granjas não é desejável, ocorre por várias causas, mas é um fato normal, desde que dentro de taxas aceitáveis. Todavia, a falta de conhecimento científico e de regulamentação oficial no Brasil resulta na destinação inadequada desse resíduo da produção com riscos à saúde pública e dos rebanhos, além de contaminação ambiental. Vários países, entre eles os Estados Unidos, membros da União Europeia e a Austrália, padronizaram e regulamentaram os procedimentos de destino destes animais mortos, seja nas próprias granjas ou em plantas processadoras específicas, passando a exigir o mesmo tratamento dos países exportadores.
+Atualmente, não existe no Brasil uma legislação específica que oriente sobre o melhor destino desses
+animais mortos. Além disso, não se sabe corretamente em que condições tais atividades são realizadas, nem quais os destinos dos subprodutos gerados e o seu risco de contaminação. Esse tema envolve o
+processamento na própria granja e em unidades externas às granjas que utilizam-se de diversas formas de tratamento. Neste caso, deverão ser regulamentadas as etapas de armazenamento nas granjas, remoção, transporte e recebimento/armazenamento/processamento dos animais mortos na unidade processadora. A urgência da resolução desse problema vem sendo cobrada por diversos segmentos do setor produtivo que buscam no Ministério da Agricultura, Pecuária e Abastecimento (MAPA) e na Embrapa a normatização dessa atividade o mais breve possível, para dar sustentabilidade à cadeia produtiva. Além disso, há o risco de ameaças ao comércio de carnes brasileiras para o mercado interacional, o que afetaria a economia do país e a manutenção de empregos. A execução das atividades e planos de ação deste projeto seguirá uma lógica que tem por objetivo aproveitar tecnologias já existentes para o tratamento e/ou reciclagem de resíduos agropecuários que podem ser adaptadas para o tema em questão, reduzindo esforços e custos de pesquisa. Desta maneira, será realizado um inventário dos arranjos tecnológicos disponíveis e potencialmente aplicáveis ao tratamento e reciclagem dos suínos, aves e bovinos mortos. Estas tecnologias serão
+adaptadas, se necessário, ao contexto e diversidade da suinocultura, avicultura e bovinocultura brasileira. Tecnologias inovadoras também serão desenvolvidas com o objetivo de aumentar a eficiência de processos e reduzir custos do tratamento dos animais mortos. Finalmente, os resultados alcançados neste projeto subsidiarão políticas públicas e a normatização destas rotas tecnológicas para a sua efetiva incorporação junto ao setor produtivo. Desta forma, a proposta visa reduzir os riscos de transmissão de doenças e contaminação do meio ambiente através do fornecimento de subsídios que orientem e apoiem o MAPA na regulamentação dos procedimentos de destinação de carcaças de animais mortos geradas nas granjas, bem como na disponibilização de soluções tecnológicas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Integrante / Luis Gustavo Corbellini - Integrante / Gustavo Júlio Mello Monteiro de Lima - Integrante / Everton Luis Krabbe - Coordenador / Eliana Leonor Hurtado Celis - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise espa&ccedil;o-temporal de Leishmaniose visceral canina (LVC) em Uruguaiana, Rio Grande do Sul, Brasil.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise espaço-temporal de Leishmaniose visceral canina (LVC) em Uruguaiana, Rio Grande do Sul, Brasil.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Leishmaniose Visceral (LV), doença crônica e sistêmica, foi reconhecida primariamente como uma zoonose de caráter eminentemente rural. Recentemente tem apresentado modificação no padrão de ocorrência em áreas urbanas, destacando-se como uma endemia reemergente no Brasil e em outras localidades do continente americano. Até novembro de 2008 o Rio Grande do Sul era considerado área indene para LV, quando foi notificado um caso suspeito de Leishmaniose Visceral Canina (LVC) em um cão proveniente do município de São Borja. Os municípios de São Borja e Uruguaiana foram considerados pertencentes à área de transmissão, uma vez que nestas localidades foi encontrada a presença do vetor, a existência de casos humanos confirmados ou caninos autóctones e a identificação do parasito (TARTAROTTI et al., 2011). A atual situação de Uruguaiana quanto à prevalência de LVC ainda é desconhecida. Apesar da confirmação laboratorial de diversos casos em cães ao longo dos anos de 2012 e 2013, não é possível afirmar que a LVC encontra-se em caráter epidêmico ou endêmico. Este estudo tem como objetivo analisar a distribuição espaço-temporal de casos de LVC no município de Uruguaiana (RS) entre os anos de 2012 e 2013, incorporando métodos estatísticos e computacionais adequados à análise destes dados. Pretende-se modelar, utilizando técnicas adequadas à complexidade do fenômeno com estrutura espaço-temporal, os principais determinantes biológicos e ambientais associados a esta enfermidade visando delimitar quais locais poderiam ser considerados com ?maior risco de disseminação para LVC? no município de Uruguaiana. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Coordenador / Tiago Gallina Correa - Integrante / Danton Goulart Bittencourt - Integrante / Roniele Santana Valente - Integrante / Heinrich Hasenack - Integrante.<br class="clear" /></div>
+</div><a name='PP_Identifica&ccedil;&atilde;o, avalia&ccedil;&atilde;o dos perfis de suscetibilidade e detec&ccedil;&atilde;o de biofilmes dos principais contaminantes bacterianos isolados em centrais de insemina&ccedil;&atilde;o artificial de su&iacute;nos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Identificação, avaliação dos perfis de suscetibilidade e detecção de biofilmes dos principais contaminantes bacterianos isolados em centrais de inseminação artificial de suínos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Coordenador / Lilian Kolling Girardini - Integrante / Karina Sonalio - Integrante / Paulo Eduardo Bennemann - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o do uso de uma vacina atenuada com cepa de Escherichia coli'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação do uso de uma vacina atenuada com cepa de Escherichia coli<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Integrante / Lilian Kolling Girardini - Coordenador / Artur Valério Cony - Integrante / Eduardo Kohl - Integrante.<br class="clear" />Financiador(es): Universidade do Oeste de Santa Catarina - Bolsa.</div>
+</div><a name='PP_Estrat&eacute;gias de controle para infec&ccedil;&atilde;o por Salmonella em su&iacute;nos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estratégias de controle para infecção por Salmonella em suínos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Uma vez comprovado que os níveis de portadores são elevados e o manejo sanitário utilizado nas granjas não tem alcançado sucesso no controle da Salmonella, o grupo de pesquisa, com apoio de representantes da cadeia produtiva, foi estimulado a elaborar um novo projeto que objetiva estudar medidas específicas direcionadas ao controle do problema envolvendo os vários elos da cadeia produtiva. Serão estudadas estratégias para fabricação de ração, para o manejo dos animais e do ambiente das granjas e para os procedimentos de pré-abate e industrialização. O projeto pretende, por meio de planos de ação coordenados e executados por diferentes colaboradores da Embrapa e pelas universidades, juntamente com a iniciativa privada, propor o controle sistemático da infecção dos rebanhos brasileiros por Salmonella. Com o objetivo de reduzir o índice de animais infectados e excretores, serão testados, experimentalmente, tratamentos orais com prebióticos, probióticos, ácidos orgânicos e bacteriófagos em animais inoculados com Salmonella. Posteriormente, o tratamento com melhor desempenho na fase experimental será validado por teste conduzido em granjas. Referente ao manejo sanitário em granjas será realizada a identificação de fatores de risco para a infecção dos animais e para a contaminação residual de instalações por meio de estudo observacional com auxílio de inquérito epidemiológico, sorologia e pesquisa de Salmonella no ambiente. A fim de determinar procedimentos para fabricação de rações livres de Salmonella, a análise de pontos críticos nas plantas industriais será conduzida. Nos abatedouros, serão avaliados pontos de contaminação e disseminação de Salmonella, além de comparar tratamentos experimentais de carcaça. Amostras provenientes de avaliação de pontos críticos serão tipificadas por PFGE para identificação de grupos clonais e esclarecimento das fontes de contaminação... <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (3)  / Doutorado: (4) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Integrante / Marisa Cardoso - Integrante / Gustavo Júlio Mello Monteiro de Lima - Integrante / Arlei Coldebella - Integrante / Jalusa Deon Kich - Coordenador / Nelson Mores - Integrante / Virginia Silva - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa / Empresa Brasileira de Pesquisa Agropecuária - Auxílio
+										financeiro.</div>
+</div><a name='PP_Influeza Avi&aacute;ria (H5N1): an&aacute;lise de risco qualitativa no Estado do Rio Grande do Sul'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Influeza Aviária (H5N1): análise de risco qualitativa no Estado do Rio Grande do Sul<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A elaboração e execução de um projeto em análise de risco permite abordar a probabilidade do surgimento de uma epidemia, combinada com a importância das suas consequências indesejadas. O projeto tem como objetivos gerais obter informações relacionadas ao risco de surgimento de uma epidemia de H5N1, organizá-las e traduzi-las em probabilidades através de uma análise qualitativa (estimativa do risco)... <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Integrante / Bernardo Todeschini - Integrante / Luis Gustavo Corbellini - Coordenador / Adriana Reckziegel - Integrante.<br class="clear" />Financiador(es): Ministério da Agricultura, Pecuária e Abastecimento - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Estrutura&ccedil;&atilde;o de um laborat&oacute;rio de epidemiologia para realiza&ccedil;&atilde;o de estudos quantitativos e educa&ccedil;&atilde;o continuada em m&eacute;todos avan&ccedil;ados em epidemiologia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estruturação de um laboratório de epidemiologia para realização de estudos quantitativos e educação continuada em métodos avançados em epidemiologia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo geral desse projeto é de estruturar um laboratório de epidemiologia e bioestatística na FAVET/UFRGS, e através disso, oportunizar o desenvolvimento de análises bioestatísticas por bolsistas de graduação, pós-graduação e profissionais atuantes no serviço veterinário oficial no âmbito estadual e federal. Nesse sentido estão sendo desenvolvidos os seguintes estudos: Métodos em análise de risco quantitativa através do estudo da contaminação de carcaças suínas por Salmonella spp. ao longo do abate; Análise e interpretação de dados de um estudo de vigilância ativa da Doença de Newcastle e Influenza Aviária no Estado do Rio Grande do Sul; Desenvolvimento de análise estatística multivariada e de séries temporais através do uso de dados coletados ao longo de 11 anos sobre leptospirose em diferentes espécies animais; Estudo epidemiológico transversal sobre neosporose bovina no Estado do Rio Grande do Sul; Determinação da prevalência de scrapie no Brasil; Aulas práticas de métodos epidemiológicos para o Programa de Pós Graduação em Ciências Veterinárias da FAVET/UFRGS. A epidemiologia veterinária vem se tornando cada vez mais importante, uma vez que se torna fundamental o conhecimento dos padrões de ocorrência e tendências de distribuição temporal e espacial de doenças que podem servir de barreira sanitária para o comércio de produtos de origem animal.Países exportadores que desejam certificar-se da existência de áreas livres de doenças dentro do seu território devem providenciar evidências técnicas que demonstrem objetivamente aos países importadores que essas áreas são e provavelmente continuarão livres de doenças. O conhecimento da situação epidemiológica de uma região deve levar em consideração o nível de prevalência de uma doença específica, a existência de programas de controle e/ou erradicação, critérios apropriados ou recomendações desenvolvidas por organizações internacionais. Os programas de monitoramento e vigilância podem ser utilizados com o objetivo.. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Debora da Cruz Payão Pellegrini - Integrante / Bernardo Todeschini - Integrante / Luis Gustavo Corbellini - Coordenador / Adriana Reckziegel - Integrante / Marisa Ribeiro de Itapema Cardoso - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Brazilian Journal of Microbiology (Online)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Transboundary and Emerging Diseases (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Ciência Rural (UFSM. Impresso)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Frontiers in Veterinary Science</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Medicina Veterinária / Subárea: Medicina Veterinária Preventiva/Especialidade: Epidemiologia Animal. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Saúde Coletiva / Subárea: Saúde Pública. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Segurança dos alimentos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Doenças Infecciosas de Animais. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor trabalho na área de Suinocultura, Avisulat. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PEREIRA, J. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span>PEREIRA, J. G. ; SOARES, V. M. ; SANTOS, E. E. ; TADIELO, L. E. ; <b>PELLEGRINI, D. C. P.</b> ; DUVAL, E. H. ; SILVA, W. P. . Profile of the illegal import of products of animal origin to Brazilian cities at the border with Argentina and Uruguay. JOURNAL OF FOOD PROTECTION<sup><img id='0362028X_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0362028X' /></sup>, v. 80, p. 1605, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0362028X&volume=80&issue=&paginaInicial=1605&titulo=Profile of the illegal import of products of animal origin to Brazilian cities at the border with Argentina and Uruguay&sequencial=1&nomePeriodico=JOURNAL OF FOOD PROTECTION" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MASSIA, L. I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3395/2317-269x.00679" target="_blank"></a>MASSIA, L. I. ; LAMIDRIL, R. D. Q. ; WELICKS, J. R. ; BITTENCOURT, R. ; BITTENCOURT, D. G. ; MARQUES, G. D. ; CELIS, E. L. H. ; <b>PELLEGRINI, D. C. P.</b> . Leishmaniose visceral canina em três bairros de Uruguaiana - RS. Vigilância Sanitária em Debate: Sociedade, Ciência & Tecnologia<sup><img id='2317269X_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='2317269X' /></sup>, v. 4, p. 113, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3395/2317-269x.00679&issn=2317269X&volume=4&issue=&paginaInicial=113&titulo=Leishmaniose visceral canina em três bairros de Uruguaiana - RS&sequencial=2&nomePeriodico=Vigilância Sanitária em Debate: Sociedade, Ciência & Tecnologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CASANOVA, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>CASANOVA, V. ; APPIO, J. ; KOHL, E. ; MICHAELSEN, T. R. ; PAIM, D. S. ; BRUNETTO, T. R. ; SABEDOT, C. ; <b>PELLEGRINI, D. C. P.</b> ; BENNEMANN, P. E. ; COLLET, S. G. ; GIRARDINI, L. K. . Mastite bovina: prevalência, perfil de suscetibilidade aos antimicrobianos e detecção de genes associados à formação de biofilmes em Staphylococcus aureus.. Semina. Ciências Agrárias (Online)<sup><img id='16790359_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16790359' /></sup>, v. 37, p. 1369-1378, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16790359&volume=37&issue=&paginaInicial=1369&titulo=Mastite bovina: prevalência, perfil de suscetibilidade aos antimicrobianos e detecção de genes associados à formação de biofilmes em Staphylococcus aureus.&sequencial=3&nomePeriodico=Semina. Ciências Agrárias (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIOS SENGER, FRANCIANE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.17058/reci.v6i1.6272" target="_blank"></a>RIOS SENGER, FRANCIANE ; ALMEIDA ALVES, IZABEL ; <b>DA CRUZ PAYÃO PELLEGRINI, DÉBORA</b> ; CRISTINA PRESTES, DAIANE ; FRAGA DE SOUZA, EDÚ ; DALLA CORTE, EZEQUIEL . PREVALÊNCIA DA COLONIZAÇÃO POR Streptococcus agalactiae EM GESTANTES ATENDIDAS NA REDE PÚBLICA DE SAÚDE DE SANTO ÂNGELO - RS. Revista de Epidemiologia e Controle de Infecção<sup><img id='22383360_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='22383360' /></sup>, v. 6, p. 1, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.17058/reci.v6i1.6272&issn=22383360&volume=6&issue=&paginaInicial=1&titulo=PREVALÊNCIA DA COLONIZAÇÃO POR Streptococcus agalactiae EM GESTANTES ATENDIDAS NA REDE PÚBLICA DE SAÚDE DE SANTO ÂNGELO - RS&sequencial=4&nomePeriodico=Revista de Epidemiologia e Controle de Infecção" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GIRARDINI, L. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>GIRARDINI, L. K. ; PAIM, D. S. ; LOPES, G. V. ; CAMPOS, T. ; <b>PELLEGRINI, D. C. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Antimicrobial resistance profiles of Staphylococcus aureus clusters on small dairy farms in Southern Brazil. Pesquisa Veterinária Brasileira (Impresso)<sup><img id='0100736X_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0100736X' /></sup>, v. 36, p. 951-956, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100736X&volume=36&issue=&paginaInicial=951&titulo=Antimicrobial resistance profiles of Staphylococcus aureus clusters on small dairy farms in Southern Brazil&sequencial=5&nomePeriodico=Pesquisa Veterinária Brasileira (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PELLEGRINI, DÉBORA DA CRUZ PAYÃO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.foodcont.2014.08.013" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, DÉBORA DA CRUZ PAYÃO</a></b>; PAIM, DANIEL SANTOS ; LIMA, GUSTAVO JÚLIO MELLO MONTEIRO DE ; PISSETTI, CAROLINE ; KICH, JALUSA DEON ; CARDOSO, MARISA RIBEIRO DE ITAPEMA . Distribution of Salmonella clonal groups in four Brazilian feed mills. Food Control<sup><img id='09567135_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09567135' /></sup>, v. 47, p. 672-678, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.foodcont.2014.08.013&issn=09567135&volume=47&issue=&paginaInicial=672&titulo=Distribution of Salmonella clonal groups in four Brazilian feed mills&sequencial=6&nomePeriodico=Food Control" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LOPES, G. V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4315/0362-028x.jfp-14-274" target="_blank"></a>LOPES, G. V. ; PISSETTI, C. ; <b>PELLEGRINI, D. C. P.</b> ; SILVA, L. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Resistance Phenotypes and Genotypes of <I>Salmonella</I> <I>enterica</I> subsp. <I>enterica</I> Isolates from Feed, Pigs, and Carcasses in Brazil. Journal of Food Protection<sup><img id='0362028X_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0362028X' /></sup>, v. 78, p. 407-413, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.4315/0362-028x.jfp-14-274&issn=0362028X&volume=78&issue=&paginaInicial=407&titulo=Resistance Phenotypes and Genotypes of <I>Salmonella</I> <I>enterica</I> subsp. <I>enterica</I> Isolates from Feed, Pigs, and Carcasses in Brazil&sequencial=7&nomePeriodico=Journal of Food Protection" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PELLEGRINI, D. C. P.;PELLEGRINI, DÉBORA DA CRUZ PAYÃO;DA CRUZ PAYÃO PELLEGRINI, DÉBORA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; PAIM, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> ; KICH, J. D. ; COLDEBELLA, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M. R. I.</a> . Inspeção de boas práticas de fabricação e enumeração de coliformes. Semina. Ciências Agrárias (Online)<sup><img id='16790359_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16790359' /></sup>, v. 34, p. 3767-3776, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16790359&volume=34&issue=&paginaInicial=3767&titulo=Inspeção de boas práticas de fabricação e enumeração de coliformes&sequencial=8&nomePeriodico=Semina. Ciências Agrárias (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GIRARDINI, L. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>GIRARDINI, L. K. ; GRESSLER, L. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5514042362969024" target="_blank">COSTA, M. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0814772095155945" target="_blank">BOTTON, S. A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; VARGAS, A. C. . Perfil de suscetibilidade antimicrobiana e presença do gene vapA em Rhodococcus equi de origem humana, ambiental e equina. Pesquisa Veterinária Brasileira (Online)<sup><img id='16785150_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16785150' /></sup>, v. 33, p. 735-740, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16785150&volume=33&issue=&paginaInicial=735&titulo=Perfil de suscetibilidade antimicrobiana e presença do gene vapA em Rhodococcus equi de origem humana, ambiental e equina&sequencial=9&nomePeriodico=Pesquisa Veterinária Brasileira (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HEIN, H. E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>HEIN, H. E. ; MACHADO, G. ; MIRANDA, I. C. S. ; COSTA, E. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; DRIEMEIER, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9213991200564407" target="_blank">CORBELLINI, L. G.</a> . Neosporose bovina: avaliação da transmissão vertical e fração atribuível de aborto em uma população de bovinos no Estado do Rio Grande do Sul. Pesquisa Veterinária Brasileira (Impresso)<sup><img id='0100736X_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0100736X' /></sup>, v. 32, p. 396-400, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100736X&volume=32&issue=&paginaInicial=396&titulo=Neosporose bovina: avaliação da transmissão vertical e fração atribuível de aborto em uma população de bovinos no Estado do Rio Grande do Sul&sequencial=10&nomePeriodico=Pesquisa Veterinária Brasileira (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Ferronatto, A.I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>Ferronatto, A.I. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; GUERRA, P. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Distribuição de grupos clonais de Listeria monocytogenes em carcaças e no ambiente de matadouros frigoríficos de suinos. Archives of Veterinary Science<sup><img id='1517784X_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1517784X' /></sup>, v. 17, p. 42/1517-784-x-49, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1517784X&volume=17&issue=&paginaInicial=42/1517-784-x&titulo=Distribuição de grupos clonais de Listeria monocytogenes em carcaças e no ambiente de matadouros frigoríficos de suinos&sequencial=11&nomePeriodico=Archives of Veterinary Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CORBELLINI, L. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9213991200564407" target="_blank">CORBELLINI, L. G.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5994340227687307" target="_blank">DIAS, R. A.</a> ; RECKZIEGEL, A. M. ; TODESCHINI, B. ; BENCKE, G. A. . Risk Assessment of the Introduction of H5N1 Highly Pathogenic Avian Influenza as a Tool to be Applied in Prevention Strategy Plan. TRANSBOUND EMERG DIS<sup><img id='18651674_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18651674' /></sup>, v. 59, p. 106-116, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18651674&volume=59&issue=&paginaInicial=106&titulo=Risk Assessment of the Introduction of H5N1 Highly Pathogenic Avian Influenza as a Tool to be Applied in Prevention Strategy Plan&sequencial=12&nomePeriodico=TRANSBOUND EMERG DIS" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MESQUITA, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>MESQUITA, M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; PIRES NETO, J. S. ; REIS, G.R. ; MEDEIROS, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9213991200564407" target="_blank">CORBELLINI, L. G.</a> . Análise de série temporal para avaliação do perfil sorológico da leptospirose bovina no Estado do Rio Grande do Sul de 1996 a 2006. Arquivos do Instituto Biológico (Online)<sup><img id='18081657_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18081657' /></sup>, v. 77, p. 381-387, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18081657&volume=77&issue=&paginaInicial=381&titulo=Análise de série temporal para avaliação do perfil sorológico da leptospirose bovina no Estado do Rio Grande do Sul de 1996 a 2006&sequencial=13&nomePeriodico=Arquivos do Instituto Biológico (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TASSINARI, W. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3648148709641027" target="_blank">TASSINARI, W. S.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; SÁ, Claudio Bustamente Pereira de ; Reis, R.B. ; KO, Albert ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6465314260773099" target="_blank">CARVALHO, M.S.</a> . Detection and modelling of case clusters for urban leptospirosis.. TM & IH. Tropical medicine and international health (Print)<sup><img id='13602276_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13602276' /></sup>, v. 13, p. 503-512, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13602276&volume=13&issue=&paginaInicial=503&titulo=Detection and modelling of case clusters for urban leptospirosis.&sequencial=14&nomePeriodico=TM & IH. Tropical medicine and international health (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BANDEIRA, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>BANDEIRA, R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Ocorrência de Salmonella sp. em cortes de pernil provenientes de lotes suínos portadores ao abate. Acta Scientiae Veterinariae (Online)<sup><img id='16799216_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16799216' /></sup>, v. 35, p. 203-208, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16799216&volume=35&issue=&paginaInicial=203&titulo=Ocorrência de Salmonella sp. em cortes de pernil provenientes de lotes suínos portadores ao abate&sequencial=15&nomePeriodico=Acta Scientiae Veterinariae (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TASSINARI, W. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3648148709641027" target="_blank">TASSINARI, W. S.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6465314260773099" target="_blank">CARVALHO, M.S.</a> ; SABROZA, P.C. . Distribuição espacial da leptospirose no Município do Rio de Janeiro, Brasil,ao longo dos anos de 1996-2000. Cadernos de Saúde Pública (ENSP. Impresso)<sup><img id='0102311X_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0102311X' /></sup>, v. 20, p. 1721-1729, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0102311X&volume=20&issue=&paginaInicial=1721&titulo=Distribuição espacial da leptospirose no Município do Rio de Janeiro, Brasil,ao longo dos anos de 1996-2000&sequencial=16&nomePeriodico=Cadernos de Saúde Pública (ENSP. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, H. H. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span>MACHADO, H. H. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; BONNA, I.C.F ; RESENDE, D. M. ; DETMANN, E. ; BETERCHINI, A. . Influência dos níveis de suplementação de ferro dextrano sobre o desempenho e características hematológicas de leitões. Revista Universidade Rural. Série Ciências da Vida (Cessou em 2007. Cont. ISSN 1983-4772 Revista de Ciências da Vida)<sup><img id='01047264_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01047264' /></sup>, v. 23, p. 319-320, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01047264&volume=23&issue=&paginaInicial=319&titulo=Influência dos níveis de suplementação de ferro dextrano sobre o desempenho e características hematológicas de leitões&sequencial=17&nomePeriodico=Revista Universidade Rural. Série Ciências da Vida (Cessou em 2007. Cont. ISSN 1983-4772 Revista de Ciências da Vida)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> . Salmonela na suinocultura brasileira: do problema ao controle. 1. ed. Brasília: Embrapa, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KUANA, S. ; <b>PELLEGRINI, D. C. P.</b> . Produção de Frangos de Corte. 2. ed. Campinas: FACTA, 2014. v. 1. 565p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> ; KICH, J. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Ocorrência de Salmonella nas fábricas de ração. Suinocultura Industrial, , v. 251, 20 jun.  2013. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>. Fatores de risco para a contaminação por Salmonella ao longo da cadeia de produção de rações de suínos. In: IV Simpósio Internacional de Suinocultura, 2011, Porto Alegre. IV Simpósio Internacional de Suinocultura, 2011. v. IV. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>. A Salmonella é um problema nas fábricas de ração animal no Brasil?. In: Avesui América Latina 2010, 2010, Florianópolis. Anais Avesui América Latina 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; CELIS, E. L. H. ; COSTA, E. F. . Qualitative risk assessment of animal meal applied to swine production. In: 12th International Symposium on the Epidemiology and Control of Biological, Chemical and Physical Hazards in Pigs and Pork (SAFEPORK), 2017, Foz de Iguaçu. 12th Safepork 2017, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PISSETTI, CAROLINE ; KICH, JALUSA DEON ; ALLEN, H. K. ; NAVARRETE, C. ; <b>PELLEGRINI, D. C. P.</b> ; Mores, N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M. R. I.</a> . Escherichia coli resistance and gut microbiota profile in pigs raised with different antimicrobial administration in feed. In: 12th International Symposium on the Epidemiology and Control of Biological, Chemical and Physical Hazards in Pigs and Pork (SAFEPORK), 2017, Foz de Iguaçu. 12th Safepork 2017, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BITTENCOURT, D. G. ; VALENTE, R. S. ; MASSIA, L. I. ; WELICKS, J. R. ; <b>PELLEGRINI, D. C. P.</b> . Sinais clínicos associados à Leishmaniose Visceral Canina (LVC) em casos confirmados em Uruguaiana (RS).. In: VII Congresso Latino-americano e XII Congresso Brasileiro de Higienistas de Alimentos, 2015, Búzios. Anais VII Congresso Latino-americano e XII Congresso Brasileiro de Higienistas de Alimentos, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, T. L. ; BITTENCOURT, D. G. ; MATTOS, K. ; <b>PELLEGRINI, D. C. P.</b> . Quatro Patas: Vigilância e Conscientização. In: VII Congresso Latino-americano e XII Congresso Brasileiro de Higienistas de Alimentos, 2015, Búzios. Anais VII Congresso Latino-americano e XII Congresso Brasileiro de Higienistas de Alimentos, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALENTE, R. S. ; GUILHARDO, Y. ; BITTENCOURT, D. G. ; MASSIA, L. I. ; LAMIDRIL, R. D. Q. ; WELICKS, J. R. ; <b>PELLEGRINI, D. C. P.</b> . Análise Espacial da Leishmaniose Visceral Canina em Uruguaiana, Rio Grande do Sul, Brasil (2012-2013). In: 42º Conbravet, 2015, Curitiba. Anais 42º Conbravet, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MASSIA, L. I. ; LAMIDRIL, R. D. Q. ; WELICKS, J. R. ; VALENTE, R. S. ; BITTENCOURT, R. ; <b>PELLEGRINI, D. C. P.</b> . Leishmaniose visceral canina em Uruguaiana (RS) - Relato de caso autóctone e dados epidemiológicos do período de 2009 a 2013. In: 42º Conbravet, 2015, Curitiba. Anais 42º Conbravet, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BITTENCOURT, D. G. ; VALENTE, R. S. ; <b>PELLEGRINI, D. C. P.</b> . Análise espaço-temporal da Leishmaniose Visceral Canina em Uruguaiana, Rio Grande do Sul, Brasil?. In: Conbravet, 2014, Gramado. Anais 41º Conbravet, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PELIZZA, A. ; DANIEL, G. C. ; BRESSAN, D. ; SAREMBA, C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; BIONDO, N. ; DALLANORA, D. . Parâmetros químicos, físicos, microbiológicos e sensibilidade de patógenos isolados na urina de fêmeas suínas gestantes. In: PorkExpo 2012, 2012, Curitiba. Anais - Trabalhos científicos, 2012. v. II. p. 165-166. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIOVEZAN, J. L. ; BIN, V. T. L. ; PELIZZA, A. ; POZZAN, M. ; BIONDO, N. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; DALLANORA, D. . Mumificação fetal em suínos: tamanho médio dos mumificados ao parto, efeito do número de nascidos totais e da ordem de parto da matriz. In: PorkExpo 2012, 2012, Curitiba. Anais - Artigos científicos, 2012. v. II. p. 197-198. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; PAIM, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> ; KICH, J. D. ; COLDEBELLA, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Identification of Salmonella clonal groups and enterobacteria quantification in different risk areas of manufacturing process in four Brazilian feed mills. In: Safepork, 2011, Maastricht. Safepork - 9th International Conference on the Epidemiology and Control of biological, chemical and physical hazards in pigs and pork, 2011. p. 279-282. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESCOPELLI, K. S. ; FERRANTI, O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> . Avaliação da prevalência de Giardia lamblia em cães e gatos com realização de três exames utilizando o método de Faust & Cols. In: XVII Congresso Brasileiro de Parasitologia Veterinária, 2012, São Luis. Anais, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MICHAELSEN, T. R. ; DALL AGNOL, A. M. ; BAZZAN, A. E. ; KOHL, E. ; APPIO, J. ; CASANOVA, V. ; GIRARDINI, L. K. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> . Caracterização fenotípica e perfil de resistência aos antimicrobianos de Escherichia coli isoladas de suínos neonatos com suspeita de colibacilose. In: Congresso Latinoamericado de Microbiologia - XXI ALAM, 2012, Santos. Congresso Latinoamericado de Microbiologia - XXI ALAM, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KOHL, E. ; BRUNETTO, T. R. ; SABEDOT, C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; CONY, A. V. ; GIRARDINI, L. K. . Avaliação do uso de vacina viva modificada com cepa de Escherichia coli e antimicrobianos na ocorrência de colibacilose aviária. In: I Congresso Regional de Medicina Veterinária da Unoesc Xanxerê, 2012, Xanxerê. Anais I Congresso Regional de Medicina Veterinária da Unoesc Xanxerê, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAIM, D. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> ; COLDEBELLA, A. ; KICH, J. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Freqüência de isolamento de Salmonella sp. e Enterobactérias em fábricas de ração para suínos. In: Avisulat 2010, 2010, Bento Gonçalves. Anais Avisulat 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">da Gloria, Eduardo Micotti ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; Marzola, Fernanda ; Abdallah, M.F.I. ; Borges, F.C. ; Calori-Domingues, M.A. ; Gasparotto, B. ; Mazotti, N.C. ; Rovariz, R. . Water activity, total fungi load and mycotoxins contamination during production of swine feed. In: International Conference on Pet Food Quality & Safety, 2010, Florianópolis. Abstract book International Conference on Pet Food Quality & Safety. Florianópolis: Universidade Federal de Santa Catarina, 2010. v. 14. p. 59-59. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; PAIM, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> ; KICH, J. D. ; COLDEBELLA, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Freqüência de isolamento de Salmonella sp. e de enterobactérias em diferentes áreas de fábricas de ração para suínos. In: 14° Congresso Brasileiro de Veterinários Especialistas de Suínos-ABRAVES, 2009, Uberlândia - MG. Anais 14º ABRAVES, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAIM, D. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Avaliação de frequência de isolamento de enterobactérias em fábricas de dietas para suínos. In: XXI Salão de Iniciação Científica da UFRGS, 2009, Porto Alegre. Livro de Resumos, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOLDBERG, A. M. G. ; ARGENTI, L. E. ; FACCIN, J.E.G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; BORTOLOZZO, F. P. ; WENTZ, I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Contaminação bacteriana da água do centro de difusão genética e suas consequências na dose inseminante. In: Pork Expo 2008, 2008, Curitiba. Anais Pork Expo 2008, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GONCALVES, M. A. D. ; MESQUITA, R. C. T. ; ASSANOME, W. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; LIPPKE, R. T. ; HERES, T. ; MORENO, A.M. ; BARCELLOS, D. E. S. N. . Virulence factors among E.coli strains isolated from cases of diarrhea in pigs in Brazil. In: 20 th IPVS Congress, 2008, Durban. Proceedings of the 20th IPVS Congress, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUILLOUX, A. G. A. ; COSTA, E. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9213991200564407" target="_blank">CORBELLINI, L. G.</a> . Avaliação de Questionário como ferramenta epidemiológica de diagnóstico. In: 35º Congresso Brasileiro de Medicina Veterinária (CONBRAVET), 2008, Gramado. Anais 35º CONBRAVET, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; REICKEL, G. ; RECKZIEGEL, A. M. ; TODESCHINI, B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9213991200564407" target="_blank">CORBELLINI, L. G.</a> . Análise de risco de Influenza Aviária altamente patogênica H5N1 no estado do Rio Grande do Sul e sua implicação no processo de tomada de decisões. In: I Congresso Sul Brasileiro de Avicultura, Suinocultura e Laticinios AVISULAT, 2008, Bento Gonçalves. Anais I AVISULAT 2008, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3648148709641027" target="_blank">TASSINARI, W. S.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6465314260773099" target="_blank">CARVALHO, M.S.</a> ; SABROZA, P.C. . TENDÊNCIA GEOGRÁFICA DA LEPTOSPIROSE NO MUNICÍPIO DO RIO DE JANEIRO NO PERÍODO 1996-1999. In: VI Congresso Brasileiro de Epidemiologia, 2004, Recife. Revista Brasileira de Epidemiologia, 2004. v. 0. p. 0-0. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; SABROZA, P.C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6465314260773099" target="_blank">CARVALHO, M.S.</a> . Análise espaço-temporal da Leptospirose no Município do Rio de Janeiro (1995-1999). In: VII Congresso Brasileiro de Saúde Coletiva, 2003, Brasília. Anais VII Congresso Brasileiro de Saúde Coletiva, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; SABROZA, P.C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6465314260773099" target="_blank">CARVALHO, M.S.</a> . Análise Espacial da Leptospirose no Município do Rio de Janeiro (1995-1999). In: V Congresso Brasileiro de Epidemiologia EPI 2002, 2002, Curitiba. Anais EPI 2002, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6465314260773099" target="_blank">CARVALHO, M.S.</a> ; SABROZA, P.C. . Análise Espacial de Leptospirose no Município do Rio de Janeiro (1995 - 1999). In: VII Jornada Científica da Pós Graduação - FIOCRUZ, 2001, Rio de Janeiro. Anais da VII Jornada Científica da Pós Graduação - FIOCRUZ, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; Gumarães, A.M. . Estudo Epidemiológico do Complexo Tristeza Parasitária Bovina na Microrregião de Lavras, MG. In: XII Congresso de Iniciação Científica da UFLA - CISESAL, VII Seminário de Avaliação do PIBIC/CNPq, 1999, Lavras. Anais do XII Congresso de Iniciação Científica da UFLA - CICESAL, VII Seminário de Avaliação do PIBIC/CNPq, 1999. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; KICH, J. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Salmonella in Brazilian pork production chain: present status and perspectives. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>. Controle de Salmonella em fábricas de ração e subprodutos de origem animal: situação atual e perspectivas futuras. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>. Caracterização Fenotipica e Genotipica de biofilmes de Salmonella sp. em industrias de alimentos e fábricas de ração. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>. Fatores de risco para a contaminação por Salmonella ao longo da cadeia de produção de rações de suínos. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARCELLOS, D. E. S. N.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a>.  Participação em banca de Eduardo de Freitas Costa. Validação de estratégias a campo para o controle de Salmonella sp. na cadeia de produção de suínos. 2014. Dissertação (Mestrado em Ciências Veterinárias) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CRUZ, C. E. F.; DANTAS, E. O. N.; <b>PELLEGRINI, D. C. P.</b>.  Participação em banca de Fernanda Simone Marks. Inquérito epidemiológico de doenças respiratórias em aves de subsistência e modelagem de espalhamento de influenza aviária no Rio Grande do Sul. 2014. Tese (Doutorado em Ciências Veterinárias)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUSATO, M. A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Elizandro Nickele. Medidas de prevenção e controle da cisticercose bovina.. 2013. Exame de qualificação (Mestrando em Ciências da Saúde)  - Universidade Comunitária da Região de Chapecó. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENDONCA, V. S.; <b>PELLEGRINI, D. C. P.</b>.  Participação em banca de Henrique.Relatório de estágio curricular em Inspeção de Produtos de Origem Animal.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUM, M. C. S.; <b>PELLEGRINI, D. C. P.</b>.  Participação em banca de Bianca Pereira Ruis.Relatório de estágio curricular em Abate e Inspeção de perus.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORREA, T.G.; <b>PELLEGRINI, D. C. P.</b>.  Participação em banca de Pedro Araujo Damboriarena.Relatório de estágio curricular em Patologia Veterinária.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENDONCA, V. S.; <b>PELLEGRINI, D. C. P.</b>.  Participação em banca de Rômulo Adonis Cucolotto Barche.Relatório de estágio curricular em Tecnologia e Inspeção de Aves.
+							2015. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OELKE, C.; <b>PELLEGRINI, D. C. P.</b>.  Participação em banca de Gabriela Ceratti Hock.Relatório de Estágio curricular em Nutrição de Suínos.
+							2014. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TROST, M. E.; <b>PELLEGRINI, D. C. P.</b>.  Participação em banca de Maiara.Relatório de estágio curricular em Patologia Veterinária.
+							2014. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CONY, A. V.; PETROLLI, T.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Marilaine Guedes.Produção de Pintinhos de um dia.
+							2013. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENSI, E. M. D.; BARBOSA, E. J.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Ricardo Dal Ri Segatto.Relatório de Inspeção em abate de suínos.
+							2013. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENSI, E. M. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Bruna Zin.Relatório de estágio supervisionado na área de inspeção de aves.
+							2012. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENSI, E. M. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Maria Cristina de Almeida Lins.Relatório de estágio curricular em Inspeção de aves.
+							2012. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENSI, E. M. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Tayse Carla Mattielo.Relatório de estágio curricular em Inspeção de aves.
+							2012. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESCOPELLI, K. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Mariana Rosina Borsoi.Relatório de estágio curricular de inspeção de abate de suínos.
+							2012. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PETROLLI, O.; GIRARDINI, L. K.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>.  Participação em banca de Willian Compagnoni Mocelin.Relatório de Estágio curricular em manejo de aves (Avicultura).
+							2012. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENSI, E. M. D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; DALLANORA, D..  Participação em banca de Marluci A. Batisti.Relatório de estágio final em Controle de qualidade em suínos.
+							2011. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PETROLLI, O. J.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; SCALCO, M..  Participação em banca de Elenita Jung Barbosa.Relatório de estágio final em Avicultura.
+							2010. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PETROLLI, O. J.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; SCALCO, M..  Participação em banca de Rafael Augusto Boer.Relatório de estágio final em Avicultura.
+							2010. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Kolling, L.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; Hlavac, N.R.C.  Participação em banca de Mariana Capitanio do Padro.Relatório de estágio final em Análises laboratoriais.
+							2010. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLSSON, D.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; SONAGLIO, F..  Participação em banca de Michele Fabíola Holetz.Relatório de estágio final em Clínica e cirurgia de pequenos animais.
+							2010. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PELLEGRINI, D. C. P.</b>; FERNANDES, G. C.; MOREIRA, B. L. R.. Epidemiologia, Vigilância Epidemiológica e Bioestatística.
+							2015. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, E. B.; RIBEIRO, A. M. L.; <b>PELLEGRINI, D. C. P.</b>. Nutrição Animal, Fisiologia Animal e Produção de não ruminantes.
+							2014. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Livre docência</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PELLEGRINI, D. C. P.</b>. Patologia Clínica.
+						2013. Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; IOPPI, E.. Processo seletivo de docência para patologia geral e especial.
+						2012. Universidade do Oeste de Santa Catarina. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro de Epidemiologia Veterinária (ENEPI).
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Congresso Brasileiro de Higienistas em Alimentos e III Encontro Nacional de Vigilância em Zoonoses. Projeto Quatro Patas: Vigilância e Conscientização. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Congresso Brasileiro de Higienistas em Alimentos e III Encontro Nacional de Vigilância em Zoonoses. Sinais clínicos associados à Leishmaniose Visceral Canina (LVC) em casos confirmados em Uruguaiana (RS).. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">42º Conbravet. Análise espaço-temporal da Leishmaniose Visceral Canina em Uruguaiana, Rio Grande do Sul, Brasil. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">UK-Brazil Animal Health Workshop.Salmonella in Brazilian pork production chain: present status and perspectives. 2014. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop Portas Abertas.Controle de Salmonella em fábricas de ração e subprodutos de origem animal: situação atual e perspectivas futuras.
+							2014. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Inovação na área microbiológica da carne.Caracterização fenotípica e genotípica de biofilmes de salmonela em indústrias de alimentos e fábricas de alimentos.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Congresso Latinoamericano de Microbiologia - XXI ALAM. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Simpósio Internacional de Suinocultura.Fatores de risco para a contaminação por Salmonella ao longo da cadeia de produção de rações de suínos.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Simpósio Brasil Sul de Avicultura.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simpósio Brasil Sul de Suinocultura e II Brasil Sul Pig Fair.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV SINSUI - Simpósio Internacional de Suinocultura.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Congresso ABRAVES. Frequência de isolamento de Salmonella sp. e de enterobactérias em diferentes áreas de fábricas de ração para suínos. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Congresso da ABRAVES. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">35º Congresso Brasileiro de Medicina Veterinária (CONBRAVET). Avaliação de Questionário como ferramenta epidemiológica de diagnóstico. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Sul Brasileiro de Avicultura, Suinocultura e Laticinios AVISULAT. Análise de Risco de Influenza aviária altamente patogênica H5N1 no estado do Rio Grande do Sule sua implicação no processo de tomada de decisões. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Sul Brasileiro de Avicultura, Suinocultura e Laticínios AVISULAT. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simpósio UFRGS sobre Produção, Reprodução e Sanidade Suína.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Congresso Mundial de Epidemiologia EPI 2008. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13ºCongresso da ABRAVES. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Congresso Brasileiro de Saúde Coletiva. Análise Espaço-temporal da Leptospirose no Município do Rio de Janeiro (1995-1999). 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso Brasileiro de Epidemiologia EPI 2002. Análise Espacial da Leptospirose no Município do Rio de Janeiro (1995-1999). 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Jornada Científica da Pós Graduação.Análise Espacial de Leptospirose no município do Rio de Janeiro (1995-1999). 2001. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GIRARDINI, L. K. ; DALLANORA, D. ; BORTOLOTTO, E. B. ; BENNEMANN, P. E. ; <b>PELLEGRINI, D. C. P.</b> . I Congresso Regional de Medicina Veterinária - Unoesc Xanxerê. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4765356058840784'><img src='images/curriculo/logolattes.gif' /></a>Gisele Dias Marques. Análise espaço-temporal de Leishmaniose visceral canina (LVC) no municipio de Itaqui (2009-2016).
+						Início: 2016.
+						Dissertação (Mestrado em CIÊNCIA ANIMAL)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Supervisão de pós-doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanessa Mendonça Soares.
+						Início: 2015. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roque Fernando Pinheiro Bica. dissertação ?Ocorrência de Cisticercose, Hidatidose e Tuberculose em carcaças bovinas abatidas sob supervisão da Secretaria da Agricultura do Estado do Rio Grande do Sul?.
+							2015.
+						
+					Dissertação  (Mestrado em CIÊNCIA ANIMAL)  - Universidade Federal do Pampa, . Coorientador: Debora da Cruz Payão Pellegrini. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6660150051105365'><img src='images/curriculo/logolattes.gif' /></a>Eliana Leonor Hurtado Celis. Análise de risco do transporte de animais mortos para destinos fora da granja e dos diferentes produtos gerados a partir das carcaças de animais mortos.
+							2015.
+						
+					Dissertação  (Mestrado em CIÊNCIA ANIMAL)  - Universidade Federal do Pampa, . Orientador: Debora da Cruz Payão Pellegrini. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3495445594569413'><img src='images/curriculo/logolattes.gif' /></a>Laura Ilarraz Massia. Inquérito epidemiológico de Leishmaniose Visceral Canina no município de Uruguaiana (RS).
+							2015.
+						
+					Dissertação  (Mestrado em CIÊNCIA ANIMAL)  - Universidade Federal do Pampa, . Orientador: Debora da Cruz Payão Pellegrini. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0242903986832341'><img src='images/curriculo/logolattes.gif' /></a>Alessandra Gavião. Percepção de risco do produtor rural e dos diferentes atores envolvidos no controle da febre aftosa.
+							2014.
+						
+					Dissertação  (Mestrado em CIÊNCIA ANIMAL)  - Universidade Federal do Pampa, . Orientador: Debora da Cruz Payão Pellegrini. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caroline Reichen.
+							Diagnóstico diferencial entre Lawsonia Intracelullaris e Brachyspira hyodysenteriae na terminação de suínos.
+							2013.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em sanidade de suínos e aves)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Talita Nádia Bortoli.
+							Rinite Atrófica.
+							2013.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em sanidade de suínos e aves)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Laura Amanda Colombi Ceratto.
+							Abate de aves.
+							2013.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em sanidade de suínos e aves)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Patricia Bordignon.
+							Bronquite Infecciosa das Galinhas (BIG).
+							2013.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em sanidade de suínos e aves)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thaís de Campos.
+							Levantamento e perfil de resistência de bactérias causadoras de otite externa em cães em Porto Alegre.
+							2011.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Análises Clínicas Veterinárias)  - Universidade Federal do Rio Grande do Sul. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Danton Goulart Bittencourt.
+							Relatório de Estágio Curricular em Medicina Veterinária.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Paula Ancinello Cortelini.
+							Relatório de Estágio Curricular em Medicina Veterinária.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanessa Tenedini.
+							Relatório de Estágio Curricular em Medicina Veterinária.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduarda Campos da Costa.
+							Relatório de Estágio Curricular em Medicina Veterinária.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rita Magela Ferreira Almada.
+							Relatório de Estágio Curricular em Medicina Veterinária.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nathaly Toledo.
+							Relatório de Estágio Curricular em Medicina Veterinária.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luana Bolico Pletz Dias.
+							Relatório de Estágio Curricular em Medicina Veterinária.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andressa Lachno.
+							Relatório de Estágio curricular em Medicina Veterinária.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ângela Inácia Santos de Lima.
+							Relatório de Estágio curricular em Medicina Veterinária.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caroline Grillo Zubiaurre.
+							Relatório de estágio curricular supervisionado em Medicina Veterinária.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernando César Veit.
+							Relatório de estágio curricular supervisionado em Medicina Veterinária.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Phellipe Roges Marengo Silva.
+							Relatório de estágio curricular supervisionado em Medicina Veterinária.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roberto Carpenedo Caetano.
+							Relatório de estágio curricular supervisionado em Medicina Veterinária.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luana Polo.
+							Relatório de estágio Curricular.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tainã Luiz de Souza.
+							Relatório de estágio curricular.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Isis Burtet Jankus.
+							Relatório de estágio curricular.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Fernandez.
+							Relatório de estágio curricular.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Pes.
+							Relatório de estágio curricular supervisionado em Medicina Veterinária.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Darlan Rossi.
+							Relatório na área de Clínica de Pequenos Animais.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriela Casarotto Daniel.
+							Relatório em Garantia de Qualidade de Leite.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Elizangela dos Reis.
+							Relatório de Estágio curricular em Análises para detecção de Salmonella.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Everson Filipe Sabini.
+							Relatório de estágio curricular em Clínica e Cirurgia de Bovinos de Leite.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Peroza.
+							Relatório de estágio curricular em bovinocultura de leite.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tainá Carolina Borça.
+							Relatório de estágio curricular em Qualidade (Incubatório).
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade do Oeste de Santa Catarina. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Priscila Regina Guerra.
+							Controle de Salmonella sp. mediante o uso de vacina inativada - Revisão de Literatura.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Rio Grande do Sul. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Elisa Fisch.
+							Influência do bem-estar na qualidade da carne suína.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Rio Grande do Sul. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aline Gil Alves Guilloux.
+							"Influenza Aviária altamente patogênica na África".
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Medicina Veterinária)  - Universidade Federal do Rio Grande do Sul. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tamires dos Santos Glasenapp.
+							Análise de fatores de risco associados à Dioctofimatose em Uruguaiana (RS).
+							2015.
+							Iniciação Científica. (Graduando em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roniele dos Santos Valente.
+							?Análise espaço-temporal da Leishmaniose Visceral Canina em Uruguaiana, Rio Grande do Sul, Brasil?..
+							2014.
+							Iniciação Científica. (Graduando em Medicina Veterinária)  - Universidade Federal do Pampa. Orientador: Debora da Cruz Payão Pellegrini.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="LivrosCapitulosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Livros e capítulos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KUANA, S. ; <b>PELLEGRINI, D. C. P.</b> . Produção de Frangos de Corte. 2. ed. Campinas: FACTA, 2014. v. 1. 565p . </div>
+</div>
+<br class="clear">
+<a name="TextosJornaisEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2834249723527323" target="_blank">PELLEGRINI, D. C. P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4328636324648584" target="_blank">LIMA, G. J. M. M.</a> ; KICH, J. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6781728084964277" target="_blank">CARDOSO, M.</a> . Ocorrência de Salmonella nas fábricas de ração. Suinocultura Industrial, , v. 251, 20 jun.  2013. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:39:06</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2834249723527323" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

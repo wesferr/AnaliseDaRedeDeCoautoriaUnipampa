@@ -1,0 +1,2790 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_-1982329117|rpid=-1026118275|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Morgana Duarte da Silva)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4293702H3&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=9224466302319645" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4293702H3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4293702H3"><div class="infpessoa">
+<h2 class="nome">Morgana Duarte da Silva</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/9224466302319645</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 08/06/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Fisioterapia pela Universidade do Sul de Santa Catarina (2005), especialização em acupuntura pelo Centro Integrado de Estudos e Pesquisas do Homem (2006) e mestrado em Neurociências pela Universidade Federal de Santa Catarina (2009). Doutora em Neurociências pela Universidade Federal de Santa Catarina (2013), com estágio sanduíche realizado no laboratório de Neurobiologia da Dor da University of Iowa (IA - EUA). Atualmente é professora na Universidade Federal do Pampa (Uruguaiana - RS). Tem experiência na área de Fisioterapia, Fisiologia, Acupuntura e Eletroterapia.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Morgana Duarte da Silva<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SILVA, M. D.;da Silva, M. D.;Silva, Morgana Duarte;Silva, Morgana Duarte da;da Silva, M.D.;SILVA, M.D.;SILVA, MORGANA D.;DA SILVA, MORGANA D.;DUARTE, M.;da Silva, M.;DA SILVA, MORGANA DUARTE;DUARTE SILVA, MORGANA;DUARTE DA SILVA, M.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Universidade Federal do Pampa - Campus Uruguaiana. <br class="clear" />AC Uruguaiana<br class="clear" />Centro<br class="clear" />97501970 - Uruguaiana, RS - Brasil<br class="clear" />Telefone: (55) 34134321</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Neurociências<span class="ajaxCAPES" data-param="&codigoCurso=41001010027P5&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>sanduíche </b> em University of Iowa (Orientador: Kathleen A. Sluka). <br class="clear" />Título: ATIVIDADE ANTINOCICEPTIVA E ANTI-INFLAMATÓRIA DA ACUPUNTURA NO ACUPONTO ?SPLEEN? 6 (SP6) EM CAMUNDONGOS: ANÁLISE DOS SEUS MECANISMOS NEUROBIOLÓGICOS, Ano de obtenção: 2013. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9263042062534666'><img src='images/curriculo/logolattes.gif' /></a>Adair Roberto Soares dos Santos. <br class="clear" />Coorientador: Kathleen A. Sluka. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Acupuntura; Dor; Nocicepção.<br class="clear" />Grande área: Ciências Biológicas<br class="clear" />Grande Área: Ciências Biológicas / Área: Biologia Geral. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Neurociências<span class="ajaxCAPES" data-param="&codigoCurso=41001010027P5&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: ESTUDOS COMPORTAMENTAIS E FARMACOLÓGICOS COM A DIACEREÍNA NO MODELO DE OSTEOARTRITE MONOARTICULAR INDUZIDA POR ADJUVANTE COMPLETO DE FREUND (CFA) EM RATOS.,Ano de Obtenção: 2009.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9263042062534666'><img src='images/curriculo/logolattes.gif' /></a>Adair Roberto Soares dos Santos.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Acupuntura<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Faculdade de Tecnologia em Saúde CIEPH, CIEPH, Brasil.
+		
+	<br class="clear" />Título: EVIDENCE FOR THE ANTIINFLAMMATORY EFFECT OF SANYINJIAO (SP6) ACUPOINT IN A MODEL OF PERITONITIS IN MICE. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Fisioterapia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	<br class="clear" />Título: Drenagem linfática corporal no edema gestacional. <br class="clear" />Orientador: Karina Brongholi. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projetos de Pesquisa - Elaboração, fomento, gestão.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Atualizacao na Abordagem do paciente com dor.  (Carga horária: 5h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Como escrever um artigo e projeto para publicação.  (Carga horária: 3h). <br class="clear" />Federação das Sociedades de Biologia Experimental, FeSBE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Atualizacao na Abordagem do paciente com dor.  (Carga horária: 6h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Alvos biologicos para o desenvolv de novos analges.  (Carga horária: 3h). <br class="clear" />Sociedade Brasileira de Farmacologia e Terapêutica Experimental, SBFTE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelos animais em neurociencias.  (Carga horária: 3h). <br class="clear" />Sociedade Brasileira de Neurociências e Comportamento, SBNeC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">receptores intracelulares.  (Carga horária: 3h). <br class="clear" />Sociedade Brasileira de Farmacologia e Terapêutica Experimental, SBFTE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Acupuntura Estetica.  (Carga horária: 20h). <br class="clear" />Faculdade de Tecnologia em Saúde CIEPH, CIEPH, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Método Kabat Facilitação Neuromuscular Propriocept.  (Carga horária: 16h). <br class="clear" />Korppus Eventos, KORPPUS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Hidroterapia em neurologia.  (Carga horária: 12h). <br class="clear" />Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Correção postural sobre a bola suíça.  (Carga horária: 16h). <br class="clear" />Korppus Eventos, KORPPUS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso Avancado de Eletrofisioterapia em Ortopedia.  (Carga horária: 10h). <br class="clear" />Instituto Porto Alegre da Igreja Metodista, IPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Watsu Basics.  (Carga horária: 20h). <br class="clear" />Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Terapia Manual e Postural nas Cadeias Musculares.  (Carga horária: 17h). <br class="clear" />Universidade do Estado de Santa Catarina, UDESC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bandagem Funcional.  (Carga horária: 12h). <br class="clear" />Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Centro Universitário FACVEST, FACVEST, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor é membro do Núcleo Docente Estruturante (NDE) do curso de Fisioterapia e membro do Conselho de Ensino, Pesquisa e Extensão (CONSEPE) da Instituição.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Instituto de Pós Graduação Amanda Braz, IAB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Positivo, POSITIVO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsa CAPES Doutorado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsa de Pesquisa, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsa CAPES de Mestrado</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Clínica Ruth Estética, RE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Autonoma, Enquadramento Funcional: Fisioterapeuta Dermato-funcional, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista e/ou voluntario, Enquadramento Funcional: Bolsista e/ou voluntario</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Prevencao e Reabilitacao em Doencas Cronico-Degenerativas Caminhar com a Unisul - 2001 - 120 horas / Programa de Prevencao e Reabilitacao em Doencas Cronico-Degenerativas Caminhar com a Unisul - 2002 - 120 horas / Hidrocinesioterapia em aguas minero-medicinais de Gravatal - 2002 - 164 horas / Equoterapia - 2002 - 96 horas / Hidrocinesioterapia para pacientes adultos com afeccoes neurologicas - 2003 - 25 horas / Abordagem Interdisciplinar em Neuropediatria na APAE - 2003 - 40 horas / Atendimento em Ginecologia - 2004 - 60 horas / Fisioterapia no Programa Saude da Familia - Saude da Mulher - 2004 - 30 horas / Abordagem Interdisciplinar em Neuropediatria na APAE - 2004 - 32 horas.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor titular, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenador do Curso de Fisioterapia no ano de 2017.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Universidade Federal do Pampa - Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />ELETROTERAPIA EM PACIENTES COM DOR CRÔNICA NA COLUNA VERTEBRAL. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Universidade Federal do Pampa - Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />ELETROTERAPIA EM PACIENTES COM DOR CRÔNICA NA COLUNA VERTEBRAL. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa - Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Investigação de diferentes dietas hipercalóricas sobre o perfil nociceptivo de ratos com obesidade'>Investigação de diferentes dietas hipercalóricas sobre o perfil nociceptivo de ratos com obesidade</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa - Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina ácida em ratos.'>Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina ácida em ratos.</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa - Campus Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Efeito da acupuntura com diferentes acupontos na dor neuropática induzida pela ligadura parcial do nervo ciático em camundongos.'>Efeito da acupuntura com diferentes acupontos na dor neuropática induzida pela ligadura parcial do nervo ciático em camundongos.</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Efeito do ultrassom associado ao gel de Ilex paraguariensis sobre inflamação muscular induzida por carragenina em ratos.'>Efeito do ultrassom associado ao gel de Ilex paraguariensis sobre inflamação muscular induzida por carragenina em ratos.</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Efeito dos diferentes comprimentos de onda do Laser de baixa potência em ratos com Osteoartrite no joelho'>Efeito dos diferentes comprimentos de onda do Laser de baixa potência em ratos com Osteoartrite no joelho</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Eletroterapia para o tratamento de mulheres com alterações na imagem corporal no município de Uruguaiana.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Efeito do exercício físico e do ambiente enriquecido sobre lesão muscular inflamatória induzida por carragenina em camundongos.'>Efeito do exercício físico e do ambiente enriquecido sobre lesão muscular inflamatória induzida por carragenina em camundongos.</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - 02/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenação do Curso de Fisioterapia.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2016 - 02/2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Universidade Federal do Pampa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Efeitos da corrente russa associado à fonoforese no tratamento do Fibro edema gelóide em mulheres jovens.'>Efeitos da corrente russa associado à fonoforese no tratamento do Fibro edema gelóide em mulheres jovens.</a><br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Efeito do ultrassom associado ao gel de Ilex paraguariensis sobre inflama&ccedil;&atilde;o muscular induzida por carragenina em ratos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito do ultrassom associado ao gel de Ilex paraguariensis sobre inflamação muscular induzida por carragenina em ratos.</div>
+</div><a name='LP_Efeito dos diferentes comprimentos de onda do Laser de baixa pot&ecirc;ncia em ratos com Osteoartrite no joelho'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito dos diferentes comprimentos de onda do Laser de baixa potência em ratos com Osteoartrite no joelho</div>
+</div><a name='LP_Efeitos da corrente russa associado &agrave; fonoforese no tratamento do Fibro edema gel&oacute;ide em mulheres jovens.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeitos da corrente russa associado à fonoforese no tratamento do Fibro edema gelóide em mulheres jovens.</div>
+</div><a name='LP_Efeito do exerc&iacute;cio f&iacute;sico e do ambiente enriquecido sobre les&atilde;o muscular inflamat&oacute;ria induzida por carragenina em camundongos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito do exercício físico e do ambiente enriquecido sobre lesão muscular inflamatória induzida por carragenina em camundongos.</div>
+</div><a name='LP_Investiga&ccedil;&atilde;o de diferentes dietas hipercal&oacute;ricas sobre o perfil nociceptivo de ratos com obesidade'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Investigação de diferentes dietas hipercalóricas sobre o perfil nociceptivo de ratos com obesidade</div>
+</div><a name='LP_Efeito da acupuntura com diferentes acupontos na dor neurop&aacute;tica induzida pela ligadura parcial do nervo ci&aacute;tico em camundongos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito da acupuntura com diferentes acupontos na dor neuropática induzida pela ligadura parcial do nervo ciático em camundongos.</div>
+</div><a name='LP_Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina &aacute;cida em ratos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina ácida em ratos.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Efeito da acupuntura com diferentes acupontos na dor neurop&aacute;tica induzida pela ligadura parcial do nervo ci&aacute;tico em camundongos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito da acupuntura com diferentes acupontos na dor neuropática induzida pela ligadura parcial do nervo ciático em camundongos.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Serão utilizados camundongos (Mus muluscus) distribuídos de acordo com o protocolo de tratamento a ser utilizado: 1) grupo controle, submetido à LPNC e não tratado; 2) falso operado, submetido à cirurgia sem ligação do nervo; 3) operado e tratado com acupuntura em SP6; 4) operado e tratado com acupuntura em ST36; 5) operado e tratado com acupuntura em K13; 6) operado e tratado com farmacologia convencional. Antes e depois da cirurgia, os animais serão avaliados quanto à sensibilidade mecânica e térmica ao calor e ao frio, coordenação motora e equilíbrio, atividade locomotora, memória aversiva de curto e longo prazo, depressão e ansiedade. Após 7 dias do pós operatório, os animais receberão o primeiro tratamento. Os grupos destinados a receber acupuntura serão tratados três vezes por semana por 10 minutos e avaliados 15 minutos após a retirada da agulha. O grupo que receber farmacologia convencional, receberá a dose de medicamento gabapentina diariamente e, nos dias de avaliação, 1 hora antes das avaliação. Todos os animais serão avaliados no 1º, 3º, 5º, 9º, 11º, 13º, 15º, 19º, 21º, 23º, 25º, 28º dias, após o início dos tratamentos. Após o término das avaliações comportamentais, os camundongos serão mortos por decapitação para realização de c-Fos no hipocampo e testes de estresse oxidativo (atividade da catalase e da superóxido dismutase). Espera-se que a acupuntura seja capaz de reduzir a nocicepção induzida pela LPNC nos camundongos.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Morgana Duarte da Silva - Coordenador / Caroline Cadore Ramires - Integrante / Pamela Melo Carpes - Integrante / Daniel Ventura Dias - Integrante.<br class="clear" /></div>
+</div><a name='PP_Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina &aacute;cida em ratos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina ácida em ratos.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: No presente estudo serão utilizados Ratos Wistar serão organizados em 6 grupos, sendo 1 controle e 5 de intervenção. Os animais passarão por uma avaliação basal, denominada avaliação comportamental, sendo observada a hiperalgesia mecânica (primária e secundária), a hiperalgesia térmica ao frio, o edema muscular, a atividade locomotora através do teste do Campo aberto e a termografia. A dor muscular será induzida através da injeção de salina ácida no músculo gastrocnêmio dos animais no 1º e 5º dia. Após este período os animais serão submetidos à diferentes técnicas de agulhamento seco e será realizada uma avaliação comportamental final. O músculo gastrocnêmio será retirado, e serão analisados os parâmetros oxidativos e a histologia do mesmo. A análise estatística dos dados será realizada utilizando-se o Software GrafhPad®, sendo expressos como média + erro padrão da média sendo considerado significativo p<0,05. Espera-se que pelo menos um dos protocolos de agulhamento seco seja capaz de reduzir a hiperalgesia dos animais no modelo de dor induzida pela salina ácida.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Morgana Duarte da Silva - Coordenador / Daniel Felber - Integrante.<br class="clear" /></div>
+</div><a name='PP_Investiga&ccedil;&atilde;o de diferentes dietas hipercal&oacute;ricas sobre o perfil nociceptivo de ratos com obesidade'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Investigação de diferentes dietas hipercalóricas sobre o perfil nociceptivo de ratos com obesidade<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho objetiva verificar o perfil nociceptivo de ratos com obesidade induzida por diferentes dietas hipercalóricas, bem como verificar a presença de problemas associados como alterações cognitivas, de ansiedade e depressão nesses animais. Como metodologia serão utilizados 48 ratos machos, que serão aclimatados para posterior realização das avaliações basais, após iniciará a fase de indução de obesidade que terá duração de 60 dias, onde os animais serão alimentados por diferentes dietas hipercalóricas, sendo avaliados quanto ao desenvolvimento da obesidade semanalmente.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Morgana Duarte da Silva - Coordenador / Rafael Malheiros - Integrante / Vanusa Manfredini - Integrante / Giulia Peçanha - Integrante.<br class="clear" /></div>
+</div><a name='PP_Efeito do ultrassom associado ao gel de Ilex paraguariensis sobre inflama&ccedil;&atilde;o muscular induzida por carragenina em ratos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Efeito do ultrassom associado ao gel de Ilex paraguariensis sobre inflamação muscular induzida por carragenina em ratos.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este estudo tem como objetivo verificar o efeito anti-inflamatório do US associado à erva mate (fonoforese) na inflamação muscular induzida por Carragenina no músculo gastrocnêmio de ratos. Para alcançar os objetivos propostos serão utilizados ratos Wistar que receberão uma injeção intramuscular de carragenina. Nestes animais serão realizados testes comportamentais de dor (hiperalgesia mecânica e térmica) e edema. Além disso, serão realizadas avaliações histológicas no músculo para verificar outros aspectos inflamatórios e quantificação das citocinas no local.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Morgana Duarte da Silva - Coordenador / Pamela Melo Carpes - Integrante / Juliana C. Madeira - Integrante / Mauren de Souza - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Eletroterapia para o tratamento de mulheres com altera&ccedil;&otilde;es na imagem corporal no munic&iacute;pio de Uruguaiana.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Eletroterapia para o tratamento de mulheres com alterações na imagem corporal no município de Uruguaiana.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A preocupação com a beleza física faz parte da nossa cultura, as pessoas sentem necessidade de estar dentro do padrão de beleza ditado como ideal pela sociedade para se sentirem parte dela. Adiposidade localizada, estrias e fibro edema gelóide (FEG) são distúrbios tratados pelos profissionais da fisioterapia dermato-funcional. Recursos terapêuticos como o ultrassom terapêutico, correntes excitomotoras, terapia combinada, entre outros, apresentam grande eficácia no tratamento de problemas relacionados à estética corporal. Este projeto tem como objetivo tratar problemas estéticos e de imagem corporal com recursos da eletroterapia em mulheres adultas da cidade de Uruguaiana. Participarão da amostra, voluntárias que procurarem tratamentos estéticos no Posto de Saúde 14, acadêmicas e funcionárias da Universidade Federal do Pampa. As voluntárias serão submetidas à avaliação fisioterapêutica que irá abordar: Dados pessoais; Histórico médico; Inspeção e palpação: cor da pele, trofismo e/ou flacidez muscular e adiposidade localizada; Exame físico e dados antropométricos como: peso, altura, IMC, perimetria, adipometria entre outros. Além disso, serão realizados registros fotográficos, será aplicado um questionário para verificar a insatisfação sobre a imagem corporal (Body Shape Questionnaire ? BSQ) e questionário de satisfação após o tratamento. Para o estudo será realizado um protocolo de 10 sessões por indivíduo, duas vezes na semana (aproximadamente 50 minutos cada sessão). A terapêutica utilizada dependerá do problema do indivíduo, podendo ser ultrassom, corrente Aussie, corrente Russa, Heccus (Terapia combinada), entre outros. Além disso, serão realizadas atividades em grupo com participação de acadêmicos, comunidade e pacientes para esclarecimento dos problemas e benefícios da fisioterapia para melhora da imagem corporal. Como resultado desta pesquisa estima-se a diminuição do problema da voluntária como aumento da tonificação muscular e redução da gordura localizada. Assim, espera-se propiciar diminuição do grau de FEG, estrias ou da adiposidade nas voluntárias bem como sua satisfação corporal e auto estima. Além disso, espera-se que os acadêmicos participantes analisem e discutam os dados, aprendendo novas técnicas e adquirindo experiência na área.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Morgana Duarte da Silva - Coordenador / Juliana Campodonico Madeira - Integrante.<br class="clear" /></div>
+</div><a name='PP_PROMO&Ccedil;&Atilde;O DO DESENVOLVIMENTO MOTOR AMPLO EM CRIAN&Ccedil;AS E ADOLESCENTES EM CONDI&Ccedil;&Atilde;O DE VULNERABILIDADE SOCIAL E VIOL&Ecirc;NCIA DOM&Eacute;STICA INSTITUCIONALIZADAS EM URUGUAIANA/RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PROMOÇÃO DO DESENVOLVIMENTO MOTOR AMPLO EM CRIANÇAS E ADOLESCENTES EM CONDIÇÃO DE VULNERABILIDADE SOCIAL E VIOLÊNCIA DOMÉSTICA INSTITUCIONALIZADAS EM URUGUAIANA/RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: As crianças estão em permanente crescimento e formação, e são dotadas da capacidade de penetrar no
+meio em que vivem e reestruturá-lo sob diferentes aspectos. Logo, a interação entre a criança e o meio
+ambiente deve ser vista sempre em uma perspectiva bidirecional, pautada pela reciprocidade e o
+estabelecimento de trocas que se sucedem no tempo. Em tese, essa característica é universal e está
+presente, potencialmente, em toda criança, qualquer que seja a sua condição social ou pessoal. Entretanto,
+no que se refere à criança institucionalizada, a interação com o meio em que está inserida, não apenas é
+possível, como deve, inclusive, ser estimulada, uma vez que o abrigo como contexto de desenvolvimento
+envolve um campo de relações que abre espaço para trocas sociais e afetivas que são particularmente
+importantes para as crianças que estão privados do cuidado parental, por exemplo. Crianças que vivem
+longe do contato sócio familiar apresentam risco de atraso no desenvolvimento, já que estão vulneráveis
+ambientalmente e em desvantagem pela privação desse ambiente físico e social. Isso acarreta limitação
+em seu crescimento e em seu desenvolvimento, como ocorre com crianças institucionalizadas. O presente
+projeto tem o objetivo de promover o desenvolvimento motor através de adequada intervenção motora em
+crianças e adolescentes institucionalizadas no Centro de Atendimento à Criança e Adolescente de
+Uruguaiana ? CACAU, além de identificar e descrever as características do contexto do abrigo, verificar as
+oportunidades de estimulação motora oferecidas pelo contexto estudado, promover as modificações
+ambientais necessárias para favorecer o desenvolvimento motor, treinar equipe de profissionais da
+Instituição orientando quanto à melhor forma de estimular o desenvolvimento das crianças e adolescentes
+do CACAU e avaliar o impacto das intervenções motoras na melhora do desempenho motor desses indivíduos.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Morgana Duarte da Silva - Coordenador / Eloa Maria dos Santos Chiquetti - Integrante.<br class="clear" /></div>
+</div><a name='PP_ELETROTERAPIA EM PACIENTES COM DOR LOMBAR'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ELETROTERAPIA EM PACIENTES COM DOR LOMBAR<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A dor lombar é um importante problema de saúde pública que afeta diretamente a qualidade de vida do
+indivíduo e suas atividades da vida diária. Freqüentemente a dor lombar, principalmente a crônica, não
+decorre de doenças específicas, mas sim de um conjunto de causas, como por exemplo fatores
+sócio-demográficos, comportamentais, exposições ocorridas nas atividades cotidianas e outros. Muitos
+profissionais consideram tratamentos conservadores usados na reabilitação dos pacientes com lombalgia, meros coadjuvantes. No entanto, a fisioterapia vem sendo cada vez mais indicada e comprovadamente eficaz no tratamentos de diversos distúrbios, inclusive no alívio da dor lombar, utilizando um número amplo de modalidades terapêuticas, como exercícios, aplicação de calor ou frio, ultrassom e estimulação elétrica. Dentre os tratamentos fisioterápicos podem ser citados os recursos elétricos para o alívio da dor, como o TENS (estimulação elétrica nervosa transcutânea) e a corrente Interferencial. Ambos tratamentos usam correntes elétricas através de eletrodos colocados sobre a pele. No entanto, as evidências de que eles podem realmente reduzirem a dor, especialmente da dor lombar são poucos ou refutáveis. Desta forma, é importante um estudo sobre os efeitos do TENS e da Corrente Interferencial em indivíduos com dor,
+especialmente pacientes com lombalgia. Através da execução de uma proposta que tenha interação e troca de saberes entre as necessidades dos pacientes e o curso de Fisioterapia da Universidade, esse projeto tem como objetivo a promoção de saúde e qualidade de vida em pacientes com dores na coluna lombar pelo uso da eletroterapia com TENS ou com Corrente Interferencial.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Morgana Duarte da Silva - Coordenador / Eloá Yamada - Integrante / Antonio Carlos Pereira de Araujo - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Fisioterapia e Terapia Ocupacional. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Fisiologia. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Primeiro lugar Tema Livre Oral, 5° Encontro Científico do HRSJHMG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhores paineis, Fesbe. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Menção Honrosa, SBFTE. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science<a href="http://www.researcherid.com/rid/D-4942-2015" target='_blank' ><img src="/buscatextual/images/curriculo/researcherID.gif"/></a></div><div class="trab">Total de trabalhos:15</div><div class="cita">Total de citações:103</div><div class="fator">Fator H:8</div><div class="detalhes"><a href="http://www.researcherid.com/rid/D-4942-2015" target='_blank' >da Silva, Morgana D</a>&nbsp;&nbsp;Data:&nbsp;21/10/2015</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GONCALVES, C. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span>GONCALVES, C. S. ; MADEIRA, J. C. ; <b>da Silva, M.D.</b> . Terapia combinada associada à drenagem linfática reduz lipodistrofia localizada no abdômen de mulheres jovens. ConScientiae Saúde<sup><img id='19839324_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19839324' /></sup>, v. 16, p. 281-288, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19839324&volume=16&issue=&paginaInicial=281&titulo=Terapia combinada associada à drenagem linfática reduz lipodistrofia localizada no abdômen de mulheres jovens&sequencial=1&nomePeriodico=ConScientiae Saúde" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CAMARGO HIZUME-KUNZLER, DEBORAH</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1055/s-0042-121638" target="_blank"></a>CAMARGO HIZUME-KUNZLER, DEBORAH ; GREIFFO, FLAVIA R. ; FORTKAMP, BÁRBARA ; RIBEIRO FREITAS, GABRIEL ; KELLER NASCIMENTO, JULIANA ; REGINA BRUGGEMANN, THAYSE ; MELO AVILA, LEONARDO ; PERINI, ADENIR ; BOBINSKI, FRANCIANE ; <b>DUARTE SILVA, MORGANA</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8584338611775646" target="_blank">ROCHA LAPA, FERNANDA</a> ; PAULA VIEIRA, RODOLFO ; VARGAS HOREWICZ, VERÔNICA ; SOARES DOS SANTOS, ADAIR ROBERTO ; CATTELAN BONORINO, KELLY . Aerobic Exercise Decreases Lung Inflammation by IgE Decrement in an OVA Mice Model. INTERNATIONAL JOURNAL OF SPORTS MEDICINE<sup><img id='01724622_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01724622' /></sup>, v. 7, p. 1-10, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1055/s-0042-121638&issn=01724622&volume=7&issue=&paginaInicial=1&titulo=Aerobic Exercise Decreases Lung Inflammation by IgE Decrement in an OVA Mice Model&sequencial=2&nomePeriodico=INTERNATIONAL JOURNAL OF SPORTS MEDICINE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BRUGGEMANN, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1055/s-0034-1395588" target="_blank"></a>BRUGGEMANN, T. ; AVILA, L. ; FORTKAMP, B. ; GREIFFO, F. ; BOBINSKI, F. ; MAZZARDO-MARTINS, L. ; MARTINS, D. ; <b>DUARTE, M.</b> ; DAFRE, A. ; SANTOS, A. ; <b>SILVA, M.</b> ; SOUZA, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9213556008468472" target="_blank">VIEIRA, R.</a> ; HIZUME-KUNZLER, D. . Effects of Swimming on the Inflammatory and Redox Response in a Model of Allergic Asthma. International Journal of Sports Medicine<sup><img id='01724622_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01724622' /></sup>, v. 2, p. 1-9, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1055/s-0034-1395588&issn=01724622&volume=2&issue=&paginaInicial=1&titulo=Effects of Swimming on the Inflammatory and Redox Response in a Model of Allergic Asthma&sequencial=3&nomePeriodico=International Journal of Sports Medicine" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NASCIMENTO, FRANCISNEY PINTO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.neuroscience.2015.06.044" target="_blank"></a>NASCIMENTO, FRANCISNEY PINTO ; MACEDO-JÚNIOR, SÉRGIO JOSÉ ; BORGES, FÁBIO RODRIGO MESQUITA ; CREMONESE, RICARDO PENAYO ; <b>Silva, Morgana Duarte da</b> ; LUIZ-CERUTTI, MURILO ; Martins, Daniel Fernandes ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0223274024436216" target="_blank">RODRIGUES, ANA LÚCIA S.</a> ; SANTOS, ADAIR ROBERTO SOARES DOS . Thalidomide reduces mechanical hyperalgesia and depressive-like behavior induced by peripheral nerve crush in mice. Neuroscience<sup><img id='03064522_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03064522' /></sup>, v. 27, p. 1-8, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.neuroscience.2015.06.044&issn=03064522&volume=27&issue=&paginaInicial=1&titulo=Thalidomide reduces mechanical hyperalgesia and depressive-like behavior induced by peripheral nerve crush in mice&sequencial=4&nomePeriodico=Neuroscience" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ÁVILA, LEONARDO C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1371/journal.pone.0137273" target="_blank"></a>ÁVILA, LEONARDO C. M. ; BRUGGEMANN, THAYSE R. ; BOBINSKI, FRANCIANE ; <b>DA SILVA, MORGANA DUARTE</b> ; OLIVEIRA, REGIANE CARVALHO ; Martins, Daniel Fernandes ; Mazzardo-Martins, Leidiane ; DUARTE, MARTA MARIA MEDEIROS FRESCURA ; DE SOUZA, LUIZ FELIPE ; DAFRE, ALCIR ; VIEIRA, RODOLFO DE PAULA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, Adair Roberto Soares</a> ; BONORINO, KELLY CATTELAN ; HIZUME KUNZLER, DEBORAH DE C. . Effects of High-Intensity Swimming on Lung Inflammation and Oxidative Stress in a Murine Model of DEP-Induced Injury. Plos One<sup><img id='19326203_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19326203' /></sup>, v. 10, p. e0137273, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1371/journal.pone.0137273&issn=19326203&volume=10&issue=&paginaInicial=e0137273&titulo=Effects of High-Intensity Swimming on Lung Inflammation and Oxidative Stress in a Murine Model of DEP-Induced Injury&sequencial=5&nomePeriodico=Plos One" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DA SILVA, MORGANA DUARTE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/1756-185x.12741" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">DA SILVA, MORGANA DUARTE</a></b>; CIDRAL-FILHO, FRANCISCO JOSÉ ; WINKELMANN-DUARTE, ELISA CRISTINA ; CARGNIN-FERREIRA, EDUARDO ; CALIXTO, JOÃO B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9752928471695848" target="_blank">DUTRA, RAFAEL C.</a> ; Santos, Adair Roberto Soares . Diacerein reduces joint damage, pain behavior and inhibits transient receptor potential vanilloid 1, matrix metalloproteinase and glial cells in rat spinal cord. International Journal of Rheumatic Diseases (Print)<sup><img id='17561841_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17561841' /></sup>, v. 1, p. n/a-n/a, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/1756-185x.12741&issn=17561841&volume=1&issue=&paginaInicial=n/a&titulo=Diacerein reduces joint damage, pain behavior and inhibits transient receptor potential vanilloid 1, matrix metalloproteinase and glial cells in rat spinal cord&sequencial=6&nomePeriodico=International Journal of Rheumatic Diseases (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUARTE DA SILVA, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jpain.2015.01.460" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">DUARTE DA SILVA, M.</a></b>; Guginski, G. ; SANADA, L. ; SLUKA, K. ; CIDRAL, F. ; SANTOS, A. ; SATO, K. . (539) SP6 manual acupuncture reduces mechanical hyperalgesia in neurophatic pain. JOURNAL OF PAIN<sup><img id='15265900_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15265900' /></sup>, v. 16, p. S110, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jpain.2015.01.460&issn=15265900&volume=16&issue=&paginaInicial=S110&titulo=(539) SP6 manual acupuncture reduces mechanical hyperalgesia in neurophatic pain&sequencial=7&nomePeriodico=JOURNAL OF PAIN" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BORGES, FABIO R.M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jep.2013.10.009" target="_blank"></a>BORGES, FABIO R.M. ; <b>SILVA, MORGANA D.</b> ; CÓRDOVA, MARINA M. ; SCHAMBACH, TIAGO R. ; PIZZOLATTI, MOACIR G. ; Santos, Adair R.S. . Anti-inflammatory action of hydroalcoholic extract, dichloromethane fraction and steroid &#945;-spinasterol from Polygala sabulosa in LPS-induced peritonitis in mice. Journal of Ethnopharmacology<sup><img id='03788741_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03788741' /></sup>, v. 151, p. 144-150, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jep.2013.10.009&issn=03788741&volume=151&issue=&paginaInicial=144&titulo=Anti-inflammatory action of hydroalcoholic extract, dichloromethane fraction and steroid &#945;-spinasterol from Polygala sabulosa in LPS-induced peritonitis in mice&sequencial=8&nomePeriodico=Journal of Ethnopharmacology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DA SILVA, MORGANA D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s12035-014-8790-x" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">DA SILVA, MORGANA D.</a></b>; BOBINSKI, FRANCIANE ; SATO, KARINA L. ; KOLKER, SANDRA J. ; SLUKA, KATHLEEN A. ; SANTOS, ADAIR R. S. . IL-10 Cytokine Released from M2 Macrophages Is Crucial for Analgesic and Anti-inflammatory Effects of Acupuncture in a Model of Inflammatory Muscle Pain. Molecular Neurobiology<sup><img id='08937648_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08937648' /></sup>, v. 51, p. 19-31, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s12035-014-8790-x&issn=08937648&volume=51&issue=&paginaInicial=19&titulo=IL-10 Cytokine Released from M2 Macrophages Is Crucial for Analgesic and Anti-inflammatory Effects of Acupuncture in a Model of Inflammatory Muscle Pain&sequencial=9&nomePeriodico=Molecular Neurobiology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SATO, K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jpain.2014.01.245" target="_blank"></a>SATO, K. ; <b>da Silva, M.</b> ; SANADA, L. ; TAVARES, L. ; DA SILVA, W. ; SLUKA, K. . (335) Duration and prevention of analgesic tolerance to TENS. The Journal of Pain (Print)<sup><img id='15265900_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15265900' /></sup>, v. 15, p. S59, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jpain.2014.01.245&issn=15265900&volume=15&issue=&paginaInicial=S59&titulo=(335) Duration and prevention of analgesic tolerance to TENS&sequencial=10&nomePeriodico=The Journal of Pain (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Cidral-Filho, F.J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/j.1532-2149.2012.00280.x" target="_blank"></a>Cidral-Filho, F.J. ; Martins, D.F. ; Moré, A.O.O. ; MAZZARDO-MARTINS, L. ; <b>SILVA, M.D.</b> ; CARGNIN-FERREIRA, E. ; Santos, A.R.S. . Light-emitting diode therapy induces analgesia and decreases spinal cord and sciatic nerve tumour necrosis factor-&#945; levels after sciatic nerve crush in mice. European Journal of Pain (London, England)<sup><img id='10903801_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10903801' /></sup>, v. 21, p. n/a-n/a, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/j.1532-2149.2012.00280.x&issn=10903801&volume=21&issue=&paginaInicial=n/a&titulo=Light-emitting diode therapy induces analgesia and decreases spinal cord and sciatic nerve tumour necrosis factor-&#945; levels after sciatic nerve crush in mice&sequencial=11&nomePeriodico=European Journal of Pain (London, England)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CÓRDOVA, MARINA M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.carbpol.2012.11.041" target="_blank"></a>CÓRDOVA, MARINA M. ; MARTINS, DANIEL F. ; <b>SILVA, MORGANA D.</b> ; BAGGIO, CRISTIANE H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7136817335979894" target="_blank">CARBONERO, ELAINE R.</a> ; RUTHES, ANDREA C. ; IACOMINI, MARCELLO ; Santos, Adair R.S. . Polysaccharide glucomannan isolated from Heterodermia obscurata attenuates acute and chronic pain in mice. Carbohydrate Polymers<sup><img id='01448617_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01448617' /></sup>, v. 92, p. 2058-2064, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.carbpol.2012.11.041&issn=01448617&volume=92&issue=&paginaInicial=2058&titulo=Polysaccharide glucomannan isolated from Heterodermia obscurata attenuates acute and chronic pain in mice&sequencial=12&nomePeriodico=Carbohydrate Polymers" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ERTHAL, VANESSA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10103-012-1260-7" target="_blank"></a>ERTHAL, VANESSA ; <b>Silva, Morgana Duarte</b> ; CIDRAL-FILHO, FRANCISCO J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, Adair Roberto Soares</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5055126579468463" target="_blank">NOHAMA, Percy</a> . ST36 laser acupuncture reduces pain-related behavior in rats: involvement of the opioidergic and serotonergic systems. Lasers in Medical Science<sup><img id='02688921_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='02688921' /></sup>, v. 28, p. 1345-1351, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10103-012-1260-7&issn=02688921&volume=28&issue=&paginaInicial=1345&titulo=ST36 laser acupuncture reduces pain-related behavior in rats: involvement of the opioidergic and serotonergic systems&sequencial=13&nomePeriodico=Lasers in Medical Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SASSAKI, GUILHERME L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cbi.2013.05.014" target="_blank"></a>SASSAKI, GUILHERME L. ; RATTMANN, YANNA D. ; SANTANA-FILHO, ARQUIMEDES P. ; RITER, DANIEL S. ; IAGHER, FABÍOLA ; TRINDADE, EDVALDO S. ; <b>DA SILVA, MORGANA D.</b> ; Santos, Adair R.S. ; DE SOUZA, LAURO MERA ; IACOMINI, MARCELLO ; GORIN, PHILIP A.J. . Galactofuranosyl glycosides: Immunomodulatory effects on macrophages and in vivo enhancement of lethality on sepsis. Chemico-Biological Interactions (Print)<sup><img id='00092797_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00092797' /></sup>, v. 205, p. 29-37, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cbi.2013.05.014&issn=00092797&volume=205&issue=&paginaInicial=29&titulo=Galactofuranosyl glycosides: Immunomodulatory effects on macrophages and in vivo enhancement of lethality on sepsis&sequencial=14&nomePeriodico=Chemico-Biological Interactions (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>WALKER, CRISTIANI I.B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jep.2013.07.027" target="_blank"></a>WALKER, CRISTIANI I.B. ; TREVISAN, GABRIELA ; ROSSATO, MATEUS F. ; SILVA, CÁSSIA R. ; PINHEIRO, FRANCIELE V. ; FRANCISCATO, CARINA ; TATSCH, ETIANE ; MORETTO, MARIA B. ; <b>SILVA, MORGANA D.</b> ; MANFRON, MELÂNIA P. ; NOAL MORESCO, RAFAEL ; Santos, Adair R.S. ; PEREIRA, MARIA E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2694197910478313" target="_blank">Ferreira, Juliano</a> . Antinociceptive effect of Mirabilis jalapa on acute and chronic pain models in mice. Journal of Ethnopharmacology<sup><img id='03788741_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03788741' /></sup>, v. 149, p. 685-693, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jep.2013.07.027&issn=03788741&volume=149&issue=&paginaInicial=685&titulo=Antinociceptive effect of Mirabilis jalapa on acute and chronic pain models in mice&sequencial=15&nomePeriodico=Journal of Ethnopharmacology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SATO, K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jpain.2013.01.699" target="_blank"></a>SATO, K. ; <b>da Silva, M.</b> ; SLUKA, K. . Comparison of TENS, spinal cord stimulation and acupuncture in inflammatory, neuropathic and non-inflammatory pain models in rats. The Journal of Pain (Print)<sup><img id='15265900_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15265900' /></sup>, v. 14, p. S90, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jpain.2013.01.699&issn=15265900&volume=14&issue=&paginaInicial=S90&titulo=Comparison of TENS, spinal cord stimulation and acupuncture in inflammatory, neuropathic and non-inflammatory pain models in rats&sequencial=16&nomePeriodico=The Journal of Pain (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Longhi-Balbinot, Daniela T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jep.2012.04.013" target="_blank"></a>Longhi-Balbinot, Daniela T. ; Lanznaster, Débora ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8248494552850550" target="_blank">BAGGIO, Cristiane Hatsuko</a> ; <b>Silva, Morgana Duarte</b> ; CABRERA, CELESTE HEISEKE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5339226046436113" target="_blank">Facundo, Valdir A.</a> ; Santos, Adair R.S. . Anti-inflammatory effect of triterpene 3&#946;, 6&#946;, 16&#946;-trihydroxylup-20(29)-ene obtained from Combretum leprosum Mart &amp; Eich in mice. Journal of Ethnopharmacology<sup><img id='03788741_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03788741' /></sup>, v. 142, p. 59-64, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jep.2012.04.013&issn=03788741&volume=142&issue=&paginaInicial=59&titulo=Anti-inflammatory effect of triterpene 3&#946;, 6&#946;, 16&#946;-trihydroxylup-20(29)-ene obtained from Combretum leprosum Mart &amp; Eich in mice&sequencial=17&nomePeriodico=Journal of Ethnopharmacology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROCHA LAPA, FERNANDA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11302-012-9299-2" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8584338611775646" target="_blank">ROCHA LAPA, FERNANDA</a> ; <b>Silva, Morgana Duarte</b> ; ALMEIDA CABRINI, DANIELA ; SANTOS, ADAIR R. S. . Anti-inflammatory effects of purine nucleosides, adenosine and inosine, in a mouse model of pleurisy: evidence for the role of adenosine A2 receptors. Purinergic Signalling<sup><img id='15739546_18' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15739546' /></sup>, v. xxx, p. 22456813-xxx, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s11302-012-9299-2&issn=15739546&volume=xxx&issue=&paginaInicial=22456813&titulo=Anti-inflammatory effects of purine nucleosides, adenosine and inosine, in a mouse model of pleurisy: evidence for the role of adenosine A2 receptors&sequencial=18&nomePeriodico=Purinergic Signalling" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Longhi-Balbinot, Daniela T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ejphar.2010.11.028" target="_blank"></a>Longhi-Balbinot, Daniela T. ; Martins, Daniel Fernandes ; Lanznaster, Débora ; <b>Silva, Morgana Duarte</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5339226046436113" target="_blank">Facundo, Valdir A.</a> ; Santos, Adair R.S. . Further analyses of mechanisms underlying the antinociceptive effect of the triterpene 3?, 6?, 16?-trihydroxylup-20(29)-ene in mice. European Journal of Pharmacology<sup><img id='00142999_19' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00142999' /></sup>, v. 653, p. 32-40, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.ejphar.2010.11.028&issn=00142999&volume=653&issue=&paginaInicial=32&titulo=Further analyses of mechanisms underlying the antinociceptive effect of the triterpene 3?, 6?, 16?-trihydroxylup-20(29)-ene in mice&sequencial=19&nomePeriodico=European Journal of Pharmacology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Córdova, Marina Machado</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.neulet.2011.02.007" target="_blank"></a>Córdova, Marina Machado ; Werner, Maria Fernanda de Paula ; <b>Silva, Morgana Duarte da</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5727234767097071" target="_blank">Ruani, Ana Paula</a> ; Pizzolatti, Moacir Geraldo ; Santos, Adair R.S. . Further antinociceptive effects of myricitrin in chemical models of overt nociception in mice. Neuroscience Letters (Print)<sup><img id='03043940_20' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03043940' /></sup>, p. 89-184, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.neulet.2011.02.007&issn=03043940&volume=&issue=&paginaInicial=89&titulo=Further antinociceptive effects of myricitrin in chemical models of overt nociception in mice&sequencial=20&nomePeriodico=Neuroscience Letters (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Cidral-Filho, F.J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.neuroscience.2011.07.076" target="_blank"></a>Cidral-Filho, F.J. ; <b>da Silva, M.D.</b> ; Moré, A.O.O. ; Córdova, M.M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9053828782958389" target="_blank">Werner, M.F.</a> ; Santos, A.R.S. . Manual acupuncture inhibits mechanical hypersensitivity induced by spinal nerve ligation in rats. Neuroscience<sup><img id='03064522_21' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03064522' /></sup>, v. 193, p. 370-376, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.neuroscience.2011.07.076&issn=03064522&volume=193&issue=&paginaInicial=370&titulo=Manual acupuncture inhibits mechanical hypersensitivity induced by spinal nerve ligation in rats&sequencial=21&nomePeriodico=Neuroscience" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Mota, Bibiana Castagna</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s12640-011-9257-8" target="_blank"></a>Mota, Bibiana Castagna ; Pereira, Leticia ; Souza, Mauren Assis ; Silva, Luiz Fernando Almeida ; Magni, Danieli Valnes ; Ferreira, Ana Paula Oliveira ; Oliveira, Mauro Schneider ; Furian, Ana Flávia ; Mazzardo-Martins, Leidiane ; <b>Silva, Morgana Duarte da</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, Adair Roberto Soares</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2694197910478313" target="_blank">Ferreira, Juliano</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8583392747509231" target="_blank">Fighera, Michele Rechia</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0543081555633400" target="_blank">Royes, Luiz Fernando Freire</a> . Exercise Pre-conditioning Reduces Brain Inflammation and Protects against Toxicity Induced by Traumatic Brain Injury: Behavioral and Neurochemical Approach. Neurotoxicity Research<sup><img id='10298428_22' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10298428' /></sup>, v. 7, p. 1-9, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s12640-011-9257-8&issn=10298428&volume=7&issue=&paginaInicial=1&titulo=Exercise Pre-conditioning Reduces Brain Inflammation and Protects against Toxicity Induced by Traumatic Brain Injury: Behavioral and Neurochemical Approach&sequencial=22&nomePeriodico=Neurotoxicity Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVA, M. D.;da Silva, M. D.;Silva, Morgana Duarte;Silva, Morgana Duarte da;da Silva, M.D.;SILVA, M.D.;SILVA, MORGANA D.;DA SILVA, MORGANA D.;DUARTE, M.;da Silva, M.;DA SILVA, MORGANA DUARTE;DUARTE SILVA, MORGANA;DUARTE DA SILVA, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/ecam/neq036" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>; GUGINSKI, Giselle ; WERNER, MARIA FERNANDA DE PAULA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8248494552850550" target="_blank">BAGGIO, Cristiane Hatsuko</a> ; MARCON, Rodrigo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">SANTOS, A. R. S. ou SANTOS, A.R.</a> ; Santos, Adair Roberto Soares . Involvement of Interleukin-10 in the Anti-Inflammatory Effect of Sanyinjiao (SP6) Acupuncture in a Mouse Model of Peritonitis. Evidence-Based Complementary and Alternative Medicine (Print)<sup><img id='1741427X_23' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1741427X' /></sup>, v. 2011, p. 1-9, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/ecam/neq036&issn=1741427X&volume=2011&issue=&paginaInicial=1&titulo=Involvement of Interleukin-10 in the Anti-Inflammatory Effect of Sanyinjiao (SP6) Acupuncture in a Mouse Model of Peritonitis&sequencial=23&nomePeriodico=Evidence-Based Complementary and Alternative Medicine (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Guginski, G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S1754-3207(10)70180-2" target="_blank"></a>Guginski, G. ; <b>SILVA, M.D.</b> ; RAE, G.A. . 175 DIFFERENTIAL INVOLVEMENT OF ENDOTHELINS IN OROFACIAL AND HIND PAW MECHANICAL HYPERALGESIA INDUCED BY CISPLATIN IN MICE. European Journal of Pain Supplements<sup><img id='17543207_24' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17543207' /></sup>, v. 4, p. 52-52, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S1754-3207(10)70180-2&issn=17543207&volume=4&issue=&paginaInicial=52&titulo=175 DIFFERENTIAL INVOLVEMENT OF ENDOTHELINS IN OROFACIAL AND HIND PAW MECHANICAL HYPERALGESIA INDUCED BY CISPLATIN IN MICE&sequencial=24&nomePeriodico=European Journal of Pain Supplements" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Guginski, Giselle</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.pbb.2009.03.014" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5073632345211745" target="_blank">Guginski, Giselle</a> ; Luiz, Ana Paula ; <b>Silva, Morgana Duarte</b> ; Massaro, Murilo ; Martins, Daniel Fernandes ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0554648513466317" target="_blank">Chaves, Juliana</a> ; Mattos, Robson Willain ; Silveira, Damaris ; Ferreira, Vânia M.M. ; Calixto, João Batista . Mechanisms involved in the antinociception caused by ethanolic extract obtained from the leaves of Melissa officinalis (lemon balm) in mice. Pharmacology, Biochemistry and Behavior<sup><img id='00913057_25' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00913057' /></sup>, v. 93, p. 10-16, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.pbb.2009.03.014&issn=00913057&volume=93&issue=&paginaInicial=10&titulo=Mechanisms involved in the antinociception caused by ethanolic extract obtained from the leaves of Melissa officinalis (lemon balm) in mice&sequencial=25&nomePeriodico=Pharmacology, Biochemistry and Behavior" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Buss DC</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>Buss DC ; <b>SILVA, M. D.</b> . Revisão de Literatura: Conceitos, Avaliação e Tratamento da Espondilite Anquilosante.. Terapia Manual<sup><img id='16775937_26' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16775937' /></sup>, v. 02, p. 14-20, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16775937&volume=02&issue=&paginaInicial=14&titulo=Revisão de Literatura: Conceitos, Avaliação e Tratamento da Espondilite Anquilosante.&sequencial=26&nomePeriodico=Terapia Manual" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAMIRES, C. C. ; MALHEIROS, R. T. ; YAMADA, E. F. ; <b>da Silva, M. D.</b> . LASER DE BAIXA POTÊNCIA REDUZ A NOCICEPÇÃO E O ESTRESSE OXIDATIVO NO JOELHO DE RATOS COM OSTEOARTRITE. 2017. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. X. ; MADEIRA, J. C. ; <b>SILVA, M.D.</b> . FONOFORESE COM ERVA-MATE REDUZ EDEMA E ESTRESSE OXIDATIVO NA INFLAMAÇÃO MUSCULAR. 2017. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vargas, L.A. ; Dias, D. V. ; Rosa, J.C.L. ; CHRISTMANN, C. M. ; <b>da Silva, M.D.</b> ; Daré, L.R. . EFEITO TERAPÊUTICO DA LASERTERAPIA EM PONTOS DE ACUPUNTURA NA DOR NEUROPÁTICA. 2017. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mandarino, A. ; <b>da Silva, M. D.</b> . O IMPACTO DO PROGRAMA DE MONITORIA NA DISCIPLINA DE RECURSOS ELETRO-TERMO- FOTOTERAPÊUTICOS II. 2017. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROSA, H. S. ; SALGUEIRO, A. C. F. ; <b>da Silva, M.D.</b> ; Coelho, I.S. ; COSTA, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">SANTOS, A. R. S. ou SANTOS, A.R.</a> ; Mendez, A.S.L. ; FOLMER, V. . Inhibition of nociceptive and inflammatory response in mice by oral administration of Sida tuberculata extract.. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">da Silva, M.F. ; <b>da Silva, M.D.</b> . EFEITO DO EXERCÍCIO FÍSICO E DO AMBIENTE ENRIQUECIDO SOBRE LESÃO MUSCULAR INFLAMATÓRIA INDUZIDA POR CARRAGENIN. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigues, A.Y.M. ; <b>da Silva, M.D.</b> . ELETROTERAPIA PARA O TRATAMENTO DE MULHERES COM ALTERAÇÕES NA IMAGEM CORPORAL NO MUNICÍPIO DE URUGUAIANA. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">da Silva, M.F. ; <b>da Silva, M.D.</b> . MONITORIA NA DISCIPLINA DE RECURSOS ELETRO-TERMO-FOTOTERAPÊUTICOS I. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigues, A.Y.M. ; <b>da Silva, M.D.</b> . MONITORIA NA DISCIPLINA DE RECURSOS ELETRO-TERMO-FOTOTERAPÊUTICOS II. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silva, M.F. ; <b>da Silva, M.D.</b> . DOR NEUROPÁTICA INDUZ TRANSTORNOS DE HUMOR E PERDA DE MEMÓRIA DE CURTA DURAÇÃO EM CAMUNDONGOS. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">de Sá, M.V. ; <b>da Silva, M.D.</b> . MONITORIA NA DISCIPLINA DE RECURSOS ELETRO-TERMO-FOTOTERAPÊUTICOS I,. 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">da Rosa HS ; Coelho IS ; <b>da Silva, M. D.</b> ; Santos, Adair Roberto Soares ; Mendez, A.S.L. ; FOLMER, V. . Antinociceptive and anti-inflammatory potential of extract from Sida Tuberculata (Malvaceae). 2015. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">Silva, Morgana Duarte da</a></b>; BOBINSKI, FRANCIANE ; SATO, KARINA L. ; KOLKER, SANDRA J. ; SLUKA, KATHLEEN A. ; Santos, Adair Roberto Soares . IL-10 cytokine released by M2 macrophages are crucial in analgesic and anti-inflammatory actions of acupuncture in an inflammatory muscle pain model. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">da Silva, M. D.</a></b>; ARAUJO, A. C. P. . Eletroterapia em paciente com dor lombar. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">da Silva, V.B. ; Mello-Carpes, P.B. ; <b>da Silva, M.D.</b> . ACUPUNTURA NO ACUPONTO SP6 REDUZ COMPORTAMENTO TIPO DEPRESSIVO E AUMENTA EXPRESSÃO DE IBA1 NO HIPOCAMPO DE CAMUNDONGOS COM NEUROPATIA. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M.D.</a></b>; Cordova MM ; CABRERA, CELESTE HEISEKE ; CARGNIN, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S .</a> . Acupuntura realizada no ponto Sanyinjiao (SP6) reduz hipernocicepção mecânica e edema na pata, induzidas por carragenina, por diminuir migração de neutrófilos e TNF-alfa locais. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M.D.</a></b>; GUGINSKI, Giselle ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S.</a> . Redução da dor muscular através do tratamento com acupuntura no ponto SP6 em camundongos. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M.D.</a></b>; Guginski, G. ; Santos, A.R.S. . Ação antinociceptiva da acupuntura manual em acupontos distintos. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M.D.</a></b>. Efeito antinociceptivo e anti-inflamatório da acupuntura realizada no ponto SP6. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>; Guginski, G. ; CIDRAL, ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S.</a> . Anti Hipernociceptive effect of SP6 manual acupuncture in a mouse model of partial ligation of the sciatc nerve (PLSN).. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>; CIDRAL, ; Guginski, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S.</a> . Antinociceptive action mediated by Spleen 6 (SP6) manual acupuncture in mice: treatment parameters and specificity.. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>; Guginski, G. ; Deise P Montrucchio . Analysis of possible mechanism of antinociceptive activity mediated by Spleen 6 (SP6) acupoint in mice. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M.D.</a></b>; Cidral-Filho, F.J. ; Córdova, Marina Machado ; Santos, A.R.S. . Anti-inflammatory, antiedematogenic and antialodynic effect of SP-6 manual acupuncture in a mouse model of carrageenan-induced paw inflammation. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lima DAN ; Nascimento FP ; <b>SILVA, M.D.</b> ; Cidral-Filho, F.J. ; Moré, A.O.O. ; Santos, A.R.S. . Existe diferença entre o agulhamento uni ou bilateral na antinocicepção pela acupuntura? Estudo em modelo de nocicepção visceral em camundongos. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cidral-Filho, F.J. ; Erthal, V. ; <b>SILVA, M.D.</b> ; Moré, A.O.O. ; MING, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S.</a> . Low level light therapy (LLLT) stimulus to acupoint SP6 inhibits pain behavior in a mice model of acute nociception. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">da Silva, M. D.</a></b>; MAZZARDO, L. ; de Paula Werner, M. F. ; CIDRAL, ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S.</a> . synergic effect between acupuncture and lower dose of morphine after plantar incision surgery in mice.. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cidral-Filho, F.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9053828782958389" target="_blank">Werner, M.F.</a> ; <b>SILVA, M.D.</b> ; CÓRDOVA, MARINA M. ; Moré, A.O.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S.</a> . Antiallodynic effects of acupuncture after spinal nerve ligation-induced neuropathic pain in rats. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cidral-Filho, F.J. ; <b>SILVA, M.D.</b> ; Moré, A.O.O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S .</a> . Efeito antialodínico e antiedematogênico da acupuntura em monoartrite de joelho induzida por CFA em ratos. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cidral-Filho, F.J. ; GUGINSKI, Giselle ; <b>SILVA, M.D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S .</a> . Ação antialodínica da acupuntura no modelo de dor neuropática induzida pela constrição parcial do nervo ciático em camundongos. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Evidence for the antiinflamatory effect of Sanyinjiao (SP6) acupoint in a model of peritonitis in mice.. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Efeito do acuponto Sanyinjiao (Bp6) na imobilidade induzida pelo teste de suspensão da cauda em camundongos. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Analysis of possible mechanism of Antinociceptive activity mediated by spleen 6 (Sp6) acupoint in mice. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Evidência do efeito antinociceptivo e antiinflamatório do acuponto Kunlun (B60).. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Análise dos mecanismos de ação antinociceptivo do acuponto Kunlun (B60) em camundongos.. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Longhi-Balbinot, Daniela T. ; Lanznaster, Débora ; <b>SILVA, M.D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5339226046436113" target="_blank">Facundo, Valdir A.</a> ; Santos, A.R.S. . Antinociceptive activity of triterpene 3&#946;, 6&#946;, 16&#946;-trihydroxylup-20(29)-ene obtained from Combretum leprosum Mart. in mice. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Efeito Antinociceptivo do Acuponto Baço Pâncreas 6 (BP6) em camundongos.. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Efeitos do extrato etanólico de Melissa officinalis no modelo da esquiva inibitória.. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. EFEITO ANTINOCICEPTIVO DA DIACEREÍNA NA MONOARTRITE INDUZIDA POR CFA EM RATOS. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Uso da acupuntura na estética. 2007. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">SILVA, M. D.</a></b>. Drenagem linfática. 2007. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Manfredi V.; <b>da Silva, M. D.</b>.  Participação em banca de Juliana Mezzomo. Perfil hematológico, bioquímico e de estresse oxidativo em portadores da Hepatite C que fazem uso da terapia combinada com Interferon alfa peguilado e Ribavirina.. 2017. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Piccoli, JCE; Stopiglia, CDO; <b>da Silva, M. D.</b>.  Participação em banca de Vinícius Tejada Nunes. Associação entre marcadores inflamatórios e bioquímicos em portadores de hepatite viral C ao longo do tratamento combinado com interferon alfa peguilado e ribavirina. 2017. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Piccoli, JCE; Manfredi V.; <b>da Silva, M.D.</b>.  Participação em banca de Márcia Denise Pavanelo Cattelan. Perfil Bioquímico, hematológico e oxidativo e uso de agrotóxicos por pequenos produtores rurais de Santiago-RS. 2015.. 2017. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Manfredi V.; Piccoli, JCE; <b>da Silva, M. D.</b>.  Participação em banca de Ritiéle Pinto Coelho. Avaliação dos efeitos do extrato hidroalcoólico das folhas de erva-de-passarinho (tripodanthus acutifolius) em ratos wistar hipercolesterolêmicos. 2017. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MELO-CARPES, P. B.; IZQUIERDO, I.; <b>da Silva, M. D.</b>.  Participação em banca de Priscila Marques Sosa. Estratégias de neuroproteção em diferentes modelos de acidente vascular encefálico: avaliação do dano neuromotor e estresse oxidativo estriatal.. 2016. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">de Santana, J. M.; <b>da Silva, M.D.</b>; Camargo, E. A..  Participação em banca de THIAGO ABNER DOS SANTOS SOUSA. EFEITO DA MOBILIZAÇÃO ARTICULAR NA NOCICEPÇÃO E NA ATIVIDADE MOTORA EM MODELO ANIMAL DE DOR MUSCULOESQUELÉTICA INFLAMATÓRIA. 2015. Dissertação (Mestrado em Ciências da Saude) - Universidade Federal de Sergipe. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">SANTOS, A. R. S. ou SANTOS, A.R.</a>; Dalmarco, E. M.; Ferreira, J.; Kaster, M. P.; <b>da Silva, M. D.</b>.  Participação em banca de Igor dos Santos Coelho. Efeito terapêutico do galato de etila na neuropatia induzida pelo modelo de ligadura parcial do isquiático em camundongos.. 2014. Dissertação (Mestrado em Neurociências) - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Puntel, G.O.; SANTAMARIA, A.; Brum, M.C.S.; <b>da Silva, M.D.</b>; Balk, R.S..  Participação em banca de Andréia Caroline Fernandes Salgueiro. Plantas medicinais utilizadas por pessoas com Diabetes mellitus controlam o estresse oxidativo e apresentam baixa toxicidade: avaliação in silico, in vitro e in vivo da ?pata-de-vaca? e ?macela?. 2017. Tese (Doutorado em BIOQUÍMICA)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vargas, L.S.; Mello, EMB; <b>da Silva, M. D.</b>.  Participação em banca de Cláudia dos Santos Moreira. Popularizando a neurociências e sua relação com a educação no interior do Rio Grande do Sul. 2017. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Neurociências Aplicada à Educação)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roehrs, R.; <b>da Silva, M. D.</b>.  Participação em banca de Mário Sérgio Nunes Bica. Neurociências e as Múltiplas Representações: uma convergência para o Ensino de Ciências.. 2017. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Neurociências Aplicada à Educação)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MELO-CARPES, P. B.; <b>da Silva, M. D.</b>.  Participação em banca de Franciele Casaroto.Investigação da ocorrência de entendimentos equivocados de neurociência entre professores da Educação Básica de Uruguaiana/RS.
+							2017. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dias, D. V.; MELO-CARPES, P. B.; <b>da Silva, M.D.</b>.  Participação em banca de Christiane Manfio Christmann.Efeito da Centella Asiática associada ao exercício físico na regeneração nervosa periférica..
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">YAMADA, E.; Castro, AAM; <b>da Silva, M. D.</b>.  Participação em banca de Adriel Brandão e Vanessa Bertotti da Silva.Efeitos do Light Emitting Diode (LED) na melhora da dor, funcionalidade e qualidade de vida de pacientes com osteoartrite de joelho.
+							2016. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vargas F; <b>da Silva, M. D.</b>.  Participação em banca de Débora Carafani e Raquel Cristina Braun da Silva.Estudo comparativo entre eletrolipólise e endermoterapia no tratamento do fibro edema geloide em mulheres jovens..
+							2015. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9263042062534666" target="_blank">Santos, A. R. S .</a>; <b>SILVA, M.D.</b>; DUARTE, E. C. W..  Participação em banca de Celeste Heisecke Cabrera.Efeito anti-inflamatório do ácido arjunólico extraído de Combretum leprosum Mart. (Compretaceae) em camundongos..
+							2012. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SILVA, M.D.</b>; ALMEIDA, G. M. F..  Participação em banca de Tatiane de Moraes.A atuação do fisioterapeuta em academia de ginástica de Lages/SC.
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário FACVEST. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SILVA, M.D.</b>; ALMEIDA, G. M. F..  Participação em banca de Chalise Costa dos Passos.A importância da intervenção fisioterapêutica na Estratégia de Saúde da Família.
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário FACVEST. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SILVA, M.D.</b>; ALMEIDA, G. M. F..  Participação em banca de Felipe Gamba Costa.O fisioterapeuta na Estratégia de Saúde da Família.
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário FACVEST. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SILVA, M.D.</b>; ALMEIDA, G. M. F..  Participação em banca de Kleyton Ferreira da Silva.Estudo de caso sobre a abordagem da fisioterapia no tratamento da disfunção temporomandibular.
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário FACVEST. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SILVA, M.D.</b>; ALMEIDA, G. M. F..  Participação em banca de Camila Oliveira.Prevalência de dor lombar em fisioterapeutas da cidade de Lages/SC..
+							2011. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário FACVEST. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SILVA, M.D.</b>; ALMEIDA, G. M. F..  Participação em banca de Fernanda Duarte Borges de Oliveira.Sinais e sintomas relacionados à dor orofacial em professores Universitários.
+							2011. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Centro Universitário FACVEST. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andrade, J.C.T.; Puntel, G.O.; <b>SILVA, M. D.</b>. Comissão examinadora do concurso público para professor do magistério superior Edital 230/2015.
+							2015. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Souza, J.; Saccol, M. F.; <b>da Silva, M.D.</b>. Processo Seletivo Simplificado para Professor Substituto.
+							2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Souza, J.; Muller, D.V.K.; <b>da Silva, M.D.</b>. Processo Seletivo Simplificado para Professor Substituto, Edital 260/2014.
+							2014. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">15° World Congress on Pain. IL-10 cytokine released by M2 macrophages are crucial in analgesic and anti-inflammatory actions of acupuncture in an inflammatory muscle pain model. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio Catarinense de Neurociências.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Congresso Brasileiro de Fisioterapia. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º Congresso Brasileiro de Dor. Antinociceptive action mediated by Spleen 6 (SP6) manual acupuncture in mice: treatment parameters and specificity.. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV Reunião Anual da Federação de Sociedades de Biologia Experimental - FESBE. Anti Hipernociceptive effect of SP6 manual acupuncture in a mouse model of partial ligation of the sciatc nerve (PLSN).. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">41°Congresso Brasileiro de Farmacologia e Terapeutica Experimental. synergic effect between acupuncture and lower dose of morphine after plantar incision surgery in mice.. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">40° Congresso Brasileiro de Farmacologia e Terapêutica Experimental. Analysis of possible mechanism of antinociceptive activity mediated by spleen 6 (Sp6) acupoint in mice.. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I IBRO/LARC Congress of Neurosciences of Latin America, the Caribbean and Iberian Peninsula. Evidence for the antiinflamatory effect of sanyinjiao (SP6) acupoint in a model of peritonitis in mice.. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">38º Congresso da Sociedade Brasileira de Farmacologia e Terapêutica Experimental. EFEITO ANTINOCICEPTIVO DA DIACEREÍNA NA MONOARTRITE INDUZIDA POR CFA EM RATOS. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Jornada Gaucha de Fisioterapia IPA. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Jornada Academica de Fisioterapia.
+							2002. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Semana Acadêmica de Fisioterapia. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9224466302319645" target="_blank">da Silva, M. D.</a></b>. SIEPE ? Salão Internacional de Ensino, Pesquisa e Extensão. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2431890246253533'><img src='images/curriculo/logolattes.gif' /></a>Daniel Tassinari Felber. Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina ácida em ratos.
+						Início: 2017.
+						Dissertação (Mestrado em Programa Multicêntrico de Pós-Graduação em Ciências Fisiológicas)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4079663494667647'><img src='images/curriculo/logolattes.gif' /></a>Rafael Tamborena Malheiros. Investigação de diferentes dietas hipercalóricas sobre o perfil nociceptivo de ratos com obesidade.
+						Início: 2017.
+						Dissertação (Mestrado em Programa Multicêntrico de Pós-Graduação em Ciências Fisiológicas)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7168199942557313'><img src='images/curriculo/logolattes.gif' /></a>Caroline Cadore Ramires. Efeito da acupuntura sobre a dor neuropática induzida em camundongos..
+						Início: 2017.
+						Dissertação (Mestrado em Programa Multicêntrico de Pós-Graduação em Ciências Fisiológicas)  - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eloá Ferreira Yamada. Laser de Baixa Potência e Sida Tuberculata na Osteoartrite de Joelho.
+						Início: 2017. Tese (Doutorado em BIOQUÍMICA)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliana Campodonico Madeira. Redução da dor inflamatória através do tratamento com Fonoforese usando gel enriquecido com Ilex Paraguariensis em ratos..
+							2017.
+						
+					Dissertação  (Mestrado em BIOQUÍMICA)  - Universidade Federal do Pampa, . Orientador: Morgana Duarte da Silva. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Priscila Veridiana de Barros Silveira Resena.
+							Impacto das intervenções sensório-motoras no desenvolvimento infantil.
+							2017.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Neurociências Aplicada à Educação)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camila Lucas Pntel e Luísa Carvalho Olin.
+							LASER DE BAIXA POTÊNCIA REDUZ A NOCICEPÇÃO E O EDEMA DE JOELHO EM UM MODELO DE OSTEOARTRITE EM RATOS.
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luana Viveiros.
+							Efeito da Terapia Combinada Associada a Fonoforese e a Drenagem Linfática Manual na redução da Lipodistrofia localizada no abdômen de mulheres jovens..
+							2017.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Joseane Sasso e Bruna Ferrão.
+							Eletrolipólise Associada à Drenagem Linfática Reduz Lipodistrofia Localizada no Abdômen de Mulheres Jovens..
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jeanine Rolin..
+							Tratamento com Fonoforese e Corrente Russa Melhora Aspecto do Fibroedema Gelóide em Mulheres Jovens..
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Antonio Carlos Pereira de Araújo..
+							Efeitos da Corrente Interferencial associada à Terapia Manual em Indivíduos com Dor Lombar Crônica..
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cristiane Santos Gonçalvez.
+							Uso da Terapia Combinada na Redução da Lipodistrofia Localizada no Abdômen de Mulheres Jovens..
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Muller.
+							Associação de exercício de marcha e equilíbrio em pacientes com Osteoartrose de joelho..
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bernardo Echeverria e Felipe Alves Jachsttet.
+							Uso do Laser e LED em pacientes com Osteoartrose de joelho..
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Celeste Heisecke Cabrera.
+							Efeito anti-inflamatório do ácido arjunólico extraído de Combretum leprosum Mart. (Compretaceae) em camundongos..
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Biológicas)  - Universidade Federal de Santa Catarina. Orientador: Morgana Duarte da Silva.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Membro do Comissão de Ética no Uso de Animais (CEUA) - Unipampa - 2018</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 27/06/2018 &agrave;s 19:09:39</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=9224466302319645" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

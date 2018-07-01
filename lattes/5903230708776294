@@ -1,0 +1,2496 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Daniel Henrique Roos)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=5903230708776294" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4710781H2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4710781H2"><div class="infpessoa">
+<h2 class="nome">Daniel Henrique Roos</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/5903230708776294</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 21/06/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ciencias Biologicas pela Universidade Federal de Santa Maria (2007), mestrado em Ciências Biológicas (Bioquímica Toxicológica) pela Universidade Federal de Santa Maria (2009) e doutorado em Ciências Biológicas (Bioquímica Toxicológica) pela Universidade Federal de Santa Maria (2011). Atualmente é professor adjunto 1 da Universidade Federal do Pampa. Tem experiência na área de Bioquímica, Neurologia, atuando principalmente nos seguintes temas: methilmercúrio e Toxicidade do Urânio.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Daniel Henrique Roos<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ROOS, Daniel Henrique;ROSS, Daniel Henrique;ROOS, DANIEL H.;H. ROOS, DANIEL;ROOS, D. H.;D.H. Roos;Roos, D.H.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa. <br class="clear" />Avenida Roraima<br class="clear" />Camobi<br class="clear" />97043100 - Santa Maria, RS - Brasil<br class="clear" />Telefone: (55) 2208140<br class="clear" />Ramal: 8140<br class="clear" />Fax: (55) 2208031<br class="clear" />URL da Homepage: <a target="blank" href="http://www.ufsm.br">http://www.ufsm.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciências Biológicas (Bioquímica Toxicológica)<span class="ajaxCAPES" data-param="&codigoCurso=42002010023P9&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Transporte e Toxicologia do Metilmercúrio, Ano de obtenção: 2011. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5901511067144019'><img src='images/curriculo/logolattes.gif' /></a>Nilda Berenice Vargas Barbosa. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciências Biológicas (Bioquímica Toxicológica)<span class="ajaxCAPES" data-param="&codigoCurso=42002010023P9&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: O Complexo Metilmercúrio-Cisteína Altera o Acumulo de Mercúrio em Diferentes Tecidos de Camundongo,Ano de Obtenção: 2009.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9128090974948413'><img src='images/curriculo/logolattes.gif' /></a>Marilise Escobar Burger.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Grande área: Ciências Biológicas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciencias Biologicas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Biologia.  (Carga horária: 500h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto Nível 1, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Colégio Estadual Coronel Pilar, C.E.C.P., Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: Estagiário, Carga horária: 10</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Escola Estadual de Encino Fundamental Aracy Barreto Sacchis, E.M.E.F.A.B.S., Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiario, Enquadramento Funcional: Estagiário, Carga horária: 10</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_AVALIA&Ccedil;&Atilde;O TOXICOL&Oacute;GICA DO UR&Acirc;NIO EM Art&ecirc;mia salina: ENVOLVIMENTO DO ESTRESSE OXIDATIVO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AVALIAÇÃO TOXICOLÓGICA DO URÂNIO EM Artêmia salina: ENVOLVIMENTO DO ESTRESSE OXIDATIVO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Urânio (U) é um metal pesado presente naturalmente no meio ambiente, apresenta densidade cerca de
+duas vezes maior do que a do chumbo. Esse metal tem na sua composição uma mistura de três isótopos 238U,
+235U e 234U. Sendo o mais abundante o 238U com (99,27%), e o menos abundante com 0,054% o 234U do total
+de U. Em termos de radioatividade o mais radioativo é o 234U que apresenta cerca de 50% do total de
+radioatividade de seus isótopos. O Urânio Depletado (UD) é uma pequena fração remanescente encontrada
+após a remoção da fração enriquecida de U. O (UD) tem cerca de 60% da radioatividade do urânio natural.
+Além disso, seu custo é relativamente baixo o que torna-o atraente para fins militares. O uso militar resulta a
+exposições ao UD, através da ingestão, respiração e contaminação das feridas. A toxicidade e a acumulação
+de U em mamíferos é principalmente no rim. O U também pode causar danos nos pulmões e sistema
+nervoso, no entanto, os mecanismos envolvidos na absorção, distribuição e acumulação de U ainda
+permanecem desconhecidos. A contaminação ambiental pelo U, se dá principalmente por origem
+antropogênica, sendo a mineração, os desastres em reatores nucleares e testes de bombas nucleares os
+principais contaminantes. Organismos aquáticos filtradores e/ou bioacumuladores são essenciais para um
+entendimento de mecanismos de toxicidade, acumulação e transferência de metais na cadeia alimentar. A
+Artemia salina (AS) é responsável por filtração, bioacumulação e transferência de vários metais pesados
+para várias espécies de peixes e crustáceos. Considerando o exposto, o objetivo deste projeto será avaliar a
+toxicidade de dois sais de U, acetato de urânio (AU) e nitrato de urânio (NU), bem como, avaliar a atividade
+de marcadores de estresse oxidativo em AS expostas a diferentes concentrações deste metal. Assim, este
+projeto busca acrescentar à literatura resultados para um melhor entendimento a cerca da toxicologia deste
+metal. E ainda, abrir possibilidades para o tratamento de indivíduos expostos ao U.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Daniel Henrique Roos - Coordenador / Robson L Puntel - Integrante / Daiana Avila da Silva - Integrante / Simoni Pinton - Integrante / Lara PEDROSO - Integrante.<br class="clear" /></div>
+</div><a name='PP_Modula&ccedil;&atilde;o da Capta&ccedil;&atilde;o de Merc&uacute;rio por Metionina em Modelo Animal Alternativo com Art&ecirc;mia salina: Poss&iacute;veis Mecanismos Toxicol&oacute;gicos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modulação da Captação de Mercúrio por Metionina em Modelo Animal Alternativo com Artêmia salina: Possíveis Mecanismos Toxicológicos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O metilmercúrio (MeHg) é um contaminante ambiental altamente tóxico que pode ser bioacumulado
+através dos níveis tróficos, podendo chegar a altas concentrações em animais topo de cadeia, incluindo os
+seres humanos. Em decorrência disso o MeHg pode induzir severas disfunções celulares em vários órgãos,
+especialmente no sistema nervoso central de diversas espécies de animais. No entanto, os mecanismos
+exatos pelos quais o mercúrio é captado e bioacumunado nos microorganismos, ainda não se encontram
+totalmente elucidados. Em mamíferos, sabe-se que formas conjugadas de MeHg, como o complexo MeHgCys,
+circulam facilmente pela corrente sanguínea e em alguns casos permitem uma melhor absorção e
+captação do mercúrio pelos tecidos via transportador de aminoácidos, devido a similaridade estrutural com
+a metionina (Met). Porém não existem relatos na literatura de mecanismos de acúmulo de mercúrio em
+microrganismos filtradores como, por exemplo, em Artemia salina (As). As, é um micro crustáceo
+amplamente utilizado em ensaios de toxicologia por se tratar de um modelo barato e de fácil manipulação, e
+ainda por ser a base da cadeia alimentar de várias espécies aquáticas. Desse modo, o trabalho proposto neste
+projeto visa elucidar e comparar os possíveis mecanismos moleculares envolvidos na captação e no
+acúmulo de mercúrio em Artemia salina expostas a forma livre de MeHg+
+ou a forma complexada (MeHgCys),
+bem como, relacionar estes aspectos com mecanismos de toxicidade causados por ambas as formas de
+MeHg. Para esses propósitos, utilizaremos Artemia salina, que sob condições específicas, serão pré-tratadas
+com Met e então expostas ao MeHg ou complexo MeHg-Cys. Após o tratamento, a quantificação de
+mercúrio, variáveis bioquímicas relacionadas com a viabilidade/morfologia, estresse oxidativo, dano
+mitocondrial e o envolvimento do sistema de transporte de aminoácidos neutros do tipo L (LAT) serão
+analisados. Salienta-se que a elucidação de mecanismos moleculares envolvidos na bioacumulação de
+mercúrio, que é responsável pela sua transferência nos níveis tróficos, bem como, a descoberta de agentes
+capazes de prevenir ou reduzir sua toxicidade, certamente contribuirão para a efetividade de tratamentos em
+casos de contaminação ambiental e intoxicações humanas decorrentes da exposição ao MeHg.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4) . <br class="clear" /><br class="clear" />Integrantes: Daniel Henrique Roos - Coordenador / Robson L Puntel - Integrante / Daiana Avila da Silva - Integrante / PINTON, SIMONE - Integrante / Marina Guedes - Integrante / Mauricio TARRAGO - Integrante / Lara PEDROSO - Integrante / Alexandre WOLFF - Integrante.<br class="clear" /></div>
+</div><a name='PP_Ac&uacute;mulo e Mecanismos de Toxicidade de Agentes Contaminantes em Modelos Alternativos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Acúmulo e Mecanismos de Toxicidade de Agentes Contaminantes em Modelos Alternativos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A ecotoxicologia aquática é um dos principais ramos da toxicologia, pois este ecossistema constitui um dos
+principais receptáculos de contaminantes, sejam eles lançados diretamente nos corpos d?água por meio das
+descargas de efluentes, emitidos no ar ou depositados nos solos. Os principais contaminantes deste
+ecossistema são de origem antropogênica tais como as estações de tratamento de efluentes industriais, redes
+de esgoto doméstico, derramamentos acidentais, mineração e pesticidas do solo. Estes contaminantes são
+facilmente transportados e inseridos no ambiente aquático. De fato, a exposição a contaminantes
+ambientais, entre os quais pesticidas e metais, consiste em um importante problema de saúde pública, tendo
+em vista que a exposição a esses agentes têm sido relacionados ao desenvolvimento de diversas doenças,
+este estudo visa à utilização de dois modelos animais simples. Um modelo utilizando a Artemia salina, um
+micro crustáceo amplamente utilizado em ensaios de toxicologia por ser a base da cadeia alimentar de
+várias espécies aquáticas. Por se tratar de um modelo barato e de fácil manipulação, propomos realizar
+testes de toxicidade aguda, comportamento locomotor, análise morfológica, determinação de estresse
+oxidativo e atividade de enzimas sensíveis a agentes intoxicantes, bem como determinação de níveis de
+metais bioacumulados. O outro modelo utilizará a Drosophila melanogaster, este invertebrado tem sido
+utilizado como uma ferramenta útil em toxicologia experimental devido ao alto grau de homologia entre os
+genomas destes com o de humanos. Assim, a presente proposta pretende estudar os efeitos farmacológicos
+e/ou toxicológicos, resultante da exposição a diferentes agentes tóxicos, bem como a utilização de
+diferentes classes de agentes antioxidantes. Além disso, este projeto propõe investigar os possíveis
+mecanismos envolvidos em tais efeitos. Ainda, este estudo visa ampliar as colaborações já existentes com
+outras universidades, a consolidação da pesquisa - pós-graduação e inovação na Unipampa, gerar
+manuscritos científicos e a formação de recursos humanos com qualidade nas áreas das Ciências
+Biológicas.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Daniel Henrique Roos - Coordenador / Robson L Puntel - Integrante / Daiana Avila da Silva - Integrante / PINTON, SIMONE - Integrante / Marina Guedes - Integrante / Lara PEDROSO - Integrante / Riciele Moreira de Moraes - Integrante / Fernanda Dobler dos Santos - Integrante / Leonardo Quoos Luzero - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Biomedicine and Biotechnology (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Acupuncture and Meridian Studies</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Neuroscience Letters (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: BioMed Research International</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: PeerJ</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Oxidative Medicine and Cellular Longevity</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: TOXICOLOGY</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Bioquímica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science</div><div class="trab">Total de trabalhos:25</div><div class="cita">Total de citações:453</div><div class="fator">Fator H:14</div><div class="detalhes">Roos DH; Ross DH&nbsp;&nbsp;Data:&nbsp;16/02/2016</div></div></div></div></div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:26</div><div class="cita">Total de citações:463</div><div class="detalhes">Roos D. H.; Ross D.H&nbsp;&nbsp;Data:&nbsp;02/06/2017</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KAMDEM, J. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/0001-3765201620150534" target="_blank"></a>KAMDEM, J. P. ; ABOLAJI, A. ; <b>Roos, D.H.</b> ; CALABRO, L. ; BARBOSA, N. V. ; SOUZA, D. O. ; ROCHA, J. B. T. . Scientific Performance of Brazilian Researchers in Pharmacology with grants from CNPq: A comparative study within the Brazilian categories. Anais da Academia Brasileira de Ciências (Impresso)<sup><img id='00013765_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00013765' /></sup>, v. 83, p. 1735-1742, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/0001-3765201620150534&issn=00013765&volume=83&issue=&paginaInicial=1735&titulo=Scientific Performance of Brazilian Researchers in Pharmacology with grants from CNPq: A comparative study within the Brazilian categories&sequencial=1&nomePeriodico=Anais da Academia Brasileira de Ciências (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SALGUEIRO, ANDRÉIA C.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jep.2016.08.048" target="_blank"></a>SALGUEIRO, ANDRÉIA C.F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, Vanderlei</a> ; DA ROSA, HEMERSON S. ; COSTA, MÁRCIO T. ; BOLIGON, ALINE A. ; PAULA, FÁVERO R. ; <b>ROOS, DANIEL H.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">Puntel, Gustavo O.</a> . In vitro and in silico antioxidant and toxicological activities of Achyrocline satureioides. JOURNAL OF ETHNOPHARMACOLOGY<sup><img id='03788741_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03788741' /></sup>, v. 194, p. 6 - 14, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jep.2016.08.048&issn=03788741&volume=194&issue=&paginaInicial=6 - 14&titulo=In vitro and in silico antioxidant and toxicological activities of Achyrocline satureioides&sequencial=2&nomePeriodico=JOURNAL OF ETHNOPHARMACOLOGY" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PORTELA, JOSÉ LUIZ</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/jsfa.8001" target="_blank"></a>PORTELA, JOSÉ LUIZ ; SOARES, DEIVIDI ; ROSA, HEMERSON ; <b>ROOS, Daniel Henrique</b> ; PINTON, SIMONE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4355211015887363" target="_blank">Ávila, Daiana Silva</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> . <i>Ilex paraguariensis</i>       crude extract acts on protection and reversion from damage induced by t-butyl hydroperoxide in human erythrocytes: a comparative study with isolated caffeic and/or chlorogenic acids. JOURNAL OF THE SCIENCE OF FOOD AND AGRICULTURE<sup><img id='00225142_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00225142' /></sup>, v. 97, p. 2007-2014, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/jsfa.8001&issn=00225142&volume=97&issue=&paginaInicial=2007&titulo=<i>Ilex paraguariensis</i>       crude extract acts on protection and reversion from damage induced by t-butyl hydroperoxide in human erythrocytes: a comparative study with isolated caffeic and/or chlorogenic acids&sequencial=3&nomePeriodico=JOURNAL OF THE SCIENCE OF FOOD AND AGRICULTURE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>L. PUNTEL, ROBSON</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.2174/1385272819666150724234948" target="_blank"></a>L. PUNTEL, ROBSON ; S. AVILA, DAIANA ; <b>H. ROOS, DANIEL</b> ; PINTON, SIMONE . Mitochondrial Effects of Organoselenium and Organotellurium Compounds. CURRENT ORGANIC CHEMISTRY<sup><img id='13852728_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13852728' /></sup>, v. 20, p. 198-210, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.2174/1385272819666150724234948&issn=13852728&volume=20&issue=&paginaInicial=198&titulo=Mitochondrial Effects of Organoselenium and Organotellurium Compounds&sequencial=4&nomePeriodico=CURRENT ORGANIC CHEMISTRY" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KLIMACZEWSKI, CLÁUDIA VARGAS</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.indcrop.2013.11.051" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4037807722919397" target="_blank">KLIMACZEWSKI, CLÁUDIA VARGAS</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6812072552819682" target="_blank">SARAIVA, ROGÉRIO DE AQUINO</a> ; <b>ROOS, Daniel Henrique</b> ; BOLIGON, ALINE ; ATHAYDE, MARGARETH LINDE ; KAMDEM, JEAN PAUL ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, NILDA VARGAS</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">Rocha, João Batista Teixeira</a> . Antioxidant activity of Peumus boldus extract and alkaloid boldine against damage induced by Fe(II)-citrate in rat liver mitochondria in vitro. Industrial Crops and Products (Print)<sup><img id='09266690_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09266690' /></sup>, v. 54, p. 240-247, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.indcrop.2013.11.051&issn=09266690&volume=54&issue=&paginaInicial=240&titulo=Antioxidant activity of Peumus boldus extract and alkaloid boldine against damage induced by Fe(II)-citrate in rat liver mitochondria in vitro&sequencial=5&nomePeriodico=Industrial Crops and Products (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LEAL, MARTA LIZANDRA DO RÊGO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.exppara.2014.06.005" target="_blank"></a>LEAL, MARTA LIZANDRA DO RÊGO ; PIVOTO, FELIPE LAMBERTI ; FAUSTO, GUILHERME COSTA ; AIRES, ADELINA RODRIGUES ; GRANDO, THIRSSA HELENA ; <b>ROOS, Daniel Henrique</b> ; SUDATI, JÉSSIE HAIGERT ; WAGNER, CAROLINE ; COSTA, MÁRCIO MACHADO ; MOLENTO, MARCELO BELTRÃO ; ROCHA, JOÃO BATISTA TEIXEIRA DA . Copper and Selenium: auxiliary measure to control infection by Haemonchus contortus in lambs. Experimental Parasitology<sup><img id='00144894_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00144894' /></sup>, v. 144, p. 39-43, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.exppara.2014.06.005&issn=00144894&volume=144&issue=&paginaInicial=39&titulo=Copper and Selenium: auxiliary measure to control infection by Haemonchus contortus in lambs&sequencial=6&nomePeriodico=Experimental Parasitology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PUNTEL, R. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.tiv.2012.10.011" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0837770007946446" target="_blank">SEEGER, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, J. B.</a> . Mitochondrial electron transfer chain complexes inhibition by different organochalcogens. Toxicology in Vitro<sup><img id='08872333_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08872333' /></sup>, v. 27, p. 59-70, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.tiv.2012.10.011&issn=08872333&volume=27&issue=&paginaInicial=59&titulo=Mitochondrial electron transfer chain complexes inhibition by different organochalcogens&sequencial=7&nomePeriodico=Toxicology in Vitro" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROOS, Daniel Henrique</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11192-013-1017-5" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; de Jesus S L ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; VARGAS, N. B. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, J. B.</a> . Brazilian scientific production in areas of biological sciences: a comparative study on the modalities of full doctorate in Brazil or abroad. Scientometrics (Print)<sup><img id='01389130_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01389130' /></sup>, v. 98, p. 415-427, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s11192-013-1017-5&issn=01389130&volume=98&issue=&paginaInicial=415&titulo=Brazilian scientific production in areas of biological sciences: a comparative study on the modalities of full doctorate in Brazil or abroad&sequencial=8&nomePeriodico=Scientometrics (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PUNTEL, Robson Luiz</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s12640-012-9365-0" target="_blank"></a>PUNTEL, Robson Luiz ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0837770007946446" target="_blank">SEEGER, RODRIGO LOPES</a> ; ASCHNER, Michael ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">Rocha, João Batista Teixeira</a> . Organochalcogens Inhibit Mitochondrial Complexes I and II in Rat Brain: Possible Implications for Neurotoxicity. Neurotoxicity Research<sup><img id='10298428_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10298428' /></sup>, v. 24, p. 109-118, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s12640-012-9365-0&issn=10298428&volume=24&issue=&paginaInicial=109&titulo=Organochalcogens Inhibit Mitochondrial Complexes I and II in Rat Brain: Possible Implications for Neurotoxicity&sequencial=9&nomePeriodico=Neurotoxicity Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Martins, Eduarda N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.brainresbull.2011.10.003" target="_blank"></a>Martins, Eduarda N. ; Pessano, Naira T.C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9869228573364444" target="_blank">Leal, Luiza</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">Roos, Daniel H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, Vanderlei</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0319301096075015" target="_blank">Puntel, Gustavo O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">Rocha, João Batista Teixeira</a> ; ASCHNER, Michael ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4355211015887363" target="_blank">Ávila, Daiana Silva</a> ; PUNTEL, Robson Luiz ; <b>ROOS, Daniel Henrique</b> . Protective effect of Melissa officinalis aqueous extract against Mn-induced oxidative stress in chronically exposed mice. Brain Research Bulletin<sup><img id='03619230_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03619230' /></sup>, v. 87, p. 74-79, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.brainresbull.2011.10.003&issn=03619230&volume=87&issue=&paginaInicial=74&titulo=Protective effect of Melissa officinalis aqueous extract against Mn-induced oxidative stress in chronically exposed mice&sequencial=10&nomePeriodico=Brain Research Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Kamdem JP</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1497547136431166" target="_blank">Kamdem JP</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1671299535277981" target="_blank">Stefanello ST</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0251292056173520" target="_blank">Boligon AA</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4004565241849091" target="_blank">WAGNER, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6651240261442847" target="_blank">Kade IJ</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a> ; Preste AS ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9281289823464657" target="_blank">Waczuk EP</a> ; Appel AS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7866111734540735" target="_blank">Athayde ML</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . In vitro antioxidant activity of stem bark of Trichilia catigua. ACTA PHARMACEUT<sup><img id='13300075_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13300075' /></sup>, v. 62, p. 371-382, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13300075&volume=62&issue=&paginaInicial=371&titulo=In vitro antioxidant activity of stem bark of Trichilia catigua&sequencial=11&nomePeriodico=ACTA PHARMACEUT" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROOS, Daniel Henrique</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1155/2012/248764" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0837770007946446" target="_blank">SEEGER, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, R. L.</a> ; VARGAS, N. B. B. . Role of calcium and mitochondria in MeHg-mediated cytotoxicity. Journal of Biomedicine and Biotechnology (Print)<sup><img id='11107243_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='11107243' /></sup>, v. 2012, p. 248764, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1155/2012/248764&issn=11107243&volume=2012&issue=&paginaInicial=248764&titulo=Role of calcium and mitochondria in MeHg-mediated cytotoxicity&sequencial=12&nomePeriodico=Journal of Biomedicine and Biotechnology (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROOS, Daniel Henrique;ROSS, Daniel Henrique;ROOS, DANIEL H.;H. ROOS, DANIEL;ROOS, D. H.;D.H. Roos;Roos, D.H.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.taap.2011.01.010" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9995118835810649" target="_blank">Farina M</a> ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9817093263802769" target="_blank">Bohrer D</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> . Modulation of Methylmercury Uptake by Methionine: Prevention of Mitochondrial Dysfunction in Rat Liver Slices by a Mimicry Mechanism. Toxicology and Applied Pharmacology<sup><img id='0041008X_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0041008X' /></sup>, v. 252, p. 28-35, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.taap.2011.01.010&issn=0041008X&volume=252&issue=&paginaInicial=28&titulo=Modulation of Methylmercury Uptake by Methionine: Prevention of Mitochondrial Dysfunction in Rat Liver Slices by a Mimicry Mechanism&sequencial=13&nomePeriodico=Toxicology and Applied Pharmacology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Omotade Oloyede</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>Omotade Oloyede ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Studies on the antioxidant potential of extracts from unripe fruit of Carica papaya. Journal of Life Sciences<sup><img id='19347405_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19347405' /></sup>, v. 4, p. 23-27, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19347405&volume=4&issue=&paginaInicial=23-27&titulo=Studies on the antioxidant potential of extracts from unripe fruit of Carica papaya&sequencial=14&nomePeriodico=Journal of Life Sciences" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Omotade Oloyede</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>Omotade Oloyede ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1680065573338339" target="_blank">FRANCO, J.</a> ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">Rocha, João Batista Teixeira</a> ; ATHAYDE, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0251292056173520" target="_blank">BOLIGON, A.</a> . ANTIOXIDATIVE PROPERTIES OF ETHYL ACETATE FRACTION OF UNRIPE PULP OF CARICA PAPAYA IN MICE. The Journal of Microbiology, Biotechnology and Food Sciences<sup><img id='13385178_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13385178' /></sup>, v. 1, p. 409-425, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13385178&volume=1&issue=&paginaInicial=409&titulo=ANTIOXIDATIVE PROPERTIES OF ETHYL ACETATE FRACTION OF UNRIPE PULP OF CARICA PAPAYA IN MICE&sequencial=15&nomePeriodico=The Journal of Microbiology, Biotechnology and Food Sciences" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>WAGNER, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00204-009-0482-3" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4004565241849091" target="_blank">WAGNER, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6195472134708357" target="_blank">VARGAS, A. P.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3554994385525333" target="_blank">MOREL, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9995118835810649" target="_blank">Farina M</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Comparative study of quercetin and its two glycoside derivatives quercitrin and rutin against methylmercury (MeHg)-induced ROS production in rat brain slices. Archives of Toxicology<sup><img id='03405761_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03405761' /></sup>, v. 84, p. 89-97, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00204-009-0482-3&issn=03405761&volume=84&issue=&paginaInicial=89&titulo=Comparative study of quercetin and its two glycoside derivatives quercitrin and rutin against methylmercury (MeHg)-induced ROS production in rat brain slices&sequencial=16&nomePeriodico=Archives of Toxicology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROOS, Daniel Henrique;ROSS, Daniel Henrique;ROOS, DANIEL H.;H. ROOS, DANIEL;ROOS, D. H.;D.H. Roos;Roos, D.H.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1742-7843.2010.00577.x" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4211206301954369" target="_blank">Lugokenski T H</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3668846018750020" target="_blank">Ineu P R</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9817093263802769" target="_blank">Bohrer D</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9128090974948413" target="_blank">BURGER, M. E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1680065573338339" target="_blank">Franco J L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9995118835810649" target="_blank">Farina M</a> ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> . Complex Methylmercury-Cysteine Alters Mercury Accumulation in Different Tissues of Mice. Basic & Clinical Pharmacology & Toxicology (Print)<sup><img id='17427835_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17427835' /></sup>, v. 107, p. 789-792, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1742-7843.2010.00577.x&issn=17427835&volume=107&issue=&paginaInicial=789&titulo=Complex Methylmercury-Cysteine Alters Mercury Accumulation in Different Tissues of Mice&sequencial=17&nomePeriodico=Basic & Clinical Pharmacology & Toxicology (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PUNTEL, Robson L</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/toxsci/kfq185" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; Galina A ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Mitochondrial Dysfunction Induced by Different Organochalchogens is Mediated by Thiols Oxidation and is not Dependent of the Classical Mitochondrial Permeability Transition Pore Opening.. Toxicological Sciences (Print)<sup><img id='10966080_18' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10966080' /></sup>, v. 117, p. 133-143, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/toxsci/kfq185&issn=10966080&volume=117&issue=&paginaInicial=133&titulo=Mitochondrial Dysfunction Induced by Different Organochalchogens is Mediated by Thiols Oxidation and is not Dependent of the Classical Mitochondrial Permeability Transition Pore Opening.&sequencial=18&nomePeriodico=Toxicological Sciences (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Leal M L R</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11259-010-9426-x" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6859797230596402" target="_blank">Leal M L R</a> ; Camargo E V ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; Moleto M B ; Lopes S T A ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Effect of Selenium and Vitamin E on Oxidative Stress in Lambs Experimentally Infected With Haemonchus contortus. Veterinary research communications (Dordrecht. Online)<sup><img id='15737446_19' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15737446' /></sup>, v. 34, p. 549-555, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s11259-010-9426-x&issn=15737446&volume=34&issue=&paginaInicial=549&titulo=Effect of Selenium and Vitamin E on Oxidative Stress in Lambs Experimentally Infected With Haemonchus contortus&sequencial=19&nomePeriodico=Veterinary research communications (Dordrecht. Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROOS, Daniel Henrique;ROSS, Daniel Henrique;ROOS, DANIEL H.;H. ROOS, DANIEL;ROOS, D. H.;D.H. Roos;Roos, D.H.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.tiv.2008.12.020" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0409790717340977" target="_blank">SANTOS, Matheus M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9995118835810649" target="_blank">Farina M</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; ASCHNER M. ; BURGUER, Marilise e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA N</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Guanosine and Syntetic Organoselenium Componds Modulate Methylmercury-Induced Oxidative Stress in Rat Brain Cortical Slices: Involviment of Glutamatergic System. Toxicology in Vitro<sup><img id='08872333_20' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08872333' /></sup>, v. 23, p. 302/307, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.tiv.2008.12.020&issn=08872333&volume=23&issue=&paginaInicial=302/307&titulo=Guanosine and Syntetic Organoselenium Componds Modulate Methylmercury-Induced Oxidative Stress in Rat Brain Cortical Slices: Involviment of Glutamatergic System&sequencial=20&nomePeriodico=Toxicology in Vitro" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Teixeira M. A</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.pbb.2008.11.015" target="_blank"></a>Teixeira M. A ; Reckziegel P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3904070716335138" target="_blank">Müller L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9128090974948413" target="_blank">BURGER, M. E.</a> . Intense exercise potentiates oxidative stress in striatum of reserpine-treated animals. Pharmacology, Biochemistry and Behavior<sup><img id='00913057_21' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00913057' /></sup>, v. 92, p. 231-235, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.pbb.2008.11.015&issn=00913057&volume=92&issue=&paginaInicial=231&titulo=Intense exercise potentiates oxidative stress in striatum of reserpine-treated animals&sequencial=21&nomePeriodico=Pharmacology, Biochemistry and Behavior" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BRAGA, Antonio L</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1039/b814990a" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">BRAGA, Antonio L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7953848822612528" target="_blank">Alberto E. Eduardo</a> ; SOARES, C. Letiere ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8634309450152107" target="_blank">Sudati H. Jessie</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> . Synthesis of telluroamino acid derivatives with remarkable GPx like activity. Organic & Biomolecular Chemistry<sup><img id='14770520_22' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14770520' /></sup>, v. 7, p. 43-45, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1039/b814990a&issn=14770520&volume=7&issue=&paginaInicial=43&titulo=Synthesis of telluroamino acid derivatives with remarkable GPx like activity&sequencial=22&nomePeriodico=Organic & Biomolecular Chemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PUNTEL, Robson L</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cbi.2006.11.003" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; PAIXÃO, Márcio W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">BRAGA, Antônio Luiz</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Oxalate modulates thiobarbituric acid reactive species (TBARS) production in supernatants of homogenates from rat brain, liver and kidney: Effect of diphenyl diselenide and diphenyl ditelluride. Chemico-Biological Interactions (Print)<sup><img id='00092797_23' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00092797' /></sup>, v. 165, p. 87-98, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cbi.2006.11.003&issn=00092797&volume=165&issue=&paginaInicial=87&titulo=Oxalate modulates thiobarbituric acid reactive species (TBARS) production in supernatants of homogenates from rat brain, liver and kidney: Effect of diphenyl diselenide and diphenyl ditelluride&sequencial=23&nomePeriodico=Chemico-Biological Interactions (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PUNTEL, Robson L</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.lfs.2007.04.023" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2169800461505665" target="_blank">GROTTO, Denise</a> ; GARCIA, Solange C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Antioxidant properties of Krebs cycle intermediates against malonate pro-oxidant activity in vitro: A comparative study using the colorimetric method and HPLC analysis to determine malondialdehyde in rat. Life Sciences (1973)<sup><img id='00243205_24' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00243205' /></sup>, v. 81, p. 51-62, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.lfs.2007.04.023&issn=00243205&volume=81&issue=&paginaInicial=51&titulo=Antioxidant properties of Krebs cycle intermediates against malonate pro-oxidant activity in vitro: A comparative study using the colorimetric method and HPLC analysis to determine malondialdehyde in rat&sequencial=24&nomePeriodico=Life Sciences (1973)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/B978-0-12-384947-2.00441-4" target="_blank"></a>Avila, D.S. ; Gubert, P. ; <b>Roos, D.H.</b> ; Puntel, R. ; Aschner, M. . Manganese. Encyclopedia of Food and Health. 1ºed.: Elsevier, 2016, v. , p. 637-640. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, J. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> . Scientific production of top Brazilian researchers in biochemistry, physiology, pharmacology and biophysics. In: Proceedings of ISSI 2013 - 14th International Society of Scientometrics and Informetrics Conference, 2013, Vienna. Proceedings of ISSI 2013 - 14th International Society of Scientometrics and Informetrics Conference, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, NILDA VARGAS</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> . Biological sciences production: A comparative study on the modalities of full phd in brazil or abroad. In: Proceedings of ISSI 2013 - 14th International Society of Scientometrics and Informetrics Conference, 2013, Vienna. Proceedings of ISSI 2013 - 14th International Society of Scientometrics and Informetrics Conference, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0409790717340977" target="_blank">SANTOS, Matheus M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9995118835810649" target="_blank">Farina M</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Guanosine and Synthetic Organoselenium Compounds Modulated Methylmercury-Induced Oxidative Stress in Rat Brain Cortical Slices: Involviment of Glutamatergic System. In: Free Radicals, 2007, Montevideo. Free Radicals, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4211206301954369" target="_blank">Lugokenski T H</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0409790717340977" target="_blank">SANTOS, Matheus M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; ZENI, Gilson ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Effect of Diphenyl Diselenide in H2O2 Formation Induced by MeHg in Rat Liver and Kidney. In: Free Radicals, 2007, Montevideo. free Radicals, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; ZENI, Gilson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Organochalcogens-Indused Mitochondria Dysfunction: Implications for the Possible Apoptotic Cell Death. In: Free radicals, 2007, Montevideo. Free Radicals, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; ZENI, Gilson ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina W</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Efeito Antioxidante do Disseleneto de Difenila e do Ditelureto de Difenila Sobre a Geração de Radicais Livres Induzida por Ca++ em Mitocondria de diferentes tecidos de Ratos. In: I Encotro Sobre Selênio e Telurio, 2006, Bento Gonsalves. I Encotro Sobre Selênio e Telurio, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0409790717340977" target="_blank">SANTOS, Matheus M.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; ZENI, Gilson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Atividade Antioxidante do Disseleneto de Difenila Sobre o Estresse Oxidativo Induzido por Metil-mercúrio em Fatias de Fígado e Rim de Ratos. In: I Encotro Sobre Selênio e Telurio, 2006, Bento Gonsalves. I Encotro Sobre Selênio e Telurio, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEDROSO, L. ; GUTIERRE, M. E. ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . PHARMACOLOGICAL POTENTIAL OF NEW COMPOUNDS AGAINST THE TOXICITY INDUCED BY ORGANOPHOSPHATE IN Artemia salina. In: 2nd Latin American Congress of Clinical and Laboratorial Toxicology, 2018. 2nd Toxilatin, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BONEBERG, A. A. ; PINTON, SIMONE ; SAVALL A ; FIDELIS, E. M. ; FONSECA, N. C. ; <b>ROOS, Daniel Henrique</b> . EXPOSIÇÃO CRÔNICA AO MALATION AFETA A LOCOMOÇÃO ESPONTÂNEA SEM ALTERAR A LOCOMOÇÃO FORÇADA EM RATO. In: IX SIEPE, 2017, Sant'Ana do Livramento. SIEPE, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAVALL A ; PINTON, SIMONE ; FIDELIS, E. M. ; BONEBERG, A. A. ; PEDROSO, L. ; <b>ROOS, Daniel Henrique</b> . EXPOSIÇÃO CRÔNICA AO MALATION INIBE ATIVIDADE DA ACHE E ALTERA NÍVEIS DE GLICEMIA EM RATOS. In: IX SIEPE, 2017, Sant'Ana do Livramento. SIEPE, 2017. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIDELIS, E. M. ; SAVALL A ; GUTIERRE, M. E. ; PINTON, S. ; HAAS, S. ; <b>ROOS, Daniel Henrique</b> . EFFECTS OF CURCUMIN NANOCAPSULES ON DEPRESSIVE BEHAVIOR AND &#914;-AMYLOID INDUCED OXIDATIVE STRESS IN MICE. In: 2nd Latin American Congress of Clinical and Laboratorial Toxicology, 2018, Porto Alegre. 2nd Toxilatin, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAVALL A ; GUTIERRE, M. E. ; GERVINI, V. ; <b>ROOS, Daniel Henrique</b> ; PINTON, S. . DETERMINATION OF ACUTE ORAL TOXICITY OF 5-CHLORO-ISATIN-3-OXIME IN RATS. In: 2nd Latin American Congress of Clinical and Laboratorial Toxicology, 2018, Porto Alegre. 2nd Toxilatin, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LENA, C. S. ; SCHEEREN, E. A. ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . EFFECTS OF N-ACETYLCYSTEINE IN Artemia salina EXPOSED TO MeHg. In: 2nd Latin American Congress of Clinical and Laboratorial Toxicology, 2018, Porto Alegre. 2nd Toxilatin, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHEEREN, E. A. ; LENA, C. S. ; SANTOS, P. R. ; PINTON, SIMONE ; <b>ROOS, Daniel Henrique</b> . TOXICOLOGICAL EFFECTS OF GLIOXAL ON Artemia salina. In: 2nd Latin American Congress of Clinical and Laboratorial Toxicology, 2018, Porto Alegre. 2nd Toxilatin, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DELGADO, L. O. ; PEDROSO, L. ; PUNTEL, ROBSON L. ; PINTON, SIMONE ; <b>ROOS, Daniel Henrique</b> . TOXICOLOGICAL AVALIATION OF URANIUM IN Artemia saline. In: 2nd Latin American Congress of Clinical and Laboratorial Toxicology, 2018, Porto Alegre. 2nd Toxilatin, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUTIERRE, M. E. ; SAVALL A ; GERVINI, V. ; <b>ROOS, Daniel Henrique</b> ; PINTON, SIMONE . Avaliação da toxicidade oral aguda da 5&#8208; cloroisatina&#8208;3&#8208;oxima em ratos. In: IV Simpósio Anual do PPGBioquímica, 2017, URUGUAIANA. Simpósio Anual do PPGBioquímica, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAVALL A ; GUTIERRE, M. E. ; AYUM, K. ; HAAS, S. ; <b>ROOS, Daniel Henrique</b> ; PINTON, S. . EFFECTS OF SURFACE POTENTIAL MODIFICATION OF QUININE ANDCURCUMIN NANOCAPSULES ON ITS TOXICITY IN ARTEMIA SALINA. In: III WORKSHOP DE TOXICOLOGIA CLÍNICO-LABORATORIAL: AMBIENTAL, EXPERIMENTAL E NANOMATERIAI, 2016, Porto Alegre. III WORKSHOP DE TOXICOLOGIA CLÍNICO-LABORATORIAL: AMBIENTAL, EXPERIMENTAL E NANOMATERIAI, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES, A. R. ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . Efeito do metilmercúrio livre, complexado e associado na atividade comportamental de Artêmia salina.. In: Simpósio do PPG Bioquímica, 2016, URUGUAIANA. IV Simpósio do PPG Bioquímica, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARCARO, J. ; SAVALL A ; GUEDES M ; GERVINI, V. ; <b>ROOS, Daniel Henrique</b> ; PINTON, S. . Avaliação do potencial scavenger de oximas e isatinas in vitro.. In: IV Simpósio do PPG Bioquímica, 2016, URUGUAIANA. Simpósio do PPG Bioquímica, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOREIRA, F. S. ; GUEDES, A. R. ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . Efeito da exposição do MeHg e MeHg&#8208; Cys na viabilidade e geração de ROS em Artêmia salina.. In: IV Simpósio do PPGBioquímica, 2016, URUGUAIANA. Simpósio do PPGBioquímica, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LENA, C. S. ; SCHEEREN, E. A. ; PINTON, SIMONE ; <b>ROOS, Daniel Henrique</b> . Efeito de sacarídeos na glicemia e viabilidade de Artemia salina. In: IV Simpósio do PPGBioquímica, 2016, URUGUAIANA. Simpósio do PPGBioquímica, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEDROSO, L. ; GUTIERRE, M. E. ; TESCHE, E. D. ; PINTON, SIMONE ; <b>ROOS, Daniel Henrique</b> . Determinação de espécies reativas em Artemia salina. In: IV Simpósio do PPGBioquímica, 2016, URUGUAIANA. Simpósio do PPGBioquímica. URUGUAIANA: Masculino, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEDROSO, L. ; PINTON, SIMONE ; <b>ROOS, Daniel Henrique</b> . TESTE TOXICOLOGICO DE DIFERENTES SAIS DE URÂNIO EM ARTEMIA SALINA. In: VIII SIEPE, 2016, URUGUAIANA. SIEPE, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUTIERRE, M. E. ; SAVALL A ; GUEDES, A. R. ; HAAS, S. ; <b>ROOS, Daniel Henrique</b> ; PINTON, SIMONE . ESTUDO DA TOXICIDADE DA ASSOCIAÇÃO DO MELOXICAN E CURCUMINA LIVRES E NANOENCAPSULADOS EM CAMUNDONGOS. In: VIII Siepe, 2016, URUGUAIANA. Siepe, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAVALL A ; GUTIERRE, M. E. ; AYUMI, K. ; HASSAN, WASEEM ; <b>ROOS, Daniel Henrique</b> ; PINTON, S. . NANOCÁPSULAS DE CURCUMINA PROTEGEM CONTRAO COMPORTAMENTO TIPO DEPRESSIVO E ESTRESSE OXIDATIVO INDUZIDO POR &#914;-AMILÓIDE EM CAMUNDONGOS. In: ASTOXI LATIN, 2016, Porto Alegre. ASTOXI LATIN, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAVALL A ; FIDELIS, E. M. ; OCOMPRO, R. ; <b>ROOS, Daniel Henrique</b> ; PINTON, SIMONE . Avaliação dos efeitos da 5-Cl-isatina-3-oxima no metabolismo da glicose frente à intoxicação aguda por organofosforado em ratos. In: I Simpósio Integrado dos PPGs da UNIPAMPA, 2016, URUGUAIANA. Simpósio Integrado dos PPGs da UNIPAMPA, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES M ; SAMPAIO, T. ; PEDROSO, L. ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . AVALIAÇÃO DO METILMERCÚRIO E METILMERCÚRIO-CISTEÍNA COMPLEXADO NA LC50 E PEROXIDAÇÃO LIPÍDICA EM ARTEMIA SALINA. In: VII Salão Internacional de Ensino, Pesquisa e Extensão, 2015, Alegrete. VII SIEPE, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES M ; SAVALL A ; PINTON, S. ; ARCARO, J. ; <b>ROOS, Daniel Henrique</b> . EFEITO PROTETOR DA 5-CLORO-ISATINA-3-OXIMA FRENTE À TOXICIDADE INDUZIDA PELO MALATION: ENVOLVIMENTO DA ACETILCOLINESTERASE. In: VII Salão Internacional de Ensino, Pesquisa e Extensão, 2015, Alegrete. VII SIEPE, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES M ; SAVALL A ; PINTON, S. ; WOLFF, A. ; Puntel, R. ; Avila D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, Vanderlei</a> ; <b>ROOS, Daniel Henrique</b> . Methionine protects against Methylmercury-Cysteine-induced death in Artemia salina. In: In: 23rd Congress of the International Union of Biochemistry and Molecular Biology (IUBMB) and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology, 2015, Foz do Iguaçu. Anais da IUBMB e SBBq, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEDROSO, L. ; Puntel, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, Vanderlei</a> ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . Comparison of Two Depleted Uranium Salts Toxicity in Artemia salina. In: In: 23rd Congress of the International Union of Biochemistry and Molecular Biology (IUBMB) and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology SBBq, 2015, Foz do Iguaçu. Anais da IUBMB e SBBq, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAVALL A ; GUEDES M ; SCHEUER, A. ; HAAS, S. ; <b>ROOS, Daniel Henrique</b> ; PINTON, S. . EFFECTS OF SURFACE POTENTIAL MODIFICATION OF QUININE AND CURCUMIN NANOCAPSULES ON ITS TOXICITY IN ARTEMIA SALINA. In: In: 23rd Congress of the International Union of Biochemistry and Molecular Biology (IUBMB) and 44th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology SBBq, 2015, Foz do Iguaçu. Anais da SBBq IUBMB, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES M ; SAVALL A ; TARRAGO M ; WOLFF, A. ; PINTON, SIMONE ; <b>ROOS, Daniel Henrique</b> . Estudo in vitro da toxicidade do Se- xilofuranosídeos e Te-xilofuranosídeos.. In: III Simpósio Anual do PPg Bioquímica, 2015, uruguaiana. III Simpósio Anual do PPg Bioquímica, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAVALL A ; GUEDES M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b>ROOS, Daniel Henrique</b> ; PINTON, SIMONE . Efeitos da laqueadura tubária: Relação entre o aumento do peso e gordura abdominal em camundongos. In: III Simpósio Anual do PPG Bioquímica, 2015, uruguaiana. III Simpósio Anual do PPG Bioquímica, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES M ; <b>ROOS, Daniel Henrique</b> ; PINTON, S. . Hemolytic activity of 2,4-dichlorophenoxyacetic acid (2,4-D) in human RBC. In: TOXI-LATIN 1º Congresso Latino Americano de Toxicologia Clínico-Laboratorial, 2014, Porto Alegre. Anais do Toxi-latin, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOULART J ; TARRAGO M ; DOBLER, F. ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . PROTECTOR EFFECT OF BUTANE-2,3-DIONETHIOSEMICARBAZONE OXIME AGAINST MALATHION-INDUCED TOXICITY IN ARTEMIA SALINA. In: TOXI-LATIN 1º Congresso Latino Americano de Toxicologia Clínico-Laboratorial, 2014, Porto Alegre. Anais do Toxi-latin, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEDROSO, L. ; MORAES, M. ; QUOOS, L. ; PINTON, S. ; <b>ROOS, Daniel Henrique</b> . TOXICOLOGICAL ANALYZES OF TWO DEPLETED URANIUM ON ARTEMIA SALINE. In: TOXI-LATIN 1º Congresso Latino Americano de Toxicologia Clínico-Laboratorial, 2014, Porto Alegre. Anais do Toxi-latin, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; de Jesus S L . Comparação da Produção Científica Brasileira nas Modalidades de Doutorado Pleno (Brasil e Exterior) na Área das Ciências Biológicas II. In: Encontro Brasileiro de Bibliometria e Cientometria, 2012, Gramada. 3º Encontro Brasileiro de Bibliometria e Cientometria, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Klimaczewski C V ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0837770007946446" target="_blank">SEEGER, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Ischemic/ Reperfused Mitochondria are More Sensitive to Calcium-Induced Dysfunction. In: SBBq, 2012. XLI Annual Meeting of SBBq, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Segeer R ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; Klimaczewski C V ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . O Papel do Cálcio na Disfunção Mitocondrial Induzida por Metilmercúrio (MeHg). In: Congresso Brasileiro de Toxicologia, 2011, Ribeirão Preto. XVII Congresso Brasileiro de Toxicologia, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1497547136431166" target="_blank">Kamdem JP</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1671299535277981" target="_blank">Stefanello ST</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4004565241849091" target="_blank">WAGNER, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a> ; Preste AS ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9281289823464657" target="_blank">Waczuk EP</a> ; Appel AS ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Antioxidant Activity of Crude Extracts from yhe Stem Bark of TRICHILIA CATIGUA A. JUSS (Meliaceae). In: SBBq, 2011, Foz do Iguaçu. XL Annual Meeting of SBBq, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9281289823464657" target="_blank">Waczuk EP</a> ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; Meinerz D ; MARIANO, D. O. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1497547136431166" target="_blank">Kamdem JP</a> ; ALLEBRANDT, J. ; OLIVEIRA, L. F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Mitochondrial Dysfunction and Cellular Toxicity of Aqueous Extract of EUPHORBIA TIRUCALLI. In: SBBq, 2011, Foz do Iguaçu. XL Annual Meeting of SBBq, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9281289823464657" target="_blank">Waczuk EP</a> ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; Meinerz D ; MARIANO, D. O. C. ; ALLEBRANDT, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1497547136431166" target="_blank">Kamdem JP</a> ; OLIVEIRA, L. F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Avaliação Toxicogenética do Extrato Aquoso de EUPHORBIA TIRUCALLI L In Vitro. In: Congresso Brasileiro de toxicologia, 2011, Ribeirão Preto. XVII Congresso Brasileiro de Toxicologia, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Klimaczewski C V ; <b>ROOS, Daniel Henrique</b> ; MIZDAL, C. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0837770007946446" target="_blank">SEEGER, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . O Efeito do Cálcio nos Complexos Mitocondriais. In: TOXSUL, 2011, Porto Alegre. II Congresso Sul de Toxicologia Clinico-Laboratorial, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9281289823464657" target="_blank">Waczuk EP</a> ; Klimaczewski C V ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0251292056173520" target="_blank">Boligon AA</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Atividade Antioxidante do Extrato Aquoso de Peumus Boldus Contra Dano Oxidativo Induzido por Ferro (II) Citrato em Mitocondrias. In: Congresso Brasileiro de toxicologia, 2011, Ribeirão Preto. XVII Congresso Brasileiro de Toxicologia, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vieira F A ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0837770007946446" target="_blank">SEEGER, RODRIGO LOPES</a> ; Klimaczewski C V ; MIZDAL, C. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">Rocha, João Batista Teixeira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> . Effects of Respiratory Substrates on Calcium-Induced Damange. In: FeSBE, 2011, Rio de Janeiro. XXVI Reunião Anual da Federação de Sociendades da Biologia Experimental, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Klimaczewski C V ; <b>ROOS, Daniel Henrique</b> ; MIZDAL, C. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1671299535277981" target="_blank">Stefanello ST</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0837770007946446" target="_blank">SEEGER, R. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> . Effects of Calcium on Mitochondrial Function. In: SBBq, 2011, Foz do Iguaçu. XL Annual Meeting of SBBq, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; Klimaczewski C V ; Comparsi B ; Pavin S S ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> . Metionine Protect Damage Induced by Methylmercury in Liver Slices. In: Sociedade brasileira de Bioquímica e biologia molecular, 2010, Foz do Iguaçu. Sociedade brasileira de Bioquímica e biologia molecular, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vieira F A ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; Comparsi B ; So S Y F ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> . Methionine Co-treatment not Modify Mitochondrial Dysfunctions Induced by MeHg. In: Sociedade Brasileira de Bioquimica e Biologia Molecular, 2010, Foz do Iguaçu. Sociedade Brasileira de Bioquimica e Biologia Molecular, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Klimaczewski C V ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4211206301954369" target="_blank">Lugokenski T H</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3668846018750020" target="_blank">Ineu P R</a> ; Vieira F A ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> . Complex Methylmercury-Cysteine Alters Mercury Accumulation in Different. In: Sociedade brasileira de Bioquímica e biologia molecular, 2010, Foz do Iguaçu. XXXIX Sociedade brasileira de Bioquímica e biologia molecular, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">So S Y F ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Methionine Pretreatment Alter Hg Uptake and ROS Production Induced by MeHg. In: Sociedade brasileira de Bioquímica e biologia molecular, 2010, Foz do Iguaçu. XXXIX Sociedade brasileira de Bioquímica e biologia molecular, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pavin S S ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina Wayne</a> . Role of Calcium on the Mitochondrial Dysfunction Induced by MeHg Exposure. In: Sociedade brasileira de Bioquímica e biologia molecular, 2010, Foz do Iguaçu. XXXIX Sociedade brasileira de Bioquímica e biologia molecular, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Klimaczewski C V ; <b>ROOS, Daniel Henrique</b> ; MIZDAL, C. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Cálcio como Inibidor do Complexo I Mitocondrial. In: SIEPE, 2010, Uruguaiana. II Salão Internacional de Ensino, Pesquisa, Extensão, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0409790717340977" target="_blank">SANTOS, Matheus M.</a> ; ZENI, Gilson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Efeito do Disseleneto de Difenila, do MK-801 e da Guanosina na Geração de Radicais Livres Induzida Pelo Metilmercúrio em Fatias de Córtex Cerebral. In: I Encotro Sobre Selênio e Telurio, 2006, Bento Gonsalves, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PUNTEL, Gustavo O ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0409790717340977" target="_blank">SANTOS, Matheus M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; ZENI, Gilson ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Protective Effect of MK-801 and Diphenyl Diselenide against Methylmercury-Induced Free Radical Generation in Brain Slices of Rats. In: XXXV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2006, Águas de Lindóia. XXXV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0409790717340977" target="_blank">SANTOS, Matheus M.</a> ; ZENI, Gilson ; ASCHNER M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Protective Effect of Diphenyl Diselenide Against Methylmercury-Induced Free Radicals in Rat Kidney and Liver Slices. In: XXXV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2006, Águas de Lindóia. XXXV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; ZENI, Gilson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2877042401245169" target="_blank">NOGUEIRA, Cristina W</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Protective Effect od Organochalcogens Against Ca2+ - Induced Free Radicals Generation in Isolated Michocondria from different rat Tissues. In: XXXV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2006, Águas de Lindóia. XXXV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Possível Efeito Antioxidante de Compostos Orgânicos de Selênio e Envolvimento do Sistema Glutamatérgico na Toxicidade Induzida Pelo Metilmercúrio. In: Jornada Academica Integrada, 2006, SANTA MARIA. Jornada Academica Integrada, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PORCIÚNCULA G. A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> . Avaliação dos Níveis Séricos de PSA Em Homens Adultos Em Uruguaiana-RS. In: XXXII Congreço Brasileiro de Análizes Clínicas V Congresso Brasileiro de Citologia Clínica, 2005, Goiânia. XXXII Congreço Brasileiro de Análizes Clínicas V Congresso Brasileiro de Citologia Clínica, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; SILVEIRA, Ilson D ; FACHINETO, Roselei ; BURGUER, Marilise e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Effects of Haloperidol and Fat- Diet on Intracellular Magnesium Contents, Abdominal Fat and Lipid Peroxidation in Wistar Rats.. In: XXXIV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2005, Aguas de Lindóia. XXXIV Reunião Anual de Bioquímica e Biologia Molecular SBBq, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; PAIXÃO, Márcio W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0314009951286457" target="_blank">BRAGA, Antonio L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Efeito de Organo Calcoênios Na Peroxidação Lipídica induzida por Oxalato em Cérebro, Fígado e Rim de Ratos: Estudos In Vitro. In: Jornada Academica Integrada, 2004, Santa Maria, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Toxicidade do Malonato É Atenuada Pelos Intermediarios de Krebs: Achados in Vitro. In: Jornada Academica Integrada, 2004, Santa Maria, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a> ; CEOLIN, Lucieli ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> . Atividade Pró Oxidante do Malonato In Vitro é Atenuada Pelos Intermediarios do Ciclo de Krebs. In: III Oficina de Neuro Ciências Fronteiras daInvestigação, 2004, Garibaldi, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11948-018-0025-5" target="_blank"></a>KAMDEM, JEAN PAUL ; <b>ROOS, Daniel Henrique</b> ; SANMI, ADEKUNLE ADENIRAN ; CALABRÓ, LUCIANA ; ABOLAJI, AMOS OLALEKAN ; DE OLIVEIRA, CLÁUDIA SIRLENE ; BARROS, LUIZ MARIVANDO ; DUARTE, ANTONIA ELIENE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, NILDA VARGAS</a> ; SOUZA, DIOGO ONOFRE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">Rocha, João Batista Teixeira</a> . Productivity of CNPq Researchers from Different Fields in Biomedical Sciences: The Need for Objective Bibliometric Parameters A Report from Brazil. SCIENCE AND ENGINEERING ETHICS<sup><img id='13533452_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13533452' /></sup>, 2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11010-017-3198-3" target="_blank"></a>SOARES, DEIVIDI C. S. ; PORTELA, JOSÉ L. R. ; <b>ROOS, DANIEL H.</b> ; RODRIGUES, NATHANE R. ; GOMES, KAREN K. ; MACEDO, GIULIANNA E. ; POSSER, THAIS ; FRANCO, JEFERSON L. ; HASSAN, WASEEM ; PUNTEL, ROBSON L. . Treatment with pentylenetetrazole (PTZ) and 4-aminopyridine (4-AP) differently affects survival, locomotor activity, and biochemical markers in Drosophila melanogaster. MOLECULAR AND CELLULAR BIOCHEMISTRY<sup><img id='03008177_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03008177' /></sup>, 2018. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Toxicologia do Metilmercúrio e do Cálcio. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Cursos Experimentais de Curta Duração para Professores e Estudantes do Ensino Basico. 2012. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Curso de Férias para Professores e Estudantes da rede Pública realizados em Santa Maria e Região entre 2007-2011. 2011. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Amostras dos Cursos Trabalhados na Cidade de Santa Maria e Região entre 2007-2011. 2011. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4211206301954369" target="_blank">Lugokenski T H</a> . Acesso á Ciências Ilha dos Marinheiros.
+							2013. (Desenvolvimento de material didático ou instrucional - vídeo educacional). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; Dalla Corte C ; Meinerz D ; <b>ROSS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8634309450152107" target="_blank">Sudati H. Jessie</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a> ; Saraiva R . Acesso á Ciências em Rosário do Sul - RS.
+							2011. (Desenvolvimento de material didático ou instrucional - Vídeo de Divulgação de Ciência). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Digestão: O que comemos e o que bebemos?. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Digestão: O que comemos e o que bebemos?. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Os Alimentos e Nossa Saúde. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Colesterol: Mocinho ou Bandido?. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Por que o Abacaxi Desanda a Gelatina?. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Ácidos e Bases. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Por que o Abacaxi Desanda a Gelatina?. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Evolução Humana. 2004. . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PUNTEL, Robson Luiz; DUTRA, C. M.; ANTUNES, F. A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>.  Participação em banca de Werner Zacarias Lopes. O Ensino de Ciências na Perspectiva da Alfabetização Científica e Tecnológica: Diagnóstico e Proposta. 2014. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Avila D. S.; DENARDIN, C. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>.  Participação em banca de Emily Pansera Waczuk. Avaliação Toxicológica do Extrato Aquoso dos Ramos da E. Tirucalli L. in Vitro. 2014. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, M. E.; ROCHA, J. B. T.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>.  Participação em banca de Tiago da Luz Fiuza. EFETIVIDADE DO (PhSe)2 EM PROTEGER CONTRA A TOXICIDADE DO HgCl2. 2014. Dissertação (Mestrado em Ciências Biológicas (Bioquímica Toxicológica)) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4004565241849091" target="_blank">WAGNER, C.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4211206301954369" target="_blank">Lugokenski T H</a>.  Participação em banca de Alessandro de Souza Prestes. Avaliação da Atividade Antioxidante de Beta-Selenoaminas e Sua Relação com a Atividade de Selenoproteínas. 2013. Dissertação (Mestrado em Ciências Biológicas (Bioquímica Toxicológica)) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PUNTEL, Gustavo O; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; Peçanha G A.  Participação em banca de Andréia Caroline Fernandes Salgueiro. O Efeito do Chá de Bauhinia forticata (Subs. pruinosa) Sobre o Dano Oxidativo Induzido por Altas Concentrações de Glicose em Heritrócitos Humanos e por Estreptozotocina em Camundongos. 2013. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1134532326779900" target="_blank">PUNTEL, Robson L</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a>; VARGAS, N. B. B..  Participação em banca de Eliziane da Silva Dávila. Análise da Produção Científica Baseada em Dissertações e Teses dos Programas de Pós-Graduação da Área de Ensino de Ciências e Matemática do Estado do Rio Grande do Sul, no Período de 2000 a 2011. 2012. Dissertação (Mestrado em Programa de Pós-Graduação em Educação) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a>; MELO, C. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; OLIVEIRA, J. S.; ADAIMA, M. B.; ANTUNES, F. A.; Seipel L.  Participação em banca de Ângela Carine Moura Figueira. Atividades Experimentais em Bioquímica Básica. Um Estudo Baseado na Resolução de Problemas em Diferentes Níveis de Ensino. 2014. Tese (Doutorado em Educação)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, J. B.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a>; Schetinger MRC; Duarte MMMF; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8135232309980269" target="_blank">FOLMER, V.</a>.  Participação em banca de Neuza Maria Heinzmann Bulow. Efeito da Dexmedetomidina Sobre os Biomarcadores de Inflamação e Estresse Oxidativo em Pacientes Submetidos à Cirurgia de Revascularização Miocárdica Sib Mini-Circulação Extracorpórea. 2013. Tese (Doutorado em Ciências Biológicas (Bioquímica Toxicológica))  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a>; GOTTFRIED, C. J. S.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1680065573338339" target="_blank">Franco J L</a>; PIQUINI, P. C.; PINTON, S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; ANTUNES, F. A..  Participação em banca de Rogério de Aquino Saraiva. Estudo Teóricos de Modelagem Molecular in Silico Aplicado à Interação Entre a Enzima Delta-Aminolevulinato Desidratase e Disseleneto de Diarila. 2013. Tese (Doutorado em Ciências Biológicas (Bioquímica Toxicológica))  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a>; Avila D. S.; <b>ROOS, Daniel Henrique</b>.  Participação em banca de BLESSING ARIYO AFOLABI. AVALIAÇÃO DE NEUROPROTEÇÃO POR ANTAGONISTAS GLUTAMATÉRGICOS E BLOQUEADORES DE CANAIS DE CÁLCIO CONTRA A TOXICIDADE DO METILMERCÚRIO NO MODELO DE NAUPHOETA CINEREA. 2018. Exame de qualificação (Doutorando em Ciências Biológicas (Bioquímica Toxicológica))  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; Brandão R; Rubin M; Schetinger MRC.  Participação em banca de Andréia Machado Cardoso. Efeito do exercício físico sobre a expressão e a atividade das ectonucleotidases em ratos hipertensos. 2012 - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROOS, Daniel Henrique</b>; CIBIN, F. W. S.; GONCALVES, P. B. D..  Participação em banca de LARA PEDROSO DA FONTOURA. Avaliação dos Efeitos Toxicológicos do Urânio em Artêmia salina. 2018. Exame de qualificação (Mestrando em BIOQUÍMICA)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Avila D. S.; Peçanha G A; <b>ROOS, Daniel Henrique</b>.  Participação em banca de Marcell Valandro Soares. Mecanismos Neuro Tóxicos Envolvidos Pela Exposição Através do Ar ao Tolueno em Caenorhabditis elegans. 2018. Exame de qualificação (Mestrando em BIOQUÍMICA)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4004565241849091" target="_blank">WAGNER, C.</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>.  Participação em banca de Josiane Alllebrandt.Toxicological studies with diphenyl diselenide and diphenyl ditelluride: Biuologicals effects in vivo and in vitro.
+							2010 - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; PORTELLA, R.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA N</a>.  Participação em banca de Nélson R. Carvalho.Efeito protetor do frio e do calor terapêutico contra o dano oxidativo induzido por um modelo de distensão muscular em ratos.
+							2009. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Flora D F; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>; Seipel L; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a>.  Participação em banca de Gleidson Fernandes Rodrigues.Efeito do ácido 5-aminosalicílico sobre estresse oxidativo induzido por ferro em fígado e rim de ratos adultos: in vitro.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Brasileiro de Bibliometria e Cientometria. Comparação da Produção Científica Brasileira nas Modalidades de Doutorado Pleno (Brasil e Exterior) na Área das Ciências Biológicas II. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Oficina de Inverno de Bioquímica Toxicológica. Ischemic/ Reperfused Mitochondria are More Sensitive to Calcium-Induced Dysfunction. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBBq. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Free Radicals in Montevideo. GUANOSINE AND SYNTHETIC ORGANOSELENIUM COMPOUNDS MODULATE METHYLMERCURY-INDUCED OXIDATIVE STRESS IN RAT BRAIN CORTICAL SLICES: INVOLVEMENT OF GLUTAMATERGIC SYSTEM. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LARA PEDROSO DA FONTOURA. Efeitos Toxicológicos de Dois Sais de Urânio em Artêmia Salina.
+						Início: 2018.
+						Dissertação (Mestrado em BIOQUÍMICA)  - Universidade Federal do Pampa. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2153158693310540'><img src='images/curriculo/logolattes.gif' /></a>Paulo Sérgio Pereira Bagestero. O Aprendizado de Ciências em Turmas de Nono Ano do Ensino Fundamental.
+						Início: 2018.
+						Dissertação (Mestrado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg))  - Universidade Federal do Rio Grande do Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduarda Acunha. Efeitos Toxicológicos do MeHg em Artêmias Salina. Início: 2017. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Pampa, Financiadora de Estudos e Projetos. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caroline Siqueira Lena. Efeitos toxicológicos do Glioxal em Artêmia Salina. Início: 2017. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lara Pedroso.
+							Comparação da toxicidade de dois sais de urânio em Artemias.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Farmácia)  - Universidade Federal do Pampa,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Daniel Henrique Roos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LARA PEDROSO DA FONTOURA.
+							AVALIAÇÃO TOXICOLOGICA DO URÂNIO EM Artemia salina: ENVOLVIMENTO DO ESTRESSE OXIDATIVO.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Farmácia)  - Universidade Federal do Pampa. Orientador: Daniel Henrique Roos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marina Costa Monteiro Guedes.
+							Potencial                                                                                                           farmacológico de nanocápsulas poliméricas contendo a associação de meloxican e curcumina em um modelo da doença de Alzheimer em roedores.
+							2015.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Daniel Henrique Roos.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandre Guedes.
+							Analise da Exposição do MeHg e complexo MeHg-Cisteína em Artêmia Salina.
+							2015.
+							Iniciação Científica. (Graduando em Aqüicultura)  - Universidade Federal do Pampa,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Daniel Henrique Roos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sara Corea.
+							Efeito do tratamento de diferentes sacarídeos na viabilidade de Artemia salina.
+							2015.
+							Iniciação Científica. (Graduando em Fisioterapia)  - Universidade Federal do Pampa,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Daniel Henrique Roos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">INGRID RODRIGUES FONSECA.
+							Influencia da alimentação na glicemia de artemias.
+							2015.
+							Iniciação Científica. (Graduando em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Daniel Henrique Roos.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Franciele Moreira.
+							Geração de radicais Livres em Artêmias expostas a elementos radiotivos.
+							2014.
+							Iniciação Científica. (Graduando em Fisioterapia)  - Universidade Federal do Pampa. Orientador: Daniel Henrique Roos.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Curso de Férias para Professores e Estudantes da rede Pública realizados em Santa Maria e Região entre 2007-2011. 2011. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Amostras dos Cursos Trabalhados na Cidade de Santa Maria e Região entre 2007-2011. 2011. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5903230708776294" target="_blank">ROOS, Daniel Henrique</a></b>. Cursos Experimentais de Curta Duração para Professores e Estudantes do Ensino Basico. 2012. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<a name="MaterialDidaticoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Desenvolvimento de material didático ou instrucional</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <b>ROOS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4211206301954369" target="_blank">Lugokenski T H</a> . Acesso á Ciências Ilha dos Marinheiros.
+							2013. (Desenvolvimento de material didático ou instrucional - vídeo educacional). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9534019126486839" target="_blank">SOUZA, Diogo O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5173421842126640" target="_blank">Calabró L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935055744673018" target="_blank">ROCHA, João B T</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5901511067144019" target="_blank">BARBOSA, N. B. V.</a> ; Dalla Corte C ; Meinerz D ; <b>ROSS, Daniel Henrique</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8634309450152107" target="_blank">Sudati H. Jessie</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3277439471060779" target="_blank">Pereira P.</a> ; Saraiva R . Acesso á Ciências em Rosário do Sul - RS.
+							2011. (Desenvolvimento de material didático ou instrucional - Vídeo de Divulgação de Ciência). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:37:01</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=5903230708776294" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

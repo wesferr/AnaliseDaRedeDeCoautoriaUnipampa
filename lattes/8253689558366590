@@ -1,0 +1,2537 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (D&eacute;bora Schlotefeldt Siniak)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4472198A6&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8253689558366590" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4472198A6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4472198A6"><div class="infpessoa">
+<h2 class="nome">D&eacute;bora Schlotefeldt Siniak</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/8253689558366590</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 11/09/2017</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Professora Assistente do curso de Enfermagem da Universidade Federal do Pampa (UNIPAMPA) desde 2015. Doutoranda em Enfermagem pelo Programa de pós graduação em Enfermagem (PPGENF) da Universidade Federal do Rio Grande do Sul (UFRGS). Possui Mestrado na área de Saúde Mental - Enfermagem pela UFRGS. Graduada em Enfermagem pela Universidade Regional Integrada do Alto Uruguai e das Missões Campus de Santo Ângelo - URISAN/2011. Foi aluna de iniciação Científica da URISAN aonde desenvolveu diversos projetos especialmente relacionados à adolescentes em situação de vulnerabilidade e usuários de Substâncias Psicoativas. Durante o mestrado desenvolveu atividades junto à docência como bolsista CAPES/REUNI. É membro do Grupo de Estudo e Pesquisa em Saúde Mental (GEPESM), desde 2012. Tem experiência como enfermeira em um CAPS AD III. Atualmente ministra as Disciplinas de Saúde Mental I e II no curso de Enfermagem.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Débora Schlotefeldt Siniak<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SINIAK, D. S.;Siniak, Débora Schlotefeldt,;Débora Schlotefeldt Siniak;Siniak, D.S.;SINIAK, DÉBORA;SINIAK, DÉBORA SCHLOTEFELDT</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Enfermagem<span class="ajaxCAPES" data-param="&codigoCurso=42001013067P6&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	Ano de obtenção: 2018. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3888411927408489'><img src='images/curriculo/logolattes.gif' /></a>Leandro Barbosa de Pinho. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Enfermagem<span class="ajaxCAPES" data-param="&codigoCurso=42001013067P6&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Rede de Apoio Social de Familiares de usuários de crack,Ano de Obtenção: 2014.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3888411927408489'><img src='images/curriculo/logolattes.gif' /></a>Leandro Barbosa de Pinho.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Enfermagem<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Regional Integrada do Alto Uruguai e das Missões, URI, Brasil.
+		
+	<br class="clear" />Título: A IDENTIDADE CULTURAL NO PROCESSO DE INTERAÇÃO SOCIAL DE ADOLESCENTES EM SITUAÇÃO DE VULNERABILIDADE. <br class="clear" />Orientador: Zaléia Prado de Brum. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">EVENTOS AGUDOS EM SAÚDE MENTAL.  (Carga horária: 45h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Atualização em Psiquiatria.  (Carga horária: 120h). <br class="clear" />Associação Brasileira de Psiquiatria, ABP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Prevenção do Uso de Drogas.  (Carga horária: 120h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IX Curso de Extensão VIVAVOZ.  (Carga horária: 30h). <br class="clear" />Fundação Universidade Federal de Ciências da Saúde de Porto Alegre, UFCSPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">LUTA ANTIMANICOMIAL.  (Carga horária: 4h). <br class="clear" />Associação Brasileira de Educação a Distância, ABED, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DISTÚRBIOS EMOCIONAIS E COMPORTAMENTAIS DO CLIENTE.  (Carga horária: 30h). <br class="clear" />Conselho Federal de Enfermagem, COFEN, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Esquizofrenia.  (Carga horária: 50h). <br class="clear" />Associação Brasileira de Educação a Distância, ABED, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Contribuição de enf para o controle cancer de mama.  (Carga horária: 60h). <br class="clear" />Associação Brasileira de Educação a Distância, ABED, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Faringite Viral e Bacteriana, Como Diferenciá-la?.  (Carga horária: 80h). <br class="clear" />Associação Brasileira de Educação a Distância, ABED, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Normas para administração de medicamentos.  (Carga horária: 60h). <br class="clear" />Associação Brasileira de Educação a Distância, ABED, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio Extracurricular.  (Carga horária: 30h). <br class="clear" />Associação Hospital de Caridade de Santo Ângelo, AHCSA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Salvamento em Altura.  (Carga horária: 20h). <br class="clear" />Rescue Training - Cursos e Treinamentos, RT, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Campanha de Vacinação contra a Febre Amarela.  (Carga horária: 18h). <br class="clear" />SECRETARIA MUNICIPAL DE SAÚDE DE SANTO ÂNGELO/RS, SMSSA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio Extracurricular.  (Carga horária: 90h). <br class="clear" />Centro de Atenção Psicosocial, CAPSII, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atendimento Pré Hospitalar/Suporte Básico de Vida.  (Carga horária: 30h). <br class="clear" />Rescue Training - Cursos e Treinamentos, RT, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Suporte Básico de Vida para Profissionais da Saúde.  (Carga horária: 10h). <br class="clear" />Rescue Training - Cursos e Treinamentos, RT, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Hospital Mãe de Deus, HMD, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Enfermeira CAPS AD III</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro (especifique), Enquadramento Funcional: ALUNA/BOLSISTA DE MESTRADO</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Regional Integrada do Alto Uruguai e das Missões, URI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Membro do Grupo de Pesquisa, Enquadramento Funcional: MEMBRO DO GRUPO DE PESQUISA - GEPESM</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro (especifique), Enquadramento Funcional: MEMBRO DO GRUPO DE PESQUISA - GEPESE, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: LIVRE, Enquadramento Funcional: Aluno Voluntário de Iniciação Científica, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estudante, Enquadramento Funcional: Aluno de Extensão, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Associação Hospital de Caridade de Santo Ângelo, AHCSA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiária de Enfermagem, Enquadramento Funcional: Estagiário Extracurricular, Carga horária: 30</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Tutora Residência Integrada Multiprofissional, Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Residência Multiprofissional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Residencia de Saúde Mental<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Enfermagem, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Saúde Mental I; Saúde Mental II<br class="clear" />Estágio Curricular Supervisionado I e II<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Influ&ecirc;ncia dos fatores motivacionais no tratamento de usu&aacute;rios de Subst&acirc;ncias Psicoativas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Influência dos fatores motivacionais no tratamento de usuários de Substâncias Psicoativas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: TCC. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Coordenador / Sara Stéphani Martins Paz Bandeira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Educa&ccedil;&atilde;o Permanente: desafios e potencialidades no processo de transforma&ccedil;&atilde;o das pr&aacute;ticas em sa&uacute;de mental'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação Permanente: desafios e potencialidades no processo de transformação das práticas em saúde mental<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: TCC. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Coordenador / Anelize Carneiro Araújo - Integrante.<br class="clear" /></div>
+</div><a name='PP_A VOZ DOS EXCLU&Iacute;DOS: O CUIDADO NO CAPS AD III NA PERCEP&Ccedil;&Atilde;O DA PESSOA EM SITUA&Ccedil;&Atilde;O DE RUA'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A VOZ DOS EXCLUÍDOS: O CUIDADO NO CAPS AD III NA PERCEPÇÃO DA PESSOA EM SITUAÇÃO DE RUA<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: TRABALHO DE CONCLUSÃO DE RESIDÊNCIA.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Coordenador / Verydiana Peruzzi Comis - Integrante.<br class="clear" /></div>
+</div><a name='PP_A sa&uacute;de sexual de mulheres com transtornos mentais: rompendo tabus'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A saúde sexual de mulheres com transtornos mentais: rompendo tabus<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: tcc. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Coordenador / João Maidana junior - Integrante.<br class="clear" /></div>
+</div><a name='PP_ADES&Atilde;O &Agrave; TERAP&Ecirc;UTICA MEDICAMENTOSA ENTRE DEPENDENTES DE SUBST&Acirc;NCIAS PSICOATIVAS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ADESÃO À TERAPÊUTICA MEDICAMENTOSA ENTRE DEPENDENTES DE SUBSTÂNCIAS PSICOATIVAS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este estudo tem como objetivo identificar os diferentes aspectos que podem ser determinantes para a adesão ou não da terapêutica medicamentosa de Substâncias Psicoativas em recuperação e o número de usuários que aderem a essa terapêutica.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Coordenador / Zaléia Prado de Brum - Integrante.<br class="clear" /></div>
+</div><a name='PP_ViaREDE - Avalia&ccedil;&atilde;o qualitativa da rede de servi&ccedil;os de sa&uacute;de mental para atendimento a usu&aacute;rios de crack'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ViaREDE - Avaliação qualitativa da rede de serviços de saúde mental para atendimento a usuários de crack<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo deste estudo é avaliar qualitativamente a rede de serviços de saúde mental para atendimento a usuários de crack no município de Viamão/RS. Trata-se de uma pesquisa avaliativa, fundamentada nos pressupostos teórico-metodológicos da Avaliação de Quarta Geração. Será utilizado, como dispositivo metodológico, o círculo hermenêutico-dialético adaptado à realidade da saúde mental por Wetzel (2005), a partir da identificação de grupos de interesse da rede do município. A análise dos dados seguirá as orientações do Método Comparativo Constante. Pretende-se que os resultados da pesquisa contribuam no avanço do conhecimento científico no campo da saúde mental, em especial às demandas relacionadas ao consumo de crack na região investigada. Espera-se também o projeto possa dar subsídios para avaliar e rediscutir os avanços e desafios das políticas públicas de saúde mental, além de problematizar a cobertura e oferta dos cuidados oferecidos em rede a usuários de crack, em consonância com os princípios da reforma psiquiátrica e das políticas de saúde mental vigentes no Brasil.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (5)  / Mestrado acadêmico: (5)  / Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Integrante / Leandro Barbosa de Pinho - Coordenador.<br class="clear" /></div>
+</div><a name='PP_IDENTIDADE CULTURAL NO PROCESSO DE INTERA&Ccedil;&Atilde;O SOCIAL DE ADOLESCENTES EM SITUA&Ccedil;&Atilde;O DE VULNERABILIDADE'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IDENTIDADE CULTURAL NO PROCESSO DE INTERAÇÃO SOCIAL DE ADOLESCENTES EM SITUAÇÃO DE VULNERABILIDADE<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este estudo foi uma pesquisa qualitativa, descritiva, na qual objetivamos identificar a comunicação usada pelos adolescentes, usuários de substâncias psicoativas (SPA) através da decodificação do tipo de linguagem adotada por eles. A pesquisa foi realizada em uma comunidade terapêutica, localizada na região Noroeste do estado do Rio Grande do Sul, no mês de janeiro de 2010. Os participantes foram adolescentes do sexo masculino, usuários de SPA com faixa etária entre 12 e 19 anos, todos eles residentes da instituição. Os dados foram coletados através de Grupo Focal e observação participante.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Integrante / Zaléia Prado de Brum - Coordenador.<br class="clear" /><br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_PERFIL SOCIO-ECON&Ocirc;MICO E CULTURAL DE ADOLESCENTES USU&Aacute;RIOS DE SUBST&Acirc;NCIAS PSICOATIVAS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PERFIL SOCIO-ECONÔMICO E CULTURAL DE ADOLESCENTES USUÁRIOS DE SUBSTÂNCIAS PSICOATIVAS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa quali-quantitiativa, com o objetivo de identificar o perfil dos adolescentes dependentes químicos, considerando fatores sociais, econômicos e culturais dos mesmos. A pesquisa foi realizada em uma instituição não Governamental, localizada no Noroeste do estado do Rio Grande do Sul, no mês de fevereiro de 2010, A população alvo foram adolescentes do sexo masculino, usuários de droga com faixa etária entre 12 e 19 anos.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Integrante / Zaléia Prado de Brum - Coordenador.<br class="clear" /><br class="clear" />Número de produções C, T & A: 1</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Envelhecer com arte e sa&uacute;de'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Envelhecer com arte e saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Coordenador / Cenir Gonçalves Tier - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_A POL&Iacute;TICA DE SA&Uacute;DE DO HOMEM EM DISCUSS&Atilde;O: INTEGRALIDADE, VIABILIDADE E COER&Ecirc;NCIA'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A POLÍTICA DE SAÚDE DO HOMEM EM DISCUSSÃO: INTEGRALIDADE, VIABILIDADE E COERÊNCIA<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esta é uma pesquisa qualitativa, descritiva que teve como objetivo Investigar quais as informações que os homens têm a respeito da Política de Saúde do homem, identificando suas concepções de saúde, o que o leva a procurar o serviço de saúde e quais suas informações sobre promoção da saúde. Foi realizada em uma instituição do Noroeste do RS, de março a maio de 2011. Participaram 25 homens de faixa etária entre 20 a 60 anos. Observou-se que os homens procuram pouco o serviço de saúde para prevenção, a maioria nem sabe da existência da política de atenção ao homem, este ainda tem muito preconceito em fazer exames preventivos. Através dos dados, concluiu-se que os homens têm dificuldade em reconhecer suas necessidades, devido aos paradigmas de invulnerabilidade criados pelos mesmos.
+DESCRITORES: Política de Saúde do Homem; Promoção da Saúde; Vulnerabilidade. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Débora Schlotefeldt Siniak - Coordenador / Zaléia Prado de Brum - Integrante / Claudiane Escobar da Silva - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Enfermagem. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Saúde Coletiva. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Enfermagem / Subárea: Enfermagem em Saúde Mental. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIDAL, C. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span>VIDAL, C. P. ; SOUZA, M. M. ; <b>SINIAK, D. S.</b> . A IMPORTÂNCIA DA EDUCAÇÃO CONTINUADA COM OS AGENTES COMUNITÁRIOS DE SAÚDE: RELATO DE EXPERIÊNCIA. SANARE (SOBRAL)<sup><img id='16768019_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16768019' /></sup>, v. 16, p. 130-135, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16768019&volume=16&issue=&paginaInicial=130&titulo=A IMPORTÂNCIA DA EDUCAÇÃO CONTINUADA COM OS AGENTES COMUNITÁRIOS DE SAÚDE: RELATO DE EXPERIÊNCIA&sequencial=1&nomePeriodico=SANARE (SOBRAL)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PINHO, L. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; SILVA, A. B. ; <b>SINIAK, D. S.</b> ; ARAUJO, L. B. ; FOLADOR, B. . Análise da articulação da rede para o cuidado ao usuário de crack.. Revista Baiana de Enfermagem (Online)<sup><img id='21788650_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21788650' /></sup>, v. 31, p. 1-9-9, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21788650&volume=31&issue=&paginaInicial=1-9&titulo=Análise da articulação da rede para o cuidado ao usuário de crack.&sequencial=2&nomePeriodico=Revista Baiana de Enfermagem (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVA, A. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1983-1447.2016.esp.68447" target="_blank"></a>SILVA, A. B. ; PINHO, Leandro Barbosa de ; OLSCHOWSKY, A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b> ; NUNES, C. K. . O cuidado ao usuário de crack: estratégias e práticas de trabalho no território. REVISTA GAÚCHA DE ENFERMAGEM<sup><img id='19831447_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19831447' /></sup>, v. 37, p. e68447, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1983-1447.2016.esp.68447&issn=19831447&volume=37&issue=&paginaInicial=e68447&titulo=O cuidado ao usuário de crack: estratégias e práticas de trabalho no território&sequencial=3&nomePeriodico=REVISTA GAÚCHA DE ENFERMAGEM" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SINIAK, D. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> . CARACTERIZAÇÃO DO APOIO EMOCIONAL RECEBIDO POR FAMILIARES DE USUÁRIOS DE CRACK. Revista de Enfermagem UFPE On Line<sup><img id='19818963_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19818963' /></sup>, v. 9, p. 7656, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19818963&volume=9&issue=&paginaInicial=7656&titulo=CARACTERIZAÇÃO DO APOIO EMOCIONAL RECEBIDO POR FAMILIARES DE USUÁRIOS DE CRACK&sequencial=4&nomePeriodico=Revista de Enfermagem UFPE On Line" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SINIAK, DÉBORA SCHLOTEFELDT</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4025/cienccuidsaude.v14i3.26019" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, DÉBORA SCHLOTEFELDT</a></b>; PINHO, LEANDRO BARBOSA DE . <b> CaracterizaÃ§Ã£o do apoio de informaÃ§Ã£o recebido por familiares de usuÃ¡rios de crack / Caracterization of the support information received by familiars of crack users <b>. Ciência, Cuidado & Saúde<sup><img id='16773861_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16773861' /></sup>, v. 14, p. 1339-1345, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.4025/cienccuidsaude.v14i3.26019&issn=16773861&volume=14&issue=&paginaInicial=1339&titulo=<b> CaracterizaÃ§Ã£o do apoio de informaÃ§Ã£o recebido por familiares de usuÃ¡rios de crack / Caracterization of the support information received by familiars of crack users <b>&sequencial=5&nomePeriodico=Ciência, Cuidado & Saúde" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVA, L.S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>SILVA, L.S. ; <b>Siniak, D.S.</b> ; da Silva, A.B. ; Pinho, L.B. . CARACTERIZAÇÃO DA PRODUÇÃO CIENTÍFICA DA ENFERMAGEM BRASILEIRA SOBRE CRACK: UMA REVISÃO INTEGRATIVA. Revista Baiana de Enfermagem (Online)<sup><img id='21788650_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21788650' /></sup>, v. 28, p. 86, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21788650&volume=28&issue=&paginaInicial=86&titulo=CARACTERIZAÇÃO DA PRODUÇÃO CIENTÍFICA DA ENFERMAGEM BRASILEIRA SOBRE CRACK: UMA REVISÃO INTEGRATIVA&sequencial=6&nomePeriodico=Revista Baiana de Enfermagem (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>da Silva, A.B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>da Silva, A.B. ; Gomes, BCF ; Torres, OM ; <b>SINIAK, D. S.</b> . APOIO MATRICIAL E REDES DE CUIDADO INTEGRAL EM SAÚDE MENTAL. Revista de Pesquisa: Cuidado é Fundamental (Online)<sup><img id='21755361_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21755361' /></sup>, v. 2, p. 3655-3666, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21755361&volume=2&issue=&paginaInicial=3655&titulo=APOIO MATRICIAL E REDES DE CUIDADO INTEGRAL EM SAÚDE MENTAL&sequencial=7&nomePeriodico=Revista de Pesquisa: Cuidado é Fundamental (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SINIAK, D. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; da Silva, A.B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> . RELATO DE EXPERIÊNCIA DE ESTÁGIO DE DOCÊNCIA NA ÁREA DE ENFERMAGEM PSIQUIÁTRICA E SAÚDE MENTAL. Ciência, Cuidado e Saúde (Online)<sup><img id='19847513_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19847513' /></sup>, v. 12, p. 593-598, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19847513&volume=12&issue=&paginaInicial=593&titulo=RELATO DE EXPERIÊNCIA DE ESTÁGIO DE DOCÊNCIA NA ÁREA DE ENFERMAGEM PSIQUIÁTRICA E SAÚDE MENTAL&sequencial=8&nomePeriodico=Ciência, Cuidado e Saúde (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SINIAK, DÉBORA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.9789/2175-5361.2013v5n4p503" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, DÉBORA</a></b>; BRUM, ZALÉIA . ADHERENCE TO MEDICATION THERAPY IN USERS OF PSYCHOACTIVE SUBSTANCES. Revista de Pesquisa: Cuidado e Fundamental (Online)<sup><img id='21755361_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21755361' /></sup>, v. 5, p. 503-509, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.9789/2175-5361.2013v5n4p503&issn=21755361&volume=5&issue=&paginaInicial=503&titulo=ADHERENCE TO MEDICATION THERAPY IN USERS OF PSYCHOACTIVE SUBSTANCES&sequencial=9&nomePeriodico=Revista de Pesquisa: Cuidado e Fundamental (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SINIAK, D. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. . A gíria: a comunicação de adolescentes usuários de substâncias psicoativas. Revista de Enfermagem da UFSM<sup><img id='21797692_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='21797692' /></sup>, v. 1, p. 403-411, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21797692&volume=1&issue=&paginaInicial=403&titulo=A gíria: a comunicação de adolescentes usuários de substâncias psicoativas&sequencial=10&nomePeriodico=Revista de Enfermagem da UFSM" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CLARO, L. V. ; Comis, V.P. ; OLIVEIRA, S. S. ; CASSOL, A. S. ; SOUZA, M. B. ; <b>SINIAK, DÉBORA</b> . UTILIZAÇÃO DE GRUPO DE USUÁRIOS COMO FORMA DE CUIDADO EM UM CENTRO DE ATENÇÃO PSICOSSOCIAL: UM RELATO DE EXPERIÊNCIA. In: 12º Congresso Internacional da Rede Unida, 2016, Campo Grande - MS. 12º Congresso Internacional da Rede Unida, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CLARO, L. V. ; STRACKE, E. M. ; PIUCCO, J. ; BACHINSKI, S. R. ; NILSON, C. R. ; SOARES, S. L. S. ; RECART, A. T. L. ; <b>SINIAK, DÉBORA</b> . TUDO MUDA A PARTIR DO OLHAR. In: 12º Congresso Internacional da Rede Unida, 2016, Campo Grande - MS. 12º Congresso Internacional da Rede Unida, 2016. v. 2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMPOS, L. ; OLIVEIRA, M. C. ; STRACKE, E. M. ; <b>SINIAK, DÉBORA</b> ; TORRES, O. M. . Educação Permanente: Estratégias de qualificação na atenção em Saúde Mental. In: 5º Congresso Brasileiro de Saúde Mental, 2016, São Paulo - SP. 5º Congresso Brasileiro de Saúde Mental, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MESSA, C. E. ; <b>SINIAK, D. S.</b> ; GASPARATTO, B. S. R. ; MARQUES, C. L. M. ; RIOS, E. M. . IMPLEMENTAÇÃO DOS CUIDADOS DE ENFERMAGEM EM UM SERVIÇO DE SAÚDE MENTAL: UM RELATO DE EXPERIÊNCIA. In: VII SIEPE, 2015, Alegrete. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TARRAGO, N. R. ; <b>SINIAK, D. S.</b> ; SANTANA, C. O. . EDUCAÇÂO EM SAÙDE: A IMPORTÂNCIA DOS HÁBITOS DE HIGIENE. In: VII SIEPE, 2015, Alegrete. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COFFY, G. ; <b>SINIAK, D. S.</b> . A IMPORTÂNCIA DAS OFICINAS TERAPÊUTICAS PARA OS USUÁRIOS DO CAPS: RELATO DE EXPERIÊNCIA. In: VII SIEPE, 2015, Alegrete. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDAL, C. P. ; SOUZA, M. M. ; <b>SINIAK, D. S.</b> . EDUCAÇÃO CONTINUADA EM SAÚDE MENTAL COM AGENTES COMUNITÁRIOS DE SAÚDE: RELATO DE EXPERIÊNCIA. In: VII SIEPE, 2015, Alegrete. Anais do Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CLARO, L. V. ; DELEVATI, D. S. ; <b>SINIAK, DÉBORA</b> . UTILIZAÇÃO DA MÚSICA COMO UM REDUTOR DE ANSIEDADE NO TRATAMENTO DA DEPENDÊNCIA QUÍMICA. In: VII Salão Internacional de Ensino, Pesquisa e Extensão, 2015, Alegrete - RS. VII Salão Internacional de Ensino, Pesquisa e Extensão, 2015. v. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; da Silva, A.B. ; BANDEIRA, A. G. . PROGRAMA DE SAÚDE NA ESCOLA ESTREITANDO LAÇOS E ROMPENDO PARADIGMAS: PREVENÇÃO DO USO DE DROGAS NA ESCOLA. In: 17º Seminário Nacional de Pesquisa em Enfermagem - SENPE - 'O Clássico e o Emergente: Desafios da Pesquisa em Enfermagem'., 2013. "O Clássico e o Emergente: Desafios da Pesquisa em Enfermagem"., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L.S. ; <b>SINIAK, D. S.</b> ; da Silva, A.B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> . PRODUÇÃO CIENTÍFICA DA ENFERMAGEM BRASILEIRA SOBRE O CRACK. In: 17º Seminário Nacional de Pesquisa em Enfermagem - SENPE - 'O Clássico e o Emergente: Desafios da Pesquisa em Enfermagem'., 2013, Natal - RN. "O Clássico e o Emergente: Desafios da Pesquisa em Enfermagem"., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; SILVA, A. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> . Implicações no Processo de Ensino-Aprendizagem na área de Enfermagem Psiquiátrica e Saúde Mental. In: 65° Congresso Brasileiro de Enfermagem, 2013, Rio de Janeiro. Enfermagem e o Cuidado com a Vida. Rio de Janeiro: Aben, 2013. v. 1. p. 5177-5178. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; SILVA, A. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> . AS REDES DE APOIO SOCIAL NO COTIDIANO DA FAMÍLIA DE USUÁRIOS DE CRACK: CONSIDERAÇÕES INICIAIS. In: 65° Congresso Brasileiro de Enfermagem, 2013, Rio de Janeiro. Enfermagem e o Cuidado com a Vida. Rio de Janeiro: Aben, 2013. v. 1. p. 2738-2739. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. B. ; SILVA, T. J. ; <b>SINIAK, D. S.</b> ; BANDEIRA, A. G. . INTERDISCIPLINARIDADE NA FORMAÇÃO INTEGRAL DO ENFERMEIRO: AS ETNO-NARRATIVAS COMO FERRAMENTA. In: 65° Congresso Brasileiro de Enfermagem, 2013, Rio de Janeiro. Enfermagem e o Cuidado com a Vida. Rio de Janeiro: Aben, 2013. v. 1. p. 5404-5406. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; <b>SINIAK, D. S.</b> . ANÁLISE DA CONCEPÇÃO DE TERRITÓRIO POR TRABALHADORES DE UM CAPS AD: CONSIDERAÇÕES INICIAIS. In: 65° Congresso Brasileiro de Enfermagem, 2013, Rio de Janeiro. Enfermagem e o Cuidado com a Vida. Rio de Janeiro: Aben, 2013. v. 1. p. 3414-3415. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. ; Elise Stenhaus . CRACK: CAMINHOS E DESCAMINHOS. In: 63° Congresso Brasileiro de Enfermagem, 2011, Maceió - AL. "(Re)criação e Inovação da Enfermagem, 2011. p. 2662-2665. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; Teixeira, E.G. ; SOARES, N. V. . DIMENSIONAMENTO DE PESSOAL: SEGURANÇA DO PACIENTE E QUALIDADE DA ASSISTÊNCIA. In: 63° Congresso Brasileiro de Enfermagem, 2011, Maceió - AL. "(Re)criação e Inovação da Enfermagem, 2011. p. 4842-4846. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. . A COMUNICAÇÃO NO COTIDIANO DO ADOLESCENTE E A PROMOÇÃO DO CUIDADO DE ENFERMAGEM. In: 63° Congresso Brasileiro de Enfermagem, 2011, Maceió - AL. (Re)criação e Inovação da Enfermagem, 2011. p. 2666-2669. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; SOARES, N. V. ; Teixeira, E.G. . Dimensionamento de Pessoal: Segurança do Paciente e Qualidade do Cuidado. In: XI Semana Acadêmica de Enfermagem - X Mostra de Trabalhos Científicos e II Encontro de Egressos do Curso de Enfermagem, 2011, Santo Ângelo. Faces e Inter-faces do cuidado em Enfermagem, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PELENTIR, A. ; Heuser, H ; MELLER, V ; Piasecki, C ; <b>SINIAK, D. S.</b> ; ZUSE, C. L. . Proposta de Implantação da Consulta de Enfermagem Pré-Cirúrgico - Um Relato de Experiência. In: XI Semana Acadêmica de Enfermagem - X Mostra de Trabalhos Científicos e II Encontro de Egressos do Curso de Enfermagem, 2011, Santo Ângelo. Faces e Inter-faces do cuidado em Enfermagem, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; SILVA, C. E. ; BRUM, Z. P. . A Promoção da Saúde Sob a Ótica do Homem. In: XI Semana Acadêmica de Enfermagem - X Mostra de Trabalhos Científicos e II Encontro de Egressos do Curso de Enfermagem, 2011, Santo Ângelo. Faces e Inter-faces do cuidado em Enfermagem, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; SILVA, C. E. ; BRUM, Z. P. . A política de Saúde do Homem em Discussão. In: XI Semana Acadêmica de Enfermagem - X Mostra de Trabalhos Científicos e II Encontro de Egressos do Curso de Enfermagem, 2011, Santo Ângelo. Faces e Inter-faces do cuidado em Enfermagem, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. . Dependentes de Substâncias Psicoativas X Tratamento Medicamentoso. In: XI Semana Acadêmica de Enfermagem - X Mostra de Trabalhos Científicos e II Encontro de Egressos do Curso de Enfermagem, 2011, Santo Ângelo. Faces e Inter-faces do cuidado em Enfermagem, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. PERFIL SÓCIO ECONÔMICO CULTURAL DE USUÁRIOS DE SUBSTÂNCIA PSICOATIVA. In: 62° Congresso Brasileiro de Enfermagem, 2010, Florianópolis. Organização e Visibilidade Profissional, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. A COMUNICAÇÃO EM ENFERMAGEM NA EDUCAÇÃO PARA SAÚDE COM ADOLESCENTES EM SITUAÇÃO DE VULNERABILIDADE. In: 62° Congresso Brasileiro de Enfermagem, 2010, Florianóplolis. Organização e Visibilidade Profissional, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUM, Z. P. ; <b>SINIAK, D. S.</b> . SEXUALIDADE NA ADOLESCÊNCIA: EDUCANDO PARA PROMOVER SAÚDE. In: 62° Congresso Brasileiro de Enfermagem, 2010, Florianóplis. Organização e Visibilidade Profissional, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. ; SILVA, C. E. ; GUERIN, D. . PROMOÇÃO DA SAÚDE: VENCENDO O TABACO. In: 62° Congresso Brasileiro de Enfermagem, 2010, Florianópolis. Organização e Visibilidade Profissional, 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STAMM, B. ; SIMON, B. ; GARCIA, R. P. ; <b>SINIAK, D. S.</b> . Perspectivas do cuidado com famílias: a experiência de docente em um curso de graduação em enfermagem. In: II Congresso Internacional de Enfermagem à Família, 2016, Maringá - PR. II Congresso Internacional de Enfermagem à Família, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, E. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; ESLABAO, A. D. ; SILVA, A. B. ; <b>SINIAK, D. S.</b> ; CASSOLA, T. P. P. . CUIDADO AO USUÁRIO DE CRACK: PONTOS EMBLEMÁTICOS DE ACESSO A REDE. In: Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016, Santa Maria. Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016. p. 99-100. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESLABAO, A. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; SANTOS, E. O. ; <b>SINIAK, D. S.</b> ; SILVA, A. B. ; CASSOLA, T. P. P. . ESTRATÉGIA INOVADORA DE CUIDADO AOS USUÁRIOS DE DROGAS: POTENCIALIDADES E DESAFIOS. In: Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016, Santa Maria. Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016. p. 119-220. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESLABAO, A. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; SANTOS, E. O. ; <b>SINIAK, D. S.</b> ; SILVA, A. B. ; CASSOLA, T. P. P. . JUDICIALIZAÇÃO E INTERNAÇÕES COMPULSÓRIAS: CUIDANDO DOS USUÁRIOS DE DROGAS. In: Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016, Santa Maria. Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016. p. 115-116. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; <b>SINIAK, D. S.</b> ; OLSCHOWSKY, A. ; ESLABAO, A. D. ; SANTOS, E. O. . DESAFIOS DA ATENÇÃO BÁSICA NO CUIDADO AO USUÁRIO DE CRACK. In: Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016, Santa Maria. Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016. p. 103-104. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, E. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; ESLABAO, A. D. ; SILVA, A. B. ; <b>SINIAK, D. S.</b> ; CASSOLA, T. P. P. . INTERSETORIALIDADE NO CUIDADO AO USUÁRIO DE CRACK. In: Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016, Santa Maria. Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016. p. 107-108. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASSOLA, T. P. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; ESLABAO, A. D. ; SILVA, A. B. ; <b>SINIAK, D. S.</b> ; SANTOS, E. O. . FUNCIONAMENTO DO CAPS AD COMO DISPOSITIVO DE CUIDADO AO USUÁRIO DE CRACK.. In: Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016, Santa Maria. Seminário Internacional sobre Drogas, Políticas Públicas e Descriminalização, 2016. p. 77-78. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; SILVA, A. B. ; ARAUJO, L. B. ; FOLADOR, B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> . ANÁLISE DA ARTICULAÇÃO DA REDE EM SAÚDE MENTAL PARA O ATENDIMENTO A USUÁRIOS DE CRACK. In: XIII ENCONTRO INTERNACIONAL DE PESQUISADORES EM SAÚDE MENTAL, 2014, RIBEIRÃO PRETO. SAÚDE MENTAL E SOCIEDADE CONTEMPORÂNEA, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. B. ; WACHTER, M. Z. D. ; INCHAUSPE, J. A. F. ; ANDRADE, S. C. ; SILVA, A. A. ; <b>SINIAK, D. S.</b> . ACOLHIMENTO EM SAÚDE MENTAL E ATENÇÃO PRIMÁRIA: POSSIBILIDADES E DESAFIOS. In: XIII ENCONTRO INTERNACIONAL DE PESQUISADORES EM SAÚDE MENTAL, 2014, RIBEIRÃO PRETO. SAÚDE MENTAL E SOCIEDADE CONTEMPORÂNEA, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; SILVA, A. B. . REDE DE APOIO SOCIAL DE FAMILIARES DE USUÁRIOS DE CRACK. In: XIII ENCONTRO INTERNACIONAL DE PESQUISADORES EM SAÚDE MENTAL, 2014, RIBEIRÃO PRETO. SAÚDE MENTAL E SOCIEDADE CONTEMPORÂNEA, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BORTOLETTI, A. P. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; SILVA, A. B. ; <b>SINIAK, D. S.</b> . Relato de experiência de estágio de enfermagem no contexto da saúde mental em um caps ad. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WITT, R. R. ; BANDEIRA, A. G. ; SILVA, A. B. ; <b>SINIAK, D. S.</b> . A saúde coletiva na formação do técnico de enfermagem. In: 24º Semana de Enfermagem do HCPA, 2013. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. F. ; WACHTER, M. Z. D. ; COSTA, V. M. ; <b>SINIAK, D. S.</b> . ABORDAGEM EDUCATIVA NA ESTRATÉGIA DE SAÚDE DA FAMÍLIA A USUÁRIOS HIPERTENSOS E DIABÉTICOS. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. F. ; COSTA, V. M. ; WACHTER, M. Z. D. ; <b>SINIAK, D. S.</b> . DOENÇAS SEXUALMENTE TRANSMISSIVEIS NA TERCEIRA IDADE E MEIOS DE PREVENÇÃO NA ESTRATÉGIA DE SAÚDE DA FAMÍLIA. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. F. ; WACHTER, M. Z. D. ; <b>SINIAK, D. S.</b> ; COSTA, V. M. . O PAPEL DA FAMÍLIA NA VIDA DE USUÁRIOS DE ÁLCOOL E OUTRAS DROGAS: UMA REVISÃO INTEGRATIVA. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; WACHTER, M. Z. D. ; SANTOS, C. F. ; COSTA, V. M. ; DEUS, E. F. A. . VISITA DOMICILIÁRIA: UMA FERRAMENTA FACILITADORA NA PROMOÇÃO DA SAÚDE NA ESTRATÉGIA DE SAÚDE DA FAMÍLIA. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; WACHTER, M. Z. D. . TRABALHANDO A SEXUALIDADE ATRAVÉS DE EDUCAÇÃO EM SAÚDE AO PÚBLICO ESCOLAR. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; WACHTER, M. Z. D. ; COSTA, V. M. ; SANTOS, C. F. . ACOLHIMENTO EM SAÚDE MENTAL: UM RELATO DE EXPERIÊNCIA. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KOTTWITZ, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3888411927408489" target="_blank">PINHO, L. B.</a> ; SCHNEIDER, J. F. ; NASI, C. ; WETZEL, C. ; OLSCHOWSKY, A. ; LACCHINI, A. J. B. ; <b>SINIAK, D. S.</b> ; DORNELLES, E. R. . O Cuidado ao Usuário de Crack na Rede de Serviços de Saúde Mental na Perspectiva da Família. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WACHTER, M. Z. D. ; <b>SINIAK, D. S.</b> ; SANTOS, C. F. ; COSTA, V. M. . CONSULTA DE ENFERMAGEM NA PREVENÇÃO DO CÂNCER DE MAMA. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, V. M. ; WACHTER, M. Z. D. ; SANTOS, C. F. ; <b>SINIAK, D. S.</b> . A ASSISTÊNCIA DE ENFERMAGEM AO USUÁRIO DE SUBSTÂNCIAS PSICOATIVAS: UMA REVISÃO INTEGRATIVA. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, V. M. ; SANTOS, C. F. ; WACHTER, M. Z. D. ; <b>SINIAK, D. S.</b> . AÇÕES EDUCATIVAS: UMA FERRAMENTA PARA MELHORAR A ADESÃO DO IDOSO DIABÉTICO AO TRATAMENTO. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BANDEIRA, A. G. ; TORRES, O. M. ; FURTADO, B. ; SILVA, A. B. ; <b>SINIAK, D. S.</b> . Saúde Mental e loucura: imagens e narrativas de equipes multiprofissionais na cidade de Uruguaiana.. In: 24º Semana de Enfermagem do HCPA, 2013, Porto Alegre. Segurança: uma necessidade para quem cuida e para quem é cuidado., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. . PROMOÇÃO DA SAÚDE VENCENDO O TABACO. In: X SEMANA ACADÊMICA DE ENFERMAGEM IX MOSTRA DE TRABALHOS CIENTÍFICOS, 2010, Santo Ângelo. "O cuidado de Enfermagem em suas diferentes especificidades", 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. . A IDENTIDADE CULTURAL NO PROCESSO DE INTERAÇÃO SOCIAL DE ADOLESCENTES EM SITUAÇÃO DE VULNERABILIDADE. In: X SEMANA ACADÊMICA DE ENFERMAGEM IX MOSTRA DE TRABALHOS CIENTÍFICOS, 2010, Santo Ângelo. "O cuidado de Enfermagem em suas diferentes especificidades", 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. Mistérios da mente: aliada ou inimiga?. 2016. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. Novas práticas em Saúde Mental e a Humanização do Cuidado. 2015. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. Novas Práticas e Saberes em Saúde Mental e a Humanização do cuidado aos portadores de Sofrimentos Psíquico e Usuários de Drogas. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. . A COMUNICAÇÃO EM ENFERMAGEM NA EDUCAÇÃO PARA SAÚDE COM ADOLESCENTES EM SITUAÇÃO DE VULNERABILIDADE.. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>; BRUM, Z. P. . A IDENTIDADE CULTURAL NO PROCESSO DE INTERAÇÃO SOCIAL DE ADOLESCENTES EM SITUAÇÃO DE VULNERABILIDADE. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, DÉBORA</a></b>. CURSO DE REDUTOR DE DANOS. 2016. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. Novas práticas e saberes em Saúde Mental e a humanização do cuidado as pessoas com transtorno psíquico e usuários de drogas.. 2013. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. VIOLÊNCIA - Semana de Formação Pedagógica. 2010. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SINIAK, DÉBORA</b>.  Participação em banca de Luciana Pinheiro Alfaro. A escola de educação infantil e a criança com depressão: percepções acerca da neurociência cognitiva. 2016. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Neurociência Aplicada à Educação)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIMON, B.; GARCIA, R. P.; <b>SINIAK, D. S.</b>.  Participação em banca de Marieli Barbosa.PERFIL DAS PESSOAS COM OSTOMIAS DE UM MUNICÍPIO DA  FRONTEIRA-OESTE DO RIO GRANDE DO SUL.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIBEIRO, L. B.; TORRES, O. M.; <b>SINIAK, D. S.</b>.  Participação em banca de Márcia Gauer Ribeiro.GRUPO TERAPÊUTICO: FERRAMENTA DO CUIDADO EM SAÚDE MENTAL EM UM CAPS AD III.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARCE, J. P. S.; CARPES, P. B. M.; <b>Siniak, Débora Schlotefeldt,</b>.  Participação em banca de João Pedro Sperluk Arce.Transtorno do Espectro Autista na escola: uma proposta para abordar este tema da saúde mental junto a escolares.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIPINSKI, J. M.; HERRERA, A. L.; <b>SINIAK, D. S.</b>.  Participação em banca de Andriele de Lima Herrera.Violência obstétrica: da invisibilidade à denúncia.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERRARI, L. S.; BORGES, L. R.; <b>SINIAK, D. S.</b>.  Participação em banca de Larissa Souza Ferrari.Em busca de um conceito de qualidade de vida a partir do olhar dos usuários de substâncias psicoativas.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS, A. L.; TIER, C. G.; <b>SINIAK, D. S.</b>.  Participação em banca de Andriele Linck Dias.Conhecimento dos Cuidadores de Idosos Domiciliados sobre Lesão por Pressão e a Implicância no Cuidado.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HALLEN, D.; HARTER, J.; <b>SINIAK, D. S.</b>.  Participação em banca de David Hallen.Avaliação da qualidade de sono dos profissionais de enfermagem que trabalham no período noturno.
+							2016. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, M. C.; SOUZA, M. B.; <b>SINIAK, D. S.</b>.  Participação em banca de Moroni Correa de Oliveira.Implantação da Escola de Redução de Danos e a Educação Permanente no município de Uruguaiana, RS.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, D. B.; SOUZA, M. B.; <b>SINIAK, D. S.</b>.  Participação em banca de Diënce Beltran Silveira.A Percepção dos trabalhadores do CAPS AD acerca do Cuidado Prestado a Usuários de Álcool e outras Drogas.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, M. A.; HARTER, J.; <b>SINIAK, DÉBORA</b>.  Participação em banca de Marco Aurélio Martins.A educação em saúde com grupos de usuários dos serviços de saúde amparada pela integralidade: revisão sistematizada..
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, R. C. S.; LIPINSKI, J. M.; <b>Siniak, Débora Schlotefeldt,</b>.  Participação em banca de Roger Cezario Santos da Silva.Conhecendo as intervenções de enfermeiras para identificação precoce de quadros de depressão.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAZIAZENO, M.; TIER, C. G.; <b>SINIAK, D. S.</b>.  Participação em banca de Marilaine Naziazeno.Qualidade de vida e suporte familiar segundo a percepção da pessoa idosa.
+							2015. Trabalho de Conclusão de Curso (Graduação em Enfermagem)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SINIAK, D. S.</b>; HARTER, J.; MOREIRA, B. R.. Processo simplificado professor substituto Curso Enfermagem&#8207;.
+							2016. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SINIAK, D. S.</b>. I Simpósio Integrado de Saúde no Pampa.
+							2016.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SINIAK, D. S.</b>. 33º Seminário de Extensão Universitária da Região Sul ? SEURS.
+							2015.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SINIAK, D. S.</b>. VII SIEPE.
+							2015.
+							Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º Fórum de Direitos Humanos e Saúde Mental. 2017. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5º Congresso Brasileiro de Saúde Mental. Educação Permanente: Estratégias de qualificação na atenção em Saúde Mental. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Parada Gaúcha do Orgulho Louco. 2015. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Congresso Brasileiro da SBNp | II CONED. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Encontro Internacional de Pesquisadores em Saúde Mental e Especialidstas em Enfermagem Psiquiátrica.REDE DE APOIO SOCIAL DE FAMILIARES DE USUÁRIOS DE CRACK.
+							2014. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">17º Seminário Nacional de Pesquisa em Enfermagem - SENPE - "O Clássico e o Emergente: Desafios da Pesquisa em Enfermagem"..PROGRAMA DE SAÚDE NA ESCOLA ESTREITANDO LAÇOS E ROMPENDO PARADIGMAS: PREVENÇÃO DO USO DE DROGAS NA ESCOLA. 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">24º Semana de Enfermagem - HCPA - EENF UFRGS.ACOLHIMENTO EM SAÚDE MENTAL: UM RELATO DE EXPERIÊNCIA. 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">65º Congresso Brasileiro de Enfermagem. AS REDES DE APOIO SOCIAL NO COTIDIANO DA FAMÍLIA DE USUÁRIOS DE CRACK: CONSIDERAÇÕES INICIAIS. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8º Edição Mental Tchê (Encontro Estadual de Luta Antimanicomial).
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cuidado, Drogas e Políticas Públicas - Cursos Rede Multicêntrica. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">63° Congresso Brasileiro de Enfermagem. "(Re) criação e Inovação da Enfermagem. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Emergências Psiquiátricas - VI Encontro Ibero - Americano de Urgência e Emergência - IBAMEUE. 2011. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Queimaduras - VI Encontro Ibero - Americano de Urgência e Emergência - IBAMEUE.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Encontro Ibero - Americano de Urgência e Emegência - IBAMEUE.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Semana Acadêmica de Enfermagem - X Mostra de Trabalhos Científicos e II Encontro de Egressos do Curso de Enfermagem.Dependentes de Substâncias Psicoativas X Tratamento Medicamentoso.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">62° Congresso Brasileiro de Enfermagem. Organização e Visibilidade Priofissional. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III FÓRUM SOCIAL MISSÕES. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Jornada em Saúde do trabalhador.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X SEMANA ACADÊMICA DE ENFERMAGEM IX MOSTRA DE TRABALHOS CIENTÍFICOS.A IDENTIDADE CULTURAL NO PROCESSO DE INTERAÇÃO SOCIAL DE ADOLESCENTES EM SITUAÇÃO DE VULNERABILIDADE.. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Fórum Internacional Integrado de Cidadania - educação, Cultura, Saúde e Meio Ambiente. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1° Seminário Estadual de Saúde Bucal na Atenção Básica e III Jornada de Câncer de Boca e Pescoço. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Jornada Missioneira de enfermagem - IX Semana Acadêmica de Enfermagem - VII Mostra Científica de Trabalhos.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV jornada Interinstitucional de Enfermagem de Santa Rosa e II Jornada integrada de Enfermagem da Região Noroeste-RS.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">Siniak, Débora Schlotefeldt,</a></b>. 33º SEURS. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dionatan dos Santos Delevati.
+							Perfil das tentativas de suicídio no município de Uruguaiana/RS..
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Débora Schlotefeldt Siniak.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tain Barth.
+							Perfil dos Profissionais que atuam em Serviços da Rede de Saúde Mental de um Município da Fronteira Oeste do Rio Grande do Sul.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Débora Schlotefeldt Siniak.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anelize Carneiro Araújo.
+							Educação Permanente: desafios e potencialidades no processo de tranformação das prátics em saúde mental.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Débora Schlotefeldt Siniak.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sara Stephani Martins Paz Bandeira.
+							Influência dos fatores motivacionais no tratamento de usuário de substâncias psicoativas.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Débora Schlotefeldt Siniak.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marciele Barcelos Ávila.
+							INCLUSÃO DAS AÇÕES DE SAÚDE MENTAL NA ATENÇÃO BÁSICA: POSSIBILIDADES E DESAFIOS.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Enfermagem)  - Universidade Federal do Pampa. Orientador: Débora Schlotefeldt Siniak.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="CursosCurtaEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8253689558366590" target="_blank">SINIAK, D. S.</a></b>. Novas práticas e saberes em Saúde Mental e a humanização do cuidado as pessoas com transtorno psíquico e usuários de drogas.. 2013. . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">* Possui Proficiência em Língua Inglesa desde 2010 pela URISAN.
+
+* Foi a colaboradora mais citada na Pesquisa de Satisfação do Cliente no mês de fevereiro/2011 pela Associação Hospital de Caridade de Santo Ângelo.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 01/07/2018 &agrave;s 15:39:25</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8253689558366590" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

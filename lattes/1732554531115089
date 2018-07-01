@@ -1,0 +1,3274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="/buscatextual/ruxitagentjs_2bnr_0.js" data-dtconfig="reportUrl=/dynaTraceMonitor|bandwidth=300|agentUri=/buscatextual/ruxitagentjs_2bnr_0.js|rid=RID_1518656880|rpid=1710846217|domain=cnpq.br"></script><link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Marta Fioravanti Carpes)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4737474E4&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=1732554531115089" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4737474E4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4737474E4"><div class="infpessoa">
+<h2 class="nome">Marta Fioravanti Carpes</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/1732554531115089</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 25/11/2016</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Fisioterapia pela Universidade Federal de Santa Maria (1995) e mestrado em Fisioterapia pelo Centro Universitário do Triângulo (2006). Atualmente é professor assistente da Universidade Federal do Pampa. Tem experiência na área de Fisioterapia Cardiorrespiratória Hospitalar e Ambulatorial. Açluna de doutorado no Programa de Ciências Pneumológicas da Universidade Federal do Rio Grande do Sul.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Marta Fioravanti Carpes<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CARPES, M. F.;CARPES, MARTA FIORAVANTI</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Pampa, Uruguaiana. <br class="clear" />Rodovia BR-472 - do km 581,000 ao km 581,999<br class="clear" />Salso de Baixo<br class="clear" />97508000 - Uruguaiana, RS - Brasil - Caixa-postal: 118<br class="clear" />Telefone: (55) 39110200<br class="clear" />URL da Homepage: <a target="blank" href="http://http://porteiras.unipampa.edu.br/uruguaiana/">http://http://porteiras.unipampa.edu.br/uruguaiana/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Ciências Pneumológicas<span class="ajaxCAPES" data-param="&codigoCurso=42001013020P0&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Orientador: Alexandre Simões Dias. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Fisioterapia<span class="ajaxCAPES" data-param="&codigoCurso=32028016003P8&nivelCurso=M"></span>. <br class="clear" />Centro Universitário do Triângulo, UNITRI, Brasil.
+		
+	<br class="clear" />Título: Validação da escala de atividade de vida diária em pacientes com Doença Pulmonar Obstrutiva Crônica (,Ano de Obtenção: 2006.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7744568375462855'><img src='images/curriculo/logolattes.gif' /></a>Anamaria Fleig Mayer.<br class="clear" />Palavras-chave: Dispnéia; Doença Pulmonar Obstrutiva Crônica; Validação de escalas e questionários.<br class="clear" />Grande área: Ciências da Saúde<br class="clear" />Grande Área: Ciências da Saúde / Área: Medicina. <br class="clear" />Setores de atividade: Saúde Humana. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Fisioterapia Cardiorrespiratória<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Tuiuti do Paraná, UTP, Brasil.
+		
+	<br class="clear" />Título: Desmame da ventilação mecânica em Neonatologia. <br class="clear" />Orientador: Esperidião Elias Aquim. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Fisioterapia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Atuação da Fisioterapia em Unidade de Saúde. <br class="clear" />Orientador: Maria Salete Vogt. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IV Curso de Pilates na Reabilitação Cardíaca.  (Carga horária: 106h). <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de formação continuada para docentes.  (Carga horária: 20h). <br class="clear" />Universidade do Vale do Itajaí, UNIVALI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de formação continuada para docentes.  (Carga horária: 44h). <br class="clear" />Universidade do Vale do Itajaí, UNIVALI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de formação continuada para docentes.  (Carga horária: 20h). <br class="clear" />Universidade do Vale do Itajaí, UNIVALI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de formação continuada para docentes.  (Carga horária: 12h). <br class="clear" />Universidade do Vale do Itajaí, UNIVALI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de formação continuada para docentes.  (Carga horária: 20h). <br class="clear" />Universidade do Vale do Itajaí, UNIVALI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçoamento em Fisioterapia Neurológica.  (Carga horária: 370h). <br class="clear" />Fundação Universidade Regional de Blumenau, FURB, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de formação continuada para docentes.  (Carga horária: 20h). <br class="clear" />Universidade do Vale do Itajaí, UNIVALI, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Advanced Course in PNF (3).  (Carga horária: 37h). <br class="clear" />Assoc Brasileira Divulg Met Neuroev Bobath, ABRADIMENE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Basic Course in PNF (1+2).  (Carga horária: 75h). <br class="clear" />Assoc Brasileira Divulg Met Neuroev Bobath, ABRADIMENE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso Básico de Tratamento Neuroevolutivo - Bobath.  (Carga horária: 270h). <br class="clear" />Assoc Brasileira Divulg Met Neuroev Bobath, ABRADIMENE, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso de Capacitação em Saúde Mental Coletiva.  (Carga horária: 120h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Assistente, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Hospital Santa Casa de Uruguaiana, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Supervisora de Estágio em Fisioterapia Hospitalar. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Fundação Universidade Regional de Blumenau, FURB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor Substituto, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2005 - 05/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Unidade de Terapia Intensiva do Hospital Santa Catarina, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Unidade Terapia Intensiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fisiologia do Exercício<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Faculdade Evangélica do Paraná, FEPAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor convidado</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora do Curso de Especialização em Fisioterapia em Pediatria e Neonatologia</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2003 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia em Neonatologia e Pediatria, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Follow Up do Recém Nato<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2005 - 11/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Neonatologia, . </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade do Vale do Itajaí, UNIVALI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 37</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2001 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Docente da disciplina de Fisioterapia emPediatria<br class="clear" />Supervisora de Estágio Supervisionado em Fisioterapia Cardiorrespiratória Ambulatorial<br class="clear" />Supervisora de Estágio Supervisionado em Fisioterapia Cardiorrespiratória Hospitalar<br class="clear" />Docente da disciplina de Fisioterapia Cardiovascular<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Profisio Assistência Fisioterápica, PROFISIO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Fisioterapeuta, Carga horária: 30</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atuação fisioterapêutica na área de Fisioterapia Respiratória em Unidade de Terapia Intensiva e Enfermarias</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/1997 - 12/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisioterapia Em Unidade de Terapia Intensiva, Nível: Aperfeiçoamento</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Supervisão de Estágio em Unidade de Terapia Intensiva<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/1997 - 12/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Unidade de Terapia Intensiva, Internação e Atendimento Ambulatorial. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Internação e Atend. Neurocirúrgicos/neurológicos clínicos. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Forma&ccedil;&atilde;o Continuada para profissionais, docentes e acad&ecirc;micos da &aacute;rea da sa&uacute;de'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formação Continuada para profissionais, docentes e acadêmicos da área da saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Universidade é e tem por obrigação ser, balizador constante do desenvolvimento científico de uma sociedade. A Unipampa, como Instituição Federal, tem que primar pelo desenvolvimento dos locais onde está estabelecida, tanto social, cultural e científico. Espera-se que todas as atividades desenvolvidas na Universidade tenham seus propósitos revertidos para a sociedade local. Com esse projeto se pretende fortalecer as práticas profissionais desenvolvidas no âmbito hospitalar, a partir das necessidades advindas deste. Além disso, poderemos fortalecer a parceria com o Hospital Santa Casa de Caridade de Uruguaiana, valorizar a formação profissional desenvolvida na Unipampa e ampliar a área de atuação de nossos egressos.
+Objetivo Principal:
+Propiciar a formação continuada dos acadêmica e profissionais da saúde que trabalham em ambiente hospitalar.
+Objetivos Secundários:
+- Estimular novas práticas no ambiente hospitalar;
+- Propiciar o desenvolvimento de novas pesquisas na área;
+- Capacitar acadêmicos e profissionais para novas práticas profissionais;
+- Ampliar a comunicação entre comunidade acadêmica, hospitalar e sociedade de Uruguaiana;
+- Desenvolver material didático-pedagógico sobre as atividades desenvolvidas.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Marta Fioravanti Carpes - Coordenador / Antônio Adolfo Matos Castro - Integrante.<br class="clear" /></div>
+</div><a name='PP_Grupo de estudos em semiologia pulmonar e exames complementares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de estudos em semiologia pulmonar e exames complementares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Discussão de temas relevantes do ponto de vista clínico de pacientes com doenças respiratórias em pacientes ambulatoriais e internação hospitalar. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (7) . <br class="clear" /><br class="clear" />Integrantes: Marta Fioravanti Carpes - Integrante / Antônio Adolfo Matos Castro - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Fisioterapia em Unidade de Terapia Intensiva Neonatal'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fisioterapia em Unidade de Terapia Intensiva Neonatal<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto será realizado com acadêmicos que concluíram a disciplina de fisioterapia em pneumologia II. Cada aluno terá uma carga horária de quatro horas semanais e realizarão os atendimentos com frequência de uma vez por semana por 47 semanas. Estes se revezarão em turnos para que todos os dias da semana sejam preenchidos.. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Marta Fioravanti Carpes - Coordenador / Antônio Adolfo Matos Castro - Integrante / Paula Tamchenco - Integrante / Paola Gomez - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Fisioterapia e Terapia Ocupacional / Subárea: Fisioterapia Cardiorrespiratória. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Fisioterapia e Terapia Ocupacional / Subárea: Fisioterapia Neurológica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende RazoavelmenteLê Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Terceiro lugar em tema livre - pôster - Pós graduação Sticto Senso "Validação da escala London Chest Activity of Daily Living em pacientes com DPOC no Brasil", Associação Brasileira de Fisioterapia Respiratória. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor Trabalho: Avaliação da Força e endurance da musculatura respiratória em Pacientes Submetidos a Gastroplastia, Federação Latino-Americana para Cirurgia da Obesidade. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CASTRO, ANTONIO ADOLFO MATTOS DE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.19141/2237-3756/lifestyle.v3.n1.p.49-66" target="_blank"></a>CASTRO, ANTONIO ADOLFO MATTOS DE ; KUMPEL, CLAUDIA ; PORTO, ELIAS FERREIRA ; MENEZES, ELLEN ; <b>CARPES, MARTA FIORAVANTI</b> ; MALHEIROS, RAFAEL TAMBORENA ; OLIVEIRA, SANDRA CELESTE . Análise comparativa dos níveis glicêmicos em indivíduos que praticam atividade física e sedentários. Life Style<sup><img id='22373756_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='22373756' /></sup>, v. 3, p. 49-66, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.19141/2237-3756/lifestyle.v3.n1.p.49-66&issn=22373756&volume=3&issue=&paginaInicial=49&titulo=Análise comparativa dos níveis glicêmicos em indivíduos que praticam atividade física e sedentários&sequencial=1&nomePeriodico=Life Style" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; CASTRO, A. A. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . LCADL Dyspnea Scale and Physical Activity in COPD Patients. Austin Journal of Musculoskeletal Disorders<sup><img id='23818948_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='23818948' /></sup>, v. 1, p. 1, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=23818948&volume=1&issue=&paginaInicial=1&titulo=LCADL Dyspnea Scale and Physical Activity in COPD Patients&sequencial=2&nomePeriodico=Austin Journal of Musculoskeletal Disorders" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Simon, Karen Muriel</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; CORREA, K. S. ; SANTOS, K. ; KARLOH, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . Relação entre a limitação nas atividades de vida diária (AVD) e o índice BODE em pacientes com doença pulmonar obstrutiva crônica. Revista Brasileira de Fisioterapia (Impresso)<sup><img id='14133555_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14133555' /></sup>, v. 15, p. 212-218, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14133555&volume=15&issue=&paginaInicial=212&titulo=Relação entre a limitação nas atividades de vida diária (AVD) e o índice BODE em pacientes com doença pulmonar obstrutiva crônica&sequencial=3&nomePeriodico=Revista Brasileira de Fisioterapia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Simon, Karen Muriel</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; HASS, Ana Paula ; ZIMMERMMAN, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . índice prognóstico de mortalidade BODE a atividade física em doentespulmonares obstrutivos crônicos. Revista Brasileira de Medicina do Esporte<sup><img id='15178692_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15178692' /></sup>, v. 15, p. 19-22, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15178692&volume=15&issue=&paginaInicial=19&titulo=índice prognóstico de mortalidade BODE a atividade física em doentespulmonares obstrutivos crônicos&sequencial=4&nomePeriodico=Revista Brasileira de Medicina do Esporte" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; JARDIM, J. R. ; GARROD, R. . Versão brasileira da escala London Chest Activity of Daily Living para uso em pacientes com doença pulmonar obstrutiva crônica. Jornal Brasileiro de Pneumologia<sup><img id='18063713_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18063713' /></sup>, v. 34, p. 143-151, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18063713&volume=34&issue=&paginaInicial=143&titulo=Versão brasileira da escala London Chest Activity of Daily Living para uso em pacientes com doença pulmonar obstrutiva crônica&sequencial=5&nomePeriodico=Jornal Brasileiro de Pneumologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Simon, Karen Muriel</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; IMHOF, Beatriz . Avaliação da mobilidade torácica em crianças saudáveis do sexo masculino pela medição do perímetro torácico. Revista Fisioterapia e Pesquisa<sup><img id='18092950_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='18092950' /></sup>, v. 13, p. 6-11, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18092950&volume=13&issue=&paginaInicial=6&titulo=Avaliação da mobilidade torácica em crianças saudáveis do sexo masculino pela medição do perímetro torácico&sequencial=6&nomePeriodico=Revista Fisioterapia e Pesquisa" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IMHOF, Beatriz</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>IMHOF, Beatriz ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Avaliação da capacidade vital pela ventilometria em crianças saudáveis do sexo masculino de 7 a 11 anos. Fisioterapia Brasil (São Paulo)<sup><img id='15189740_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15189740' /></sup>, v. 7, p. 168-171, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15189740&volume=7&issue=&paginaInicial=168&titulo=Avaliação da capacidade vital pela ventilometria em crianças saudáveis do sexo masculino de 7 a 11 anos&sequencial=7&nomePeriodico=Fisioterapia Brasil (São Paulo)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; BAUNGARTNER, R. ; LUNARDI, L. . Abordagem fisioterapêutica em um paciente imunodeprimido com história de derrame pleural tuberculoso: relato de caso. Fisioterapia em Movimento<sup><img id='01035150_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01035150' /></sup>, Curitiba, v. 17, n.1, p. 45-50, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01035150&volume=17&issue=&paginaInicial=45&titulo=Abordagem fisioterapêutica em um paciente imunodeprimido com história de derrame pleural tuberculoso: relato de caso&sequencial=8&nomePeriodico=Fisioterapia em Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NASSIF, P. A. N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>NASSIF, P. A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; FERRAZ, F. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; RIBAS FILHO, J. M. . Avaliação da força e endurance da musculatura respiratória em pacientes submetidos a gastroplastia. Revista Médica do Paraná<sup><img id='0100073X_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0100073X' /></sup>, v. 62, p. 10-14, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100073X&volume=62&issue=&paginaInicial=10&titulo=Avaliação da força e endurance da musculatura respiratória em pacientes submetidos a gastroplastia&sequencial=9&nomePeriodico=Revista Médica do Paraná" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, N. D. ; MARCO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Escala de dispnéia ?LCADL? e atividade física em indivíduos portadores de doença pulmonar obstrutiva crônica. In: XIV Encontro Latino Americano de Iniciação Científica, 2010, São José dos Campos. Anais do XIV Encontro Latino Americano de Iniciação Científica, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . Processo de validação da escala de atividade diária para indivíduos portadores de DPOC no Brasil. In: 9 Reunião Anual de Ciência, 2005, Uberlândia. Revista UNITRI. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; MALAFAIA, O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Volumes Pulmonares na Utilização de Ventilação Não-Invasiva em Pós-Operatório de Gastroplastia. In: Simpósio Latino Americano da IFSO, 2005, Foz do Iguaçu. Boletim da Sociedade Brasileira de Cirurgia Bariátrica. São Paulo: Target Consultoria em Comunicação Empresarial, 2005. v. 10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. . Avaliação da Força e Endurance da Musculatura respiratória em Pacientes Submetidos a Gastroplastia. In: Vi Congresso Brasileiro de Cirurgia da Obesidade, 2004, Rio de Janeiro. Boletim da Sociedade Brasileira de Cirurgia Bariátrica, 2004. v. 9. p. 44-45. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; MENDES, L. F. K. ; FERRAZ, F. L. ; MALAFAIA, O. . Prova de Função Pulmonar em Pacientes Obesos. In: VI Congresso Brasileiro de Cirurgia da Obesidade, 2004, Rio de Janeiro. Boletim da Sociedade Brasileira de Cirurgia Bariátrica, 2004. v. 9. p. 58-59. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; MALAFAIA, O. ; NASSIF, P. A. N. . Evolução dos Dados Vitais na Utilização de Ventilação Não-Invasiva em Pós-Operatório de Cirurgia Bariátrica. In: VI Congresso Brasileiro de Cirurgia da Obesidade, 2004, Rio de Janeiro. Boletim da Sociedade Brasileira de Cirurgia Bariátrica, 2004. v. 9. p. 54-56. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; MALAFAIA, O. ; NASSIF, P. A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> . Volumes Pulmonares na Utilização de Ventilação Não-Invasiva em Pós-Operatório de Gastroplastia. In: VI Congresso Brasileiro de Cirurgia da Obesidade, 2004, Rio de Janeiro. Boletim da Sociedade Brasileira de Cirurgia Bariátrica, 2004. v. 9. p. 59-59. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TEODOSIO, G. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . FORMAÇÃO CONTINUADA PARA PROFISSIONAIS, DOCENTES E ACADÊMICOS DA ÁREA DA SAÚDE. In: VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014, Bagé. Anais do VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORREA, P. T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . FISIOTERAPIA RESPIRATÓRIA EM PACIENTES INTERNADOS EM UNIDADE DE TERAPIA INTENSIVA NEONATAL. In: VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014, Bagé. Anais do VI Salão Internacional de Ensino, Pesquisa e Extensão, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JESIEN, S. ; TAVARES, G. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; Dumke, A. ; VARGAS, L. . Condições De Habitação: Um Reflexo Da Saúde Da População. In: Salão Internacional de Ensino, Pesquisa e Extensão, 2011, Uruguaiana. Anais do III Salão Internacional de Ensino, Pesquisa e Extensão, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VARGAS, L. ; Dumke, A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; TAVARES, G. M. S. ; JESIEN, S. . Perfil dos usuários de uma unidade básica de saúde do município de Uruguaiana RS. In: III Salão Internacional de Ensino, Pesquisa e Extensão, 2011, Uruguaiana. Anais do III Salão Internacional de Ensino, Pesquisa e Extensão, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Caracterização de uma amostra de pacientes portadores de DPOC da clínica de fisioterapia da UNIVALI quanto a sua dispnéia nas atividades de vida diária. In: IV Jornada Catarinense de Fisioterapia Cardiorrespiratória, 2006, Florianópolis. Anais da IV Jornada Catarinense de Fisioterapia Cardiorrespiratória, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, M. ; PACHECO, N. ; DEBATIN, C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; FERNANDES, M. . Treinamento muscular aeróbio em indivíduos portadores de DPOC. In: XXXIII Congresso Brasileiro de Pneumologia, 2006, Salvador. J Bras Pneumol, 2006. v. 32. p. 323-324. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . Validação da escala de vida diária para indivíduos portadores de doença pulmonar obstrutiva crônica no Brasil. In: 13° Simpósio internacional de fisioterapia respiratória, 2006, Curitiba. Revista Brasileira de Fisioterapia (Impresso). São Carlos: Universidade Federal de São Carlos, 2006. v. 1. p. 70-70. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . Atividade de vida diária e índice de mortalidade BODE em indivíduos portadores de doença pulmonar obstrutiva crônica. In: 13° Simpósio internacional de fisioterapia respiratória, 2006, Curitiba. Revista Brasileira de Fisioterapia (Impresso). São Carlos: Universidade Federal de São Carlos, 2006. v. 1. p. 70-71. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; SANTOS, A. ; VEIGA, G. . Mobilidade torácica: confiabilidade da cirtometria. In: 13° Simpósio internacional de fisioterapia respiratória, 2006, Curitiba. Revista Brasileira de Fisioterapia (Impresso). Sâo Carlos: Universidade Federal de São Carlos, 2006. v. 1. p. 71-71. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. . Avaliação da Força e endurance da musculatura Respiratória em Pacientes Submetidos a Gastroplastia. In: Simpósio Latino-Americano da IFSO, 2005, Foz do Iguaçu. Boletin da Sociedade Brasileira de Cirurgia Bariátrica. São Paulo: Target, 2005. v. 10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; MALAFAIA, O. ; NASSIF, P. A. N. . Avaliação da Utilização de Ventilação Não Invasiva em Pacientes no Pós-Operatório de Cirurgia Bariátrica. In: Simpósio Latino-Americano da IFSO, 2005, Foz do Iguaçu. Boletim da Sociedade Brasileira de Cirurgia Bariátrica. São Paulo: Target, 2005. v. 10. p. 47-47. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; FERNANDES, M. ; SANCHES, R. . Avaliação da Mobilidade Torácica e Capacidade Vital em Idosos. In: III Congresso Sul-Brasileiro de Fisioterapia Respiratória, 2005, Curitiba. Anais do III Congresso Sul-Brasileiro de Fisioterapia Respiratória, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; FERNANDES, M. ; VIANA, S. B. P. ; PACHECO, N. . Utilização do Treinamento Muscular Aeróbio em Indivíduos Portadores de DPOC no Município de Blumenau. In: III Congresso Sul-Brasileiro de Fisioterapia Respiratória, 2005, Curitiba. Anais do III Congresso Sul-Brasileiro de Fisioterapia Respiratória, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NASSIF, P. A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; FERRAZ, F. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; RIBAS FILHO, J. M. . Volumes pulmonares na utilização de ventilação não invasiva em pós-operatório de gastroplastia. In: SSImpósio Latino americano do IFSO, 2005. Obesity Surgery : the Official Journal of the American Society for Bariatric Surgery and of the Obesity Surgery Society of Australia and New Zealand. EUA. v. 15. p. 723-751. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. . Avaliação da utilização de ventilação não invasiva em pacientes no pós operatório de cirurgia bariátrica. In: Simpósio Internacional IFSO, 2005. Obesity Surgery : the Official Journal of the American Society for Bariatric Surgery and of the Obesity Surgery Society of Australia and New Zealand. EUA. v. 15. p. 723-751. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; MALAFAIA, O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Avaliação da utilização de ventilação não-invasiva em pacientes no pós-operatório de cirurgia bariátrica. In: 1º Simpósio internacional do IFSO, 2005, Foz do Iguaçu. Anais do 1º Simpósio internacional do IFSO, 2005. v. 10. p. 47-47. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; FERRAZ, F. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; RIBAS FILHO, J. M. . Avaliação da força e endurance da musculatura respiratória em pacientes em pacientes submetidos a gastroplastia. In: Simpósio latino americano do IFSO, 2005, Foz do Iguaçu. Anais do Simpósio latino americano do IFSO, 2005. v. 10. p. 46-46. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Pôster: Tratamento Fisioterapêutico em paciente imunodeprimido com história de derrame pleural tuberculoso pós cirurgia de decorticação. In: 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003, Itajaí. Anais do 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> . Pôster: Avaliação da mobilidade Torácica e Capacidade Vital em crianças saudáveis do sexo masculino pela cirtometria e ventilometria. In: 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003, Itajaí. Anais do 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; Giachini, Rúbia Mara . Pôster: Ganho espirométrico e ergométrico de paciente com enfisema pulmonar submetido a programa de reabilitação pulmonar-Relato de caso. In: 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003, Itajaí. Anais do 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; PINHEIRO, M. V. ; LUNARDI, F. . Pôster: Mensuração da Mobilidade Torácica em Homens. In: 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003, Itajaí. Anais do 2º Congresso Sul Brasileiro de Fisioterapia Respiratória, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; VIANA, S. B. P. ; CARVALHO, Roberata Pimenta . Apresentação Oral: Atividade Curricular Integrada em Fisioterapia. In: Congresso Nacional da ABENFISIO, 2003, Criciúma. Anais do 2º Congresso Nacional da ABENFISIO, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; GONCALVS, L. O. ; CARVALHO, Roberata Pimenta ; VIANA, S. B. P. . Conselho de Classe em Fisioterapia: Uma gestão pedagógica. In: I Congresso Brasileiro de Formação de Professores, 2003, Campo Largo. Anais do I Congresso Brasileiro de Formação de Professores. Campo Largo: Faculdade Kennedy, 2003. p. 63-63. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; VIANA, S. B. P. ; CARVALHO, Roberata Pimenta . Desenvolvimento do Programa de Formação Continuada com os Professores do Curso de Fisioterapia da UNIVALi. In: I Congresso Brasileiro de Formação de Professores, 2003, Campo Largo. Anais do I Congresso Brasileiro de Formação de Professores. Campo Largo: Faculdade Kennedy, 2003. p. 66-66. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS, M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; VIANA, S. B. P. . Gincana da fisioterapia: proposta de integração na comunidade universitária. In: IX fórum nacional de docentes em fisioterapia, 2003, Criciúma. Anais do IX fórum nacional de docentes em fisioterapia, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA, S. B. P. ; CARVALHO, Roberata Pimenta ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; GONCALVS, L. O. . Conselho de classe em fisioterapia: um elemento de gestão pedagógica. In: IX fórum nacional de docentes em fisioterapia, 2003, Criciuma. Anais do IX fórum nacional de docentes em fisioterapia. Criciuma, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; RE-NETO, A. ; ABREU, R. ; ABDALLAH, J. ; AQUIM, E. E. . Pôster: Comparação do Sucesso e Insucesso em Pacientes de UTI Submetidos à Ventilação Mecânica Não Invasiva. In: X Simpósio Internacional e III Congresso Brasileiro de Fisioterapia Respiratória, 2000, Gramado-RS. Revista Brasileira de Fisioterapia. São Carlos-SP: Editora da Universidade Federal de São Carlos, 2000. v. 04. p. 03-03. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; AQUIM, E. E. ; ABDALLAH, J. ; ABREU, R. ; RE-NETO, A. . Pôster: Descrição de uma População de Pacientes de UTI Submetidos à Ventilação Mecânica Invasiva. In: X Simpósio Internacional e III Congresso Brasileiro de Fisioterapia Respiratória, 2000, Gramado-RS. Revista Brasileira de Fisioterapia. São Carlos-SP: Universidade de São Carlos, 2000. v. 04. p. 03-03. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; AQUIM, E. E. ; ABDALLAH, J. ; ABREU, R. ; RE-NETO, A. . Pôster: Diferenças Clínicas entre Óbitos e Sobreviventes em Pacientes de UTI Submetidos à Ventilação Mecânica Invasiva. In: X Simpósio Internacional e III Congresso Brasileiro de Fisioterapia Respirátória, 2000, Gramado-RS. Revista Brasileira de Fisioterapia. São Carlos-SP: Universidade de São Carlos, 2000. v. 04. p. 04-04. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; RE-NETO, A. ; ABREU, R. ; ABDALLAH, J. ; AQUIM, E. E. . Pôster: Avaliação das Repercussões na Pressão Arterial, Freqüência Cardíaca, Saturação de Oxigênio em Indivíduos Hígidos Submetidos à Ventilação Não Invasiva. In: X Simpósio Internacional eIII Congresso Brasileiro de Fisioterapia Respiratória, 2000, Gramado-RS. Revista Brasileira de Fisioterapia. São Carlos-SP: Universidade de São Carlos, 2000. v. 04. p. 05-05. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Resumos publicados em anais de congressos (artigos)</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. . Avaliação da força e endurance da musculatura respiratória em pacientes submetidos a gastroplastia. Obesity Surgery : the Official Journal of the American Society for Bariatric Surgery and of the Obesity Surgery Society of Australia and New Zealand<sup><img id='0960923_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0960923' /></sup>, EUA, v. 15, n.5, p. 723-751, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0960923&volume=15&issue=&paginaInicial=723&titulo=Avaliação da força e endurance da musculatura respiratória em pacientes submetidos a gastroplastia&sequencial=1&nomePeriodico=Obesity Surgery : the Official Journal of the American Society for Bariatric Surgery and of the Obesity Surgery Society of Australia and New Zealand" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; AQUIM, E. E. ; ABREU, R. ; RE-NETO, A. ; ABDALLAH, J. . Comparação do sucesso e insucesso em pacientes submetidos a ventilação mecânica não-invasiva. Revista Brasileira de Fisioterapia<sup><img id='1413555_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1413555' /></sup>, São Carlos-SP, v. 4, n.3, p. 3-3, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1413555&volume=4&issue=&paginaInicial=3&titulo=Comparação do sucesso e insucesso em pacientes submetidos a ventilação mecânica não-invasiva&sequencial=2&nomePeriodico=Revista Brasileira de Fisioterapia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Descrição de uma população de pacientes de UTI submetidos a ventilação mecânica invasiva. Revista Brasileira de Fisioterapia<sup><img id='1413555_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1413555' /></sup>, São Carlos-SP, v. 4, n.3, p. 3-3, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1413555&volume=4&issue=&paginaInicial=3&titulo=Descrição de uma população de pacientes de UTI submetidos a ventilação mecânica invasiva&sequencial=3&nomePeriodico=Revista Brasileira de Fisioterapia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Diferenças clínicas entre óbitos e sobreviventes em pacientes de UTI submetidos a ventilação mecânica invasiva. Revista Brasileira de Fisioterapia<sup><img id='1413555_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1413555' /></sup>, São Carlos-SP, v. 4, n.3, p. 4-4, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1413555&volume=4&issue=&paginaInicial=4&titulo=Diferenças clínicas entre óbitos e sobreviventes em pacientes de UTI submetidos a ventilação mecânica invasiva&sequencial=4&nomePeriodico=Revista Brasileira de Fisioterapia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Descrição de uma população de pacientes de UTI submetidos a ventilação mecânica invasiva. Revista Brasileira de Fisioterapia<sup><img id='1413555_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1413555' /></sup>, São Carlos-SP, v. 4, n.3, p. 4-4, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1413555&volume=4&issue=&paginaInicial=4&titulo=Descrição de uma população de pacientes de UTI submetidos a ventilação mecânica invasiva&sequencial=5&nomePeriodico=Revista Brasileira de Fisioterapia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPES, M. F.;CARPES, MARTA FIORAVANTI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Avaliação das repercussões na pressão arterial, frequencia cardíaca, saturação de oxigênio em indivíduos hígidos submetidos a ventilação não invasiva. Revista Brasileira de Fisioterapia<sup><img id='1413555_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1413555' /></sup>, São Carlos-SP, v. 4, n.3, p. 5-5, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1413555&volume=4&issue=&paginaInicial=5&titulo=Avaliação das repercussões na pressão arterial, frequencia cardíaca, saturação de oxigênio em indivíduos hígidos submetidos a ventilação não invasiva&sequencial=6&nomePeriodico=Revista Brasileira de Fisioterapia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; MARCO, J. ; OLIVEIRA, N. D. . Scala London Chest Activity Daily Living e attività fisica in soggetti con broncopneumopatia cronica ostruttiva. 2013. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VARGAS, L. ; TAVARES, G. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; Schmidt, P. ; Dumke, A. . Prevalência dos principais fatores de risco para o desenvolvimento de doenças crônicas não-transmissíveis em usuários de uma unidade básica de saúde. 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vargas, L.S. ; TAVARES, G. M. S. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; Schmidt, P. ; Dumke, A. . Perfil dos usuários de uma unidade básica de saúde do município de Uruguaiana. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JESIEN, S. ; Dumke, A. ; VARGAS, L. ; Schmidt, P. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; TAVARES, G. M. S. . CONDIÇÕES DE HABITAÇÃO: UM REFLEXO DA SAÚDE DA POPULAÇÃO. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Práticas Pedagógicas na UNIPAMPA: fazendo e acontecendo. 2011. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, N. D. ; MARCO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Escala de dispnéia LCADL e atividade física em indivíduos portadores de Doença Pulmonar Obstrutiva Crônica. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		OLIVEIRA, N. D. ; MARCO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Escala de dispneia 'LCADL' e atividade física em indivíduos portadores de doença pulmonar obstrutiva crônica. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOCELIN, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Caracterização de uma amostra de pacientes portadores de DPOC da clínica de fisioterapia da UNIVALI, quanto a dispneia nas atividades de vida diária. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . Atividade de vida diária e índice de mortalidade 'BODE' em indivíduos portadores de doença obstrutiva crônica. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; SANTOS, A. ; VEIGA, G. . Mobilidade torácica: confiabilidade da cirtometria. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; GARROD, R. ; JARDIM, J. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . Validação da escala de atividade de vida diária para indivíduos portadores de doença pulmonar obstrutiva crônica no Brasil. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; FERRAZ, F. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Avaliação da capacidade vital no pós operatório de gastroplastia. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, M. ; PACHECO, N. ; DEBATIN, C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; FERNANDES, M. . Treinamento muscular aeróbio em pacientes portadores de DPOC. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Actividad de vida diaria y el índice de mortalidad 'BODE' en pacientes con enfermedad pulmonar obstructiva cronica. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> . Validación de la escala de actividades de vida diaria LCADL en pacientes con enfermedad pulmonar obstructiva cronica en Brasil. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Exercício físico e pressão arterial em indivíduos participantes do FURB visita sua cidade. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; MALAFAIA, O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Avaliação da utilização de ventilação não invasiva em pacientes pós operatório de cirurgia bariátrica. 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; RIBAS FILHO, J. M. . Avaliação da força e endurance da musculatura respiratória em pacientes submetidos a gastroplastia. 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; MALAFAIA, O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; ZEHBI, A. A. . Volumes pulmonares na utilização de ventilação não invasiva em pós-operatório de gastroplastia. 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7744568375462855" target="_blank">MAYER, A. F.</a> . Processo de validação da escala de atividades de vida diária para portadores de doença pulmonar obstrutiva crônica no Brasil. 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; FERRAZ, F. L. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; MENDES, L. F. K. ; MALAFAIA, O. . Prova de função pulmonar em pacientes obesos. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; ZEGHI, A. A. . Volumes pulmonares na utilização de ventilação não invasiva em pós-operatório de gastroplastia. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; RIBAS FILHO, J. M. . Avaliação da força e endurance da musculatura respiratória em pacientes submetidos a gastroplastia. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6618350071589290" target="_blank">BOPP, D. S.</a> ; NASSIF, P. A. N. ; MALAFAIA, O. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Avaliação da utilização de ventilação não invasiva em pacientes pós operatório de cirurgia bariátrica. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Fisioterapia Respiratória Ambulatorial na Infância. 2003. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; DIAS, M. ; LUNARDI, L. ; BAUNGARTNER, R. . Tratamento fisioterapêutico em paciente imunodeprimido com história de derrame pleural tuberculoso pós cirurgia de decorticação. 2003. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, G. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; IMHOF, Beatriz . Avaliação da mobilidade torácica e capacidade vital em crianças saudáveis do sexo masculino pela cirtometria e ventilometria. 2003. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINHEIRO, M. V. ; LUNARDI, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . Mobilidade torácica através da cirtometria. 2003. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Atividade curricular integrada em fisioterapia. 2003. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Conselho de classe em fisioterapia. 2003. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Desenvolvimento do programa de formação continuada com os professores do curso de fisioterapia da UNIVALI. 2003. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Atividade curricular integrada em fisioterapia. 2003. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Princípios de Ventilação Artificial - Invasiva e Não Invasiva. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Biomecânica da Respiração. 2000. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Ventilação: Da Espontânea à Artificial. 2000. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABREU, R. ; ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; AQUIM, E. E. ; RE-NETO, A. . Diferenças clínicas entre óbitos e sobreviventes em pacientes de UTI submetidos a ventilação mecânica invasiva. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABREU, R. ; ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; AQUIM, E. E. ; RE-NETO, A. . Comparação do Sucesso e Insucesso de pacientes de UTI submetidos a ventilação mecânica não invasiva. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABREU, R. ; ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; AQUIM, E. E. ; RE-NETO, A. . Descrição de uma população de pacientes de UTI submetidos a ventilação mecânica invasiva. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABREU, R. ; ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; AQUIM, E. E. ; RE-NETO, A. . Avaliação das repercussões na pressão arterial, frequência cardíaca, saturação de oxigênio em indivíduos hígidos submetidos a ventilação não invasiva. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; ABREU, R. ; AQUIM, E. E. ; RE-NETO, A. . Diferenças clínicas entre óbitos e sobreviventes em pacientes de UTI submetidos a ventilação mecânica invasiva. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; ABREU, R. ; AQUIM, E. E. ; RE-NETO, A. . Descrição de uma população de pacientes de UTI submetidos a ventilação mecânica invasiva. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; ABREU, R. ; AQUIM, E. E. ; RE-NETO, A. . Descrição de uma população de pacientes de UTI submetidos a ventilação mecânica não invasiva. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABDALLAH, J. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> ; ABREU, R. ; AQUIM, E. E. ; RE-NETO, A. . Comparação entre Sucesso e Insucesso no desmame da ventilação mecânica invasiva em pacientes de UTI. 2000. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Fisioterapia Respiratória em Pós-Operatório de Cirurgia Abdominal Alta. 1999. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Prevenção de Deformidades no Paciente no Paciente. 1999. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PACHECO, N. ; DEBATIN, C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b> . DPOC - Doença Pulmonar Obstrutiva Crônica.
+							2007. (Desenvolvimento de material didático ou instrucional - Manual explicativo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Programa de Formação Continuada para Docentes. 2003. . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; MALHEIROS, R.; CASTRO, A. A. M..  Participação em banca de Albiane Antunes Dalcastagnê e Fabiana Binato da Rocha Brum.Resposta autonômica cardiovascular com o treinamento muscular inspiratório em pacientes com doença renal.
+							2014. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, A. A. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; MALHEIROS, R..  Participação em banca de Edimara da Silva Moraes.Variáveis que interferem no tempo de internação hospitalar, ventilação mecânica e infecção respiratória em pacientes internados em UTI.
+							2014. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, A. A. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; COLPO, A..  Participação em banca de Marcos Ariel Sasso Saraiva e Tiago Peres Cancela.Quantificação do gasto energético nas atividades de vida diária em pacientes com doença pulmonar obstrutiva crônica..
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, A. A. M.; COLPO, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Maria Eduarda ||Lima.Efeito da função pulmonar como determinante de exercício físico avaliado pelo teste da caminhada dos seis minutos em pacientes com DPOC e em indivíduos fumantes e não fumantes.
+							2012. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, A. A. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; COLPO, A..  Participação em banca de Liane Vargas.Análise da satisfação e importância da função física em indivíduos tabagistas: Um estudo controlado.
+							2011. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASTRO, A. A. M.; COLPO, A.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Maurício Dalcin e Rodrigo Dorneles.Análise da hiperinflação pulmonar dinâmica durante a realização de atividades de vida diária em pacientes com DPOC.
+							2011. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Joner, T. T.; Lima, G; Giachini, Rúbia Mara; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Gianini de Lima e Telma Thaís Joner.Fatores de rico para doença arterial coronariana em auxiliares de serviços gerais da Universidade do Vale do Itajaí.
+							2010. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIBEIRO, V. E.; BASTOS, K. C.; DIAS, A. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Karla Cristiane Bastos e Vanessa Evelin Ribeiro.Avaliação da capacidade funcional dos idosos da microárea 07 do PSF da cidade de Itajaí.
+							2009. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BENDER, K.P.; FONSECA, K. E.; DIAS, S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Kadine Priscila Bender e Karine Eduardo Fonseca.Avaliação da sensibilidade protetora em pessoas com diabetes mellitus na cidade de Itajaí - SC.
+							2008. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; FERNANDES, M..  Participação em banca de Jennifer Priscilla Braatz e Juliana Pereira.avaliação da variabilidade da saturação periférica de oxigênio nos posicionamentos dos recém-nascidos com diagnóstico de SDR.
+							2007. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pereira, Diogo Thomaz; Teixeira, Lidiane Veloso; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Diogo Thomaz Pereira e Lidiane Veloso Teixeira.Análise do comportamento funcional, glicêmico e hemodinâmico de idosos submetidos ao teste da caminhada dos seis minutos.
+							2007. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HASS, Ana Paula; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4177088841859895" target="_blank">Simon, Karen Muriel</a>; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Ana Paula Hass.Indice preditor de mortalidade BODE e atividade física em doentes pulmonares obstrutivos crônicos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMPIRON, Fernanda Cristina; VIANA, S. B. P.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Fernanda Cristina Zampiron.Perfil dos pacientes portadores de DPOC atendidos na Clínica de Fisioterapia da UNIVALI Itajaí (SC).
+							2006. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Tais Camilles e Giliane Ajala.Avaliação Pondero-estatural e do Desenvolvimento Psicomotor de Crianças Hígidas de 3 Anos de Idade do Lar Fabiano de Cristo.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Rafael Sanches e Tatiana de Barros.Avaliação da Mobilidade Torácica e da Capacidade Vital em Idosos de Ambos os Sexos Asilados.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Caroline Tomazzi e Isabel Sassi.Habilidades Motoras em Crianças Institucionalizadas de 4 Anos.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Carla Riffel e Virgínia Bastos.Acompanhamento do Efeito de Exercícios Aeróbicos na Água como Tratamento Fisioterapêutico para Síndrome de Fibromialgia.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; RAVAZZANI, M..  Participação em banca de Aline Rodrigues e Roxana Azambuja.Eletroestimulação Funcional em Pacientes Traqueostomizados sob Ventilação Controlada.
+							2005. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Luciana Ramos Deringer & Maria Luíza Russi.Análise comparativa entre diferentes técnicas para mensuração da mobilidade torácica através da cirtometria.
+							2004. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Lilian cristina Cruz.Avaliação da mobilidade torácica e capacidade vital em crianças saudáveis do sexo masculino, através da cirtometria e ventilometria.
+							2003. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Daniel Benedit Juk e Mariane Bernades.Avaliação da mobiliação torácica e capacidade vital em crianças saudáveis do sexo masculino, através da cirtometria e ventilometria.
+							2003. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Fernanda Rosa Willrich e Gabriela Karina Maresch.Verificação da Mobilidade Torácica por Meio da Cirtometria e Cirtografia em Alunos do Colégio de Aplicação da UNIVALI na faixa etária de 8 a 10 anos.
+							2002. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Juliana Davi e Michelle Peruzzo.Efeitos da Hidroterapia na Reabilitação Pulmonar em Crianças Asmáticas.
+							2002. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Juliana de Carvalho Mendes e Nayana Tarasconi.Avaliação da Força Muscular Respiratória em Crianças Asmáticas de Cinco a Dez Anos do Sexo Masculino.
+							2002. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Ana Carolina Ribas Castagna e Carine Taís Guagnini Benedet.Causas e Fatores que Predispõe o Surgimento do Ronco na Terceira Idade.
+							2002. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de Ana Virgínia Espíndola e Keidy Karla Gonçalves.Estudo do efeito do aprendizado no teste de caminhada dos seis minutos em indivíduous saudáveis.
+							2001. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>.  Participação em banca de André Ribeiro e Daniela Araújo Zampirolo.Avaliação da função pulmonar através de dados espirométricos em indivíduos da terceira idade fumantes e não fumantes.
+							2001. Trabalho de Conclusão de Curso (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Professor titular</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Processo seletivo interno de docentes. 2006. Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Processo Seletivo Externo. 2003. Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Processo Seletivo Externo. 2003. Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Processo Seletivo Externo. 2003. Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Processo Seletivo Externo. 2003. Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Processo Seletivo Externo. 2003. Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; GONCALVS, L. O.; CARVALHO, Roberata Pimenta; VIANA, S. B. P.. Comissão para Alteração Matriz Curricular.
+							2002.
+							Universidade do Vale do Itajaí. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Revendo a bioquímica.
+							2014. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Simpósio Internacional de Fisioterapia Cardiorrespiratória e Fisioterapia em Terapia Intensiva.
+							2014. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário Internacional Interdisciplinar: Humanização em Saúde. 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Congresso Brasileiro de Cardiogeriatria. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Simpósio Internacional de Estresse Oxidativo e Doenças Cardiovasculares.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Acadêmico dos Trabalhos de Conclusão de Curso.Moderadora das apresentações. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Seminário de Desenvolvimento Docente da UNIPAMPA - Práticas Docentes em Construção: Realidades e Perspectivas. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Casa da Saúde SESC.Exercício Físico e Prevenção de Doenças.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana Acadêmica do Curso de Fisioterapia.Curse Teórico de Neonatologia e Follow-up. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Programa de formação continuada para docentes do ensino superior. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso sulbrasileiro de fisioterapia cardiorrespiratória. Cinesioterapia ativa em pacientes internados em unidade de terapia intensiva. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso Sulbrasileiro de Fisioterapia Cardiorrespiratória. Avaliador de temas livres (pôster). 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Semana de fonoaudiologia da UNIVALI.Atuação interdisciplinar na UTI neonatal. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X semana acadêmica de fisioterapia. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Jornada da Prática Clínica Supervisionada de Fisioterapia.Banca examinadora. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13 Simpósio Internacional de Fisioterapia Respiratória e Fisioterapia em Terapia Intensiva.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13 Simpósio Internacional de Fisioterapia Respiratória e Fisioterapia em Terapia Intensiva.Validação da escala de atividade de vida diária para indivíduos portadores de doená pulmonar obstrutiva crônica no Brasil.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Semana acadêmica de fisioterapia. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Semana acadêmica de fisioterapia.Reabilitação Pulmonar. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Sulbrasileiro de Fisioterapia Respiratória. Fisioterapia Hospitalar: Generaliata ou Especialista. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Sulbrasileiro de Fisioterapia Respiratória. Broncodisplasia: Atualidades. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Sul-Brasileiro de Fisioterapia Respiratória. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornada Catarinense de Fisioterapia Respiratória.Avaliação Cardiorrespiratória, da Capacidade Funcional e Física em Pediatria. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Jornada Sul-Brasileira de Terapia Intensiva.Debatedora de Posters - Fisioterapia. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Fórum Estadual da ABENFISIO-SC. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Sulbrasileiro de Fisioterapia Respiratória. Atualidades Em Terapia de Higiene Brônquica em Pediatria. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Sulbrasileiro de Fisioterapia Respiratória. Atualidades Em Terapia de Higiene Brônquica em Pediatria. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Sul-Brasileiro de Fisioterapia Respiratória. II Congresso Sul-Brasileiro de Fisioterapia Respiratória. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Fórum Estadual da ABENFISIO. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro de Cordenadores dos Cursos de Fisioterapia e Terapia Ocupacional.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornada Paranaense de Fisioterapia Respiratória.Atualidades em Higiene Brônquica. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JOPEF FISIOTERAPIA. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Reabilitação nas Unidades de AVC.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Brasileiro de Terapia Manual, I Congresso Brasileiro On-line. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Sulbrasileiro de Fisioterapia Respiratória e II Jornada Gaúcha de Fisioterapia Respiratória. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra Tratamento da Espasticidade. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>; FREITAS, D. P. S. . III Salão Internacional de Ensino, Pesquisa e Extensão. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Curso de Fisioterapia em Pediatria e Neonatologia. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Comissão de Programação Científica. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. Mesa Redonda de Reabilitação Pulmonar. 2003. (Concurso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1732554531115089" target="_blank">CARPES, M. F.</a></b>. 2º Congresso Sul Brasileiro de Fisioterapia Respiratória e 1º Jornada Catarinense de Fisioterapia Cardiorrespiratória. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Iara Lúcia Vogt Beyer e Karla Kolzani.
+							Incidência e prevalência de complicações pós-operatórias em idosos hospitalizados por fratura de fêmur.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Pós draduação Lato Sensu em Fisioterapia em Geriat)  - Centro de Ensino Superior de Maringá. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dayane Deise Canani.
+							Avaliação das atividades de vida diária em pacientes com doença pulmonar obstrutiva crônica.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Fisioterapia em Cardio-respiratória)  - Colégio Brasileiro de Estudos Sistêmicos. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andréa Caramuru Francalacci.
+							Avaliação do estado de saúde por meio da escala AQ 20 em pacientes internados com DPOC descompensado..
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Fisioterapia em Cardio-respiratória)  - Colégio Brasileiro de Estudos Sistêmicos. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliana Mendes.
+							PERFIL DE NASCIMENTO NO HOSPITAL REGIONAL DO ALTO VALE ? RIO DO SUL /SC NO PERÍODO DE 2000 A 2004..
+							2005.
+							Monografia. (Aperfeiçoamento/Especialização em Fisioterapia em Neonatologia e Pediatria)  - Faculdade Evangélica do Paraná. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Theresa Helissa Nakagawa.
+							Influência do nascimento prematuro sobre o desenvolvimento neuropsicomotor.
+							2004.
+							Monografia. (Aperfeiçoamento/Especialização em Fisioterapia em Neonatologia e Pediatria)  - Faculdade Evangélica do Paraná. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jesiele de Marco e Nayara Danielle Oliveira.
+							Escala de dispnéia LCADL e atividade física em indivíduos portadores de Doença Pulmonar Obstrutiva Crônica.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernanda Utzig e Suzana Mara Silveira.
+							Incidência de dispnéia nas atividades de vida diária de funcionários fumantes e não fumantes da empresa Nossa Senhora da Glória em Blumenau.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Kauana Pereira e Juliana Guerra.
+							Influência do treinamento de músculos periféricos sobre o índice de mortalidade BODE em indivíduos portadores de doença pulmonar obstrutiva crônica.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Carolina Doring de Andrade e Andressa Titz.
+							Variação do volume corrente durante e após exercícios ativos de membros inferiores em pacientes acamados sob suporte ventilatório.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Friedrich e Leonardo da Silva.
+							A influência do treinamento de musculatura periférica nas AVD em indivíduos portadores de doença pulmonar obstrutiva crônica.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adriana de Amorim e Luiza Berri.
+							Mobilidade torácica e capacidad vital em indivíduos que visitam o "FURB visita a sua cidade".
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernanda Gonçalves dos Santos e Raquel Fagundes Moreli.
+							Orientações dermatológicas para as gestantes num posto de saúde pública na cidade de Itajaí-SC.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Cosmetologia e Estética)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernanda Lenir Werner e Rosana Pinto Rosa.
+							Dispnéia nas atividades de vida diária em indivíduos portadores de doença pulmonar obstrutiva crônica que frequentam o ambulatório de pneumologia da Universidade Regional de Blumenau.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Paula Batista e Maria Eduarda Lapolli.
+							Treinamento Físico Aeróbio em Crianças Portadoras de Fibrose Cística.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nicolle Pacheco e Caroline Debatin.
+							Utilização do Treinamento Muscular Aeróbio em Indivíduos Portadores de Doença Pulmonar Obstrutiva Crônica no Município de Blumerau.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Raulino Khul Júnior / Hênola Renata Gonçalves.
+							Exercício físico e pressão arterial em indivíduos participantes do FURB visita sua rua.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Priscila Bonatti / Juliana Benigno.
+							Sintomatologia da DPOC em indivíduos que frequentam o programa FURB visita sua rua.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Fundação Universidade Regional de Blumenau. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aline Souza e Giselle dos Santos.
+							Repetibilidade do Procedimento de Cirtometria em mulheres hígidas de 19 a 30 anos.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Michele Vaz Pinheiro e Fernanda Lunardi.
+							Valores da Mobilidade Torácica, através da cirtometria, em homens.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Beatriz Vidotto Imhof & Giselle Becker.
+							Avaliação da Mobilidade Torácica e Capacidade Vital em Crianças Saudáveis do Sexo Masculino, pela Cirtometria e Ventilometria.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gisele de Souza & Rodrigo Broca.
+							Avaliação da Mobilidade Torácica e Capacidade Vital em Crianças Saudáveis do Sexo Masculino, pela Cirtometria e Ventilometria.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Débora Aline Porto e Tatiane Neide Barreta.
+							Mobilidade torácica em indivíduos de 20 a 22 anos do sexo feminino submetidos a exercícios na bola suíça.
+							2002. 27 f.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Merielem Machado e Patrícia Maria Ribeiro.
+							Alterações da Mobilidade Torácica na Escoliose - Revisão de Literatura.
+							2002.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Amanda Carolina Zucco e Gianna Thives Castgna.
+							Avaliação da Mobilidade Torácica, Através da Cirtometria.
+							2002.
+							Trabalho de Conclusão de Curso. (Graduação em Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lilian Cristina Cruz.
+							Avaliação da Mobilidade Torácica e Capacidade Vital em Crianças Saudáveis do Sexo Masculino, através da Cirtometria e Ventilometria.
+							2003.
+							Orientação de outra natureza. (Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Benedit Juk e Mariane Bernardes.
+							Avaliação da Mobilidade Torácica e Capacidade Vital em crianças saudáveis do sexo masculino, através da cirtometria e ventilometria.
+							2003.
+							Orientação de outra natureza. (Fisioterapia)  - Universidade do Vale do Itajaí. Orientador: Marta Fioravanti Carpes.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Membro da Associação Brasileira de Fisioterapia Cardiorrespiratória e Fisioterapia em Terapia Intensiva</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 27/06/2018 &agrave;s 19:01:14</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=1732554531115089" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
