@@ -1,0 +1,1011 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Teste 01 do scriptLattes (período 2006-2014)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Teste 01 do scriptLattes (período 2006-2014)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de orientações em andamento'}, 
+series: [{data: [[2007,
+4],
+[2010,
+5],
+[2011,
+1],
+[2012,
+5],
+[2013,
+7],
+[2014,
+18],
+[2015,
+30],
+[2016,
+76],
+[2017,
+152],
+[2018,
+124]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de orientações em andamento</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 422<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alana de Almeida Aurélio. <b>Acompanhamento monitorado do ensino em Imunologia Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Desenvolvimento Acadêmico, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9761857774819478">Mário Celso Sperotto Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alyssa Brum de Souza Pahim. <b>Anatomia Comparada das Espécies Neotropicais da Ordem Carnivora</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Amanda Bernardo de Souza. <b>Estágio Curricular Supervisionado em Medicina Veterinária</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8701085860400021">Amanda Machado Teixeira</a>. <b>Inclusão escolar na perspectiva docente: Identificando dificuldades, ações e conteúdos para prover a Formação de Professores</b>. Dissertação (Mestrado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ana Carolina Silva Oliveira. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Anderson da Silva Rosa. <b>O papel do ensino de química como ferramenta para formação do indivíduo em países do Mercosul.</b>. Tese (Doutorado em ​Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Andreia Limana Tambara. <b>Investigação do efeito de frutas nativas da região Sul do Brasil na adipogênese e obesidade</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7528612885865102">Cristiane Casagrande Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Andressa Tassinari da Silva. <b>Análise de impurezas e produtos de degradação em fármacos e medicamentos</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0120736228044122">Clésio Soldateli Paim</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ANE GABRIELLE MUNIZ. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Annelize Gruppi Lunardi. <b>A contribuição da IC Jr na escolha da Carreira Acadêmica</b>. . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Ariadne Felipeto de Ávila. <b>AVALIAÇÃO DO EQUILÍBRIO E FORÇA MUSCULAR DE IDOSOS ANTES E APÓS TREINO DE RESISTÊNCIA: UM ENSAIO CLÍNICO RANDOMIZADO.</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ariadne Felipeto de Ávila. <b>Equilibrando-se após os 60! Práticas interdisciplinares para promoção da saúde do indivíduo idoso.</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Ariane Ferreira de Menezes. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Bruno Peruzzi Peres. <b>O Cerro do Jarau: um laboratório cultural e astronômico</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Camila Antunez Villagran. <b>Estágio Supervisionado II</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Camila Etchverry Monteiro (Coorientador). <b>Assistência multiprofissional aos pacientes oncológicos com radiodermite</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Carlos Alberto Davila Valau Júnior. <b>Estágio Supervisionado II</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Carlos Alberto Davila Valau Júnior (Coorientador). <b>Autocuidado das pessoas com estomias intestinais de um município da Fronteira-Oeste do Rio Grande do Sul</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Carolina Fregonesi de Souza. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Carolina Schefelbanis Araujo. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Caroline Gonçalves Kubiça. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8259998340480845">Christielen Segala dos Santos</a>. <b>Adaptações neuromecânicas à liberação miofascial</b>. Dissertação (Mestrado em Programa Multicêntrico de Pós-graduação em Ciências Fisiológicas) - Universidade Federal do Pampa, Programa de Apoio à Pós-Graduação. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Cindy Vilas Boas da Silva. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9116763423283001">Cristhian Gindri da Silva</a>. <b>Avaliação do perfil de sensibilidade aos antibióticos de bactérias isoladas do Rio Uruguai</b>. Dissertação (Mestrado profissional em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8407234632829257">Cristiane Barbosa Soares</a>. <b>Mulheres negras na ciência: subjetividades e resistências</b>. Dissertação (Mestrado em PPG Educação em Ciências: química da vida e saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>, <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Cássio Coutinho. <b>Estágio Curricular Supervisionado em Medicina Veterinária - bovinocultura de corte</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9761857774819478">Mário Celso Sperotto Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Daisy de Lima Nunes. <b>O passaporte científico como atividade lúdica de reforço de aprendizagem</b>. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Daniela Alves Machado. <b>Avaliação do efeito antioxidante de frutas nativas da região Sul do Brasil na terapia do câncer.</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7528612885865102">Cristiane Casagrande Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Danillo Baptista Pereira. <b>Estudo e planejamento de compostos biotativos candidatos a antiparkinsonianos novos</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Diego Ramos Barbosa. <b>Inserção de QR code como material complementar de aprendizagem</b>. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Diogo Ferreira Bicca. <b>Avaliação do efeito neuroprotetor da quercetina em camundongos expostos ao glifosato</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Doglas Rodrigues da Silva. <b>Monitoria em Atletismo</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Eduarda Costa Lamberti. <b>Clinica e cirurgia de grandes animais</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Emanuelle da Costa Correia. <b>Investigação do efeito de frutas nativas da região Sul do Brasil na adipogênese e obesidade</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7528612885865102">Cristiane Casagrande Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Erick Candiota de Souza. <b>Anatomia Comparada das Espécies Neotropicais da Ordem Carnivora</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Pró-Reitoria de Assuntos Estudantis e Comunitários da UNIPAMPA. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Etiele Maldonado Gomes. <b>Uso de condroprotetores e PRP na regeneração de cartilagem hialina</b>. Dissertação (Mestrado em ciência animal) - Uiversidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1689306155948159">Maria Lígia de Arruda Mistieri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Felipe Forgiarini Rabello. <b>Estágio Curricular Supervisionado em Medicina Veterinária</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Felipe Pratalli Martins. <b>Projeto de Extensão "Conhecendo os Carnívoros do Pampa"</b>. Orientação de outra natureza. Universidade Federal do Pampa. Pró-Reitoria de Assuntos Estudantis e Comunitários da UNIPAMPA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Fernanda Coelho Simas Bernardes. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Flavia Jäger. <b>Estágio de conclusão em clínica e cirurgia de pequenos animais</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1689306155948159">Maria Lígia de Arruda Mistieri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Francielle Morais de Paula. <b>Cirurgia Segura: ações de cuidado da enfermagem no pré-operatório imediato</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2309155244128217">Leticia Silveira Cardoso</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Frederico Gonçalves Rott. <b>Estágio Curricular Supervisionado em Medicina Veterinária - bovinocultura de corte</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9761857774819478">Mário Celso Sperotto Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Gabriel Pedroso Viçozzi. <b>Avaliação da hemocompatibilidade e potencial genotóxico de nanocápsulas poliméricas co-encapsuladas com atorvastatina e diferentes óleos</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1814676097078820">Eduardo André Bender</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Gabriel Sabioni. <b>Relatório de Estágio Profissional do curso de Medicina Veterinária</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1171304952099087">João Paulo da Exaltação Pascon</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Gabriel Santana de Araujo. <b>O Cerro do Jarau: um laboratório cultural e astronômico</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Gabriela Lugoch. <b>Clorexidina Comercial e Nanoemulsão de Clorexidina na antissepsia in vitro e in vivo</b>. Dissertação (Mestrado profissional em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>, <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>, <a href="http://lattes.cnpq.br/5625811036384501">Diego Vilibaldo Beckmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Gabriela Rossi Brabo. <b>Análise de impurezas e produtos de degradação em fármacos e medicamentos</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0120736228044122">Clésio Soldateli Paim</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Gabriele Moura Guerra. <b>A atuação do Enfermeiro na Preparação perineal: perspectivas na redução no uso da episiotomia</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Gabrieli de Carvalho Siqueira. <b>Atividades Educativas acerca das condições crônicas de saúde</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa/Programa de Desenvolvimento Acadêmico, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Gabriella Peres Astrana. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9666526612180020">Gabrielle Christine de Souza Campos</a>. <b>Indefinido</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4636080248996522">Roberto Thiesen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Georgia Camargo Góss. <b>Avaliação ultrassonográfica do ligamento colateral da articulação interfalangeana distal em equinos de pólo durante atividade atlética</b>. Dissertação (Mestrado profissional em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Giovana Copetti Jung. <b>Modelo experimental em cardiologia veterinária</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1171304952099087">João Paulo da Exaltação Pascon</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Giovana Jung. <b>A definir.</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>, <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Giovanna Bauer Valério. <b>Meloxicam comercial e meloxicam nanoencapsulado como adjuvante no controle da dor trans e pós-operatória em cadelas submetidas à ovariohisterectomia</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>, <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Gloria Maria Jardim Guimarães. <b>A contribuição da IC Jr na escolha da Carreira Acadêmica</b>. . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6238617006920336">Gustavo Griebler</a>. <b>Reconfigurando e ressignificando a avaliação do aprendizado escolar com as tecnologias da informação e da comunicação</b>. Tese (Doutorado em ​Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Iury Garske Baum. <b>Uso de extratos de frutas nativas como antioxidantes naturais em produtos cárneos.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7528612885865102">Cristiane Casagrande Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Jade Pellenz. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>JARBAS DA SILVA ZIANI. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, PRO-REITORIA EXTENSÃO. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Jordana Augusta Rolim Zimmermann. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Jossana Ruff. <b>Estudo toxicológico de inertes presentes em formulação comercial de glifosato</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>João Pedro Sperluck Arce. <b>Estágio Supervisionado II</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Jéssica Alessandra González. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Jéssica da Silva Soares. <b>Análise da assimetria de torque no pedal de ciclistas em exercício de longa duração com intensidade fixa</b>. Dissertação (Mestrado em Ciências do Esporte) - Universidade Federal de Minas Gerais. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Júlia Mariano Peters Costa. <b>Programa de diagnóstico de enfermidades virais em animais domésticos da Fronteira Oeste do RS.</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Desenvolvimento Acadêmico, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9761857774819478">Mário Celso Sperotto Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Karina Andrade de Oliveira. <b>Rotina de Iniciação Científica em um Laboratório de Genética</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa da Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7651341120825287">Michel Mansur Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>KARINA BRACCINI PEREIRA. <b>A FORMAÇÃO EM EDUCAÇÃO AMBIENTAL DE LICENCIANDOS DE UM CURSO DE CIÊNCIAS DA NATUREZA</b>. Tese (Doutorado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8200767495769266">Karine Josibel Velasques Stoelben</a>. <b>Efeitos de treinamento de potência sobre fatores de risco para lesão de joelho</b>. Tese (Doutorado em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>KARLO HERRERA. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Lais Alves Vargas. <b>Efeito terapêutico da laserterapia em pontos de acupuntura como método de reabilitação nas lesões nervosas periféricas.</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0608415543843353">Daniel Ventura Dias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>LARA PEDROSO DA FONTOURA. <b>Efeitos Toxicológicos de Dois Sais de Urânio em Artêmia Salina</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5903230708776294">Daniel Henrique Roos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9162084472316779">Laura Mendes Rodrigues Fumagalli</a>. <b>Contribuições de intervenções colaborativas no processo de educação em saúde nos anos iniciais</b>. Dissertação (Mestrado profissional em Programa de Pós Graduação Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Lavínia da Veiga Pereira. <b>Rotina de Iniciação Científica em um Laboratório de Citoxicidade</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7651341120825287">Michel Mansur Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Leo da Silva Siqueira. <b>Monitoria em Esporte Coletivo I</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Leonardo Barboza Benites. <b>Temas de Astronomia como Conceitos Unificadores na BNCC</b>. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>Lisiane de Oliveira Moura. <b>Estudo de aglomerados estelares utilizando dados ESO­VVV: diagramas cor­ magnitude e estruturaEstudo de aglomerados estelares utilizando dados ESO­-VVV: diagramas cor­ magnitude e estrutura</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa - PDA. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>Lucas Dacampo. <b>Seleção espermática em Ovinos</b>. Dissertação (Mestrado profissional em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>Luis Henrique Ziani da Silva. <b>A monitoria como instrumento facilitador da ensinagem em anatomia humana</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0608415543843353">Daniel Ventura Dias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>Luiz Carlos Trindade Neto. <b>Análise do perfil dos idosos atendidos no ambulatório e/ou internados por quedas em um hospital, e o risco de novas quedas no período de internação e 1 ano após a alta hospitalar.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>Luiza Eula Marques. <b>Projeto de Extensão "Conhecendo os Carnívoros do Pampa"</b>. Orientação de outra natureza. Universidade Federal do Pampa. Pró-Reitoria de Assuntos Estudantis e Comunitários da UNIPAMPA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>Luiza Wronski. <b>Efeito da dessensibilização na síndrome da mama fantasma</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>Luís Gustavo Crochemore da Silva. <b>PERFIL EPIDEMIOLÓGICO E CLÍNICO DAS PESSOAS VIVENDO COM HIV/AIDS ATENDIDOS EM UM SERVIÇO ESPECIALIZADO NA REGIÃO DA FRONTEIRA OESTE DO RIO GRANDE DO SUL:</b>. Iniciação científica (Graduando em Medicina) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1850160240664296">João Felipe Peres Rezer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Luísa Zuravski. <b>AVALIAÇÃO DOS EFEITOS DOS AROMATIZANTES, γ-HEXALACTONA E ÁLCOOL FURFURIL, EM CÉLULAS DO SISTEMA IMUNE</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4839195121781005">Luis Flávio Souza de Oliveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1578669511184178">Marcell Valandro Soares. Avaliação do perfil toxicológico do tolueno em C</a>. <b>elegans</b>. Dissertação (Mestrado profissional em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0862257750565897">Marciana Demarchi</a>. <b>Desafios e articulações para identificação, melhoria ou reestruturação dos currículos de graduação da UNIPAMPA, Campus Uruguaiana, através da temática do meio ambiente</b>. Dissertação (Mestrado em Mestrado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Marciele Dulor Amaral. <b>Efeitos do uso da Realidade Virtual em indivíduos tabagista de Uruguaiana/RS</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2679717808067927">Nelson Francisco Serrão Júnior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Marciele Dulor Amaral. <b>Equilibrando-se após os 60! Práticas interdisciplinares para promoção da saúde do indivíduo idoso.</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>MARIA AMANDA BIBIANO DE JESUS. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>Maria Eduarda de Moraes Guerra. <b>Pesquisa de bactérias e vírus entéricos em produtos de origem animal comercializados em região de fronteira internacional do Rio Grande do Sul</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Unipampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3981501609402013">Juliano Gonçalves Pereira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>Maria Eduarda Trindade Barreto. <b>Percepções de mulheres e homens sobre o aborto: um estudo na Universidade Federal do Pampa</b>. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>, <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>Mariana Messias do Amaral. <b>PET GraduaSUS</b>. Orientação de outra natureza. Universidade Federal do Pampa. Secretaria de Gestão do Trabalho e da Educação na Saúde, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5183171943913355">Juliana Lopes de Macedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>Mariani Machado Vasconcellos. <b>Determinação da complexação de diferentes ácidos nucléicos a nanoemulsões catiônicas por retardamento em gel de eletroforese</b>. Trabalho de Conclusão de Curso (Graduação em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5805841991374556">Cleci Menezes Moreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>Mariele da Silva Hernandez. <b>Efeito da cafeína e do exercício físico sobre modelo animal de síndrome metabólica</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>Marina Machado Rodrigues. <b>Avaliação Postural Informatizada em Gestantes com Lombalgia nos diferentes trimestres gestacionais com o uso de Bandagem Elástica Neuromuscular</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2679717808067927">Nelson Francisco Serrão Júnior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>Marina Machado Rodrigues. <b>Equilibrando-se após os 60! Práticas interdisciplinares para promoção da saúde do indivíduo idoso.</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa (Unipampa), . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3034973177461340">Mario Sérgio Nunes Bica</a>. <b>O desenvolvimento de avaliações metodologicamente adaptadas para o ensino de ciência: uma interface das multiplas representações e as bases neurológicas de aprendizagem</b>. Dissertação (Mestrado em ​Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>Matheus Beltrame Padilha. <b>Educação em higiene pessoal e manipulação de alimentos com enfoque na instrução de crianças</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Unipampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3981501609402013">Juliano Gonçalves Pereira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>Matheus Eugenio Sabara Possa. <b>Clinica e cirurgia de grandes animais</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>Matheus Teixeira Barbosa. <b>Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6704567679943812">Juliano Braun de Azeredo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>Matheus Teixeira Barbosa. <b>Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6704567679943812">Juliano Braun de Azeredo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>Muriel Salgueiro da Silva. <b>Envelhecendo com Arte e Saúde</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>Mylena Mendes Goulat. <b>Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6704567679943812">Juliano Braun de Azeredo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>Nara Regina da Costa e Silva Tarragó. <b>Vias do coração: divulgando o conhecimento de anatomia humana nas escolas públicas</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0608415543843353">Daniel Ventura Dias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>Natalie Queiroz. <b>Ambulatório de Práticas Integrativas e Complementares no SUS</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5124639387756497">Natan da Cruz de Carvalho</a>. <b>Congelamento de Semen equino</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>Nicole Vieira Stone. <b>Caracterização genética, antigênica e biológica de pestivírus isolados em bovinos</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9761857774819478">Mário Celso Sperotto Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>Othon Dalla Colletta Altermann. <b>Clínica, cirurgia e reprodução equina</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>Patrick da Silva Magalhães. <b>Técnicas Anatômicas para o Ensino da Anatomia Animal</b>. Orientação de outra natureza. Universidade Federal do Pampa. Pró-Reitoria de Assuntos Estudantis e Comunitários da UNIPAMPA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>Pauline de Souza. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2153158693310540">Paulo Sérgio Pereira Bagestero</a>. <b>O Aprendizado de Ciências em Turmas de Nono Ano do Ensino Fundamental</b>. Dissertação (Mestrado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg)) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5903230708776294">Daniel Henrique Roos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>PEDRO HENRIQUE AUZANI. <b>Comparação de protocolos de inseminação artifical em tempo fixo para bovinos de corte</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>Pietra Hübner Buffon. <b>Bolsista PET Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Educação Tutorial, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3454732405389135">Quelen Coman Espíndola Lima</a>. <b>Experimentação no ensino de ciências: Desafios e possibilidades aos professores dos anos finais do ensino fundamental de escolas do município de Uruguaiana/RS.</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2047536712039793">Mara Regina Bonini Marzari</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>Rafaela Ferreira Anhaia. <b>Matemática para deficientes visuais</b>. . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>Raíssa Cezar Gomes. <b>Monitoria em Anatomia Animal</b>. Orientação de outra natureza. Universidade Federal do Pampa. Pró-Reitoria de Assuntos Estudantis e Comunitários da UNIPAMPA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>Renata Garcez Amaral. <b>Monitoria de Iniciação a Medicina Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>Richard Pachamé. <b>Exposição Ocupacional em Enfermagem: uma história de vida</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2309155244128217">Leticia Silveira Cardoso</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>Samanta Costa Calcagno. <b>Saúde mental e educação de mulheres em restrição de liberdade</b>. Dissertação (Mestrado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>Sue Ellen Doleski Webwr. <b>Monitoria de Física Básica</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>Tatiane Barcellos da Rosa. <b>Estágio Curricular Supervisionado em Medicina Veterinária</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8136798173727441">THAIS LOPES GONÇALVES</a>. <b>Desenvolvimento de um modelo de benchmarking para a bovinocultura de corte</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>Victoria Arielle Marins Arias. <b>A contribuição da IC Jr na escolha da Carreira Acadêmica</b>. . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2558699485502251">Álvaro Sosa Machado</a>. <b>Estudo de fatores influenciadores da dor e seus efeitos no controle motor</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra Schmidt. <b>CUIDADO PRÉ-NATAL NA PERSPECTIVA DE ENFERMEIROS ATUANTES NA ATENÇÃO PRIMÁRIA À SAÚDE: FRAGILIDADE E POTENCIALIDADES</b>. Iniciação científica (Graduando em Curso de Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alessandra Schmidt. <b>ADOLEGRA: APOIO A ADOLESCENTE GRÁVIDA</b>. Iniciação científica (Graduando em Curso de Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Alessandra Schmidt. <b>Monitoria Acadêmica no Componente Curricular de Enfermagem no Cuidado à Saúde da Mulher (BOLSA PDA MONITORIA)</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Alessandra Schmidt. Experiências de Mulheres Histerectomizadas Acerca da Sexualidade. <b>TCC II.</b>. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Alyne Goulart Escobar. <b>EFEITOS DO HIDROLISADO DE CLARA DO OVO SOBRE OS PREJUÍZOS VASCULARES INDUZIDOS PELA EXPOSIÇÃO AO HgCl2 EM ARTÉRIAS DE RATOS</b>. Dissertação (Mestrado profissional em BIOQUÍMICA) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0454207116065740">Franck Maciel Peçanha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Amanda Machado Teixeira. <b>Percepção dos pais/responsáveis sobre as barreiras e facilitadores para a prática de atividade física de escolares com deficiência</b>. Monografia (Aperfeiçoamento/Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ana Luisa Reetz Poletto. <b>Análise da atividade antifúngica de enxaguantes bucais frente a Candida spp.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1711538220429258">Ana Paula Maurique Pereira</a>. <b>intoxicações por herbicidas e outros toxicantes em animais de produção</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0047274636775859">Bruno Leite dos Anjos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ana Virgínia Bittencourt Panerai. <b>Convenções de gênero e relações raciais: escrituras negras femininas no sul do Brasil</b>. Monografia (Aperfeiçoamento/Especialização em História da Cultura Africana, Afro-bras.e Indígena) - Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Andrea Cunha. <b>ANÁLISE BENEFÍCIO-CUSTO SOCIAL DAS POLÍTICAS PÚBLICAS DE INCENTIVO AO DESENVOLVIMENTO À AQÜICULTURA NO ESTADO DO RIO GRANDE DO SUL</b>. Iniciação científica (Graduando em Aqüicultura) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>, <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Andressa Lemes Lemos. <b>Efeito do calçado sobre o impacto em tarefas de salto e aterrissagem</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Andressa Rossini Goulart. <b>Uso de HPLC-ECD para análise de compostos fenólicos</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Andrilelli Carvalho Vilanova. <b>Os Macroinvertebrados como estratégia de Ensino no Ensino de Ciêcias</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ANDRÉ TRINDADE SOUTO. <b>Orientação de Estágio Curricular Supervisionado II</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Anelise Santos Soares. <b>Rotina de Iniciação Científica em um Laboratório de Citoxicidade</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7651341120825287">Michel Mansur Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Antonio Júnior de Sousa. <b>INFLUÊNCIA DA SUPLEMENTAÇÃO DE ÁCIDOS GRAXOS EM DIFERENTES FASES DE DESENVOLVIMENTO DE RATOS: AVALIAÇÕES COMPORTAMENTAIS, BIOQUÍMICAS E MOLECULARES</b>. Iniciação científica (Graduando em Medicina) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7729148983836692">Camila Simonetti Pase</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Antônia Beatriz Trindade Alves. <b>Percepção de enfermeiros acerca dos cuidados paliativos na atenção domiciliar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3289557948187134">Bruna Stamm</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Ariadna Boldori Pinto. <b>O efeito de um programa de natação sobre a capacidade pulmonar e qualidade de vida de pessoas com doenças respiratórias</b>. Monografia (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Ariane Pereira. <b>Efeitos de extrato aquoso de plantas em enzimas cardáicas</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5805841991374556">Cleci Menezes Moreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Beatriz Samanta Morselli. <b>Utilização da plataforma Moodle como ferramenta de aprimoramento de desempenho e redução dos índices de reprovação nas disciplinas de Embriologia e Histologia Animal I e II</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa - Uruguaiana, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3338405134728553">Fernando Silveira Mesquita</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Bernardo de Oliveira. <b>Iniciação Científica Júnior - biomecânica do da marcha e postura</b>. . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Bethânia Mesquita Cabeda Maciel. <b>Avaliação da capacidade funcional e do nível de atividade física em estudantes de 9 a 10 anos de escolas públicas e privadas.</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Bruna Medina. <b>CUIDADO PRÉ-NATAL NA PERSPECTIVA DE ENFERMEIROS ATUANTES NA ATENÇÃO PRIMÁRIA À SAÚDE: FRAGILIDADE E POTENCIALIDADES</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Bruna Medina. <b>ADOLEGRA: APOIO A ADOLESCENTE GRÁVIDA (BOLSA PDA EXTENSÃO)</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1241523269166055">Bruna Piaia Ramborger</a>. <b>Avaliação da influência das condições biótica e abióticas no óleo de plectranthus neochilus</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Bruna Ribeiro Nolasco. <b>Monitoria de Microbiologia</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Bruna Sarini Alifredi. <b>Microbiologia vai à escola</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Bárbara Gehrke Bairros. <b>O uso do Filme Fullmetal Alchemist como tema gerador da Lei da Proporção Química</b>. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Camila Bastide Vieira. <b>Cotidiano de um serviço de nefrologia localizado na fronteira-oeste do Rio Grande do Sul</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Camila Cupper Vieira. <b>Estágio Curricular Supervisionado em Medicina Veterinária</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa - Uruguaiana, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3338405134728553">Fernando Silveira Mesquita</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Camila Cupper Vieira. <b>Caracterização in vitro dos mecanismos envolvidos na regulação da matriz extracelular e o fenótipo celular do epitélio endometrial bovino por estradiol e progesterona</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa - Uruguaiana, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3338405134728553">Fernando Silveira Mesquita</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Carlos Eduardo Messa Ponse. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Carolina da Silveira Giriboni. <b>Avaliação radiográfica no diagnóstico de colapso de traqueia em cão</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1171304952099087">João Paulo da Exaltação Pascon</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Caroline Brandão Quines. <b></b>. Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.. In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7168199942557313">Caroline Cadore Ramires</a>. <b>Efeito da acupuntura sobre a dor neuropática induzida em camundongos.</b>. Dissertação (Mestrado em Programa Multicêntrico de Pós-Graduação em Ciências Fisiológicas) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>, <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Caroline da Rosa Cechin. <b>Cotidiano de vida das pessoas com diabetes mellitus após amputação de membros inferiores</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>CAROLINE MONTEIRO BITTENCOURT. <b>Volume de Líquidos Excessivo em pacientes adultos sob cuidados intensivos: características definidoras, fatores relacionados e intervenções de enfermagem</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2742168118237213">Josefine Busanello</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Caroline Siqueira Lena. <b>Efeitos toxicológicos do Glioxal em Artêmia Salina</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5903230708776294">Daniel Henrique Roos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Cleiton Cardoso. <b>as representações midiáticas sobre esporte no imaginário das crianças</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>, <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Cristiane Barbosa Soares. <b>Marcadores sociais da diferença e a produção de subjetividades: mulheres negras na Educação Básica Visualizar Editar Certificados</b>. Monografia (Aperfeiçoamento/Especialização em História da Cultura Africana, Afro-bras.e Indígena) - Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2590473144333273">Cristiane de Freitas Rodrigues</a>. <b>Os possíveis efeitos do Extrato Lycium barbarum (Goji Berry) na redução lipídica e seus mecanismos de ação em Caenorhabditis elegans e Cultura Celular</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7528612885865102">Cristiane Casagrande Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Cristiano Malavolta. <b>Efeito do gama-orizanol em carneiros com degeneração testicular induzida por insulação escrotal</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Cândida de Moura Cerentini. <b>Avaliação da capacidade funcional e do nível de atividade física em estudantes de 9 a 10 anos de escolas públicas e privadas.</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Daniel Prudente de Morais. <b>Aspectos toxicodinâmicos de Alcaloides pirrolizidínicos em animais</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0047274636775859">Bruno Leite dos Anjos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2431890246253533">Daniel Tassinari Felber</a>. <b>Efeito do agulhamento seco sobre modelo de dor muscular induzida por salina ácida em ratos</b>. Dissertação (Mestrado em Programa Multicêntrico de Pós-Graduação em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>, <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Dayane Cardoso Antunes. <b>Isolamento e purificação dos componentes majoritários de XXXXXX, investigação das propriedades farmacológicas e toxicológicas</b>. Dissertação (Mestrado profissional em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5421615151521751">Fabiane Moreira Farias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Diana Pedroso Caetano. <b>Perfil transcricional da criotolerância em embriões bovinos produzidos in vitro</b>. Dissertação (Mestrado em Programa de Pós-graduação em Ciência Animal) - Universidade Federal do Pampa - Uruguaiana, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1945811068525845">Mateus Jose Sudano</a>, <a href="http://lattes.cnpq.br/3338405134728553">Fernando Silveira Mesquita</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Dieine Cassiélen Tavares Machado. <b>Efeito do y-oryzanol em carneiros com degeneração testicular induzida por insulação escrotal</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Dilene Formentin Priario. <b>Estágio Curricular Supervisionado</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4622960738333181">Rafaela da Silveira Prestes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Eduarda Acunha. <b>Efeitos Toxicológicos do MeHg em Artêmias Salina</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Financiadora de Estudos e Projetos. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5903230708776294">Daniel Henrique Roos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Eduarda Lanes Souza. Aspectos clínico-patológicos e patogenéticos no estudo e monitoramento das doenças de ruminantes e equinos na Mesorregião Sudoeste Rio-Grandense. <b>Bolsista CNPq PIBIC -EM</b>. . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0047274636775859">Bruno Leite dos Anjos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Elenice Fioravante de Brum. <b>Valores de referência para o teste do degrau de seis minutos: um estudo multicêntrico.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Eloá Ferreira Yamada. <b>Laser de Baixa Potência e Sida Tuberculata na Osteoartrite de Joelho</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>, <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5338303975499219">Elvio Adílio Serpa</a>. <b>Genotoxicidade do clorpirifós sobre cultura celular: Uma questão de dose?</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4839195121781005">Luis Flávio Souza de Oliveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Fabiane Backes. <b>Universidade- Comunidade: uma intervenção em busca da inclusão escolar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5241460895903730">Vanessa Alvez Mora da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Felix Roman Munieweg. <b>Avaliação do efeito antioxidante de frutas nativas da região Sul do Brasil na terapia do câncer.</b>. Dissertação (Mestrado profissional em BIOQUÍMICA) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7528612885865102">Cristiane Casagrande Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Fernanda Alves Pereira. <b>Aluna em regime especial: À definir</b>. Tese (Doutorado em Programa Multicêntrico de Pós-graduação em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1945811068525845">Mateus Jose Sudano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Fernanda Nascimento da Silva. <b>LGBTs e mídia: recepção e produção de identidades</b>. Tese (Doutorado em Doutorado Interdisciplinar em Ciências Humanas) - Universidade Federal de Santa Catarina. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Francesca Chaida Sonda. <b>Repetibilidade, reprodutibilidade e objetividade das propriedades mecânicas e morfológicas do tendão de Aquiles e dos flexores plantares em sujeitos saudáveis</b>. Dissertação (Mestrado em Ciências do Movimento Humano) - Universidade Federal do Rio Grande do Sul. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Franciele da Silva Moreira. <b>Análise do perfil dos idosos atendidos no ambulatório e/ou internados por quedas em um hospital, e o risco de novas quedas no período de internação e 1 ano após a alta hospitalar.</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa (Unipampa), . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5414148842321823">Franciele Lanzarini</a>. <b>Knockdown gênico em embriões bovinos produzidos in vitro</b>. Dissertação (Mestrado profissional em Programa Multicêntrico de Pós-graduação em Ciências Fisiológicas) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1945811068525845">Mateus Jose Sudano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Francieli Eduarda Santana dos Santos. <b>Efeitos de um programa de hidroginástica sobre as aptidões funcionais de idosos</b>. Monografia (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Gabriela Dowich. <b>Pesquisa de Leishmaniose em animais domésticos na zona rural da região da fronteira oeste do Rio Grande do Sul</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4055931772161621">Gabriela Seibert</a>. <b>Avaliação da interação in vitro de agentes antifúngicos com anti-inflamatórios não esteroidais frente à células plantônicas e formadoras de biofilme do complexo Sporothrix schenckii</b>. Dissertação (Mestrado profissional em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Giandra Andrade Irigaray. <b>Experiências de cônjuges cuidadoras de pacientes oncológicos em cuidados paliativos</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3289557948187134">Bruna Stamm</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Greyce Nathalia Coitinho Soares. <b>Análise da atividade antifúngica de enxaguantes bucais frente a Candida spp.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Heitor Estella Felippelli. <b>Fluidoterapia transoperatória em cadelas pediátricas submetidas a ovariectomia</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>, <a href="http://lattes.cnpq.br/8345134253755342">Marília Teresa de Oliveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Igor Kniphoff. <b>Avaliação ultrassonográfica de neoplasias cutâneas em cães</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1689306155948159">Maria Lígia de Arruda Mistieri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Ingrid Goulart Medeiros. <b>Efeito do microagulhamento em estrias atróficas</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Ingrid Rodrigues Fonseca. <b>Monitoria em Fisioterapia em Pneumologia I e II</b>. Orientação de outra natureza. Programa de Bolsas de Desenvolvimento Acadêmico - UNIPAMPA. UNIVERSIDADE FEDERAL DO PAMPA, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7650992213425450">Ingryd Merchioratto</a>. <b>Caracterização biológica, antigênica e genética de amostras de pestivírus isolados de bovinos</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1887646413957746">Carolina Kist Traesel</a>, <a href="http://lattes.cnpq.br/9761857774819478">Mário Celso Sperotto Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0094667985449300">Ismael Jung Sanchotene</a>. <b>Barreiras, facilitadores e motivação para a prática recreativa do tênis em adultos</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>Janaina Piagette. <b>Efeitos da exposição crônica ao cloreto de cobre (CuCl2) sobre parâmetros cardiovasculares, reprodutores e de estresse oxidativo de ratos</b>. Dissertação (Mestrado profissional em Programa de Pós Graduação em Bioquímica) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>, <a href="http://lattes.cnpq.br/0454207116065740">Franck Maciel Peçanha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7922908640776212">Janine De Camargo</a>. <b>Aluna em Regime Especial: A definir</b>. Dissertação (Mestrado profissional em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1945811068525845">Mateus Jose Sudano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Jarbas Parise Moscato. <b>PRODUÇÃO DE LINGUAGENS EXPRESSIVO-CRIATIVAS NA GESTÃO DE PRÁTICAS EDUCATIVAS DO ATENDIMENTO EDUCACIONAL ESPECIALIZADO (AEE) NA ESCOLA E FERNADO CORREA RIBAS</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>, <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Jean da Silva Carvalho. <b>Respostas biomecânica a mudanças na configuração da corrida</b>. Iniciação científica (Graduando em Educação Física) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>Jefferson Enderle. <b>Avaliação de extratos vegetais com aplicação farmacológica</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6758699828667193">Elton Luis Gasparotto Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>Jenifer da Luz Ziegler. <b>Anatomia das Espécies Neotropicais da Ordem Carnivora</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>Jennifer Veppo Prade. <b>Análise da atividade antifúngica de enxaguantes bucais frente a Candida spp.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>JESSICA JANINE PLATES DOS SANTOS. <b>Análise do equilíbrio e postura de idosos antes e após a intervenção pelo método pilates</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa (Unipampa), . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>José Valdir da Silva Correa Junior. <b>Nanoemulsões contendo óleo essencial de murta</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5910402149698767">Fernanda Bruxel</a>, <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>Juliana Gonçalves Ribeiro. <b>Riscos genéticos da exposição acidental ao Fluorazon (Pour on) em células do sistema imune.</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7651341120825287">Michel Mansur Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>Jéssica Tamara Limberger. <b>Rotina de Iniciação Científica em um Laboratório de Mutagênese</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7651341120825287">Michel Mansur Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Júlia Guimarães de Moraes. <b>Adesão, permanência e barreiras percebidas na prática do futebol</b>. Iniciação científica (Graduando em Educação Física) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8042507259854344">Karolina Cunha Schlosser</a>. <b>Determinação do teor de etanol em medicamentos homeopáticos por entalpimetria no infravermelho</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992443023418750">Fabiana Ernestina Barcellos da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>Ketelin Monique Cavalheiro. <b>Plantas medicinais e o ensino de biologia celular</b>. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Klaudilene de Carvalho Fan. <b>Impacto ambiental causado pela atividade aquícola no córrego Felizardo, Uruguaiana, RS</b>. Trabalho de Conclusão de Curso (Graduação em Aqüicultura) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9300090274623517">Carlos Frederico Ceccon Lanes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Laura Lanes Etcheverria. AVALIAÇÃO DA COMPOSIÇÃO QUÍMICA, DA ATIVIDADE ANTIMICROBIANA E DA TOXICIDADE DE Baccharis aliena (Spreng) Joch. <b>Müll</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5421615151521751">Fabiane Moreira Farias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>Letícia Moreschi. <b>Comparação da atividade da nistatina e da terapia fotodinâmica frente isolados de Candida</b>. Trabalho de Conclusão de Curso (Graduação em Odontologia) - Faculdade Meridional - Imed, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0731595522786356">Débora Alves Nunes Mario</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>Lisiane de Oliveira Moura. <b>Desenvolvimentos de processos de Fitorremediação de solo e recursos hídricos contaminados por compostos orgânicos utilizando plantas aquáticas e terrestres: uma solução verde para minimizar impactos ambientais</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>Lisiane Ribeiro Doleski. <b>Reflexões da prática docente: problematizando as vivências nos Estágios Supervisionados</b>. Trabalho de Conclusão de Curso (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>, <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>Luana Gabrielli Lamberti. <b>Mentol e Lippia alba como anestésico de peixes ornamentais</b>. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Aquicultura) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0527775082585913">Alessandra Sayuri Kikuchi Tamajusuku Neis</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>Luis Dorneles. <b>Análise Temporal do preços aquícolas do Brasil</b>. Trabalho de Conclusão de Curso (Graduação em Aqüicultura) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>, <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>Luiz Torres Neto. <b>Desenvolvimento e determinação da atividade antifúngica de nanocápsulas contendo diferentes óleos.</b>. Dissertação (Mestrado profissional em Ciências Farmacêuticas) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>, <a href="http://lattes.cnpq.br/1814676097078820">Eduardo André Bender</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1603162976456576">Luiza Frigo</a>. <b>O Bioma Pampa como tema de investigação no Ensino Fundamental</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0316035030727687">Marcos Roberto Kunzler</a>. <b>Efeito agudo do exercício físico em diferentes horas do dia sobre a função neuromuscular e cognitiva</b>. Tese (Doutorado em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>Maria Aline da Rosa Goulart. <b>Orientação de Estágio Curricular Supervisionado II</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>Maria Eduarda Deitos Vasquez. <b>CUIDADO PRÉ-NATAL NA PERSPECTIVA DE ENFERMEIROS ATUANTES NA ATENÇÃO PRIMÁRIA À SAÚDE: FRAGILIDADES E POTENCIALIDADES (BOLSA PDA PESQUISA)</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>Maria Eduarda Deitos Vasquez. <b>ADOLEGRA: APOIO A ADOLESCENTE GRÁVIDA</b>. Iniciação científica (Graduando em Curso de Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>Maria Eduarda Deitos Vasquez. <b>Monitoria Acadêmica no Componente Curricular de Enfermagem no Cuidado à Saúde da Mulher</b>. Iniciação científica (Graduando em Curso de Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>Maria Eduarda Deitos Vasquez. Avaliação dos fatores associados ao bem-estar de mulheres em situação de parto vaginal. <b>TCC II.</b>. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>Maria Elizabeth Gomes Paz. <b>Desenvolvimentos de processos de Fitorremediação de solo e recursos hídricos contaminados por compostos orgânicos utilizando plantas aquáticas e terrestres: uma solução verde para minimizar impactos ambientais</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>Maria Fernanda Costa Fonseca. <b>Monitoria de Microbiologia</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>Mariana da Silva. <b>Monitoria específica para acompanhamento de aluno indígena</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1274611347204473">Dioni Glei Bonini Bitencourt</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>Mariana Machado Modkowski. <b>Rotina de Iniciação Científica em um Laboratório de Genotoxicidade</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7651341120825287">Michel Mansur Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>Mariane Munhoz. <b>Intervenções de saúde com famílias de crianças e adolescentes com câncer</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3289557948187134">Bruna Stamm</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>Mariane Munhoz. Intervenções de saúde com famílias de crianças e adolescentes com câncer. <b>TCC I (coorientadora)</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1039578227394206">Bruna Sodré Simon</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>Mariani Farias Fiorenza. <b>Dinâmica de expressão e migração de neutrófilos durante a fase inicial do reconhecimento da gestação em vacas</b>. Tese (Doutorado em doutorado em fisiopatologia da reprodução - UFSM) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Coorientador).. In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>Mariani Machado Vasconcellos. <b>Atovaquona incorporada em nanoemulsões modificadas com transferrina: correlação entre atividade antimalárica e estrutura supramolecular do carreador</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5910402149698767">Fernanda Bruxel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>Marina Dias Rodrigues. <b>Efeito do hidrolisado de clara de ovo (HCO) sobre os efeitos da exposição crônica ao Chumbo sobre o sistema reprodutor de ratos</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>Marina dos Reis Marty. <b>Marcadores da diferença, interseccionalidades e a produção de alteridades nos processos educativos e de socialização: a tramitação do PL 01/2017 (ESP) em Uruguaiana</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>Mathias Sosa Machado. <b>Efeito da falta de informações sensoriais sobre o controle motor da marcha e postura</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2427953243602951">Mauricio Parra</a>. <b>Análise da Produção Acadêmica dos Cursos de Ciências da Natureza da Unipampa</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>Milena Aguiar dos Santos. <b>Efeito de diferentes intervenções durante o exercício sobre o desempenho e tolerância à fadiga</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>Mirela Grünwalder Paim. <b>Ocorrência de endoparasitas com potencial zoonótico no município de Uruguaiana - RS</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>Mylena da Silva Vargas. <b>Avaliação da composição química e das atividades farmacológicas de Celtis ehrenbergiana</b>. Dissertação (Mestrado profissional em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5421615151521751">Fabiane Moreira Farias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>Nariani Rocha Saraiva. <b>AVALIAÇÃO DOS EFEITOS TÓXICOS DA EXPOSIÇÃO INALATÓRIA AO TOLUENO UTILIZANDO O MODELO ALTERNATIVO Caenorhabditis elegans.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>Natalie Queiroz. <b>Estudo comparativo em pacientes com dor lombar: tratamento medicamentoso X técnica MSAT</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>Pamella Eduardha Espindola Chaves. <b>PodCast "Ciência no Velho Oeste" - Divulgando a Pesquisa de Uruguaiana para a Comunidade</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa da Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7651341120825287">Michel Mansur Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7965396541247231">Paola Motta</a>. <b>Desenvolvimento de método analítico indicativo de estabilidade para bilastina por CLAE com detecção por fluorescência</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0120736228044122">Clésio Soldateli Paim</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>Paula Tachemco Correa. <b>AURICULOTERAPIA E BANDAGEM ELÁSTICA FUNCIONAL PARA O TRATAMENTO DA ENXAQUECA</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>Pedro Henrique Dorneles Costa. <b>Efeito do hidrolisado de clara de ovo como possível protetor das alterações vasculares promovidas pela exposição crônica ao acetato de chumbo em ratos.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, UNIVERSIDADE FEDERAL DO PAMPA. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>Pedro Santos da Silva. <b>Preparação e caracterização de nanopartículas poliméricas contendo componentes nutracêuticos co-encapsulados.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1814676097078820">Eduardo André Bender</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>Pietra Minuzzi. <b>Valores de referência para o teste do degrau de seis minutos: um estudo multicêntrico.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4079663494667647">Rafael Tamborena Malheiros</a>. <b>Investigação de diferentes dietas hipercalóricas sobre o perfil nociceptivo de ratos com obesidade</b>. Dissertação (Mestrado em Programa Multicêntrico de Pós-Graduação em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>, <a href="http://lattes.cnpq.br/9224466302319645">Morgana Duarte da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>Rafaela Bampi Guedes. <b>Conhecimento de pessoas com hipertensão arterial e diabetes mellitus sobre doença renal crônica</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>Rafaella Paré Guglielmi. <b>Microbiologia vai à escola</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Bolsas de Desenvolvimento Acadêmico, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2987253598955816">Raphaelly Machado Felix</a>. <b>INTENÇÃO E O USO DE UM ESPAÇO DE LAZER PARA A PRÁTICA DE ATIVIDADE FÍSICA EM ADULTOS: UM ESTUDO DE ACOMPANHAMENTO</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>Renata Godinho Soares. <b>Intervenções com metodologias ativas sobre fatores de risco para doenças crônicas na Educação Básica</b>. Monografia (Aperfeiçoamento/Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>Renata Medeiros Hilgert. <b>Atovaquona incorporada em nanoemulsões modificadas com transferrina</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5910402149698767">Fernanda Bruxel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>Renata Montagner. <b>POLIMORFISMO ALA16VAL DO GENE DA SUPERÓXIDO DISMUTASE DEPENDENTE DE MANGANÊS E USO DE AGROTÓXICOS EM PEQUENOS PRODUTORES RURAIS DE UMA COMUNIDADE DO INTERIOR DO RS</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>Renata Trojan Fagundes. <b>Relatório de Estágio Curricular Supervisionado em Medicina Veterinária</b>. Trabalho de Conclusão de Curso (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1887646413957746">Carolina Kist Traesel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2700251432167121">Renato Ribeiro Azevedo</a>. <b>Influência de características neuromusculares, bioquímicas e neuromecânicas sobre a percepção subjetiva de esforço de atletas de endurance</b>. Tese (Doutorado em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>Ricardo Pietzarka Neto. <b>Influência de assimetrias estruturais nos membros inferiores sobre o desempenho de tarefas de locomoção e postura</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9118154952044566">Roniele Santana Valente</a>. <b>Efeito da modulação da Acil-Coa sintetase de cadeia longa no desenvolvimento e criotolerância de embriões bovinos</b>. Dissertação (Mestrado profissional em Programa Multicêntrico de Pós-graduação em Ciências Fisiológicas) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1945811068525845">Mateus Jose Sudano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>Rosane Oliveira Bernini. EFEITO DO EXTRATO DE Passiflora incarnata L. <b>SOBRE O ESTRESSE NO PRÉ-ABATE DE CARPA CAPIM (Ctenopharyngodon idella)</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7670823136210400">Fabio de Araújo Pedron</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>Sabrina Lopes de Oliveira. <b>Efeito do gama-orizanol em carneiros com degeneração testicular induzida por insulação escrotal</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>Sandy Liara Primaz. <b>Terapia assistida por animais no tratamento de doença mentais pela rede SUS</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1689306155948159">Maria Lígia de Arruda Mistieri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5702808098070433">Saulo Menna Barreto Dias</a>. <b>Tendência temporal sobre excesso de peso e obesidade em crianças e adolescentes escolares</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>Sidnei Batista de Oliveira Junior. <b>Caracterização dos atendimentos realizados em um pronto socorro de um hospital do sul do Brasil</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>Sue Elle Gabriela Giron Mota. <b>Avaliação da relação gene x ambiente: doença de Huntington e exposição ao Manganês em Caenorhabditis elegans</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>Thais Estefani Flores Mazzini. Aspectos clínico-patológicos e patogenéticos no estudo e monitoramento das doenças de ruminantes e equinos na Mesorregião Sudoeste Rio-Grandense. <b>Bolsista PDA2017 - pesquisa</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Unifersidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0047274636775859">Bruno Leite dos Anjos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9722277994265595">Thamiris Vieira Marsico</a>. <b>Caracterização in vitro dos mecanismos envolvidos na regulação da matriz extracelular e o fenótipo celular do epitélio endometrial bovino por estradiol e progesterona</b>. Dissertação (Mestrado em Programa de Pós-graduação em Ciência Animal) - Universidade Federal do Pampa - Uruguaiana, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1945811068525845">Mateus Jose Sudano</a>, <a href="http://lattes.cnpq.br/3338405134728553">Fernando Silveira Mesquita</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0035178890990209">Ticiane da Rosa Pinheiro</a>. <b>Avaliação do perfil de suscetibilidade aos antimicrobianos de bactérias isoladas da carne bovina</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5400708933813339">Cheila Denise Ottonelli Stopiglia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>Ully Cristy Porto Alegre. <b>Conhecimento de cirurgiões dentistas sobre antimicrobianos e resistência microbiana</b>. Trabalho de Conclusão de Curso (Graduação em Odontologia) - Faculdade Meridional - Imed, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0731595522786356">Débora Alves Nunes Mario</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>Valdir Rezende Gomes Junior. <b>O perfil do profissional de Educação Física influencia na motivação dos alunos?</b>. Monografia (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>Vanessa Braz Silva. <b>Atuação de enfermeiros e médicos da atenção primária à saúde no tratamento conservador da doença renal crônica</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>Vanessa Pereira Mendes. Aspectos clínico-patológicos e patogenéticos no estudo e monitoramento das doenças de ruminantes e equinos na Mesorregião Sudoeste Rio-Grandense. <b>Bolsista FAPERGS - PROBICIBIC-AF 2017.</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0047274636775859">Bruno Leite dos Anjos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>verônica Ivachuck da silva. <b>Estudo de nanopartículas de prata obtidas por síntese verde</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6758699828667193">Elton Luis Gasparotto Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0343009410481289">Vinícia Garzella Metz</a>. <b>INFLUÊNCIA DA SUPLEMENTAÇÃO COM ÓLEO DE PEIXE SOBRE PARÂMETROS DE DEPENDÊNCIA E RECAÍDA EM RATOS EXPOSTOS À ANFETAMINA: ASPECTOS COMPORTAMENTAIS E BIOQUÍMICOS</b>. Dissertação (Mestrado em Farmacologia) - Universidade Federal de Santa Maria, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7729148983836692">Camila Simonetti Pase</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>151. &nbsp;</td> <td>Virginia Flores da Silva. <b>Orientação de Estágio Curricular Supervisionado II</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>152. &nbsp;</td> <td>Vitória Hamdan Padilha. <b>Efeito da liberação miofascial sobre a sensibilidade e pressão plantar</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2169780285000389">ADRIANE LETTNIN ROLL FEIJÓ</a>. <b>DESENVOLVIMENTO DE METODOLOGIA ANALÍTICA, ESTUDO DA ESTABILIDADE, IMPUREZAS E SEGURANÇA BIOLÓGICA DA TIROFIBANA</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8153279253583982">Marcelo Donadel Malesuik</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alex Geovane da Silveira Pereira. <b>Síntese, avaliação da ação antibacteriana e estudo das relações estrutura-atividade de chalconas bioativas derivadas da diapocinina</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Aline de Castro da Silva. <b>Avaliação das atividades antioxidante, hipocolesterolêmica e/ou hipoglicemiante de espécies vegetais empregadas na medicina popular do Rio Grande do Sul.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5421615151521751">Fabiane Moreira Farias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2409241036979989">Alisson Felipe de Oliveira</a>. <b>Estudo de moléculas com atividade antiviral potencial: Modelagem molecular, avaliação de atividade anti-BVDB e da toxicidade</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Alyne Goulart Escobar. <b>EFEITOS DO HIDROLISADO DE CLARA DO OVO SOBRE OS PREJUÍZOS VASCULARES INDUZIDOS PELA EXPOSIÇÃO AO HgCl2 EM ARTÉRIAS DE RATOS</b>. Dissertação (Mestrado em Programa de Pós Graduação em Bioquímica) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Amanda Peres de Souza. <b>SAÚDE SEXUAL E REPRODUTIVA DE ADOLESCENTES GRÁVIDAS</b>. Iniciação científica (Graduando em Curso de Enfermagem) - Universidade Federal do Pampa, , Programa de Bolsas de Desenvolvimento Acadêmico.. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ana Lúcia Dias. <b>Analise do efeito do toque terapêutico no tratamento de úlceras por pressão.</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Andressa Viapiana Naimayer. <b>Nanoemulsões catiônicas: caracterização físico-química e avaliação da toxicidade em modelo Caenorhabditis elegans</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5910402149698767">Fernanda Bruxel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ANDRIELE DE LIMA HERRERA. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Any Gracyelle Brun dos Santos. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Bibiana Cabreira. <b>Avaliação dos efeitos ventilatórios e hemodinâmicos de exercícios respiratórios realizados sobre a plataforma vibratória em indivíduos saudáveis.</b>. Monografia (Aperfeiçoamento/Especialização em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>BIBIANA MAFALDO CONSI. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Briane de Bairros dos Santos. <b>Captação e doação de órgãos e tecidos para transplante : percepções da equipe multiprofissional em saúde</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Bruna Tarasuk Trein Crespo. Saúde reprodutiva de adolescentes: visão dos enfermeiros na atenção primária em saúde. <b>TCC II.</b>. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Bárbara Palmo Pacheco. <b>AVALIAÇÃO DA PROPENSÃO A QUEDAS E A SUA RELAÇÃO COM O NÍVEL DE COGNIÇÃO E EQUILÍBRIO EM IDOSOS RESIDENTES NA COMUNIDADE DE URUGUAIANA ? RS</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5587229134147743">Graziela Morgana Silva Tavares</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1780371370918902">Camila Ceolin da Silva</a>. <b>Estimulação proprioceptiva e mobilidade funcional</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9024651311300971">Camila Coelho</a>. <b>Estudo de compostos derivados da diapocinina e avaliação das atividades antioxidante e frente a doenças neurodegenerativas</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Carla Rios. Percepções de puérperas acerca da humanização no trabalho de parto, parto e nascimento. <b>TCC II.</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>CARLA ROSA TIECHER. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Carmem Maria dos Santos. <b>Iniciação à docência: Estudos em Educação Física escolar</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Desenvolvimento Acadêmico - UNIPAMPA, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>CAROLINA BARCELLOS DA SILVA SILVEIRA. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Carolina Quadros. <b>VALIDADE CONCORRENTE ENTRE TEST OF MOTOR PERFORMANCE (TIMP) E ALBERTA INFANT MOTOR SCALE (AIMS): UMA VERSÃO PRELIMINAR</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5698478368912787">Ângela Kemel Zanella</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>CAROLINE ANDRESSA BORTOLUZZI ZALAMENA. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Chayene Bruna. <b>Acesso aos serviços de saúde por adolescentes grávidas</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Instituto Federal do Paraná, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2447361827796110">Natália Sevilha Stofel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1786731227846828">Cristine Scheuer</a>. <b>Atovaquona incorporada em nanoemulsões modificadas com transferrina: Caracterização físico-química e estrutura supramolecular do carreador</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5910402149698767">Fernanda Bruxel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Daiane Raquel de Freitas Rodrigues. <b>ESTUDO DE BIOCOMPOSTOS, BIOCOMBUSTÍVEIS E BIOMATERIAIS COM APLICAÇÃO TECNOLÓGICA</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6758699828667193">Elton Luis Gasparotto Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Deise Santurio. <b></b>. Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.. In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0120736228044122">Clésio Soldateli Paim</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Diego Farias Suevo. <b>Nanoemulsões catiônicas: Caracterização físico-química e avaliação da toxici-dade em modelo Caenorhabditis elegans</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5910402149698767">Fernanda Bruxel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>EMILIA DOS SANTOS SOSA. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Eveline Lopes. Atendimento à mulher vítima de violência na atenção primária: percepções de enfermeiros. <b>TCC II.</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0540637395800217">Graciela Dutra Sehnem</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Fabiana Almeida Alves. <b>Assistência à criança em cuidados paliativos: revisão integrativa</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7312946418733110">Raquel Pötter Garcia</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Fernanda Dobler. <b>Estágio extracurricular em farmácia comercial</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0120736228044122">Clésio Soldateli Paim</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Fernandez dos Santos Garcia. <b>AVALIAÇÃO DO PERFIL BIOQUÍMICO, OXIDATIVO E GENOTÓXICO DE PEQUENOS PRODUTORES RURAIS DO MUNICÍPIO DE SANTIAGO - RS</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4765356058840784">Gisele Dias Marques</a>. <b>Análise espaço-temporal de Leishmaniose visceral canina (LVC) no municipio de Itaqui (2009-2016)</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2834249723527323">Debora da Cruz Payão Pellegrini</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5318786079181031">Gislaine Regina Santos dos Santos</a>. <b>Adaptações tendíneas ao exercício físico regular</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>GUILHERME DE DAVID. <b>Desenvolvimento de um modelo de benchmarking para a bovinocultura de corte</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, PRÓ-REITORIA DE PESQUISA. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Heloisa Aiolfi Padilha. <b>Avaliação das atividades antioxidante, hipocolesterolêmica e/ou hipoglicemiante de espécies vegetais empregadas na medicina popular do Rio Grande do Sul.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5421615151521751">Fabiane Moreira Farias</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Isac Roman. <b>Efeito da dose de Gonadotrofina Coriônica Equina em protocolos de sincronização da ovulação em vacas lactantes Bos Taurus</b>. Dissertação (Mestrado profissional em CIÊNCIA ANIMAL) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7161639654325086">Daniela dos Santos Brum</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Jorge Renato Tagliaferro dos Santos Junior. <b>DESEMPENHO LARVAL DE ACARÁ DO CONGO (Amatitlania nigrofasciatus) EM SISTEMA DE CULTIVO COM BIOFLOCOS</b>. Trabalho de Conclusão de Curso (Graduação em Tecnologia em Aquicultura) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0527775082585913">Alessandra Sayuri Kikuchi Tamajusuku Neis</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>José Eudes Gomes Pinheiro Júnior. <b>Exposição prolongada a metais pesados e repercussões cardiometabólicas</b>. Tese (Doutorado em Programa de Pós Graduação em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>, <a href="http://lattes.cnpq.br/0454207116065740">Franck Maciel Peçanha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Julia Rosa Menezes. <b>Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6704567679943812">Juliano Braun de Azeredo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7949047222753245">Juliana Bernera Ramalho</a>. <b>Efeito de probióticos em um modelo de depressão em camundongos</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Karen dos Santos Toledo. <b>Origem e distribuição antimérica dos nervos do plexo braquial no Coendou prehensilis (Linnaeus, 1758)</b>. Dissertação (Mestrado em Biologia Animal) - Universidade Federal Rural do Rio de Janeiro, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Karina Sommer Filla. <b>PROJETO DE ENSINO: GUIA ILUSTRADO DE NECROPSIA EM CÃES</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3189945818846211">Maria Elisa Trost</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>kelly Annes. <b>Caracterização do metabolismo de lipídeos de embriões bovinos produzidos in vitro</b>. Tese (Doutorado em Biotecnociência) - Universidade Federal do ABC, Fundação de Amparo à Pesquisa do Estado de São Paulo. (Coorientador).. In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1945811068525845">Mateus Jose Sudano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Laís Miranda Feio. <b>Prevalência da infecção pelo vírus da diarreia viral bovina e herpesvírus bovino tipo em reprodutores</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1887646413957746">Carolina Kist Traesel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5583802330402324">Liege Brum Porto</a>. <b>Mecânica de corrida em atletas com e sem dor lombar</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2867613977243069">Liver Alexandre Arnolde Priario</a>. <b>Associação entre ganho de força muscular e desempenho funcional em idosas</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>LUCAS MOREIRA SIQUEIRA. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Lucas Velasques. <b>Estágio extracurricular em farmácia comercial</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0120736228044122">Clésio Soldateli Paim</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Luciano Tadiello Marasca. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Lyana Feijoó Berro. <b>ESTUDO DE HEMOGLOBINAS VARIANTES, MARCADORES GENÉTICOS E BIOQUÍMICOS RELACIONADOS COM O POLIMORFISMO GLU298ASP DO GENE NOS 3 EM INDIVÍDUOS DA ETNIA AFRICANA</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Marcia Vilhalba Brum Gutierrez. <b>Identificação e caracterização de pacientes portadores de doença renal oculta.</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Maria Eduarda Candido Thedy. <b>Desenvolvimento de compostos derivados de quinolinas via reações de ativação C-H em meios reacionais ambientalmente adequados</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6704567679943812">Juliano Braun de Azeredo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>MARIANA GOULART ALMIRON. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>MARIANA SOUZA DUTRA. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Marlise da Silveira Grecco. <b>A Educação Ambiental e seu diagnóstico na escola</b>. Tese (Doutorado em PPG Educação em Ciências, Química da Vida e Saúde) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Mayara Aramburu Pinto. <b>Desenvolvimento de método indicativo de estabilidade para análise de tadalafila e sildenafila associados, cinética de fotodegradação e estudo toxicológico</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3992443023418750">Fabiana Ernestina Barcellos da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Noelia Carolina Rodrigues. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Oldair Saldanha Vargas. <b>PET GraduaSUS</b>. Orientação de outra natureza. Universidade Federal do Pampa. Secretaria de Gestão do Trabalho e da Educação na Saúde, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5183171943913355">Juliana Lopes de Macedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>PAOLA CABRAL DO PRADO. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Paola Zambelli Moraes. <b>CONSUMO DE HIDROLISADO DE CLARA DE OVO COMO PREVENÇÃO PARA AS ALTERAÇÕES CARDIOVASCULARES PROMOVIDAS PELA EXPOSIÇÃO CRÔNICA AO CLORETO DE CHUMBO EM RATOS</b>. Dissertação (Mestrado em Programa de Pós Graduação em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>, <a href="http://lattes.cnpq.br/0454207116065740">Franck Maciel Peçanha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Paula Zimmermann. <b>Efeitos do uso da insuflação/exsuflação mecânica (Cough Assist) sobre parâmetros hemodinâmicos e ventilatórios.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, PDA - UNIPAMPA. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0454207116065740">Franck Maciel Peçanha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Pedro Auzani. <b>Monitoria na disciplina de obstetrícia veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Pró-Reitoria de Graduação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Rafal Reimann Baptista. <b></b>. Universidade Federal do Pampa., . In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Raquel Oliveira Cardoso. <b>Estudo de chalconas com ação anti-inflamatória potencial: avaliação da atividade e modelagem molecular</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Rodrigo Santos da Silva. <b>Comparativo bio-econômico de três modalidades de manejo reprodutivo para bovinos de corte.</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Sue Ellle Berro da Silva. <b>Assistência e acompanhamento laboratorial dos pacientes participantes do HiperDia em Posto de Saúde de Uruguaiana, RS</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5805841991374556">Cleci Menezes Moreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Taciana Rosado. <b>Avaliação dos efeitos ventilatórios e hemodinâmicos de exercícios respiratórios realizados sobre a plataforma vibratória em indivíduos saudáveis.</b>. Monografia (Aperfeiçoamento/Especialização em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>THANARA RIBEIRO IRARA. <b>PET Práticas Integradas em Saúde Coletiva (PET PISC)</b>. Orientação de outra natureza. Universidade Federal do Pampa. Ministério da Educação, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Thaís de Lima dos Santos. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Vanessa Pereira Mendes. <b>O USO DO BLOG DO LABORATÓRIO DE PATOLOGIA VETERINÁRIA COMO FERRAMENTA DE ENSINO</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3189945818846211">Maria Elisa Trost</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>VANUZA AZOLIN. <b>Boletim da Pecuária</b>. Orientação de outra natureza. Universidade Federal do Pampa. PRÓ-REITORIA DE EXTENSÃO, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1329252774349741">Vinícius Martins Farias</a>. <b>Análise das ações técnico-táticas de jovens em diferentes formatos de jogo mo futebol</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Educação Física) - Universidade Federal de Santa Maria, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>VITHOR BALBE. <b>Eficiência dos sistemas de cria na bovinocultura de corte no município de Quaraí ? RS</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, PRÓ-REITORIA DE PESQUISA. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Woodson Dornelles Baptista da Luz Silva. <b>PROJETO DE ENSINO: GUIA ILUSTRADO DE NECROPSIA EM CÃES</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3189945818846211">Maria Elisa Trost</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andressa Lemes Lemos. <b>Relação de assimetrias cinéticas e cinemática com o risco de lesão no esporte</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carla Tatiane Oliveira. <b>Educação em saúde no âmbito escolar: estratégias para promoção da saúde de adolescentes</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carla Tatiane Soares de Oliveira. <b>DEMANDAS DE CUIDADO DE ESTUDANTES E PROFESSORES NA ÓTICA DE EDUCAÇÃO EM SAÚDE</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9436487230121608">Anali Martegani Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Deise J. Stroher. <b>Avaliação do efeito da suplementação com diferentes tipos de óleos sobre parâmetros metabólicos, inflamatórios e na expressão gênica de ratos Wistar submetidos a uma dieta hiperlipídica</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Eduardo de Abreu Osório. <b>Projeto Intensificação da Ovinocultura na Fronteira-Oeste do RS</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa (UNIPAMPA). In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Eduardo Lopes Pereira. <b>Monitoria de Histologia I e Histologia II</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Elisa de Oliveira Rosa. <b>Cotidiano de cuidados domiciliares exercido por familiares/cuidadores da criança com asma</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Eugênia Kuhn. <b>UTILIZAÇÃO DE Caenorhabditis elegans COMO BIOMARCADOR DE QUALIDADE DE AGUA</b>. Iniciação científica (Graduando em Aqüicultura) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Evilin Costa Gueterres. <b>Conduta do familiar cuidador diante da crise de asma da criança</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fabrício OCampo. <b>Avaliação da saúde intestinal de escolares de Uruguaiana ? RS: Uma ação com foco na Saúde Pública.</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5805841991374556">Cleci Menezes Moreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Felipe Müller Machado. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Gretel Ruprechter. <b>Marcadores metabólicos e inflamatorios durante el período de transición en vacas lecheras como herramientas diagnósticas de salud de rodeo</b>. Tese (Doutorado em Programa Posgrado Doctorado) - Universidad de la Republica Uruguay, . In&iacute;cio: 2015.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>, <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Guilherme Salgado Carrazoni. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7926552419656180">Juliana Freddo Roncato</a>. <b>Avaliação de nanoformulações contendo produtos naturais utilizando Caenorhabditis elegans como organismo modelo</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Júlia Torres Cavalheiro. <b>Intervenções de Enfermagem para pacientes com Dor Aguda em unidade de urgência emergência</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, Secretaria de Gestão do Trabalho e da Educação na Saúde. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9436487230121608">Anali Martegani Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6229621976935803">Letiele Bruck de Souza</a>. <b>Avaliação fitoquímica e farmacológica de folhas e raízes da espécie Chaptalia Nutans (L.) Polak</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6758699828667193">Elton Luis Gasparotto Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Luiz Eduardo Ben Plissão. Avaliacão Toxicológica e farmacológica de Maca peruana (Lepidium meyenii) em C. <b>elegans</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4355211015887363">Daiana Silva de Ávila</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Maquelen Blanco Fernandes. <b>Identificação e caracterização de pacientes portadores de doença renal oculta.</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Marcelo Fittipaldi Kleinubing. <b>Bolsista do projeto: Difusão de biotecnologias reprodutivas para rebanhos ovinos de pequeno e médio porte localizados na fronteira-oeste do RS</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa (UNIPAMPA). In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Marcia Vilhalba Brum Gutierrez. <b>Identificação e caracterização de pacientes portadores de doença renal oculta.</b>. Orientação de outra natureza. Universidade Federal do Pampa. PROGRAMA DE DESENVOLVIMENTO ACADÊMICO, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5175042536462806">Melina Bucco Soares</a>. <b>Efeito dos chás provenientes da Camellia sinensis sobre modelo de obesidade</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Murilo Ricardo Sigal Carriço. <b>Desenvolvimentos de processos de Fitorremediação de solo e recursos hídricos contaminados por compostos orgânicos utilizando plantas aquáticas e terrestres: uma solução verde para minimizar impactos ambientais</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5573110865198081">Patrícia Maurer</a>. <b>Identificação de potenciais marcadores genético-bioquímicos associados à síndrome metabólica em afrodescendentes</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Regina Fabiola Graup. <b>Estudo do calibre arterial das aves</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Programa de Bolsas de Iniciação à Pesquisa. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4297260102377031">Amarílis Díaz de Carvalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Sabryna Ibaldo. <b>Desvelando demandas de cuidado de adolescentes de uma escola da fronteira oeste do RS</b>. Trabalho de Conclusão de Curso (Graduação em Curso de Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9436487230121608">Anali Martegani Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Sabryna Ibaldo da Silva. <b>Desvelando as demandas de cuidado de adolescentes de uma escola da Fronteira Oeste ? RS</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Sheila de Oliveira Garcia. <b>Incidência de fraturas de fêmur em idosos internados em uma unidade hospitalar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6283719909074304">Cenir Gonçalves Tier</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Suellen Belmonte Nery. <b>Biomecânica da corrida em terreno inclinado</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Thais Lopes Gonçalves. <b>Projeto Intensificação da Ovinocultura na Fronteira-Oeste do RS</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa (UNIPAMPA). In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Vanessa Mendonça Soares. <b></b>. Universidade Federal do Pampa., . In&iacute;cio: 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2834249723527323">Debora da Cruz Payão Pellegrini</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Paula Castro Caurio. <b>Cotidiano de pacientes hipertensos e diabéticos no espaço domiciliar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bibiana Mafaldo Consi. <b>Valores de referência para o teste do degrau de seis minutos: um estudo multicêntrico.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bruna Pilar Benites Nicorena. <b>A rede social e institucional da criança com necessidades especiais de saúde</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Camila de Campos Moreira. <b>DETECÇÃO DA DESORDEM COORDENATIVA DE DESENVOLVIMENTO EM ESCOLARES DE UMA INSTITUIÇÃO DE ENSINO PÚBLICO DO MUNICÍPIO DE URUGUAIANA/RS</b>. Trabalho de Conclusão de Curso (Graduação em Fisioterapia) - Universidade Federal do Pampa - Campus Uruguaiana, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4480938481569672">Eloá Maria dos Santos Chiquetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Carla Teixeira Leite. <b>Diagnóstico e tratamento da doença periodontal em pré-molares e molares de equinos</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Estadual Paulista- Jaboticabal. (Coorientador)., . In&iacute;cio: 2014.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Caroline Rosa Tiecher. <b>Valores de referência para o teste do degrau de seis minutos: um estudo multicêntrico.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Danielle Prochinski. <b>O cotidiano de pacientes com doenças crônicas não transmissíveis no âmbito domiciliar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Eliane Celina Guadagnin. <b>Influência das características cinemáticas da marcha sobre parâmetros neuromusculares da extremidade inferior: possibilidade de intervenção para melhora da mobilidade de idosos</b>. Tese (Doutorado em Ciências do Movimento Humano) - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Coorientador).. In&iacute;cio: 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fabio Santos Moraes Duarte. <b>A entrega de correspondência e a sociabilidade</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Sociais) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5183171943913355">Juliana Lopes de Macedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fernanda Portela Pereira. <b>Aplicação do screener em crianças com necessidades especiais de saúde</b>. Dissertação (Mestrado em Enfermagem) - Universidade Federal de Santa Maria. (Coorientador)., . In&iacute;cio: 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Giselle Baioco Alves. <b>Valores de referência para o teste do degrau de seis minutos: um estudo multicêntrico.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Graciane Lafuente Ferreira. <b>Construir e validar um instrumento de coleta de dados para pacientes atendidos em unidade ambulatorial hospitalar.</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0130850513274456">Michele Bulhosa de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1680757164306796">Helen Lidiane Schimidt</a>. <b>Estudo do potencial bioquímica e comportamental da Camellia sinesis e do exercício físico para neuroproteção em um modelo para estudo da doença de Alzheimer</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Ingryd Mambaque Spencer. <b>Crianças com necessidades especiais de saúde e o cuidado domiciliar exercido pelo familiar/cuidador</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Jean Ramos Boldori. <b>INVESTIGAÇÃO DO EFEITO ANTIOXIDANTE DE EXTRATOS DE FRUTAS NATIVAS NA LONGEVIDADE E RESISTÊNCIA AO ESTRESSE EM Caenorhabiditis elegans</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Pro-Reitoria de Pesquisa Unipampa. In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7528612885865102">Cristiane Casagrande Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Mariana Vieira de Sá. <b>Valores de referência para o teste do degrau de seis minutos: um estudo multicêntrico.</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3080414309796385">Anelise Dumke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Maribel Pereira do Nascimento. <b>O vivido de crianças com asma na percepção de familiares</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Ângela Maria Naidon. <b>Reconstruindo a trajetória do pré-natal de mulheres mães de recém-nascidos de risco</b>. Dissertação (Mestrado em Enfermagem) - Universidade Federal de Santa Maria. (Coorientador)., . In&iacute;cio: 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Camila Fernandes Wild. <b>Conhecimento e estratégias de cuidado utilizadas por familiares/cuidadores de crianças com asma</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Denise Maia Leão. <b>Estresse e coping de familiares cuidadores de paciente adulto oncológico</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Liliane Ribeiro Trindade. <b>Compreensão de enfermeiros sobre o significado do processo de enfermagem na prática assistencial hospitalar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Liliane Trindade. <b>Compreensão de enfermeiros sobre o significado do processo de enfermagem na prática assistencial hospitalar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9436487230121608">Anali Martegani Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mariana Mattia Correa. <b>Gerenciamento de Enfermagem na atenção básica</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Mayara Batu Gonçalves. <b>Uso de extrato aquoso de folhas de Bougainvillea glabra no estudo do diabetes tipo Mellitus</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6758699828667193">Elton Luis Gasparotto Denardin</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Olmir Cassiano Silva Chaves. <b>Vivências e saberes do familiar/cuidador de paciente portador de doença crônica no âmbito domiciliar</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Anni Nathália Oliveira Garcia. <b>Demandas de cuidado de CRIANES sob a ótica de professores e profissionais de saúde de uma escola de educação especializada diante da inclusão</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9436487230121608">Anali Martegani Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bianca Pereira Ruis. <b>Pequenos Vigilantes: contribuições da medicina veterinária para a saúde pública</b>. Orientação de outra natureza. Universidade Federal do Pampa. Unipampa, . In&iacute;cio: 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1405850939282996">Irina Lübeck</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Luana Costa Polo. <b>PREVALÊNCIA DOS CASOS E AVALIÇÃO DOS SABERES LOCAIS A RESPEITO DA LEISHMANIOSE NO MUNICÍPIO DE URUGUAIANA ? RS.</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Unipampa. In&iacute;cio: 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1405850939282996">Irina Lübeck</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Taiane Escobar. <b>ESTUDO ECOLÓGICO DA LEISHMANIOSE VISCERAL CANINA NO EXTREMO OESTE DO RIO GRANDE DO SUL.</b>. Monografia (Aperfeiçoamento/Especialização em Especialização em Ciências da Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1405850939282996">Irina Lübeck</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Waylton dos Santos Franco Souza Júnior. <b>Pequenos Vigilantes: Contribuições da medicina veterinária para a saúde pública</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Unipampa. In&iacute;cio: 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1405850939282996">Irina Lübeck</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cibele Lhamas. <b>Correlação entre análise hematológica e de líquido peritoneal em cavalos naturalmente parasitados do município de uruguaiana</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2011.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1405850939282996">Irina Lübeck</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andreia Castagna. <b>Iniciação ao Ensino de Anatomia Humana</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3268338503303216">João Cleber Theodoro de Andrade</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carine Mello. <b>Cuidados de enfermagem em mulher mastectomizadas</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0130850513274456">Michele Bulhosa de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Kelly Bonetti. <b>Acidentes na Infância</b>. Trabalho de Conclusão de Curso (Graduação em Enfermagem) - Universidade Federal do Pampa, . In&iacute;cio: 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0130850513274456">Michele Bulhosa de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luiza Sena. <b>ATIVIDADE FÍSICA E A SUA IMPORTÂNCIA NA REDUÇÃO DO ESTRESSE E ANSIEDADE.</b>. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Educação Física) - Anhanguera Pelotas, . In&iacute;cio: 2010.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8280027528821559">Álvaro Luís Ávila da Cunha</a>, <a href="http://lattes.cnpq.br/8280027528821559">Álvaro Luís Ávila da Cunha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Sidnei Borges. <b>Iniciação ao Ensino de Anatomia Humana</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2010.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3268338503303216">João Cleber Theodoro de Andrade</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriane Corrêa Ribeiro. Ornitofauna do Parque Natural Municipal de Uruguaiana, RS, Brasil. <b>(Dados Preliminares)</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Pontifícia Universidade Católica do Rio Grande do Sul, . In&iacute;cio: 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Paula Vanessa Bervian. <b>Estrutura populacional de Steindachnerina brevipinna (Eigenmann Eigenmann,1889) (Pisces, Curimatidae) mediante a leitura de escamas, rio Uruguai Médio, Uruguaiana, Rs ? Brasil (Dados Preliminares)</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Pontifícia Universidade Católica do Rio Grande do Sul, . In&iacute;cio: 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Rita de Cássia Fernandes Rivero. <b>Avifauna associada a vinhedos dos Municípios de Quarai e Uruguaiana, RS, Brasil.</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Pontifícia Universidade Católica do Rio Grande do Sul, . In&iacute;cio: 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Rodrigo Gomes Menestrino. <b>Identificação da Herpetofauna no parque Estadual do Espinilho no Município da Barra do Quarai, no estado do Rio Grande do Sul.</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Pontifícia Universidade Católica do Rio Grande do Sul, . In&iacute;cio: 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2006 até 2018
+<br>Data de processamento: 01/07/2018 23:20:14<br>         <div id="footer">         Este arquivo foi gerado automaticamente por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.13</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos currículos Lattes. Caso note alguma falha, por favor, contacte o responsável por esta página: <a href="mailto:jesus.mena@ufabc.edu.br">jesus.mena@ufabc.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

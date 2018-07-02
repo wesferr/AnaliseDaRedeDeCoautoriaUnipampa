@@ -1,0 +1,405 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Teste 01 do scriptLattes (período 2006-2014)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Teste 01 do scriptLattes (período 2006-2014)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de orientações concluídas'}, 
+series: [{data: [[2006,
+71],
+[2007,
+95],
+[2008,
+124],
+[2009,
+144],
+[2010,
+195],
+[2011,
+253],
+[2012,
+337],
+[2013,
+310],
+[2014,
+390],
+[2015,
+505],
+[2016,
+389],
+[2017,
+270],
+[2018,
+33]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de orientações concluídas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 3116<br>
+                    
+                    <center>Página: <a href="OC-0.html">1</a> &nbsp;<a href="OC-1.html">2</a> &nbsp;<a href="OC-2.html">3</a> &nbsp;<b>4</b> &nbsp;</center>
+                    <div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>51. &nbsp;</td> <td>Jucelino Medeiros Marques Junior. <b>Estudo do uso de plantas medicinais como auto medicação pela população do município de Uruguaiana-RS</b>. (Graduando em Farmácia) - Fundação Universidade Federal do Pampa, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6758699828667193">Elton Luis Gasparotto Denardin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Juliana Roman. Desenvolvimento de extrato seco e comprimidos de Ilex paraguariensis A. St. <b>Hil.</b>. Fitoterápicos) - Universidade Regional Integrada do Alto Uruguai e das Missões Erechim, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992443023418750">Fabiana Ernestina Barcellos da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Juliano Alves Teodoso. <b>A Prática da Ginástica no Ensino Fundamental das Escolas Estaduais do Município de Alegrete, RS</b>. (Graduação em Educação Física) - Universidade da Região da Campanha, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Julio Francisco Kleinpaul. <b>Cinemática 3D da coluna lombar</b>. (Graduação em Educação Física) - Universidade Federal de Santa Maria, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Justina Maria Miozzo. <b>Avaliação do teor de água no processo produtivo de cápsulas contendo isoflavonas</b>. Fitoterápicos) - Universidade Regional Integrada do Alto Uruguai e das Missões Erechim, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992443023418750">Fabiana Ernestina Barcellos da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Karin Cristina Ferreira Borges. <b>Reabilitação Cardíaca em Unidade de Terapia Intensiva Adulto</b>. (Aperfeiçoamento/Especialização em Fisioterapia Cárdio-Respiratória) - Centro Brasileiro de Ensino Superior, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2679717808067927">Nelson Francisco Serrão Júnior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Karina Simões Wendler. <b>Estudo da Eficácia do CPAP NAsal em Prematuros Lactantes Após Extubação Orotraqueal</b>. (Aperfeiçoamento/Especialização em Fisioterapia em UTI) - Centro Universitário Adventista de São Paulo, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3488358978951622">Antônio Adolfo Mattos de Castro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Katia Simone Greco Nunes, Manuel Gonçalves de Souza. <b>Distrofia Muscular Progressiva: aplicação de um protocolo fisioterapêutico - estudo de caso</b>. (Graduação em Fisioterapia) - Universidade Federal de Santa Maria, . 2007.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9150737299779719">Fernanda Vargas Ferreira</a>, <a href="http://lattes.cnpq.br/9150737299779719">Fernanda Vargas Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>KATIANE AMANCIO DE OLIVEIRA. <b>APLICABILIDADE DA ESCALA ?SISTEMA DE CLASSIFICAÇÃO DA FUNÇÃO MOTORA GROSSEIRA?, EM PACIENTES PORTADORES DE PARALISIA CEREBRAL</b>. (Graduação em Fisioterapia) - Universidade Paranaense, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4480938481569672">Eloá Maria dos Santos Chiquetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Keila Cristiane Gomes. <b>Ruptura de Ligamento Cruzado Cranial em Cães</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4636080248996522">Roberto Thiesen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Kleyton Romualdo Kramer. <b>Clínica Médica e Reprodução de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Larissa Cardozo de Oliveira. <b>Levantamento parasitológico, sanitário e epidemiológico dos alunos da Escola Estadual de Ensino Médio e Fundamental Embaixador João Batista Lusardo (CIEP) em Uruguaiana - RS (PROBIC Jr.)</b>. Iniciação Científica - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5805841991374556">Cleci Menezes Moreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Larissa Mecca de Barros. ESTUDO ASSOCIATIVO ENTRE INFECÇÃO POR Helicobacter pylori (H. <b>pylori) E DOENÇAS ESOFÁGICAS EM UMA POPULAÇÃO DE SANTO ÂNGELO/RS</b>. (Graduação em Ciências Biológicas) - Universidade Regional Integrada do Alto Uruguai e das Missões, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Leandra Cristina da Silva Cubbi. <b>Monitoria da disciplina de Fisioterapia Geral I</b>. (Fisioterapia) - Universidade Vila Velha, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4273636582098573">Eloá Ferreira Yamada</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Lenise Corrêa Pereira. <b>Reabilitação das vítimas de acidente de trânsito na região de Cruz Alta com lesões irreversíveis</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Luciana Poldi. <b>Extrapolação Alométrica na Clínica de Pequenos Animais</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4636080248996522">Roberto Thiesen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Lívia Dornelles Madrid. <b>Análise de Cariótipos em Possíveis Portadores de Anomalias Cromossômicas</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Ciências Ambientais) - Universidade Regional Integrada do Alto Uruguai e das Missões, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Marcia Luciane Camargo Canabarro. <b>Qualidade de vida de pacientes submetidos a gastroplastia</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Maria Da Glória Coutinho Rigotti. <b>Revisão Literária de condutas e Parâmetros Laboratoriais Relacionados à Hiperplasia prostatica (HPB) e cancêr de Próstata</b>. (Aperfeiçoamento/Especialização em Especialização Em Análises Clínicas) - Universidade Comunitária da Região de Chapecó, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4839195121781005">Luis Flávio Souza de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>MARIA ZULMA DO AMARAL CUBAL. <b>ESTADO NUTRICIONAL DE ESCOLARES DO MUNICÍPIO DE MINAS DO LEÃO</b>. (Graduação em Licenciatura em Educação Física) - Universidade Luterana do Brasil São jerônimo, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Mariana Alves. <b>Aplicação do Laser de Baixa Potência sobre a dor em Lesões Músculo-Esqueléticas de Ombro</b>. (Aperfeiçoamento/Especialização em Fisioterapia em Traumatologia e Ortopedia) - Universidade de Taubaté, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2679717808067927">Nelson Francisco Serrão Júnior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Marimar Mayworm Beck. Resultados obtidos no setor de fisioterapia na Clínica Escola de Medicina Veterinária Dr. <b>Paulo Alfredo Gissoni no período de março a outubro de 2007</b>. (Graduação em Medicina Veterinária) - Universidade Castelo Branco, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>Marino Tourrucco. <b>A Educação Física como um Fator de Inclusão de Crianças com Síndrome de Down</b>. (Graduação em Educação Física) - Universidade da Região da Campanha, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Marita Pilon. <b>Hérnia Perineal</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4636080248996522">Roberto Thiesen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Marta Fiuza Montagner. <b>Educação ao cuidador- Orientação por meio de um manual ao cuidador do paciente pós - acidente vascular cerebral (AVC)</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Matheus Jones Wiest. <b>Efeitos da fadiga sobre o controle postural estático</b>. (Graduação em Educação Física) - Universidade Federal de Santa Maria, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>Maurício Pinheiro Zini. <b>Bovinocultura de leite</b>. (Graduação em Medicina Veterinária) - Universidade do Oeste de Santa Catarina, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1405850939282996">Irina Lübeck</a>.</font></td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>Neiva Ana Moresco. <b>Diastanasia: A percepção da enfermagem diante da agonia prolongada do paciente terminal</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>PAMELA MARIA CANASSA ROQUE e SUELLEN MARCHI. <b>UTILIZAÇÃO DA TÉCNICA DE TOPOGRAFIA DE MOIRÉ PARA</b>. (Graduação em Fisioterapia) - Universidade Paranaense, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4480938481569672">Eloá Maria dos Santos Chiquetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>Paulo Eduardo Piemontez de Oliveira. <b>Clínica Médica de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>Priscilla Reis. <b>Insuficiência renal crônica em cães (Canis familiaris): importância do aspecto nutricional como adjuvante em sua terapia e controle ? revisão bibliográfica</b>. (Graduação em Medicina Veterinária) - Universidade Castelo Branco, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>Rafael Nadal Gomes. <b>Lesões provocadas por vacinação contra clostridioses em bovinos</b>. (Graduação em Mediicina Veterinaria) - Faculdade Integrado de Campo Mourão, . 2007.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>, <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>Raulino Gabriel de Cordova Neto. <b>Estágio Pedagógico Voluntário em Teriogenologia Veterinária</b>. (Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Renata Martins Barbosa e Reneida Trigo Alves. <b>Abordagem do tema síndrome de Down na assitência pré-natal</b>. (Graduação em Enfermagem) - Centro Universitario de Caratinga, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5133331455842344">Christian Caldeira Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>Roberta Trinta. <b>Dermatite Atópica Canina</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4636080248996522">Roberto Thiesen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>Roger Dahlke. <b>Estudo da eficiência muscular no ciclismo e na corrida</b>. (Graduação em Educação Física) - Universidade Federal de Santa Maria, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Sabrina Bartel. <b>O tratamento hidrocinesioterapêutico em crianças com paralisia cerebral</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2007.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>, <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Sandra Schmitt. <b>(Sandra Schmitt) Efeito "in vitro" do HgCl2 sobre a atividade da Enzima Conversora de Angiotensina em homgeneizado de coração, pulmão e soro de ratos adultos.</b>. (Graduando em Farmácia e Bioquímica) - Universidade Federal de Santa Maria, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5805841991374556">Cleci Menezes Moreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>Sebastião de Oliveira Franco Neto. <b>Clínica Médica e Reprodução de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>Susana Mayer Moreira. <b>Supervisão de estágio voluntário</b>. Orientação de outra natureza - Hospital de Clínicas de Porto Alegre, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9436487230121608">Anali Martegani Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>TAYANNA TYNNA COLLA SCHIMITD e LESSANDRA DORINI. <b>EPIDEMIOLOGIA DA HANSENIASE NO MUNICÍPIO DE UMUARAMA.</b>. (Graduação em Fisioterapia) - Universidade Paranaense, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4480938481569672">Eloá Maria dos Santos Chiquetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>Valdinea de Souza. <b>O Papel da Fisioterapia Respiratória na Lesão Inalatória em Pacientes Queimados</b>. (Aperfeiçoamento/Especialização em Fisioterapia Cárdio-Respiratória) - Centro Brasileiro de Ensino Superior, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2679717808067927">Nelson Francisco Serrão Júnior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>Vinicius Teigão Müller. <b>A importância da bovinocultura de corte para o município de Palmital</b>. (Graduação em Gestão de Agronegócios) - Faculdades do Centro do Paraná, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>Wedson Carlos Lima Nogueira. <b>Viabilidade técnica e econômica da produção de tilápia (Oreochromis niloticus) alimentadas com resíduos de hortaliças no Sistema Mandalla.</b>. Dissertação (Mestrado em Ciências Agrárias) - Universidade Federal de Minas Gerais, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2007.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7894853383109682">Antonio Cleber da Silva Camargo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>Érica Roberta Daniel. <b>Ablação de conduto auditivo</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2007.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4636080248996522">Roberto Thiesen</a>.</font></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriano Saldanha Teixeira. <b>Determinação das características motivacionais das adolescentes praticantes de futsal na escola</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alexandra Braun, Danielle Leonardo da Ros. <b>Incontinência Urinária: proposta de protocolo de anamnese fisioterapêutica no Hospital Universitário de Santa Maria</b>. (Graduando em Fisioterapia) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9150737299779719">Fernanda Vargas Ferreira</a>, <a href="http://lattes.cnpq.br/9150737299779719">Fernanda Vargas Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Alexandra da Silva Lemes. <b>Aspectos ecológicos dos moluscos bivalves do Parque Natural Municipal de Uruguaiana, bacia do rio Uruguai, Pampa Brasileiro</b>. (Graduação em Faculdade de Filosofia Ciências e Letras) - Pontifícia Universidade Católica do Rio Grande do Sul, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Alexandra da Silva Lemes. <b>Utilização da Malacofauna Limnica como subsídios para o monitoramento ambiental do arroio Salso de baixo, na Bacia do rio Uruguai, Pampa Brasileiro</b>. (Graduando em Ciências Biológicas) - Pontifícia Universidade Católica do Rio Grande do Sul, Bolsa para alunos da graduação.. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Amanda Rodrigues de Oliveira. <b>Rodeio: Competição X Bem -estar animal</b>. (Graduação em Medicina Veterinária) - Fundação Municipal de Ensino Superior de Bragança Paulista, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ana Paula Batista e Maria Eduarda Lapolli. <b>Treinamento Físico Aeróbio em Crianças Portadoras de Fibrose Cística</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1732554531115089">Marta Fioravanti Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ariane Ghiggi. <b>Avaliação in vivo do efeito hipoglicemiante do extrato bruto etanólico das folhas da Cinara scolymus para validação do seu uso antidiabético</b>. (Graduando em Farmácia) - Universidade Comunitária da Região de Chapecó, Fundação de Amparo à Pesquisa e Inovação do Estado de Santa Catarina. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4839195121781005">Luis Flávio Souza de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Bruna Maria Marques Kugler. <b>Clínica Médica de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Carla de Freitas Ribeiro. <b>Formação e Capacitação dos Professores para a Educação Inclusiva: um desafio</b>. (Graduação em Educação Física) - Universidade da Região da Campanha, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Cassio Pit. <b>Análise das políticas públicas na geração de renda e na diminuição do esforço de pesca da atividade pesqueira no estado do Rio Grande do Sul</b>. (Graduando em Economia) - Universidade Federal do Rio Grande do Sul, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>, <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Chariani Gugelmim Basso. <b>Caracterização da morbimortalidade de recém-nascidos internados na unidade de tratamento intensivo neonatal de um hospital de ensino do sul do Brasil no ano de 2006</b>. (Graduação em Enfermagem) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5054903220250339">Andressa da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Claiton Weirich Alves. <b>Principais benefícios da musculação para a 3ª idade</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Clidisnei Ribeiro de Lima. <b>Clínica Médica de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Cristina Arns Kurtz. <b>Identificação, análise e possíveis modificações no conhecimento da problemática ambiental na visão de alunos do ensino médio e da educação de jovens e adultos de Uruguaiana, RS, Brasil</b>. (Graduação em Faculdade de Filosofia Ciências e Letras) - Pontifícia Universidade Católica do Rio Grande do Sul, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Dalcin, Cancian Manuela. <b>Infecção hospitalares em feridas pós-operatórias na unidade de terapia intensiva - UTI</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Daniela Pitrovski. <b>Estágio Supervisionado em Medicina Veterinária</b>. (Graduação em Medicina Veterinária) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Denise Keler de Monteiro Araújo. <b>Uso Profilático e Eficácia da Ventilação Não-Invasiva em Pacientes com Doença Pulmonar Obstrutiva Crônica.</b>. (Aperfeiçoamento/Especialização em Fisioterapia em UTI) - Centro Universitário Adventista de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3488358978951622">Antônio Adolfo Mattos de Castro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Denissa Irene Fernandes. <b>PERFIL DO PACIENTE PORTADOR DE LÚPUS EM SANTO ÂNGELO/RS</b>. (Graduação em Ciências Biológicas) - Universidade Regional Integrada do Alto Uruguai e das Missões, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Diogo Borges Schwartz. <b>IDENTIFICAÇÃO DAS PRINCIPAIS LESÕES DE OMBRO OCASIONADAS PELO MOVIMENTO DE REMADA NA PRÁTICA DO SURF</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>, <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Douglas Luz da Silva. <b>Fatores que influenciam a atividade física na terceira idade: estudo de casos</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Débora Finato Salmazo. <b>Relatório de conclusão de curso</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1171304952099087">João Paulo da Exaltação Pascon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Eduardo Cunha Jr, Leonardo Barbosa,Thiago C Massariol. <b>Alterações Posturais em Atletas de Triatlo</b>. (Graduação em Fisioterapia) - Universidade Vila Velha, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4273636582098573">Eloá Ferreira Yamada</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Eduardo Picada Emanuelli. <b>Relatório do Estágio Supervisionado em Medicina Veterinária</b>. (Graduação em Medicina Veterinária) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Elisandro de Assis Martins. <b>Biomecânica aplicada ao posicionamento corporal no ciclismo</b>. (Graduação em Educação Física) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Elisângela Leda Maria Quadrado. <b>Correlação das Variáveis Fisiológicas Cardiopulmonares em um Paciente Portador de Espondilite Anquilosante durante a Reabilitação Pulmonar: Estudo de Caso</b>. (Graduação em Fisioterapia) - Faculdade Marechal Rondon, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2679717808067927">Nelson Francisco Serrão Júnior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Erica Carvalho de Oliveira e Andréia Cristina Bovo Gastaldim. <b>Avaliação Geriátrica Ampla em Paecientes com Doença de Alzheimer</b>. (Graduação em Fisioterapia) - Universidade Paranaense, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4480938481569672">Eloá Maria dos Santos Chiquetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Fernando Kuhn. <b>Clínica Médica de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Frederico Dagnese. <b>Cinemática do sistema Rotor</b>. (Graduação em Educação Física) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Fábio Teixeira Sampaio. <b>Clínica Médica de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Gabriela Bremenkamp Vicente. <b>Monitoria da disciplina de Fisioterapia Geral I</b>. (Fisioterapia) - Universidade Vila Velha, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4273636582098573">Eloá Ferreira Yamada</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Gazieli Bortoluzzi. <b>Importância da atividade física durante a gestação</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Henry Christian Carneiro Gomes. <b>Clínica Médica de Grandes Animais</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Jadir Marcelo Barbieri. <b>Reprodução Animal</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Jairo Amauri Stiz. <b>A variação de força e flexibilidade do músculo quadríceps em atletas futebolistas através da facilitação neuromuscular proprioceptiva</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>, <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Jaqueline de Almeida Rodrigues. <b>Força, flexibilidade e condicionamento cardiovascular em praticantes de musculação</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Jerusa Schafhauser. <b>Análise da Postura em fisioterapeutas e acadêmicos de fisioterapia que atuam em fisioterapia neurológica</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>, <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Joice Aparecida Dornelles. <b>Avaliação da força muscular abdominal no último trimestre gestacional</b>. (Graduação em Fisioterapia) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9150737299779719">Fernanda Vargas Ferreira</a>, <a href="http://lattes.cnpq.br/9150737299779719">Fernanda Vargas Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Leonardo Godoi Paes. <b>Aspecto econômico sanitário da Febre Aftosa na região de Bragança Paulista</b>. (Graduação em Medicina Veterinária) - Fundação Municipal de Ensino Superior de Bragança Paulista, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Letícia Campagna Warcken. <b>Desenvolvimento e avaliação de formas farmacêuticas sólidas orais contendo fluconazol</b>. (Graduando em Farmácia) - Universidade Regional Integrada do Alto Uruguai e das Missões Erechim, Fundação Regional Integrada. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992443023418750">Fabiana Ernestina Barcellos da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Lucas Lorenzom. <b>Estágio Supervisionado em Medicina Veterinária</b>. (Graduação em Medicina Veterinária) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Luciano Dornelles dos Santos. <b>Educação Física: Tendências e Desafios</b>. (Graduação em Educação Física) - Universidade da Região da Campanha, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Luis Roberval Bortoluzzi Castro. <b>Avaliação da Integridade Biológica do rroio Salso, após a Instalação da Estação de tratamento de esgoto, atraves do Estudo de Macroinvertebrados Bentonicos (Insecta, Crustacea, Annelidea, Arachinida e Turbellaria), como subsídeos para o médio, Uruguaiana, RS, BRASIL</b>. (Graduando em Ciências Biológicas) - Pontifícia Universidade Católica do Rio Grande do Sul, Bolsa para alunos da graduação.. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Manuel Marchetti. <b>Laminite bovina</b>. (Graduação em Medicina Veterinária) - Fundação Municipal de Ensino Superior de Bragança Paulista, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Mariana Bertini Fernandes. <b>Estágio prático em Clínica de Pequenos Animais</b>. (Medicina Veterinária) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Mariana Bertol Leal. <b>Da Realidade aos Desaifos: efeitos da inciativa VER-SUS/Brasil na formação de trabalhadores para o SUS</b>. (Graduação em Gestão de Sistemas e Serviços de Saúde) - Universidade Estadual do Rio Grande do Sul, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2285888154281062">Odete Messa Torres</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Mariana Lucena de Sá. <b>Análise da Utilização Profilática da Pressão Positiva Contínua nas Vias Aéreas por Pronga Nasal (CPAPn) em Prematuros com Doença de Membrana Hialina</b>. (Aperfeiçoamento/Especialização em Fisioterapia em UTI) - Centro Universitário Adventista de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3488358978951622">Antônio Adolfo Mattos de Castro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>MICHELI RENATA CASARIN. <b>EDUCAÇÃO EM SAÚDE PARA PREVENÇÃO DO CÂNCER DO COLO DE ÚTERO EM MULHERES DO MUNICÍPIO DE SANTO ÂNGELO/RS</b>. (Graduação em Ciências Biológicas) - Universidade Regional Integrada do Alto Uruguai e das Missões, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5099227329574183">Jacqueline da Costa Escobar Piccoli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Márcia Cristina Gasparini Borba. <b>Efeito do PEEP na Oxiginação e Mecânica Respiratória de Pacientes em Ventilação Mecânica: Revisão de Literatura</b>. (Aperfeiçoamento/Especialização em Fisioterapia em UTI) - Centro Universitário Adventista de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3488358978951622">Antônio Adolfo Mattos de Castro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Márcia Helena Fagundes da Rosa Cardoso. <b>Desenvolvimento motor de crianças de 1ª a 4ª séries de escolas de Rosário do Sul - RS</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Neli Gomes Copetti. <b>Atuação da equipe de enfermagem no atendimento pré-hospitalar às vítimas de causas externas</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Nicolle Pacheco e Caroline Debatin. <b>Utilização do Treinamento Muscular Aeróbio em Indivíduos Portadores de Doença Pulmonar Obstrutiva Crônica no Município de Blumerau</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1732554531115089">Marta Fioravanti Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Olga Maria Lauxen. <b>Vivências recreativas oportunizadas as crianças no hospital universitário São Francisco de Paula ? Pelotas, RS</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Paula Carolina Navarri. <b>Relatório de conclusão de curso</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1171304952099087">João Paulo da Exaltação Pascon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Pedro Henrique do Nascimento Ruete. <b>Perspectivas da inseminação artificial na ovinocultura</b>. (Graduação em Medicina Veterinária) - Centro Universitário Barão de Mauá, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Pinheiro, Volnei dos Anjos. <b>Métodos de prevenção utilizados pela equipe multiprofissional na unidade de quimioterapia</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Priscila Bonatti / Juliana Benigno. <b>Sintomatologia da DPOC em indivíduos que frequentam o programa FURB visita sua rua</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1732554531115089">Marta Fioravanti Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Rafael Borgmann Reppetto. <b>A inclusão do judô na escola como fator de mudanças comportamentais</b>. (Graduação em Educação Física) - Universidade da Região da Campanha, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Raulino Khul Júnior / Hênola Renata Gonçalves. <b>Exercício físico e pressão arterial em indivíduos participantes do FURB visita sua rua</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1732554531115089">Marta Fioravanti Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Renata Auto Berman. <b>Uso de ácidos graxos insaturados (ômega 3 e 6) associados à ciclosporina A no tratamento da ceratoconjuntivite seca em cães: relato de casos.</b>. (Graduação em Medicina Veterinária) - Universidade Castelo Branco, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1407091257163545">Paulo de Souza Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Romela Paulus da Rosa. <b>Sistema Purinérgico em Gliomas</b>. (Graduando em Ciências Biológicas) - Universidade Federal do Rio Grande do Sul, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0527775082585913">Alessandra Sayuri Kikuchi Tamajusuku Neis</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Roselaine Fagundes Rodrigues. <b>Identificação, análise e possíveis modificações no conhecimento da problemática ambiental na visão de alunos de 5 a 8 série do ensino fundamental e da educação de jovens e adultos de Uruguaiana, RS, Brasil</b>. (Graduação em Faculdade de Filosofia Ciências e Letras) - Pontifícia Universidade Católica do Rio Grande do Sul, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9923685211581446">Marcus Vinicius Morini Querol</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Rossana Borba. <b>Motivação que leva as adolescentes a não praticarem educação física na escola</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Scheyla Gris. <b>Watsu na fibromialgia</b>. (Graduação em Fisioterapia) - Fundação Universidade Regional de Blumenau, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>, <a href="http://lattes.cnpq.br/9089314082593115">Daniela Virote Kassick Müller</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Seibel, Dalve Ednara. <b>Aspectos Psicológicos que interferem na percepção da dor no paciente oncológico</b>. (Graduação em Enfermagem) - Fundação Universidade de Cruz Alta, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2897389126865192">Márcia Adriana Poll</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Talita Fernanda Alvarenga. <b>USO DO LASER HeNe NA ÚLCERA DE DECÚBITO SACRAL: RELATO DE CASO</b>. (Graduação em Fisioterapia) - Universidade Paranaense, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4480938481569672">Eloá Maria dos Santos Chiquetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Thiago de Souza Roses. <b>Estágio Supervisionado em Medicina Veterinária</b>. (Graduação em Medicina Veterinária) - Universidade Federal de Santa Maria, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4714138643455131">Mauren Picada Emanuelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Tiago Addari Rossi. <b>Tendinite Equina</b>. (Graduação em Medicina Veterinária) - Centro Universitário Barão de Mauá, . 2006.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>, <a href="http://lattes.cnpq.br/8519904598953344">Claudia Acosta Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Valquiria Rumple Kich. <b>A influência do ambiente familiar na obesidade infantil</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Educação Física) - Faculdades de Ciências Sociais Aplicadas, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Vanessa Dias de Freitas. <b>A contribuição do esporte em melhores índices de flexibilidade</b>. (Graduação em Educação Física) - Universidade da Região da Campanha, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Viviane Tuckumantel. <b>Relatório de conclusão de curso</b>. (Graduação em Medicina Veterinária) - Universidade Anhanguera de São Paulo, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1171304952099087">João Paulo da Exaltação Pascon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Waldomiro Kluska Junior. <b>Biotecnologia da Reprodução Animal</b>. (Graduação em Medicina Veterinária) - Universidade Estadual do Centro-Oeste, . 2006.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2006 até 2018
+<br>Data de processamento: 01/07/2018 23:20:14<br>         <div id="footer">         Este arquivo foi gerado automaticamente por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.13</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos currículos Lattes. Caso note alguma falha, por favor, contacte o responsável por esta página: <a href="mailto:jesus.mena@ufabc.edu.br">jesus.mena@ufabc.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

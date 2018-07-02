@@ -1,0 +1,173 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Teste 01 do scriptLattes (período 2006-2014)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Teste 01 do scriptLattes (período 2006-2014)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Tese de doutorado'}, 
+series: [{data: [[2013,
+1],
+[2014,
+1],
+[2016,
+1],
+[2017,
+6]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Tese de doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 9<br>
+                    
+                    
+                    <div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8968889069252626">Aryele Pinto Izaguirry</a>. <b>Avaliação de quinina livre e nanocápsulas contendo quinina sobre o sistema reprodutivo e toxicidade pré-natal em ratos</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8698043634494178">Caroline Silveira Martinez</a>. <b>Efeitos da exposição ao alumínio sobre parâmetros neurológicos, reprodutores, cardiovasculares e bioquímicos em ratos.</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9157981172797557">Cristiano Chiapinotto Spiazzi</a>. <b>Efeito do selenofuranosídeo sobre modelos da doença de Alzheimer em camundongos</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1934452177482144">Francielli Weber Santos Cibin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5947188699512688">Jefferson de Jesus Soares</a>. <b>Avaliação do potencial terapêutico da bougainvillea glabra Choisy FRENTE À NEUROTOXICIDADE INDUZIDA POR PARAQUAT EM Drosophila melanogaster</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6758699828667193">Elton Luis Gasparotto Denardin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Jose Ignacio Priego Quesada. <b>THERMOBIKE: Applicability of infrared thermography in the assessment of the efficiency, performance, and posture of the cyclist</b>. Tese (Doutorado em Doctoral Program in Physiology) - Universitat de València, Ministerio de Educación, Cultura y Deporte. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3927479562862453">Liane Santariano Sant'Anna</a>. <b>Efeito do extrato de Campomanesia xanthocarpa sobre as proteínas contráteis e reatividade vascular em ratos com síndrome metabólica</b>. Tese (Doutorado em Bioquímica) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5805841991374556">Cleci Menezes Moreira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Danize Aparecida Rizzetti. <b>EFEITO DO CONSUMO DE HIDROLISADO DE CLARA DE OVO SOBRE AS ALTERAÇÕES NEUROLÓGICAS, CARDIOVASCULARES E REPRODUTIVAS PROMOVIDAS PELA EXPOSIÇÃO CRÔNICA AO CLORETO DE MERCÚRIO (HgCl2) EM RATOS</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0319287015319197">Giulia Alessandra Wiggers</a>, <a href="http://lattes.cnpq.br/0454207116065740">Franck Maciel Peçanha</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Roberta Martins Crivelaro. <b>Mecanismos de lesão cardíaca e de remodelação ventricular remanescente em Tilápias-do-Nilo: estudo por videocirurgia, microscópicas especiais e eletrocardiograma</b>. Tese (Doutorado em Cirurgia Veterinária) - Universidade Estadual Paulista Júlio de Mesquita Filho, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2014.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4636080248996522">Roberto Thiesen</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Odilei Rogério Prado. <b>Eficiência reprodutiva de borregas e ovelhas submetidas a protocolos hormonais de curta e longa duração e inseminadas em tempo fixo com diferentes metodologias e tipos de sêmen</b>. Tese (Doutorado em Ciências Veterinárias) - Universidade Federal do Paraná, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2013.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5292926299421569">Guilherme de Medeiros Bastos</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2006 até 2018
+<br>Data de processamento: 01/07/2018 23:20:14<br>         <div id="footer">         Este arquivo foi gerado automaticamente por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.13</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos currículos Lattes. Caso note alguma falha, por favor, contacte o responsável por esta página: <a href="mailto:jesus.mena@ufabc.edu.br">jesus.mena@ufabc.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,713 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Teste 01 do scriptLattes (período 2006-2014)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Teste 01 do scriptLattes (período 2006-2014)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[2006,
+297],
+[2007,
+282],
+[2008,
+341],
+[2009,
+258],
+[2010,
+365],
+[2011,
+337],
+[2012,
+350],
+[2013,
+240],
+[2014,
+265],
+[2015,
+194],
+[2016,
+148],
+[2017,
+164],
+[2018,
+29]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 3270<br>
+                    
+                    <center>Página: <a href="Ep-0.html">1</a> &nbsp;<a href="Ep-1.html">2</a> &nbsp;<a href="Ep-2.html">3</a> &nbsp;<b>4</b> &nbsp;</center>
+                    <div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>28. &nbsp;</td> <td>21ª Jornada Acadêmica Integrada.Desordem Têmporomandibular: uma abordagem multidisciplinar. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>21ª Jornada Acadêmica Integrada.Estudo da suscetibilidade de Candida albicans e Candida dubliniensis às Toxinas Killer. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>21ª Jornada Acadêmica Integrada.Uma atuação multidisciplinar relacionada à promoção de saúde da gestante. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>29a Reunião da Sociedade Brasileira de Química. Estudo conformacional de derivados 5-nitro-heterocíclicos com potencial atividade antichagásica. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>2º Seminário Brasileiro de Estudos Culturais e Educação - 2º SBECE.Mulheres e saúde reprodutiva/sexual: (re)pensando algumas questões. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>3 Conferência Nacional de Gestão do Trabalho e da Educação nas Saúde. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>38o. Congresso Brasileiro de Farmacologia e Terapêutica Experimental. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>38º Congresso da Sociedade Brasileira de Farmacologia e Terapêutica Experimental. EFEITO ANTINOCICEPTIVO DA DIACEREÍNA NA MONOARTRITE INDUZIDA POR CFA EM RATOS. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>39th Annual Meeting of the Society for the Study of Reproduction. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>3rd Brazilian Symposium on Medicinal Chemistry. Molecular Modeling Studies and Structure Anti-Inflammatory Activity Relationship of 2,3-pyridinedicarboxamide Derivatives. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>3° Seminário Internacional de Filosofia e Saúde: O Cuidado no Processo de Viver Humano. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>3° Seminário Internacional de Filosofia e Saúde: O Cuidado no Processo de Viver Humano.A Comemoração de Datas Festivas no Contexto Hospitalar como Forma de Expressão da Ludicidade no Cuidado. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>3° Seminário Internacional de Filosofia e Saúde: O Cuidado no Processo de Viver Humano.A utilização da teoria de Orem no cuidado de enfermagem ao indivíduo portador de hipertensão. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>40º Congreso Brasileiro de Patologia Clínica e Medicinal Laboratorial. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>41st Congress of the Brazilian Physiological Society Joint Meeting with the Physiological Society. 41st Congress of the Brazilian Physiological Society Joint Meeting with the Physiological Society (inscrita). 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>43ª Reunião Anual da Sociedade Brasileira de Zootecnia. 43ª Reunião Anual da Sociedade Brasileira de Zootecnia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>4o Congresso Mundial de Salsa do Brasil. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>4th Meeting of the International Academy of Pain Management. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>58ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência - SBPC. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>5º Bioética Sul. Morte e Eutanásia: um estudo sobre as concepções dos médicos sobre o fim da vida. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>61º Congresso Brasileiro de Cardiologia e XXII Congresso Sul-Americano de Cardiologia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>67ª Semana Brasileira de Enfermagem "ABEn: uma trajetória de 80 anos e os desafios contemporâneos. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>67ª Semana Brasileira de Enfermagem. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>6a Semana Acadêmica Integrada do CCNE. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>6º ENCONTRO SOBRE O PODER ESCOLAR; 7º SEMINÁRIO INTERINSTITUCIONAL DE EDUCAÇÃO.REVISTA APONTAMENTOS COMO FORMAÇÃO DOCENTE. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>6º ENCONTRO SOBRE PODER ESCOLAR, 7º Seminário Interinstitucional de Educação.Apressentadora da experiência: Revista Apontamentos como formação docente. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>7º Jornada da ASSOGOT da Fronteira Oeste. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>8 Congresso Brasileiro de Saúde Coletiva e 11 Congresso Mundial de Saúde Pública. 8º Congresso Brasileiro de Saúde Coletiva e 11º Congresso Mundial de Saúde Pública. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>8 Congresso Brasileiro de Saúde Coletiva e 11 Congresso Mundial de Saúde Pública. Pólos de Educação Permanente em Saúde: o de safio de transformar o processo de trabalho a partir do quadrilátero da educação permanente em saúde. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>8ª Congresso Brasileiro de Saúde Coletiva e 11ª Congresso Mundial de Saúde Pública. Ver-SUS/Brasil:Vivências e Estágios na Realidade do Sistema Único de Saúde do Brasil. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>9th World Congress of Veterinary Anaesthesiology. Cardiorespiratory Changes Induced by Isoflurane and Subsequent Sevoflurane Anesthhesia in Crested Caracara (Polyborus plancus). 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>9ª Semana Acadêmica do Curso de Educação Física. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Advances in the Diagnosis and Treatment of Brain Diseases. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Anestesia e Terapis Intensiva no III CONCEVEPA. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>ANPEd Sul e III SEMINÁRIO DOS SECRETÁRIOS DOS PROGRAMAS DE PÓS-GRADUAÇÃO.Apontamentos revista político pedagógica- uma mostra do pós-graduação da região sul do país. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Aquaciência 2006. Diferentes fontes proteicas na alimentação de matrizes de jundiá (Rhamdia quelen) e sua influência sobre o desenvolvimento larval. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Aquaciência 2006.INFLUÊNCIA DO SEXO NO RENDIMENTO DE CORTES DO JUNDIÁ (Rhamdia quelen), DOURADO (Salminus brasiliensis) E TILÁPIA (Oreochromis niloticus). 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>AQUACIÊNCIA 2006. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Atualização em Emergências de Pequenos Animais. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Congrega Urcamp 2006. Poços rasos e profundos do Bairro Bom Fim de São Gabriel. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Cuidado com acessos venosos e medidas de controle de infecção. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Curso Ciência e know-how na manipução de novidades dermato-cosméticas na XXXII Semana Acadêmica de Estudos Farmacêuticos. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Curso de Atualização em Hanseníase, Avaliação e Tatamento de Feridas. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Curso de curta duração em necropsia de suínos. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Curso de Excelência em Espirometria - PneumoAtual. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>CURSO DE EXTENSÃO: INSERÇÃO CIDADÃ NA VIDA UNIVERSITÁRIA.A UNIVERSIDADE ADORMECIDA. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>CURSO DE EXTENSÃO: INSERÇÃO CIDADÃ NA VIDA UNIVERSITÁRIA.COMPREENDENDO A ESTRUTURA ORGANIZACIONAL DA FURG. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>CURSO DE EXTENSÃO: INSERÇÃO CIDADÃ NA VIDA UNIVERSITÁRIA.CONTEXTO SOCIAL, COMPROMISSO E TRANSFORMAÇÃO. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Curso de Verão IFUSP. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>Curso Doação e Transplante de Órgãos e Tecidos. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>Curso Outros Produtos Estéreis. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>Curso Outros Tumores - Educação Continuada em Oncologia. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>Curso Técnico sobre Clonagem e Expressão em Sistema Gateway. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>Determination of pesticide Residues in food by Chromatographic and Mass spectrometric methods. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>Encontro dos Estudos de Coorte na Consolidação da Pós-Graduação. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>Encontro Nacional Pensando Gênero e Ciências. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Evento técnico de divulgação do Programa de Controle da Raiva em Herbívoros. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>Feira das Profissões - VIII edição - de 23 a 25.11.2006, duração de 24 horas. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>Feira de Saúde da FFFCMPA.Feira de Saúde da FFFCMPA. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Feira de Tecnologia, Ciências e Artes do PEIES-6ª edição.A brincaderia que não tem graça. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Fisioterapia na Criança Portadora de Cardiopatia Congênita.-. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>Forum de Inclusão Social. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>Forum Internacional Integrado de cidadania. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>Giessener Kleintierabend (Noite de Pequenos Animais): Cegueira. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>I Acampamento Binacional do Fórum Social Mundial Brasil/Uruguaiana.Voluntária. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>I Ciclo de Mini-cursos em Atividade Motora Adaptada. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>I Ciclo de Palestras do Curso de Química. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>I Conferência Fênix.I Conferência Fênix. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>I Congresso Gaúcho de Infectologia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>I Curso Básico de Equoterapia.I Curso Básico de Equoterapia. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>I Curso de Boas Práticas de Laboratório. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>I Encontro de Enfermagem- prevenindo sequelas de AVC. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>I ENCONTRO DE SELÊNIO E TELÚRIO. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>I Encontro de Verão de Física do ITA. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>I Encontro de Ética em Pesquisa com Seres Humanos da UESC. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>I Encontro dos pneumologistas, pneumopediatras e cirurgiões d tórax do RS. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>I Encontro Multidisciplinar de Dor- CCS/HUSM - UFSM. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>I Fórum Ambiental do Município de Uruguaiana. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>I Internacional Congress of Fish Genetics and XI Brazilian Symposium on Fish Cytogenetics and Genetics. ANÁLISE DAS REGIÕES ORGANIZADORAS DO NUCLÉOLO EM Aphyocharax anisitsi (CHARACIDAE, APHYOCHARACINAE) DA BACIA DO RIO PARANÁ. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>I International Congress of Fish Genetics and XI Brazilian Symposium on Fish Cytogenetics and Genetics. I International Congress of Fish Genetics and XI Brazilian Symposium on Fish Cytogenetics and Genetics. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>I Semana Científica da FFFCMPA - XXII Semana Acadêmica - V Semana de Iniciação Científica.Avaliação de Diferenças Entre os Sexos no Condicionamento de Lugar Produzidas por Tolueno em Ratos. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>I Semana Científica da FFFCMPA - XXII Semana Acadêmica - V Semana de Iniciação Científica.Frequência Gênica do Sistema ABO e RH em Comunidades Porto Alegrenses Atendidas nas Feiras de Saúde da FFFCMPA. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>I Seminário de Abordagem ao Tabagismo. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>I Seminário Internacional de Química Analítica. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>I Seminário Internacional de Saúde Mental e Gerontologia.. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>I Seminário Internacional do Bioma Pampa.I Seminário Internacional do Bioma Pampa. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>I Seminário Regional dos Pós-Graduandos em Ciências Agrárias - SEPOSCA.Surto de calicivirose felina em uma propriedade rural de Nova Prata, Rio Grande do Sul. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>I Seminário VEPOP: Vivências em Educação Popular.Auteridade no processo de Vivência e Experiências na realidade do Sistema Único de Saúde. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>I simpósio de Bioética da FFFCMPA - Tema: O Uso de Animais no Ensino e na Pesquisa. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>I Simpósio de Bioética da FFFCMPA - Tema: O Uso de Animais no Ensino e na Pesquisa. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>I Simpósio de Emergência em Pequenos Animais. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>I Simpósio de Internação Domiciliar do HUSM: Interfaces da Atenção à saúde no Domicílio. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>I Simpósio sobre mortalidade materno-infantil do município do Rio Grande. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>Identificando Diabetes e Hipertensão em Pessoas Aposentadas. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>II Encontro de Enfermeiros Responsáveis Técnicos. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>II Encontro de Medicina Equina da Região Centro-Oeste do Paraná. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>II Encontro de Veterinários de Eqüinos "Regimento Osório". 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td>II Jornada Acadêmica da Biomedicina da FFFCMPA. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>II Jornada Integrada SEM/SEC. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>II Jornada Integrada SEM/SEC.A violência contra o idoso. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td>II Seminário do Bioma Pampa.II Seminário do Bioma Pampa. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>II SIMPÓSIO DE CROMATOGRAFIA (SIMCRO).Validação de método analítico indicador de estabilidade por CLAE para determinação quantitativa de entacapone em comprimidos revestidos. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>II SIMPÓSIO INTERNACIONAL DE VÍDEO-CIRURGIA AVANÇADA. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>II Simpósio Internacional em Produção Animal. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>III Colóquio Franco-Brasileiro de Filosofia da Educação Foucault 80 anos.Educação em saúde e o governo dos corpos femininos. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td>III Congresso do Centro-Oeste de Clínicos Veterinários de Pequenos Animais. Acidose respiratória com uso de anestésicos injetáveis. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>III Congresso Nacional dos Estudantes de Fisioterapia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td>III Congresso Sul Brasileiro de Ciências do Esporte. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>III Congresso Sulbrasileiro de Ciências do Esporte. A Formação do Professor de Educação Física: Histórias de Vida e seus Retrospectos na Ação Pedagógica. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>III Curso de Sensibilização em Biossegurança - Conceitos de Risco e Construção de Mapas de Risco. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>III Curso para Postgraduados - "Fundamentos Moleculares de la Medicina".. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td>III Encontro de Economia Gaúcha. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>III ENCONTRO JOVENS SURDOS. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>III Encontro Multidisciplinar dos Ex-alunos do Curso de Fisioterapia da UNEC.Yoga - Equilíbrio entre corpo e mente. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>III Escola de Inverno - Departamento de Física - UFPB. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td>III FISIOTRAB - Congresso Brasileiro de Fisioterapia do Trabalho. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td>III Fórum Municipal de Controle e Prevenção às DST's/AIDS. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>III Semana Integrada de Saúde Mental do Centro Universitário Centro Universitário Metodista IPA.Roda de Vivências da Disciplina de Enfermagem em Saúde Mental: a percepção dos acadêmicos e dos serviços. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>III Seminário sobre o uso intensivo e sustentável de áreas de várzea.. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>III Simpósio de Fisioterapia Veterinária. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>III Simpósio de Terapia Endovascular do IC/FUC. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>Integralidade no ensino e na assistência a saúde. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td>Integralidade no ensino e na assistência à saúde. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>151. &nbsp;</td> <td>International Symposium Lameness in Ruminants. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>152. &nbsp;</td> <td>International Symposium on Drug Discovery and IX National Meeting of Medicinal Chemistry Professors.Application of QSAR Studies of New Antimicrobial Drug Design. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>153. &nbsp;</td> <td>IV Fórum Brasil Esporte. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>154. &nbsp;</td> <td>IV Jornada Acadêmica do Curso de Farmácia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>155. &nbsp;</td> <td>IV Jornada Científica UVV. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>156. &nbsp;</td> <td>IV Jornada de Estudos do CEP-RUA/FURG - Família em Foco: Transformações e Desafios. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>157. &nbsp;</td> <td>IV Jornada Médica da Santa Casa de Uruguaiana. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>158. &nbsp;</td> <td>IV Simpósio do Processo e Diagnóstico de Enfermagem do HCPA. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>159. &nbsp;</td> <td>IX Encontro Nacional de Aleitamento Materno. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>160. &nbsp;</td> <td>IX Encontro Nacional de Aleitamento Materno.O profissional enfermeiro na promoção do aleitamento materno a aprtir da IUBAAM -um ensaio reflexivo. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>161. &nbsp;</td> <td>IX EPEA- ENCONTRO PARANAENSE DE EDUCAÇÃO AMBIENTAL; II FÓRUM REGIONAL DE EDUCAÇÃO AMBIENTAL: DIVERSIDADE, SUSTENTABILIDADE E COOPERAÇÃO EM REDES. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>162. &nbsp;</td> <td>IX Semana Acadêmica - ULBRA.Avaliador de Pôster. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>163. &nbsp;</td> <td>IX Semana acadêmica de fisioterapia. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>164. &nbsp;</td> <td>IX Semana Acadêmica de Fisioterapia.Avaliação dos Trabalhos. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>165. &nbsp;</td> <td>IX Semana acadêmica de fisioterapia.Reabilitação Pulmonar. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>166. &nbsp;</td> <td>Iº CURSO DE DISSECÇÃO E SUTURA EM SUÍNOS.ANATOMIA DA REGIÃO INGUINAL E HÉRNIA INGUINAL. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>167. &nbsp;</td> <td>Mental-Tchê ( Encontro Estadual de Manifestação antimanicomial. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>168. &nbsp;</td> <td>Mini curso: O Parque Natural Municipal de Uruguaiana.Mini curso: O Parque Natural Municipal de Uruguaiana. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>169. &nbsp;</td> <td>Mundo UNIFOR. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>170. &nbsp;</td> <td>O profissional da Química e os Nichos de Mercado de Trabalho na Área da Água. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>171. &nbsp;</td> <td>Oficina de Protocolos. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>172. &nbsp;</td> <td>Oficina Regional de Implementação das Diretrizes Curriculares Nacionais dos Cursos de Fisioterapia - Espírito Santo... 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>173. &nbsp;</td> <td>oficina Violência Sexual, Gênero e Direitos.Gênero, diferenças e a cultura. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>174. &nbsp;</td> <td>Palestra para a Disciplina de Prática Profissional II do Curso de Educação Física do Centro Universitátio Metodista IPA.O Trabalho em Equipe e a Formação do Profissional Educador Físico para o Sistema Único de Saúde. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>175. &nbsp;</td> <td>Palestra sobre Causas de Aborto Bovino. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>176. &nbsp;</td> <td>Palestra sobre Sistema de Gestão de Segurança Alimentar HACCP. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>177. &nbsp;</td> <td>Palestra sobre: Eletrólitos - Desempenho Zootécnico. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>178. &nbsp;</td> <td>Palestras sobre Aspectos Semiológicos e Principais Afecções Cardíacas em Cães e Gatos. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>179. &nbsp;</td> <td>Programa interação FURB - Fórum de Informações de curso - FIC.Programa Interação FURB. 2006. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>180. &nbsp;</td> <td>Práticas de Justiça e Diversidade Cultural (2a. edição).Os desafios contemporâneos da interculturalidade - movimentos feministas e poder. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>181. &nbsp;</td> <td>Repensando o Cuidado da Dor na Criança. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>182. &nbsp;</td> <td>Repensando o cuidado da dor na criança. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>183. &nbsp;</td> <td>Repensando o Cuidado da Dor na Criança. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>184. &nbsp;</td> <td>Repensndo o Cuidado da Dor na Criança. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>185. &nbsp;</td> <td>Segunda Semana do Hospital Universitário/FURG. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>186. &nbsp;</td> <td>SEGUNDO CONGRESO DE EDUCACIÓN AMBIENTAL PARA EL DESARROLLO SUSTENTABLE DE LA REPÚBLICA ARGENTINA. ENTENDIENDO EL PLANETA E CONSTRUYENDO IDENTIDAD. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>187. &nbsp;</td> <td>Segurança no Transporte de Produtos Perigosos. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>188. &nbsp;</td> <td>Semana de Enfermagem - Curso 5. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>189. &nbsp;</td> <td>Semana de Enfermagem. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>190. &nbsp;</td> <td>Semana de Enfermagem: a enfermagem e o desafio da integralidade em saúde. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>191. &nbsp;</td> <td>Semana de Enfermagem: A Enfermagem e o Desafio da Integralidade em Saúde.Orientações sobre biossegurança: uma necessidade na enfermagem. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>192. &nbsp;</td> <td>Semana de Enfermagem: A Enfermagem e o Desafio da Integralidade em Saúde.Perfil dos cuidadores familiares de pacientes adultos hospitalizados com doenças geradoras de incapacidade crônicas. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>193. &nbsp;</td> <td>Semana de Enfermagem: A Enfermagem e o Desafio da Integralidade em Saúde.Refletindo sobre os recursos não farmacológicos para o alivio da dor. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>194. &nbsp;</td> <td>Semana Nacional de Ciência e Tecnologia.Desenvolveu Atividades de Popularização Científica e Tecnológica. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>195. &nbsp;</td> <td>Seminário de Atualização em Genética e Biologia Molecular. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>196. &nbsp;</td> <td>Seminário de Educação Ambiental. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>197. &nbsp;</td> <td>Seminário de Epistemologia e Metodologia da Pesquisa em Ciências do Movimento Humano.Estudo histórico e epistemológico da Biomecânica no Brasil. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>198. &nbsp;</td> <td>Seminário de Folclore e Tradicionalismo. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>199. &nbsp;</td> <td>Seminário de Responsbilidade Técnica. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>200. &nbsp;</td> <td>Seminário de Saúde da Mulher. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>201. &nbsp;</td> <td>Seminário Internacional Fazendo Gênero 7.Discutindo gênero na música "Ai que saudade da Amélia". 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>202. &nbsp;</td> <td>Seminário Regional Valorização da Enfermagem. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>203. &nbsp;</td> <td>Seminário sobre transporte manual de cargas.Palestra sobre ergonomia e transporte manual de cargas. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>204. &nbsp;</td> <td>SIMCRO II. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>205. &nbsp;</td> <td>Sisteenth European Meeting on Hypertension. Effects of small concentrations of mercury on the angiotensin converting enzyme activity and vascular reactivity of the isolated rat tail arterial bed. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>206. &nbsp;</td> <td>Sixteenth Eurepean Meeting on Hypertension. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>207. &nbsp;</td> <td>Sociedade Brasileira de Química da região Sul.A Química como forma de desenvolvimento da sociedade. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>208. &nbsp;</td> <td>The 16 Congress of the International Society for Human and Animal Micology. A simple method for the detection of the lipolytic activity of Paracoccidioides brasiliensis strains utilizing Rhodamine B. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>209. &nbsp;</td> <td>UFPR: Cursos e Profissões - Uma Feira de Idéias para seu Futuro.Apresentação sobre o Curso de Medicina Veterinária do Campus Palotina da Universidade Federal do Paraná. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>210. &nbsp;</td> <td>V Fórum de Medicina Veterinária da Universidade Castelo Branco.Diagnóstico diferencial da claudicação. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>211. &nbsp;</td> <td>V Jornada de Fisioterapia da UVV. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>212. &nbsp;</td> <td>V Mostra Da Produção Universitária.A compreensão dos profissionais enfermeiros e médicos da Rede Básica de Saúde acerca da Promoção da Saúde; A Promoção da Saúde no Programa de Saúde da Família. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>213. &nbsp;</td> <td>V Mostra da Produção Universitária.Participante. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>214. &nbsp;</td> <td>V Mostra da Produção Universitária.VIII Encontro de Pós-Graduação, dentro da V Mostra da Produção Universitária. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>215. &nbsp;</td> <td>V Semana de Estudos Avançados: II Fórum de Bioética e I Simpósio de Terapia celular.Análise do Perfil de Resistência e Genotipagem de Isolados Uropatogênicos de Escherichia coli. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>216. &nbsp;</td> <td>V SEMINÁRIO DE PESQUISA QUALITATIVA: FAZENDO METODOLOGIA. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>217. &nbsp;</td> <td>VI Encontro Sobre Investigação na Escola.A constituição das identidades de gênero no espaço escolar. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>218. &nbsp;</td> <td>VI ENCONTRO SOBRE INVESTIGAÇÃO NA ESCOLA.REVISTA APONTAMENTOS COMO FORMAÇÃO DOCENTE. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>219. &nbsp;</td> <td>VI Jornada de Enfermagem e VI Encontro Regional de Auxiliares e Técnicos de Enfermagem - ERATE - de 06 a 08.06.2006 - duração de 30 horas.Relatando caso de paciente com artrite reumatóide.. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>220. &nbsp;</td> <td>VI Semana Acadêmica de Medicina Veterinária - UFPR Campus Palotina. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>221. &nbsp;</td> <td>VI Semana Acadêmica do Curso de Ciências Biológicas da Pucrs - Campus Uruguaiana.Mesa redonda: Proteção dos recursos naturais do Pampa. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>222. &nbsp;</td> <td>VI Seminário de Pesquisa em Educação da Região Sul - ANPEd Sul e III Seminário dos Secretários dos Programas de Pós-Graduação em Educação.Discursos sobre educação escolarizada: narrativas das mulheres da Colméia. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>223. &nbsp;</td> <td>VI SEMINÁRIO DE PESQUISA EM EDUCAÇÃO DA REGIÃO SUL - ANPED SUL; III SEMINÁRIO DOS SECRETÁRIOS DOS PROGRAMAS DE PÓS-GRADUAÇÃO EM EDUCAÇÃO.APONTAMENTOS REVISTA POLÍTICO-PEDAGÓGICA - UMA PROPOSTA DA PÓS-GRADUAÇÃO DA REGIÃO SUL DO PAÍS. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>224. &nbsp;</td> <td>VI SEMINÁRIO DE PESQUISA EM EDUCAÇÃO DA REGIÃO SUL - ANPED SUL; III SEMINÁRIO DOS SECRETÁRIOS DOS PROGRAMAS DE PÓS-GRADUAÇÃO EM EDUCAÇÃO.APONTAMENTOS REVISTA POLÍTICO-PEDAGÓGICA - UMA PROPOSTA DA PÓS-GRADUAÇÃO DA REGIÃO SUL DO PAÍS. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>225. &nbsp;</td> <td>VI Seminário internacional sobre Agroecologia e VII Seminário Estadual sobre Agroecologia. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>226. &nbsp;</td> <td>VII Conferência Brasil John Hopkins University em HIV/AIDS. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>227. &nbsp;</td> <td>VII Congresso do Colégio Brasileiro de Cirurgia e Anestesiologia Veterinária e III Simpósio de Fisioterapia Veterinária. Hemangioma de túnica vaginal em eqüino. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>228. &nbsp;</td> <td>VII Congresso do Colégio Brasileiro de Cirurgia e Anestesiologia Veterinária. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>229. &nbsp;</td> <td>VII Congresso Nacional da Rede Unida, III Fórum Nacional de Redes em Saúde, III Mostra Paranaense de Saúde da Família, II Encontro de Promotores de Políticas Públicas Saúdáveis, I Encontro Multiprofissional de Residentes em Saúde da Família da Região Sul. Residência Multiprofissional: histórico e contextualização da Política de Formação e Desenvolvimento de Trabalhadores em Saúde. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>230. &nbsp;</td> <td>VII Congresso Nacional da Rede Unida, III Fórum Nacional de Redes em Saúde, III Mostra Paranaense de Saúde da Família, II Encontro de Promotores de Políticas Públicas Saúdáveis, I Encontro Multiprofissional de Residentes em Saúde da Família da Região Sul. VII Congresso Nacional da Rede Unida, III Fórum Nacional de Redes em Saúde, II Encontro de Promotores de Políticas Públicas Saudáveis, I Encontro Multiprofissional de Residentes em Saúde da Família da Região Sul, III Encontro da ANEPS-PR e I Encontro Paranaense de Estudantes da Área da Saúde. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>231. &nbsp;</td> <td>VII Encontro Vila Velhense dos Diabéticos.Avaliação do Pé Diabético. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>232. &nbsp;</td> <td>VII MERCOMOVIMENTO. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>233. &nbsp;</td> <td>VII Salão de Iniciação Científica da PUCRS.A sexualidade na adolescência versus o ambiente escolar.. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>234. &nbsp;</td> <td>VII SEMANA ACADÊMICA DE PEDAGOGIA - REFLETINDO SOBRE OS DILEMAS DO COTIDIANO DOCENTE: REINVENTANDO NOVAS PRÁTICAS.ESCOLA COMO ASSISTENCIALISMO OU COMO DIREITO?. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>235. &nbsp;</td> <td>VIII Encontro de Pós-Graduação - V Mostra da Produção Universitária.Narrativas das mulheres da Colméia: um olhar sobre corpo, gênero e sexualidade. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>236. &nbsp;</td> <td>VIII Encontro Paranaense de Genética.ESTUDO DE DUAS POPULAÇÕES DO GÊNERO Hypostomus (SILURIFORME, LORICARIIDAE) DA BACIA DO ALTO RIO PARANÁ. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>237. &nbsp;</td> <td>VIII Jornada de Estudos Farmacêuticos, VII Farmafeira e VI Mostra Científica do curso de Farmácia. Desenvolvimento e avaliação de formulações de comprimidos contendo fluconazol obtidos por compressão direta. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>238. &nbsp;</td> <td>VIII Semana Acadêmica de Fisioterapia. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>239. &nbsp;</td> <td>Vortragsveranstaltung (Apresentação oral): tema "Otite". 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>240. &nbsp;</td> <td>Vínculos profissionais- formação de equipe de trabalho. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>241. &nbsp;</td> <td>Workshop pós-25a RBA.Mulheres na Política, política nas famílias: uma etnografia sobre participação política, relações de gênero e família. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>242. &nbsp;</td> <td>X Jornadas Pneumológicas Mario Rigatto. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>243. &nbsp;</td> <td>X Simpósio de Ensino, Pesquisa e Extensão e 2º Salão de Iniciação Científica com a Temática: Ética e Ciência - de 08 a 10.11.2006 - duração de 24 horas.Promoção da saúde na Escola.. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>244. &nbsp;</td> <td>X Simpósio de Ensino, Pesquisa e Extensão SEPE. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>245. &nbsp;</td> <td>XI Congresso de Ciências do Desporto e Educação Física dos Países de Língua Portuguesa. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>246. &nbsp;</td> <td>XI Congresso de Ciências do Desporto e Educação Física dos Países de Língua Portuguesa. Crescimento somático de crianças e jovens provenientes de cidades com distintas características culturais do estado do Rio Grande do Sul ?Brasil. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>247. &nbsp;</td> <td>XI Congresso de Ciências do Desporto e Educação Física dos Países de Língua Portuguesa. Economia de movimento, VO2 máximo e desempenho aeróbio de meninos de 10-15 anos de idade. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>248. &nbsp;</td> <td>XI Congresso de Ciências do Desporto e Educação Física dos Países de Língua Portuguesa. Estabilidade do índice de massa corporal entre os 8 e os 12 anos de idade nos dois sexos. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>249. &nbsp;</td> <td>XI Congresso de Ciências do Desporto e Educação Física dos Países de Língua Portuguesa. Perfil lipídico, de aptidão cardiorrespiratória, de composição corporal e de hábitos de vida de uma amostra de escolares de 8ª série de Canoas/RS. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>250. &nbsp;</td> <td>XI Congresso de Ciências do Desporto e Educação Física dos Países de Língua Portuguesa. Pico de velocidade de crescimento em meninos e meninas de 10 a 14 anos de idade. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>251. &nbsp;</td> <td>XI Jornada de Ciências Biológicas. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>252. &nbsp;</td> <td>XI Semana Farmacêutica de Ciência e Tecnologia, XXI Seminário de Pós-Graduação. Studie of Molecular Reactivity of Flavonoids. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>253. &nbsp;</td> <td>XII Caminhos da Pesquisa da ULBRA São Jerônimo/RS.DESAFIOS E POSSIBILIDADES NA EDUCAÇÃO FÍSICA ESCOLAR. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>254. &nbsp;</td> <td>XII CONGRESS OF SOLACI e XXVIII CONGRESS OF SBHCI. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>255. &nbsp;</td> <td>XII Congress of the International Society of Animal Clinical Biochemistry. Proceedings XII Congress of the International Society of Animal Clinical Biochemistry. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>256. &nbsp;</td> <td>XII Congresso Brasileiro de Medicina Intensiva Adulto - Pediátrico - Neonatal. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>257. &nbsp;</td> <td>XIII Jornada da Prática Clínica Supervisionada de Fisioterapia.Avaliação dos Trabalhos. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>258. &nbsp;</td> <td>XIV ABERGO - Congresso Brasileiro de Ergonomia, IV Fórum Brasileiro de Ergonomia e II Congresso Brasileiro de Iniciação em Ergonomia - Abergo Jovem. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>259. &nbsp;</td> <td>XIV CONGRESSO INTERNACIONAL DE TRANSFERENCIA DE TECNOLOGIA AGROPECUARIA. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>260. &nbsp;</td> <td>XIV Jornada da Prática Clínica Supervisionada de Fisioterapia.Avaliação dos Trabalhos. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>261. &nbsp;</td> <td>XIX CONGRESO NACIONAL / XXX JORNADAS ANUALES DE LA ASOCIACIÓN ARGENTINA DE ALERGIA E INMUNOLOGIA CLÍNICA. A relação de fatores de risco ambientais e familiares com sibilância em escolares da cidade de Uruguaiana, RS. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>262. &nbsp;</td> <td>Xth Workshop of the European Society of Hypertension Young Investigator Iniciative Group.Effects of small concentrations of mercury on the angiotensin converting enzyme activity and vascular reactivity of the isolated rat tail arterial bed. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>263. &nbsp;</td> <td>XV Congresso de Iniciação Científica VIII Encontro de Pós Graduação. Detalhamento de solos da Unidade de Mapeamento Pelotas na Granja Bretanhas. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>264. &nbsp;</td> <td>XV Encontro Anual de Iniciação Científica e VI Encontro de Pesquisa da UEPG.ANÁLISE CITOGENÉTICA DE CINCO POPULAÇÕES EM ESPÉCIES DO GÊNERO SERRAPINNUS (CHARACIFORMES, CHEIRODONTINAE). 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>265. &nbsp;</td> <td>XV Jornada de Produção Acadêmica do Curso de Enfermagem. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>266. &nbsp;</td> <td>XV Reunión de Farmacólogos de la Comunidad de Madrid. Efecto de bajas concentraciones de mercurio en la reatividad vascular de ratas. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>267. &nbsp;</td> <td>XVI Congresso de Cardiologia do Rio Grande do Sul. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>268. &nbsp;</td> <td>XVI Mostra de Iniciação Científica - A Iniciação Científica e a Gestão Sustentável da Biodiversidade..Caracterização anátomo-patológica da actinobacilose pulmonar em um bovino.. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>269. &nbsp;</td> <td>XVII Congresso Estadual de Medicina Veterinária, II Congresso Estadual da ANCLIVEPA/RS, V Encontro de Especialistas em Pequenos Ruminantes do Conesul, I Seminário Nacional de Ética Profissional em Medicina Veterinária, X EXPOVET.. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>270. &nbsp;</td> <td>XVII Congresso Estadual de Medicina Veterinária. Defeito do septo interventricular em um cão. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>271. &nbsp;</td> <td>XVII Congresso Estadual de Medicina Veterinária. Hemograma e metabolismo oxidativo dos neutrófilos em cadelas com piometra por Escherichia coli. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>272. &nbsp;</td> <td>XVII Congresso Estadual de Medicina Veterinária. Hipoadrenocorticismo primário em um cão. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>273. &nbsp;</td> <td>XVII Semana de Fisioterapia - Compreendendo a Dimensão da Fisioterapia. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>274. &nbsp;</td> <td>XVIII Congresso de Iniciação Científica ? CIC/UNESP. PRODUÇÃO IN VITRO DE EMBRIÕES BOVINOS COM SUPLEMENTO ANTIOXIDANTE SIGMA. . 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>275. &nbsp;</td> <td>XVIII Salão de Iniciação Científica XV Feira de Iniciação Científica I Salão UFRGS Jovem.Genotipagem de isolados uropatogênicos de Escherichia coli e análise de dados epidemiológicos dos pacientes. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>276. &nbsp;</td> <td>XVIII Salão de Iniciação Científica, XV Feira de Iniciação Científica e I Salão UFRGS Jovem.Detecção de atividade nitrorredutásica utilizando 6-nitrocumarina em Sporothrix schenckii. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>277. &nbsp;</td> <td>XVIII Salão de Iniciação Científica.Aptidão Cardiorrespiratória e Perfil Lipídico: Correlação em Meninos de 8ª Série. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>278. &nbsp;</td> <td>XVIII Salão de Iniciação e XV de Feira de Iniciação Científica.Metabolismo da glutationa em medula espinal de ratos submetidos à dor neuropática. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>279. &nbsp;</td> <td>XX Jornada Academica Integrada. 2006. (Outra).</td></tr>
+            
+            <tr valign="top"><td>280. &nbsp;</td> <td>XX Reunião Anual da Sociedade Brasileira de Tecnologia de Embriões. PRODUÇÃO IN VITRO DE EMBRIÕES BOVINOS COM SUPLEMENTO ANTIOXIDANTE SIGMA.. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>281. &nbsp;</td> <td>XXI Reunião Anual da Fesbe. Múltiplas NTPDases são expressas por células musculares lisas vasculares em cultura. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>282. &nbsp;</td> <td>XXII Congreso Latinoamericano e 1ro Iberoamericano de Ciencias Fisiológicas. Efeito da Lesão Nervosa Periférica sobre a Concentração de Glutationa Total em Medula Espinal de Ratos. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>283. &nbsp;</td> <td>XXIV Curso de Inverno, VII Curso Internacional de Cardiologia Fetal e Pediátrica, I Encontro de Medicina fetal do Mercosul. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>284. &nbsp;</td> <td>XXIV Seminário de Extensão Universitária da Região Sul. 2006. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>285. &nbsp;</td> <td>XXiX Simpósio Internacional de Ciências do Esporte.Análise da qualidade de vida de pessoas com seqüelas de AVC. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>286. &nbsp;</td> <td>XXIX Simpósio Internacional em Ciências do Esporte. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>287. &nbsp;</td> <td>XXV Simpósio Nacional de Educação Física.A atividade física e a qualidade de vida de pessoas com seqüelas de Acidente Vascular Cerebral. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>288. &nbsp;</td> <td>XXVI Congresso Brasileiro de Zoologia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>289. &nbsp;</td> <td>XXVI Encontro de Debates sobre o Ensino de Química - A Contribuição da Educação Química na Melhoria da Qualidade de Vida no Planeta. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>290. &nbsp;</td> <td>XXVII Congresso da Sociedade de Cardiologia do Estado de São Paulo. Atividade da Ecto-5´-nucleotidase/CD73 é aumentada no tratamento com hormônios tireoideanos em célula muscular lisa vascular de rato. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>291. &nbsp;</td> <td>XXX Congresso Brasileiro de Pneumologia e Tisiologia. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>292. &nbsp;</td> <td>XXXI SECITAP Enfermidades obstétricas e geriátricas na clínica de pequenos animais.Odontopatias e suas principais complicações no animal idoso. 2006. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>293. &nbsp;</td> <td>XXXI Semana de Estudos do Corpo Docente.Inclusão Digital para Docentes: Microsoft word Avançado/Excel/Internet. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>294. &nbsp;</td> <td>XXXI Semana de Estudos do Corpo Docente.Tecnologias de apoio ao ensino: caso da PUCCAMP. 2006. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>295. &nbsp;</td> <td>XXXIII Congresso Brasileiro de Pneumologia e Tisiologia IX Congresso Brasileiro de Endoscopia Respiratória. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>296. &nbsp;</td> <td>XXXV SBBQ. 2006. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>297. &nbsp;</td> <td>Ética, Ciência e Tecnologia - Um novo paradigma para a sociedade da informação, XII Seminário Institucional de Iniciação Científica. 2006. (Seminário).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2006 até 2018
+<br>Data de processamento: 01/07/2018 23:20:15<br>         <div id="footer">         Este arquivo foi gerado automaticamente por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.13</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos currículos Lattes. Caso note alguma falha, por favor, contacte o responsável por esta página: <a href="mailto:jesus.mena@ufabc.edu.br">jesus.mena@ufabc.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

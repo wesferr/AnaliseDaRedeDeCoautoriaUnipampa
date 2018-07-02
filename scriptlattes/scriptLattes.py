@@ -48,12 +48,12 @@ def executar_scriptLattes(arquivoConfiguracao):
         novoGrupo.gerarGrafosDeColaboracoes() # obrigatorio
         novoGrupo.gerarMapaDeGeolocalizacao() # obrigatorio
         novoGrupo.gerarPaginasWeb() # obrigatorio
-        # novoGrupo.gerarArquivosTemporarios() # obrigatorio
-        #
-        # novoGrupo.salvar_dados_temporarios_de_geolocalizacao()
-        #
-        # # copiar imagens e css
-        # copiarArquivos(novoGrupo.obterParametro('global-diretorio_de_saida'))
+        novoGrupo.gerarArquivosTemporarios() # obrigatorio
+
+        novoGrupo.salvar_dados_temporarios_de_geolocalizacao()
+
+        # copiar imagens e css
+        copiarArquivos(novoGrupo.obterParametro('global-diretorio_de_saida'))
 
         # finalizando o processo
         #print '[AVISO] Quem vê \'Lattes\', não vê coração! B-)'

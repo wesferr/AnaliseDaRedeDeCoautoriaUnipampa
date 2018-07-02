@@ -1,0 +1,503 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Teste 01 do scriptLattes (período 2006-2014)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Teste 01 do scriptLattes (período 2006-2014)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de produção bibliográfica'}, 
+series: [{data: [[2006,
+599],
+[2007,
+611],
+[2008,
+742],
+[2009,
+729],
+[2010,
+1050],
+[2011,
+1105],
+[2012,
+1388],
+[2013,
+1152],
+[2014,
+1069],
+[2015,
+1063],
+[2016,
+845],
+[2017,
+769],
+[2018,
+205]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de produção bibliográfica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 12165<br>
+                    
+                    <center>Página: <a href="PB-0.html">1</a> &nbsp;<a href="PB-1.html">2</a> &nbsp;<a href="PB-2.html">3</a> &nbsp;<a href="PB-3.html">4</a> &nbsp;<a href="PB-4.html">5</a> &nbsp;<a href="PB-5.html">6</a> &nbsp;<a href="PB-6.html">7</a> &nbsp;<a href="PB-7.html">8</a> &nbsp;<a href="PB-8.html">9</a> &nbsp;<a href="PB-9.html">10</a> &nbsp;<a href="PB-10.html">11</a> &nbsp;<a href="PB-11.html">12</a> &nbsp;<b>13</b> &nbsp;</center>
+                    <div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>674. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Geração ; de ; emprego ; na ; pesca ; industrial ; em ; Rio ; Grande: ; uma ; aplicação ; do ; método ; estrutural-diferencial. ; In: ; XLV ; Congresso ; da ; Sociedade ; brasileira ; de ; economia, administração ; e ; sociologia ; rural, 2007, Londrina. ; Anais ; do ; XLV ; Congresso ; da ; SOBER, 2007.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>675. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Geração ; de ; emprego ; na ; pesca ; industrial ; em ; Rio ; Grande: ; uma ; aplicação ; do ; método ; estrutural-diferencial. ; In: ; XLV ; Congresso ; da ; Sociedade ; brasileira ; de ; economia, administração ; e ; sociologia ; rural, 2007, Londrina. ; Anais ; do ; XLV ; Congresso ; da ; SOBER, 2007.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>676. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; GESTÃO ; PARTICIPATIVA ; NA ; ATIVIDADE ; PESQUEIRA ; DO ; RIO ; GRANDE ; DO ; SUL. ; In: ; 6º ; ECOINOVAR, 2017, Santa ; Maria. ; Anais ; do ; 6º ; ECOINOVAR, 2017.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>677. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; GESTÃO ; PARTICIPATIVA ; NA ; ATIVIDADE ; PESQUEIRA ; DO ; RIO ; GRANDE ; DO ; SUL. ; In: ; 6º ; ECOINOVAR, 2017, Santa ; Maria. ; Anais ; do ; 6º ; ECOINOVAR, 2017.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>678. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Influência ; do ; ambiente ; institucional ; na ; atividade ; pesqueira ; artesanal ; do ; Rio ; Grande ; do ; Sul. ; In: ; IV ; Seminário ; Internacional ; sobre ; Desenvolvimento ; Regional, 2008, Santa ; Cruz ; do ; Sul. ; Anais ; do ; IV ; Seminário ; Internacional ; sobre ; Desenvolvimento ; Regionalnais, 2008.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>679. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Influência ; do ; ambiente ; institucional ; na ; atividade ; pesqueira ; artesanal ; do ; Rio ; Grande ; do ; Sul. ; In: ; IV ; Seminário ; Internacional ; sobre ; Desenvolvimento ; Regional, 2008, Santa ; Cruz ; do ; Sul. ; Anais ; do ; IV ; Seminário ; Internacional ; sobre ; Desenvolvimento ; Regionalnais, 2008.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>680. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; INFLUÊNCIA ; DO ; AMBIENTE ; INSTITUCIONAL ; NA ; PESCA ; ARTESANAL ; DO ; RIO ; GRANDE ; DO ; SUL: ; DO ; SURGIMENTO ; À ; INDUSTRIALIZAÇÃO. ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, v. ; 1, p. ; 1248, 2011.. <b>INFLUÊNCIA DO AMBIENTE INSTITUCIONAL NA PESCA ARTESANAL DO RIO GRANDE DO SUL: DO SURGIMENTO À INDUSTRIALIZAÇÃO</b>. <font color=#330066>Congresso da Sociedade Brasileira de Economia e Sociologia Rural</font>. v. 1, issn: 1806-9479, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INFLUÊNCIA+DO+AMBIENTE+INSTITUCIONAL+NA+PESCA+ARTESANAL+DO+RIO+GRANDE+DO+SUL:+DO+SURGIMENTO+À+INDUSTRIALIZAÇÃO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INFLUÊNCIA+DO+AMBIENTE+INSTITUCIONAL+NA+PESCA+ARTESANAL+DO+RIO+GRANDE+DO+SUL:+DO+SURGIMENTO+À+INDUSTRIALIZAÇÃO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INFLUÊNCIA+DO+AMBIENTE+INSTITUCIONAL+NA+PESCA+ARTESANAL+DO+RIO+GRANDE+DO+SUL:+DO+SURGIMENTO+À+INDUSTRIALIZAÇÃO">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>681. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; INFLUÊNCIA ; DO ; AMBIENTE ; INSTITUCIONAL ; NA ; PESCA ; ARTESANAL ; DO ; RIO ; GRANDE ; DO ; SUL: ; DO ; SURGIMENTO ; À ; INDUSTRIALIZAÇÃO. ; In: ; 49º ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2011, Belo ; Horizonte. ; Anais ; do ; 49º ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2011.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>682. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; INFLUÊNCIA ; DO ; AMBIENTE ; INSTITUCIONAL ; NA ; PESCA ; ARTESANAL ; DO ; RIO ; GRANDE ; DO ; SUL: ; DO ; SURGIMENTO ; À ; INDUSTRIALIZAÇÃO. ; In: ; 49º ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2011, Belo ; Horizonte. ; Anais ; do ; 49º ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2011.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>683. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; INSTITUIÇÕES ; E ; O ; DESENVOLVIMENTO ; DA ; ATIVIDADE ; PESQUEIRA ; ARTESANAL ; DO ; RIO ; GRANDE ; DO ; SUL. ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, v. ; 1, p. ; 890, 2009.. <b>INSTITUIÇÕES E O DESENVOLVIMENTO DA ATIVIDADE PESQUEIRA ARTESANAL DO RIO GRANDE DO SUL</b>. <font color=#330066>Congresso da Sociedade Brasileira de Economia e Sociologia Rural</font>. v. 1, issn: 1806-9479, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INSTITUIÇÕES+E+O+DESENVOLVIMENTO+DA+ATIVIDADE+PESQUEIRA+ARTESANAL+DO+RIO+GRANDE+DO+SUL&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INSTITUIÇÕES+E+O+DESENVOLVIMENTO+DA+ATIVIDADE+PESQUEIRA+ARTESANAL+DO+RIO+GRANDE+DO+SUL">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INSTITUIÇÕES+E+O+DESENVOLVIMENTO+DA+ATIVIDADE+PESQUEIRA+ARTESANAL+DO+RIO+GRANDE+DO+SUL">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>684. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; INSTITUIÇÕES ; E ; O ; DESENVOLVIMENTO ; DA ; ATIVIDADE ; PESQUEIRA ; ARTESANAL ; DO ; RIO ; GRANDE ; DO ; SUL. ; In: ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009, Porto ; Alegre. ; Anais ; do ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>685. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; INSTITUIÇÕES ; E ; O ; DESENVOLVIMENTO ; DA ; ATIVIDADE ; PESQUEIRA ; ARTESANAL ; DO ; RIO ; GRANDE ; DO ; SUL. ; In: ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009, Porto ; Alegre. ; Anais ; do ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>686. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Legislação, Política ; e ; a ; Atividade ; Pesquiera ; no ; Rio ; Grande ; do ; Sul. ; In: ; XLIII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2005, Riberão ; Preto. ; XLIII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural: ; instituições, eficiência, gestão ; e ; contratos ; no ; Sistema ; Agroindustrial. ; Riberão ; Preto: ; FEARP/USP, 2005.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>687. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Legislação, Política ; e ; a ; Atividade ; Pesquiera ; no ; Rio ; Grande ; do ; Sul. ; In: ; XLIII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2005, Riberão ; Preto. ; XLIII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural: ; instituições, eficiência, gestão ; e ; contratos ; no ; Sistema ; Agroindustrial. ; Riberão ; Preto: ; FEARP/USP, 2005.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>688. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Legislação, Política ; e ; atividade ; pesqueira ; no ; Rio ; Grande ; do ; Sul. ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, Riberão ; Preto, v. ; 1, p. ; 617, 2005.. <b>Legislação, Política e atividade pesqueira no Rio Grande do Sul</b>. <font color=#330066>Congresso da Sociedade Brasileira de Economia e Sociologia Rural</font>. v. 1, issn: 1806-9479, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Legislação,+Política+e+atividade+pesqueira+no+Rio+Grande+do+Sul&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Legislação,+Política+e+atividade+pesqueira+no+Rio+Grande+do+Sul">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Legislação,+Política+e+atividade+pesqueira+no+Rio+Grande+do+Sul">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>689. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; NÍVEL ; EDUCACIONAL ; E ; PRESERVAÇÃO ; AMBIENTAL: ; RELAÇÕES, DISCUSSÕES ; E ; SOLUÇÕES ; NO ; CASO ; DA ; PESCA ; ARTESANAL. ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, v. ; 1, p. ; 1340, 2009.. <b>NÍVEL EDUCACIONAL E PRESERVAÇÃO AMBIENTAL: RELAÇÕES, DISCUSSÕES E SOLUÇÕES NO CASO DA PESCA ARTESANAL</b>. <font color=#330066>Congresso da Sociedade Brasileira de Economia e Sociologia Rural</font>. v. 1, issn: 1806-9479, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=NÍVEL+EDUCACIONAL+E+PRESERVAÇÃO+AMBIENTAL:+RELAÇÕES,+DISCUSSÕES+E+SOLUÇÕES+NO+CASO+DA+PESCA+ARTESANAL&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=NÍVEL+EDUCACIONAL+E+PRESERVAÇÃO+AMBIENTAL:+RELAÇÕES,+DISCUSSÕES+E+SOLUÇÕES+NO+CASO+DA+PESCA+ARTESANAL">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=NÍVEL+EDUCACIONAL+E+PRESERVAÇÃO+AMBIENTAL:+RELAÇÕES,+DISCUSSÕES+E+SOLUÇÕES+NO+CASO+DA+PESCA+ARTESANAL">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>690. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; NÍVEL ; EDUCACIONAL ; E ; PRESERVAÇÃO ; AMBIENTAL: ; RELAÇÕES, DISCUSSÕES ; E ; SOLUÇÕES ; NO ; CASO ; DA ; PESCA ; ARTESANAL. ; In: ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009, Porto ; Alegre. ; Anais ; do ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>691. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; NÍVEL ; EDUCACIONAL ; E ; PRESERVAÇÃO ; AMBIENTAL: ; RELAÇÕES, DISCUSSÕES ; E ; SOLUÇÕES ; NO ; CASO ; DA ; PESCA ; ARTESANAL. ; In: ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009, Porto ; Alegre. ; Anais ; do ; XLVII ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, 2009.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>692. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; como ; instrumento ; de ; política ; agrícola ; à ; atividade ; pesqueira ; no ; Rio ; Grande ; do ; Sul. ; In: ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre, 2004, Porto ; Alegre. ; Anais ; do ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>693. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; como ; instrumento ; de ; política ; agrícola ; à ; atividade ; pesqueira ; no ; Rio ; Grande ; do ; Sul. ; In: ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre, 2004, Porto ; Alegre. ; Anais ; do ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>694. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; como ; instrumento ; de ; política ; agrícola ; à ; atividade ; pesqueira ; no ; Rio ; Grande ; do ; Sul. ; Revista ; Brasileira ; de ; Agroecologia, v. ; 2, p. ; 63-66, 2007.. <b>O crédito como instrumento de política agrícola à atividade pesqueira no Rio Grande do Sul</b>. <font color=#330066>Revista Brasileira de Agroecologia</font>. v. 2, issn: 1980-9735, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+crédito+como+instrumento+de+política+agrícola+à+atividade+pesqueira+no+Rio+Grande+do+Sul&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+crédito+como+instrumento+de+política+agrícola+à+atividade+pesqueira+no+Rio+Grande+do+Sul">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+crédito+como+instrumento+de+política+agrícola+à+atividade+pesqueira+no+Rio+Grande+do+Sul">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>695. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; do ; PRONAF ; e ; o ; seguro ; desemprego ; e ; a ; atividade ; pesquisa ; artesanal ; no ; Rio ; Grande ; de ; Sul. ; In: ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos, 2005, São ; Leopoldo. ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos: ; Políticaas ; Públicas ; e ; trabalho: ; Dimensões ; éticas, socioeconômicas ; e ; culturais. ; São ; Leopoldo: ; Unisinos, 2005. ; p. ; 384-388.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>696. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; do ; PRONAF ; e ; o ; seguro ; desemprego ; e ; a ; atividade ; pesquisa ; artesanal ; no ; Rio ; Grande ; de ; Sul. ; In: ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos, 2005, São ; Leopoldo. ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos: ; Políticaas ; Públicas ; e ; trabalho: ; Dimensões ; éticas, socioeconômicas ; e ; culturais. ; São ; Leopoldo: ; Unisinos, 2005. ; p. ; 384-388.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>697. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; do ; SNCR ; ao ; setor ; pesqueiro ; do ; Rio ; Grande ; do ; Sul ; em ; perspectiva ; histórica. ; In: ; II ; Colóquio ; Internacional ; Cátedra ; UNESCO-UNISINO ; -Políticas ; Públicas ; e ; trabalho ; dimensões ; éticas, socioeconômicas ; e ; culturais, 2005, São ; Leopoldo. ; II ; Colóquio ; Internacional ; Cátedra ; UNESCO-UNISINO ; -Políticas ; Públicas ; e ; trabalho ; dimensões ; éticas, socioeconômicas ; e ; culturais, 2005.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>698. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; do ; SNCR ; ao ; setor ; pesqueiro ; do ; Rio ; Grande ; do ; Sul ; em ; perspectiva ; histórica. ; In: ; II ; Colóquio ; Internacional ; Cátedra ; UNESCO-UNISINO ; -Políticas ; Públicas ; e ; trabalho ; dimensões ; éticas, socioeconômicas ; e ; culturais, 2005, São ; Leopoldo. ; II ; Colóquio ; Internacional ; Cátedra ; UNESCO-UNISINO ; -Políticas ; Públicas ; e ; trabalho ; dimensões ; éticas, socioeconômicas ; e ; culturais, 2005.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>699. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; do ; SNR ; ao ; setor ; pesqueiro ; do ; Rio ; Grande ; do ; Sul ; em ; perspectiva ; histórica. ; In: ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos, 2005, São ; Leopoldo. ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos: ; Políticas ; Públicas ; e ; trabalho: ; Dimensões ; éticas, socioeconômicas ; e ; culturais. ; São ; Leopoldo: ; Unisinos, 2005. ; p. ; 380-384.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>700. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; O ; crédito ; do ; SNR ; ao ; setor ; pesqueiro ; do ; Rio ; Grande ; do ; Sul ; em ; perspectiva ; histórica. ; In: ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos, 2005, São ; Leopoldo. ; II ; Colóquio ; Internacional ; da ; Cátedra ; Unesco-Unisinos: ; Políticas ; Públicas ; e ; trabalho: ; Dimensões ; éticas, socioeconômicas ; e ; culturais. ; São ; Leopoldo: ; Unisinos, 2005. ; p. ; 380-384.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>701. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Pesca ; Artesanal: ; Realidades ; e ; Alternativas. ; In: ; I ; Congresso ; Brasileiro ; de ; Agroecologia, IV ; Seminário ; Internacional ; sobre ; Agroecologia ; Estadual ; sobre ; Agroecologia, V ; Seminário, 2003, Porto ; Alegre. ; I ; Congresso ; Brasileiro ; de ; Agroecologia, IV ; Seminário ; Internacional ; sobre ; Agroecologia ; Estadual ; sobre ; Agroecologia, V ; Seminário.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>702. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Pesca ; Artesanal: ; Realidades ; e ; Alternativas. ; In: ; I ; Congresso ; Brasileiro ; de ; Agroecologia, IV ; Seminário ; Internacional ; sobre ; Agroecologia ; Estadual ; sobre ; Agroecologia, V ; Seminário, 2003, Porto ; Alegre. ; I ; Congresso ; Brasileiro ; de ; Agroecologia, IV ; Seminário ; Internacional ; sobre ; Agroecologia ; Estadual ; sobre ; Agroecologia, V ; Seminário.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>703. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Pesca ; artesanal: ; realidades ; e ; alternativas. ; Revista ; Brasileira ; de ; Agroecologia, v. ; 1, p. ; 1543-1547, 2006.. <b>Pesca artesanal: realidades e alternativas</b>. <font color=#330066>Revista Brasileira de Agroecologia</font>. v. 1, issn: 1980-9735, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesca+artesanal:+realidades+e+alternativas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesca+artesanal:+realidades+e+alternativas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesca+artesanal:+realidades+e+alternativas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>704. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Pesca ; no ; estado ; do ; Rio ; Grande ; do ; Sul ; de ; 1960 ; a ; 1997: ; política, produção ; e ; mercado. ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, v. ; 1, p. ; 1-17, 2001.. <b>Pesca no estado do Rio Grande do Sul de 1960 a 1997: política, produção e mercado</b>. <font color=#330066>Congresso da Sociedade Brasileira de Economia e Sociologia Rural</font>. v. 1, issn: 1806-9479, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesca+no+estado+do+Rio+Grande+do+Sul+de+1960+a+1997:+política,+produção+e+mercado&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesca+no+estado+do+Rio+Grande+do+Sul+de+1960+a+1997:+política,+produção+e+mercado">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesca+no+estado+do+Rio+Grande+do+Sul+de+1960+a+1997:+política,+produção+e+mercado">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>705. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; PLANEJAMENTO ; DA ; PRODUÇÃO ; DE ; TILÁPIA ; NA ; FRONTEIRA ; OESTE ; DO ; RIO ; GRANDE ; DO ; SUL. ; In: ; 6º ; ECOINOVAR, 2017, Santa ; Maria. ; Anais ; do ; 6º ; ECOINOVAR, 2017.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>706. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; PLANEJAMENTO ; DA ; PRODUÇÃO ; DE ; TILÁPIA ; NA ; FRONTEIRA ; OESTE ; DO ; RIO ; GRANDE ; DO ; SUL. ; In: ; 6º ; ECOINOVAR, 2017, Santa ; Maria. ; Anais ; do ; 6º ; ECOINOVAR, 2017.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>707. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Pluriatividade ; entre ; os ; pescadores ; artesanais ; de ; estuário ; da ; Lagoa ; dos ; Patos ; no ; Rio ; Grande ; do ; Sul. ; Congresso ; da ; Sociedade ; Brasileira ; de ; Economia ; e ; Sociologia ; Rural, v. ; 1, p. ; 1-17, 2003.. <b>Pluriatividade entre os pescadores artesanais de estuário da Lagoa dos Patos no Rio Grande do Sul</b>. <font color=#330066>Congresso da Sociedade Brasileira de Economia e Sociologia Rural</font>. v. 1, issn: 1806-9479, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pluriatividade+entre+os+pescadores+artesanais+de+estuário+da+Lagoa+dos+Patos+no+Rio+Grande+do+Sul&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pluriatividade+entre+os+pescadores+artesanais+de+estuário+da+Lagoa+dos+Patos+no+Rio+Grande+do+Sul">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pluriatividade+entre+os+pescadores+artesanais+de+estuário+da+Lagoa+dos+Patos+no+Rio+Grande+do+Sul">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>708. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Pluriatividade ; entre ; os ; pescadores ; artesanais ; do ; estuário ; da ; Lagoa ; dos ; Patos ; no ; Rio ; Grande ; do ; Sul. ; In: ; XLl ; Congresso ; Brasileiro ; de ; Economia ; e ; Sociologia ; Rural, 2003, Juiz ; de ; Fora. ; XLl ; Congresso ; Brasileiro ; de ; Economia ; e ; Sociologia ; Rural.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>709. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Pluriatividade ; entre ; os ; pescadores ; artesanais ; do ; estuário ; da ; Lagoa ; dos ; Patos ; no ; Rio ; Grande ; do ; Sul. ; In: ; XLl ; Congresso ; Brasileiro ; de ; Economia ; e ; Sociologia ; Rural, 2003, Juiz ; de ; Fora. ; XLl ; Congresso ; Brasileiro ; de ; Economia ; e ; Sociologia ; Rural.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>710. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Sobrepesca ; na ; atividade ; pesqueira: ; causas ; e ; soluções. ; In: ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre, 2004, Porto ; Alegre. ; Anais ; do ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>711. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Sobrepesca ; na ; atividade ; pesqueira: ; causas ; e ; soluções. ; In: ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre, 2004, Porto ; Alegre. ; Anais ; do ; II ; Congresso ; Brasileiro ; de ; Agroecologia, V ; Seminário ; Internacional ; sobre ; Agroecologia ; VI ; Seminário ; Estadual ; sobre.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>712. &nbsp;</td> <td>SOUZA, Marco ; Aurélio ; Alves ; de. ; Sobrespesca ; na ; atividade ; pesqueira: ; causas ; e ; soluções. ; Revista ; Brasileira ; de ; Agroecologia, v. ; 2, p. ; 713-716, 2007.. <b>Sobrespesca na atividade pesqueira: causas e soluções</b>. <font color=#330066>Revista Brasileira de Agroecologia</font>. v. 2, issn: 1980-9735, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sobrespesca+na+atividade+pesqueira:+causas+e+soluções&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sobrespesca+na+atividade+pesqueira:+causas+e+soluções">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sobrespesca+na+atividade+pesqueira:+causas+e+soluções">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>713. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A contribuição das políticas públicas na captura, na comercialização e na geração de renda da atividade pesqueira artesanal no Rio Grande do Sul. 2006. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>714. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A contribuição das políticas públicas na captura, na comercialização e na geração de renda da atividade pesqueira artesanal no Rio Grande do Sul. 2006. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>715. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A educação para a preservação ambiental na crise da atividade pesqueira artesanal no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>716. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A educação para a preservação ambiental na crise da atividade pesqueira artesanal no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>717. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A educação para a preservação ambiental na crise da atividade pesqueira artesanal no Rio Grande do Sul. In: II Fòrum Mundial de Educação, 2004, Porto Alegre. Anais do II Fórum Mundial de Educação.. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>718. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A educação para a preservação ambiental na crise da atividade pesqueira artesanal no Rio Grande do Sul. In: II Fòrum Mundial de Educação, 2004, Porto Alegre. Anais do II Fórum Mundial de Educação.. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>719. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A Evolução do nível educacional na busca de melhoria da renda dos pescadores do Rio Grande do Sul, no período de 1960 a 2000. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>720. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A Evolução do nível educacional na busca de melhoria da renda dos pescadores do Rio Grande do Sul, no período de 1960 a 2000. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>721. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A EVOLUÇÃO DO NÍVEL EDUCACIONAL NA BUSCA DE MELHORIA DA RENDA DOS PESCADORES DO RIO GRANDE DO SUL, NO PERÍODO DE 1960 A 2000. In: II Fòrum Mundial de Educação, 2004, Porto Alegre. Anais do II Fórum Mundial de Educação.. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>722. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. A EVOLUÇÃO DO NÍVEL EDUCACIONAL NA BUSCA DE MELHORIA DA RENDA DOS PESCADORES DO RIO GRANDE DO SUL, NO PERÍODO DE 1960 A 2000. In: II Fòrum Mundial de Educação, 2004, Porto Alegre. Anais do II Fórum Mundial de Educação.. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>723. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise benefício/custo social das políticas públicas de promoção a atividade pesqueira no estado do Rio Grande do Sul. In: XIII Congresso de Iniciação Cient´fica, 2004, Pelotas. Anais do XIII Congresso de Inciação Científica.. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>724. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise benefício/custo social das políticas públicas de promoção a atividade pesqueira no estado do Rio Grande do Sul. In: XIII Congresso de Iniciação Cient´fica, 2004, Pelotas. Anais do XIII Congresso de Inciação Científica.. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>725. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise benefício/custo social das políticas públicas de promoção à atividade pesqueira no estado do Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>726. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise benefício/custo social das políticas públicas de promoção à atividade pesqueira no estado do Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>727. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise custo/benefício social do crédito do SNCR à atividade pesqueira do Rio Grande do Sul. 2011. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>728. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise custo/benefício social do crédito do SNCR à atividade pesqueira do Rio Grande do Sul. 2011. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>729. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise Econômica de Empreendimento Aquícolas. 2011. (Curso de curta duração ministrado/Outra).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>730. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise Econômica de Empreendimento Aquícolas. 2011. (Curso de curta duração ministrado/Outra).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>731. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise institucional da atividade pesqueira artesanal do Rio Grande do Sul. 2007. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>732. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise institucional da atividade pesqueira artesanal do Rio Grande do Sul. 2007. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>733. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise Institucional da Atividdade Pesqueira Artesanal do Rio Grande do Sul 2010 (TESE).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>734. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise Institucional da Atividdade Pesqueira Artesanal do Rio Grande do Sul 2010 (TESE).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>735. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise socio-econômica da atividade pesqueira na Fronteira Oeste do rio Grande do Sul. In: Marcus Querol; Marco de Souza; Edward Pessano; Thiago Gralha. (Org.). Aspectos da Biologia e ecologia, Conservação e Aproveitamento de Espécies de Peixes na Bacia do Rio Uruguai Médio. 1ed.Cruz Alta: Grafica Polimpressos, 2015, v. 1, p. 1-253.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>736. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Análise socio-econômica da atividade pesqueira na Fronteira Oeste do rio Grande do Sul. In: Marcus Querol; Marco de Souza; Edward Pessano; Thiago Gralha. (Org.). Aspectos da Biologia e ecologia, Conservação e Aproveitamento de Espécies de Peixes na Bacia do Rio Uruguai Médio. 1ed.Cruz Alta: Grafica Polimpressos, 2015, v. 1, p. 1-253.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>737. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Atividades não pesqueiras nas colônias de pescadores da região do estuário da Lagoa dos Patos no Rio Grande do Sul (RESUMO). In: Sociedade Brasileira de Economia e Sociologia Rural; Centro de Conhecimento em Agronegócios; Universidade Estadual do Rio de Janeiro; EMBRAPA Florestas; Universidade de São Paulo. (Org.). XLIII Congresso da Sociedade Brasileira de Economia e Sociologia Rural. "Instituições, Eficiência, Gestão e Contratos no Sistema Agroindustrial". Ribeirão Preto: FEARP/USP, PENSA/USP, 2005, v. , p. 190-190.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>738. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Atividades não pesqueiras nas colônias de pescadores da região do estuário da Lagoa dos Patos no Rio Grande do Sul (RESUMO). In: Sociedade Brasileira de Economia e Sociologia Rural; Centro de Conhecimento em Agronegócios; Universidade Estadual do Rio de Janeiro; EMBRAPA Florestas; Universidade de São Paulo. (Org.). XLIII Congresso da Sociedade Brasileira de Economia e Sociologia Rural. "Instituições, Eficiência, Gestão e Contratos no Sistema Agroindustrial". Ribeirão Preto: FEARP/USP, PENSA/USP, 2005, v. , p. 190-190.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>739. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Atividades não pesqueiras nas colônias de pescadores da região do estuário da Lagoa dos Patos no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>740. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Atividades não pesqueiras nas colônias de pescadores da região do estuário da Lagoa dos Patos no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>741. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Atividades não pesqueiras nas colônias dos pescadores da região do estuário da Lagoa dos Patos no Rio Grande do Sul (ARTIGO COMPLETO). In: Marcos Neves; Sigismundo Neto; Roberto Scaare; Decio Zyberstajn. (Org.). XLIII Congresso Brasileiro de Economia e Sociologia Rural. Ribeirão Preto: FEARP/USP, PENSA/USP, FUNDACE, 2005, v. , p. -.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>742. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Atividades não pesqueiras nas colônias dos pescadores da região do estuário da Lagoa dos Patos no Rio Grande do Sul (ARTIGO COMPLETO). In: Marcos Neves; Sigismundo Neto; Roberto Scaare; Decio Zyberstajn. (Org.). XLIII Congresso Brasileiro de Economia e Sociologia Rural. Ribeirão Preto: FEARP/USP, PENSA/USP, FUNDACE, 2005, v. , p. -.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>743. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Desenvolvimento da piscicultura com vistas a conquista do mercado e sustentabilidade econômica e ambiental. 2010. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>744. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Desenvolvimento da piscicultura com vistas a conquista do mercado e sustentabilidade econômica e ambiental. 2010. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>745. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Desenvolvimento sustentável para a atividade pesqueira na região da Lagoa dos Patos no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>746. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Desenvolvimento sustentável para a atividade pesqueira na região da Lagoa dos Patos no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>747. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Diversidade da atividade rural com vistas a sustentabilidade econômica, social e ambiental através da piscicultura de peixes nativos, na fronteira oeste do Rio Grande do Sul, Pampa Brasileiro. <b>2010</b>. 0. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>748. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Diversidade da atividade rural com vistas a sustentabilidade econômica, social e ambiental através da piscicultura de peixes nativos, na fronteira oeste do Rio Grande do Sul, Pampa Brasileiro. <b>2010</b>. 0. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>749. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Empreendedorismo e a conquista de mercado ? A importância de agregar valor aos produtos da pesca em especial a hipófise da palometa. 2010. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>750. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Empreendedorismo e a conquista de mercado ? A importância de agregar valor aos produtos da pesca em especial a hipófise da palometa. 2010. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>751. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Empreendedorismo e a conquista do mercado: a importancia de agregar o valor aos produtos da pesca, em especial a hipófise da palometa. 2009. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>752. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Empreendedorismo e a conquista do mercado: a importancia de agregar o valor aos produtos da pesca, em especial a hipófise da palometa. 2009. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>753. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Evolução e perspectiva do mercado de trabalho na atividade aquícola. 2012. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>754. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Evolução e perspectiva do mercado de trabalho na atividade aquícola. 2012. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>755. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Evolução, realidade do trabalho e a preservação ambiental: o caso da atividade pesqueira artesanal no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Simpósio).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>756. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Evolução, realidade do trabalho e a preservação ambiental: o caso da atividade pesqueira artesanal no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Simpósio).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>757. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Farfantepenaeus Paulensis como gerador de renda. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>758. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Farfantepenaeus Paulensis como gerador de renda. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>759. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Formação, desenvolvimento e realidade da atividade pesqueira artesanal no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>760. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Formação, desenvolvimento e realidade da atividade pesqueira artesanal no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>761. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Frota pesqueira, esforço de pesca e a produção pesqueira no Rio Grande do Sul. 2007. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>762. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Frota pesqueira, esforço de pesca e a produção pesqueira no Rio Grande do Sul. 2007. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>763. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Geração de emprego na pesca industrial em Rio Grande: uma aplicação do método estrutural-diferencial. 2007. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>764. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Geração de emprego na pesca industrial em Rio Grande: uma aplicação do método estrutural-diferencial. 2007. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>765. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. GESTÃO PARTICIPATIVA NA ATIVIDADE PESQUEIRA DO RIO GRANDE DO SUL. 2017. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>766. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. GESTÃO PARTICIPATIVA NA ATIVIDADE PESQUEIRA DO RIO GRANDE DO SUL. 2017. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>767. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Impactos da política de crédito rural no segmento industrial, valor da captura e emprego da atividade pesqueira no Rio Grande do Sul. 2000. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>768. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Impactos da política de crédito rural no segmento industrial, valor da captura e emprego da atividade pesqueira no Rio Grande do Sul. 2000. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>769. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Influência do ambiente institucional na pesca artesanal do Rio Grande do Sul: Do surgimento à industrialização. 2011. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>770. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Influência do ambiente institucional na pesca artesanal do Rio Grande do Sul: Do surgimento à industrialização. 2011. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>771. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Instituições e o desenvolvimento da atividade pesqueira artesanal do rio grande do sul. 2009. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>772. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Instituições e o desenvolvimento da atividade pesqueira artesanal do rio grande do sul. 2009. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>773. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Legislação, política e atividade pesqueira no Rio Grande do Sul (ARTIGO COMPLETO). In: Marcos Neves; Sigismundo Neto; Roberto Scare; Decio Zylberstajn. (Org.). XLIII Congresso Brasileiro de Economia e Sociologia Rural. Ribeirão Preto: FERP/USP, PENSA/USP, FUNDACE, 2005, v. , p. -.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>774. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Legislação, política e atividade pesqueira no Rio Grande do Sul (ARTIGO COMPLETO). In: Marcos Neves; Sigismundo Neto; Roberto Scare; Decio Zylberstajn. (Org.). XLIII Congresso Brasileiro de Economia e Sociologia Rural. Ribeirão Preto: FERP/USP, PENSA/USP, FUNDACE, 2005, v. , p. -.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>775. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Legislação, política e atividade pesqueira no Rio Grande do Sul (RESUMO). In: Sociedade Brasileira de Economia e Sociologia Rural; Centro de Conhecimento em Agronegócios; Universidade Estadual do Rio de Janeiro; EMBRAPA Florestas; Universidade de São Paulo. (Org.). XLIII Congresso Brasileiro de Economia e Sociologia Rural. Ribeirão Preto: FEARP/USP, PENSA/USP, 2005, v. , p. 147-147.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>776. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Legislação, política e atividade pesqueira no Rio Grande do Sul (RESUMO). In: Sociedade Brasileira de Economia e Sociologia Rural; Centro de Conhecimento em Agronegócios; Universidade Estadual do Rio de Janeiro; EMBRAPA Florestas; Universidade de São Paulo. (Org.). XLIII Congresso Brasileiro de Economia e Sociologia Rural. Ribeirão Preto: FEARP/USP, PENSA/USP, 2005, v. , p. 147-147.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>777. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Legislação, política e atividade pesqueira no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>778. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Legislação, política e atividade pesqueira no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>779. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Mercado, Renda e Trabalho: Desenvolvimento da piscicultura com vistas a conquista do mercado e sustentabilidade econômica e ambiental. 2010. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>780. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Mercado, Renda e Trabalho: Desenvolvimento da piscicultura com vistas a conquista do mercado e sustentabilidade econômica e ambiental. 2010. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>781. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Nível educacional e preservação ambiental: relações, discussões e soluções no caso da pesca artesanal. 2009. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>782. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Nível educacional e preservação ambiental: relações, discussões e soluções no caso da pesca artesanal. 2009. (Apresentação de Trabalho/Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>783. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. O crédito como instrumento de política agrícola à atividade pesqueira no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>784. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. O crédito como instrumento de política agrícola à atividade pesqueira no Rio Grande do Sul. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>785. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. O crédito do PRONAF e o Seguro Desemprego e a atividade pesqueira artesanal no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>786. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. O crédito do PRONAF e o Seguro Desemprego e a atividade pesqueira artesanal no Rio Grande do Sul. 2005. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>787. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. O crédito do SNCR ao setor pesqueiro do Rio Grande do Sul em perspectiva histórica. 2005. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>788. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. O crédito do SNCR ao setor pesqueiro do Rio Grande do Sul em perspectiva histórica. 2005. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>789. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pesca artesanal: realidades e alternativas. 2003. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>790. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pesca artesanal: realidades e alternativas. 2003. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>791. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pesca no estado do Rio Grande do Sul de 1960 a 1980: Política, produção e mercado. 2001. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>792. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pesca no estado do Rio Grande do Sul de 1960 a 1980: Política, produção e mercado. 2001. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>793. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. PLANEJAMENTO DA PRODUÇÃO DE TILÁPIA NA FRONTEIRA OESTE DO RIO GRANDE DO SUL. 2017. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>794. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. PLANEJAMENTO DA PRODUÇÃO DE TILÁPIA NA FRONTEIRA OESTE DO RIO GRANDE DO SUL. 2017. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>795. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pluriatividade entre os pescadores artesanais de estuário da Lagoa dos Patos no Rio Grande do Sul. 2003. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>796. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pluriatividade entre os pescadores artesanais de estuário da Lagoa dos Patos no Rio Grande do Sul. 2003. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>797. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pluriatividade entre os pescadores artesanais do estuário da Lagoa dos Patos no Rio Grande do Sul (ARTIGO COMPLETO). In: EMBRAPA Gado de Leite; Universidade Federal de Juiz de Fora; Universidade Federal de São João Del Rei; Universidade Federal de Lavras; Universidade Federal de Viçosa. (Org.). XLI Congresso Brasileiro de Economia e Sociologia Rural. Juiz de Fora: SOBER, 2003, v. , p. -.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>798. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pluriatividade entre os pescadores artesanais do estuário da Lagoa dos Patos no Rio Grande do Sul (ARTIGO COMPLETO). In: EMBRAPA Gado de Leite; Universidade Federal de Juiz de Fora; Universidade Federal de São João Del Rei; Universidade Federal de Lavras; Universidade Federal de Viçosa. (Org.). XLI Congresso Brasileiro de Economia e Sociologia Rural. Juiz de Fora: SOBER, 2003, v. , p. -.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>799. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pluriatividade entre os pescadores artesanais do estuário da Lagoa dos Patos no Rio Grande do Sul (RESUMO). In: Sociedade Brasileira de Economia e Sociologia Rural; EMBRAPA Gado de Leite; Universidade Federal de Juiz de Fora; Universidade Federal de São João Del Rei; Universidade Federal de Lavras; Universidade Federal de Viçosa. (Org.). XLI Congresso Brasileiro de Economia e Sociologia Rural. Juiz de Fora: EMBRAPA Gado de Leite, 2003, v. , p. 446-446.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>800. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Pluriatividade entre os pescadores artesanais do estuário da Lagoa dos Patos no Rio Grande do Sul (RESUMO). In: Sociedade Brasileira de Economia e Sociologia Rural; EMBRAPA Gado de Leite; Universidade Federal de Juiz de Fora; Universidade Federal de São João Del Rei; Universidade Federal de Lavras; Universidade Federal de Viçosa. (Org.). XLI Congresso Brasileiro de Economia e Sociologia Rural. Juiz de Fora: EMBRAPA Gado de Leite, 2003, v. , p. 446-446.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>801. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Política e evolução da atividade pesqueira no estuário da Lagoa dos Patos ? Interpretação da realidade econômica e alternativas do segmento pesqueiro?. 2004. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>802. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Política e evolução da atividade pesqueira no estuário da Lagoa dos Patos ? Interpretação da realidade econômica e alternativas do segmento pesqueiro?. 2004. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>803. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Políticas públicas voltadas ao desenvolvimento da atividade pesqueira no estado do Rio Grande do Sul no período de 1960 a 1997. 2002. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>804. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Políticas públicas voltadas ao desenvolvimento da atividade pesqueira no estado do Rio Grande do Sul no período de 1960 a 1997. 2002. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>805. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Sobrepesca na atividade pesqueira: causas e soluções. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>806. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Sobrepesca na atividade pesqueira: causas e soluções. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>807. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Variações da oferta de arroz no Rio Grande do Sul, no período de 1975 a 1997. 1999. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>808. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. Variações da oferta de arroz no Rio Grande do Sul, no período de 1975 a 1997. 1999. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>809. &nbsp;</td> <td>SOUZA, Michele Bulhosa de. A iniciativa do Hospital amigo da criança e a decisão da mulher de amamentar. 2004. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>810. &nbsp;</td> <td>SOUZA, Michele Bulhosa de. Instrumentalização do Agente comunitário de saúde para o aleitamento materno. 2002. (Curso de curta duração ministrado/Extensão).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>811. &nbsp;</td> <td>STAMM, B.; BORTOLI ; SHONS. <b>Acadêmicos do Cesnors participam de congresso internacional na Argentina</b>. Jornal Cidade Regional, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Acadêmicos+do+Cesnors+participam+de+congresso+internacional+na+Argentina&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Acadêmicos+do+Cesnors+participam+de+congresso+internacional+na+Argentina">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Acadêmicos+do+Cesnors+participam+de+congresso+internacional+na+Argentina">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>812. &nbsp;</td> <td>Stopiglia, Cheila Denise Ottonelli. Complexo Sporothrix schenckii. 2016. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>813. &nbsp;</td> <td>Tavares GMS. O que é Sarcopenia? Como diagnosticar? Quais as evidências de tratamento?. 2017. (Apresentação de Trabalho/Simpósio).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>814. &nbsp;</td> <td>Thiesen, R. Atualização em Anestesiologia, Analgesia e Cuidados de Animais Experimentais. 2017. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>815. &nbsp;</td> <td>Thiesen, R. Monitoração do Paciente Anestesiado - Cap. 19 em Lumb e Jones Anestesiologia e Analgesia Veterinária. São Paulo: Grupo GEN, 2009. (Tradução/Livro).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>816. &nbsp;</td> <td>Thiesen, R. Técnicas de Anestesia e Analgesia Local e Regional: Gatos - Cap. 21 em Lumb e Jones Anestesiologia e Analgesia Veterinária. São Paulo: Grupo Gen, 2009. (Tradução/Livro).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>817. &nbsp;</td> <td>THIESEN, Roberto. ; Bloqueio ; paravertebral ; do ; plexo ; braquial ; para ; amputação ; de ; membro ; torácico ; em ; cão ; - ; Relato ; de ; caso. ; Revista ; de ; Ciências ; Veterinárias ; (Leme), v. ; V, p. ; 27-30, 2007.. <b>Bloqueio paravertebral do plexo braquial para amputação de membro torácico em cão - Relato de caso</b>. <font color=#330066>Revista de Ciências Veterinárias (Leme)</font>. v. V, issn: 1679-981X, 0.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Bloqueio+paravertebral+do+plexo+braquial+para+amputação+de+membro+torácico+em+cão+-+Relato+de+caso&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Bloqueio+paravertebral+do+plexo+braquial+para+amputação+de+membro+torácico+em+cão+-+Relato+de+caso">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Bloqueio+paravertebral+do+plexo+braquial+para+amputação+de+membro+torácico+em+cão+-+Relato+de+caso">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>818. &nbsp;</td> <td>THIESEN, Roberto. Anestesia em Aves. 2007. (Curso de curta duração ministrado/Especialização).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>819. &nbsp;</td> <td>THIESEN, Roberto. Anestesia Local e Regional em Pequenos Animais. 2007. (Curso de curta duração ministrado/Outra).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>820. &nbsp;</td> <td>THIESEN, Roberto. Cardiomiopatias. São Paulo: ROCA, 2008. (Tradução/Outra).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>821. &nbsp;</td> <td>THIESEN, Roberto. Infecções Respiratórias. São Paulo: ROCA, 2008. (Tradução/Outra).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>822. &nbsp;</td> <td>THIESEN, Roberto. Técnicas Avançadas em Anestesiologia e Cirurgias Oftálmicas em Pequenos Animais. 2008. (Curso de curta duração ministrado/Outra).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>823. &nbsp;</td> <td>TORRES, Odete Messa. A proposição metodológica dos estágios de vivência no sistema único de saúde: um resgate histórico. In: Alcindo Antônio Ferla, Alexandre de Souza Ramos, Mariana Bertol Leal, Mônica Sampaio de Carvalho. (Org.). VER-SUS Brasil: cadernos de textos [documento eletrônico]. 1ed.PORTO ALEGRE: Rede Unida, 2013, v. 1, p. 6-28.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>824. &nbsp;</td> <td>TORRES, Odete Messa. A proposição metodológica dos estágios de vivência no sistema único de saúde: um resgate histórico. In: Alcindo Antônio Ferla; Alexandre Souza Ramos; Mariana Bertol Leal; Mônica Sampaio de Carvalho. (Org.). Caderno de Textos do VER-SUS/Brasil. 1ed.PORTO ALEGRE: Rede Unida, 2013, v. 1, p. 6-28.. <b></b>. Em: . 0..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>825. &nbsp;</td> <td>TORRES, Odete Messa. Construindo a Primeira Etapa do Processo de Enfermagem no Hospital Psiquiátrico São Pedro 2003 (Trabalho de Conclusão de Curso).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>826. &nbsp;</td> <td>TORRES, Odete Messa. Educação Permanente em Saúde na Região Sanitária da 10ª Coordenadoria Regional Relato de Experiência de um Projeto de Extensã da Universidade Federal do Pampa. 2010. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>827. &nbsp;</td> <td>TORRES, Odete Messa. O Ensino-Aprendizado da Saúde da Família em um Curso de Enfermagem: um relato de experiência. 2008. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>828. &nbsp;</td> <td>TORRES, Odete Messa. O Trabalho em Equipe e a Formação do Profissional Educador Físico para o Sistema Único de Saúde. 2006. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>829. &nbsp;</td> <td>TORRES, Odete Messa. Oficina Educação Permanente em Saúde na Região Sanitária da 10 ª Coordenadoria Regional de Saúde. 2009. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>830. &nbsp;</td> <td>TORRES, Odete Messa. Oficina Projeto Rondon Lição de Vida e Cidadania: a interface Universidade e Comunidade. 2009. (Apresentação de Trabalho/Comunicação).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>831. &nbsp;</td> <td>TORRES, Odete Messa. Os Estágios de Vivência no Sistema Único de Saúde: das experiências regionais à (trans)formação político-pedagógica do VER-SUS/Brasil 2005 (Dissertação de Mestrado).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>832. &nbsp;</td> <td>TORRES, Odete Messa. Os Estágios de Vivência no Sistema Único de Saúde: das experiências regionais à (trans)formação político-pedagógica do VER-SUS/Brasil. 2006. (Apresentação de Trabalho/Outra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>833. &nbsp;</td> <td>TORRES, Odete Messa. Os Estágios de Vivência no Sistema Único de Saúde: das experiências regionais à (trans)formação político-pedagógica do VER-SUS/Brasil. In: 10º Seminário Nacional de Diretrizes para a Educação em Enfermagem (SENADEN), 2006, Brasília. 10º Seminário Nacional de Diretrizes para a Educação em Enfermagem (SENADEN).. <b></b>. 0. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>834. &nbsp;</td> <td>Traesel, Carolina Kist. Bem-estar animal e posse responsável. 2006. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>835. &nbsp;</td> <td>Traesel, Carolina Kist. Bem-estar animal e posse responsável. 2008. (Apresentação de Trabalho/Conferência ou palestra).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>836. &nbsp;</td> <td>ZANELLA, Â. K. <b>Façamos juntos a diferença!</b>. InfoSanta Maria, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Façamos+juntos+a+diferença!&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Façamos+juntos+a+diferença!">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Façamos+juntos+a+diferença!">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>837. &nbsp;</td> <td>ZANELLA, Â. K. <b>ANIMAIS DE ESTIMAÇÃO PODEM AJUDAR A DIMINUIR O ESTRESSE</b>. InfoSanta Maria, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ANIMAIS+DE+ESTIMAÇÃO+PODEM+AJUDAR+A+DIMINUIR+O+ESTRESSE&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ANIMAIS+DE+ESTIMAÇÃO+PODEM+AJUDAR+A+DIMINUIR+O+ESTRESSE">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ANIMAIS+DE+ESTIMAÇÃO+PODEM+AJUDAR+A+DIMINUIR+O+ESTRESSE">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>838. &nbsp;</td> <td>ZANELLA, Â. K. <b>SEJA OTIMISTA! ESTUDOS COMPROVAM QUE O OTIMISMO FAZ BEM AO CORAÇÃO</b>. InfoSanta Maria, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=SEJA+OTIMISTA!+ESTUDOS+COMPROVAM+QUE+O+OTIMISMO+FAZ+BEM+AO+CORAÇÃO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=SEJA+OTIMISTA!+ESTUDOS+COMPROVAM+QUE+O+OTIMISMO+FAZ+BEM+AO+CORAÇÃO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=SEJA+OTIMISTA!+ESTUDOS+COMPROVAM+QUE+O+OTIMISMO+FAZ+BEM+AO+CORAÇÃO">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2006 até 2018
+<br>Data de processamento: 01/07/2018 23:20:13<br>         <div id="footer">         Este arquivo foi gerado automaticamente por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.13</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos currículos Lattes. Caso note alguma falha, por favor, contacte o responsável por esta página: <a href="mailto:jesus.mena@ufabc.edu.br">jesus.mena@ufabc.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

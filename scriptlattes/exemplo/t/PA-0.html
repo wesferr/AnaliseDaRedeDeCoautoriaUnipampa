@@ -1,0 +1,247 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Teste 01 do scriptLattes (período 2006-2014)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Teste 01 do scriptLattes (período 2006-2014)</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de produção artística'}, 
+series: [{data: [[2006,
+1],
+[2007,
+8],
+[2008,
+3],
+[2009,
+1],
+[2010,
+3],
+[2012,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de produção artística</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 44<br>
+                    
+                    
+                    <div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>TIER, C. G. <b>Sexualidade na Terceira Idade</b>. 2012.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Sexualidade+na+Terceira+Idade">busca Google</a> |            <a href="http://www.bing.com/search?q=Sexualidade+na+Terceira+Idade">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CASTRO, A. M. <b>Doença Pulmonar Obstrutiva Crônica</b>. 2010.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Doença+Pulmonar+Obstrutiva+Crônica">busca Google</a> |            <a href="http://www.bing.com/search?q=Doença+Pulmonar+Obstrutiva+Crônica">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LIPINSKI, J. M. <b>Debate sobre o aleitamento materno</b>. 2010.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Debate+sobre+o+aleitamento+materno">busca Google</a> |            <a href="http://www.bing.com/search?q=Debate+sobre+o+aleitamento+materno">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, F. F. <b>Gênero e Sexualidade</b>. 2010.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Gênero+e+Sexualidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Gênero+e+Sexualidade">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SANT'ANA, A. ; CAPUCHO, K. P. ; ROCHA, M. P. S. ; GOMES, V. R. ; YAMADA, E. F. ; RODRIGUES, P. L.. <b>Atuação Fisioterapêutica - Saúde do Trabalhador</b>. 2009.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Atuação+Fisioterapêutica+-+Saúde+do+Trabalhador">busca Google</a> |            <a href="http://www.bing.com/search?q=Atuação+Fisioterapêutica+-+Saúde+do+Trabalhador">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BITENCOURT, D. G. B. <b>Manejo de Solos de Várzea</b>. 2008.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Manejo+de+Solos+de+Várzea">busca Google</a> |            <a href="http://www.bing.com/search?q=Manejo+de+Solos+de+Várzea">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BITENCOURT, D. G. B. <b>A carência de mapa de solos no Rio Grande do Sul</b>. 2008.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=A+carência+de+mapa+de+solos+no+Rio+Grande+do+Sul">busca Google</a> |            <a href="http://www.bing.com/search?q=A+carência+de+mapa+de+solos+no+Rio+Grande+do+Sul">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo; MESSIAS, A. R. ; SILVA, E. P.. <b>Bambara</b>. 2008.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Bambara">busca Google</a> |            <a href="http://www.bing.com/search?q=Bambara">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CUNHA, Álvaro Luís Ávila; Silva, Geraldo Roberto ; Bengoa, Miriam ; Afonso, Alisson ; Gonçalves, Ana Lùcia. <b>AS FILHAS</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=AS+FILHAS">busca Google</a> |            <a href="http://www.bing.com/search?q=AS+FILHAS">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CUNHA, Álvaro Luís Ávila; Silva, Geraldo Roberto ; Bengoa, Miriam ; Afonso, Alisson ; Gonçalves, Ana Lùcia. <b>AS FILHAS</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=AS+FILHAS">busca Google</a> |            <a href="http://www.bing.com/search?q=AS+FILHAS">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo; SILVA, E. P.. <b>Africanidades</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Africanidades">busca Google</a> |            <a href="http://www.bing.com/search?q=Africanidades">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo; SILVA, E. P.. <b>Ojú Ewá</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Ojú+Ewá">busca Google</a> |            <a href="http://www.bing.com/search?q=Ojú+Ewá">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo; SILVA, E. P.. <b>Ojú Ewá</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Ojú+Ewá">busca Google</a> |            <a href="http://www.bing.com/search?q=Ojú+Ewá">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SOUZA, GIOVANA CONSORTE ; CUNHA, Álvaro Luís Ávila. <b>CINCOQUATROTRÊSDOISUMANO</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CINCOQUATROTRÊSDOISUMANO">busca Google</a> |            <a href="http://www.bing.com/search?q=CINCOQUATROTRÊSDOISUMANO">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>TRISTÃO, F. I. ; MANGUEIRA, M. A. ; SUBTIL, M. M. L. ; YAMADA, E. F.. <b>Alongamento e Bem-estar</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Alongamento+e+Bem-estar">busca Google</a> |            <a href="http://www.bing.com/search?q=Alongamento+e+Bem-estar">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>YAMADA, E. F.; TRISTÃO, F. I. ; MANGUEIRA, M. A. ; SUBTIL, M. M. L.. <b>A atuação da fisioterapia na Orquestra Filarmônica do Espírito Santo</b>. 2007.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=A+atuação+da+fisioterapia+na+Orquestra+Filarmônica+do+Espírito+Santo">busca Google</a> |            <a href="http://www.bing.com/search?q=A+atuação+da+fisioterapia+na+Orquestra+Filarmônica+do+Espírito+Santo">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERRÃO, C. C. ; DIAS, M. C. C. ; CAETANO, P. A. ; NEGREIROS FILHO, P. R. R. W. ; FONSECA, T. A. R. M. ; MATTOS, T. C. M. ; VIOLANTE, C. A. S. ; YAMADA, E. F.. <b>Comece bem o dia</b>. 2006.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Comece+bem+o+dia">busca Google</a> |            <a href="http://www.bing.com/search?q=Comece+bem+o+dia">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BALINHAS, V. Coral das Famintas. 1992. Teatral.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BALINHAS, V. Grupo de Risco. 1991 (Grupo Teatral).. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BALINHAS, V. Lidi e o Mundo do Consumo. 2007.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BALINHAS, V. Um Ato e Cinco Naipes. <b>1996</b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=1996">busca Google</a> |            <a href="http://www.bing.com/search?q=1996">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BALINHAS, V. Variações ao Cubo. 1992. Teatral.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BALINHAS, V. Variações ao Cubo. 1992. Teatral.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BALINHAS, V. Visita ao Solar. 1993. Teatral.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BALINHAS, V. Vista para o Mar. 1992. Teatral.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CUNHA, Álvaro Luís Ávila. Acabando a maldição. 1995. Diversas.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CUNHA, Álvaro Luís Ávila. Acabando a maldição. 1995. Diversas.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CUNHA, Álvaro Luís Ávila. Retrato de um homem só. 2006. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>CUNHA, Álvaro Luís Ávila. Retrato de um homem só. 2006. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MACEDO, Juliana Lopes de. Programa Meio Dia - Morte. 2010.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. A força do Axé. 2004. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Africanidade. 2007. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Apresentação de Dança afro na abertura da XVI Semana Municipal da Consciência Negra. 2004. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Apresentação de Dança afro na EXPOFEIRA. 2002. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Apresentação de Dança afro na FEISMA. 2002. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Apresentação de Dança afro na FEISMA. 2003. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Apresentação de Dança afro na FEISMA. 2004. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Apresentação de Dança afro na III Edição da Cultura Negra. 2004. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Bambara. 2008. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Cosmovisão africana. 2005. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. OJÙ EWÁ. 2006. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Ojú Ewá. 2003. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. OJÚ EWÁ. 2007. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>MESSIAS, Marta Iris Camargo. Participação da Festa de Batizado do Projeto Capoeira na Escola, na modalidade de Apresentação Artística. 2003. Coreográfica.. <b></b>. 0.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=">busca Google</a> |            <a href="http://www.bing.com/search?q=">busca Bing</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2006 até 2018
+<br>Data de processamento: 01/07/2018 23:20:14<br>         <div id="footer">         Este arquivo foi gerado automaticamente por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.13</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos currículos Lattes. Caso note alguma falha, por favor, contacte o responsável por esta página: <a href="mailto:jesus.mena@ufabc.edu.br">jesus.mena@ufabc.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

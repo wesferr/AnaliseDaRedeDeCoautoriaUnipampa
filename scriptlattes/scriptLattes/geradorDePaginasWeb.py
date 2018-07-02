@@ -7,10 +7,10 @@
 #
 # Este programa é um software livre; você pode redistribui-lo e/ou
 # modifica-lo dentro dos termos da Licença Pública Geral GNU como
-# publicada pela Fundação do Software Livre (FSF); na versão 2 da
+# publicada pela Fundação do Software Livre (FSF); na versão 2 da 
 # Licença, ou (na sua opinião) qualquer versão.
 #
-# Este programa é distribuído na esperança que possa ser util,
+# Este programa é distribuído na esperança que possa ser util, 
 # mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
 # MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
 # Licença Pública Geral GNU para maiores detalhes.
@@ -62,39 +62,39 @@ class GeradorDePaginasWeb:
             prefix = self.grupo.obterParametro('global-prefixo') + '-' if not self.grupo.obterParametro('global-prefixo') == '' else ''
             self.arquivoRis = open(self.dir + "/" + prefix + "publicacoes.ris", 'w')
 
-        # self.gerar_pagina_de_membros()
-        # self.gerar_pagina_de_producao_qualificado_por_membro()
-        # self.gerarPaginasDeProducoesBibliograficas()
-        # self.gerarPaginasDeProducoesTecnicas()
-        # self.gerarPaginasDeProducoesArtisticas()
-        # self.gerarPaginasDePatentes()
+        self.gerar_pagina_de_membros()
+        #self.gerar_pagina_de_producao_qualificado_por_membro()
+        self.gerarPaginasDeProducoesBibliograficas()
+        self.gerarPaginasDeProducoesTecnicas()
+        self.gerarPaginasDeProducoesArtisticas()
+        self.gerarPaginasDePatentes()
 
-        # if self.grupo.obterParametro('relatorio-mostrar_orientacoes'):
-        #     self.gerarPaginasDeOrientacoes()
-        #
-        # if self.grupo.obterParametro('relatorio-incluir_projeto'):
-        #     self.gerarPaginasDeProjetos()
-        #
-        # if self.grupo.obterParametro('relatorio-incluir_premio'):
-        #     self.gerarPaginasDePremios()
-        #
-        # if self.grupo.obterParametro('relatorio-incluir_participacao_em_evento'):
-        #     self.gerarPaginasDeParticipacaoEmEventos()
-        #
-        # if self.grupo.obterParametro('relatorio-incluir_organizacao_de_evento'):
-        #     self.gerarPaginasDeOrganizacaoDeEventos()
-        #
-        # if self.grupo.obterParametro('grafo-mostrar_grafo_de_colaboracoes'):
-        #     self.gerarPaginaDeGrafosDeColaboracoes()
-        #
-        # if self.grupo.obterParametro('relatorio-incluir_internacionalizacao'):
-        #     self.gerarPaginasDeInternacionalizacao()
-        #
-        # # final do fim!
-        # self.gerarPaginaPrincipal()
-        #
-        # if self.grupo.obterParametro('relatorio-salvar_publicacoes_em_formato_ris'):
-        #     self.arquivoRis.close()
+        if self.grupo.obterParametro('relatorio-mostrar_orientacoes'):
+            self.gerarPaginasDeOrientacoes()
+
+        if self.grupo.obterParametro('relatorio-incluir_projeto'):
+            self.gerarPaginasDeProjetos()
+
+        if self.grupo.obterParametro('relatorio-incluir_premio'):
+            self.gerarPaginasDePremios()
+
+        if self.grupo.obterParametro('relatorio-incluir_participacao_em_evento'):
+            self.gerarPaginasDeParticipacaoEmEventos()
+
+        if self.grupo.obterParametro('relatorio-incluir_organizacao_de_evento'):
+            self.gerarPaginasDeOrganizacaoDeEventos()
+
+        if self.grupo.obterParametro('grafo-mostrar_grafo_de_colaboracoes'):
+            self.gerarPaginaDeGrafosDeColaboracoes()
+
+        if self.grupo.obterParametro('relatorio-incluir_internacionalizacao'):
+            self.gerarPaginasDeInternacionalizacao()
+
+        # final do fim!
+        self.gerarPaginaPrincipal()
+
+        if self.grupo.obterParametro('relatorio-salvar_publicacoes_em_formato_ris'):
+            self.arquivoRis.close()
 
 
     def gerarPaginaPrincipal(self):
@@ -1051,7 +1051,7 @@ class GeradorDePaginasWeb:
                 <th><b><font size=-1>Área</font><b></th>\
                 <th><b><font size=-1>Instituição</font><b></th>\
                 </tr>'
-
+        
         elemento = 0
         for membro in self.grupo.listaDeMembros:
             elemento    += 1
@@ -1059,7 +1059,7 @@ class GeradorDePaginasWeb:
             rotulo       = membro.rotulo if not membro.rotulo == '[Sem rotulo]' else ''
             rotulo       = rotulo.decode('iso-8859-1', 'replace')
             nomeCompleto = unicodedata.normalize('NFKD', membro.nomeCompleto).encode('ASCII', 'ignore')
-
+            
             self.gerar_pagina_individual_de_membro(membro)
 
             #print " --------------------------------------------"
@@ -1219,7 +1219,7 @@ class GeradorDePaginasWeb:
         (nEo0, lista_Eo0, titulo_Eo0) = self.gerar_lista_de_producoes_de_membro( membro.listaOrganizacaoDeEvento, u"Total de organização de eventos" )
 
         (nCE, lista_CE, titulo_CE, lista_CE_detalhe)    = self.gerar_lista_de_colaboracoes (membro, u'Colaborações endôgenas')
-
+        
         s += u'<h3>Produção bibliográfica</h3> <ul>'
         s += u'<li><a href="#{}">{}</a> ({}) </li>'.format( 'PB0', titulo_PB0, nPB0 )
         s += u'<li><a href="#{}">{}</a> ({}) </li>'.format( 'PB1', titulo_PB1, nPB1 )
@@ -1273,10 +1273,10 @@ class GeradorDePaginasWeb:
         s += u'<h3>Organização de eventos</h3> <ul>'
         s += u'<li><a href="#{}">{}</a> ({}) </li>'.format( 'Eo0', titulo_Eo0, nEo0 )
         s += u'</ul>'
-        #--------
+        #-------- 
         s += u'<h3>Lista de colaborações</h3> <ul>'
-        s += u'<li><a href="#{}">{}</a> ({}) </li>'.format( 'CE', titulo_CE, nCE )
-        s += u'    <ul> {} </ul>'.format( lista_CE )
+        s += u'<li><a href="#{}">{}</a> ({}) </li>'.format( 'CE', titulo_CE, nCE ) 
+        s += u'    <ul> {} </ul>'.format( lista_CE ) 
         s += u'</ul>'
 
         s += u'<hr>'
@@ -1355,7 +1355,7 @@ class GeradorDePaginasWeb:
 
         colaboradores = self.grupo.colaboradores_endogenos[membro.idMembro]
         for (idColaborador, quantidade) in sorted(colaboradores, key=lambda x:(-x[1],x[0])):
-            colaborador = self.grupo.listaDeMembros[idColaborador]
+            colaborador = self.grupo.listaDeMembros[idColaborador] 
             s       += u'<li><a href="#{0}">{1}</a> ({2})'.format(colaborador.idLattes, colaborador.nomeCompleto, quantidade)
             detalhe += u'<li id="{0}"> <b>{3} &hArr; <a href="membro-{0}{4}">{1}</a></b> ({2}) <ol>'.format(colaborador.idLattes, colaborador.nomeCompleto, quantidade, membro.nomeCompleto, self.extensaoPagina)
 
