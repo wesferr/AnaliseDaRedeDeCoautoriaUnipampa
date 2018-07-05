@@ -1,3 +1,7 @@
-Descobrir como rankear os pesquisadores por grau de centralidade/numero de produçoes
-Fazer um crawler de palavras chave nos arquivos ferados pelo scriptlates
-POR AI VAI
+Wesley e Sandro:
+Extrair os titulos do grafo
+Fazer uma extração de keywords dos titulos
+Gerar nuvem de termos
+
+Amanda:
+Centralidade de grau medio, Centralidade de grau Ponderado medio, Centralidade de grau/graumedio Individual/numero de plublicaçoes(criar uma tabela ranqueando, com o nome)
