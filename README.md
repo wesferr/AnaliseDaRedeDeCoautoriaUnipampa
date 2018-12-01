@@ -1,1 +1,1 @@
-# T2-IAD
+Análise da rede de coautoria da unipampa campus uruguaiana
